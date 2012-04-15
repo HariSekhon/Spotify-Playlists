@@ -12,4 +12,23 @@
 
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1
-uniq -d < "$1" | spotify-lookup.pl
+
+find_dups(){
+    [ -d "$1" ] && return
+    [[ "$1" =~ .*\.sh ]] && return
+    echo "Duplicates in $1:"
+    uniq -d < "$1" | spotify-lookup.pl
+    echo
+    echo
+}
+
+if [ -n "$1" ]; then
+    for x in $@; do
+        find_dups "$x"
+    done
+else
+    echo ELSE
+    for x in *; do
+        find_dups "$x"
+    done
+fi
