@@ -27,7 +27,6 @@ if [ -n "$1" ]; then
         find_dups "$x"
     done
 else
-    echo ELSE
     for x in *; do
         find_dups "$x"
     done
