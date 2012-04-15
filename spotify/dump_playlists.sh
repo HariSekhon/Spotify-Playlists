@@ -12,9 +12,13 @@
 
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1
+total_playlists=0
+total_tracks=0
 dump_playlist(){
     [ -d "$1" ] && return
     [[ "$1" =~ .*\.sh ]] && return
+    let total_playlists+=1
+    let total_tracks+=$(wc -l "$1" | awk '{print $1}')
     spotify-lookup.pl -v -f "$1" | sort -f > "../$1"
     echo "Wrote ../$1"
     echo
@@ -34,4 +38,4 @@ fi
 stop=$(date +%s)
 let total_secs=$stop-$start
 echo
-echo "Playlist dumping completed in $total_secs secs"
+echo "Playlist dumping completed $total_playlists playlists, $total_tracks tracks in $total_secs secs"
