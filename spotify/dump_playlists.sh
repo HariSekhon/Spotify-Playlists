@@ -13,12 +13,19 @@
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1
 dump_playlist(){
-    spotify-lookup.pl -v -f "$1" | sort -f > "../$1.new"
-    echo "Wrote ../$1.new"
+    [ -d "$1" ] && return
+    [[ "$1" =~ .*\.sh ]] && return
+    spotify-lookup.pl -v -f "$1" | sort -f > "../$1"
+    echo "Wrote ../$1"
+    echo
     echo
 }
 if [ -n "$1" ]; then
-    dump_playlist "$1"
+    for x in $@; do
+        dump_playlist "$x"
+    done
 else
-    for x in *; do [ -d "$x" ] && continue; [[ "$x" =~ .*\.sh ]] && continue; dump_playlist "$x"; done
+    for x in *; do
+        dump_playlist "$x"
+    done
 fi
