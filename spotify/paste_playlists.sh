@@ -13,7 +13,6 @@
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1;
 sorted_files="
-classical
 current_mix
 kiss
 dance
@@ -25,7 +24,11 @@ chill
 jazz
 love
 classics-archive
+classical
 "
+#inspiration
+#rocky
+#dt8-trance
 unsorted_files="
 hangout-rnb
 jay-z
