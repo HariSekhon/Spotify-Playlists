@@ -20,6 +20,8 @@ dump_playlist(){
     echo
     echo
 }
+
+start=$(date +%s)
 if [ -n "$1" ]; then
     for x in $@; do
         dump_playlist "$x"
@@ -29,3 +31,7 @@ else
         dump_playlist "$x"
     done
 fi
+stop=$(date +%s)
+let total_secs=$stop-$start
+echo
+echo "Playlist dumping completed in $total_secs secs"
