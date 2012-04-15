@@ -13,19 +13,18 @@
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1;
 sorted_files="
-chill
 classical
-classics-archive
 current_mix
-dance
-dt8-trance
-electronica
-fitness-first
-jazz
 kiss
-love
+dance
 rock
+electronica
 workout
+fitness-first
+chill
+jazz
+love
+classics-archive
 "
 unsorted_files="
 hangout-rnb
