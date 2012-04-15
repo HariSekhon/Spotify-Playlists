@@ -13,7 +13,8 @@
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1;
 sorted_files="
-current_mix
+current-hiphop
+current
 kiss
 dance
 rock
