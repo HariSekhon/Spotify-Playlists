@@ -28,6 +28,9 @@ dance
 rock
 "
 
+if [ -n "$1" ]; then
+    current_playlists=$@
+fi
 for x in $current_playlists; do
     echo "* Missing tracks in $x: (not found in "$grand_playlists")"
     while read line; do
