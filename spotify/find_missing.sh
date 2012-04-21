@@ -28,16 +28,22 @@ dance
 rock
 "
 
+find_missing(){
+    echo "* Missing tracks in $1: (not found in "$2")"
+    while read line; do
+        grep -q "^$line$" $2 ||
+            echo "$line"
+    done < "$1" |
+    spotify-lookup.pl | sort -f
+    echo
+    echo
+}
+
 if [ -n "$1" ]; then
     current_playlists=$@
 fi
 for x in $current_playlists; do
-    echo "* Missing tracks in $x: (not found in "$grand_playlists")"
-    while read line; do
-        grep -q "^$line$" $grand_playlists ||
-            echo "$line"
-    done < "$x" |
-    spotify-lookup.pl | sort -f
-    echo
-    echo
+    find_missing $x "$grand_playlists"
 done
+
+find_missing "current-hiphop" "kiss"
