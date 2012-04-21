@@ -14,7 +14,17 @@ set -e
 set -u
 srcdir=$(dirname $(which $0))
 
+die(){
+    echo "$@"
+    exit 1;
+}
+
+cd "$srcdir" || die "failed to cd to '$srcdir'"
+
 find_existing(){
+    for x in $@; do
+        [ -f "$x" ] || die "File not found: '$x'"
+    done
     echo "* Existing tracks from $1: (in "${@:2}")"
     while read line; do
         grep -q "^$line$" ${@:2} &&
@@ -25,4 +35,5 @@ find_existing(){
     echo
 }
 
+[ -n "${2:-}" ] || die "usage: ${0##*/} playlist grand_playlists"
 find_existing $@
