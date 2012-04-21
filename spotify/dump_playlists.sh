@@ -17,6 +17,7 @@ total_tracks=0
 dump_playlist(){
     [ -d "$1" ] && return
     [[ "$1" =~ .*\.sh ]] && return
+    [ -f "$1" ] || { echo "File not found: $1"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$1" | awk '{print $1}')
     spotify-lookup.pl -v -f "$1" | sort -f > "../$1"
