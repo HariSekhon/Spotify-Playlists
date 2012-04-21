@@ -41,9 +41,9 @@ find_missing(){
 
 if [ -n "$1" ]; then
     current_playlists=$@
+else
+    find_missing "current-hiphop" "kiss"
 fi
 for x in $current_playlists; do
     find_missing $x "$grand_playlists"
 done
-
-find_missing "current-hiphop" "kiss"
