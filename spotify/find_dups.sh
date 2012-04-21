@@ -11,7 +11,7 @@
 #  vim:ts=4:sw=4:et
 
 srcdir=$(dirname $(which $0))
-cd "$srcdir" || exit 1
+cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 
 find_dups(){
     [ -d "$1" ] && return
