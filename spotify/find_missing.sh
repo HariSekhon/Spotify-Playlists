@@ -13,7 +13,7 @@
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 
-current_playlists="
+current_playlists_default="
 starred
 hangout-rnb
 jay-z
@@ -23,11 +23,13 @@ fitness-first
 workout
 "
 
-grand_playlists="
+grand_playlists_default="
 kiss
 dance
 rock
 "
+
+spotify_lookup=spotify-lookup.pl
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "$2")"
@@ -35,15 +37,35 @@ find_missing(){
         grep -q "^$line$" $2 ||
             echo "$line"
     done < "$1" |
-    spotify-lookup.pl | sort -f
+    $spotify_lookup | sort -f
     echo
     echo
 }
 
-if [ -n "$1" ]; then
-    current_playlists=$@
-else
+current_playlists=""
+grand_playlists=""
+nolookup=0
+while [ $# -gt 0 ]; do
+    case $1 in
+        -nolookup)  spotify_lookup=cat
+                    ;;
+               -g)  grand_playlists="$grand_playlists ${2:-}"
+                    shift
+                    ;;
+                *)  current_playlists="$current_playlists $1"
+                    ;;
+    esac
+    shift
+done
+
+if [ -z "$current_playlists" ]; then
+    current_playlists="$current_playlists_default"
+    find_missing "starred" "$grand_playlists_default"
+    find_missing "starred" "$grand_playlists_default classics-archive love"
     find_missing "current-hiphop" "kiss"
+fi
+if [ -z "$grand_playlists" ]; then
+    grand_playlists="$grand_playlists_default"
 fi
 for x in $current_playlists; do
     find_missing $x "$grand_playlists"
