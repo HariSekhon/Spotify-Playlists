@@ -35,7 +35,7 @@ dump_playlist(){
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
-    if grep -qxFi "$playlist" "$srcdir/sorted_playlists.txt"; then
+    if grep -qxFi "$playlist" "$srcdir/playlists_sorted.txt"; then
         spotify-lookup.pl -v -f "$playlist" | sort -f > "../$playlist"
     else
         spotify-lookup.pl -v -f "$playlist" > "../$playlist"
@@ -51,7 +51,8 @@ if [ -n "$1" ]; then
         dump_playlist "$x"
     done
 else
-    for x in *; do
+    sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt |
+    while read x; do
         excluded_file "$x" && continue
         dump_playlist "$x"
     done
