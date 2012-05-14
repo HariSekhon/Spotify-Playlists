@@ -12,29 +12,11 @@
 
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1;
-sorted_files="
-starred
-current-hiphop
-current
-kiss
-dance
-rock
-electronica
-workout
-fitness-first
-chill
-jazz
-love
-classics-archive
-classical
-"
+playlists_sorted="$(sed 's/#.*//' < "$srcdir/playlists_sorted.txt")"
+playlists_unsorted="$(sed 's/#.*//' < "$srcdir/playlists_unsorted.txt")"
 #inspiration
 #rocky
 #dt8-trance
-unsorted_files="
-hangout-rnb
-jay-z
-"
 
 paste_nosort(){
     echo "Ordered Paste $1:"; cat > "$1"; ./find_dups.sh "$1"; echo; echo
@@ -53,6 +35,6 @@ if [ -n "$1" ]; then
         paste_sort "$x"
     done
 else
-    for x in $sorted_files; do paste_sort "$x"; done
-    for x in $unsorted_files; do paste_nosort "$x"; done
+    for x in $playlists_sorted;  do paste_sort "$x"; done
+    for x in $playlists_unsorted; do paste_nosort "$x"; done
 fi
