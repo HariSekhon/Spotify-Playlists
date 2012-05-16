@@ -16,14 +16,15 @@ total_playlists=0
 total_tracks=0
 
 excluded_file(){
-    [ -d "$1" ] && return 0
+    local filename="$1"
+    [ -d "$filename" ] && return 0
     shopt -s nocasematch
-    [[ "$1" =~ .*\.sh ]] && return 0
-    [[ "$1" = .*\.txt ]] && return 0
-    [[ "$x" =~ .*todo.* ]] && return 0
-    [[ "$x" =~ .*tocheck.* ]] && return 0
+    [[ "$filename" =~ .*\.sh ]] && return 0
+    [[ "$filename" =~ .*\.txt ]] && return 0
+    [[ "$filename" =~ .*todo.* ]] && return 0
+    [[ "$filename" =~ .*tocheck.* ]] && return 0
     for y in tmp TODO; do
-        [ "$x" = "$y" ] && return 0
+        [ "$filename" = "$y" ] && return 0
     done
     shopt -s nocasematch
     return 1
@@ -71,8 +72,11 @@ start=$(date +%s)
 playlists=""
 speed_up=1
 all=0
+everything=0
 until [ $# -lt 1 ]; do
     case $1 in
+        -e) everything=1
+            ;;
         -s) speed_up=4
             ;;
         -a) let all+=1
@@ -83,26 +87,32 @@ until [ $# -lt 1 ]; do
     shift
 done
 
-if [ "$all" -ge 1 ]; then
-    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
-        excluded_file "$x" && continue
+if [ "$everything" -ge 1 ]; then
+    for x in $(ls); do
         playlists="$playlists $x"
     done
-    dump_playlists "$playlists"
+else
+    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
+        playlists="$playlists $x"
+    done
+fi
+playlists2=""
+for x in $playlists; do
+    excluded_file "$x" && continue
+    playlists2="$playlists $x"
+done
+
+if [ "$all" -ge 1 ]; then
+    dump_playlists "$playlists2"
     # Sort playlist that we want sorted
-    for playlist in $playlists; do
+    for playlist in $playlists2; do
         if grep -qxFi "$playlist" "playlists_sorted.txt"; then
             sort -f < "../$playlist" > "../$playlist.tmp" && mv -f "../$playlist.tmp" "../$playlist"
         fi
     done
     echo "Sorted playlists"
-elif [ -n "$playlists" ]; then
-    for x in $playlists; do
-        dump_playlist "$x"
-    done
 else
-    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
-        excluded_file "$x" && continue
+    for x in $playlists2; do
         dump_playlist "$x"
     done
 fi
