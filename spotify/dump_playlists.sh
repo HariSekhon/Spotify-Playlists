@@ -36,23 +36,72 @@ dump_playlist(){
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
     if grep -qxFi "$playlist" "$srcdir/playlists_sorted.txt"; then
-        spotify-lookup.pl -v -f "$playlist" | sort -f > "../$playlist"
+        spotify-lookup.pl -v -f "$playlist" -s $speed_up | sort -f > "../$playlist"
     else
-        spotify-lookup.pl -v -f "$playlist" > "../$playlist"
+        spotify-lookup.pl -v -f "$playlist" -s $speed_up > "../$playlist"
     fi
     echo "Wrote ../$playlist"
     echo
     echo
 }
 
+dump_playlists(){
+    local playlists=""
+    for playlist in $@; do
+        excluded_file "$playlist" && continue
+        [ -f "$playlist" ] || { echo "File not found: $playlist"; exit 1; }
+        playlists="${playlists},${playlist}"
+        let total_playlists+=1
+        let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
+    done
+    playlists=${playlists#,}
+    playlists=${playlists%,}
+    spotify-lookup.pl -w "$srcdir/.." -v -f "$playlists" --speed-up $speed_up # use in office for 4 DIPs ;)
+#    if grep -qxFi "$playlist" "$srcdir/playlists_sorted.txt"; then
+#        spotify-lookup.pl -v -f "$playlist" | sort -f > "../$playlist"
+#    else
+#        spotify-lookup.pl -v -f "$playlist" > "../$playlist"
+#    fi
+#    echo "Wrote ../$playlist"
+    echo
+    echo
+}
+
 start=$(date +%s)
-if [ -n "$1" ]; then
-    for x in $@; do
+playlists=""
+speed_up=1
+all=0
+until [ $# -lt 1 ]; do
+    case $1 in
+        -s) speed_up=4
+            ;;
+        -a) let all+=1
+            ;;
+         *) playlists="$playlists $1"
+            ;;
+    esac
+    shift
+done
+
+if [ "$all" = 1 ]; then
+    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
+        excluded_file "$x" && continue
+        playlists="$playlists $x"
+    done
+    dump_playlists "$playlists"
+    # Sort playlist that we want sorted
+    for playlist in $playlists; do
+        if grep -qxFi "$playlist" "playlists_sorted.txt"; then
+            sort -f < "../$playlist" > "../$playlist.tmp" && mv -f "../$playlist.tmp" "../$playlist"
+        fi
+    done
+    echo "Sorted playlists"
+elif [ -n "$playlists" ]; then
+    for x in $playlists; do
         dump_playlist "$x"
     done
 else
-    sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt |
-    while read x; do
+    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
         excluded_file "$x" && continue
         dump_playlist "$x"
     done
