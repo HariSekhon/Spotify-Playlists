@@ -83,7 +83,7 @@ until [ $# -lt 1 ]; do
     shift
 done
 
-if [ "$all" = 1 ]; then
+if [ "$all" -ge 1 ]; then
     for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
         excluded_file "$x" && continue
         playlists="$playlists $x"
