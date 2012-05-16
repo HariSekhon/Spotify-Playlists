@@ -35,6 +35,6 @@ if [ -n "$1" ]; then
         paste_sort "$x"
     done
 else
-    for x in $playlists_sorted;  do paste_sort "$x"; done
     for x in $playlists_unsorted; do paste_nosort "$x"; done
+    for x in $playlists_sorted;   do paste_sort   "$x"; done
 fi
