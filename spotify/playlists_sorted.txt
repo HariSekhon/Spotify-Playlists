@@ -9,17 +9,17 @@
 #
 #  vim:ts=4:sw=4:et
 
-chill
-classical
-classics-archive
-current
-current-hiphop
-dance
-electronica
-fitness-first
-jazz
-kiss
-love
-rock
 starred
+current-hiphop
+current
+kiss
+dance
+rock
+electronica
 workout
+fitness-first
+chill
+jazz
+love
+classics-archive
+classical
