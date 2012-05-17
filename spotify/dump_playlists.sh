@@ -91,7 +91,7 @@ if [ "$everything" -ge 1 ]; then
     for x in $(ls); do
         playlists="$playlists $x"
     done
-else
+elif [ -z "$playlists" ]; then
     for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
         playlists="$playlists $x"
     done
@@ -99,7 +99,7 @@ fi
 playlists2=""
 for x in $playlists; do
     excluded_file "$x" && continue
-    playlists2="$playlists $x"
+    playlists2="$playlists2 $x"
 done
 
 if [ "$all" -ge 1 ]; then
