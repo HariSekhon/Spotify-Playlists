@@ -16,11 +16,12 @@ cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 current_playlists_default="
 starred
 hangout-rnb
-jay-z
+hangout-poprock
 current-hiphop
 current
 fitness-first
 workout
+chill
 "
 
 grand_playlists_default="
@@ -33,11 +34,22 @@ spotify_lookup=spotify-lookup.pl
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "$2")"
+    tmp=$(
     while read line; do
-        grep -q "^$line$" $2 ||
+        grep -qixF "$line" $2 ||
             echo "$line"
     done < "$1" |
-    $spotify_lookup | sort -f
+    while read line; do
+        pushd .. >/dev/null
+        track_name="$(spotify-lookup.pl "$line")"
+        grep -qixF "$track_name" $2 2>/dev/null ||
+            echo "$line"
+    done
+    )
+    # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
+    if [ -n "$tmp" ]; then
+        echo "$tmp" | $spotify_lookup | sort -f
+    fi
     echo
     echo
 }
