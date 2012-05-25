@@ -32,7 +32,11 @@ if [ -n "$1" ]; then
 #        paste_sort "$1"
 #    fi
     for x in $@; do
-        paste_sort "$x"
+        if grep -qxiF "$x" "$srcdir/playlists_sorted.txt"; then
+            paste_sort "$x"
+        else
+            paste_nosort "$x"
+        fi
     done
 else
     for x in $playlists_unsorted; do paste_nosort "$x"; done
