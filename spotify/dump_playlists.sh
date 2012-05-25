@@ -37,9 +37,14 @@ dump_playlist(){
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
     if grep -qxFi "$playlist" "$srcdir/playlists_sorted.txt"; then
-        spotify-lookup.pl -v -f "$playlist" -s $speed_up | sort -f > "../$playlist"
+        output="$(spotify-lookup.pl -v -f "$playlist" -s $speed_up)"
+        returncode=$?
+        echo "$output" | sort -f > "../$playlist"
+        #[ $returncode -eq 0 ] || exit $returncode
     else
         spotify-lookup.pl -v -f "$playlist" -s $speed_up > "../$playlist"
+        returncode=$?
+        #[ $returncode -eq 0 ] || exit $returncode
     fi
     echo "Wrote ../$playlist"
     echo
@@ -68,20 +73,31 @@ dump_playlists(){
     echo
 }
 
+usage(){
+    echo "${0##*/} [ -e ] [ -s ] [ -a ] playlist1 playlist2 ..."
+    exit 1
+}
+
 start=$(date +%s)
 playlists=""
 speed_up=1
 all=0
 everything=0
+newer_than_dump=0
 until [ $# -lt 1 ]; do
     case $1 in
         -e) everything=1
+            ;;
+            # TODO: add support for newer than only here
+        -n) newer_than_dump=1
             ;;
         -s) speed_up=4
             ;;
         -a) let all+=1
             ;;
-         *) playlists="$playlists $1"
+        -*) usage
+            ;;
+         *) playlists="$playlists ${1##*/}"
             ;;
     esac
     shift
