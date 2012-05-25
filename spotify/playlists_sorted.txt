@@ -22,5 +22,5 @@ chill
 jazz
 love
 classics-archive
-classical
 soul
+classical
