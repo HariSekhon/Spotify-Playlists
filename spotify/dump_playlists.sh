@@ -36,7 +36,7 @@ dump_playlist(){
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
-    if grep -qxFi "$playlist" "$srcdir/playlists_sorted.txt"; then
+    if grep -qxFi "$playlist" "playlists_sorted.txt"; then
         output="$(spotify-lookup.pl -v -f "$playlist" -s $speed_up)"
         returncode=$?
         echo "$output" | sort -f > "../$playlist"
@@ -63,7 +63,7 @@ dump_playlists(){
     playlists=${playlists#,}
     playlists=${playlists%,}
     spotify-lookup.pl -w "$srcdir/.." -v -f "$playlists" --speed-up $speed_up # use in office for 4 DIPs ;)
-#    if grep -qxFi "$playlist" "$srcdir/playlists_sorted.txt"; then
+#    if grep -qxFi "$playlist" "playlists_sorted.txt"; then
 #        spotify-lookup.pl -v -f "$playlist" | sort -f > "../$playlist"
 #    else
 #        spotify-lookup.pl -v -f "$playlist" > "../$playlist"
