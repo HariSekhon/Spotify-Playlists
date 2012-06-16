@@ -12,8 +12,8 @@
 
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1;
-playlists_sorted="$(sed 's/#.*//' < "$srcdir/playlists_sorted.txt")"
-playlists_unsorted="$(sed 's/#.*//' < "$srcdir/playlists_unsorted.txt")"
+playlists_sorted="$(sed 's/#.*//' < "playlists_sorted.txt")"
+playlists_unsorted="$(sed 's/#.*//' < "playlists_unsorted.txt")"
 #inspiration
 #rocky
 #dt8-trance
@@ -32,7 +32,7 @@ if [ -n "$1" ]; then
 #        paste_sort "$1"
 #    fi
     for x in $@; do
-        if grep -qxiF "$x" "$srcdir/playlists_sorted.txt"; then
+        if grep -qxiF "$x" "playlists_sorted.txt"; then
             paste_sort "$x"
         else
             paste_nosort "$x"
