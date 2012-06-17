@@ -48,7 +48,7 @@ find_missing(){
     )
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
     if [ -n "$tmp" ]; then
-        echo "$tmp" | $spotify_lookup | sort -f
+        echo "$tmp" | $spotify_lookup
     fi
     echo
     echo
