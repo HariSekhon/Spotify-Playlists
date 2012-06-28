@@ -77,7 +77,7 @@ ${0##*/} [-g] [-nolookup] playlist1 playlist2
 -s -spotify-uri         Output Spotify URIs for pasting back in to spotify   
 -n -nolookup            Don't translate at all, don't use spotify-lookup.pl to check artist - song (weakens matching. Only use when spotify-lookup.pl is broken). Also enables -spotify-uri
 -g -grand-playlists     Playlists to check against
--a --aditional-grand-playlists 
+-a --aditional-grand-playlists Additional playlists to check on top of default list: $(tr '\n' ' ' <<< "$grand_playlists_default")
 EOF
     exit 1
 }
