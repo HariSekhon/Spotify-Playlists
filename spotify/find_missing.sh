@@ -28,6 +28,11 @@ grand_playlists_default="
 kiss
 dance
 rock
+classics-archive
+classical
+love
+chill
+jazz
 "
 
 spotify_lookup=spotify-lookup.pl
@@ -72,12 +77,14 @@ ${0##*/} [-g] [-nolookup] playlist1 playlist2
 -s -spotify-uri         Output Spotify URIs for pasting back in to spotify   
 -n -nolookup            Don't translate at all, don't use spotify-lookup.pl to check artist - song (weakens matching. Only use when spotify-lookup.pl is broken). Also enables -spotify-uri
 -g -grand-playlists     Playlists to check against
+-a --aditional-grand-playlists 
 EOF
     exit 1
 }
 
 current_playlists=""
 grand_playlists=""
+additional_grand_playlists=""
 nolookup=0
 notranslate=0
 verbose=0
@@ -86,6 +93,9 @@ while [ $# -gt 0 ]; do
            --nolookup)  nolookup=1; notranslate=1
                         ;;
      -s|--spotify-uri)  notranslate=1
+                        ;;
+-a|-additional-grand-playlists)  additional_grand_playlists="${additional_grand_playlists} ${2:-}"
+                        shift
                         ;;
  -g|--grand-playlists)  grand_playlists="$grand_playlists ${2:-}"
                         shift
@@ -108,6 +118,9 @@ if [ -z "$current_playlists" ]; then
 fi
 if [ -z "$grand_playlists" ]; then
     grand_playlists="$grand_playlists_default"
+fi
+if [ -n "$additional_grand_playlists" ]; then
+    grand_playlists="$grand_playlists $additional_grand_playlists"
 fi
 for x in $current_playlists; do
     find_missing $x "$grand_playlists"
