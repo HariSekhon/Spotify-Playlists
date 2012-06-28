@@ -10,8 +10,8 @@
 #
 #  vim:ts=4:sw=4:et
 
-srcdir=$(dirname $(which $0))
-cd "$srcdir" || exit 1
+srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$srcdir" || { echo "Failed to cd to '$srcdir'"; exit 1; }
 total_playlists=0
 total_tracks=0
 
@@ -74,7 +74,13 @@ dump_playlists(){
 }
 
 usage(){
-    echo "${0##*/} [ -e ] [ -s ] [ -a ] playlist1 playlist2 ..."
+    cat <<EOF
+${0##*/} [ -e ] [ -s ] [ -a ] playlist1 playlist2 ...
+
+-a  Dump playlists all at the same time (shows total progress)
+-e  Dump everything found in $srcdir
+-s  Speed up by a factor of 4 (use behind 4 IP DIP at work)
+EOF
     exit 1
 }
 
