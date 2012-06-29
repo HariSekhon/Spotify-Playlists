@@ -46,13 +46,16 @@ find_missing(){
     done < "$1" |
     while read line; do
         if [ $nolookup -eq 0 ]; then
-            # don't need to push we don't be popd'ing
+            # don't need to pushd we won't be popd-ing
             cd "$srcdir/.." >&2
             [ $verbose -gt 0 ] && echo -n "resolving/checking $track => " >&2
             track_name="$(spotify-lookup.pl <<< "$line")"
             [ $verbose -gt 0 ] && echo "$track_name" >&2
             grep -qixF "$track_name" ${@:2} 2>/dev/null ||
-                echo "$line"
+                grep -qiF "$track_name - Remastered" ${@:2} 2>/dev/null ||
+                    grep -qiF "$track_name - Single" ${@:2} 2>/dev/null ||
+                        grep -qiF "$track_name - Album" ${@:2} 2>/dev/null ||
+                            echo "$line"
         else
             echo "$line"
         fi
