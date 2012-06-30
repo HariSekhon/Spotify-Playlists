@@ -20,14 +20,14 @@ playlists_unsorted="$(sed 's/#.*//' < "playlists_unsorted.txt")"
 
 uname_s=`uname -s`
 if [ "$uname_s" = "Linux" ]; then
+    which xsel || { echo "ERROR: xsel was not found in \$PATH"; exit 1; }
     dump_clipboard(){
-        which xsel || { echo "ERROR: xsel was not found in \$PATH"; exit 1; }
         xsel --clipboard | tr ' ' '\n'
         echo
     }
 elif [ "$uname_s" = "Darwin" ]; then
+    which pbcopy || { echo "ERROR: pbcopy was not found in \$PATH"; exit 1; }
     dump_clipboard(){
-        which pbcopy || { echo "ERROR: pbcopy was not found in \$PATH"; exit 1; }
         pbcopy
     }
 else
