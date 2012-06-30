@@ -18,12 +18,27 @@ playlists_unsorted="$(sed 's/#.*//' < "playlists_unsorted.txt")"
 #rocky
 #dt8-trance
 
+uname_s=`uname -s`
+if [ "$uname_s" = "Linux" ]; then
+    dump_clipboard(){
+        xsel --clipboard | tr ' ' '\n'
+        echo
+    }
+elif [ "$uname_s" = "Darwin" ]; then
+    dump_clipboard(){
+        pbcopy
+    }
+else
+    echo "ERROR: didn't detect system as either Linux or Apple (Darwin), don't know how to dump clipboard"
+    exit 1
+fi
+
 paste_nosort(){
-    echo "Ordered Paste $1:"; cat > "$1"; ./find_dups.sh "$1"; echo; echo
+    read -p "Ordered Paste $1: (hit enter when ready)" && dump_clipboard > "$1"; ./find_dups.sh "$1"; echo; echo
 }
 
 paste_sort(){
-    echo "Paste $1:"; cat | sort -f > "$1"; ./find_dups.sh "$1"; echo; echo
+    read -p "Paste $1: (hit enter when ready)" && dump_clipboard | sort -f > "$1"; ./find_dups.sh "$1"; echo; echo
 }
 if [ -n "$1" ]; then
 #    if [ -n "$2" ]; then
