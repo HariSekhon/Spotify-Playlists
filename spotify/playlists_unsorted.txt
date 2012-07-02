@@ -11,3 +11,4 @@
 
 hangout-rnb
 hangout-poprock
+classical

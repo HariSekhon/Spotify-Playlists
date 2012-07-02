@@ -24,4 +24,3 @@ jazz
 love
 classics-archive
 soul
-classical
