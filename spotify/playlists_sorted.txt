@@ -19,6 +19,7 @@ electronica
 workout
 fitness-first
 chill
+ambience
 jazz
 love
 classics-archive
