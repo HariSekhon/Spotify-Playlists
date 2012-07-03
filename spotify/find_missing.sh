@@ -52,10 +52,9 @@ find_missing(){
             track_name="$(spotify-lookup.pl <<< "$line")"
             [ $verbose -gt 0 ] && echo "$track_name" >&2
             grep -qixF "$track_name" ${@:2} 2>/dev/null ||
-                grep -qiF "$track_name - Remastered" ${@:2} 2>/dev/null ||
-                    grep -qiF "$track_name - Single" ${@:2} 2>/dev/null ||
-                        grep -qiF "$track_name - Album" ${@:2} 2>/dev/null ||
-                            echo "$line"
+                egrep -qi "$(sed 's/\(.\)/\\\1/g' <<< "$track_name").+(Re-?mastered|Album|Single)" ${@:2} 2>/dev/null ||
+                    echo "$line"
+                #echo "$(sed 's/\(.\)/\\\1/g' <<< "$track_name").+(Re-?mastered|Album|Single|Explicit|Clean)" ${@:2} >&2
         else
             echo "$line"
         fi
