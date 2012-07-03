@@ -18,7 +18,8 @@ find_dups(){
     [[ "$1" =~ .*\.sh ]] && return
     echo "* Duplicates in $1:"
     tr 'A-Z' 'a-z' < "$1" | 
-    sed -r 's/[[:space:]](\(|(Album|Single|Clean|Dirty|Explicit|Amended|[[:digit:]]*[[:space:]]*Re-?master)).*$//i' |
+    # (.* catches (feat. Blah) and Dirty catches Diddy - Dirty Money so can't use those
+    sed -r 's/[[:space:]](\(as made famous|(Album|Single|Clean|Explicit|Amended|[[:digit:]]*[[:space:]]*Re-?master)).*$//i' |
     sort | uniq -d
     echo
     echo
