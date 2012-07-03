@@ -17,7 +17,9 @@ find_dups(){
     [ -d "$1" ] && return
     [[ "$1" =~ .*\.sh ]] && return
     echo "* Duplicates in $1:"
-    tr 'A-Z' 'a-z' < "$1" | sort | uniq -d
+    tr 'A-Z' 'a-z' < "$1" | 
+    #sed -r 's/ (\(|- (Album|Single|Clean|Dirty|Radio|Edit|[[:digit:]]* * Re-?master)).*$//i' |
+    sort | uniq -d
     echo
     echo
 }
