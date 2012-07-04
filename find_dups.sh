@@ -16,10 +16,11 @@ cd "$srcdir" || exit 1
 find_dups(){
     [ -d "$1" ] && return
     [[ "$1" =~ .*\.sh ]] && return
+    [ -f "$1" ] || { echo "Error: no such file '$1'"; return 1; }
     echo "* Duplicates in $1:"
     tr 'A-Z' 'a-z' < "$1" | 
     # (.* catches (feat. Blah) and Dirty catches Diddy - Dirty Money so can't use those
-    sed -r 's/[[:space:]](\(as made famous|(Album|Single|Clean|Explicit|Amended|[[:digit:]]*[[:space:]]*Re-?master)).*$//i' |
+    perl -p -e 's/(?:\s+\-)?\s+(\((?:as )?made famous|(Album|Single|Clean|Explicit|Amended|(?:\d+\s+)?Re-?master)|\[theme from).*$//i' |
     sort | uniq -d
     echo
     echo
