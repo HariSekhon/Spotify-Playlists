@@ -28,7 +28,7 @@ if [ "$uname_s" = "Linux" ]; then
 elif [ "$uname_s" = "Darwin" ]; then
     which pbcopy &>/dev/null || { echo "ERROR: pbcopy was not found in \$PATH"; exit 1; }
     dump_clipboard(){
-        pbcopy
+        pbpaste
     }
 else
     echo "ERROR: didn't detect system as either Linux or Apple (Darwin), don't know how to dump clipboard"
