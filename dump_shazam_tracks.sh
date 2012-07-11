@@ -15,4 +15,5 @@ set -u
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || { echo "Failed to cd to $srcdir"; exit 1; }
 
+# use iPhone Explorer on Mac to copy the /Apps/Shazam folder entirely to Downloads/Shazam-rip-from-phone, free version doesn't allow mounting so that step has to be manual unfortunately
 sqlite3 $HOME/Downloads/Shazam-rip-from-phone/Documents/ShazamDataModel.sqlite <<< "select a.zname, b.zname from ZSHARTISTMO a, ZSHTAGRESULTMO b where a.ZTAGRESULT = b.Z_PK;" > Shazam-dump-$(date +%F).txt
