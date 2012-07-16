@@ -40,11 +40,11 @@ dump_playlist(){
         output="$(spotify-lookup.pl -v -f "$playlist" -s $speed_up)"
         returncode=$?
         echo "$output" | sort -f > "../$playlist"
-        #[ $returncode -eq 0 ] || exit $returncode
+        [ $returncode -eq 0 ] || echo "ERROR: $output"
     else
         spotify-lookup.pl -v -f "$playlist" -s $speed_up > "../$playlist"
         returncode=$?
-        #[ $returncode -eq 0 ] || exit $returncode
+        [ $returncode -eq 0 ] || echo "$output"
     fi
     echo "Wrote ../$playlist"
     echo
