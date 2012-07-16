@@ -38,7 +38,7 @@ jazz
 spotify_lookup=spotify-lookup.pl
 
 find_missing(){
-    echo "* Missing tracks in $1: (not found in "$2")" >&2
+    echo "* Missing tracks in $1: (not found in "${2# }")" >&2
     tmp=$(
     while read line; do
         grep -qixF "$line" ${@:2} ||
