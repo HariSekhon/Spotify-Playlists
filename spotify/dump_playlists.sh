@@ -80,7 +80,7 @@ ${0##*/} [ -e ] [ -s ] [ -a ] playlist1 playlist2 ...
 
 -a  Dump playlists all at the same time (shows total progress)
 -e  Dump everything found in $srcdir
--s  Speed up by a factor of 4 (use behind 4 IP DIP at work)
+-s  Speed up by a factor of 4 (use behind 4 IP DIP at work). Automatically enabled if on 10.1 or 10.2 networks at work
 EOF
     exit 1
 }
@@ -109,6 +109,10 @@ until [ $# -lt 1 ]; do
     esac
     shift
 done
+
+if ifconfig | awk '/inet/ {print $2}' | grep -q "10\.[12]\."; then
+    speed_up=4
+fi
 
 if [ "$everything" -ge 1 ]; then
     for x in $(ls); do
