@@ -51,11 +51,15 @@ find_missing(){
             [ $verbose -gt 0 ] && echo -n "resolving/checking $track => " >&2
             track_name="$(spotify-lookup.pl <<< "$line")"
             [ $verbose -gt 0 ] && echo "$track_name" >&2
-            grep -qixF "$track_name" ${@:2} 2>/dev/null ||
-                grep -qiF "$track_name - Remastered" ${@:2} 2>/dev/null ||
-                    grep -qiF "$track_name - Single" ${@:2} 2>/dev/null ||
-                        grep -qiF "$track_name - Album" ${@:2} 2>/dev/null ||
-                            echo "$line"
+            # Remove - Radio Edit etc...
+            # Remove ^The from artist name
+            track_name="$(perl -pne 's/^The //i; s/ - \(?(?:\d{4}\s+)?(?:(?:Original )?Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Uncut|Explicit|Mix|Original (?:Mix|Version)|Amended Album|Edit|UK Radio|Clean|Re-edit)\s.*$//i' <<< "$track_name")"
+            #echo "checking track name '$track_name'" >&2
+            if grep -qixF "$track_name" ${@:2} 2>/dev/null; then
+                echo "already got '$track_name'" >&2
+            else
+                echo "$line"
+            fi
         else
             echo "$line"
         fi
