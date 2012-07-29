@@ -40,7 +40,8 @@ spotify_lookup=spotify-lookup.pl
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
     tmp=$(
-    while read line; do
+    while read line || [ -n "$line" ]; do
+        #echo "reading line: $line" >&2
         grep -qixF "$line" ${@:2} ||
             echo "$line"
     done < "$1" |
@@ -73,8 +74,8 @@ find_missing(){
             echo "$tmp" | $spotify_lookup
         fi
     fi
-    echo
-    echo
+    echo >&2
+    echo >&2
 }
 
 usage(){
