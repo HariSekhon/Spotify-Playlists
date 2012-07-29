@@ -54,9 +54,9 @@ find_missing(){
             [ $verbose -gt 0 ] && echo "$track_name" >&2
             # Remove - Radio Edit etc...
             # Remove ^The from artist name
-            track_name="$(perl -pne 's/^The //i; s/ - \(?(?:\d{4}\s+)?(?:(?:Original )?Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Uncut|Explicit|Mix|Original (?:Mix|Version)|Amended Album|Edit|UK Radio|Clean|Re-edit)\s.*$//i' <<< "$track_name")"
+            track_name="$(perl -pne 's/^The //i; s/ - \(?(?:\d{2,4}\s+)?(?:(?:Original )?Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Uncut|Explicit|Mix|Original (?:Mix|Version)|Amended Album|Edit|UK Radio|Clean|Re-edit|'"'"'\w+ Version)(\s.*)?$//i' <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
-            if grep -qixF "$track_name" ${@:2} 2>/dev/null; then
+            if grep -qiF "$track_name" ${@:2} 2>/dev/null; then
                 echo "already got '$track_name'" >&2
             else
                 echo "$line"
