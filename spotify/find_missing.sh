@@ -49,15 +49,20 @@ find_missing(){
         if [ $nolookup -eq 0 ]; then
             # don't need to pushd we won't be popd-ing
             cd "$srcdir/.." >&2
-            [ $verbose -gt 0 ] && echo -n "resolving/checking $track => " >&2
+            [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
             track_name="$(spotify-lookup.pl <<< "$line")"
-            [ $verbose -gt 0 ] && echo "$track_name" >&2
+            [ $verbose -ge 2 ] && echo "$track_name" >&2
             # Remove - Radio Edit etc...
             # Remove ^The from artist name
             track_name="$(perl -pne 's/^The //i; s/ - \(?(?:(?:\d{2,4}|New|US|UK)\s+)?(?:Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|Edit|Explicit|Clean|Mix|Original|Re-edit|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from)([\s\)].*)?$//i' <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
-            if grep -qiF "$track_name" ${@:2} 2>/dev/null; then
-                echo "already got '$track_name'" >&2
+            matches="$(grep -iF "$track_name" ${@:2} 2>/dev/null | sed 's/^[^:]*://' | sort -u | tr '\n' ',' | sed 's/,$//' )"
+            if [ -n "$matches" ]; then
+                if [ $verbose -ge 1 ]; then
+                    echo "already got '$track_name' ($matches)" >&2
+                else
+                    echo "already got '$track_name'" >&2
+                fi
             else
                 echo "$line"
             fi
