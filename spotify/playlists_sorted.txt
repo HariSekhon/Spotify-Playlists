@@ -19,8 +19,9 @@ electronica
 workout
 fitness-first
 chill
-ambience
 jazz
-love
 classics-archive
+love
+disco
 soul
+ambience
