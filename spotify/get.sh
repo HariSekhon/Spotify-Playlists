@@ -14,6 +14,6 @@ set -e
 set -u
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-./paste_playlists.sh $@
+"$srcdir/paste_playlists.sh" $@
 read -p "Press enter to process with dumping of track names"
-./dump_playlists.sh  $@ -a
+"$srcdir/dump_playlists.sh"  $@ -a
