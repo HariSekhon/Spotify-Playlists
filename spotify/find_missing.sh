@@ -28,11 +28,13 @@ grand_playlists_default="
 kiss
 dance
 rock
+chill
+jazz
 classics-archive
 classical
 love
-chill
-jazz
+disco
+soul
 "
 
 spotify_lookup=spotify-lookup.pl
