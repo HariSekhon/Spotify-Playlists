@@ -20,7 +20,7 @@ workout
 fitness-first
 chill
 jazz
-classics-archive
+classics
 love
 disco
 soul

@@ -30,7 +30,7 @@ dance
 rock
 chill
 jazz
-classics-archive
+classics
 classical
 love
 disco
@@ -128,7 +128,6 @@ done
 if [ -z "$current_playlists" ]; then
     current_playlists="$current_playlists_default"
     find_missing "starred" "$grand_playlists_default"
-    find_missing "starred" "$grand_playlists_default classics-archive love"
     find_missing "current-hiphop" "kiss"
 fi
 if [ -z "$grand_playlists" ]; then
