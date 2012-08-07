@@ -44,8 +44,9 @@ find_missing(){
     tmp=$(
     while read line || [ -n "$line" ]; do
         #echo "reading line: $line" >&2
-        grep -qixF "$line" ${@:2} ||
-            echo "$line"
+        grep -qixF "$line" ${@:2} &&
+            echo "already got '$line'" >&2 ||
+                echo "$line"
     done < "$1" |
     while read line; do
         if [ $nolookup -eq 0 ]; then
