@@ -42,6 +42,21 @@ paste_nosort(){
 paste_sort(){
     read -p "Paste $1: (hit enter when ready)" && dump_clipboard | sort -f > "$1"; echo; ./find_dups.sh "$1"; echo; echo
 }
+
+usage(){
+    echo "${0##*/} [ playlist1 playlist2 playlist3 ... ]
+
+Pastes the output of the clipboard straight in to the given files. If no files are given then it reads the playlists_sorted.txt and playlists_unsorted.txt files in the same directory as this script and uses those as the list of playlist files
+"
+    exit 1
+}
+
+for x in $@; do
+    case $x in
+        -*) usage
+    esac
+done
+
 if [ -n "$1" ]; then
 #    if [ -n "$2" ]; then
 #        paste_nosort "$1"
