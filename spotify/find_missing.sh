@@ -44,9 +44,15 @@ find_missing(){
     tmp=$(
     while read line || [ -n "$line" ]; do
         #echo "reading line: $line" >&2
-        grep -qixF "$line" ${@:2} &&
-            echo "already got '$line'" >&2 ||
-                echo "$line"
+        if grep -qixF "$line" ${@:2}; then
+            if [ $nolookup -eq 0 ]; then
+                echo "already got '$($spotify_lookup <<< "$line")' ($line)"
+            else
+                echo "already got '$line'"
+            fi >&2
+        else
+            echo "$line"
+        fi
     done < "$1" |
     while read line; do
         if [ $nolookup -eq 0 ]; then
@@ -106,11 +112,11 @@ notranslate=0
 verbose=0
 while [ $# -gt 0 ]; do
     case $1 in
-           --nolookup)  nolookup=1; notranslate=1
+        -n|--nolookup)  nolookup=1; notranslate=1
                         ;;
      -s|--spotify-uri)  notranslate=1
                         ;;
--a|-additional-grand-playlists)  additional_grand_playlists="${additional_grand_playlists} ${2:-}"
+-a|--additional-grand-playlists)  additional_grand_playlists="${additional_grand_playlists} ${2:-}"
                         shift
                         ;;
  -g|--grand-playlists)  grand_playlists="$grand_playlists ${2:-}"
