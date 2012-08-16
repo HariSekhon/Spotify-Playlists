@@ -41,20 +41,31 @@ spotify_lookup=spotify-lookup.pl
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
-    tmp=$(
+    tmp2=$(
     while read line || [ -n "$line" ]; do
         #echo "reading line: $line" >&2
         if grep -qixF "$line" ${@:2}; then
             if [ $nolookup -eq 0 ]; then
-                [ $verbose -ge 1 ] && echo "already got '$($spotify_lookup <<< "$line")'   <=  $line" ||
-                echo "already got '$($spotify_lookup <<< "$line")'"
+                track_name="$($spotify_lookup <<< "$line")"
+                if [ -z "$track_name" ]; then
+                    echo "ERROR blank track name returned by $spotify_lookup"
+                    exit 1
+                fi
+                if [ $verbose -ge 1 ]; then
+                    echo "already got '$track_name'   <=  $line"
+                else
+                    echo "already got '$track_name'"
+                fi
             else
                 echo "already got '$line'"
             fi >&2
         else
             echo "$line"
         fi
-    done < "$1" |
+    done < "$1"
+    )
+    tmp=$(
+    echo "$tmp2" |
     while read line; do
         if [ $nolookup -eq 0 ]; then
             # don't need to pushd we won't be popd-ing
