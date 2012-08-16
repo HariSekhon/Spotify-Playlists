@@ -46,7 +46,8 @@ find_missing(){
         #echo "reading line: $line" >&2
         if grep -qixF "$line" ${@:2}; then
             if [ $nolookup -eq 0 ]; then
-                echo "already got '$($spotify_lookup <<< "$line")' ($line)"
+                [ $verbose -ge 1 ] && echo "already got '$($spotify_lookup <<< "$line")'   <=  $line" ||
+                echo "already got '$($spotify_lookup <<< "$line")'"
             else
                 echo "already got '$line'"
             fi >&2
