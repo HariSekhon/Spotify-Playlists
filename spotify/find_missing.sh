@@ -118,7 +118,7 @@ ${0##*/} [-g] [-nolookup] playlist1 playlist2
 -n --nolookup            Don't translate at all, don't use spotify-lookup.pl to check artist - song (weakens matching. Only use when spotify-lookup.pl is broken). Also enables -spotify-uri
 -g --grand-playlists     Playlists to check against
 -a --aditional-grand-playlists Additional playlists to check on top of default list: $(tr '\n' ' ' <<< "$grand_playlists_default")
---no
+--no-locking             Set no locking on spotify-lookup.pl
 EOF
     exit 1
 }
