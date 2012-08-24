@@ -37,7 +37,7 @@ disco
 soul
 "
 
-spotify_lookup=spotify-lookup.pl
+spotify_lookup="spotify-lookup.pl $no_lookup"
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
@@ -48,16 +48,17 @@ find_missing(){
             if [ $nolookup -eq 0 ]; then
                 track_name="$($spotify_lookup <<< "$line")"
                 if [ -z "$track_name" ]; then
-                    echo "ERROR blank track name returned by $spotify_lookup"
-                    exit 1
+                    echo "ERROR blank track name returned by $spotify_lookup" >&2
+                    echo "$line"
+                    continue
                 fi
                 if [ $verbose -ge 1 ]; then
-                    echo "already got '$track_name'   <=  $line"
+                    echo "already got '$track_name'   <=  $line" >&2
                 else
-                    echo "already got '$track_name'"
+                    echo "already got '$track_name'" >&@
                 fi
             else
-                echo "already got '$line'"
+                echo "already got '$line'" >&2
             fi >&2
         else
             echo "$line"
@@ -72,12 +73,17 @@ find_missing(){
             cd "$srcdir/.." >&2
             [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
             track_name="$(spotify-lookup.pl <<< "$line")"
+            if [ -z "$track_name" ]; then
+                echo "ERROR blank track name returned by $spotify_lookup" >&2
+                echo "$line"
+                continue
+            fi
             [ $verbose -ge 2 ] && echo "$track_name" >&2
             # Remove - Radio Edit etc...
             # Remove ^The from artist name
             track_name="$(perl -pne 's/^The //i; s/ (?:- \(?|\()(?:(?:\d{1,4}"|New|US|UK)\s+)?(?:Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|(?:Mainstream )?Edit|Explicit|Clean|Mix|Original|Re-edit|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from)([\s\)].*)?$//i' <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
-            matches="$(grep -iF "$track_name" ${@:2} 2>/dev/null | sed 's/^[^:]*://' | sort -u | tr '\n' ',' | sed 's/,$//' )"
+            matches="$(grep -iF "$track_name" ${@:2} 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
             if [ -n "$matches" ]; then
                 if [ $verbose -ge 1 ]; then
                     echo "already got '$track_name' ($matches)" >&2
@@ -108,10 +114,11 @@ usage(){
     cat <<EOF
 ${0##*/} [-g] [-nolookup] playlist1 playlist2
 
--s -spotify-uri         Output Spotify URIs for pasting back in to spotify   
--n -nolookup            Don't translate at all, don't use spotify-lookup.pl to check artist - song (weakens matching. Only use when spotify-lookup.pl is broken). Also enables -spotify-uri
--g -grand-playlists     Playlists to check against
+-s --spotify-uri         Output Spotify URIs for pasting back in to spotify   
+-n --nolookup            Don't translate at all, don't use spotify-lookup.pl to check artist - song (weakens matching. Only use when spotify-lookup.pl is broken). Also enables -spotify-uri
+-g --grand-playlists     Playlists to check against
 -a --aditional-grand-playlists Additional playlists to check on top of default list: $(tr '\n' ' ' <<< "$grand_playlists_default")
+--no
 EOF
     exit 1
 }
@@ -121,6 +128,7 @@ grand_playlists=""
 additional_grand_playlists=""
 nolookup=0
 notranslate=0
+no_locking=""
 verbose=0
 while [ $# -gt 0 ]; do
     case $1 in
@@ -133,6 +141,8 @@ while [ $# -gt 0 ]; do
                         ;;
  -g|--grand-playlists)  grand_playlists="$grand_playlists ${2:-}"
                         shift
+                        ;;
+         --no-locking)  no_locking="--no-locking"
                         ;;
                    -v)  let verbose+=1
                         ;;
