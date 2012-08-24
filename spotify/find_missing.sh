@@ -41,6 +41,7 @@ find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
     tmp2=$(
     while read line || [ -n "$line" ]; do
+        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading line: $line" >&2
         if grep -qixF "$line" ${@:2}; then
             if [ $nolookup -eq 0 ]; then
@@ -50,13 +51,13 @@ find_missing(){
                     echo "$line"
                     continue
                 fi
-                if [ $verbose -ge 1 ]; then
+                if [ $verbose -ge 2 ]; then
                     echo "already got '$track_name'   <=  $line" >&2
-                else
-                    echo "already got '$track_name'" >&@
+                elif [ $verbose -ge 1 ]; then
+                    echo "already got '$track_name'" >&2
                 fi
             else
-                echo "already got '$line'" >&2
+                [ $verbose -ge 1 ] echo "already got '$line'" >&2
             fi >&2
         else
             echo "$line"
@@ -76,16 +77,16 @@ find_missing(){
                 echo "$line"
                 continue
             fi
-            [ $verbose -ge 2 ] && echo "$track_name" >&2
+            [ $verbose -ge 3 ] && echo "$track_name" >&2
             # Remove - Radio Edit etc...
             # Remove ^The from artist name
             track_name="$(perl -pne 's/^The //i; s/ (?:- \(?|\()(?:(?:\d{1,4}"|New|US|UK)\s+)?(?:Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|(?:Mainstream )?Edit|Explicit|Clean|Mix|Original|Re-edit|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from)([\s\)].*)?$//i' <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
             matches="$(grep -iF "$track_name" ${@:2} 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
             if [ -n "$matches" ]; then
-                if [ $verbose -ge 1 ]; then
+                if [ $verbose -ge 2 ]; then
                     echo "already got '$track_name' ($matches)" >&2
-                else
+                elif [ $verbose -ge 1 ]; then
                     echo "already got '$track_name'" >&2
                 fi
             else
@@ -128,6 +129,7 @@ nolookup=0
 notranslate=0
 no_locking=""
 verbose=0
+quiet=0
 while [ $# -gt 0 ]; do
     case $1 in
         -n|--nolookup)  nolookup=1; notranslate=1
@@ -142,7 +144,9 @@ while [ $# -gt 0 ]; do
                         ;;
          --no-locking)  no_locking="--no-locking"
                         ;;
-                   -v)  let verbose+=1
+         -v|--verbose)  let verbose+=1
+                        ;;
+           -q|--quiet)  quiet=1
                         ;;
                    -*)  usage
                         ;;
