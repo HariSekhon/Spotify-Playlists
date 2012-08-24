@@ -158,6 +158,8 @@ while [ $# -gt 0 ]; do
     shift
 done
 
+[ $quiet -eq 1 ] && verbose=0
+
 spotify_lookup="spotify-lookup.pl $no_locking"
 
 if [ -z "$current_playlists" ]; then
