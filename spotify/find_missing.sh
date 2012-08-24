@@ -37,8 +37,6 @@ disco
 soul
 "
 
-spotify_lookup="spotify-lookup.pl $no_lookup"
-
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
     tmp2=$(
@@ -72,7 +70,7 @@ find_missing(){
             # don't need to pushd we won't be popd-ing
             cd "$srcdir/.." >&2
             [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
-            track_name="$(spotify-lookup.pl <<< "$line")"
+            track_name="$($spotify_lookup <<< "$line")"
             if [ -z "$track_name" ]; then
                 echo "ERROR blank track name returned by $spotify_lookup" >&2
                 echo "$line"
@@ -153,6 +151,8 @@ while [ $# -gt 0 ]; do
     esac
     shift
 done
+
+spotify_lookup="spotify-lookup.pl $no_locking"
 
 if [ -z "$current_playlists" ]; then
     current_playlists="$current_playlists_default"
