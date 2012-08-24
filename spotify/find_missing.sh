@@ -118,6 +118,8 @@ ${0##*/} [-g] [-nolookup] playlist1 playlist2
 -g --grand-playlists     Playlists to check against
 -a --aditional-grand-playlists Additional playlists to check on top of default list: $(tr '\n' ' ' <<< "$grand_playlists_default")
 --no-locking             Set no locking on spotify-lookup.pl
+-v --verbose             Increase verbosity level
+-q --quiet               Quiet mode
 EOF
     exit 1
 }
