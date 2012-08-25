@@ -64,6 +64,7 @@ find_missing(){
         fi
     done < "$1"
     )
+    [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     tmp=$(
     echo "$tmp2" |
     while read line; do
