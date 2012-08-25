@@ -36,7 +36,7 @@ dump_playlist(){
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
-    spotify_lookup="spotify-lookup.pl -v -v -f $playlist -s $speed_up"
+    spotify_lookup="spotify-lookup.pl -v -v -f $playlist $no_locking -s $speed_up"
     if grep -qxFi "$playlist" "playlists_sorted.txt"; then
         output="$($spotify_lookup)"
         returncode=$?
@@ -63,7 +63,7 @@ dump_playlists(){
     done
     playlists=${playlists#,}
     playlists=${playlists%,}
-    spotify-lookup.pl -w "$srcdir/.." -v -v -f "$playlists" --speed-up $speed_up # use in office for 4 DIPs ;)
+    spotify-lookup.pl -w "$srcdir/.." -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
 #    if grep -qxFi "$playlist" "playlists_sorted.txt"; then
 #        spotify-lookup.pl -v -f "$playlist" | sort -f > "../$playlist"
 #    else
@@ -91,12 +91,15 @@ speed_up=1
 all=0
 everything=0
 newer_than_dump=0
+no_locking=""
 until [ $# -lt 1 ]; do
     case $1 in
         -e) everything=1
             ;;
             # TODO: add support for newer than only here
         -n) newer_than_dump=1
+            ;;
+--no-locking) no_locking="--no-locking"
             ;;
         -s) speed_up=4
             ;;
