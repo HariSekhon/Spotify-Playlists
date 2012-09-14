@@ -29,10 +29,11 @@ find_existing(){
     while read line; do
         grep -q "^$line$" ${@:2} &&
             echo "$line"
-    done < "$1" |
-    spotify-lookup.pl | sort -f
-    echo
-    echo
+    done < "$1" #|
+    # Don't do this here, I can just pipe to spotify-lookup.pl if need be
+    #spotify-lookup.pl | sort -f
+    #echo
+    #echo
 }
 
 [ -n "${2:-}" ] || die "usage: ${0##*/} playlist grand_playlists"
