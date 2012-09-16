@@ -11,5 +11,7 @@
 
 classical
 club
+love
+jazz
 hangout-rnb
 hangout-poprock
