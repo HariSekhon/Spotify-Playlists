@@ -12,6 +12,7 @@
 classical
 club
 love
+soul
 jazz
 sex
 hangout-poprock

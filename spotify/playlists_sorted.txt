@@ -16,7 +16,6 @@ kiss
 dance
 rock
 classics
-soul
 chill
 disco
 electronica
