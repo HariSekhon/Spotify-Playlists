@@ -15,7 +15,6 @@ current
 kiss
 dance
 rock
-classics
 chill
 disco
 electronica
