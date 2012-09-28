@@ -32,7 +32,7 @@ excluded_file(){
 
 dump_playlist(){
     local playlist="$1"
-    excluded_file "$playlist" && return 1
+    #excluded_file "$playlist" && return 1
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
@@ -55,7 +55,7 @@ dump_playlist(){
 dump_playlists(){
     local playlists=""
     for playlist in $@; do
-        excluded_file "$playlist" && continue
+        #excluded_file "$playlist" && continue
         [ -f "$playlist" ] || { echo "File not found: $playlist"; exit 1; }
         playlists="${playlists},${playlist}"
         let total_playlists+=1
@@ -118,7 +118,8 @@ if ifconfig | awk '/inet/ {print $2}' | grep -q "10\.[12]\."; then
 fi
 
 if [ "$everything" -ge 1 ]; then
-    for x in $(ls); do
+    for x in *; do
+        excluded_file "$x" && continue
         playlists="$playlists $x"
     done
 elif [ -z "$playlists" ]; then
@@ -126,23 +127,18 @@ elif [ -z "$playlists" ]; then
         playlists="$playlists $x"
     done
 fi
-playlists2=""
-for x in $playlists; do
-    excluded_file "$x" && continue
-    playlists2="$playlists2 $x"
-done
 
 if [ "$all" -ge 1 ]; then
-    dump_playlists "$playlists2"
+    dump_playlists "$playlists"
     # Sort playlist that we want sorted
-    for playlist in $playlists2; do
+    for playlist in $playlists; do
         if grep -qxFi "$playlist" "playlists_sorted.txt"; then
             sort -f < "../$playlist" > "../$playlist.tmp" && mv -f "../$playlist.tmp" "../$playlist"
         fi
     done
     echo "Sorted playlists"
 else
-    for x in $playlists2; do
+    for x in $playlists; do
         dump_playlist "$x"
     done
 fi
