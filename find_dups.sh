@@ -22,7 +22,10 @@ find_dups(){
     # (.* catches (feat. Blah) and Dirty catches Diddy - Dirty Money so can't use those
     #perl -p -e 's/(?:\s+\-)?\s+(\((?:as )?made famous|(Album|Single|Clean|Explicit|Amended|(?:\d+\s+)?Re-?master)|\[theme from).*$//i' |
     # Keep this updated from spotify/find_missing.sh
-    perl -pne 's/^The //i; s/ - \(?(?:\d{2,4}\s+)?(?:(?:UK )?Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|Edit|Explicit|Clean|Mix|Original|Re-edit|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from)([\s\)].*)?$//i' |
+    #perl -pne 's/^The //i; s/ - \(?(?:\d{2,4}\s+)?(?:(?:UK )?Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|Edit|Explicit|Clean|Mix|Original|Re-edit|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from)([\s\)].*)?$//i' |
+    perl -pne 's/^The //i;
+            s/ (?:- \(?|\()(?:(?:\d{1,4}"?|New|US|UK)\s+)?(?:Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|(?:Mainstream )?Edit|Explicit|Clean|Mix|Original|Re-edit|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from|from|Full length)([\s\)].*)?$/\n/i;
+            s/( - .+) - Live$/$1/i' |
     sort | uniq -d
     echo
     echo
