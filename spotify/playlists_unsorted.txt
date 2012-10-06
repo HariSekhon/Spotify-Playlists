@@ -15,6 +15,7 @@ love
 soul
 jazz
 classics
+rock
 sex
 hangout-poprock
 hangout-rnb
