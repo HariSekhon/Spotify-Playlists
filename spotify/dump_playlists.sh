@@ -37,7 +37,7 @@ dump_playlist(){
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
     spotify_lookup="spotify-lookup.pl -v -v -f $playlist $no_locking -s $speed_up"
-    if grep -qxFi "$playlist" "playlists_sorted.txt"; then
+    if grep -qxFi "$playlist" "playlists_sort.txt"; then
         output="$($spotify_lookup)"
         returncode=$?
         echo "$output" | sort -f > "../$playlist"
@@ -64,7 +64,7 @@ dump_playlists(){
     playlists=${playlists#,}
     playlists=${playlists%,}
     spotify-lookup.pl -w "$srcdir/.." -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
-#    if grep -qxFi "$playlist" "playlists_sorted.txt"; then
+#    if grep -qxFi "$playlist" "playlists_sort.txt"; then
 #        spotify-lookup.pl -v -f "$playlist" | sort -f > "../$playlist"
 #    else
 #        spotify-lookup.pl -v -f "$playlist" > "../$playlist"
@@ -123,7 +123,7 @@ if [ "$everything" -ge 1 ]; then
         playlists="$playlists $x"
     done
 elif [ -z "$playlists" ]; then
-    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sorted.txt playlists_unsorted.txt); do
+    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sort.txt playlists_nosort.txt); do
         playlists="$playlists $x"
     done
 fi
@@ -132,7 +132,7 @@ if [ "$all" -ge 1 ]; then
     dump_playlists "$playlists"
     # Sort playlist that we want sorted
     for playlist in $playlists; do
-        if grep -qxFi "$playlist" "playlists_sorted.txt"; then
+        if grep -qxFi "$playlist" "playlists_sort.txt"; then
             sort -f < "../$playlist" > "../$playlist.tmp" && mv -f "../$playlist.tmp" "../$playlist"
         fi
     done
