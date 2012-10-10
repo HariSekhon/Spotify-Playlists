@@ -14,8 +14,6 @@ current-hiphop
 current
 kiss
 dance
-chill
-disco
 electronica
 workout
 #fitness-first
