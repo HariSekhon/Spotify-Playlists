@@ -20,6 +20,7 @@ soul
 jazz
 classics
 rock
+phone-hiphop
 sex
 hangout-poprock
 hangout-rnb
