@@ -25,7 +25,7 @@ find_dups(){
     #perl -pne 's/^The //i; s/ - \(?(?:\d{2,4}\s+)?(?:(?:UK )?Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|Edit|Explicit|Clean|Mix|Original|Re-edit|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from)([\s\)].*)?$//i' |
     # TODO: bug, there is a bug in this where the newlines get stripped and this makes stuff come out on the same line so it fails to sort | uniq -d afterwards, tested this on Michael_Jackson playlist
     perl -pne 's/^The //i;
-            s/ (?:- \(?|\()(?:(?:\d{1,4}"?|New|US|UK)\s+)?(?:Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|(?:Mainstream |Re-)?Edit|Explicit|Clean|Mix|Original|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from|from|Full length)([\s\)].*)?$/\n/i;
+            s/ (?:- (?:\(|")?|\()(?:(?:\d{1,4}"?|New|US|UK)\s+)?(?:Radio|(?:Digital )?Re-?master(?:ed)?|Single|Album|Amended|Main|Uncut|(?:Mainstream |Re-)?Edit|Explicit|Clean|Mix|Original|Bonus Track|'"'"'?\w+ Version|(?:as )?made famous|theme from|from|Full length)([\s\)].*)?$/\n/i;
             s/( - .+) - Live$/$1/i' |
     sort | uniq -d
     echo
