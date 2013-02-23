@@ -10,6 +10,9 @@
 #
 #  vim:ts=4:sw=4:et
 
+#echo "OBSOLETE, DO NOT USE THIS, Use find-missing-tracks.pl (on github) instead"
+#exit 1
+
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 
