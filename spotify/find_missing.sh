@@ -42,8 +42,7 @@ soul
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
-    tmp2=$(
-    while read line || [ -n "$line" ]; do
+    tmp2=$(while read line || [ -n "$line" ]; do
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading line: $line" >&2
         if grep -qixF "$line" ${@:2}; then
@@ -60,7 +59,7 @@ find_missing(){
                     echo "already got '$track_name'" >&2
                 fi
             else
-                [ $verbose -ge 1 ] echo "already got '$line'" >&2
+                [ $verbose -ge 1 ] && echo "already got '$line'" >&2
             fi >&2
         else
             echo "$line"
