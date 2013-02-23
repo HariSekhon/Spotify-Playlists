@@ -1,0 +1,12 @@
+# Put your grand playlists in here, one per line, to not have to specify them on the command line every time
+
+kiss
+dance
+rock
+chill
+jazz
+classics
+classical
+love
+disco
+soul

@@ -1,0 +1,10 @@
+# Put your current playlists in here, one per line, to not have to specify them on the command line every time
+
+starred
+hangout-rnb
+hangout-poprock
+current-hiphop
+current
+fitness-first
+workout
+chill
