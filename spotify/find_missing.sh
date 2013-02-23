@@ -16,29 +16,8 @@
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 
-current_playlists_default="
-starred
-hangout-rnb
-hangout-poprock
-current-hiphop
-current
-fitness-first
-workout
-chill
-"
-
-grand_playlists_default="
-kiss
-dance
-rock
-chill
-jazz
-classics
-classical
-love
-disco
-soul
-"
+current_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/current_playlists.txt)"
+grand_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/grand_playlists.txt)"
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
