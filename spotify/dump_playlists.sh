@@ -36,16 +36,16 @@ dump_playlist(){
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
-    spotify_lookup="spotify-lookup.pl -v -v -f $playlist $no_locking -s $speed_up"
+    spotify_lookup="spotify-lookup.pl $verbose -f $playlist $no_locking -s $speed_up $retries"
     if grep -qxFi "$playlist" "playlists_sort.txt"; then
         output="$($spotify_lookup)"
         returncode=$?
         echo "$output" | sort -f > "../$playlist"
-        [ $returncode -eq 0 ] || echo "ERROR: $output"
+        [ $returncode -eq 0 ] || { echo "ERROR: $output"; return 1; }
     else
         $spotify_lookup > "../$playlist"
         returncode=$?
-        [ $returncode -eq 0 ] || echo "$output"
+        [ $returncode -eq 0 ] || { echo "$output"; return 1; }
     fi
     echo "Wrote ../$playlist"
     echo
@@ -80,6 +80,7 @@ ${0##*/} [ -e ] [ -s ] [ -a ] playlist1 playlist2 ...
 
 -a  Dump playlists all at the same time (shows total progress)
 -e  Dump everything found in $srcdir
+-r  Retries
 -s  Speed up by a factor of 4 (use behind 4 IP DIP at work). Automatically enabled if on 10.1 or 10.2 networks at work
 EOF
     exit 1
@@ -92,6 +93,8 @@ all=0
 everything=0
 newer_than_dump=0
 no_locking=""
+retries=""
+verbose="-vv"
 until [ $# -lt 1 ]; do
     case $1 in
         -e) everything=1
@@ -103,7 +106,13 @@ until [ $# -lt 1 ]; do
             ;;
         -s) speed_up=4
             ;;
+        -r) [ -n "${2:-}" ] || usage
+            retries="-r $2"
+            shift
+            ;;
         -a) let all+=1
+            ;;
+        -v) verbose="$verbose -v"
             ;;
         -*) usage
             ;;
@@ -113,9 +122,10 @@ until [ $# -lt 1 ]; do
     shift
 done
 
-if ifconfig | awk '/inet/ {print $2}' | grep -q "10\.[12]\."; then
-    speed_up=4
-fi
+# I'm not behind my 4 DIP GigE connection at SM any more :(
+#if ifconfig | awk '/inet/ {print $2}' | grep -q "10\.[12]\."; then
+#    speed_up=4
+#fi
 
 if [ "$everything" -ge 1 ]; then
     for x in *; do
@@ -139,7 +149,7 @@ if [ "$all" -ge 1 ]; then
     echo "Sorted playlists"
 else
     for x in $playlists; do
-        dump_playlist "$x"
+        dump_playlist "$x" || exit
     done
 fi
 stop=$(date +%s)
