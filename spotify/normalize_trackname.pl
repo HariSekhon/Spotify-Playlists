@@ -11,6 +11,10 @@
 #
 #  vim:ts=4:sts=4:et
 
+# TODO: turn this in to a propper program with cli args etc
+
+$VERSION="0.1";
+
 use strict;
 use warnings;
 
