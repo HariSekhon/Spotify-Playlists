@@ -84,6 +84,7 @@ find_missing(){
     )
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
     if [ -n "$tmp" ]; then
+        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
         if [ $notranslate -eq 1 ]; then
             echo "$tmp"
         else
