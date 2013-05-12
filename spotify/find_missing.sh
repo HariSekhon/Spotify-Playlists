@@ -21,7 +21,7 @@ grand_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/playlists_gra
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
-    local uris_not_found="$(while read uri || [ -n "$uri" ]; do
+    local uris_not_found=$(while read uri || [ -n "$uri" ]; do
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
         if grep -qixF "$uri" ${@:2}; then
@@ -44,7 +44,7 @@ find_missing(){
             echo "$uri"
         fi
     done < "$1"
-    )"
+    )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
     echo ">>> $(echo "$uris_not_found" | wc -l | awk '{print $1}') / $(wc -l < "$1" | awk '{print $1}') URIs not found"
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
