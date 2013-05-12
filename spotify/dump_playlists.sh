@@ -133,7 +133,7 @@ if [ "$everything" -ge 1 ]; then
         playlists="$playlists $x"
     done
 elif [ -z "$playlists" ]; then
-    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_sort.txt playlists_nosort.txt); do
+    for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_nosort.txt playlists_sort.txt); do
         playlists="$playlists $x"
     done
 fi
