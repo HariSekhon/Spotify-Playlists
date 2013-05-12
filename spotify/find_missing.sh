@@ -21,7 +21,7 @@ grand_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/playlists_gra
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
-    local uris_not_found=$(while read uri || [ -n "$uri" ]; do
+    local uris_not_found="$(while read uri || [ -n "$uri" ]; do
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
         if grep -qixF "$uri" ${@:2}; then
@@ -44,8 +44,10 @@ find_missing(){
             echo "$uri"
         fi
     done < "$1"
-    )
-    [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
+    )"
+    [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
+    echo ">>> $(echo "$uris_not_found" | wc -l | awk '{print $1}') / $(wc -l < "$1" | awk '{print $1}') URIs not found"
+    #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     local tracks_not_found=$(
     echo "$uris_not_found" |
     while read uri; do
@@ -84,7 +86,9 @@ find_missing(){
     )
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
     if [ -n "$tracks_not_found" ]; then
-        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
+        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
+        echo ">>> $(wc -l <<< "$tracks_not_found" | awk '{print $1}') / $(wc -l <<< "$uris_not_found" | awk '{print $1}') Tracks not found"
+        #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
         if [ `uname` = Darwin ]; then
             local clipboard=pbcopy
         elif [ `uname` = Linux ]; then
