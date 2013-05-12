@@ -19,7 +19,7 @@ use strict;
 use warnings;
 
 s/^The //i;
-s/\s(?:-\s(?:\(|")?|\()
+s/\s+(?:-\s+(?:\(|")?|\()
     (?:
         (?:
             \d{1,4}"? |
@@ -35,18 +35,18 @@ s/\s(?:-\s(?:\(|")?|\()
         Amended|
         Main|
         Uncut|
-        (?:Mainstream |Re-)?Edit|
+        (?:Mainstream\s+|Re-)?Edit|
         Explicit|
         Clean|
         Mix|
         Original|
-        Bonus Track|
-        '?\w+ Version|
-        (?:as )?made famous|
-        theme from|
+        Bonus\s+Track|
+        (?:LP\s*\/?\s*)?(?:\w+)?(?:'|")?(?:\w+)?\s+Version|
+        (?:as )?made\s+famous|
+        theme\s+from|
         from|
-        Full length
+        Full\s+length
     )
     ([\s\)].*)?
-    $//xi;
-s/( - .+) - Live$/$1/i
+    $/\n/xi;
+s/( - .+) - Live$/$1/i;
