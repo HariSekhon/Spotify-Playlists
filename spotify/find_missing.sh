@@ -172,5 +172,8 @@ if [ -n "$additional_grand_playlists" ]; then
     grand_playlists="$grand_playlists $additional_grand_playlists"
 fi
 for x in $current_playlists; do
+    [ -f "$x" ] || { echo "Playlist file not found: $x"; exit 1; }
+done
+for x in $current_playlists; do
     find_missing $x "$grand_playlists"
 done
