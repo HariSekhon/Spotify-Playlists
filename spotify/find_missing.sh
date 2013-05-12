@@ -21,42 +21,43 @@ grand_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/playlists_gra
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
-    tmp2=$(while read line || [ -n "$line" ]; do
+    uris_not_found=$(while read uri || [ -n "$uri" ]; do
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
-        #echo "reading line: $line" >&2
-        if grep -qixF "$line" ${@:2}; then
+        #echo "reading uri: $uri" >&2
+        if grep -qixF "$uri" ${@:2}; then
             if [ $nolookup -eq 0 ]; then
-                track_name="$($spotify_lookup <<< "$line")"
+                track_name="$($spotify_lookup <<< "$uri")"
                 if [ -z "$track_name" ]; then
                     echo "ERROR blank track name returned by $spotify_lookup" >&2
-                    echo "$line"
+                    echo "$uri"
                     continue
                 fi
                 if [ $verbose -ge 2 ]; then
-                    echo "already got '$track_name'   <=  $line" >&2
+                    echo "already got '$track_name'   <=  $uri" >&2
                 elif [ $verbose -ge 1 ]; then
                     echo "already got '$track_name'" >&2
                 fi
             else
-                [ $verbose -ge 1 ] && echo "already got '$line'" >&2
+                [ $verbose -ge 1 ] && echo "already got '$uri'" >&2
             fi >&2
         else
-            echo "$line"
+            echo "$uri"
         fi
     done < "$1"
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     tmp=$(
-    echo "$tmp2" |
-    while read line; do
+    echo "$uris_not_found" |
+    while read uri; do
         if [ $nolookup -eq 0 ]; then
             # don't need to pushd we won't be popd-ing
             cd "$srcdir/.." >&2
+            [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n ":" >&2
             [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
-            track_name="$($spotify_lookup <<< "$line")"
+            track_name="$($spotify_lookup <<< "$uri")"
             if [ -z "$track_name" ]; then
                 echo "ERROR blank track name returned by $spotify_lookup" >&2
-                echo "$line"
+                echo "$uri"
                 continue
             fi
             [ $verbose -ge 3 ] && echo "$track_name" >&2
@@ -74,10 +75,10 @@ find_missing(){
                     echo "already got '$track_name'" >&2
                 fi
             else
-                echo "$line"
+                echo "$uri"
             fi
         else
-            echo "$line"
+            echo "$uri"
         fi
     done
     )
