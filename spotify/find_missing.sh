@@ -20,7 +20,13 @@ current_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/playlists_c
 grand_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/playlists_grand.txt)"
 
 find_missing(){
-    echo "* Missing tracks in $1: (not found in "${2# }")" >&2
+    local current_playlist="$1"
+    local grand_playlists="${@:2}"
+    #[ -f "$current_playlist" ] || { echo "Current playlist file not found: $current_playlist"; exit 1; }
+    #for grand_playlst in $grand_playlists; do
+    #    [ -f "$grand_playlist" ] || { echo "Grand playlist file not found: $grand_playlist"; exit 1; }
+    #done
+    echo "* Missing tracks in $current_playlist: (not found in "$grand_playlists")" >&2
     local uris_not_found=$(while read uri || [ -n "$uri" ]; do
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
@@ -43,10 +49,10 @@ find_missing(){
         else
             echo "$uri"
         fi
-    done < "$1"
+    done < "$current_playlist"
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
-    echo ">>> $(echo "$uris_not_found" | wc -l | awk '{print $1}') / $(wc -l < "$1" | awk '{print $1}') URIs not found"
+    echo ">>> $(echo "$uris_not_found" | wc -l | awk '{print $1}') / $(wc -l < "$current_playlist" | awk '{print $1}') URIs not found"
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     local tracks_not_found=$(
     echo "$uris_not_found" |
@@ -67,7 +73,7 @@ find_missing(){
             # Remove ^The from artist name
             track_name="$("$srcdir/normalize_trackname.pl" <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
-            matches="$(grep -iF "$track_name" ${@:2} 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
+            matches="$(grep -iF "$track_name" $grand_playlists 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
             if [ -n "$matches" ]; then
                 if [ $verbose -ge 2 ]; then
                     echo "already got '$track_name' ($matches)" >&2
@@ -101,7 +107,7 @@ find_missing(){
             echo "$tracks_not_found" | $spotify_lookup
         fi
         } | tee /dev/stderr | $clipboard
-        echo -e "\nTracks Not Found: $(wc -l <<< "$tracks_not_found" | awk '{print $1}') / $(wc -l < "$1" | awk '{print $1}')"
+        echo -e "\nTracks Not Found: $(wc -l <<< "$tracks_not_found" | awk '{print $1}') / $(wc -l < "$current_playlist" | awk '{print $1}')"
     fi
     echo >&2
     echo >&2
@@ -160,6 +166,7 @@ done
 
 spotify_lookup="spotify-lookup.pl $no_locking"
 
+# If no current playlists, use a default list and add starred and current-hiphop and kiss
 if [ -z "$current_playlists" ]; then
     current_playlists="$current_playlists_default"
     find_missing "starred" "$grand_playlists_default"
@@ -171,6 +178,16 @@ fi
 if [ -n "$additional_grand_playlists" ]; then
     grand_playlists="$grand_playlists $additional_grand_playlists"
 fi
+# Check the playlists we're checking aren't in the list of playlists to be checked
+for x in $current_playlists; do
+    for y in $grand_playlists; do
+        if [ "$x" = "$y" ]; then
+            echo "Playlist '$x' cannot be in both current and grand playlists! "
+            exit 1
+        fi
+    done
+done
+# Check the files exist for the current and grand playlists
 for x in $current_playlists $grand_playlists; do
     [ -f "$x" ] || { echo "Playlist file not found: $x"; exit 1; }
 done
