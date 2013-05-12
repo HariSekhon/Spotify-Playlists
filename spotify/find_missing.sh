@@ -168,8 +168,10 @@ spotify_lookup="spotify-lookup.pl $no_locking"
 
 # If no current playlists, use a default list and add starred and current-hiphop and kiss
 if [ -z "$current_playlists" ]; then
-    current_playlists="$current_playlists_default"
-    find_missing "starred" "$grand_playlists_default"
+    current_playlists="$current_playlists_default starred"
+    for x in current-hiphop kiss; do
+        [ -f "$x" ] || { echo "Playlist not found: $x"; exit 1; }
+    done
     find_missing "current-hiphop" "kiss"
 fi
 if [ -z "$grand_playlists" ]; then
