@@ -85,11 +85,20 @@ find_missing(){
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
     if [ -n "$tmp" ]; then
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
+        if [ `uname` = Darwin ]; then
+            local clipboard=pbcopy
+        elif [ `uname` = Linux ]; then
+            local clipboard=xclip
+        else
+            local clipboard=cat
+        fi
+        {
         if [ $notranslate -eq 1 ]; then
             echo "$tmp"
         else
             echo "$tmp" | $spotify_lookup
         fi
+        } | tee /dev/stderr | $clipboard
     fi
     echo >&2
     echo >&2
