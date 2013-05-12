@@ -103,8 +103,7 @@ find_missing(){
             echo "$tracks_not_found" | $spotify_lookup
         fi
         } | tee /dev/stderr | $clipboard
-        echo -en "\nTracks Not Found: "
-        echo "$tracks_not_found" | wc -l
+        echo -e "\nTracks Not Found: $(wc -l <<< "$tracks_not_found" | awk '{print $1}') / $(wc -l < "$1" | awk '{print $1}')"
     fi
     echo >&2
     echo >&2
