@@ -36,11 +36,11 @@ else
 fi
 
 paste_nosort(){
-    read -p "Ordered Paste $1: (hit enter when ready)" && dump_clipboard > "$1"; echo; ./find_dups.sh "$1"; echo; echo
+    read -p "Ordered Paste $1: (hit enter when ready)" && dump_clipboard > "$1.tmp"; echo >> "$1.tmp"; grep -v "^[[:space:]]*$" < "$1.tmp" > "$1"; rm -f "$1.tmp"; echo; ./find_dups.sh "$1"; echo; echo
 }
 
 paste_sort(){
-    read -p "Paste $1: (hit enter when ready)" && dump_clipboard | sort -f > "$1"; echo; ./find_dups.sh "$1"; echo; echo
+    read -p "Paste $1: (hit enter when ready)" && dump_clipboard > "$1.tmp"; echo >> "$1.tmp"; grep -v "^[[:space:]]*$" < "$1" > "$1.tmp"; sort -f < "$1.tmp" > "$1"; rm -f "$1.tmp"; echo; ./find_dups.sh "$1"; echo; echo
 }
 
 usage(){
