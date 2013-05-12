@@ -21,7 +21,7 @@ grand_playlists_default="$(sed 's/#.*//;/^[[:space:]]*$/d' $srcdir/playlists_gra
 
 find_missing(){
     echo "* Missing tracks in $1: (not found in "${2# }")" >&2
-    uris_not_found=$(while read uri || [ -n "$uri" ]; do
+    local uris_not_found=$(while read uri || [ -n "$uri" ]; do
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
         if grep -qixF "$uri" ${@:2}; then
@@ -46,13 +46,13 @@ find_missing(){
     done < "$1"
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
-    tmp=$(
+    local tracks_not_found=$(
     echo "$uris_not_found" |
     while read uri; do
         if [ $nolookup -eq 0 ]; then
             # don't need to pushd we won't be popd-ing
             cd "$srcdir/.." >&2
-            [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n ":" >&2
+            [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "=" >&2
             [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
             track_name="$($spotify_lookup <<< "$uri")"
             if [ -z "$track_name" ]; then
@@ -83,7 +83,7 @@ find_missing(){
     done
     )
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
-    if [ -n "$tmp" ]; then
+    if [ -n "$tracks_not_found" ]; then
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
         if [ `uname` = Darwin ]; then
             local clipboard=pbcopy
@@ -94,11 +94,13 @@ find_missing(){
         fi
         {
         if [ $notranslate -eq 1 ]; then
-            echo "$tmp"
+            echo "$tracks_not_found"
         else
-            echo "$tmp" | $spotify_lookup
+            echo "$tracks_not_found" | $spotify_lookup
         fi
         } | tee /dev/stderr | $clipboard
+        echo -en "\nTracks Not Found: "
+        echo "$tracks_not_found" | wc -l
     fi
     echo >&2
     echo >&2
