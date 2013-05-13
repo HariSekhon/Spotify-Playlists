@@ -33,3 +33,5 @@ for dup in $dups; do
         echo "removed $num duplicates of $dup"
     fi
 done
+
+# TODO: add shuffle files down algorithm
