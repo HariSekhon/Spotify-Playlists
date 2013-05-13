@@ -36,7 +36,7 @@ dump_playlist(){
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
-    spotify_lookup="spotify-lookup.pl $verbose -f $playlist $no_locking -s $speed_up $retries"
+    spotify_lookup="spotify-lookup.pl --wait $verbose -f $playlist $no_locking -s $speed_up $retries"
     if grep -qxFi "$playlist" "playlists_sort.txt"; then
         output="$($spotify_lookup)"
         returncode=$?
