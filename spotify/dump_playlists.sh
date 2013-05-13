@@ -63,11 +63,11 @@ dump_playlists(){
     done
     playlists=${playlists#,}
     playlists=${playlists%,}
-    spotify-lookup.pl -w "$srcdir/.." -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
+    spotify-lookup.pl --wait -w "$srcdir/.." -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
 #    if grep -qxFi "$playlist" "playlists_sort.txt"; then
-#        spotify-lookup.pl -v -f "$playlist" | sort -f > "../$playlist"
+#        spotify-lookup.pl --wait -v -f "$playlist" | sort -f > "../$playlist"
 #    else
-#        spotify-lookup.pl -v -f "$playlist" > "../$playlist"
+#        spotify-lookup.pl --wait -v -f "$playlist" > "../$playlist"
 #    fi
 #    echo "Wrote ../$playlist"
     echo
