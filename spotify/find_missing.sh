@@ -28,23 +28,14 @@ find_missing(){
     #done
     echo "* Missing tracks in $current_playlist: (not found in "$grand_playlists")" >&2
     local uris_not_found=$(while read uri || [ -n "$uri" ]; do
-        [ $quiet -eq 0 -a $verbose -le 1 ] && echo -n "." >&2
+        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
         if grep -qixF "$uri" ${@:2}; then
-            echo "$uri"
-        fi
-    done < "$current_playlist"
-    )
-    [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
-    echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
-    #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
-    if [ $nolookup -eq 0 -a $verbose -ge 1 -a "$tracks_not_found" != "$(cat $current_playlist)" ]; then
-        echo
-        while read uri; do
-            if ! grep -qiFx "$uri" <<< "$tracks_not_found"; then
+            if [ $nolookup -eq 0 -a $verbose -ge 1 ]; then
                 track_name="$($spotify_lookup <<< "$uri")"
                 if [ -z "$track_name" ]; then
-                    echo "ERROR blank track name returned by $spotify_lookup for uri '$uri'" >&2
+                    echo "ERROR blank track name returned by $spotify_lookup" >&2
+                    echo "$uri"
                     continue
                 fi
                 if [ $verbose -ge 2 ]; then
@@ -55,8 +46,14 @@ find_missing(){
             else
                 [ $verbose -ge 1 ] && echo "already got '$uri'" >&2
             fi >&2
-        done < "$current_playlist"
-    fi >&2
+        else
+            echo "$uri"
+        fi
+    done < "$current_playlist"
+    )
+    [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
+    echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
+    #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     local tracks_not_found=$(
     echo "$uris_not_found" |
     grep -v "^[[:space:]]*$" |
@@ -64,7 +61,7 @@ find_missing(){
         if [ $nolookup -eq 0 ]; then
             # don't need to pushd we won't be popd-ing
             cd "$srcdir/.." >&2
-            [ $quiet -eq 0 -a $verbose -le 1 ] && echo -n "=" >&2
+            [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "=" >&2
             [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
             track_name="$($spotify_lookup <<< "$uri")"
             if [ -z "$track_name" ]; then
