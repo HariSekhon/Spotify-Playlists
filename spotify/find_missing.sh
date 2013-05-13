@@ -31,7 +31,7 @@ find_missing(){
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
         if grep -qixF "$uri" ${@:2}; then
-            if [ $nolookup -eq 0 ]; then
+            if [ $nolookup -eq 0 -a $verbose -ge 1 ]; then
                 track_name="$($spotify_lookup <<< "$uri")"
                 if [ -z "$track_name" ]; then
                     echo "ERROR blank track name returned by $spotify_lookup" >&2
@@ -56,6 +56,7 @@ find_missing(){
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     local tracks_not_found=$(
     echo "$uris_not_found" |
+    grep -v "^[[:space:]]*$" |
     while read uri; do
         if [ $nolookup -eq 0 ]; then
             # don't need to pushd we won't be popd-ing
