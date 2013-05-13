@@ -110,6 +110,14 @@ find_missing(){
         } | tee /dev/stderr | $clipboard
         echo -e "\nTracks Not Found: $(wc -l <<< "$tracks_not_found" | awk '{print $1}') / $(wc -l < "$current_playlist" | awk '{print $1}')"
     fi
+    if [ "$tracks_not_found" != "$(cat $current_playlist)" ]; then
+        echo
+        while read uri; do
+            if ! grep -qiFx "$uri" <<< "$tracks_not_found"; then
+                echo "found $(spotify-lookup.pl <<< "$uri")"
+            fi
+        done < "$current_playlist"
+    fi
     echo >&2
     echo >&2
 }
