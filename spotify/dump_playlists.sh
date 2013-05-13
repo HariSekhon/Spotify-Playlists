@@ -116,7 +116,7 @@ until [ $# -lt 1 ]; do
             ;;
         -*) usage
             ;;
-         *) playlists="$playlists ${1##*/}"
+         *) playlists="$playlists $1"
             ;;
     esac
     shift
