@@ -52,7 +52,7 @@ find_missing(){
     done < "$current_playlist"
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
-    echo ">>> $(echo "$uris_not_found" | wc -l | awk '{print $1}') / $(wc -l < "$current_playlist" | awk '{print $1}') URIs not found"
+    echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     local tracks_not_found=$(
     echo "$uris_not_found" |
