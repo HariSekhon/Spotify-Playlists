@@ -29,23 +29,25 @@ s/\s+(?:-\s+(?:\(|")?|\()
         )\s+
     )?
     (?:
-        Radio|(?:Digital\s)?Re-?master(?:ed)?|
-        Single|
+        (?:Digital\s)?Re-?master(?:ed)?|
+        (?:LP\s*\/?\s*)?(?:\w+)?(?:'|")?(?:\w+)?\s+Version|
+        (?:Mainstream\s+|Re-)?Edit|
+        (?:as )?made\s+famous|
         Album|
         Amended|
-        Main|
-        Uncut|
-        (?:Mainstream\s+|Re-)?Edit|
-        Explicit|
+        Bonus\s+Track|
         Clean|
+        Explicit|
+        Full\s+length
+        Live|
+        Main|
         Mix|
         Original|
-        Bonus\s+Track|
-        (?:LP\s*\/?\s*)?(?:\w+)?(?:'|")?(?:\w+)?\s+Version|
-        (?:as )?made\s+famous|
-        theme\s+from|
+        Radio|
+        Single|
+        Uncut|
         from|
-        Full\s+length
+        theme\s+from|
     )
     ([\s\)].*)?
     $/\n/xi;
