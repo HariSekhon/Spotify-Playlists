@@ -165,7 +165,7 @@ done
 
 [ $quiet -eq 1 ] && verbose=0
 
-spotify_lookup="spotify-lookup.pl $no_locking"
+spotify_lookup="spotify-lookup.pl --wait $no_locking"
 
 # If no current playlists, use a default list and add starred and current-hiphop and kiss
 if [ -z "$current_playlists" ]; then
