@@ -25,10 +25,18 @@ validate_playlist(){
         echo
         echo
         status=1
+    else
+        echo "Playlist $playlist valid, all lines matched"
     fi
 }
 
-for x in $@; do
-    validate_playlist "$x"
-done
+if [ -z "$@" ]; then
+    for x in $(find . -type f | grep -vi -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck"); do
+        validate_playlist "$x"
+    done
+else
+    for x in $@; do
+        validate_playlist "$x"
+    done
+fi
 exit $status
