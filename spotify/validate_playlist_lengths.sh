@@ -30,7 +30,7 @@ validate_playlist_length(){
 }
 
 if [ -n "$@" ]; then
-    for x in $(find . -type f | grep -v -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO"); do
+    for x in $(find . -type f | grep -vi -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck"); do
         validate_playlist_length "$x"
     done
 else
