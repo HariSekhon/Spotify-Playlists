@@ -15,6 +15,13 @@ set -u
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 
+for blacklist in blacklists/*; do
+    if [ `wc -l "$blacklist" | awk '{print $1}'` != `wc -l "../$blacklist" | awk '{print $1}'` ]; then
+        echo "ERROR: $blacklist wc -l != ../$blacklist wc -l"
+    fi
+done
+
+
 md5s="$(md5 $(ls blacklists/* | grep '^blacklists/[[:digit:]]\+$' | sed 's,blacklists/,blacklists / ,;s/)/ )/' | sort -k3n | sed 's,blacklists / ,blacklists/,;s/ )/)/') )"
 dups="$(sed 's/.* = //' <<< "$md5s" | sort | uniq -d )"
 for dup in $dups; do
