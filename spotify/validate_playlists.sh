@@ -13,6 +13,7 @@
 set -e
 set -u
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$srcdir" || { echo "Failed to cd to '$srcdir'"; exit 1; }
 
 status=0 
 validate_playlist(){
