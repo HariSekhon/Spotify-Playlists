@@ -24,8 +24,10 @@ validate_playlist_length(){
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
     tracklist_wc=$(wc -l "$tracklist" | awk '{print $1}')
     if [ "$playlist_wc" != "$tracklist_wc" ]; then
-        echo "Playlist $playlist dump invalid, mismatching number of lines ($playlist_wc vs $tracklist_wc)"
+        echo "Playlist $playlist dump invalid, mismatching number of lines ($playlist $playlist_wc vs $tracklist $tracklist_wc)"
         status=1
+    else
+        echo "Playlist $playlist $playlist_wc => $tracklist $tracklist_wc"
     fi
 }
 
