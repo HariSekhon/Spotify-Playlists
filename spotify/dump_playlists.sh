@@ -20,6 +20,7 @@ excluded_file(){
     [ -d "$filename" ] && return 0
     shopt -s nocasematch
     [[ "$filename" =~ .*\.sh ]] && return 0
+    [[ "$filename" =~ .*\.pl ]] && return 0
     [[ "$filename" =~ .*\.txt ]] && return 0
     [[ "$filename" =~ .*todo.* ]] && return 0
     [[ "$filename" =~ .*tocheck.* ]] && return 0
