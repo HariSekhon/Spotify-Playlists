@@ -16,8 +16,10 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 
 for blacklist in blacklists/*; do
-    if [ `wc -l "$blacklist" | awk '{print $1}'` != `wc -l "../$blacklist" | awk '{print $1}'` ]; then
+    [ -f "../$blacklist" ] || continue
+    if [ "`wc -l "$blacklist" | awk '{print $1}'`" != "`wc -l "../$blacklist" | awk '{print $1}'`" ]; then
         echo "ERROR: $blacklist wc -l != ../$blacklist wc -l"
+        exit 1
     fi
 done
 
@@ -34,11 +36,11 @@ for dup in $dups; do
         rm -vf "$filename" "../$filename"
     done <<< "$(fgrep "$dup" <<< "$md5s")"
     let num-=1
-    if [ $num -eq 1 ]; then
-        echo "removed $num duplicate of $dup"
-    else
-        echo "removed $num duplicates of $dup"
+    echo -n "removed $num duplicate"
+    if [ $num -ne 1 ]; then
+        echo -n "s"
     fi
+    echo " of $(grep "$dup" <<< "$md5s" | head -n1 | awk '{print $2" "$4}')"
 done
 
 # TODO: add shuffle files down algorithm
