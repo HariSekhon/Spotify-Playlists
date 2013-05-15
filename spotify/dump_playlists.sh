@@ -49,6 +49,9 @@ dump_playlist(){
         [ $returncode -eq 0 ] || { echo "$output"; return 1; }
     fi
     echo "Wrote ../$playlist"
+    echo "creating normalized playlist ../.$playlist"
+    ./normalize_tracknames.pl "../$playlist" > "../.$playlist"
+    echo "normalized playlist created"
     echo
     echo
 }
@@ -148,6 +151,13 @@ if [ "$all" -ge 1 ]; then
         fi
     done
     echo "Sorted playlists"
+    echo
+    echo
+    for playlist in $playlists; do
+        echo "creating normalized playlist ../.$playlist"
+        ./normalize_tracknames.pl "../$playlist" > "../.$playlist"
+        echo "normalized playlist created"
+    done
 else
     for x in $playlists; do
         dump_playlist "$x" || exit
