@@ -108,16 +108,16 @@ sub normalize ($) {
     my @parts   = split(" - ", $_, 2);
     my $artists = $parts[0];
     my $song    = $parts[1];
-    $artists =~ s/ duet with /,/;
-    if(@featuring){
-        $artists .= "," . join(",", @featuring);
-    }
     #$artists or quit "CRITICAL", "artists string is blank for line '$_'";
     #$song    or quit "CRITICAL", "song string is blank for line '$_'";
     unless($artists and $song){
         vlog2 "skipping line '$_' since \$artists or \$song is blank";
         print "$_\n";
         return;
+    }
+    $artists =~ s/ duet with /,/;
+    if(@featuring){
+        $artists .= "," . join(",", @featuring);
     }
     my @artists = split(",", $artists);
     $artists    = join(",", sort @artists);
