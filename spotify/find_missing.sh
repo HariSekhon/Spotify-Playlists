@@ -72,7 +72,7 @@ find_missing(){
             [ $verbose -ge 3 ] && echo "$track_name" >&2
             # Remove - Radio Edit etc...
             # Remove ^The from artist name
-            track_name="$("$srcdir/normalize_trackname.pl" <<< "$track_name")"
+            track_name="$("$srcdir/normalize_tracknames.pl" <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
             matches="$(grep -iF "$track_name" $grand_playlists 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
             if [ -n "$matches" ]; then
