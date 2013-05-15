@@ -55,42 +55,45 @@ vlog_options "files", "[ '" . join("', '", @files) . "' ]";
 
 sub normalize ($) {
     chomp;
+    # diff line removal
     /^(?:diff|[+-]{3}|\@\@) / and return;
     s/^[ +-]//;
-s/^The //i;
-s/\s+(?:-\s+(?:\(|")?|\()
-    (?:
+    # original track name normalization
+    s/^The //i;
+    s/\s+(?:-\s+(?:\(|")?|\()
         (?:
-            \d{1,4}"? |
-            New |
-            US |
-            UK
-        )\s+
-    )?
-    (?:
-        (?:Digital\s)?Re-?master(?:ed)?|
-        (?:LP\s*\/?\s*)?(?:\w+)?(?:'|")?(?:\w+)?\s+Version|
-        (?:Mainstream\s+|Re-)?Edit|
-        (?:as )?made\s+famous|
-        Album|
-        Amended|
-        Bonus\s+Track|
-        Clean|
-        Explicit|
-        Full\s+length
-        Live|
-        Main|
-        Mix|
-        Original|
-        Radio|
-        Single|
-        Uncut|
-        from|
-        theme\s+from|
-    )
-    (?:[\s\)].*)?
-    $//xi;
-s/( - .+) - Live$/$1/i;
+            (?:
+                \d{1,4}"? |
+                New |
+                US |
+                UK
+            )\s+
+        )?
+        (?:
+            (?:Digital\s)?Re-?master(?:ed)?|
+            (?:LP\s*\/?\s*)?(?:\w+)?(?:'|")?(?:\w+)?\s+Version|
+            (?:Mainstream\s+|Re-)?Edit|
+            (?:as )?made\s+famous|
+            Album|
+            Amended|
+            Bonus\s+Track|
+            Clean|
+            Explicit|
+            Full\s+length
+            Live|
+            Main|
+            Mix|
+            Original|
+            Radio|
+            Single|
+            Uncut|
+            from|
+            theme\s+from|
+        )
+        (?:[\s\)].*)?
+        $//xi;
+    s/( - .+) - Live$/$1/i;
+    # added extraction of featuring => artist
     # throwing away the first match to make sure I don't hit $1 from above in case there is no featuring
     s/()\(?feat(?:uring)?\.?\s+(.+)$//i;
     my $featuring;
