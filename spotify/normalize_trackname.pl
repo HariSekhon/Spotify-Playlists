@@ -96,7 +96,7 @@ sub normalize ($) {
     s/( - .+) - Live$/$1/i;
     # added extraction of featuring => artist
     # throwing away the first match to make sure I don't hit $1 from above in case there is no featuring
-    s/()\(?feat(?:uring)?\.?\s+(.+)$//i;
+    s/()(?:\s+-\s+|\()?feat(?:uring)?\.?\s+(.+)$//i;
     my $featuring;
     my @featuring;
     if(0){
