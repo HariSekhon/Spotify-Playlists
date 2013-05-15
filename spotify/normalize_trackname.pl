@@ -57,15 +57,16 @@ sub normalize ($) {
     chomp;
     # diff line removal
     /^(?:diff|[+-]{3}|\@\@) / and return;
-    s/^[ +-]//;
+    s/^([ +-])//;
+    my $diff = $1 ? $1 : "";
     # original track name normalization
     s/^The //i;
     s/\s+(?:-\s+(?:\(|")?|\()
         (?:
             (?:
-                \d{1,4}"? |
-                New |
-                US |
+                \d{1,4}"?(?:\s-)?|
+                New|
+                US|
                 UK
             )\s+
         )?
@@ -119,7 +120,7 @@ sub normalize ($) {
     }
     my @artists = split(",", $artists);
     $artists    = join(",", sort @artists);
-    print "$artists - $parts[1]\n";
+    print "$diff$artists - $parts[1]\n";
 }
 
 if(@files){
