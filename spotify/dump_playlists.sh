@@ -31,6 +31,16 @@ excluded_file(){
     return 1
 }
 
+normalize_playlist(){
+    local playlist="$1"
+    echo "creating normalized playlist ../.$playlist"
+    ./normalize_tracknames.pl "../$playlist" > "../.$playlist"
+    playlist_wc="$(wc -l < "../$playlist" | awk '{print $1}')"
+    normalized_playlist_wc="$(wc -l < "../.$playlist" | awk '{print $1}')"
+    [ "$playlist_wc" = "$normalized_playlist_wc" ] || { echo "ERROR: playlist vs normalized have mismatching line counts ($playlist_wc vs $normalized_playlist_wc)"; exit 1; }
+    echo "normalized playlist created"
+}
+
 dump_playlist(){
     local playlist="$1"
     #excluded_file "$playlist" && return 1
@@ -49,9 +59,7 @@ dump_playlist(){
         [ $returncode -eq 0 ] || { echo "$output"; return 1; }
     fi
     echo "Wrote ../$playlist"
-    echo "creating normalized playlist ../.$playlist"
-    ./normalize_tracknames.pl "../$playlist" > "../.$playlist"
-    echo "normalized playlist created"
+    normalize_playlist "$playlist"
     echo
     echo
 }
@@ -154,9 +162,7 @@ if [ "$all" -ge 1 ]; then
     echo
     echo
     for playlist in $playlists; do
-        echo "creating normalized playlist ../.$playlist"
-        ./normalize_tracknames.pl "../$playlist" > "../.$playlist"
-        echo "normalized playlist created"
+        normalize_playlist "$playlist"
     done
 else
     for x in $playlists; do
