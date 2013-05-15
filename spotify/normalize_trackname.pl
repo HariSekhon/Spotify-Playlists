@@ -94,6 +94,7 @@ sub normalize ($) {
         (?:[\s\)].*)?
         $//xi;
     s/( - .+) - Live$/$1/i;
+    #s/rmx/Remix/i;
     # added extraction of featuring => artist
     # throwing away the first match to make sure I don't hit $1 from above in case there is no featuring
     s/()(?:\s+-\s+|\()?feat(?:uring)?\.?\s+(.+)$//i;
