@@ -27,7 +27,7 @@ validate_playlist_length(){
         echo "Playlist $playlist dump invalid, mismatching number of lines ($playlist $playlist_wc vs $tracklist $tracklist_wc)"
         status=1
     else
-        echo "Playlist $playlist $playlist_wc => $tracklist $tracklist_wc"
+        echo "Playlist $playlist $playlist_wc => $tracklist $tracklist_wc line counts matched"
     fi
 }
 
