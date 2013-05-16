@@ -33,10 +33,11 @@ excluded_file(){
 
 normalize_playlist(){
     local playlist="$1"
+    local normalized_playlist="$(dirname "$playlist")/.$(basename "$playlist")"
     echo "creating normalized playlist ../.$playlist"
-    ./normalize_tracknames.pl "../$playlist" > "../.$playlist"
+    ./normalize_tracknames.pl "../$playlist" > "../$normalized_playlist"
     playlist_wc="$(wc -l < "../$playlist" | awk '{print $1}')"
-    normalized_playlist_wc="$(wc -l < "../.$playlist" | awk '{print $1}')"
+    normalized_playlist_wc="$(wc -l < "../$normalized_playlist" | awk '{print $1}')"
     [ "$playlist_wc" = "$normalized_playlist_wc" ] || { echo "ERROR: playlist vs normalized have mismatching line counts ($playlist_wc vs $normalized_playlist_wc)"; exit 1; }
     echo "normalized playlist created"
 }
