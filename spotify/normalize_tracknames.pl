@@ -97,7 +97,7 @@ sub normalize ($) {
     #s/rmx/Remix/i;
     # added extraction of featuring => artist
     # throwing away the first match to make sure I don't hit $1 from above in case there is no featuring
-    s/()(?:\s+-\s+|\(|\s+)feat(?:\.|uring)\s+([^\)-]+)/ /i;
+    s/()(?:\s+-\s+|\(|\s+)feat(?:\.|uring)\s+([^\)-]+)(?:\)\s*)?/ /i;
     my $featuring;
     my @featuring;
     if($2){
@@ -120,7 +120,7 @@ sub normalize ($) {
     if(@featuring){
         $artists .= "," . join(",", @featuring);
     }
-    my @artists = split(/,|&/, $artists);
+    my @artists = split(/,|&|with/, $artists);
     foreach(my $i=0; $i < scalar @artists; $i++){
         $artists[$i] = trim($artists[$i]);
     }
