@@ -27,6 +27,9 @@ find_missing(){
     #    [ -f "$grand_playlist" ] || { echo "Grand playlist file not found: $grand_playlist"; exit 1; }
     #done
     echo "* Missing tracks in $current_playlist: (not found in "$grand_playlists")" >&2
+    for playlist in $grand_playlists; do
+        grand_playlists="$grand_playlists $(dirname "$playlist")/.$(basename "$playlist")"
+    done
     local uris_not_found=$(while read uri || [ -n "$uri" ]; do
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
