@@ -23,6 +23,9 @@ for blacklist in blacklists/*; do
     fi
 done
 
+# Wanted to check ../blacklists/ for dups as well but tracknames change so often as to render that useless
+# Even this will miss a lot
+# TODO: consider switching this from md5 to diff two playlists of same length and if more than 90% similarity exclude
 md5s="$(md5 $(ls blacklists/* | grep '^blacklists/[[:digit:]]\+$' | sed 's,blacklists/,blacklists / ,;s/)/ )/' | sort -k3n | sed 's,blacklists / ,blacklists/,;s/ )/)/') )"
 dups="$(sed 's/.* = //' <<< "$md5s" | sort | uniq -d )"
 for dup in $dups; do
