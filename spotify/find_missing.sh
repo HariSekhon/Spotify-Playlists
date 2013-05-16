@@ -115,6 +115,7 @@ find_missing(){
 }
 
 usage(){
+    [ -n "$@" ] && echo "$@" && echo
     cat <<EOF
 ${0##*/} [-g] [-nolookup] playlist1 playlist2
 
@@ -143,10 +144,21 @@ while [ $# -gt 0 ]; do
                         ;;
      -s|--spotify-uri)  notranslate=1
                         ;;
--a|--additional-grand-playlists)  additional_grand_playlists="${additional_grand_playlists} ${2:-}"
+-a|--additional-grand-playlists)
+                        [ -n "${2:-}" ] || usage "must specify arg to -a switch"
+                        if [ -d "$2" ]; then
+                            additional_grand_playlists="$additional_grand_playlists $(ls "$2"/*)"
+                        else
+                            additional_grand_playlists="$additional_grand_playlists $2"
+                        fi
                         shift
                         ;;
- -g|--grand-playlists)  grand_playlists="$grand_playlists ${2:-}"
+ -g|--grand-playlists)  [ -n "${2:-}" ] || usage "must specify arg to -g switch"
+                        if [ -d "$2" ]; then
+                            grand_playlists="$grand_playlists $(ls "$2"/*)"
+                        else
+                            grand_playlists="$grand_playlists $2"
+                        fi
                         shift
                         ;;
          --no-locking)  no_locking="--no-locking"
