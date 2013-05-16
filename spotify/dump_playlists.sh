@@ -34,7 +34,7 @@ excluded_file(){
 normalize_playlist(){
     local playlist="$1"
     local normalized_playlist="$(dirname "$playlist")/.$(basename "$playlist")"
-    echo "creating normalized playlist ../.$playlist"
+    echo "creating normalized playlist ../.$normalized_playlist"
     ./normalize_tracknames.pl "../$playlist" > "../$normalized_playlist"
     playlist_wc="$(wc -l < "../$playlist" | awk '{print $1}')"
     normalized_playlist_wc="$(wc -l < "../$normalized_playlist" | awk '{print $1}')"
@@ -42,20 +42,26 @@ normalize_playlist(){
     echo "normalized playlist created"
 }
 
+normalize_filename(){
+    local playlist="${1#$srcdir/}"
+    echo "$playlist"
+}
+
 dump_playlist(){
-    local playlist="$1"
+    local playlist="$(normalize_filename "$playlist")"
     #excluded_file "$playlist" && return 1
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
     spotify_lookup="spotify-lookup.pl --wait $verbose -f $playlist $no_locking -s $speed_up $retries"
+    playlist_dumpfile="../$(dirname "$playlist")/$(basename "$playlist")"
     if grep -qxFi "$playlist" "playlists_sort.txt"; then
         output="$($spotify_lookup)"
         returncode=$?
-        echo "$output" | sort -f > "../$playlist"
+        echo "$output" | sort -f > "$playlist_dumpfile"
         [ $returncode -eq 0 ] || { echo "ERROR: $output"; return 1; }
     else
-        $spotify_lookup > "../$playlist"
+        $spotify_lookup > "$playlist_dumpfile"
         returncode=$?
         [ $returncode -eq 0 ] || { echo "$output"; return 1; }
     fi
@@ -143,11 +149,11 @@ done
 if [ "$everything" -ge 1 ]; then
     for x in *; do
         excluded_file "$x" && continue
-        playlists="$playlists $x"
+        playlists="$playlists $(normalize_filename "$x")"
     done
 elif [ -z "$playlists" ]; then
     for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_nosort.txt playlists_sort.txt); do
-        playlists="$playlists $x"
+        playlists="$playlists $(normalize_filename "$x")"
     done
 fi
 
@@ -155,6 +161,7 @@ if [ "$all" -ge 1 ]; then
     dump_playlists "$playlists"
     # Sort playlist that we want sorted
     for playlist in $playlists; do
+        playlist="$(normalize_filename "$playlist")"
         if grep -qxFi "$playlist" "playlists_sort.txt"; then
             sort -f < "../$playlist" > "../$playlist.tmp" && mv -f "../$playlist.tmp" "../$playlist"
         fi
@@ -163,11 +170,13 @@ if [ "$all" -ge 1 ]; then
     echo
     echo
     for playlist in $playlists; do
+        playlist="$(normalize_filename "$playlist")"
         normalize_playlist "$playlist"
     done
 else
-    for x in $playlists; do
-        dump_playlist "$x" || exit
+    for playlist in $playlists; do
+        playlist="$(normalize_filename "$playlist")"
+        dump_playlist "$playlist" || exit
     done
 fi
 stop=$(date +%s)
