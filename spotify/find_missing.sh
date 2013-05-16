@@ -31,7 +31,6 @@ find_missing(){
         grand_playlists="$grand_playlists $(dirname "$playlist")/.$(basename "$playlist")"
     done
     local uris_not_found=$(while read uri || [ -n "$uri" ]; do
-        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
         #echo "reading uri: $uri" >&2
         if grep -qixF "$uri" ${@:2}; then
             if [ $nolookup -eq 0 -a $verbose -ge 1 ]; then
@@ -52,6 +51,7 @@ find_missing(){
         else
             echo "$uri"
         fi
+        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
     done < "$current_playlist"
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
@@ -62,9 +62,9 @@ find_missing(){
     grep -v "^[[:space:]]*$" |
     while read uri; do
         if [ $nolookup -eq 0 ]; then
+            char="?"
             # don't need to pushd we won't be popd-ing
             cd "$srcdir/.." >&2
-            [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "=" >&2
             [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
             track_name="$($spotify_lookup <<< "$uri")"
             if [ -z "$track_name" ]; then
@@ -79,14 +79,17 @@ find_missing(){
             #echo "checking track name '$track_name'" >&2
             matches="$(grep -iF "$track_name" $grand_playlists 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
             if [ -n "$matches" ]; then
+                char="="
                 if [ $verbose -ge 2 ]; then
                     echo "already got '$track_name' ($matches)" >&2
                 elif [ $verbose -ge 1 ]; then
                     echo "already got '$track_name'" >&2
                 fi
             else
+                char="_"
                 echo "$uri"
             fi
+            [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "$char" >&2
         else
             echo "$uri"
         fi
