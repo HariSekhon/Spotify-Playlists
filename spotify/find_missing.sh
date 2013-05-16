@@ -150,7 +150,7 @@ while [ $# -gt 0 ]; do
                         ;;
      -s|--spotify-uri)  notranslate=1
                         ;;
-       -b|--blacklists) additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/blacklists/"* | sed 's/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//' | head -n $(($(ls "$srcdir/blacklists/"* | wc -l | awk '{print $1}')-1)))"
+       -b|--blacklists) additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"* | sed 's/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//' | head -n $(($(ls "$srcdir/blacklists/"* | wc -l | awk '{print $1}')-1)))"
                         ;;
 -a|--additional-grand-playlists)
                         [ -n "${2:-}" ] || usage "must specify arg to -a switch"
