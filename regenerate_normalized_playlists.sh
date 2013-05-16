@@ -18,4 +18,4 @@ cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 #echo "Removing old normalized lists"
 #find . -type f -name '.*' -maxdepth 1 -exec echo rm -v {} \;
 echo "Creating new normalized lists"
-find . blacklists -type f -maxdepth 1 | grep -vi -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck" | sed 's/^\.\///' | while read x; do echo "generating normalized playlist $x => .$x"; spotify/normalize_tracknames.pl "$x" > ".$x"; done
+find . blacklists -type f -maxdepth 1 | grep -vi -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck" | while read x; do dirname="$(dirname "$x")"; basename="$(basename "$x")"; echo "generating normalized playlist $x => $dirname/.$basename"; spotify/normalize_tracknames.pl "$x" > "$dirname/.$basename"; done
