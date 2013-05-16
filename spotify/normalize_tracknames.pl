@@ -120,7 +120,10 @@ sub normalize ($) {
     if(@featuring){
         $artists .= "," . join(",", @featuring);
     }
-    my @artists = split(",", $artists);
+    my @artists = split(/,|&/, $artists);
+    foreach(my $i=0; $i < scalar @artists; $i++){
+        $artists[$i] = trim($artists[$i]);
+    }
     $artists    = join(",", sort @artists);
     print "$diff$artists - $parts[1]\n";
 }
