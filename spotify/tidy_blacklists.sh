@@ -23,7 +23,6 @@ for blacklist in blacklists/*; do
     fi
 done
 
-
 md5s="$(md5 $(ls blacklists/* | grep '^blacklists/[[:digit:]]\+$' | sed 's,blacklists/,blacklists / ,;s/)/ )/' | sort -k3n | sed 's,blacklists / ,blacklists/,;s/ )/)/') )"
 dups="$(sed 's/.* = //' <<< "$md5s" | sort | uniq -d )"
 for dup in $dups; do
@@ -42,5 +41,3 @@ for dup in $dups; do
     fi
     echo " of $(grep "$dup" <<< "$md5s" | head -n1 | awk '{print $2" "$4}')"
 done
-
-# TODO: add shuffle files down algorithm
