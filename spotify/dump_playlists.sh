@@ -34,7 +34,7 @@ excluded_file(){
 normalize_playlist(){
     local playlist="$1"
     local normalized_playlist="$(dirname "$playlist")/.$(basename "$playlist")"
-    echo "creating normalized playlist ../.$normalized_playlist"
+    echo "creating normalized playlist ../$normalized_playlist"
     ./normalize_tracknames.pl "../$playlist" > "../$normalized_playlist"
     playlist_wc="$(wc -l < "../$playlist" | awk '{print $1}')"
     normalized_playlist_wc="$(wc -l < "../$normalized_playlist" | awk '{print $1}')"
