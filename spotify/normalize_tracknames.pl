@@ -71,7 +71,7 @@ sub normalize ($) {
             )\s+
         )?
         (?:
-            (?:Digital\s)?Re-?master(?:ed)?|
+            (?:Digital(?:ly)?\s)?Re-?master(?:ed)?|
             (?:LP\s*\/?\s*)?(?:\w+)?(?:'|")?(?:\w+)?\s+Version|
             (?:Mainstream\s+|Re-)?Edit|
             (?:as )?made\s+famous|
