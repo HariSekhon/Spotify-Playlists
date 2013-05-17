@@ -124,7 +124,7 @@ sub normalize ($) {
     foreach(my $i=0; $i < scalar @artists; $i++){
         $artists[$i] = trim($artists[$i]);
     }
-    $artists    = join(",", sort @artists);
+    $artists    = join(",", uniq_array(@artists));
     print "$diff$artists - $parts[1]\n";
 }
 
