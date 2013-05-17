@@ -58,6 +58,7 @@ find_missing(){
     echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     pushd "$srcdir/.." >/dev/null || { echo "failed to pushd to '$srcdir/..'"; exit 1; }
+    echo "$grand_playlists" > /tmp/grand_playlists
     local tracks_not_found=$(
     echo "$uris_not_found" |
     grep -v "^[[:space:]]*$" |
@@ -76,7 +77,7 @@ find_missing(){
             # Remove ^The from artist name
             track_name="$("$srcdir/normalize_tracknames.pl" <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
-            matches="$(grep -iF "$track_name" $grand_playlists 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
+            matches="$(xargs grep -iF "$track_name" < /tmp/grand_playlists 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
             if [ -n "$matches" ]; then
                 char="="
                 if [ $verbose -ge 2 ]; then
