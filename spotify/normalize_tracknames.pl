@@ -90,7 +90,10 @@ sub normalize ($) {
             Uncut|
             from|
             theme\s+from|
-        )
+            Stereo|
+            Mono|
+            Juke[\s-]?Box
+        )\b
         (?:[\s\)].*)?
         $//xi;
     s/( - .+) - Live$/$1/i;
