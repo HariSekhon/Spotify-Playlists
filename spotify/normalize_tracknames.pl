@@ -121,9 +121,7 @@ sub normalize ($) {
     if(@featuring){
         $artists .= "," . join(",", @featuring);
     }
-    #$artists =~ s/\b\s*feat(?:\.|uring)?\s/,/ &&
-    #$artists =~ s/,+/,/g;
-    my @artists = split(/,|&|with/i, $artists);
+    my @artists = split(/,|&|with|and/i, $artists);
     foreach(my $i=0; $i < scalar @artists; $i++){
         $artists[$i] = trim($artists[$i]);
     }
