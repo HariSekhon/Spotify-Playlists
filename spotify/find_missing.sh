@@ -57,14 +57,13 @@ find_missing(){
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
     echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
+    pushd "$srcdir/.." >/dev/null || { echo "failed to pushd to '$srcdir/..'"; exit 1; }
     local tracks_not_found=$(
     echo "$uris_not_found" |
     grep -v "^[[:space:]]*$" |
     while read uri; do
         if [ $nolookup -eq 0 ]; then
             char="?"
-            # don't need to pushd we won't be popd-ing
-            cd "$srcdir/.." >&2
             [ $verbose -ge 2 ] && echo -n "resolving/checking $track => " >&2
             track_name="$($spotify_lookup <<< "$uri")"
             if [ -z "$track_name" ]; then
@@ -95,6 +94,7 @@ find_missing(){
         fi
     done
     )
+    popd >/dev/null
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
     if [ -n "$tracks_not_found" ]; then
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
