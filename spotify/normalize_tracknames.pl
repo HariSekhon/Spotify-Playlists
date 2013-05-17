@@ -98,13 +98,13 @@ sub normalize ($) {
     #s/rmx/Remix/i;
     # added extraction of featuring => artist
     # throwing away the first match to make sure I don't hit $1 from above in case there is no featuring
-    s/()(?:\s+-\s+|\(|\s+)feat(?:\.|uring)\s+([^\)-]+)(?:\)\s*)?/ /i;
+    s/()(?:\s+-\s+|\(|\s+|,)feat(?:\.|uring)\s+(\w+[\w-]?\w+(?:\s+\w+[\w-]\w+)*|[^\)-]+)(?:\)\s*)?/ /i;
     my $featuring;
     my @featuring;
     if($2){
         $featuring = $2;
         $featuring = trim($featuring);
-        @featuring = split(/(?:and|\&)/, $featuring);
+        @featuring = split(/(?:and|\&)/i, $featuring);
         #$featuring =~ s/(?:and|\&)//;
     }
     my @parts   = split(" - ", $_, 2);
@@ -121,9 +121,10 @@ sub normalize ($) {
     if(@featuring){
         $artists .= "," . join(",", @featuring);
     }
-    my @artists = split(/,|&|with/, $artists);
+    #$artists =~ s/\b\s*feat(?:\.|uring)?\s/,/ &&
+    #$artists =~ s/,+/,/g;
+    my @artists = split(/,|&|with/i, $artists);
     foreach(my $i=0; $i < scalar @artists; $i++){
-        $artists[$i] =~ s/\bfeat(?:\.|uring)?\s//;
         $artists[$i] = trim($artists[$i]);
     }
     $artists    = join(",", uniq_array(@artists));
