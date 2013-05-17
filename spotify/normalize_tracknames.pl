@@ -123,6 +123,7 @@ sub normalize ($) {
     }
     my @artists = split(/,|&|with/, $artists);
     foreach(my $i=0; $i < scalar @artists; $i++){
+        $artists[$i] =~ s/\bfeat(?:\.|uring)?\s//;
         $artists[$i] = trim($artists[$i]);
     }
     $artists    = join(",", uniq_array(@artists));
