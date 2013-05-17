@@ -71,7 +71,7 @@ sub normalize ($) {
             )\s+
         )?
         (?:
-            (?:Digital(?:ly)?\s)?Re-?master(?:ed)?|
+            (?:Digital(?:ly)?\s|Re-recorded\s+\/\s+)?Re-?master(?:ed)?|
             (?:LP\s*\/?\s*)?(?:\w+)?(?:'|")?(?:\w+)?\s+Version|
             (?:Mainstream\s+|Re-)?Edit|
             (?:as )?made\s+famous|
@@ -94,6 +94,7 @@ sub normalize ($) {
         (?:[\s\)].*)?
         $//xi;
     s/( - .+) - Live$/$1/i;
+    s/\?*$//;
     #s/rmx/Remix/i;
     # added extraction of featuring => artist
     # throwing away the first match to make sure I don't hit $1 from above in case there is no featuring
