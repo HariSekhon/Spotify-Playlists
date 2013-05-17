@@ -14,14 +14,15 @@ set -e
 set -u
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-"$srcdir/paste_playlists.sh" $@
+#"$srcdir/paste_playlists.sh" $@
 #read -p "Press enter to process with dumping of track names"
-playlists_changed=""
-for x in $@; do
-    if hg st -A "$x" | grep -v -e "^C" | grep -q '.*'; then
-        playlists_changed="$playlists_changed $x"
-    fi
-done
+playlists="$@"
+if [ -z "$playlists" ]; then
+    playlists_sort="$(sed 's/#.*//' < "playlists_sort.txt")"
+    playlists_nosort="$(sed 's/#.*//' < "playlists_nosort.txt")"
+    playlists="$playlists_nosort $playlists_sort"
+fi
+playlists_changed="$(hg st -A $playlists | grep -v -e "^[CI]" | sed 's/..//' )"
 if [ -n "$playlists_changed" ]; then
     "$srcdir/dump_playlists.sh" -a $playlists_changed
 fi
