@@ -15,6 +15,8 @@ cd "$srcdir" || { echo "Failed to cd to '$srcdir'"; exit 1; }
 total_playlists=0
 total_tracks=0
 
+spotify_program="spotify-lookup.pl --wait --retries 10"
+
 excluded_file(){
     local filename="$1"
     [ -d "$filename" ] && return 0
@@ -53,7 +55,7 @@ dump_playlist(){
     [ -f "$playlist" ] || { echo "File not found: $playlist"; return 1; }
     let total_playlists+=1
     let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
-    spotify_lookup="spotify-lookup.pl --wait $verbose -f $playlist $no_locking -s $speed_up $retries"
+    spotify_lookup="$spotify_program $verbose -f $playlist $no_locking -s $speed_up $retries"
     playlist_dumpfile="../$(dirname "$playlist")/$(basename "$playlist")"
     if grep -qxFi "$playlist" "playlists_sort.txt"; then
         output="$($spotify_lookup)"
@@ -82,7 +84,7 @@ dump_playlists(){
     done
     playlists=${playlists#,}
     playlists=${playlists%,}
-    spotify-lookup.pl --wait -w "../`dirname $playlist`" -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
+    $spotify_program -w "../`dirname $playlist`" -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
 #    if grep -qxFi "$playlist" "playlists_sort.txt"; then
 #        spotify-lookup.pl --wait -v -f "$playlist" | sort -f > "../$playlist"
 #    else
