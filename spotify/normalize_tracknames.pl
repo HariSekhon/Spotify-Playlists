@@ -129,7 +129,11 @@ sub normalize ($) {
         $artists[$i] = trim($artists[$i]);
     }
     $artists    = join(",", uniq_array(@artists));
-    print "$diff$artists - $parts[1]\n";
+    my $normalized_trackname="$diff$artists - $parts[1]";
+    print STDERR "WARNING normalized artist is empty: '$_' => '$normalized_trackname'\n" unless $artists;
+    print STDERR "WARNING normalized track name is empty: '$_' => '$normalized_trackname'\n" unless $parts[1];
+    print STDERR "WARNING normalized trackname < 7 chars: '$normalized_trackname'\n" if(length($normalized_trackname) < 7);
+    print "$normalized_trackname\n";
 }
 
 if(@files){
