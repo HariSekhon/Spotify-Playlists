@@ -32,7 +32,9 @@ find_missing(){
     done
     local uris_not_found=$(while read uri || [ -n "$uri" ]; do
         #echo "reading uri: $uri" >&2
+        char="?"
         if grep -qixF "$uri" ${@:2}; then
+            char=":"
             if [ $nolookup -eq 0 -a $verbose -ge 1 ]; then
                 track_name="$($spotify_lookup <<< "$uri")"
                 if [ -z "$track_name" ]; then
@@ -49,9 +51,10 @@ find_missing(){
                 [ $verbose -ge 1 ] && echo "already got '$uri'" >&2
             fi >&2
         else
+            char="."
             echo "$uri"
         fi
-        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
+        [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "$char" >&2
     done < "$current_playlist" || exit $?
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
