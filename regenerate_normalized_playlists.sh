@@ -18,4 +18,23 @@ cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 #echo "Removing old normalized lists"
 #find . -type f -name '.*' -maxdepth 1 -exec echo rm -v {} \;
 echo "Creating new normalized lists"
-find . blacklists -type f -maxdepth 1 | grep -vi -e "/\." -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck" | while read x; do dirname="$(dirname "$x")"; basename="$(basename "$x")"; echo "generating normalized playlist $x => $dirname/.$basename"; spotify/normalize_tracknames.pl "$x" > "$dirname/.$basename"; done
+playlists="$(find . blacklists -type f -maxdepth 1 | sed 's/^\.\///' | grep -vi -e "^/\?\." -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck")"
+
+max_len=0
+while read playlist; do
+    [ ${#playlist} -gt $max_len ] &&
+        max_len=${#playlist}
+done <<< "$playlists"
+
+while read playlist; do
+    dirname="$(dirname "$playlist")"
+    if [ "$dirname" = "." ]; then
+        dirname=""
+    else
+        dirname="$dirname/"
+    fi
+    basename="$(basename "$playlist")"
+    printf "generating normalized playlist %-${max_len}s => %s\n" "$playlist" "$dirname.$basename"
+    spotify/normalize_tracknames.pl "$playlist" > "$dirname.$basename"
+done <<< "$playlists"
+echo "DONE"
