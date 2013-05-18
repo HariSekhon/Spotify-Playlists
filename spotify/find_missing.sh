@@ -37,8 +37,8 @@ find_missing(){
                 track_name="$($spotify_lookup <<< "$uri")"
                 if [ -z "$track_name" ]; then
                     echo "ERROR blank track name returned by $spotify_lookup" >&2
-                    echo "$uri"
-                    continue
+                    echo "$uri WAS NOT RESOLVED"
+                    exit 1
                 fi
                 if [ $verbose -ge 2 ]; then
                     echo "already got '$track_name'   <=  $uri" >&2
@@ -52,7 +52,7 @@ find_missing(){
             echo "$uri"
         fi
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "." >&2
-    done < "$current_playlist"
+    done < "$current_playlist" || exit $?
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
     echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
@@ -69,8 +69,8 @@ find_missing(){
             track_name="$($spotify_lookup <<< "$uri")"
             if [ -z "$track_name" ]; then
                 echo "ERROR blank track name returned by $spotify_lookup" >&2
-                echo "$uri"
-                continue
+                echo "$uri WAS NOT RESOLVED"
+                exit 1
             fi
             [ $verbose -ge 3 ] && echo "$track_name" >&2
             # Remove - Radio Edit etc...
@@ -93,7 +93,7 @@ find_missing(){
         else
             echo "$uri"
         fi
-    done
+    done || exit $?
     )
     popd >/dev/null
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
