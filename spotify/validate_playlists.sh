@@ -19,7 +19,7 @@ status=0
 validate_playlist(){
     local playlist="$1"
     [ -f "$playlist" ] || { echo "File not found: $playlist"; exit 1; }
-    local unrecognized_lines="$(egrep -v -e '^http://open.spotify.com/track/[A-Za-z0-9]{22}$' -e 'http://open.spotify.com/local/{1,3}[A-Za-z0-9\.\/\%\+-]+/[[:digit:]]{2,3}$' "$playlist")"
+    local unrecognized_lines="$(egrep -v -e '^spotify:track:[A-Za-z0-9]{22}$' -e '^spotify:track:local/{1,3}[A-Za-z0-9\.\/\%\+-]+/[[:digit:]]{2,3}$' "$playlist")"
     if [ -n "$unrecognized_lines" ]; then
         echo "Playlist Invalid, unrecognized lines:"
         echo
