@@ -23,9 +23,8 @@ delete $ENV{'ENV'};
 my $srcdir            = dirname(__FILE__);
 my $blacklistdir      = "$srcdir/blacklists";
 my $blacklisttrackdir = "$srcdir/../blacklists"; 
-chdir($blacklistdir) or die "Failed to chdir to $blacklistdir";
 
-opendir my $fh, "." or die "Can't opendir blacklist dir '$blacklistdir': $!\n";
+opendir my $fh, "$blacklistdir" or die "Can't opendir blacklist dir '$blacklistdir': $!\n";
 my @filelist;
 foreach(readdir($fh)){
     if(/^(\d+)$/){
@@ -43,7 +42,7 @@ foreach(readdir($fh)){
 my %fileslots;
 
 foreach(my $i=1;$i<=$filelist[-1];$i++){
-    if ( -e "$i"){
+    if ( -e "$blacklistdir/$i"){
         $fileslots{$i} = "1";
     }
 }
@@ -53,7 +52,7 @@ foreach my $i (@filelist){
     my @slots = sort { $a <=> $b } keys %fileslots;
     my $highest_slot = $slots[-1];
     foreach(my $j=1; $j < $highest_slot; $j++){
-        ( -e "$j" ) and next;
+        ( -e "$blacklistdir/$j" ) and next;
         $next_free_slot = $j;
         last;
     }
@@ -64,8 +63,16 @@ foreach my $i (@filelist){
     next if ($next_free_slot > $i);
 
     if ( $i ne $next_free_slot ){
-        system("hg mv -v '$i' '$next_free_slot'") and die "Failed to move $i => $next_free_slot";
-        system("hg mv -v '$blacklisttrackdir/$i' '$blacklisttrackdir/$next_free_slot'") and die "Failed to move tracks $i => $next_free_slot";
+        my $hg = "hg";
+        system("hg st '$blacklistdir/$i' | grep -q ^?");
+        if($? eq 0){
+            $hg = "";
+        }
+        system("$hg mv -v '$blacklistdir/$i' '$blacklistdir/$next_free_slot'") and die "Failed to move $i => $next_free_slot";
+        system("$hg mv -v '$blacklisttrackdir/$i' '$blacklisttrackdir/$next_free_slot'") and die "Failed to move tracks $i => $next_free_slot";
+        if($hg){
+            system("hg ci -m 'moved blacklist $i => $next_free_slot' '$blacklistdir/$i' '$blacklistdir/$next_free_slot' '$blacklisttrackdir/$i' '$blacklisttrackdir/$next_free_slot'") and die "Failed to commit move $i => $next_free_slot";
+        }
         $fileslots{$next_free_slot} = 1;
         delete $fileslots{$i};
     }
