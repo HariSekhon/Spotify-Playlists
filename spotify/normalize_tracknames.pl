@@ -94,7 +94,7 @@ sub normalize ($) {
             Mono|
             Juke[\s-]?Box
         )\b
-        (?:[\s\)].*)?
+        (?:[;\s\)].*)?
         $//xi;
     s/( - .+) - Live$/$1/i;
     s/\?*$//;
