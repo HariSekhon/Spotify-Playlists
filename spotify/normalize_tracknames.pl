@@ -101,7 +101,7 @@ sub normalize ($) {
     #s/rmx/Remix/i;
     # added extraction of featuring => artist
     # throwing away the first match to make sure I don't hit $1 from above in case there is no featuring
-    s/()(?:\s+-\s+|\(|\s+|,)feat(?:\.|uring)\s+(\w+[\w-]?\w+(?:\s+\w+[\w-]\w+)*|[^\)-]+)(?:\)\s*)?/ /i;
+    s/()(?:\s+-\s+|\(|\s+|,)(?:feat(?:\.|uring)|duet(?:\s+with)?)\s+(\w+[\w-]?\w+(?:\s+\w+[\w-]\w+)*|[^\)-]+)(?:\)\s*)?/ /i;
     my $featuring;
     my @featuring;
     if($2){
