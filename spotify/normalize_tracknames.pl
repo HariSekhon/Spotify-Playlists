@@ -61,7 +61,7 @@ sub normalize ($) {
     my $diff = $1 ? $1 : "";
     # original track name normalization
     s/^The //i;
-    s/\s+(?:-\s+(?:\(|")?|\()
+    s/\s+(?:-\s+(?:\(|")?|\(|\[)
         (?:
             (?:
                 \d{1,4}"?(?:\s-)?|
@@ -94,7 +94,7 @@ sub normalize ($) {
             Mono|
             Juke[\s-]?Box
         )\b
-        (?:[;\s\)].*)?
+        (?:[;\s\)\]].*)?
         $//xi;
     s/( - .+) - Live$/$1/i;
     s/\?*$//;
