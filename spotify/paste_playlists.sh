@@ -11,7 +11,7 @@
 #  vim:ts=4:sw=4:et
 
 srcdir=$(dirname $(which $0))
-cd "$srcdir" || exit 1;
+cd "$srcdir" || { echo "Failed to cd to '$srcdir'"; exit 1; }
 playlists_unordered="$(sed 's/#.*//' < "playlists_unordered.txt")"
 playlists_ordered="$(sed 's/#.*//' < "playlists_ordered.txt")"
 #inspiration
