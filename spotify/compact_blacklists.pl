@@ -61,11 +61,11 @@ foreach my $i (@filelist){
         print "Nothing to compact\n";
         exit 0;
     }
-    next if ($next_free_slot ge $i);
+    next if ($next_free_slot > $i);
 
     if ( $i ne $next_free_slot ){
-        system("echo hg mv -v '$i' '$next_free_slot'") and die "Failed to move $i => $next_free_slot";
-        system("echo hg mv -v '$blacklisttrackdir/$i' '$blacklisttrackdir/$next_free_slot'") and die "Failed to move tracks $i => $next_free_slot";
+        system("hg mv -v '$i' '$next_free_slot'") and die "Failed to move $i => $next_free_slot";
+        system("hg mv -v '$blacklisttrackdir/$i' '$blacklisttrackdir/$next_free_slot'") and die "Failed to move tracks $i => $next_free_slot";
         $fileslots{$next_free_slot} = 1;
         delete $fileslots{$i};
     }
