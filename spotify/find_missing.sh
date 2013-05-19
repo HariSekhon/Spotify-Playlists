@@ -55,9 +55,8 @@ find_missing(){
             echo "$uri"
         fi
         [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "$char" >&2
-    done < "$current_playlist" || exit $?
+    done < "$current_playlist"
     )
-    [ $? = 0 ] || exit $?
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
     echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
@@ -97,10 +96,8 @@ find_missing(){
         else
             echo "$uri"
         fi
-    done || exit $?
+    done
     )
-    # TODO: Not of these work to raise error through the subshells to exit the script
-    [ $? = 0 ] || exit $?
     popd >/dev/null
     # This is because we can't have 2 instance of spotify-lookup.pl running at the same time
     if [ -n "$tracks_not_found" ]; then
