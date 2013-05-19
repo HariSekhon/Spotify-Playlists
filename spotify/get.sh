@@ -26,4 +26,6 @@ fi
 playlists_changed="$(hg st -A $playlists | grep -v -e "^[CI]" | sed 's/..//' )"
 if [ -n "$playlists_changed" ]; then
     "$srcdir/dump_playlists.sh" -a $playlists_changed
+else
+    echo "No playlist changed, skipping re-dump"
 fi
