@@ -42,11 +42,11 @@ end_newline(){
 }
 
 convert_spotify_uri_http(){
-    perl -pi -e 's/^spotify:track:/http:\/\/open.spotify.com\/track\//' "$1"
+    perl -pi -e 's/^spotify:track:/http:\/\/open.spotify.com\/track\//; s/^spotify:local:::(.+):(\d+)/http:\/\/open.spotify.com\/local\/\/\/\1\/\2/' "$1"
 }
 
 convert_spotify_http_uri(){
-    perl -pi -e 's/^http:\/\/open.spotify.com\/track\//spotify:track:/' "$1"
+    perl -pi -e 's/^http:\/\/open.spotify.com\/track\//spotify:track:/; s/^http:\/\/open.spotify.com\/local\/\/\/(.+)\/(\d+)/spotify:local:::\1:\2/' "$1"
 }
 
 paste_playlist(){
