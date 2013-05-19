@@ -120,6 +120,7 @@ find_missing(){
         } | tee /dev/stderr | $clipboard
         echo -e "\nTracks Not Found: $(wc -l <<< "$tracks_not_found" | awk '{print $1}') / $(wc -l < "$current_playlist" | awk '{print $1}')"
     else
+        echo
         echo 'All Tracks Found!'
     fi
     echo >&2
