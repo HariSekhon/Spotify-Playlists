@@ -18,9 +18,9 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 #read -p "Press enter to process with dumping of track names"
 playlists="$@"
 if [ -z "$playlists" ]; then
-    playlists_sort="$(sed 's/#.*//' < "playlists_sort.txt")"
-    playlists_nosort="$(sed 's/#.*//' < "playlists_nosort.txt")"
-    playlists="$playlists_nosort $playlists_sort"
+    playlists_unordered="$(sed 's/#.*//' < "playlists_unordered.txt")"
+    playlists_ordered="$(sed 's/#.*//' < "playlists_ordered.txt")"
+    playlists="$playlists_ordered $playlists_unordered"
 fi
 playlists_changed="$(hg st -A $playlists | grep -v -e "^[CI]" | sed 's/..//' )"
 if [ -n "$playlists_changed" ]; then
