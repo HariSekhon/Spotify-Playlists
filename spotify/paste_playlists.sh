@@ -35,12 +35,34 @@ else
     exit 1
 fi
 
-paste_nosort(){
-    read -p "Ordered Paste $1: (hit enter when ready)" && dump_clipboard > "$1.tmp"; echo >> "$1.tmp"; grep -v "^[[:space:]]*$" < "$1.tmp" > "$1"; rm -f "$1.tmp"; echo; ./find_dups.sh "$1"; echo; echo
+end_newline(){
+    echo >> "$1"
+    grep -v "^[[:space:]]*$" < "$1" > "$1.tmpnl"
+    mv "$1.tmpnl" "$1"
 }
 
-paste_sort(){
-    read -p "Paste $1: (hit enter when ready)" && dump_clipboard > "$1.tmp"; echo >> "$1.tmp"; grep -v "^[[:space:]]*$" < "$1" > "$1.tmp"; sort -f < "$1.tmp" > "$1"; rm -f "$1.tmp"; echo; ./find_dups.sh "$1"; echo; echo
+paste_ordered(){
+    read -p "Ordered Paste $1: (hit enter when ready)" &&
+    dump_clipboard > "$1"
+    end_newline "$1"
+    rm -vf "$1.tmp"
+    echo
+    ./find_dups.sh "$1"
+    echo
+    echo
+}
+
+paste_unordered(){
+    read -p "Paste $1: (hit enter when ready)" &&
+    dump_clipboard > "$1"
+    end_newline "$1"
+    sort -f < "$1" > "$1.tmpsort" &&
+        mv "$1.tmpsort" "$1"
+    rm -vf "$1.tmp" "$1.tmpsort"
+    echo
+    ./find_dups.sh "$1"
+    echo
+    echo
 }
 
 usage(){
@@ -51,7 +73,7 @@ Pastes the output of the clipboard straight in to the given files. If no files a
     exit 1
 }
 
-for x in $@; do
+for x in $*; do
     case $x in
         -*) usage
     esac
@@ -63,14 +85,14 @@ if [ -n "$1" ]; then
 #    else
 #        paste_sort "$1"
 #    fi
-    for x in $@; do
+    for x in $*; do
         if grep -qxiF "$x" "playlists_unordered.txt"; then
-            paste_sort "$x"
+            paste_unordered "$x"
         else
-            paste_nosort "$x"
+            paste_ordered "$x"
         fi
     done
 else
-    for x in $playlists_ordered; do paste_nosort "$x"; done
-    for x in $playlists_unordered;   do paste_sort   "$x"; done
+    for x in $playlists_ordered;   do paste_ordered   "$x"; done
+    for x in $playlists_unordered; do paste_unordered "$x"; done
 fi
