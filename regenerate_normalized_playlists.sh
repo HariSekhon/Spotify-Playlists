@@ -37,4 +37,6 @@ while read playlist; do
     printf "generating normalized playlist %-${max_len}s => %s\n" "$playlist" "$dirname.$basename"
     spotify/normalize_tracknames.pl "$playlist" > "$dirname.$basename"
 done <<< "$playlists"
-echo "DONE"
+echo "
+===================================== DONE =====================================
+"
