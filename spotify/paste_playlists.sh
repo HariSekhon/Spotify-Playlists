@@ -41,10 +41,19 @@ end_newline(){
     mv "$1.tmpnl" "$1"
 }
 
-paste_ordered(){
-    read -p "Ordered Paste $1: (hit enter when ready)" &&
+convert_spotify_uri_http(){
+    perl -pi -e 's/^spotify:track:/http:\/\/open.spotify.com\/track\//' "$1"
+}
+
+paste_playlist(){
     dump_clipboard > "$1"
     end_newline "$1"
+    convert_spotify_url_http "$1"
+}
+
+paste_ordered(){
+    read -p "Ordered Paste $1: (hit enter when ready)" &&
+    paste_playlist "$1"
     rm -vf "$1.tmp"
     echo
     ./find_dups.sh "$1"
@@ -54,8 +63,7 @@ paste_ordered(){
 
 paste_unordered(){
     read -p "Paste $1: (hit enter when ready)" &&
-    dump_clipboard > "$1"
-    end_newline "$1"
+    paste_playlist "$1"
     sort -f < "$1" > "$1.tmpsort" &&
         mv "$1.tmpsort" "$1"
     rm -vf "$1.tmp" "$1.tmpsort"
