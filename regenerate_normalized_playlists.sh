@@ -20,7 +20,7 @@ cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 echo "
 Creating new normalized lists
 "
-playlists="$(find . blacklists -type f -maxdepth 1 | sed 's/^\.\///' | grep -vi -e "^\." -e "/\?\." -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck")"
+playlists="$(find . blacklists -type f -maxdepth 1 | sed 's/^\.\///' | grep -vi -e "^\." -e "/\?\." -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck" | sort -t '/' -k2nf)"
 
 max_len=0
 while read playlist; do
