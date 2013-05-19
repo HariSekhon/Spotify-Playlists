@@ -143,6 +143,7 @@ EOF
 current_playlists=""
 grand_playlists=""
 additional_grand_playlists=""
+use_blacklists=""
 nolookup=0
 notranslate=0
 no_locking=""
@@ -154,7 +155,7 @@ while [ $# -gt 0 ]; do
                         ;;
      -s|--spotify-uri)  notranslate=1
                         ;;
-       -b|--blacklists) additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//' | head -n $(($(ls "$srcdir/blacklists/"* | wc -l | awk '{print $1}')-1)))"
+       -b|--blacklists) use_blacklists=true
                         ;;
 -a|--additional-grand-playlists)
                         [ -n "${2:-}" ] || usage "must specify arg to -a switch"
@@ -191,6 +192,13 @@ done
 
 spotify_lookup="spotify-lookup.pl --wait $no_locking"
 
+if [ -n "$use_blacklists" ]; then
+    if echo "$current_playlists" | tr ' ' '\n' | grep -q "blacklists"; then
+        additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//' | head -n $(($(ls "$srcdir/blacklists/"* | wc -l | awk '{print $1}')-1)))"
+    else
+        additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//')"
+    fi
+fi
 # If no current playlists, use a default list and add starred and current-hiphop and kiss
 if [ -z "$current_playlists" ]; then
     current_playlists="$current_playlists_default starred"
