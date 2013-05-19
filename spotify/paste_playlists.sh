@@ -12,8 +12,8 @@
 
 srcdir=$(dirname $(which $0))
 cd "$srcdir" || exit 1;
-playlists_sort="$(sed 's/#.*//' < "playlists_sort.txt")"
-playlists_nosort="$(sed 's/#.*//' < "playlists_nosort.txt")"
+playlists_unordered="$(sed 's/#.*//' < "playlists_unordered.txt")"
+playlists_ordered="$(sed 's/#.*//' < "playlists_ordered.txt")"
 #inspiration
 #rocky
 #dt8-trance
@@ -46,7 +46,7 @@ paste_sort(){
 usage(){
     echo "${0##*/} [ playlist1 playlist2 playlist3 ... ]
 
-Pastes the output of the clipboard straight in to the given files. If no files are given then it reads the playlists_sort.txt and playlists_nosort.txt files in the same directory as this script and uses those as the list of playlist files
+Pastes the output of the clipboard straight in to the given files. If no files are given then it reads the playlists_unordered.txt and playlists_ordered.txt files in the same directory as this script and uses those as the list of playlist files
 "
     exit 1
 }
@@ -64,13 +64,13 @@ if [ -n "$1" ]; then
 #        paste_sort "$1"
 #    fi
     for x in $@; do
-        if grep -qxiF "$x" "playlists_sort.txt"; then
+        if grep -qxiF "$x" "playlists_unordered.txt"; then
             paste_sort "$x"
         else
             paste_nosort "$x"
         fi
     done
 else
-    for x in $playlists_nosort; do paste_nosort "$x"; done
-    for x in $playlists_sort;   do paste_sort   "$x"; done
+    for x in $playlists_ordered; do paste_nosort "$x"; done
+    for x in $playlists_unordered;   do paste_sort   "$x"; done
 fi
