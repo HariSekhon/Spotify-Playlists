@@ -17,7 +17,9 @@ cd "$srcdir" || { echo "failed to cd to '$srcdir'"; exit 1; }
 
 #echo "Removing old normalized lists"
 #find . -type f -name '.*' -maxdepth 1 -exec echo rm -v {} \;
-echo "Creating new normalized lists"
+echo "
+Creating new normalized lists
+"
 playlists="$(find . blacklists -type f -maxdepth 1 | sed 's/^\.\///' | grep -vi -e "^/\?\." -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck")"
 
 max_len=0
