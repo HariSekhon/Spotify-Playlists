@@ -48,7 +48,7 @@ convert_spotify_uri_http(){
 paste_playlist(){
     dump_clipboard > "$1"
     end_newline "$1"
-    convert_spotify_url_http "$1"
+    convert_spotify_uri_http "$1"
 }
 
 paste_ordered(){
