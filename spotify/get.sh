@@ -19,8 +19,8 @@ cd "$srcdir" || { echo "Failed to cd to '$srcdir'"; exit 1; }
 #read -p "Press enter to process with dumping of track names"
 playlists="$@"
 if [ -z "$playlists" ]; then
-    playlists_unordered="$(sed 's/#.*//' < "playlists_unordered.txt")"
     playlists_ordered="$(sed 's/#.*//' < "playlists_ordered.txt")"
+    playlists_unordered="$(sed 's/#.*//' < "playlists_unordered.txt")"
     playlists="$playlists_ordered $playlists_unordered"
 fi
 playlists_changed="$(hg st -A $playlists | grep -v -e "^[CI]" | sed 's/..//' )"
