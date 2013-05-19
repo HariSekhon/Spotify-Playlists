@@ -47,7 +47,7 @@ spotify:track:4kqluSwcQs3kqfK82ZrB93
 spotify:track:2PSdA7XgtmuYu8dKLxTF3e
 spotify:track:62GKI6s5Em2ofFQZVaZXFz
 spotify:track:4mxYeqHys74BOZ3BjeSmLA
-http://open.spotify.com/local///Mary+J.+Blige+-+Mr.+Wrong/206
+spotify:local:::Mary+J.+Blige+-+Mr.+Wrong:206
 spotify:track:2gjCa1qXJwztHJziHUiNtG
 spotify:track:7Cnw8C3WEhL5OxvTbRtIIp
 spotify:track:69QIVIjPMnI1ABLBqh9P1b
@@ -68,7 +68,7 @@ spotify:track:700vqkm6IwgK72yfYj4taI
 spotify:track:49cSN8JC12jp5F5A7yauTf
 spotify:track:01WaXctVuWMKAldkM8TwXj
 spotify:track:4OdA7oQSpNvUhdOcNJok0D
-http://open.spotify.com/local/Alicia+Keys/R%26B+Slowjamz%2c+Disc+1/Unthinkable+%28I%27m+Ready%29/243
+spotify:local:Alicia+Keys:R%26B+Slowjamz%2c+Disc+1:Unthinkable+%28I%27m+Ready%29:243
 spotify:track:3RJclnBV8g9mvHPtSzPf7c
 spotify:track:0AhZ2RDFDmlZTzXFMM4lYW
 spotify:track:5C4UXarARSjswTdyL621c2
@@ -78,7 +78,7 @@ spotify:track:5CdJveJgiGXoGwDFqF6afp
 spotify:track:38VXcoyksXlWBJtWQzNPbs
 spotify:track:1atQRDIxhLBudv23X8aWPg
 spotify:track:1tV7RXsTGdwxAvEo8Rv9pp
-http://open.spotify.com/local///Alicia+Keys+feat+Drake+-+Unthinkable+%28remix%29/277
+spotify:local:::Alicia+Keys+feat+Drake+-+Unthinkable+%28remix%29:277
 spotify:track:411FTcOAV043jRVamI9HsB
 spotify:track:5DaqjxiCGFbRVhVGG0TuV0
 spotify:track:4dMcANeG1s7ANacbhrfRN1
@@ -115,7 +115,7 @@ spotify:track:5HgLPHC9JAeDIutJRtAVgC
 spotify:track:2fE4MbwX3QGMzNaMjGVhtw
 spotify:track:1cGqRmlkNSUv1HAhNWqaCq
 spotify:track:746KA42kB1pvFddoSzCBbv
-http://open.spotify.com/local///Ciara+-+Promise/268
+spotify:local:::Ciara+-+Promise:268
 spotify:track:6h7Yxvd7AIksMDC1G0Lxje
 spotify:track:3zIhY8N3BKgwyJglkNQAKf
 spotify:track:1ZixGP9FJ9r0rL8KpZyeEH
@@ -138,11 +138,13 @@ spotify:track:4gusuKIaTlbvJZnb5uc20I
 spotify:track:5iKYZAcAchghry6h8Iu5IL
 spotify:track:5whk3u39jjDkJGsVJaCMIY
 spotify:track:2PN3gbuBn5WBEwrEJH3xiu
-http://open.spotify.com/local///The+Weeknd+-+Wicked+Games/331
+spotify:local:::The+Weeknd+-+Wicked+Games:331
 spotify:track:1DIrcYbodc9zIghn8453jI
 spotify:track:5Iw7nKr3IUP9i6r9xxMT5y
 spotify:track:1qS1aQcAYXT1iuk467YupA
-http://open.spotify.com/local/Wretch+32+ft+Etta+Bond//Forgiveness/218
+spotify:local:Wretch+32+ft+Etta+Bond::Forgiveness:218
 spotify:track:1MLG3omn4qwdPiuQktlXdl
 spotify:track:1qS1aQcAYXT1iuk467YupA
 spotify:track:4JOP8ELK6AaeySe7sKe996
+spotify:track:1VkjueaL66HxKqOx0ucg0n
+spotify:track:0Ny5LbZnVS0IZKAdhbnhEx
