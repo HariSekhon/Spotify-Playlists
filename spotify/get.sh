@@ -13,6 +13,7 @@
 set -e
 set -u
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$srcdir" || { echo "Failed to cd to '$srcdir'"; exit 1; }
 
 "$srcdir/paste_playlists.sh" $@
 #read -p "Press enter to process with dumping of track names"
