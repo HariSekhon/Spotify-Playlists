@@ -45,10 +45,14 @@ convert_spotify_uri_http(){
     perl -pi -e 's/^spotify:track:/http:\/\/open.spotify.com\/track\//' "$1"
 }
 
+convert_spotify_http_uri(){
+    perl -pi -e 's/^http:\/\/open.spotify.com\/track\//spotify:track:/' "$1"
+}
+
 paste_playlist(){
     dump_clipboard > "$1"
     end_newline "$1"
-    convert_spotify_uri_http "$1"
+    convert_spotify_http_uri "$1"
 }
 
 paste_ordered(){
