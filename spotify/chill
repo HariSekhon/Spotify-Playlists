@@ -92,7 +92,7 @@ spotify:track:0YGaf30WLrYf2AHLI5oYb0
 spotify:track:1xc8zpNr8bA8gVGGPxdJK9
 spotify:track:1msnIDSHPxfZyh6YpJMxq6
 spotify:track:5tS0E5TVMDFFBHtJtopSfU
-http://open.spotify.com/local///Subscape+-+Midnight/336
+spotify:local:::Subscape+-+Midnight:336
 spotify:track:4iHjDYFlygpX1WO8LFXRqN
 spotify:track:61ny1Gk46dAbRB5f3UZpwP
 spotify:track:761UCebmHJ4VM2gxHmwMt3
@@ -117,8 +117,8 @@ spotify:track:67V2lL3sY4nw0bqeEEp72i
 spotify:track:6HuANi4awD1cZX4BgYwiNM
 spotify:track:7hm6DsLtFsNbiVr64Cqevg
 spotify:track:4hRxGCWqRmvHdugvEqBpY7
-http://open.spotify.com/local///The+Weeknd+-+High+For+This/254
-http://open.spotify.com/local///The+Weeknd+-+Wicked+Games/331
+spotify:local:::The+Weeknd+-+High+For+This:254
+spotify:local:::The+Weeknd+-+Wicked+Games:331
 spotify:track:4IbBqEXxQqQAePlljSEKXa
 spotify:track:0xjkgYSzHjBZNvyUaC9cXX
 spotify:track:5ZrrXIYTvjXPKVQMjqaumR
@@ -137,9 +137,9 @@ spotify:track:2JWlPBiB6lp1TwOODdlgCU
 spotify:track:5jAYbBuwroXXigCj4IGFdA
 spotify:track:30JSP0mpT8DQNHjs6v8Z4P
 spotify:track:7rwLVmrVlyLBY53w4oJ0oB
-http://open.spotify.com/local///Yoav+Goren+-+Generations/149
-http://open.spotify.com/local///Immediate+Music+-+A+Hero+Among+Us/182
-http://open.spotify.com/local///James+Brian+Brasher+-+Distant+Dreams/184
+spotify:local:::Yoav+Goren+-+Generations:149
+spotify:local:::Immediate+Music+-+A+Hero+Among+Us:182
+spotify:local:::James+Brian+Brasher+-+Distant+Dreams:184
 spotify:track:2wfs4EegEWH2wDZLWEGwgs
 spotify:track:4DFmHvLDnnTpJDVxn8ySry
 spotify:track:6J4DHbNrKCTVvHrFzeFteB
@@ -244,3 +244,10 @@ spotify:track:0TGj2IIoxXTB9Plmzt3BKM
 spotify:track:2wl9I2ajE7SbL7ttFU3L47
 spotify:track:4FXj4ZKMO2dSkqiAhV7L8t
 spotify:track:32eeg9FlMfJx9jGiRVmgpK
+spotify:track:5VQdYgOMD5DunteeIWztZs
+spotify:track:6eRPYyh1EPRqDhgb3Nardw
+spotify:track:4ChBLndekjzQveHPsn3r6W
+spotify:track:5QjmOXFMKg9QOn9OWmkWDj
+spotify:track:14JJgiD5VDRpMOuTm9AE5J
+spotify:track:1nNPLcueemE7gIoBqsYUTT
+spotify:track:1UBwdKVRU7WoR74CdiknDx
