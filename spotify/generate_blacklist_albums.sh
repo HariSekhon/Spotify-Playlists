@@ -13,10 +13,11 @@
 set -e
 set -u
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-cd "$srcdir/blacklists" || { echo "Failed to cd to '$srcdir/blacklists'"; exit 1;}
+pushd "$srcdir/blacklists" >/dev/null || { echo "Failed to pushd to '$srcdir/blacklists'"; exit 1;}
 
 echo "Generating blacklist album files to $srcdir/../blacklists/.\$blacklist.album"
-for x in [[:digit:]]*; do echo "$x"; spotify-lookup.pl --album "$x" > ../../blacklists/.$x.album; done
+ls [[:digit:]]* | sort -n | while read x; do echo "generating album playlist blacklists/$x"; spotify-lookup.pl --album "$x" > ../../blacklists/.$x.album; done
 echo "
 ===================================== DONE =====================================
 "
+popd >/dev/null
