@@ -10,17 +10,18 @@
 #  vim:ts=4:sw=4:et
 
 workout
-electronica
 classical
-disco
-club
-chill
-love
-soul
-jazz
 classics
+dance
 rock
+club
+jazz
+soul
+disco
 #phone-hiphop
 sex
+love
+electronica
+chill
 hangout-poprock
 hangout-rnb

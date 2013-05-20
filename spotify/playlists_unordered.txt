@@ -10,9 +10,8 @@
 #  vim:ts=4:sw=4:et
 
 starred
-current
-current-hiphop
 kiss
-dance
+#current
+#current-hiphop
 #fitness-first
 #ambience
