@@ -25,7 +25,7 @@ find_existing(){
     for x in $@; do
         [ -f "$x" ] || die "File not found: '$x'"
     done
-    echo "* Existing tracks from $1: (in "${@:2}")"
+    echo "* Existing tracks from $1: (in "${@:2}")" >&2
     while read line; do
         grep -q "^$line$" ${@:2} &&
             echo "$line"
