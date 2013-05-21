@@ -198,9 +198,9 @@ spotify_lookup="spotify-lookup.pl --wait $no_locking"
 
 if [ -n "$use_blacklists" ]; then
     if echo "$current_playlists" | tr ' ' '\n' | grep -q "blacklists"; then
-        additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//' | head -n $(($(ls "$srcdir/blacklists/"* | wc -l | awk '{print $1}')-1)))"
+        additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"[[:digit:]]* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//' | head -n $(($(ls "$srcdir/blacklists/"[[:digit:]]* | wc -l | awk '{print $1}')-1)))"
     else
-        additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//')"
+        additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"[[:digit:]]* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//')"
     fi
 fi
 # If no current playlists, use a default list and add starred and current-hiphop and kiss
