@@ -17,9 +17,9 @@ find_dups(){
     [ -d "$1" ] && return
     [[ "$1" =~ .*\.sh ]] && return
     echo "Duplicates in $1:"
-    dups="`uniq -d < "$1"`"
+    dups="`sort < "$1" | uniq -d`"
     if [ -n "$dups" ]; then
-        echo "$dups" | spotify-lookup.pl
+        echo "$dups" | spotify-lookup.pl --wait
     fi
     echo
     echo
