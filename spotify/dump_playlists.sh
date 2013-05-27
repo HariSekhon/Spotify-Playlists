@@ -146,7 +146,7 @@ done
 #fi
 
 if [ "$everything" -ge 1 ]; then
-    for x in *; do
+    for x in * blacklists/*; do
         excluded_file "$x" && continue
         playlists="$playlists $(normalize_filename "$x")"
     done
