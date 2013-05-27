@@ -150,8 +150,6 @@ if [ "$everything" -ge 1 ]; then
         excluded_file "$x" && continue
         playlists="$playlists $(normalize_filename "$x")"
     done
-    echo $playlists
-    exit 0
 elif [ -z "$playlists" ]; then
     for x in $(sed 's/#.*$//;/^[[:space:]]*$/d' playlists_ordered.txt playlists_unordered.txt); do
         playlists="$playlists $(normalize_filename "$x")"
