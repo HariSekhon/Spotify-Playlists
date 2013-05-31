@@ -11,8 +11,6 @@
 #
 #  vim:ts=4:sts=4:et
 
-# TODO: turn this in to a propper program with cli args etc
-
 $DESCRIPTION="Normalize Track Names removing edit/version tags";
 
 $VERSION="0.3";
@@ -94,6 +92,7 @@ sub normalize ($) {
             Mono|
             Juke[\s-]?Box
         )\b
+        # TODO: replace (Unavailable in GB)$
         (?:[:;\s\)\]].*)?
         $//xi;
     s/( - .+) - Live$/$1/i;
