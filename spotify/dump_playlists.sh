@@ -80,14 +80,14 @@ dump_playlists(){
         [ -f "$playlist" ] || { echo "File not found: $playlist"; exit 1; }
         playlists="${playlists},${playlist}"
         let total_playlists+=1
-        let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
+        #let total_tracks+=$(wc -l "$playlist" | awk '{print $1}')
     done
     playlists=${playlists#,}
     playlists=${playlists%,}
-    $spotify_program -w "../`dirname $playlist`" -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
-    for playlist in $playlists; do
-        normalize_playlist "$playlist"
-    done
+    $spotify_program -w "../" -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
+    echo "$total_playlists playlists fetched"
+    ls "$srcdir/../"[[:digit:]]* | grep '^[[:digit:]]*$' | while read playlist; do mv -v "$srcdir/../$playlist" "$srcdir/blacklists/"; done
+    "$srcdir/../generate_normalized_playlists.sh"
     echo
     echo
 }
