@@ -76,7 +76,7 @@ sub normalize ($) {
             Album|
             Amended|
             Bonus\s+Track|
-            Clean|
+            (?:Super\s+)?Clean|
             Explicit|
             Full\s+length
             Live|
