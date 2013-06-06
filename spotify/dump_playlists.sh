@@ -15,7 +15,9 @@ cd "$srcdir" || { echo "Failed to cd to '$srcdir'"; exit 1; }
 total_playlists=0
 total_tracks=0
 
-spotify_program="spotify-lookup.pl --wait --retries 10 --mark-local --territory GB"
+# territory is currently broken
+#spotify_program="spotify-lookup.pl --wait --retries 10 --mark-local --territory GB"
+spotify_program="spotify-lookup.pl --wait --retries 10 --mark-local"
 
 excluded_file(){
     local filename="$1"
