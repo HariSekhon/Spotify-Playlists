@@ -89,7 +89,7 @@ dump_playlists(){
     $spotify_program -w "../" -v -v -f "$playlists" $no_locking --speed-up $speed_up # use in office for 4 DIPs ;)
     echo "$total_playlists playlists fetched"
     ls "$srcdir/../"[[:digit:]]* | grep '^[[:digit:]]*$' | while read playlist; do mv -v "$srcdir/../$playlist" "$srcdir/blacklists/"; done
-    "$srcdir/../generate_normalized_playlists.sh"
+    "$srcdir/../regenerate_normalized_playlists.sh"
     echo
     echo
 }
