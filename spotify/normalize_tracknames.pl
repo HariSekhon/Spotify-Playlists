@@ -131,7 +131,7 @@ sub normalize ($) {
     foreach(my $i=0; $i < scalar @artists; $i++){
         $artists[$i] = trim($artists[$i]);
     }
-    $artists    = join(",", uniq_array(@artists));
+    $artists    = join(",", grep { $_ } uniq_array(@artists));
     my $normalized_trackname="$diff$artists - " . trim($parts[1]);
     print STDERR "WARNING normalized artist is empty: '$_' => '$normalized_trackname'\n" unless $artists;
     print STDERR "WARNING normalized track name is empty: '$_' => '$normalized_trackname'\n" unless $parts[1];
