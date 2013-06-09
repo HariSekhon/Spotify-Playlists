@@ -89,6 +89,7 @@ sub normalize ($) {
             from|
             theme\s+from|
             Stereo|
+            Studio Recording|
             Mono|
             Juke[\s-]?Box
         )\b
