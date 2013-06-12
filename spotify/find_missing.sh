@@ -60,7 +60,7 @@ find_missing(){
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
     local uris_not_found2=""
     while read uri; do
-        fgrep -q "$uri" <<< "$uris_not_found2" ||
+        fgrep -qx "$uri" <<< "$uris_not_found2" ||
         uris_not_found2="$uris_not_found2
 $uri"
     done <<< "$uris_not_found"
