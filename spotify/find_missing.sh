@@ -58,6 +58,13 @@ find_missing(){
     done < "$current_playlist"
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
+    local uris_not_found2=""
+    while read uri; do
+        fgrep -q "$uri" <<< "$uris_not_found2" ||
+        uris_not_found2="$uris_not_found2
+$uri"
+    done <<< "$uris_not_found"
+    uris_not_found="$uris_not_found2"
     echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     pushd "$srcdir/.." >/dev/null || { echo "failed to pushd to '$srcdir/..'"; exit 1; }
@@ -203,13 +210,13 @@ if [ -n "$use_blacklists" ]; then
         additional_grand_playlists="$additional_grand_playlists $(ls "$srcdir/../blacklists/"[[:digit:]]* | sed 's/.*\/blacklists\//blacklists\/ /' | sort -k2n | sed 's/\/ /\//')"
     fi
 fi
-# If no current playlists, use a default list and add starred and current-hiphop and kiss
+# If no current playlists, use a default list and add starred and current-hiphop and hip-hip
 if [ -z "$current_playlists" ]; then
     current_playlists="$current_playlists_default starred"
-    for x in current-hiphop kiss; do
+    for x in current-hiphop hip-hip; do
         [ -f "$x" ] || { echo "Playlist not found: $x"; exit 1; }
     done
-    find_missing "current-hiphop" "kiss"
+    find_missing "current-hiphop" "hip-hip"
 fi
 if [ -z "$grand_playlists" ]; then
     grand_playlists="$grand_playlists_default"
