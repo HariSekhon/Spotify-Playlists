@@ -59,13 +59,22 @@ find_missing(){
     )
     [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "  " >&2
     local uris_not_found2=""
+    local uri_duplicates=0
     while read uri; do
-        fgrep -qx "$uri" <<< "$uris_not_found2" ||
-        uris_not_found2="$uris_not_found2
+        if fgrep -qx "$uri" <<< "$uris_not_found2"; then
+            let uri_duplicates+=1
+        else
+            uris_not_found2="$uris_not_found2
 $uri"
+        fi
     done <<< "$uris_not_found"
     uris_not_found="$uris_not_found2"
-    echo ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
+    echo -n ">>> $(grep -v "^[[:space:]]*$" <<< "$uris_not_found" | wc -l | awk '{print $1}') / $(grep -v "^[[:space:]]*$" < "$current_playlist" | wc -l | awk '{print $1}') URIs not found"
+    if [ $uri_duplicates -gt 0 ]; then
+        echo " ($uri_duplicates duplicates removed)"
+    else
+        echo
+    fi
     #[ $quiet -eq 0 -a $verbose -eq 0 ] && echo >&2
     pushd "$srcdir/.." >/dev/null || { echo "failed to pushd to '$srcdir/..'"; exit 1; }
     echo "$grand_playlists" > /tmp/grand_playlists
