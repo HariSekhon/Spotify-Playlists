@@ -80,7 +80,7 @@ sub normalize ($) {
             Explicit|
             Full\s+length
             Live|
-            Main|
+            Main(?:(?:Mix|Version|Radio|Dirty|Club|Final|Ingredient|Title|Vocal)|$)|
             Mix|
             Original|
             Radio|
