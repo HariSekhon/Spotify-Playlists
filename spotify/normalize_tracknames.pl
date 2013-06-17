@@ -110,7 +110,7 @@ sub normalize ($) {
     if($2){
         $featuring = $2;
         $featuring = trim($featuring);
-        @featuring = split(/(?:and|\&)/i, $featuring);
+        @featuring = split(/(?:\band\b|\&)/i, $featuring);
         #$featuring =~ s/(?:and|\&)//;
     }
     my @parts   = split(" - ", $_, 2);
@@ -127,7 +127,7 @@ sub normalize ($) {
     if(@featuring){
         $artists .= "," . join(",", @featuring);
     }
-    my @artists = split(/,|&|with|and/i, $artists);
+    my @artists = split(/,|&|\bwith\b|\band\b/i, $artists);
     foreach(my $i=0; $i < scalar @artists; $i++){
         $artists[$i] = trim($artists[$i]);
     }
