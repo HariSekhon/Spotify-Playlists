@@ -96,6 +96,7 @@ $uri"
             # Remove ^The from artist name
             track_name="$("$srcdir/normalize_tracknames.pl" <<< "$track_name")"
             #echo "checking track name '$track_name'" >&2
+            # XXX: bug this exlcudes Notorious B.I.G - Niggas based on partial match again different track Notorious B.I.G. - Niggas Bleed
             matches="$(xargs grep -iF "$track_name" < /tmp/grand_playlists 2>/dev/null | sed 's/^[^:]*://' | sort -u | head -n 20 | tr '\n' ',' | sed 's/,$//' )"
             if [ -n "$matches" ]; then
                 char="="
@@ -105,7 +106,7 @@ $uri"
                     echo "already got '$track_name'" >&2
                 fi
             else
-                char="_"
+                char="-"
                 echo "$uri"
             fi
             [ $quiet -eq 0 -a $verbose -eq 0 ] && echo -n "$char" >&2
