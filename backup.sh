@@ -33,11 +33,19 @@ help_usage "$@"
 
 cd "$srcdir"
 
+# use submodule code
+#bash_tools="$srcdir/bash-tools"
+# use latest code
+bash_tools="$HOME/github/bash-tools"
+
 section "Running Spotify Playlists Backup"
 
 timestamp "Dumping list of Spotify playlists to spotify/playlists.txt"
-bash-tools/spotify_playlists.sh > spotify/playlists.txt
+"$bash_tools/spotify_playlists.sh" > spotify/playlists.txt
 echo >&2
-timestamp "Extracting playlists to playlists.txt"
+
+timestamp "Stripping spotify playlist IDs from spotify/playlists.txt => playlists.txt"
 sed 's/^[^[:space:]]*[[:space:]]*//' spotify/playlists.txt > playlists.txt
 echo >&2
+
+SPOTIFY_BACKUP_DIR=spotify "$bash_tools/spotify_backup_playlists.sh"
