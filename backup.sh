@@ -40,12 +40,14 @@ bash_tools="$HOME/github/bash-tools"
 
 section "Running Spotify Playlists Backup"
 
+spotify_user=harisekhon
+
 timestamp "Dumping list of Spotify playlists to spotify/playlists.txt"
-"$bash_tools/spotify_playlists.sh" > spotify/playlists.txt
+"$bash_tools/spotify_playlists.sh" "$spotify_user" > spotify/playlists.txt
 echo >&2
 
 timestamp "Stripping spotify playlist IDs from spotify/playlists.txt => playlists.txt"
 sed 's/^[^[:space:]]*[[:space:]]*//' spotify/playlists.txt > playlists.txt
 echo >&2
 
-SPOTIFY_BACKUP_DIR=spotify "$bash_tools/spotify_backup_playlists.sh"
+SPOTIFY_BACKUP_DIR="$PWD" "$bash_tools/spotify_backup_playlists.sh"
