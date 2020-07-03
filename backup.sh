@@ -34,9 +34,9 @@ help_usage "$@"
 cd "$srcdir"
 
 # use submodule code
-#bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/bash-tools"
 # use latest code
-bash_tools="$HOME/github/bash-tools"
+#bash_tools="$HOME/github/bash-tools"
 
 section "Running Spotify Playlists Backup"
 
