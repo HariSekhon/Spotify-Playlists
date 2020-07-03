@@ -24,7 +24,7 @@ One-touch Spotify Backup using code from Spotify Tools and DevOps Bash Tools rep
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="arg [<options>]"
+usage_args="<playlist>"
 
 # shellcheck disable=SC1090
 . "$srcdir/bash-tools/lib/utils.sh"
@@ -33,14 +33,25 @@ help_usage "$@"
 
 cd "$srcdir"
 
+export SPOTIFY_BACKUP_DIR="$PWD"
+
 # use submodule code
-bash_tools="$srcdir/bash-tools"
+#bash_tools="$srcdir/bash-tools"
 # use latest code
-#bash_tools="$HOME/github/bash-tools"
+bash_tools="$HOME/github/bash-tools"
 
 section "Running Spotify Playlists Backup"
 
 spotify_user=harisekhon
+
+if [ $# -gt 0 ]; then
+    echo "Backing up selected playlist(s):"
+    echo
+    for playlist in "$@"; do
+        "$bash_tools/spotify_backup_playlist.sh" "$playlist"
+    done
+    exit 0
+fi
 
 timestamp "Dumping list of Spotify playlists to spotify/playlists.txt"
 "$bash_tools/spotify_playlists.sh" "$spotify_user" > spotify/playlists.txt
@@ -50,4 +61,4 @@ timestamp "Stripping spotify playlist IDs from spotify/playlists.txt => playlist
 sed 's/^[^[:space:]]*[[:space:]]*//' spotify/playlists.txt > playlists.txt
 echo >&2
 
-SPOTIFY_BACKUP_DIR="$PWD" "$bash_tools/spotify_backup_playlists.sh"
+"$bash_tools/spotify_backup_playlists.sh"
