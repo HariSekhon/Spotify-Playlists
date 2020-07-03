@@ -39,7 +39,7 @@ Requires DevOps-Perl-tools to be in \$PATH for diffnet.pl
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args=""
+usage_args="[<playlist>]"
 
 # shellcheck disable=SC1090
 . "$srcdir/bash-tools/lib/utils.sh"
@@ -51,14 +51,11 @@ help_usage "$@"
 
 cd "$srcdir"
 
-for playlist in $(git status --porcelain |
-                  grep '^.M' |
-                  awk '{print $2}' |
-                  sed 's,spotify/,,' |
-                  sort -u); do
+commit_playlist(){
+    playlist="$1"
     if ! [ -f "$playlist" ] ||
        ! [ -f "spotify/$playlist" ]; then
-        continue
+        return
     fi
     echo "Net Difference for playlist '$playlist':"
     echo
@@ -69,7 +66,7 @@ for playlist in $(git status --porcelain |
         git add "$playlist" "spotify/$playlist"
         git ci -m "updated $playlist spotify/$playlist" "$playlist" "spotify/$playlist"
         echo
-        continue
+        return
     fi
     echo "$net_diff"
     echo
@@ -81,4 +78,18 @@ for playlist in $(git status --porcelain |
     echo
     git add "$playlist" "spotify/$playlist"
     git ci -m "updated $playlist spotify/$playlist"
-done
+}
+
+if [ $# -gt 0 ]; then
+    for playlist in "$@"; do
+        commit_playlist "$playlist"
+    done
+else
+    for playlist in $(git status --porcelain |
+                      grep '^.M' |
+                      awk '{print $2}' |
+                      sed 's,spotify/,,' |
+                      sort -u); do
+        commit_playlist "$playlist"
+    done
+fi
