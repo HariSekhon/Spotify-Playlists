@@ -20,8 +20,8 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$srcdir"
 
 validate_playlist_length(){
-    local playlist="$1"
-    local spotify_playlist="spotify/$1"
+    local playlist="${1#./}"
+    local spotify_playlist="spotify/$playlist"
     [ -f "$playlist" ] || { echo "File not found: '$playlist'"; exit 1; }
     [ -f "$spotify_playlist" ] || { echo "File not found: '$spotify_playlist'"; exit 1; }
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
@@ -30,7 +30,7 @@ validate_playlist_length(){
         echo "Playlist $playlist backup invalid, mismatching number of lines ($playlist $playlist_wc vs $spotify_playlist $spotify_playlist_wc)"
         exit 1
     else
-        echo "Playlist $playlist $playlist_wc => $spotify_playlist $spotify_playlist_wc line counts matched"
+        echo "Playlist $playlist ($playlist_wc lines) => $spotify_playlist ($spotify_playlist_wc lines) counts matched"
     fi
 }
 
@@ -39,7 +39,9 @@ if [ $# -gt 0 ]; then
         validate_playlist_length "$playlist"
     done
 else
-    find . -type f | grep -vi -e "\.sh" -e "\.pl" -e "\.txt" -e "\.svn" -e "\.orig" -e "TODO" -e "tocheck" |
+    find . -maxdepth 1 -type f |
+    sed 's/^\.\///' |
+    grep -vi -e '^\.' -e '\.sh' -e '\.pl' -e '\.txt' -e '\.svn' -e '\.git' -e '\.orig' -e 'TODO' -e 'tocheck' |
     while read -r filename; do
         validate_playlist_length "$filename"
     done
