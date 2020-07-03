@@ -21,10 +21,12 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 usage_description="
 Iterates over all playlists, showing diffs and then committing each in turn
 
-First shows only the net additions/removals in standard Spotify URIs for a playlist
+First shows only the net additions / removals in standard Spotify URIs for a playlist
 (to avoid variations in Spotify artist/track/tags from creating false positives)
 
-Then shows the full human readable playlist diff and spotify URI diff underneath
+If there are no net removals then auto-commits the playlist
+
+Otherwise shows the full human readable playlist diff and spotify URI diff underneath
 
 If satisfactory, hitting enter at the end of the playlist diff will commit both
 the Spotify URI and human readable playlist simultaneously
@@ -43,20 +45,40 @@ usage_args=""
 . "$srcdir/bash-tools/lib/utils.sh"
 
 # shellcheck disable=SC1090
-. "$srcdir/bash-tools/.bash.d/git.sh"
+#. "$srcdir/bash-tools/.bash.d/git.sh"
 
 help_usage "$@"
+
+cd "$srcdir"
 
 for playlist in $(git status --porcelain |
                   grep '^.M' |
                   awk '{print $2}' |
                   sed 's,spotify/,,' |
                   sort -u); do
-    echo "Net Difference for playlist $playlist:"
+    if ! [ -f "$playlist" ] ||
+       ! [ -f "spotify/$playlist" ]; then
+        continue
+    fi
+    echo "Net Difference for playlist '$playlist':"
     echo
-    git diff "spotify/$playlist" | diffnet.pl
+    net_diff="$(git diff "spotify/$playlist" | diffnet.pl)"
+    if [ -z "$net_diff" ] || ! grep -q '^-' <<< "$net_diff"; then
+        echo "Auto-committing playlist '$playlist' as no net difference"
+        echo
+        git add "$playlist" "spotify/$playlist"
+        git ci -m "updated $playlist spotify/$playlist" "$playlist" "spotify/$playlist"
+        echo
+        continue
+    fi
+    echo "$net_diff"
     echo
-    read -r -p "Hit enter to see full human and spotify diffs or Control-C to cancel"
+    read -r -p "Hit enter to see full human and spotify diffs or Control-C to exit"
     echo
-    gitu "$playlist" "spotify/$playlist"
+    git diff "$playlist" "spotify/$playlist"
+    echo
+    read -r -p "Hit enter to commit playlist '$playlist' or Control-C to exit"
+    echo
+    git add "$playlist" "spotify/$playlist"
+    git ci -m "updated $playlist spotify/$playlist"
 done
