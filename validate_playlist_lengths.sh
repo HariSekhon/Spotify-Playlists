@@ -21,16 +21,16 @@ cd "$srcdir"
 
 validate_playlist_length(){
     local playlist="$1"
-    local tracklist="../$playlist"
+    local spotify_playlist="spotify/$1"
     [ -f "$playlist" ] || { echo "File not found: '$playlist'"; exit 1; }
-    [ -f "$tracklist" ] || { echo "File not found: '$tracklist'"; exit 1; }
+    [ -f "$spotify_playlist" ] || { echo "File not found: '$spotify_playlist'"; exit 1; }
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
-    tracklist_wc=$(wc -l "$tracklist" | awk '{print $1}')
-    if [ "$playlist_wc" != "$tracklist_wc" ]; then
-        echo "Playlist $playlist dump invalid, mismatching number of lines ($playlist $playlist_wc vs $tracklist $tracklist_wc)"
+    spotify_playlist_wc=$(wc -l "$spotify_playlist" | awk '{print $1}')
+    if [ "$playlist_wc" != "$spotify_playlist_wc" ]; then
+        echo "Playlist $playlist backup invalid, mismatching number of lines ($playlist $playlist_wc vs $spotify_playlist $spotify_playlist_wc)"
         exit 1
     else
-        echo "Playlist $playlist $playlist_wc => $tracklist $tracklist_wc line counts matched"
+        echo "Playlist $playlist $playlist_wc => $spotify_playlist $spotify_playlist_wc line counts matched"
     fi
 }
 
