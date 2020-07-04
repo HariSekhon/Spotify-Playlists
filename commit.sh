@@ -67,6 +67,9 @@ commit_playlist(){
         git ci -m "added $playlist spotify/$playlist" "$playlist" "spotify/$playlist"
         return
     fi
+    if ! git status -s "$playlist" "spotify/$playlist" | grep -q '^.M'; then
+        return
+    fi
     echo "Net Removals from playlist '$playlist' (could be replaced with different track version):"
     echo
     net_removals="$(find_net_removals "$playlist")"
