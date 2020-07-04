@@ -92,18 +92,23 @@ commit_playlist(){
 
 find_net_removals(){
     local playlist="$1"
+    # stop grep breaking everything when no removals
     git diff "spotify/$playlist" |
     diffnet.pl |
-    grep ^- |
+    { grep ^- || :; } |
     sed 's/^-//' |
     while read -r uri; do
         if grep -Fxq "$uri" "spotify/$playlist"; then
-            #echo "skipping duplicate URI '$uri' which is present in spotify/$playlist"
+            if [ -n "${VERBOSE:-}" ]; then
+                echo "skipping removed duplicate URI '$uri' which is present in spotify/$playlist" >&2
+            fi
             continue
         fi
         track="$("$srcdir/bash-tools/spotify_track_uri_to_name.sh" <<< "$uri")"
         if grep -Fxq "$track" "$playlist"; then
-            #echo "skipping track '$track' which is found in $playlist (must have been replaced with a different URI)"
+            if [ -n "${VERBOSE:-}" ]; then
+                echo "skipping removed URI for track '$track' which is found in $playlist (must have been replaced with a different URI)" >&2
+            fi
             continue
         fi
         printf '%s\t%s\n' "$uri" "$track"
