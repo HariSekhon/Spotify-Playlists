@@ -62,18 +62,18 @@ commit_playlist(){
         git ci -m "added $playlist spotify/$playlist" "$playlist" "spotify/$playlist"
         return
     fi
-    echo "Net Difference for playlist '$playlist':"
+    echo "Net Removals from playlist '$playlist' (could be replaced with different track version):"
     echo
-    net_diff="$(git diff "spotify/$playlist" | diffnet.pl)"
-    if [ -z "$net_diff" ] || ! grep -q '^-' <<< "$net_diff"; then
-        echo "Auto-committing playlist '$playlist' as no net difference"
+    net_removals="$(find_net_removals "$playlist")"
+    if [ -z "$net_removals" ]; then
+        echo "Auto-committing playlist '$playlist' as no net removals"
         echo
         git add "$playlist" "spotify/$playlist"
         git ci -m "updated $playlist spotify/$playlist" "$playlist" "spotify/$playlist"
         echo
         return
     fi
-    echo "$net_diff"
+    echo "$net_removals"
     echo
     read -r -p "Hit enter to see full human and spotify diffs or Control-C to exit"
     echo
@@ -83,6 +83,28 @@ commit_playlist(){
     echo
     git add "$playlist" "spotify/$playlist"
     git ci -m "updated $playlist spotify/$playlist"
+}
+
+find_net_removals(){
+    local playlist="$1"
+    git diff "spotify/$playlist" |
+    diffnet.pl |
+    grep ^- |
+    sed 's/^-//' |
+    while read -r uri; do
+        if grep -Fxq "$uri" "spotify/$playlist"; then
+            #echo "skipping URI '$uri' which is present in spotify/$playlist"
+            # It's a duplicate URI that's been removed
+            continue
+        fi
+        track="$("$srcdir/bash-tools/spotify_track_uri_to_name.sh" <<< "$uri")"
+        if grep -Fxq "$track" "$playlist"; then
+            #echo "skipping track '$track' which is found in $playlist"
+            # It's a track replacement
+            continue
+        fi
+        printf '%s\t%s' "$uri" "$track"
+    done
 }
 
 if [ $# -gt 0 ]; then
