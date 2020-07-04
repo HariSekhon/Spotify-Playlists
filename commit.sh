@@ -93,17 +93,15 @@ find_net_removals(){
     sed 's/^-//' |
     while read -r uri; do
         if grep -Fxq "$uri" "spotify/$playlist"; then
-            #echo "skipping URI '$uri' which is present in spotify/$playlist"
-            # It's a duplicate URI that's been removed
+            #echo "skipping duplicate URI '$uri' which is present in spotify/$playlist"
             continue
         fi
         track="$("$srcdir/bash-tools/spotify_track_uri_to_name.sh" <<< "$uri")"
         if grep -Fxq "$track" "$playlist"; then
-            #echo "skipping track '$track' which is found in $playlist"
-            # It's a track replacement
+            #echo "skipping track '$track' which is found in $playlist (must have been replaced with a different URI)"
             continue
         fi
-        printf '%s\t%s' "$uri" "$track"
+        printf '%s\t%s\n' "$uri" "$track"
     done
 }
 
