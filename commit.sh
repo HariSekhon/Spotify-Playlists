@@ -57,6 +57,11 @@ commit_playlist(){
        ! [ -f "spotify/$playlist" ]; then
         return
     fi
+    if git status -s "$playlist" "spotify/$playlist" | grep -q '^[?A]'; then
+        git add "$playlist" "spotify/$playlist"
+        git ci -m "added $playlist spotify/$playlist" "$playlist" "spotify/$playlist"
+        return
+    fi
     echo "Net Difference for playlist '$playlist':"
     echo
     net_diff="$(git diff "spotify/$playlist" | diffnet.pl)"
