@@ -21,12 +21,17 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 usage_description="
 Iterates over all playlists, showing diffs and then committing each in turn
 
-First shows only the net additions / removals in standard Spotify URIs for a playlist
-(to avoid variations in Spotify artist/track/tags from creating false positives)
+First shows only the net removals in standard Spotify URIs + Track Name for a playlist
+to check if anything has been lost from a playlist (additions don't need as much scrutiny)
+
+Drastically reduces net removals list for human review by omitting duplicate URI removals
+(checks if URI is present in the spotify format playlist) or URI replacements for same song
+(either URI remapping or single vs album)
 
 If there are no net removals then auto-commits the playlist
 
-Otherwise shows the full human readable playlist diff and spotify URI diff underneath
+Otherwise shows the list of net removals in both Spotify URI and Track name formats
+followed by the full human readable playlist diff and spotify URI diff underneath
 
 If satisfactory, hitting enter at the end of the playlist diff will commit both
 the Spotify URI and human readable playlist simultaneously
