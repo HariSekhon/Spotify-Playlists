@@ -12,7 +12,7 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 #### Quick Guide
 
 -  Genre mega mixes (eg. `Hip-Hop / R&B`, `Rock / Metal`, `Dance / Pop`, `Classical`, `Soul / Motown` etc)
-- `Best of <Genre>` - shorter highest quality playlists (these are the ones you really want)
+- `Best of <Genre>` / specially named - shorter highest quality playlists (these are the ones you really want, listed below)
 - `Artist` specific playlists
 - Mixes in Time - `YYYY MM - <description>` date stamped mixes - stuff that was either hot at that time or that I discovered and listened to more at that time
 
