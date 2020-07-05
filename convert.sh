@@ -45,8 +45,25 @@ cd "$srcdir"
 
 playlists="$(bash-tools/spotify_playlist_to_filename.sh < playlists.txt)"
 
-while read -r playlist; do
+convert(){
+    local playlist="$1"
+    shift
     timestamp "converting  'spotify/$playlist'  =>  '$playlist'"
     "$bash_tools/spotify_track_uri_to_name.sh" "$@" < "spotify/$playlist" > "$playlist"
-done <<< "$playlists"
+}
+
+if [ $# -gt 0 ]; then
+    for playlist in "$@"; do
+        if [ -f "$playlist" ] && [ -f "spotify/$playlist" ]; then
+            shift
+            convert "$playlist" "$@"
+        else
+            break
+        fi
+    done
+else
+    while read -r playlist; do
+        convert "$playlist"
+    done <<< "$playlists"
+fi
 timestamp "Done"
