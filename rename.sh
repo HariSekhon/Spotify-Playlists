@@ -1,0 +1,1 @@
+../bash-tools/spotify_rename_playlist.sh
