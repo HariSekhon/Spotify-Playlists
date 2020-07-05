@@ -20,6 +20,8 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC2034
 usage_description="
 One-touch Spotify Backup using code from Spotify Tools and DevOps Bash Tools repos
+
+\$SPOTIFY_USER must be set in the environment
 "
 
 # used by usage() in lib/utils.sh
@@ -36,13 +38,11 @@ cd "$srcdir"
 export SPOTIFY_BACKUP_DIR="$PWD"
 
 # use submodule code
-#bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/bash-tools"
 # use latest code
-bash_tools="$HOME/github/bash-tools"
+#bash_tools="$HOME/github/bash-tools"
 
 section "Running Spotify Playlists Backup"
-
-spotify_user=harisekhon
 
 if [ $# -gt 0 ]; then
     echo "Backing up selected playlist(s):"
@@ -54,7 +54,7 @@ if [ $# -gt 0 ]; then
 fi
 
 timestamp "Dumping list of Spotify playlists to spotify/playlists.txt"
-"$bash_tools/spotify_playlists.sh" "$spotify_user" > spotify/playlists.txt
+"$bash_tools/spotify_playlists.sh" "$SPOTIFY_USER" > spotify/playlists.txt
 echo >&2
 
 timestamp "Stripping spotify playlist IDs from spotify/playlists.txt => playlists.txt"
