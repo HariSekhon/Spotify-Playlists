@@ -70,8 +70,6 @@ commit_playlist(){
     if ! git status -s "$playlist" "spotify/$playlist" | grep -q '^.M'; then
         return
     fi
-    echo "Net Removals from playlist '$playlist' (could be replaced with different track version):"
-    echo
     net_removals="$(find_net_removals "$playlist")"
     if [ -z "$net_removals" ]; then
         echo "Auto-committing playlist '$playlist' as no net removals"
@@ -81,6 +79,8 @@ commit_playlist(){
         echo
         return
     fi
+    echo "Net Removals from playlist '$playlist' (could be replaced with different track version):"
+    echo
     echo "$net_removals"
     echo
     read -r -p "Hit enter to see full human and spotify diffs or Control-C to exit"
