@@ -123,6 +123,9 @@ if [ $# -gt 0 ]; then
         commit_playlist "$playlist"
     done
 else
+    if ! [[ "$PWD" =~ playlists ]]; then
+        cd playlists
+    fi
     for playlist in $(git status --porcelain |
                       grep '^.M' |
                       awk '{print $2}' |
