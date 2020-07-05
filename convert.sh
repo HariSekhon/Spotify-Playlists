@@ -24,6 +24,9 @@ using bash-tools/spotify_track_uri_to_name.sh
 
 Git diff should show no differences between this result and the
 spotify_playlist_backup.sh playlists human output at the top level
+
+This is intended to run once in a while as an extra verification
+as it takes a long time do query the Spotify API for all these tracks
 "
 
 # used by usage() in lib/utils.sh
