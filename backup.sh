@@ -35,7 +35,11 @@ help_usage "$@"
 
 cd "$srcdir"
 
-export SPOTIFY_BACKUP_DIR="$PWD"
+if [ -z "${SPOTIFY_BACKUP_DIR:-}" ]; then
+    if [[ "$PWD" =~ playlists ]]; then
+        export SPOTIFY_BACKUP_DIR="$PWD"
+    fi
+fi
 
 # use submodule code
 bash_tools="$srcdir/bash-tools"
