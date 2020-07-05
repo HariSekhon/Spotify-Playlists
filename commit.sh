@@ -1,0 +1,1 @@
+bash-tools/spotify_commit_playlists.sh
