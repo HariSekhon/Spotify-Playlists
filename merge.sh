@@ -1,1 +1,1 @@
-bash-tools/spotify_commit_rename_playlist.sh
+bash-tools/scripts/spotify_commit_rename_playlist.sh

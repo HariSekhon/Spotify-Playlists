@@ -1,1 +1,1 @@
-../bash-tools/spotify_rename_playlist.sh
+bash-tools/scripts/spotify_rename_playlist.sh
