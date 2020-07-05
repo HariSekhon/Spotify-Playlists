@@ -20,7 +20,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1090
 . "$srcdir/bash-tools/.bash.d/git.sh"
 
-merge(){
+rename(){
     gitrename "$1" "$2"
 
     gitrename "spotify/$1" "spotify/$2"
