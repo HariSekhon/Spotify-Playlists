@@ -7,4 +7,4 @@ Top level playlists are in human readable format `Artist - Track`.
 
 Playlists under the `spotify/` directory are in Spotify URI format for backup/restore or copying to new playlists.
 
-These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/harisekhon/spotify-tools) repos which are available as submodules under `bash-tools/` and `spotify-tools/` directories respectively.
+These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/harisekhon/spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
