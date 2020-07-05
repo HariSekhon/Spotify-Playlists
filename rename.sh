@@ -19,4 +19,4 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$srcdir"
 
-exec "$srcdir/bash-tools/scripts/spotify_rename_playlist.sh" "$@"
+exec "$srcdir/bash-tools/scripts/spotify_rename_playlist_files.sh" "$@"
