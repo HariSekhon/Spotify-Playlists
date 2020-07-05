@@ -11,10 +11,10 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 
 #### Quick Guide
 
--  Genre mega mixes (eg. `Hip-Hop / R&B`, `Rock / Metal`, `Dance / Pop`, `Classical` etc)
-- `Best of <Genre>` - the best of the mega mixes above which are too big to listen to any more (these `Best of <genre>` are the ones you really want)
+-  Genre mega mixes (eg. `Hip-Hop / R&B`, `Rock / Metal`, `Dance / Pop`, `Classical`, `Soul / Motown` etc)
+- `Best of <Genre>` - shorter highest quality playlists (these are the ones you really want)
 - `Artist` specific playlists
-- Mixes in Time - `YYYY MM - <descrtiption>` date stamped mixes - stuff that was either hot at that time or that I discovered and listened to more at that time
+- Mixes in Time - `YYYY MM - <description>` date stamped mixes - stuff that was either hot at that time or that I discovered and listened to more at that time
 
 #### Best of the Best
 
@@ -22,7 +22,7 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 - `Elite Hip-Hop with Attitude`
 - `Smooth Hip-Hop`
 - `Chill` - chill tunes for work and life
-- `Bounce to the Rhythm` - rhymic hip-hop, put a bop in your step
+- `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
 - `Best R&B`
 - `Best Pop`
 - `Best Rock`
