@@ -28,11 +28,7 @@ merge(){
 
     ./commit.sh "$2"
 
-    gitrename "$2" "$1"
-
-    cd spotify
-
-    gitrename "$2" "$1"
+    ./rename.sh "$2" "$1"
 }
 
 if [ $# -gt 0 ]; then
