@@ -17,4 +17,6 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+cd "$srcdir"
+
 exec "$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
