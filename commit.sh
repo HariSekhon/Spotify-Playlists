@@ -19,7 +19,8 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034
 usage_description="
-Iterates over all playlists, showing diffs and then committing each in turn
+Iterates over and commits all downloaded Spotify playlists in \$PWD or playlists/ directory,
+showing diffs and then committing each in turn
 
 First shows only the net removals in standard Spotify URIs + Track Name for a playlist
 to check if anything has been lost from a playlist (additions don't need as much scrutiny)
@@ -36,9 +37,6 @@ followed by the full human readable playlist diff and spotify URI diff underneat
 If satisfactory, hitting enter at the end of the playlist diff will commit both
 the Spotify URI and human readable playlist simultaneously
 
-This allows quick decisions such as if there are no net differences or only additions, it's
-obviously safe to just scan the human diff and commit quickly
-
 Requires DevOps-Perl-tools to be in \$PATH for diffnet.pl
 "
 
@@ -53,8 +51,6 @@ usage_args="[<playlist>]"
 #. "$srcdir/bash-tools/.bash.d/git.sh"
 
 help_usage "$@"
-
-cd "$srcdir"
 
 commit_playlist(){
     playlist="$1"
