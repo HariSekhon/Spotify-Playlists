@@ -23,7 +23,7 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 - `Best R&B`
 - `Best Pop`
 - `Best Rock`
-- `Best Motown / Soul / Motown / Funk / Boogie / Groove / Easy Listening` - excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
+- `Best Motown / Funk / Boogie / Groove / Soul` - excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - `Workout / Dance / Trance / DnB / Energy / Beats` - gym mega mix
 - `Workout Hip-Hop (Aggressive)` - gym hardcore for guys pumping iron and hitting bags
 - `Trance / Dance - Best of` - high energy gym mix
