@@ -19,10 +19,9 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 #### Best of the Best
 
 - `Upbeat & Sexual Pop` - the ultimate driving mega mix
-- `Elite Hip-Hop with Attitude`
-- `Smooth Hip-Hop`
-- `Chill` - chill tunes for work and life
-- `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
+- `Elite Hip-Hop with Attitude` - legendary hip-hop
+- `Smooth Hip-Hop` - legendary hip-hop
+- `Chill` - excellent chill tunes for work and life
 - `Best R&B`
 - `Best Pop`
 - `Best Rock`
@@ -34,4 +33,5 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 - `Sensual` - for a nice evening in with the girlfriend
 - `Songs About Sex` - for guys with high testosterone in their prime, hip-hop based
 - `Bad Boy Gets Down` - similar to above
+- `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
 - `Light Fun Feel Good` - because sometimes you need to lighten up
