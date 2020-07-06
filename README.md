@@ -1,7 +1,7 @@
 Hari Sekhon - Spotify Playlists
 ===============================
 
-##### 220+ public Spotify playlists comprising 30,000+ tracks (15,000+ unique tracks)
+##### 220+ public Spotify playlists with 30,000+ tracks (15,000+ unique tracks)
 
 Top level playlists are in human readable format `Artist - Track`.
 
