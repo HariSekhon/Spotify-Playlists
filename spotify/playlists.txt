@@ -30,7 +30,7 @@
 5hHBAgEmYWkcMkWWSNrml7	Best R&B
 0DAPPqAeWuZrjge0LwYryS	Best Pop
 5YyD3L0oa0rVKUNREpEnww	Best Rock
-02WL8NiTqSfFp6VGVO834S	Best Soul / Motown / Funk / Boogie / Groove / Easy Listening
+02WL8NiTqSfFp6VGVO834S	Best Motown / Funk / Boogie / Groove / Soul
 1qeOhdKNPASZoecEBcnKfk	Chill
 2EHjpno5iNbWw3th6ccnyB	Soft
 0UhdzfzP7jPLrG6U8LGmny	Sensual
@@ -47,7 +47,7 @@
 6LP0XgEvqj5rd9vnAB0HHg	Disco!
 26wj2LINnAVSPfdY7CAOvy	Electronica
 6I5B9oc9iJPShl6ULe95ZN	Electro-Funk
-2vkUGRxSZf4wElRZnmcxWU	Soul / Motown / Groove / Funk / Boogie
+2vkUGRxSZf4wElRZnmcxWU	Motown / Funk / Boogie / Groove / Soul
 0I1TzQXuQ40jJReGtGCuIe	Jazz / Easy Listening / Lounge / Coffee Shops
 1ExUJXCciAA7pvnPln6H6F	Hip-Hop/R&B/Reggae/Grooves/Vibes
 4BHR4nL7taF7TrBKIB05pR	Rock / Metal / Indie / Alternative
