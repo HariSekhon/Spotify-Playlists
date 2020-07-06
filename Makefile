@@ -18,6 +18,11 @@ endif
 
 REPO := HariSekhon/Spotify-Playlists
 
+# looks like git printenv are still called even for an overridden target, even with an overridden dependency
+.PHONY: default
+default:
+	@$(MAKE) updates push
+
 .PHONY: build
 build: init
 	@echo =================
