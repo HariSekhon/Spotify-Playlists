@@ -19,19 +19,19 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 #### Best of the Best
 
 - `Upbeat & Sexual Pop` - the ultimate driving mega mix
-- `Elite Hip-Hop with Attitude` - legendary hip-hop
-- `Smooth Hip-Hop` - legendary hip-hop
 - `Chill` - excellent chill tunes for work and life
 - `Best R&B`
 - `Best Pop`
 - `Best Rock`
-- `Best Soul / Motown / Funk / Boogie / Groove / Easy Listening`
+- `Best Motown / Soul / Motown / Funk / Boogie / Groove / Easy Listening` - excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - `Workout / Dance / Trance / DnB / Energy / Beats` - gym mega mix
 - `Workout Hip-Hop (Aggressive)` - gym hardcore for guys pumping iron and hitting bags
 - `Trance / Dance - Best of` - high energy gym mix
 - `Love Songs` - for your sweetie
 - `Sensual` - for a nice evening in with the girlfriend
-- `Songs About Sex` - for guys with high testosterone in their prime, hip-hop based
+- `Songs About Sex` - for single guys with high testosterone in their prime, hip-hop based
 - `Bad Boy Gets Down` - similar to above
+- `Elite Hip-Hop with Attitude` - legendary hip-hop
+- `Smooth Hip-Hop` - legendary hip-hop
 - `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
 - `Light Fun Feel Good` - because sometimes you need to lighten up
