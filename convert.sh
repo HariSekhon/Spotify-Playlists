@@ -20,7 +20,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC2034
 usage_description="
 Convert every playlist under spotify/ to human readable format at top level
-using bash-tools/spotify_track_uri_to_name.sh
+using bash-tools/spotify_uri_to_name.sh
 
 Git diff should show no differences between this result and the
 spotify_playlist_backup.sh playlists human output at the top level
@@ -49,7 +49,7 @@ convert(){
     local playlist="$1"
     shift
     timestamp "converting  'spotify/$playlist'  =>  '$playlist'"
-    "$bash_tools/spotify_track_uri_to_name.sh" "$@" < "spotify/$playlist" > "$playlist"
+    "$bash_tools/spotify_uri_to_name.sh" "$@" < "spotify/$playlist" > "$playlist"
 }
 
 if [ $# -gt 0 ]; then
