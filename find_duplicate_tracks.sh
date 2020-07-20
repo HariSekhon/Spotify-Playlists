@@ -43,7 +43,7 @@ while read -r playlist_name; do
     done
     uri_dups="$(sort "spotify/$filename" | uniq -d)"
     if not_blank "$uri_dups"; then
-        echo "Duplicates in spotify/$filename:"
+        echo "* Duplicates in spotify/$filename:"
         echo
         echo "$uri_dups"
         echo
@@ -51,7 +51,7 @@ while read -r playlist_name; do
     fi
     track_dups="$(sort "$filename" | uniq -d)"
     if not_blank "$track_dups"; then
-        echo "Duplicates in $filename:"
+        echo "* Duplicates in $filename:"
         echo
         echo "$track_dups"
         echo
