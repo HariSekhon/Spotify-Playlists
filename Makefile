@@ -54,6 +54,8 @@ lazy-init:
 .PHONY: backup
 backup: lazy-init
 	./backup.sh
+	@echo
+	@echo
 	./backup_private.sh
 
 .PHONY: commit
