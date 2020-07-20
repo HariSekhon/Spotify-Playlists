@@ -41,7 +41,7 @@ while read -r playlist_name; do
             die "File not found: $x"
         fi
     done
-    uri_dups="$(sort "spotify/$filename" | uniq -d)"
+    uri_dups="$(sort "spotify/$filename" | uniq -d -i)"
     if not_blank "$uri_dups"; then
         echo "* Duplicates in spotify/$filename:"
         echo
@@ -49,7 +49,7 @@ while read -r playlist_name; do
         echo
         echo
     fi
-    track_dups="$(sort "$filename" | uniq -d)"
+    track_dups="$(sort "$filename" | uniq -d -i)"
     if not_blank "$track_dups"; then
         echo "* Duplicates in $filename:"
         echo
