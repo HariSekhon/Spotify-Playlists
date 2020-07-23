@@ -46,7 +46,6 @@ clear_playlist(){
     timestamp "clearing driving playlist"
     # uris field needs to be blank for this to work, not really optional like doc implies
     "$srcdir/bash-tools/spotify_api.sh" "$url_path" -X PUT -d '{"uris": []}' > /dev/null  # ignore the { "spotify_snapshot": ... } json output
-    echo
 }
 
 clear_playlist
