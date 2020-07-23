@@ -52,4 +52,4 @@ clear_playlist
 
 "$srcdir/bash-tools/spotify_add_to_playlist.sh" "$playlist_id" < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
 
-timestamp "Regenerated driving playlist"
+timestamp "Regenerated driving playlist in $SECONDS seconds"
