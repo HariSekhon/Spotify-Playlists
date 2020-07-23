@@ -19,4 +19,6 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$srcdir"
 
+export SPOTIFY_PUBLIC_ONLY=1
+
 exec "$srcdir/bash-tools/spotify_backup.sh" "$@"
