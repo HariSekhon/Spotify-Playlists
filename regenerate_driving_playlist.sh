@@ -33,63 +33,24 @@ help_usage "$@"
 
 # playlist ID obtained from 'SPOTIFY_PRIVATE=1 bash-tools/spotify_playlist_name_to_id.sh Driving'
 # can also be obtained from in private/spotify/playlists.txt
-url_path="/v1/playlists/7EbcD860xd91FE1zOF3F3E/tracks"
+playlist_id="7EbcD860xd91FE1zOF3F3E"
+
+url_path="/v1/playlists/$playlist_id/tracks"
 
 # requires authorized token
 export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-spotify_api="$srcdir/bash-tools/spotify_api.sh"
-
-declare -a ids
-ids=()
-
 clear_playlist(){
     timestamp "clearing driving playlist"
     # uris field needs to be blank for this to work, not really optional like doc implies
-    "$spotify_api" "$url_path" -X PUT -d '{"uris": []}'
+    "$srcdir/bash-tools/spotify_api.sh" "$url_path" -X PUT -d '{"uris": []}' > /dev/null  # ignore the { "spotify_snapshot": ... } json output
     echo
-}
-
-add_to_playlist(){
-    if [ $# -lt 1 ]; then
-        echo "Error: no IDs passed to add_to_playlist()" >&2
-    fi
-    local id_array=""
-    for id in "$@"; do
-        # requires explicit track URI type since could also be episodes added to playlist
-        id_array+="\"spotify:track:$id\", "
-    done
-    id_array="${id_array%, }"
-    timestamp "adding ${#@} tracks to driving playlist"
-    "$spotify_api" "$url_path" -X POST -d '{"uris": '"[$id_array]}"
-    echo
-    #tr ',' '\n' <<< "$ids"
-    ((num+=${#@}))
 }
 
 clear_playlist
 
-num=0
+"$srcdir/bash-tools/spotify_add_to_playlist.sh" < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
 
-while read -r track_uri; do
-    if is_blank "$track_uri"; then
-        continue
-    fi
-    if is_local_uri "$track_uri"; then
-        continue
-    fi
-    id="$(validate_spotify_uri "$track_uri")"
-
-    ids+=("$id")
-
-    if [ "${#ids[@]}" -ge 50 ]; then
-        add_to_playlist "${ids[@]}"
-        ids=()
-    fi
-done < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
-
-add_to_playlist "${ids[@]}"
-
-timestamp "Regenerated driving playlist with $num tracks"
+timestamp "Regenerated driving playlist"
