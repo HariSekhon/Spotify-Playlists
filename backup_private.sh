@@ -20,6 +20,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$srcdir"
 
 export SPOTIFY_PRIVATE=1
+export SPOTIFY_PRIVATE_ONLY=1
 
 export SPOTIFY_BACKUP_DIR="private"
 
