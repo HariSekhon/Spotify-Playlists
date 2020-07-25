@@ -53,10 +53,13 @@ lazy-init:
 
 .PHONY: backup
 backup: lazy-init
-	./backup.sh
-	@echo
-	@echo
-	./backup_private.sh
+	@SECONDS=0 && \
+	./backup.sh && \
+	echo && \
+	echo && \
+	./backup_private.sh && \
+	echo &&\
+	echo "Public + Private backups completed in $$SECONDS seconds"
 
 .PHONY: commit
 commit: lazy-init
