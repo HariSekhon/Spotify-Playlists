@@ -22,9 +22,11 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Finds Tracks by URIs and Track Names that already exist in the major playlists
+Finds Tracks exactly by URIs that already exist in my major playlists
 
-This is useful for deleting them from TODO playlists, saving tonnes of time
+Checks each URI in the given playlist file against the local offline files backup
+
+This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh)
 
 For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 track URIs checked per second across all core playlists
 "
