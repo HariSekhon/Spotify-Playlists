@@ -25,6 +25,8 @@ usage_description="
 Finds Tracks by URIs and Track Names that already exist in the major playlists
 
 This is useful for deleting them from TODO playlists, saving tonnes of time
+
+For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 track URIs checked per second across all core playlists
 "
 
 # used by usage() in lib/utils.sh
