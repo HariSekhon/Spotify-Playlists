@@ -29,29 +29,36 @@ The playlist must be have 'TODO' in the name for safety
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<playlist_name>"
+usage_args="<playlist_name> [<playlist_name> ...]"
 
 help_usage "$@"
 
 min_args 1 "$@"
 
-playlist="$1"
+for playlist; do
+    if ! [[ "$playlist" =~ TODO ]]; then
+        die "playlist name does not contain 'TODO', aborting for safety"
+    fi
+done
 
-if ! [[ "$playlist" =~ TODO ]]; then
-    die "playlist name does not contain 'TODO', aborting for safety"
-fi
+delete_tracks_from_playlist(){
+    tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist")"
 
-tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist")"
+    "$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
 
-"$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
+    playlist="${playlist##*/}"
 
-playlist="${playlist##*/}"
+    echo
+    read -r -p "Are you happy to delete these tracks from the playlist '$playlist'? " answer
+    if ! [[ "$answer" =~ ^(y|yes) ]]; then
+        die "Aborting..."
+    fi
 
-echo
-read -r -p "Are you happy to delete these tracks from the playlist '$playlist'? " answer
-if ! [[ "$answer" =~ ^(y|yes) ]]; then
-    die "Aborting..."
-fi
+    echo
+    "$srcdir/bash-tools/spotify_delete_from_playlist.sh" "$playlist" <<< "$tracks_to_delete"
+    echo
+}
 
-echo
-"$srcdir/bash-tools/spotify_delete_from_playlist.sh" "$playlist" <<< "$tracks_to_delete"
+for playlist; do
+    delete_tracks_from_playlist "$playlist"
+done
