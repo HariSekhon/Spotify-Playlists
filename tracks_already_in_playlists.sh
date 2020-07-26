@@ -18,7 +18,7 @@ set -euo pipefail
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/utils.sh"
+. "$srcdir/bash-tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -103,6 +103,7 @@ core_playlists="$(< <(
 )"
 
 for filename; do
+    validate_spotify_uri "$(head -n 1 "$filename")" >/dev/null
     while read -r uri; do
         # more efficient to constructing doing this in one pass per URI rather than cartesian product
         #while read -r playlist; do
@@ -112,6 +113,6 @@ for filename; do
         #        break
         #    fi
         #done <<< "$core_playlists"
-        eval grep -Fxh "$uri" "$(tr '\n' ' ' <<< "$core_playlists")" | uniq || :
+        eval grep -Fxh "\"$uri\"" "$(tr '\n' ' ' <<< "$core_playlists")" | uniq || :
     done < "$filename"
 done
