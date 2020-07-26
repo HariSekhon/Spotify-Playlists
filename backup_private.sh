@@ -26,11 +26,13 @@ export SPOTIFY_BACKUP_DIR="private"
 
 "$srcdir/bash-tools/spotify_backup.sh" "$@"
 
-echo
+if [ $# -eq 0 ]; then
+    echo
 
-"$srcdir/bash-tools/spotify_backup_playlist.sh" liked
+    "$srcdir/bash-tools/spotify_backup_playlist.sh" liked
 
-echo
+    echo
+fi
+[ -f "private/Liked Songs" ] && command mv -fv {private/,}"Liked Songs"
 
-command mv -fv {private/,}"Liked Songs"
-command mv -fv {private/spotify/,spotify/}"Liked Songs"
+[ -f "private/spotify/Liked Songs" ] && command mv -fv {private/spotify/,spotify/}"Liked Songs"
