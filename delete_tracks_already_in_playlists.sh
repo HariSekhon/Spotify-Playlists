@@ -43,6 +43,9 @@ done
 
 delete_tracks_from_playlist(){
     tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist")"
+    if is_blank "$tracks_to_delete"; then
+        return
+    fi
 
     "$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
 
