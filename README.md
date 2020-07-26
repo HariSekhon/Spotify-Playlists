@@ -26,7 +26,7 @@ These playlists are downloaded and managed by scripts in the [DevOps Bash tools]
 - `Best Motown / Funk / Boogie / Groove / Soul` - excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - `Workout / Dance / Trance / DnB / Energy / Beats` - gym mega mix
 - `Workout Hip-Hop (Aggressive)` - gym hardcore for guys pumping iron and hitting bags
-- `Trance / Dance - Best of` - high energy gym mix
+- `Trance / Dance - Best of` - high energy gym mix, best vocal trance
 - `Love Songs` - for your sweetie
 - `Sensual` - for a nice evening in with the girlfriend
 - `Songs About Sex` - for single guys with high testosterone in their prime, hip-hop based
