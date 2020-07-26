@@ -88,7 +88,7 @@ Starred
 core_playlists="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" <<< "$core_playlists")"
 
 # find whether they're in top level or private subdirectory
-core_playlists="$(< <(
+core_spotify_playlists="$(< <(
     while read -r playlist; do
         [ -z "$playlist" ] && continue
         if [ -f "$srcdir/spotify/$playlist" ]; then
@@ -102,7 +102,22 @@ core_playlists="$(< <(
     )
 )"
 
-for filename; do
+core_playlists="$(< <(
+    while read -r playlist; do
+        [ -z "$playlist" ] && continue
+        if [ -f "$srcdir/$playlist" ]; then
+            echo "\"$srcdir/$playlist\""
+        elif [ -f "$srcdir/private/$playlist" ]; then
+            echo "\"$srcdir/private/$playlist\""
+        else
+            die "playlist not found: $playlist"
+        fi
+    done <<< "$core_playlists"
+    )
+)"
+
+find_duplicate_URIs(){
+    local filename="$1"
     validate_spotify_uri "$(head -n 1 "$filename")" >/dev/null
     while read -r uri; do
         # more efficient to constructing doing this in one pass per URI rather than cartesian product
@@ -113,6 +128,39 @@ for filename; do
         #        break
         #    fi
         #done <<< "$core_playlists"
-        eval grep -Fxh "\"$uri\"" "$(tr '\n' ' ' <<< "$core_playlists")" | uniq || :
+        eval grep -Fxh "\"$uri\"" "$(tr '\n' ' ' <<< "$core_spotify_playlists")" | uniq || :
     done < "$filename"
+}
+
+is_track_in_core_playlists(){
+    eval grep -Fqx "\"${1//\"/\\\"}\"" "$(tr '\n' ' ' <<< "$core_playlists")"
+}
+
+find_duplicate_URIs_by_track_name(){
+    local filename="$1"
+    local spotify_filename="${filename%/*}/spotify/${filename##*/}"
+    # shellcheck disable=SC2094
+    while read -r track_name; do
+        if is_track_in_core_playlists "$track_name"; then
+            grep -Fxhn "$track_name" "$filename" |
+            sed 's/:.*$//' |
+            while read -r track_position; do
+                sed -n "${track_position}p" "$spotify_filename"
+            done || :
+        fi
+    done < "$filename"
+}
+
+for filename; do
+    if [[ "$filename" =~ /spotify/ ]]; then
+        spotify_filename="$filename"
+        track_filename="${spotify_filename//spotify\/}"
+    else
+        track_filename="$filename"
+        spotify_filename="${filename%/*}/spotify/${filename##*/}"
+    fi
+    #echo "track_filename = $track_filename"
+    #echo "spotify_filename = $spotify_filename"
+    #find_duplicate_URIs "$spotify_filename"
+    find_duplicate_URIs_by_track_name "$track_filename"
 done
