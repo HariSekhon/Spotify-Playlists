@@ -52,7 +52,7 @@ delete_tracks_from_playlist(){
     playlist="${playlist##*/}"
 
     echo
-    read -r -p "Are you happy to delete these tracks from the playlist '$playlist'? " answer
+    read -r -p "Are you happy to delete these tracks from the playlist '$playlist'? (y/N) " answer
     if ! [[ "$answer" =~ ^(y|yes) ]]; then
         die "Aborting..."
     fi
