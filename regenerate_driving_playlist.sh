@@ -48,6 +48,8 @@ clear_playlist(){
     "$srcdir/bash-tools/spotify_api.sh" "$url_path" -X PUT -d '{"uris": []}' > /dev/null  # ignore the { "spotify_snapshot": ... } json output
 }
 
+"$srcdir/backup.sh" "Upbeat & Sexual Pop"
+
 clear_playlist
 
 "$srcdir/bash-tools/spotify_add_to_playlist.sh" "$playlist_id" < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
