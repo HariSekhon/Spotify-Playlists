@@ -3,9 +3,15 @@ Hari Sekhon - Spotify Playlists
 
 ##### 220+ public Spotify playlists with 30,000+ tracks (15,000+ unique tracks)
 
+An Epic collection that has taken me a decade to build and dozens of programs and scripts to manage to a high standard.
+
+If you know a great track that isn't in one of these playlists, please send it to me ([My LinkedIn](https://www.linkedin.com/in/harisekhon))!
+
 Top level playlists are in human readable format `Artist - Track`.
 
-Playlists under the `spotify/` directory are in Spotify URI format for backup/restore or copying to new playlists.
+Spotify URI format playlists are under the `spotify/` directory for backup/restore or copying to new playlists.
+
+Keeping all playlists in both Spotify and human readable formats allows all sorts of handy tricks, from simply `grep`'ing the entire catalog (which you can't do on Spotify's App), to auto-removing duplicates from playlists, to removing tracks from todo playlists that are already in one of the core playlists so you don't have to check those tracks ever again (when combined with blacklist playlists this is a huge progressive efficiency gain).
 
 These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/harisekhon/spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
 
