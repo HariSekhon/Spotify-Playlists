@@ -45,47 +45,7 @@ for filename; do
     fi
 done
 
-# if the tracks are in any of these playlists then print them out
-# cannot put private/ prefix due to ambiguity with converting slashes to unicode names, instead I infer paths in next step
-core_playlists="
-Blacklist
-My Shazam Tracks
-Upbeat & Sexual Pop
-Bounce to the Rhythm
-Best R&B
-Best Pop
-Best Rock
-Best Motown / Funk / Boogie / Groove / Soul
-Chill
-Soft
-Sensual
-Love Songs
-Songs About Sex
-Bad Boy Gets Down
-Smooth
-Smooth Hip-Hop
-Elite Hip-Hop with Attitude
-Jamaican / Reggae / Riddim
-Grime
-Club
-Disco!
-Electronica
-Electro-Funk
-Motown / Funk / Boogie / Groove / Soul
-Jazz / Easy Listening / Lounge / Coffee Shops
-Hip-Hop/R&B/Reggae/Grooves/Vibes
-Rock / Metal / Indie / Alternative
-Dance/Pop/House/Trance/DnB/Electronica/Gym
-Workout / Dance / Trance / DnB / Energy / Beats
-Workout Hip-Hop (Aggressive)
-Trance / Dance - Best of
-Classics / Decades Gone By
-The 80s - The Greatest Decade in Human History!
-Classical
-Starred
-"
-
-core_playlists="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" <<< "$core_playlists")"
+core_playlists="$(sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" | "$srcdir/bash-tools/spotify_playlist_to_filename.sh")"
 
 # find whether they're in top level or private subdirectory
 core_spotify_playlists="$(< <(
