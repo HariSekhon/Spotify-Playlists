@@ -1,0 +1,37 @@
+# list of core playlists - used to check for tracks I already have
+# names without directory prefixes only - cannot put paths like private/ due to ambiguity with converting slashes to unicode names in code, instead I infer correct paths in code
+Blacklist
+My Shazam Tracks
+Upbeat & Sexual Pop
+Bounce to the Rhythm
+Best R&B
+Best Pop
+Best Rock
+Best Motown / Funk / Boogie / Groove / Soul
+Chill
+Soft
+Sensual
+Love Songs
+Songs About Sex
+Bad Boy Gets Down
+Smooth
+Smooth Hip-Hop
+Elite Hip-Hop with Attitude
+Jamaican / Reggae / Riddim
+Grime
+Club
+Disco!
+Electronica
+Electro-Funk
+Motown / Funk / Boogie / Groove / Soul
+Jazz / Easy Listening / Lounge / Coffee Shops
+Hip-Hop/R&B/Reggae/Grooves/Vibes
+Rock / Metal / Indie / Alternative
+Dance/Pop/House/Trance/DnB/Electronica/Gym
+Workout / Dance / Trance / DnB / Energy / Beats
+Workout Hip-Hop (Aggressive)
+Trance / Dance - Best of
+Classics / Decades Gone By
+The 80s - The Greatest Decade in Human History!
+Classical
+Starred
