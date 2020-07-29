@@ -151,6 +151,16 @@ find_duplicate_URIs_by_track_name(){
     done < "$filename"
 }
 
+find_duplicate_tracks_URIs(){
+    local track_filename="$1"
+    local spotify_filename="$2"
+    {
+        find_duplicate_URIs "$spotify_filename"
+        find_duplicate_URIs_by_track_name "$track_filename"
+    } |
+    sort -u
+}
+
 for filename; do
     if [[ "$filename" =~ /spotify/ ]]; then
         spotify_filename="$filename"
@@ -159,8 +169,5 @@ for filename; do
         track_filename="$filename"
         spotify_filename="${filename%/*}/spotify/${filename##*/}"
     fi
-    #echo "track_filename = $track_filename"
-    #echo "spotify_filename = $spotify_filename"
-    #find_duplicate_URIs "$spotify_filename"
-    find_duplicate_URIs_by_track_name "$track_filename"
+    find_duplicate_tracks_URIs "$track_filename" "$spotify_filename"
 done
