@@ -117,8 +117,8 @@ core_playlists="$(< <(
 )"
 
 find_duplicate_URIs(){
-    local filename="$1"
-    validate_spotify_uri "$(head -n 1 "$filename")" >/dev/null
+    local spotify_filename="$1"
+    validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     while read -r uri; do
         # more efficient to constructing doing this in one pass per URI rather than cartesian product
         #while read -r playlist; do
@@ -129,7 +129,7 @@ find_duplicate_URIs(){
         #    fi
         #done <<< "$core_playlists"
         eval grep -Fxh "\"$uri\"" "$(tr '\n' ' ' <<< "$core_spotify_playlists")" | uniq || :
-    done < "$filename"
+    done < "$spotify_filename"
 }
 
 is_track_in_core_playlists(){
@@ -138,7 +138,8 @@ is_track_in_core_playlists(){
 
 find_duplicate_URIs_by_track_name(){
     local filename="$1"
-    local spotify_filename="${filename%/*}/spotify/${filename##*/}"
+    #local spotify_filename="${filename%/*}/spotify/${filename##*/}"
+    local spotify_filename="$2"
     # shellcheck disable=SC2094
     while read -r track_name; do
         if is_track_in_core_playlists "$track_name"; then
@@ -156,7 +157,7 @@ find_duplicate_tracks_URIs(){
     local spotify_filename="$2"
     {
         find_duplicate_URIs "$spotify_filename"
-        find_duplicate_URIs_by_track_name "$track_filename"
+        find_duplicate_URIs_by_track_name "$track_filename" "$spotify_filename"
     } |
     sort -u
 }
