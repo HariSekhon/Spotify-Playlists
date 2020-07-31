@@ -69,4 +69,6 @@ commit: lazy-init
 .PHONY: updates
 updates: # backup commit
 	$(MAKE) backup
+	@echo
+	@echo
 	$(MAKE) commit
