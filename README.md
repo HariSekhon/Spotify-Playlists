@@ -13,11 +13,15 @@ Hari Sekhon - Spotify Playlists
 
 An Epic collection that has taken me a decade to build and dozens of programs and scripts to manage to a high standard.
 
-If you know a great track that isn't in one of these playlists, please send it to me! ([My LinkedIn](https://www.linkedin.com/in/harisekhon))
+If you know a great track that isn't in one of these playlists, please send it to me!
 
 Top level playlists are in human readable format `Artist - Track`.
 
 Spotify URI format playlists are under the `spotify/` directory for backup/restore or copying to new playlists.
+
+Hari Sekhon
+
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=linkedin)](https://www.linkedin.com/in/harisekhon/)
 
 #### Quick Guide
 
