@@ -42,9 +42,10 @@ Spotify URI format playlists are under the `spotify/` directory for backup/resto
 
 These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/harisekhon/spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
 
-Keeping all playlists in both Spotify and human readable formats allows all sorts of handy tricks, eg:
+Aside from Backup & Restore, keeping all playlists in both Spotify and human readable formats allows all sorts of handy tricks, eg:
+
 - `grep`'ing your entire playlist catalog (which you can't do in Spotify's App)
 - auto-removing duplicates from a given playlist (detected via URI and/or human readable name - different levels of duplicate detection)
 - auto-removing tracks from todo playlists that are already in one of the core playlists so you don't have to check those tracks ever again (when combined with blacklist playlists this is a huge progressive efficiency gain)
-- setting all of the tracks in your favourite playlists to `Liked Songs` without a zillion clicks in Spotify
+- setting all of the tracks in your favourite playlists to `Liked Songs` without a zillion clicks in Spotify (useful to port over your `Starred` tracks)
 - bulk-loading tracks from one or more playlists or even favourites from `Liked Songs`
