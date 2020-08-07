@@ -1,7 +1,7 @@
 Hari Sekhon - Spotify Playlists
 ===============================
 
-[![Spotify Profile](https://img.shields.io/badge/Spotify-Profile-brightgreen)](https://open.spotify.com/user/harisekhon)
+[![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
 [![Playlists](https://img.shields.io/badge/Playlists-220+-blue)](https://open.spotify.com/user/harisekhon)
 [![Tracks](https://img.shields.io/badge/Tracks-30,000+-blue)](https://open.spotify.com/user/harisekhon)
 [![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-15,000+-blue)](https://open.spotify.com/user/harisekhon)
