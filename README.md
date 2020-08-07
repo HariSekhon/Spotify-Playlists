@@ -1,9 +1,10 @@
 Hari Sekhon - Spotify Playlists
 ===============================
 
-##### 220+ public Spotify playlists with 30,000+ tracks (15,000+ unique tracks)
-
 [![Spotify Profile](https://img.shields.io/badge/Spotify-Profile-brightgreen)](https://open.spotify.com/user/harisekhon)
+[![Playlists](https://img.shields.io/badge/Playlists-220+-blue)](https://open.spotify.com/user/harisekhon)
+[![Tracks](https://img.shields.io/badge/Tracks-30,000+-blue)](https://open.spotify.com/user/harisekhon)
+[![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-15,000+-blue)](https://open.spotify.com/user/harisekhon)
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-blue?logo=github)](https://github.com/HariSekhon/Spotify-Playlists)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-blue?logo=gitlab)](https://gitlab.com/HariSekhon/Spotify-Playlists)
 [![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-blue?logo=bitbucket)](https://bitbucket.org/HariSekhon/Spotify-Playlists)
