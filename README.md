@@ -5,7 +5,7 @@ Hari Sekhon - Spotify Playlists
 [![Playlists](https://img.shields.io/badge/Playlists-220+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
 [![Tracks](https://img.shields.io/badge/Tracks-30,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
 [![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-15,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/Spotify-Playlists)](https://github.com/HariSekhon/Spotify-Playlists/commits/master)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/Spotify-Playlists?logo=github)](https://github.com/HariSekhon/Spotify-Playlists/commits/master)
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-blue?logo=github)](https://github.com/HariSekhon/Spotify-Playlists)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-blue?logo=gitlab)](https://gitlab.com/HariSekhon/Spotify-Playlists)
