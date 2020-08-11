@@ -2,9 +2,9 @@ Hari Sekhon - Spotify Playlists
 ===============================
 
 [![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
-[![Playlists](https://img.shields.io/badge/Playlists-220+-blue)](https://open.spotify.com/user/harisekhon)
-[![Tracks](https://img.shields.io/badge/Tracks-30,000+-blue)](https://open.spotify.com/user/harisekhon)
-[![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-15,000+-blue)](https://open.spotify.com/user/harisekhon)
+[![Playlists](https://img.shields.io/badge/Playlists-220+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
+[![Tracks](https://img.shields.io/badge/Tracks-30,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
+[![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-15,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-blue?logo=github)](https://github.com/HariSekhon/Spotify-Playlists)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-blue?logo=gitlab)](https://gitlab.com/HariSekhon/Spotify-Playlists)
