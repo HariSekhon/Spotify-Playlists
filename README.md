@@ -6,15 +6,15 @@ Hari Sekhon - Spotify Playlists
 [![Tracks](https://img.shields.io/badge/Tracks-30,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
 [![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-15,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
 
+[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://bitbucket.org/harisekhon/devops-bash-tools/src/master/STATUS.md)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/Spotify-Playlists?logo=github)](https://github.com/HariSekhon/Spotify-Playlists/commits/master)
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-blue?logo=github)](https://github.com/HariSekhon/Spotify-Playlists)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-blue?logo=gitlab)](https://gitlab.com/HariSekhon/Spotify-Playlists)
 [![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-blue?logo=bitbucket)](https://bitbucket.org/HariSekhon/Spotify-Playlists)
-[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://bitbucket.org/harisekhon/devops-bash-tools/src/master/STATUS.md)
 
-An Epic collection that has taken me a decade to build and dozens of programs and scripts to manage to a high standard.
+An Epic collection of playlists built over a decade, using dozens of programs and scripts to track and manage to a high standard.
 
-If you know a great track that isn't in one of these playlists, please send it to me!
+If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/harisekhon/) to add it!
 
 Top level playlists are in human readable format `Artist - Track`.
 
