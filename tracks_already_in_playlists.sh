@@ -93,7 +93,11 @@ find_duplicate_URIs(){
 }
 
 is_track_in_core_playlists(){
-    eval grep -Fqx "\"${1//\"/\\\"}\"" "$(tr '\n' ' ' <<< "$core_playlists")"
+    local arg="$1"
+    arg="${arg//\"/\\\"}"
+    arg="${arg//\$/\\\$}"
+    arg="${arg//\`/\\\`}"
+    eval grep -Fqx "\"$arg\"" "$(tr '\n' ' ' <<< "$core_playlists")"
 }
 
 find_duplicate_URIs_by_track_name(){
