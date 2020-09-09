@@ -35,9 +35,11 @@ help_usage "$@"
 
 min_args 1 "$@"
 
+safety_regex="TODO|Discover|Backlog"
+
 for playlist; do
-    if ! [[ "$playlist" =~ TODO ]]; then
-        die "playlist name does not contain 'TODO', aborting for safety"
+    if ! [[ "$playlist" =~ $safety_regex ]]; then
+        die "playlist name does not contain '$safety_regex', aborting for safety"
     fi
 done
 
