@@ -22,9 +22,9 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Finds Tracks exactly by URIs that already exist in my major playlists
+Finds Tracks exactly by URIs that already exist in the major playlist files saved here
 
-Checks each URI in the given playlist file against the local offline files backup
+Gets the URIs of a given playlist and hecks each one against the local offline playlist files backup
 
 This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh)
 
@@ -33,21 +33,20 @@ For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<playlist_file> [<playlist_file2> ...]"
+usage_args="<playlist_name>"
 
 help_usage "$@"
 
 min_args 1 "$@"
 
-for filename; do
-    if ! [ -f "$filename" ]; then
-        die "Error: file not found '$filename'"
-    fi
-done
+# allow filtering private playlists
+export SPOTIFY_PRIVATE=1
+
+spotify_token
 
 core_playlists="$(sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" | "$srcdir/bash-tools/spotify_playlist_to_filename.sh")"
 
-# find whether they're in top level or private subdirectory
+# auto-resolve each spotify playlist's path to either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
     while read -r playlist; do
         [ -z "$playlist" ] && continue
@@ -62,6 +61,7 @@ core_spotify_playlists="$(< <(
     )
 )"
 
+# auto-resolve each playlist's path to either ./ or ./private
 core_playlists="$(< <(
     while read -r playlist; do
         [ -z "$playlist" ] && continue
@@ -76,20 +76,11 @@ core_playlists="$(< <(
     )
 )"
 
-find_duplicate_URIs(){
-    local spotify_filename="$1"
-    validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
+filter_duplicate_URIs(){
+    #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     while read -r uri; do
-        # more efficient to constructing doing this in one pass per URI rather than cartesian product
-        #while read -r playlist; do
-        #    [ -z "$playlist" ] && continue
-        #    if grep -Fxq "$uri" "$playlist"; then
-        #        echo "$uri"
-        #        break
-        #    fi
-        #done <<< "$core_playlists"
         eval grep -Fxh "\"$uri\"" "$(tr '\n' ' ' <<< "$core_spotify_playlists")" | uniq || :
-    done < "$spotify_filename"
+    done
 }
 
 is_track_in_core_playlists(){
@@ -100,39 +91,24 @@ is_track_in_core_playlists(){
     eval grep -Fqx "\"$arg\"" "$(tr '\n' ' ' <<< "$core_playlists")"
 }
 
-find_duplicate_URIs_by_track_name(){
-    local filename="$1"
-    #local spotify_filename="${filename%/*}/spotify/${filename##*/}"
-    local spotify_filename="$2"
-    # shellcheck disable=SC2094
-    while read -r track_name; do
+filter_duplicate_URIs_by_track_name(){
+    while read -r track_uri; do
+        track_name="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$track_uri")"
         if is_track_in_core_playlists "$track_name"; then
-            grep -Fxhn "$track_name" "$filename" |
-            sed 's/:.*$//' |
-            while read -r track_position; do
-                sed -n "${track_position}p" "$spotify_filename"
-            done || :
+            echo "$track_uri"
         fi
-    done < "$filename"
+    done
 }
 
 find_duplicate_tracks_URIs(){
-    local track_filename="$1"
-    local spotify_filename="$2"
-    {
-        find_duplicate_URIs "$spotify_filename"
-        find_duplicate_URIs_by_track_name "$track_filename" "$spotify_filename"
-    } |
+    local playlist_name="$1"
+    "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_name" |
+    tee >/dev/null \
+        >(filter_duplicate_URIs) \
+        >(filter_duplicate_URIs_by_track_name) |
     sort -u
 }
 
-for filename; do
-    if [[ "$filename" =~ /spotify/ ]]; then
-        spotify_filename="$filename"
-        track_filename="${spotify_filename//spotify\/}"
-    else
-        track_filename="$filename"
-        spotify_filename="${filename%/*}/spotify/${filename##*/}"
-    fi
-    find_duplicate_tracks_URIs "$track_filename" "$spotify_filename"
+for playlist_name; do
+    find_duplicate_tracks_URIs "$playlist_name"
 done
