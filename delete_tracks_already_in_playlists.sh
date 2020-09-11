@@ -35,7 +35,11 @@ help_usage "$@"
 
 min_args 1 "$@"
 
-safety_regex="New Playlist|TODO|Discover|Backlog"
+if [ -n "${SPOTIFY_DISABLE_SAFETY:-}" ]; then
+    safety_regex=".*"
+else
+    safety_regex="New Playlist|TODO|Discover|Backlog"
+fi
 
 for playlist; do
     if ! [[ "$playlist" =~ $safety_regex ]]; then
