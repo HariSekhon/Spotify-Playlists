@@ -24,7 +24,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 usage_description="
 Deletes tracks from a given playlist that are already in my core playlists
 
-The playlist must be have 'TODO' in the name for safety
+The playlist must be have TODO / Discover / Backlog in the name for safety
 "
 
 # used by usage() in lib/utils.sh
@@ -44,23 +44,26 @@ for playlist; do
 done
 
 delete_tracks_from_playlist(){
-    tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist")"
+    local playlist_name="$1"
+    local tracks_to_delete
+    local count
+    tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
     if is_blank "$tracks_to_delete"; then
         return
     fi
 
     "$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
 
-    playlist="${playlist##*/}"
+    count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
 
     echo
-    read -r -p "Are you happy to delete these tracks from the playlist '$playlist'? (y/N) " answer
+    read -r -p "Are you happy to delete these $count tracks from the playlist '$playlist_name'? (y/N) " answer
     if ! [[ "$answer" =~ ^(y|yes) ]]; then
         die "Aborting..."
     fi
 
     echo
-    "$srcdir/bash-tools/spotify_delete_from_playlist.sh" "$playlist" <<< "$tracks_to_delete"
+    "$srcdir/bash-tools/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$tracks_to_delete"
     echo
 }
 
