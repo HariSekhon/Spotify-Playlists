@@ -38,6 +38,7 @@ Starred
 #
 # Auxillary / Artist already vetted playlists that have been scraped to major playlists
 #
+Chlöe Howl
 Kiesza
 Sébastien Tellier
 Sébastien Tellier - Sexuality
