@@ -37,6 +37,7 @@
 4wfnKcetnvEepYSJsnDD03	The 80s - The Greatest Decade in Human History!
 3Hw9hpJ2Wv8i11UelqnY90	The 90s
 4z4KdwmGGgfYo0Ztf8rKXj	Guitar
+6XM1Fl7D0FJG7eDrTMIoXa	Sébastien Tellier - Sexuality
 3FHJjDKmpSGE6RKhUSOd1B	Starred
 15tAAGlZwGB7jSmixIP8M2	2020 - Maya Hip-Hop Classics
 3QdcI9DTlzL0ykGLP31gJ8	2019 06-07 Venice & Budapest
@@ -67,20 +68,11 @@
 69G8PSmAUbRRpzfCJBJ8ws	Olly Murs
 1gf3KnnRJT3AFdGDLC3q7Z	Ellie Goulding
 0gooK4jgAjuJIi3MXyJ4eH	Gwen Stefani & No Doubt
-2pIKtPuEN5cEf0HXbGs6wf	Rita Ora
 7wppc6S3FWEqjSNm4dOM3l	Alessia Cara – Know-It-All (Deluxe)
 3yQalzhYhRXk03lDXXRMpk	Cheryl
-32ZRbRsW4df2XLbzrITYvV	Chromeo
 1KyiZzVDXytXIGqsbLNwqv	Jay Sean – Me Against Myself
 44LAhSpjcBcqKgb3BgrhP1	Marina and The Diamonds
 0YCObTYrIIWurtgP3hFbx5	Rebecca Ferguson
-6QNUDGwkKiNqYD9Z9wvyzC	Royal Deluxe
-56mxM5NYb3915RVzhkfluK	Stranger Things, Vol. 1 Soundtrack
-1SyzYaDOi5n4cAq03dxcPg	Stranger Things, Vol. 2 Soundtrack
-6ptiNaB9Td8oeptcu19enw	Tami Chynn
-5fCMxcD1N14CsCl5HB5Gtx	Tami Chin
-5YnJ7wMS1EmdxLPKziZj19	Zara Larsson
-6XM1Fl7D0FJG7eDrTMIoXa	Sébastien Tellier - Sexuality
 1YDtdAjvbgDdDvNj4gLdgY	Light Fun Feel Good
 16mEtjqvMYkrq6M9HIRYI5	Meditation / BJJ Swiss Ball Rolling
 7EaojRF7v8MnFIhFxG2xAt	MMA
@@ -102,6 +94,7 @@
 5mifqVkSik6KY3RQWllZuI	Chicane – Best Of Chicane
 2nKR1jv8v3AguqIaIuDT46	Childish Gambino
 49ZUs6q1CnP6L14emsmqvJ	Chlöe Howl
+32ZRbRsW4df2XLbzrITYvV	Chromeo
 02f6ip1JasEDoewHLMEIAG	Coldplay
 2lMnJemN4tXNShmsTTqEFU	Cover Drive
 5CTGWzYPzj01kjJqpLoeBA	Creed
@@ -189,9 +182,11 @@
 3XbAXJhVgxR7iEuuPzanVF	Red Hot Chili Peppers
 0YEV0gCqxBYXJMOuTGSnwa	Republica
 1ZCoN6y8wmOyZwyWZ1qrPL	Rihanna
+2pIKtPuEN5cEf0HXbGs6wf	Rita Ora
 4zIeT24ObpSQxuKkyYt9dn	Rita Ora - ORA Deluxe
 5YQoWgTfJX08dEepg3iKHm	Robyn
 7db5ZLCZuwbPTe5oJgcYHO	Rocky
+6QNUDGwkKiNqYD9Z9wvyzC	Royal Deluxe
 0xmMrn5YAk4sQZo2S31fWl	R. Kelly – The R. In R&B Collection: Volume 1
 2oky2D6pcT92n1kez7Lv0E	Saliva
 2CYP1XZE6Hp2yNH6g4unMF	Savage Garden – Truly, Madly Completely - The Best Of Savage Garden
@@ -209,6 +204,8 @@
 1idFmEMUDrZUMj9zHYHmkF	Stereophonics
 6TfFTT8QXPEkJGhzzYVppR	Steve Aoki
 4f5kGgEofQGN9M63QJUPbe	Stevie Wonder – The Definitive Collection
+5fCMxcD1N14CsCl5HB5Gtx	Tami Chin
+6ptiNaB9Td8oeptcu19enw	Tami Chynn
 68TOzFygUs5ci2DzSFVuoY	Texas – The Greatest Hits - Deluxe Sound & Vision
 6weX7gskz4gnWeHkDeFWob	Theory Of A Deadman
 1kzwr0tH3UUJHGTqBhSXMB	Thirteen Senses
@@ -218,6 +215,7 @@
 75NDlcJyWdddDYsZjhGF8F	U2
 6flz43tABX2JdMyXEcsvSr	The Who – Greatest Hits
 3pU80B1cfx97YJV32tQadx	The xx
+5YnJ7wMS1EmdxLPKziZj19	Zara Larsson
 3ew9fpeRrZoX0HBVixH0Ik	R&B Slow Jamz 3 Discs
 4ke9t0ThjxFFttPEwS9tCV	Ramin Djawadi – Game Of Thrones
 5SzWgEWoDC1SFMBplDdnaD	Bones (Original Television Soundtrack)
@@ -227,5 +225,7 @@
 0KWzfkoaYFRR5wEj4zYRAO	Erotic Lounge, Volume 1
 273Q4pNZe0f0P42NeIAVwn	Erotic Lounge
 3DIFW3Hi9nT9GlfbXuH5OU	Heart Breakers
+56mxM5NYb3915RVzhkfluK	Stranger Things, Vol. 1 Soundtrack
+1SyzYaDOi5n4cAq03dxcPg	Stranger Things, Vol. 2 Soundtrack
 67qzRFGxuGzGgW6B47WJVC	Matrix Reloaded Soundtrack
 2P2dLeagIUnECWzlQHn1Nk	Various Artists – Boogie Nights / Music From The Original Motion Picture
