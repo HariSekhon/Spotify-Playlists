@@ -24,7 +24,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 usage_description="
 Deletes tracks from a given playlist that are already in my core playlists
 
-The playlist must be have TODO / Discover / Backlog in the name for safety
+The playlist name must contain New Playlist / TODO / Discover / Backlog in the name for safety
 "
 
 # used by usage() in lib/utils.sh
@@ -35,7 +35,7 @@ help_usage "$@"
 
 min_args 1 "$@"
 
-safety_regex="TODO|Discover|Backlog"
+safety_regex="New Playlist|TODO|Discover|Backlog"
 
 for playlist; do
     if ! [[ "$playlist" =~ $safety_regex ]]; then
