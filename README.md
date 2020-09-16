@@ -12,6 +12,8 @@ Hari Sekhon - Spotify Playlists
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-blue?logo=gitlab)](https://gitlab.com/HariSekhon/Spotify-Playlists)
 [![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-blue?logo=bitbucket)](https://bitbucket.org/HariSekhon/Spotify-Playlists)
 
+[git.io/spotify-playlists](https://git.io/spotify-playlists)
+
 An Epic collection of playlists built over a decade, using dozens of programs and scripts to track and manage to a high standard.
 
 If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/harisekhon/) to add it!
@@ -64,3 +66,5 @@ Aside from Backup & Restore, keeping all playlists in both Spotify and human rea
 - auto-removing tracks from todo playlists that are already in one of the core playlists so you don't have to check those tracks ever again (when combined with blacklist playlists this is a huge progressive efficiency gain)
 - setting all of the tracks in your favourite playlists to `Liked Songs` without a zillion clicks in Spotify (useful to port over your `Starred` tracks)
 - bulk-loading tracks from one or more playlists or even favourites from `Liked Songs`
+
+[git.io/spotify-playlists](https://git.io/spotify-playlists)
