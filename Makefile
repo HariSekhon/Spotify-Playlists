@@ -76,3 +76,7 @@ updates: # backup commit
 .PHONY: test
 test:
 	./validate.sh
+
+.PHONY:
+wc:
+	./wc.sh
