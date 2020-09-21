@@ -19,9 +19,17 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd "$srcdir"
 
+exclusions="
+Makefile
+README.md
+"
+
 validate_playlist_length(){
     local playlist="${1#./}"
     local spotify_playlist="spotify/$playlist"
+    for exclusion in $exclusions; do
+        [ "$playlist" = "$exclusion" ] && return
+    done
     [ -f "$playlist" ] || { echo "File not found: '$playlist'"; exit 1; }
     [ -f "$spotify_playlist" ] || { echo "File not found: '$spotify_playlist'"; exit 1; }
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
@@ -46,3 +54,6 @@ else
         validate_playlist_length "$filename"
     done
 fi
+
+echo
+echo "OK - All playlists length vs spotify/ length checks passed"
