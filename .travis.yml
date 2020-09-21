@@ -37,4 +37,4 @@ install:
   - travis_retry make
 
 script:
-  - travis_retry ./validate.sh
+  - travis_retry make test
