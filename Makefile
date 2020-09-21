@@ -72,3 +72,7 @@ updates: # backup commit
 	@echo
 	@echo
 	$(MAKE) commit
+
+.PHONY: test
+test:
+	./validate.sh
