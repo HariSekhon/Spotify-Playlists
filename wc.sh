@@ -28,7 +28,7 @@ playlist_count="$(playlist_count)"
 spotify_playlist_count="$(cd spotify && playlist_count)"
 
 if [ "$playlist_count" != "$spotify_playlist_count" ]; then
-    echo "Playlist count mismatch between top level and spotify/" >&2
+    echo "Playlist lists count mismatch between top level playlists.txt and spotify/playlists.txt" >&2
     exit 1
 fi
 
@@ -36,7 +36,7 @@ echo
 echo "Playlists: $playlist_count"
 echo
 
-playlists="$(bash-tools/spotify_playlist_to_filename.sh < playlists.txt)"
+playlists="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" < playlists.txt)"
 
 playlists_linecount(){
     while read -r playlist; do
