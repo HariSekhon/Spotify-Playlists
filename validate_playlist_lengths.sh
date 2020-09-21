@@ -19,17 +19,26 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd "$srcdir"
 
-exclusions="
-Makefile
-README.md
-"
+playlist_count(){
+    wc -l playlists.txt | awk '{print $1}'
+}
+
+playlist_count="$(playlist_count)"
+
+spotify_playlist_count="$(cd spotify && playlist_count)"
+
+if [ "$playlist_count" != "$spotify_playlist_count" ]; then
+    echo "Playlist lists count mismatch between top level playlists.txt and spotify/playlists.txt" >&2
+    exit 1
+fi
+
+echo
+echo "Playlists: $playlist_count"
+echo
 
 validate_playlist_length(){
     local playlist="${1#./}"
     local spotify_playlist="spotify/$playlist"
-    for exclusion in $exclusions; do
-        [ "$playlist" = "$exclusion" ] && return
-    done
     [ -f "$playlist" ] || { echo "File not found: '$playlist'"; exit 1; }
     [ -f "$spotify_playlist" ] || { echo "File not found: '$spotify_playlist'"; exit 1; }
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
@@ -47,12 +56,10 @@ if [ $# -gt 0 ]; then
         validate_playlist_length "$playlist"
     done
 else
-    find . -maxdepth 1 -type f |
-    sed 's/^\.\///' |
-    grep -vi -e '^\.' -e '\.sh' -e '\.pl' -e '\.txt' -e '\.svn' -e '\.git' -e '\.orig' -e 'TODO' -e 'tocheck' |
-    while read -r filename; do
-        validate_playlist_length "$filename"
-    done
+    playlists="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" < playlists.txt)"
+    while read -r playlist; do
+        validate_playlist_length "$playlist"
+    done <<< "$playlists"
 fi
 
 echo
