@@ -78,26 +78,16 @@ core_playlists="$(< <(
 
 filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
-    while read -r uri; do
-        eval grep -Fxh "\"$uri\"" "$(tr '\n' ' ' <<< "$core_spotify_playlists")" | uniq || :
-    done
+    eval grep -Fxh -f /dev/stdin "$(tr '\n' ' ' <<< "$core_spotify_playlists")" || :
 }
 
-is_track_in_core_playlists(){
-    local arg="$1"
-    arg="${arg//\"/\\\"}"
-    arg="${arg//\$/\\\$}"
-    arg="${arg//\`/\\\`}"
-    eval grep -Fqx "\"$arg\"" "$(tr '\n' ' ' <<< "$core_playlists")"
+filter_tracks_in_core_playlists(){
+    eval grep -Fxh -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
 }
 
 filter_duplicate_URIs_by_track_name(){
-    while read -r track_uri; do
-        track_name="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$track_uri")"
-        if is_track_in_core_playlists "$track_name"; then
-            echo "$track_uri"
-        fi
-    done
+    "$srcdir/bash-tools/spotify_uri_to_name.sh" |
+    filter_tracks_in_core_playlists
 }
 
 find_duplicate_tracks_URIs(){
