@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
+#  args: "Discover Backlog"
 #
 #  Author: Hari Sekhon
 #  Date: 2020-07-24 18:54:56 +0100 (Fri, 24 Jul 2020)
@@ -81,13 +82,38 @@ filter_duplicate_URIs(){
     eval grep -Fxh -f /dev/stdin "$(tr '\n' ' ' <<< "$core_spotify_playlists")" || :
 }
 
+# returns the 'line_number:track_name'
 filter_tracks_in_core_playlists(){
-    eval grep -Fxh -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
+    eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
+}
+
+is_track_in_core_playlists(){
+    eval grep -Fxq -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" <<< "$*"
 }
 
 filter_duplicate_URIs_by_track_name(){
-    "$srcdir/bash-tools/spotify_uri_to_name.sh" |
-    filter_tracks_in_core_playlists
+    local uris
+    local tracks
+    uris="$(cat)"
+    # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
+    #paste <("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
+    tracks="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$uris" | grep -v '^[[:space:]]*$')"
+    if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
+        die "ERROR: failed to resolve all URIs for track name comparisons"
+    fi
+    local lines_tracks
+    lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
+    sed_print_lines="$(sed 's/:.*/p;/' <<< "$lines_tracks")"
+    sed -n "$sed_print_lines" <<< "$uris"
+}
+
+filter_duplicate_URIs_by_track_name_slow(){
+    while read -r track_uri; do
+        track_name="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$track_uri")"
+        if is_track_in_core_playlists "$track_name"; then
+            echo "$track_uri"
+        fi
+    done
 }
 
 find_duplicate_tracks_URIs(){
