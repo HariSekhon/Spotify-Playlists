@@ -82,13 +82,21 @@ filter_duplicate_URIs(){
     eval grep -Fxh -f /dev/stdin "$(tr '\n' ' ' <<< "$core_spotify_playlists")" || :
 }
 
-# returns the 'line_number:track_name'
 filter_tracks_in_core_playlists(){
-    eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
+    # would return the wrong results, the line numbers of the local playlists not the line numbers from the targeted playlist
+    #eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
+    local index=1
+    while read -r track; do
+        if is_track_in_core_playlists "$track"; then
+            # uri variable is inherited from parent function filter_duplicate_URIs_by_track_name
+            sed -n "${index}p" <<< "$uris"
+        fi
+        ((index+=1))
+    done
 }
 
 is_track_in_core_playlists(){
-    eval grep -Fxq -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" <<< "$*"
+    eval grep -Fxq -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" <<< "$@"
 }
 
 filter_duplicate_URIs_by_track_name(){
@@ -101,12 +109,16 @@ filter_duplicate_URIs_by_track_name(){
     if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
         die "ERROR: failed to resolve all URIs for track name comparisons"
     fi
-    local lines_tracks
-    lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
-    sed_print_lines="$(sed 's/:.*/p;/' <<< "$lines_tracks")"
-    sed -n "$sed_print_lines" <<< "$uris"
+    # XXX: wrong results, takes lines from the local files which might be in the wrong order to the current online playlist
+    #local lines_tracks
+    #lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
+    #sed_print_lines="$(sed 's/:.*/p;/' <<< "$lines_tracks")"
+    #sed -n "$sed_print_lines" <<< "$uris"
+    #lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
+    filter_tracks_in_core_playlists <<< "$tracks"
 }
 
+# works fine, but slow
 filter_duplicate_URIs_by_track_name_slow(){
     while read -r track_uri; do
         track_name="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$track_uri")"
