@@ -23,7 +23,10 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Finds Tracks exactly by URIs that already exist in the major playlist files saved here
+Finds Tracks already exist in the major playlist files saved here via
+
+1. exact URI match
+2. Artist - TrackName exact match (may be different URI copies but should be exactly the same song)
 
 Gets the URIs of a given playlist and hecks each one against the local offline playlist files backup
 
