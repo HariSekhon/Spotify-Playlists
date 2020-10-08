@@ -51,8 +51,10 @@ delete_tracks_from_playlist(){
     local playlist_name="$1"
     local tracks_to_delete
     local count
+    echo "Finding tracks in playlist \"$playlist_name\" that are already in other playlists"
     tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
     if is_blank "$tracks_to_delete"; then
+        echo "No tracks found in existing playlists"
         return
     fi
 
