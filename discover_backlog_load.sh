@@ -65,11 +65,14 @@ spotify_token
 
 while read -r playlist; do
     [ -z "$playlist" ] && continue
+    echo
     timestamp "Loading tracks from playlist \"$playlist\" to Discover Backlog"
     "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist" |
     "$srcdir/bash-tools/spotify_add_to_playlist.sh" "Discover Backlog"
 done <<< "$followed_playlists"
 
+echo
 "$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "Discover Backlog"
 
+echo
 "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog"
