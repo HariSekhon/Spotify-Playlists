@@ -23,6 +23,22 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 followed_playlists="
 Discover Weekly
 New Music Friday
+Today's Top Hits
+Soak Up the Sun
+mint
+just hits
+'90s Baby Makers
+Are & Be
+You & Me
+B.A.E.
+The Sweet Suite
+Chilled R&B
+Soul Lounge
+Funk Outta Here
+Workout Twerkout
+Power Workout
+License To Chill
+It's ALT Good!
 "
 
 # shellcheck disable=SC2034,SC2154
@@ -49,7 +65,7 @@ spotify_token
 
 while read -r playlist; do
     [ -z "$playlist" ] && continue
-    timestamp "Loading tracks from $playlist to Discover Backlog"
+    timestamp "Loading tracks from playlist \"$playlist\" to Discover Backlog"
     "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist" |
     "$srcdir/bash-tools/spotify_add_to_playlist.sh" "Discover Backlog"
 done <<< "$followed_playlists"
