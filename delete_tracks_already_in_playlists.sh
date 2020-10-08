@@ -60,10 +60,12 @@ delete_tracks_from_playlist(){
 
     count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
 
-    echo
-    read -r -p "Are you happy to delete these $count tracks from the playlist '$playlist_name'? (y/N) " answer
-    if ! [[ "$answer" =~ ^(y|yes) ]]; then
-        die "Aborting..."
+    if is_interactive; then
+        echo
+        read -r -p "Are you happy to delete these $count tracks from the playlist '$playlist_name'? (y/N) " answer
+        if ! [[ "$answer" =~ ^(y|yes) ]]; then
+            die "Aborting..."
+        fi
     fi
 
     echo
