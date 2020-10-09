@@ -54,11 +54,12 @@ lazy-init:
 .PHONY: backup
 backup: lazy-init
 	@SECONDS=0 && \
+	export SPOTIFY_ACCESS_TOKEN="$$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)" && \
 	./backup.sh && \
 	echo && \
 	echo && \
 	./backup_private.sh && \
-	echo &&\
+	echo && \
 	echo "Public + Private backups completed in $$SECONDS seconds"
 
 .PHONY: commit
