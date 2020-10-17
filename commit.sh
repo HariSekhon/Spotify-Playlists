@@ -21,6 +21,8 @@ cd "$srcdir"
 
 "$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
 
-cd "$srcdir/private"
+if [ -d "$srcdir/private" ]; then
+    cd "$srcdir/private"
 
-exec "$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
+    exec "$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
+fi
