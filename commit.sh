@@ -19,4 +19,8 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$srcdir"
 
+"$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
+
+cd "$srcdir/private"
+
 exec "$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
