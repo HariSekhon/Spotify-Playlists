@@ -24,6 +24,9 @@ followed_playlists="
 Discover Weekly
 New Music Friday
 Today's Top Hits
+UK Top 50
+United Kingdom Top 50
+Billboard Hot 100
 Soak Up the Sun
 mint
 just hits
@@ -33,12 +36,19 @@ You & Me
 B.A.E.
 The Sweet Suite
 Chilled R&B
+R&B 2020
+<3 XXXO <3
 Soul Lounge
 Funk Outta Here
 Workout Twerkout
 Power Workout
 License To Chill
 It's ALT Good!
+Soul Revived
+This Is: Skepta
+This Is Rihanna
+This is Roxette
+The Most Romantic Songs in the World
 "
 
 # shellcheck disable=SC2034,SC2154
