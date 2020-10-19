@@ -78,6 +78,10 @@ updates: # backup commit
 	@echo
 	$(MAKE) commit
 
+.PHONY: update
+update: updates
+	@:
+
 .PHONY: push
 push:
 	git pull --no-edit && \
