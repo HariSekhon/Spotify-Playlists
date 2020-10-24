@@ -26,10 +26,14 @@ cd "$srcdir"
 
 export SPOTIFY_PUBLIC_ONLY=1
 
+echo >&2
+
 timestamp "Backing up Artists followed"
 "$bash_tools/spotify_followed_artists.sh" "$@" | sort -f > artists_followed.txt
 
 timestamp "Backing up Artists followed URIs"
 "$bash_tools/spotify_followed_artists_uri.sh" "$@" | sort -f > spotify/artists_followed.txt
+
+echo >&2
 
 exec "$bash_tools/spotify_backup.sh" "$@"
