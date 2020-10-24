@@ -17,11 +17,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/bash-tools"
+
+# shellcheck disable=SC1090
+. "$bash_tools/lib/utils.sh"
+
 cd "$srcdir"
 
 export SPOTIFY_PUBLIC_ONLY=1
-
-bash_tools="$srcdir/bash-tools"
 
 timestamp "Backing up Artists followed"
 "$bash_tools/spotify_followed_artists.sh" "$@" | sort -f > artists_followed.txt
