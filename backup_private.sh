@@ -33,6 +33,10 @@ if [ $# -eq 0 ]; then
 
     echo
 fi
-[ -f "private/Liked Songs" ] && command mv -fv {private/,}"Liked Songs"
 
-[ -f "private/spotify/Liked Songs" ] && command mv -fv {private/spotify/,spotify/}"Liked Songs"
+for subdir in . spotify; do
+    if [ -f "private/$subdir/Liked Songs" ]; then
+        mv -fv "private/$subdir/Liked Songs" "$subdir/Liked Songs"
+        #sort -f "private/$subdir/Liked Songs" > "$subdir/Liked Songs"
+    fi
+done
