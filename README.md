@@ -60,9 +60,9 @@ Hari Sekhon
 
 #### Artists
 
-Even my followed artists list is backed up (`artists_followed.txt`) and can be restored via my spotify tools scripts.
+Even my followed artists are backed up to `artists_followed.txt` and can be restored via my spotify scripts.
 
-I also use scripts to automatically follow any artist with 5 or more tracks in my `Liked Songs`.
+Artists with 5 or more tracks in my `Liked Songs` are automatically followed by my spotify scripts.
 
 
 #### The Tech Stuff
