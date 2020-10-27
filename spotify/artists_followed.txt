@@ -21,6 +21,7 @@ spotify:artist:0mTfntDCCWRozUnyxpGf6E
 spotify:artist:0NbfKEOTQCcwd6o7wSDOHI
 spotify:artist:0NWLoTHkDz70WnSea4YhjA
 spotify:artist:0oJM3iJjMdzgsd4z5VHQvw
+spotify:artist:0SfsnGyD8FpIN4U4WCkBZ5
 spotify:artist:0T2sGLJKge2eaFmZJxX7sq
 spotify:artist:0Tob4H0FLtEONHU1MjpUEp
 spotify:artist:0un6YenPxWZ2VW4aFGMupM
