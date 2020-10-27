@@ -23,14 +23,35 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 followed_playlists="
 Discover Weekly
 New Music Friday
+Best New Music
+Favourite New Releases
 Today's Top Hits
+Top Pop
 UK Top 50
 United Kingdom Top 50
 Billboard Hot 100
+Dazed's The Only Tracks You Need To Hear
+Spotify's Most Played All-Time
+Top Tracks - All Time
+Top Tracks - Last Month
+Top Tracks - Last Six Months
+Dance Hits
+Dance Party
+Dance Classics
+Rock Classics
+Most Necessary
+RapCaviar
+Gold School
+wRap Caveat
 Soak Up the Sun
 mint
 just hits
 '90s Baby Makers
+All Out 00s
+All Out 90s
+All Out 80s
+All Out 70s
+I Love My 'OOs R&B
 Are & Be
 You & Me
 B.A.E.
@@ -38,12 +59,18 @@ The Sweet Suite
 Chilled R&B
 R&B 2020
 <3 XXXO <3
+billboard Number Ones
 Soul Lounge
 Funk Outta Here
 Workout Twerkout
 Power Workout
+Hype
 License To Chill
+Chill Tracks
+Rock Ballards
+Rock Me UP!
 It's ALT Good!
+Nu Metal Generation
 Soul Revived
 This Is: Skepta
 This Is Rihanna

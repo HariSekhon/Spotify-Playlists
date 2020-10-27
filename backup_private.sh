@@ -17,12 +17,25 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/bash-tools"
+
+# shellcheck disable=SC1090
+. "$bash_tools/lib/utils.sh"
+
 cd "$srcdir"
 
 export SPOTIFY_PRIVATE=1
 export SPOTIFY_PRIVATE_ONLY=1
 
 export SPOTIFY_BACKUP_DIR="private"
+
+timestamp "Backing up Artists followed"
+"$bash_tools/spotify_artists_followed.sh" "$@" | sort -f > artists_followed.txt
+echo >&2
+
+timestamp "Backing up Artists followed URIs"
+"$bash_tools/spotify_artists_followed_uri.sh" "$@" | sort -f > spotify/artists_followed.txt
+echo >&2
 
 "$srcdir/bash-tools/spotify_backup.sh" "$@"
 
@@ -33,6 +46,10 @@ if [ $# -eq 0 ]; then
 
     echo
 fi
-[ -f "private/Liked Songs" ] && command mv -fv {private/,}"Liked Songs"
 
-[ -f "private/spotify/Liked Songs" ] && command mv -fv {private/spotify/,spotify/}"Liked Songs"
+for subdir in . spotify; do
+    if [ -f "private/$subdir/Liked Songs" ]; then
+        mv -fv "private/$subdir/Liked Songs" "$subdir/Liked Songs"
+        #sort -f "private/$subdir/Liked Songs" > "$subdir/Liked Songs"
+    fi
+done

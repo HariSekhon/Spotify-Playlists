@@ -57,6 +57,14 @@ Hari Sekhon
 - `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
 - `Light Fun Feel Good` - because sometimes you need to lighten up
 
+
+#### Artists
+
+Even my followed artists are backed up to `artists_followed.txt` and can be restored via my spotify scripts.
+
+Artists with 5 or more tracks in my `Liked Songs` are automatically followed by my spotify scripts.
+
+
 #### The Tech Stuff
 
 These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/harisekhon/spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.

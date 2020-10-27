@@ -82,12 +82,16 @@ updates: # backup commit
 update: updates
 	@:
 
-.PHONY: push
-push:
+.PHONY: pull
+pull:
 	git pull --no-edit && \
+	cd private/ && \
+	git pull --no-edit
+
+.PHONY: push
+push: pull
 	git push && \
 	cd private/ && \
-	git pull --no-edit && \
 	git push
 
 .PHONY: test
