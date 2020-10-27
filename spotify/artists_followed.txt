@@ -1,6 +1,10 @@
 spotify:artist:00FQb4jTyendYWaN8pK0wa
 spotify:artist:01QTIT5P1pFP3QnnFSdsJf
+spotify:artist:066X20Nz7iquqkkCW6Jxy6
+spotify:artist:06HL4z0CvFAxyc27GXpf02
 spotify:artist:06YQ6XwCdPUn8rAXV70gge
+spotify:artist:07YZf4WDAMNwqr4jfgOZ8y
+spotify:artist:085pc2PYOi8bGKj0PNjekA
 spotify:artist:08GQAI4eElDnROBrJRGE0X
 spotify:artist:0bZCak2tcRMY1dzEIuwF42
 spotify:artist:0Chxmm4XMM87mJOHvyiUzL
@@ -11,6 +15,7 @@ spotify:artist:0hCNtLu0JehylgoiP8L4Gh
 spotify:artist:0hE6TKAV7j8kQSKaePY0aH
 spotify:artist:0jnsk9HBra6NMjO2oANoPY
 spotify:artist:0L8ExT028jH3ddEcZwqJJ5
+spotify:artist:0LcJLqbBmaGUft1e9Mm8HV
 spotify:artist:0LyfQWJT6nXafLPZqxe9Of
 spotify:artist:0mTfntDCCWRozUnyxpGf6E
 spotify:artist:0NbfKEOTQCcwd6o7wSDOHI
@@ -23,12 +28,14 @@ spotify:artist:0X2BH1fck6amBIoJhDVmmJ
 spotify:artist:0Xf8oDAJYd2D0k3NLI19OV
 spotify:artist:0YWxKQj2Go9CGHCp77UOyy
 spotify:artist:11wRdbnoYqRddKBrpHt4Ue
+spotify:artist:137W8MRPWKqSmrBGDBFSop
 spotify:artist:13saZpZnCDWOI9D4IJhp1f
 spotify:artist:165ZgPlLkK7bf5bDoFc6Sb
 spotify:artist:19y5MFBH7gohEdGwKM7QsP
 spotify:artist:1BH45DVSTeGBvcYXNCd67g
 spotify:artist:1C60viSZv6BoYtrnkZ44g5
 spotify:artist:1Cs0zKBU1kc0i8ypK3B9ai
+spotify:artist:1dfeR4HaWDbWqFHLkxsg1d
 spotify:artist:1fa0cOhromAZdq2xRA4vv8
 spotify:artist:1GhPHrq36VKCY3ucVaZCfo
 spotify:artist:1h6Cn3P4NGzXbaXidqURXs
@@ -43,6 +50,7 @@ spotify:artist:1Oa0bMld0A3u5OTYfMzp5h
 spotify:artist:1P8IfcNKwrkQP5xJWuhaOC
 spotify:artist:1QPZhx0asYTBxD5RDqfU49
 spotify:artist:1sBkRIssrMs1AbVkOJbc7a
+spotify:artist:1vCWHaC5f2uS3yhpwWbIA6
 spotify:artist:1vfezMIyCr4XUdYRaKIKi3
 spotify:artist:1w5Kfo2jwwIPruYS2UWh56
 spotify:artist:1wiBLzTI7z9RUwEpNPdFT6
@@ -70,6 +78,7 @@ spotify:artist:2CIMQHirSU0MQqyYHq0eOx
 spotify:artist:2d0hyoQ5ynDBnkvAbJKORj
 spotify:artist:2DORQjKJVYZMx9uu82UGtT
 spotify:artist:2feDdbD5araYcm6JhFHHw7
+spotify:artist:2gsggkzM5R49q6jpPvazou
 spotify:artist:2mV8aJphiSHYJf43DxL7Gt
 spotify:artist:2mxe0TnaNL039ysAj51xPQ
 spotify:artist:2p1fiYHYiXz9qi0JJyxBzN
@@ -151,11 +160,13 @@ spotify:artist:5JsdVATHNPE0XdMFMRoSuf
 spotify:artist:5K4W6rqBFWDnAN6FQUkS6x
 spotify:artist:5KDIH2gF0VpelTqyQS7udb
 spotify:artist:5me0Irg2ANcsgc93uaYrpb
+spotify:artist:5ndkK3dpZLKtBklKjxNQwT
 spotify:artist:5pKCCKE2ajJHZ9KAiaK11H
 spotify:artist:5rkVyNGXEgeUqKkB5ccK83
 spotify:artist:5S6hjAxgxjsLylsTtMIimO
 spotify:artist:5spEJXLwD1sKUdC2bnOHPg
 spotify:artist:5squ8uM6fhMQY71t9xobJC
+spotify:artist:5WUlDfRSoLAfcVSX1WnrxN
 spotify:artist:5Y5TRrQiqgUO4S36tzjIRZ
 spotify:artist:5YjEVrNMrIRw2xGbjTN6Ti
 spotify:artist:60FV7KyxIH9FH1uq7u8inP

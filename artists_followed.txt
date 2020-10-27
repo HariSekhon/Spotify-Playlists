@@ -2,6 +2,7 @@
 3OH!3
 50 Cent
 A Perfect Circle
+ABBA
 AC/DC
 Adina Howard
 Aeroplane
@@ -11,6 +12,8 @@ Alicia Keys
 Amy Shark
 Anastacia
 Ashanti
+Avicii
+B.o.B
 Baeza
 Beyoncé
 Black Eyed Peas
@@ -80,9 +83,11 @@ Idlewild
 Incubus
 India.Arie
 Ja Rule
+Jason Derulo
 JAY-Z
 Jeezy
 Jeremih
+Jessie J
 Joyce Wrice
 Justin Timberlake
 Kanye West
@@ -103,6 +108,7 @@ Kylie Minogue
 Labrinth
 Lady Gaga
 Lana Del Rey
+LCD Soundsystem
 Lenny Kravitz
 Lil Wayne
 Lily Allen
@@ -147,6 +153,7 @@ Phil Collins
 Placebo
 Professor Green
 Pyotr Ilyich Tchaikovsky
+Queen
 R. Kelly
 Rage Against The Machine
 Red Hot Chili Peppers
@@ -161,6 +168,7 @@ Saigon
 Saliva
 Savage Garden
 Shiny Toy Guns
+Sia
 Siamese Sex Show
 Silverchair
 Simply Red
@@ -174,6 +182,7 @@ Steve Aoki
 Stevie Wonder
 Swedish House Mafia
 Sébastien Tellier
+Taylor Swift
 Texas
 The Chemical Brothers
 The Game
@@ -202,6 +211,8 @@ Usher
 Various Artists
 Wale
 Warren G
+will.i.am
+Wiz Khalifa
 Wretch 32
 Wyclef Jean
 Zara Larsson
