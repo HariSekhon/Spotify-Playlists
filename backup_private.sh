@@ -20,7 +20,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 bash_tools="$srcdir/bash-tools"
 
 # shellcheck disable=SC1090
-. "$bash_tools/lib/utils.sh"
+. "$bash_tools/lib/spotify.sh"
 
 cd "$srcdir"
 
@@ -28,6 +28,12 @@ export SPOTIFY_PRIVATE=1
 export SPOTIFY_PRIVATE_ONLY=1
 
 export SPOTIFY_BACKUP_DIR="private"
+
+# auth pop-up once up front instead of multiple times (once for each called script)
+#spotify_token
+# force re-auth since token only lasts for 1 hour and this can take 10 minutes, we don't want the token to expire and error out the scripts part way through
+SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)"
+export SPOTIFY_ACCESS_TOKEN
 
 timestamp "Backing up Artists followed"
 "$bash_tools/spotify_artists_followed.sh" "$@" | sort -f > artists_followed.txt
