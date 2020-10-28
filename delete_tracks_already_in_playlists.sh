@@ -58,11 +58,11 @@ delete_tracks_from_playlist(){
         return
     fi
 
-    "$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
-
-    count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
-
     if is_interactive; then
+        "$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
+
+        count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
+
         echo
         read -r -p "Are you happy to delete these $count tracks from the playlist '$playlist_name'? (y/N) " answer
         if ! [[ "$answer" =~ ^(y|yes) ]]; then
