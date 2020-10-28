@@ -35,14 +35,18 @@ Spotify's Most Played All-Time
 Top Tracks - All Time
 Top Tracks - Last Month
 Top Tracks - Last Six Months
+billboard Number Ones
+<3 XXXO <3
+Signed XOXO
+RapCaviar
+Who We Be
+Gold School
+wRap Caveat
+Most Necessary
 Dance Hits
 Dance Party
 Dance Classics
 Rock Classics
-Most Necessary
-RapCaviar
-Gold School
-wRap Caveat
 Soak Up the Sun
 mint
 just hits
@@ -51,15 +55,13 @@ All Out 00s
 All Out 90s
 All Out 80s
 All Out 70s
-I Love My 'OOs R&B
+I Love My '00s R&B
 Are & Be
 You & Me
 B.A.E.
 The Sweet Suite
 Chilled R&B
 R&B 2020
-<3 XXXO <3
-billboard Number Ones
 Soul Lounge
 Funk Outta Here
 Workout Twerkout
@@ -67,7 +69,7 @@ Power Workout
 Hype
 License To Chill
 Chill Tracks
-Rock Ballards
+Rock Ballads
 Rock Me UP!
 It's ALT Good!
 Nu Metal Generation
@@ -100,6 +102,7 @@ export SPOTIFY_PLAYLISTS_FOLLOWED=1
 
 spotify_token
 
+time \
 while read -r playlist; do
     [ -z "$playlist" ] && continue
     echo
@@ -109,7 +112,18 @@ while read -r playlist; do
 done <<< "$followed_playlists"
 
 echo
-"$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "Discover Backlog"
+time {
+    time {
+        # this often gets an internal 500 error after 1100 track deletions (11 batched calls), seems like a bug in Spotify's API, so run more than once to work around the problem
+        for _ in 1 2 3; do
+            "$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "Discover Backlog" || continue
+            break
+        done
+    }
 
-echo
-"$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog"
+    echo
+    time {
+        "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog" ||
+        "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog"
+    }
+}
