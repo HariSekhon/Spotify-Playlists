@@ -25,12 +25,20 @@ Discover Weekly
 New Music Friday
 Best New Music
 Favourite New Releases
+The motherfucking future
+mint
+just hits
+Night Rider
 Today's Top Hits
+Viral Hits
+Hot Hits UK
 Top Pop
+The Pop List
 UK Top 50
 United Kingdom Top 50
 Billboard Hot 100
 Dazed's The Only Tracks You Need To Hear
+The Drop
 Spotify's Most Played All-Time
 Top Tracks - All Time
 Top Tracks - Last Month
@@ -39,22 +47,35 @@ billboard Number Ones
 <3 XXXO <3
 Signed XOXO
 RapCaviar
-Who We Be
-Gold School
 wRap Caveat
+Who We Be
 Most Necessary
+Jazz Rap
+Gold School
+Happy Beats
+Massive Dance Hits
+The Dance List
+The Dance Tent
 Dance Hits
 Dance Party
+Massive Dance Classics
 Dance Classics
-Rock Classics
+House Supreme
+UK House Music
+Housewerk
+Altar
+Bassline Bangers
+Warehouse Party
+Trance Energy
 Soak Up the Sun
-mint
-just hits
+Ibiza Classics
 '90s Baby Makers
 All Out 00s
 All Out 90s
 All Out 80s
 All Out 70s
+Rave Classics
+80s Dance Hits
 I Love My '00s R&B
 Are & Be
 You & Me
@@ -62,13 +83,19 @@ B.A.E.
 The Sweet Suite
 Chilled R&B
 R&B 2020
+Tropical House
+Poolside Disco
 Soul Lounge
 Funk Outta Here
 Workout Twerkout
+Power Hour
 Power Workout
 Hype
+Brain Food
+4AM Chillout
 License To Chill
 Chill Tracks
+Rock Classics
 Rock Ballads
 Rock Me UP!
 It's ALT Good!
