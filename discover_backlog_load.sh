@@ -122,6 +122,12 @@ usage_args=""
 
 help_usage "$@"
 
+# check there are no duplicate playlists above slowing us down before we start as this is already a mega load
+if sort <<< "$followed_playlists" | uniq -d | grep .; then
+    echo "Duplicate playlists detected in code!"
+    exit 1
+fi
+
 export SPOTIFY_PRIVATE=1
 
 # detect followed playlists so we can convert their playlist names to IDs are well
