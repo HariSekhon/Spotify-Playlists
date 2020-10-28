@@ -57,7 +57,7 @@ fi
 
 for subdir in . spotify; do
     if [ -f "private/$subdir/Liked Songs" ]; then
-        mv -fv "private/$subdir/Liked Songs" "$subdir/Liked Songs"
-        #sort -f "private/$subdir/Liked Songs" > "$subdir/Liked Songs"
+        #mv -fv "private/$subdir/Liked Songs" "$subdir/Liked Songs"
+        sort -f "private/$subdir/Liked Songs" > "$subdir/Liked Songs"
     fi
 done
