@@ -51,15 +51,12 @@ wRap Caveat
 Who We Be
 Most Necessary
 Jazz Rap
-Gold School
 Happy Beats
 Massive Dance Hits
 The Dance List
 The Dance Tent
 Dance Hits
 Dance Party
-Massive Dance Classics
-Dance Classics
 House Supreme
 UK House Music
 Housewerk
@@ -68,15 +65,6 @@ Bassline Bangers
 Warehouse Party
 Trance Energy
 Soak Up the Sun
-Ibiza Classics
-'90s Baby Makers
-All Out 00s
-All Out 90s
-All Out 80s
-All Out 70s
-Rave Classics
-80s Dance Hits
-I Love My '00s R&B
 Are & Be
 You & Me
 B.A.E.
@@ -95,6 +83,18 @@ Brain Food
 4AM Chillout
 License To Chill
 Chill Tracks
+Dance Classics
+Massive Dance Classics
+Ibiza Classics
+Gold School
+I Love My '00s R&B
+'90s Baby Makers
+All Out 00s
+All Out 90s
+All Out 80s
+All Out 70s
+80s Dance Hits
+Rave Classics
 Rock Classics
 Rock Ballads
 Rock Me UP!
