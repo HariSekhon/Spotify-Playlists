@@ -20,100 +20,16 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1090
 . "$srcdir/bash-tools/lib/spotify.sh"
 
-followed_playlists="
-Discover Weekly
-New Music Friday
-Best New Music
-Favourite New Releases
-The motherfucking future
-mint
-just hits
-Night Rider
-Today's Top Hits
-Viral Hits
-Hot Hits UK
-Top Pop
-The Pop List
-UK Top 50
-United Kingdom Top 50
-Billboard Hot 100
-Dazed's The Only Tracks You Need To Hear
-The Drop
-Spotify's Most Played All-Time
-Top Tracks - All Time
-Top Tracks - Last Month
-Top Tracks - Last Six Months
-billboard Number Ones
-<3 XXXO <3
-Signed XOXO
-RapCaviar
-wRap Caveat
-Who We Be
-Most Necessary
-Jazz Rap
-Happy Beats
-Massive Dance Hits
-The Dance List
-The Dance Tent
-Dance Hits
-Dance Party
-House Supreme
-UK House Music
-Housewerk
-Altar
-Bassline Bangers
-Warehouse Party
-Trance Energy
-Soak Up the Sun
-Are & Be
-You & Me
-B.A.E.
-The Sweet Suite
-Chilled R&B
-R&B 2020
-Tropical House
-Poolside Disco
-Soul Lounge
-Funk Outta Here
-Workout Twerkout
-Power Hour
-Power Workout
-Hype
-Brain Food
-4AM Chillout
-License To Chill
-Chill Tracks
-Dance Classics
-Massive Dance Classics
-Ibiza Classics
-Gold School
-I Love My '00s R&B
-'90s Baby Makers
-All Out 00s
-All Out 90s
-All Out 80s
-All Out 70s
-80s Dance Hits
-Rave Classics
-Rock Classics
-Rock Ballads
-Rock Me UP!
-It's ALT Good!
-Nu Metal Generation
-Soul Revived
-This Is: Skepta
-This Is Rihanna
-This is Roxette
-The Most Romantic Songs in the World
-"
+discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/discover_playlists.txt")"
+num_discover_playlists="$(wc -l <<< "$discover_playlists" | sed 's/[[:space:]]*//g')"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
 Loads Discover Backlog tracks from the following playlists, then removes duplicates and tracks already in main playlists
 
-Followed Playlists:
+$num_discover_playlists Followed Playlists:
 
-$followed_playlists
+$discover_playlists
 "
 
 # used by usage() in lib/utils.sh
@@ -123,7 +39,7 @@ usage_args=""
 help_usage "$@"
 
 # check there are no duplicate playlists above slowing us down before we start as this is already a mega load
-if sort <<< "$followed_playlists" | uniq -d | grep .; then
+if sort <<< "$discover_playlists" | uniq -d | grep .; then
     echo "Duplicate playlists detected in code!"
     exit 1
 fi
@@ -142,7 +58,7 @@ while read -r playlist; do
     timestamp "Loading tracks from playlist \"$playlist\" to Discover Backlog"
     "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist" |
     "$srcdir/bash-tools/spotify_add_to_playlist.sh" "Discover Backlog"
-done <<< "$followed_playlists"
+done <<< "$discover_playlists"
 
 echo
 time {
