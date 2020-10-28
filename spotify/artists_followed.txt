@@ -215,5 +215,6 @@ spotify:artist:7hJcb9fa4alzcOq3EaNPoG
 spotify:artist:7jy3rLJdDQY21OgRLCZ9sD
 spotify:artist:7KnaZr690xW0sCihF9Z8oP
 spotify:artist:7Ks3elJhSP20mD04lgiA68
+spotify:artist:7Ln80lUS6He07XvHI8qqHH
 spotify:artist:7MqnCTCAX6SsIYYdJCQj9B
 spotify:artist:7sfgqEdoeBTjd8lQsPT3Cy
