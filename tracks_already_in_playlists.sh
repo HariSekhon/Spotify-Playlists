@@ -106,18 +106,24 @@ filter_duplicate_URIs_by_track_name(){
     local uris
     local tracks
     uris="$(cat)"
+
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
     #paste <("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
+
     tracks="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$uris" | grep -v '^[[:space:]]*$')"
-    if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
-        die "ERROR: failed to resolve all URIs for track name comparisons"
-    fi
+
+    # off by one due to occasional track with blank artist/track name fields, rely on exit code instead of this
+    #if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
+    #    die "ERROR: failed to resolve all URIs for track name comparisons"
+    #fi
+
     # XXX: wrong results, takes lines from the local files which might be in the wrong order to the current online playlist
     #local lines_tracks
     #lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
     #sed_print_lines="$(sed 's/:.*/p;/' <<< "$lines_tracks")"
     #sed -n "$sed_print_lines" <<< "$uris"
     #lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
+
     filter_tracks_in_core_playlists <<< "$tracks"
 }
 
