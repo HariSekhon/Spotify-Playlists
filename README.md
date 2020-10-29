@@ -18,9 +18,9 @@ Hari Sekhon - Spotify Playlists
 
 An Epic collection of playlists built over a decade, using dozens of programs and scripts to track and manage to a high standard.
 
-Listen here:
-
-[![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
+<a href="https://open.spotify.com/user/harisekhon">
+<img src="https://www.seekpng.com/png/full/23-236407_listen-on-spotify-listen-on-spotify-logo.png" width=15% height=15% />
+</a>
 
 If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/harisekhon/) to add it!
 
