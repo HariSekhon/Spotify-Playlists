@@ -18,6 +18,10 @@ Hari Sekhon - Spotify Playlists
 
 An Epic collection of playlists built over a decade, using dozens of programs and scripts to track and manage to a high standard.
 
+Spotify Profile link:
+
+[![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
+
 If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/harisekhon/) to add it!
 
 Top level playlists are in human readable format `Artist - Track`.
