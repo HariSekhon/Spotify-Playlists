@@ -19,7 +19,7 @@ Hari Sekhon - Spotify Playlists
 An Epic collection of playlists built over a decade, using dozens of programs and scripts to track and manage to a high standard.
 
 <a href="https://open.spotify.com/user/harisekhon">
-<img src="https://www.seekpng.com/png/full/23-236407_listen-on-spotify-listen-on-spotify-logo.png" width=15% height=15% />
+<img src="https://www.seekpng.com/png/full/23-236407_listen-on-spotify-listen-on-spotify-logo.png" width=150 height=54 />
 </a>
 <br />
 
