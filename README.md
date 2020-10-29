@@ -21,6 +21,7 @@ An Epic collection of playlists built over a decade, using dozens of programs an
 <a href="https://open.spotify.com/user/harisekhon">
 <img src="https://www.seekpng.com/png/full/23-236407_listen-on-spotify-listen-on-spotify-logo.png" width=15% height=15% />
 </a>
+<br />
 
 If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/harisekhon/) to add it!
 
