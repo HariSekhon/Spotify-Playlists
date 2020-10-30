@@ -31,9 +31,13 @@ usage_args=""
 
 help_usage "$@"
 
-# get Spotify credentials
-# shellcheck disable=SC1090
-. ~/.bash_vars
+# get Spotify credentials and SSH agent credentials
+for x in ~/.bash_vars ~/.agent.env; do
+    if [ -f "$x" ]; then
+        # shellcheck disable=SC1090
+        . "$x"
+    fi
+done
 
 cd "$srcdir"
 
