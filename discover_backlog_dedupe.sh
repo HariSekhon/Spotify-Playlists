@@ -48,7 +48,7 @@ time {
 echo
 # 9m
 time {
-    for _ in {1..2}; do
+    for _ in {1..3}; do
         "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog" || continue
         break
     done
