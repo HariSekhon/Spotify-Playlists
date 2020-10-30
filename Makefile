@@ -66,6 +66,10 @@ backup: lazy-init
 	echo && \
 	echo "Public + Private backups completed in $$SECONDS seconds"
 
+.PHONY: backups
+backups: backup
+	@:
+
 .PHONY: commit
 commit: lazy-init
 	./commit.sh
