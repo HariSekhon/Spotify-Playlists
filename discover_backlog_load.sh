@@ -64,21 +64,5 @@ while read -r playlist; do
 done <<< "$discover_playlists"
 
 echo
-time {
-    # 8m
-    time {
-        # this often gets a "500 Internal Server Error" after 1100 track deletions (11 batched calls), seems like a bug in Spotify's API, so run more than once to work around the problem
-        # also, will hit "400 Could not remove tracks, please check parameters." if you delete any tracks from Discover Backlog while this is running it'll throw the track positions off
-        for _ in 1 2 3; do
-            "$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "Discover Backlog" || continue
-            break
-        done
-    }
-
-    echo
-    # 9m
-    time {
-        "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog" ||
-        "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog"
-    }
-}
+# 18m
+exec time "$srcdir/discover_backlog_dedupe.sh"
