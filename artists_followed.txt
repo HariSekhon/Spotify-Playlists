@@ -1,3 +1,4 @@
+2 Chainz
 2Pac
 3OH!3
 50 Cent
@@ -61,6 +62,7 @@ Eamon
 Ellie Goulding
 Emeli Sandé
 Eminem
+Example
 Fabolous
 Faith No More
 Far East Movement
@@ -78,6 +80,7 @@ Garbage
 Guano Apes
 Guns N' Roses
 Gwen Stefani
+Halsey
 Hayley Kiyoko
 Hey Violet
 Hinder
@@ -95,6 +98,7 @@ Justin Timberlake
 Kanye West
 Kasabian
 Katey Sagal & The Forest Rangers
+Kavinsky
 Kelly Rowland
 Keri Hilson
 Kesha
@@ -123,6 +127,7 @@ Lupe Fiasco
 Luther Vandross
 M.O.P.
 M83
+Madeon
 Magnetic Man
 Makaveli
 Mariah Carey
@@ -141,7 +146,9 @@ Nas
 Natalie Taylor
 Nate Dogg
 NERO
+Nickelback
 Nicki Minaj
+Nightcall
 Nirvana
 Olly Murs
 P!nk
@@ -217,4 +224,5 @@ will.i.am
 Wiz Khalifa
 Wretch 32
 Wyclef Jean
+YACHT
 Zara Larsson
