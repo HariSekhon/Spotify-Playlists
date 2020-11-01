@@ -35,6 +35,8 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
+export SPOTIFY_DELETE_IGNORE_IRREGULAR_IDS=1
+
 # 8m
 time {
     # this often gets a "500 Internal Server Error" after 1100 track deletions (11 batched calls), seems like a bug in Spotify's API, so run more than once to work around the problem
