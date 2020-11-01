@@ -31,8 +31,8 @@ export SPOTIFY_BACKUP_DIR="private"
 
 # This is done in Makefile before both backup playlists are called
 #
-# auth pop-up once up front instead of multiple times (once for each called script)
-#spotify_token
+# auth pop-up once up front if no SPOTIFY_ACCESS_TOKEN found instead of multiple times (once for each called script)
+spotify_token
 # force re-auth since token only lasts for 1 hour and this can take 10 minutes, we don't want the token to expire and error out the scripts part way through
 #SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)"
 #export SPOTIFY_ACCESS_TOKEN
