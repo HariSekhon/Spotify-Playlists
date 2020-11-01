@@ -38,11 +38,11 @@ export SPOTIFY_BACKUP_DIR="private"
 #export SPOTIFY_ACCESS_TOKEN
 
 timestamp "Backing up Artists followed"
-"$bash_tools/spotify_artists_followed.sh" "$@" | sort -f > artists_followed.txt
+"$bash_tools/spotify_artists_followed.sh" | sort -f > artists_followed.txt
 echo >&2
 
 timestamp "Backing up Artists followed URIs"
-"$bash_tools/spotify_artists_followed_uri.sh" "$@" | sort -f > spotify/artists_followed.txt
+"$bash_tools/spotify_artists_followed_uri.sh" | sort -f > spotify/artists_followed.txt
 echo >&2
 
 "$srcdir/bash-tools/spotify_backup.sh" "$@"
