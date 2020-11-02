@@ -37,6 +37,7 @@ spotify_token
 
 export SPOTIFY_DELETE_IGNORE_IRREGULAR_IDS=1
 
+# 18m
 time {
 
 # 8m
