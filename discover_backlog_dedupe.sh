@@ -37,6 +37,8 @@ spotify_token
 
 export SPOTIFY_DELETE_IGNORE_IRREGULAR_IDS=1
 
+time {
+
 # 8m
 time {
     # this often gets a "500 Internal Server Error" after 1100 track deletions (11 batched calls), seems like a bug in Spotify's API, so run more than once to work around the problem
@@ -54,4 +56,6 @@ time {
         "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog" || continue
         break
     done
+}
+
 }
