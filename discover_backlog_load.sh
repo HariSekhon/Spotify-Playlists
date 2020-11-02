@@ -65,4 +65,4 @@ done <<< "$discover_playlists"
 
 echo
 # 18m
-exec time "$srcdir/discover_backlog_dedupe.sh"
+exec "$srcdir/discover_backlog_dedupe.sh"
