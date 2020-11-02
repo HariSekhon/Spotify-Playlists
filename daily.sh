@@ -29,6 +29,8 @@ Run daily maintenance - Backup Playlists, then load Discover Backlog and dedupe
 # shellcheck disable=SC2034
 usage_args=""
 
+{
+
 help_usage "$@"
 
 # get Spotify credentials and SSH agent credentials
@@ -50,3 +52,5 @@ export SPOTIFY_ACCESS_TOKEN
 ./discover_backlog_load.sh 2>&1 | tee "$srcdir/discover_backlog_load.log" || :
 
 ./discover_backlog_dedupe.sh 2>&1 | tee "$srcdir/discover_backlog_dedupe.log"
+
+} 2>&1 | tee "$srcdir/daily.log"
