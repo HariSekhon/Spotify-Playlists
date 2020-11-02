@@ -87,3 +87,6 @@ while not_null "$url_path"; do
     output
 done |
 "$bash_tools/spotify_delete_from_playlist.sh" "Discover Backlog"
+#tee >/dev/null \
+#   >("$bash_tools/spotify_delete_from_playlist.sh" "Discover Backlog")
+#   >("$bash_tools/spotify_uri_to_name.sh") \
