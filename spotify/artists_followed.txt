@@ -87,6 +87,7 @@ spotify:artist:2mV8aJphiSHYJf43DxL7Gt
 spotify:artist:2mxe0TnaNL039ysAj51xPQ
 spotify:artist:2p1fiYHYiXz9qi0JJyxBzN
 spotify:artist:2qk9voo8llSGYcZ6xrBzKx
+spotify:artist:2SHhfs4BiDxGQ3oxqf0UHY
 spotify:artist:2siHvYaxjaW5rKVRiIrMYH
 spotify:artist:2sil8z5kiy4r76CRTXxBCA
 spotify:artist:2uFUBdaVGtyMqckSeCl0Qj
