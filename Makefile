@@ -86,6 +86,15 @@ updates: # backup commit
 update: updates
 	@:
 
+.PHONY: discover
+discover:
+	./discover_backlog_load.sh
+	$(MAKE) dedupe
+
+.PHONY: dedupe
+dedupe:
+	./discover_backlog_dedupe.sh
+
 .PHONY: pull
 pull:
 	git pull --no-edit && \
