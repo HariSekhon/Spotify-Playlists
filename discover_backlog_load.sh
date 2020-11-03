@@ -25,7 +25,7 @@ num_discover_playlists="$(wc -l <<< "$discover_playlists" | sed 's/[[:space:]]*/
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Loads Discover Backlog tracks from the following playlists, then removes duplicates and tracks already in main playlists
+Loads tracks to the Discover Backlog playlist from the following followed playlists, then removes duplicates and tracks already in main playlists
 
 This has grown to be massive, loading several thousand tracks, then running various levels of dedupe and matching against itself, all core vetted playlists and blacklist. Now takes around 27 minutes to run!!
 
