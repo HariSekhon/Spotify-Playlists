@@ -3,8 +3,8 @@ Hari Sekhon - Spotify Playlists
 
 [![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
 [![Playlists](https://img.shields.io/badge/Playlists-220+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
-[![Tracks](https://img.shields.io/badge/Tracks-32,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
-[![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-16,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
+[![Tracks](https://img.shields.io/badge/Tracks-35,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
+[![Unique Tracks](https://img.shields.io/badge/Unique%20Tracks-17,000+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
 
 [![Travis CI](https://img.shields.io/travis/harisekhon/spotify-playlists/master?logo=travis&label=Travis%20CI)](https://travis-ci.org/HariSekhon/Spotify-Playlists)
 [![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://bitbucket.org/harisekhon/devops-bash-tools/src/master/STATUS.md)
