@@ -37,6 +37,14 @@ spotify_token
 #SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)"
 #export SPOTIFY_ACCESS_TOKEN
 
+timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
+SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
+echo >&2
+
+timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists.txt => $srcdir/private/playlists.txt"
+sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/private/spotify/playlists.txt" > "$srcdir/private/playlists.txt"
+echo >&2
+
 timestamp "Backing up Artists followed"
 "$bash_tools/spotify_artists_followed.sh" | sort -f > artists_followed.txt
 echo >&2
