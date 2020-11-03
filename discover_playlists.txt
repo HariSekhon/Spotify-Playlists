@@ -1,4 +1,4 @@
-#  vim:ts=4:sts=4:sw=4:et
+#  vim:ts=4:sts=4:sw=4:et:filetype=conf
 #
 #  Author: Hari Sekhon
 #  Date: 2020-09-25 23:37:23 +0100 (Fri, 25 Sep 2020)
@@ -13,6 +13,17 @@
 #
 
 # List of followed playlists loaded to Discover Backlog by discover_backlog_load.sh
+#
+# Format:
+#
+#  <playlist_name>
+#
+#    OR
+#
+#  <playlist_id>  <playlist_name>
+#
+# The latter case will use the playlist ID only (the second column name is informational only)
+# This will save a playlist name to ID lookup
 
 Discover Weekly
 New Music Friday
@@ -97,13 +108,9 @@ Nu Metal Generation
 Soul Revived
 UFC entrance Songs
 UFC Walkouts
-
-# the slash gets stripped, use ID instead
-#UFC/MMA Walkout Songs
-15UWQHGQThtNio5tJ1htA2
-
+15UWQHGQThtNio5tJ1htA2 UFC/MMA Walkout Songs
 UFC GYM PLAYLIST
-UFC 254 - MMA - BOXING - WORKOUT
+7f91W7rjbhzYts1G0jfp0V	UFC 254 - MMA - BOXING - WORKOUT
 This Is: Skepta
 This Is Rihanna
 This is Roxette
@@ -114,3 +121,7 @@ Art Pop
 End of Day Uplift
 90s House Classics
 Remixes
+65xSncKQzG6Suseh5gfYP1	Pigeons & Planes 🐦✈️
+4ttcn588tjxHZM74qUtfwe	Walk In Like You Own The Place 💯
+3rVpAotGJz04RMpHguEZEm	Road Trip 🚗
+2iHpuyYpf9wBXqKtl6uK4K	Dance till' you're dead 😵
