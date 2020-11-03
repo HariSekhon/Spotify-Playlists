@@ -55,11 +55,21 @@ spotify_token
 
 # 10m30s
 time \
-while read -r playlist; do
-    [ -z "$playlist" ] && continue
+while read -r playlist_line; do
+    [ -z "$playlist_line" ] && continue
     echo
-    timestamp "Loading tracks from playlist \"$playlist\" to Discover Backlog"
-    "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist" |
+    # If there is a first token that matches a spotify ID then use it, otherwise assume the whole line is a playlist name
+    playlist_id="${playlist_line%%[[:space:]]*}"
+    # XXX: there is an assumption here that no playlist name will be 22 alphanumeric chars without spaces
+    if [[ "$playlist_id" =~ ^[[:alnum:]]{22}$ ]]; then
+        playlist_name="${playlist_line#*[[:space:]]}"
+        timestamp "Loading tracks from playlist id $playlist_id ( $playlist_name ) to Discover Backlog"
+        "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_id"
+    else
+        playlist_name="$playlist_line"
+        timestamp "Loading tracks from playlist \"$playlist_name\" to Discover Backlog"
+        "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_name"
+    fi |
     "$srcdir/bash-tools/spotify_add_to_playlist.sh" "Discover Backlog"
 done <<< "$discover_playlists"
 
