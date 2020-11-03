@@ -1,11 +1,6 @@
 #
-#   Author: Hari Sekhon
-#   Date: 2012-06-05 22:26:34 -0700 (Tue, 05 Jun 2012)
-#  $LastChangedBy$
-#  $LastChangedDate$
-#  $Revision$
-#  $URL$
-#  $Id$
+#  Author: Hari Sekhon
+#  Date: 2012-06-05 22:26:34 -0700 (Tue, 05 Jun 2012)
 #
 #  vim:ts=4:sw=4:et
 
