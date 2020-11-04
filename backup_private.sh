@@ -54,9 +54,7 @@ timestamp "Backing up Artists followed URIs"
 echo >&2
 
 timestamp "Regenerating Blacklisted Artists"
-"$srcdir/blacklisted_artists.sh" >> "$srcdir/private/blacklisted_artists.txt"
-sort -fu "$srcdir/private/blacklisted_artists.txt" > "$srcdir/private/blacklisted_artists.txt.tmp"
-mv -f "$srcdir/private/blacklisted_artists.txt.tmp" "$srcdir/private/blacklisted_artists.txt"
+"$srcdir/blacklisted_artists.sh" >/dev/null
 echo >&2
 
 "$srcdir/bash-tools/spotify_backup.sh" "$@"
