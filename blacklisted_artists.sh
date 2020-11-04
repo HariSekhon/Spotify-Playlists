@@ -24,7 +24,7 @@ threshold=3
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Lists artists with $threshold or more tracks in the Blacklist playlist and not tracks in core playlists
+Lists artists with $threshold or more tracks in the Blacklist playlists and not tracks in core playlists
 
 Useful to auto-delete tracks from Discover Backlog to get rid of overrated recommended artists
 "
@@ -40,6 +40,8 @@ export SPOTIFY_PRIVATE=1
 spotify_token
 
 bash_tools="$srcdir/bash-tools"
+
+filename="$srcdir/private/blacklisted_artists.txt"
 
 trap_cmd 'echo ERROR'
 
@@ -62,8 +64,12 @@ done < <(
     "$srcdir/bash-tools/spotify_playlist_to_filename.sh"
 )
 
-#timestamp "Getting list of artists with >= 10 tracks in Blacklist"
-"$bash_tools/spotify_playlist_artists.sh" Blacklist |
+{
+    for blacklist in Blacklist{,2}; do
+        timestamp "Getting list of artists with >= $threshold tracks in $blacklist"
+        "$bash_tools/spotify_playlist_artists.sh" "$blacklist" || exit 1
+    done
+} |
 sort |
 uniq -c |
 sort -k1nr |
@@ -77,12 +83,34 @@ while read -r count artist; do
     grep -Fq "$artist" "${core_playlists[@]}" ||
     echo "$artist"
 done |
-sort -f |
-tee -a "$srcdir/private/blacklisted_artists.txt" || :
+sort -f > "$filename" || :
 # || : to silence break exit code from loop above
 
-sort -fu "$srcdir/private/blacklisted_artists.txt" > "$srcdir/private/blacklisted_artists.txt.tmp"
+timestamp "Deduping blacklisted artists"
 
-mv -f "$srcdir/private/blacklisted_artists.txt.tmp" "$srcdir/private/blacklisted_artists.txt"
+tmp="$(mktemp)"
+
+sort -fu "$filename" > "$tmp"
+
+cp -f "$tmp" "$filename"
+
+timestamp "Removing any blacklist artists found in followed artists list"
+while read -r artist; do
+    if grep -Fxq "$artist" "$srcdir/artists_followed.txt"; then
+        sed -i.bak "/^$artist^/d" "$filename"
+    fi
+done < "$tmp"
+
+timestamp "Removing any pre-existing blacklisted artists that have had tracks added to core playlists"
+while read -r artist; do
+    if grep -Fq "$artist" "${core_playlists[@]}"; then
+        sed -i.bak "/^$artist^/d" "$filename"
+    fi
+done < "$tmp"
+
+rm -f "$tmp"
 
 untrap
+timestamp "Finished generating artist blacklist"
+
+#cat "$filename"
