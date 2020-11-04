@@ -77,7 +77,12 @@ while read -r count artist; do
     grep -Fq "$artist" "${core_playlists[@]}" ||
     echo "$artist"
 done |
-sort -f || :
-# to silence break above
+sort -f |
+tee -a "$srcdir/private/blacklisted_artists.txt" || :
+# || : to silence break exit code from loop above
+
+sort -fu "$srcdir/private/blacklisted_artists.txt" > "$srcdir/private/blacklisted_artists.txt.tmp"
+
+mv -f "$srcdir/private/blacklisted_artists.txt.tmp" "$srcdir/private/blacklisted_artists.txt"
 
 untrap
