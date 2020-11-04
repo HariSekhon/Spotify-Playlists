@@ -97,6 +97,7 @@ cp -f "$tmp" "$filename"
 timestamp "Removing any blacklist artists found in followed artists list"
 while read -r artist; do
     if grep -Fxq "$artist" "$srcdir/artists_followed.txt"; then
+        timestamp "removing artist $artist"
         sed -i.bak "/^$artist^/d" "$filename"
     fi
 done < "$tmp"
@@ -104,6 +105,7 @@ done < "$tmp"
 timestamp "Removing any pre-existing blacklisted artists that have had tracks added to core playlists"
 while read -r artist; do
     if grep -Fq "$artist" "${core_playlists[@]}"; then
+        timestamp "removing artist $artist"
         sed -i.bak "/^$artist^/d" "$filename"
     fi
 done < "$tmp"
