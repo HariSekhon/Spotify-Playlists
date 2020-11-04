@@ -53,6 +53,12 @@ timestamp "Backing up Artists followed URIs"
 "$bash_tools/spotify_artists_followed_uri.sh" | sort -f > spotify/artists_followed.txt
 echo >&2
 
+timestamp "Regenerating Blacklisted Artists"
+"$srcdir/blacklisted_artists.sh" >> "$srcdir/private/blacklisted_artists.txt"
+sort -fu "$srcdir/private/blacklisted_artists.txt" > "$srcdir/private/blacklisted_artists.txt.tmp"
+mv -f "$srcdir/private/blacklisted_artists.txt.tmp" "$srcdir/private/blacklisted_artists.txt"
+echo >&2
+
 "$srcdir/bash-tools/spotify_backup.sh" "$@"
 
 if [ $# -eq 0 ]; then
