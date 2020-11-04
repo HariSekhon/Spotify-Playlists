@@ -1,6 +1,7 @@
 # list of core playlists - used to check for tracks I already have
 # playlist names without directory prefixes - cannot put prefix paths like private/ due to ambiguity between directories and playlist names containing slashes when converting slashes to unicode slash filenames, instead I infer correct paths in code
 Blacklist
+Blacklist2
 My Shazam Tracks
 Upbeat & Sexual Pop
 Bounce to the Rhythm
