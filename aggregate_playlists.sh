@@ -99,3 +99,10 @@ for mega_playlist_file in aggregations/*; do
     fi
     echo >&2
 done
+
+if [ -z "${DEBUG_TRANSLATE:-}" ]; then
+    for mega_playlist_file in aggregations/*; do
+        mega_playlist="${mega_playlist_file#aggregations/}"
+        ./backup.sh "$mega_playlist"
+    done
+fi
