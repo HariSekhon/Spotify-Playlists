@@ -54,10 +54,6 @@ lazy-init:
 .PHONY: backup
 backup: lazy-init
 	@SECONDS=0 && \
-	git pull --no-edit && \
-	pushd private/ && \
-	git pull --no-edit && \
-	popd && \
 	export SPOTIFY_ACCESS_TOKEN="$$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)" && \
 	./backup.sh && \
 	echo && \
