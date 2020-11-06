@@ -95,6 +95,10 @@ discover:
 dedupe:
 	./discover_backlog_dedupe.sh
 
+.PHONY: aggregate
+aggregate:
+	./aggregate_playlists.sh
+
 .PHONY: pull
 pull:
 	git pull --no-edit && \
