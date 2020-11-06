@@ -26,4 +26,6 @@ cd "$srcdir"
 
 export SPOTIFY_PUBLIC_ONLY=1
 
+git pull --no-edit
+
 exec "$bash_tools/spotify_backup.sh" "$@"
