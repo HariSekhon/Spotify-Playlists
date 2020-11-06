@@ -26,9 +26,7 @@ Ensure tracks in more specialized playlists are also in their super mega mix pla
 
 The mappings are in the local aggregations/ directory, each file being named after the mega mix playlist and each line of contents being the playlist from while to filter to
 
-XXX: should only be run after a full backup as this uses the offline files for speed, otherwise will end up with duplicates.
-
-Designed mainly to be called as part of Makefile workflow to ensure the correct order of loading operations
+Takes a full backup before starting to avoid loading duplicates due to out of date local playlists
 "
 
 # used by usage() in lib/utils.sh
@@ -52,6 +50,9 @@ fi
 
 export SPOTIFY_PRIVATE=1
 spotify_token
+
+# XXX: important to have up to date playlists otherwise will load duplicates
+./backup.sh
 
 for mega_playlist_file in aggregations/*; do
     mega_playlist="${mega_playlist_file#aggregations/}"
