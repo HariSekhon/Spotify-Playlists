@@ -37,6 +37,8 @@ spotify_token
 #SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)"
 #export SPOTIFY_ACCESS_TOKEN
 
+git pull --no-edit
+
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
 SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
 echo >&2
