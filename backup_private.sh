@@ -39,6 +39,11 @@ spotify_token
 
 git pull --no-edit
 
+if [ -n "$*" ]; then
+    "$srcdir/spotify_backup.sh" "$@"
+    exit 0
+fi
+
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
 SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
 echo >&2
