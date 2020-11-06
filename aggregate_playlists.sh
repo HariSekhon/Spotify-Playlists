@@ -100,9 +100,7 @@ for mega_playlist_file in aggregations/*; do
     echo >&2
 done
 
+# re-dump the aggregated playlists as soon as we're done. Could have just tee'd the URIs into the playlist files tbh but this feels more accurate using the API albeit slower
 if [ -z "${DEBUG_TRANSLATE:-}" ]; then
-    for mega_playlist_file in aggregations/*; do
-        mega_playlist="${mega_playlist_file#aggregations/}"
-        ./backup.sh "$mega_playlist"
-    done
+    ./backup.sh "$(for mega_playlist_file in aggregations/*; do echo "${mega_playlist_file#aggregations/}"; done)"
 fi
