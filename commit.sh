@@ -21,6 +21,10 @@ cd "$srcdir"
 
 "$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
 
+if [ -n "$*" ]; then
+    exit 0
+fi
+
 if [ -d "$srcdir/private" ]; then
     cd "$srcdir/private"
 
