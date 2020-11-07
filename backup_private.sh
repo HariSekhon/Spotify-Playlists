@@ -52,13 +52,7 @@ timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists
 sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/private/spotify/playlists.txt" > "$srcdir/private/playlists.txt"
 echo >&2
 
-timestamp "Backing up Artists followed"
-"$bash_tools/spotify_artists_followed.sh" | sort -f > artists_followed.txt
-echo >&2
-
-timestamp "Backing up Artists followed URIs"
-"$bash_tools/spotify_artists_followed_uri.sh" | sort -f > spotify/artists_followed.txt
-echo >&2
+"$srcdir/backup_artists_followed.sh"
 
 timestamp "Regenerating Blacklisted Artists"
 "$srcdir/blacklisted_artists.sh" >/dev/null
