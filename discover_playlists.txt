@@ -1,4 +1,4 @@
-#  vim:ts=4:sts=4:sw=4:et:filetype=conf
+#  vim:ts=4:sts=4:sw=4:noet:filetype=conf
 #
 #  Author: Hari Sekhon
 #  Date: 2020-09-25 23:37:23 +0100 (Fri, 25 Sep 2020)
@@ -68,7 +68,7 @@ Housewerk
 Altar
 Bassline Bangers
 Warehouse Party
-Trance Energy
+Trance Mission
 Soak Up the Sun
 Are & Be
 You & Me
@@ -106,14 +106,42 @@ Rock Me UP!
 It's ALT Good!
 Nu Metal Generation
 Soul Revived
-UFC entrance Songs
+UFC entrance songs
+UFC Promo Songs
 UFC Walkouts
-15UWQHGQThtNio5tJ1htA2 UFC/MMA Walkout Songs
 UFC GYM PLAYLIST
+
+15UWQHGQThtNio5tJ1htA2	UFC/MMA Walkout Songs
 7f91W7rjbhzYts1G0jfp0V	UFC 254 - MMA - BOXING - WORKOUT
-This Is: Skepta
-This Is Rihanna
-This is Roxette
+
+Late Night Lofi
+Phonica Recommends (Home)
+Phonica Recommends (Club)
+Phonica Best of 2019 Home-Listening
+Phonica Best of 2019
+
+37i9dQZF1DWXmlLSKkfdAk	Acoustic Covers
+6R5RSdYz3oKXBJA2hRZRxr	Best R&B
+2qQT2IACcHqoHq9GsyRUZ0	The Best R&B
+1x1vWIj29OHNBziZ7JtDHx	Best Old R&B tunes
+1OXZTDuMtSNGQK8kgFZIkE	Best of Old School R&B - 90's & 2000's
+5yble9DWH1Yj1LY5dWl0P4	Best R&B "Bedroom" Playlist
+6O8SB0P5DyIYPcWBtKwIDw	Best R&B "Bedroom"  Playlist 😈
+1kMyrcNKPws587cSAOjyDP	90s R&B Hits (Top 100)
+1CQXhjR3YDBumhymO4OIrS	R&B and Hip Hop - 90/00's
+4cxA4ejoaYVzTA6BSm824q	Best R&B/Hip-Hop Love Songs (90s, 2000s, 2010s) | Slow Jamz & Baby Makin' Music | Wedding Reception Party Songs | R&B Queens & Kings | R&B-Pop (Pop&B)
+4UgFDXTXRpIblWrnIHxfRZ	The Best R&B/Hip Hop Playlist Ever - Period!
+6alXcrPNoyAxhFGY1XW8Iy	Ultimate R&B
+0hXjwWrYW7vVQ3yjQ63JTW	Elite R&B
+2VNQen5AxZ4W0NDOFM3x1c	R&B Elite
+48aCDPKxa3IJub0X0vUVv6	Slowjamz/R&B/Soul
+6tuBtFoL42AijzAyJyUWdU	the elite r&b✨🥺✨
+6NxkKRiufnrD0lO3s5horU	Sex Songs (Hiphop, R&B) Spotify & Chill - Best Sexy Time Playlist
+5rTER1RmAQiIV28omyhUbG	elite hip-hop
+7MUetBlXvM2YewkWmJvsLD	hip hop elite
+1EsRiUFQ0OBlQ8FP9Oz746	Quiet Storm (80s, 90s, 00s, Today's Best R&B & Old Skool Slow Jams)
+29c6gYmiNOicHDieRrQONr	90s Party Hits
+
 The Most Romantic Songs in the World
 New York Hip Hop
 Cali Fire
@@ -122,6 +150,7 @@ Art Pop
 End of Day Uplift
 90s House Classics
 Remixes
+
 65xSncKQzG6Suseh5gfYP1	Pigeons & Planes 🐦✈️
 4ttcn588tjxHZM74qUtfwe	Walk In Like You Own The Place 💯
 3rVpAotGJz04RMpHguEZEm	Road Trip 🚗
@@ -140,5 +169,9 @@ Remixes
 4HIDabVMIJ8zOqLxG7nGpp	Chill 🏝
 0QRy9lzaQf9ImfFfGr00zx	Gym Fitness 🏋
 6X37WDTVD3T1USWWQ0qeRJ	Sex. 💦
-5YapnX8vqjnPVFX3ToUSDs	Country Pop Mix=
+5YapnX8vqjnPVFX3ToUSDs	 Country Pop Mix=
 6OvbjYTvii4Dr8LXIwGuTc	Best of Classical 🎻
+
+This Is: Skepta
+This Is Rihanna
+This is Roxette
