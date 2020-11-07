@@ -25,15 +25,19 @@
 # The latter case will use the playlist ID only (the second column name is informational only)
 # This will save a playlist name to ID lookup
 
+# discover_blacklisted.sh analysis of % blacklisted shows which playlists aren't worth following
+
 Discover Weekly
 New Music Friday
 Best New Music
 Favourite New Releases
-the motherfucking future: the nocturne edit
+# 90% blacklisted
+#the motherfucking future: the nocturne edit
 The motherfucking future - complete archive
 mint
 just hits
-Night Rider
+# 89% blacklisted
+#Night Rider
 Today's Top Hits
 Viral Hits
 Hot Hits UK
@@ -55,39 +59,58 @@ RapCaviar
 wRap Caveat
 Who We Be
 Most Necessary
-Jazz Rap
+# 92% blacklisted
+#Jazz Rap
 Happy Beats
 Massive Dance Hits
 The Dance List
-The Dance Tent
+# 94% blacklisted
+#The Dance Tent
 Dance Hits
 Dance Party
-House Supreme
+# 87% blacklisted
+#House Supreme
 UK House Music
 Housewerk
 Altar
-Bassline Bangers
+# 98% blacklisted
+#Bassline Bangers
 Warehouse Party
 Trance Mission
-Soak Up the Sun
-Are & Be
+# 84% blacklisted
+#Soak Up the Sun
+# 92% blacklisted
+#Are & Be
 You & Me
-B.A.E.
-The Sweet Suite
-Chilled R&B
-R&B 2020
+# 90% blacklisted
+#B.A.E.
+# 85% blacklisted
+#The Sweet Suite
+# 88% blacklisted
+#Chilled R&B
+# 84% blacklisted
+#R&B 2020
 Tropical House
-Poolside Disco
-Soul Lounge
+# 90% blacklisted
+#Poolside Disco
+# 100% blacklisted
+#Soul Lounge
 Funk Outta Here
-Workout Twerkout
+# 86% blacklisted
+#Workout Twerkout
 Power Hour
-Power Workout
-Hype
-Brain Food
-4AM Chillout
-License To Chill
-Chill Tracks
+# 94% blacklisted
+#Power Workout
+# 91% blacklisted
+#Hype
+# 88% blacklisted
+#Brain Food
+# 84% blacklisted
+#4AM Chillout
+# 84% blacklisted
+#License To Chill
+# 84% blacklisted
+#Chill Tracks
 Dance Classics
 Massive Dance Classics
 Ibiza Classics
@@ -101,7 +124,8 @@ All Out 70s
 80s Dance Hits
 Rave Classics
 Rock Classics
-Rock Ballads
+# 86% blacklisted
+#Rock Ballads
 Rock Me UP!
 It's ALT Good!
 Nu Metal Generation
