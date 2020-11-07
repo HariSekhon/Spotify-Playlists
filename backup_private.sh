@@ -27,6 +27,9 @@ cd "$srcdir"
 export SPOTIFY_PRIVATE=1
 export SPOTIFY_PRIVATE_ONLY=1
 
+# include followed playlists both for getting a full playlist.txt and also for using for discover_blacklisted.sh percentages
+export SPOTIFY_PLAYLISTS_FOLLOWED=1
+
 export SPOTIFY_BACKUP_DIR="private"
 
 # This is done in Makefile before both backup playlists are called
@@ -40,7 +43,7 @@ spotify_token
 git pull --no-edit
 
 if [ -n "$*" ]; then
-    "$srcdir/spotify_backup.sh" "$@"
+    "$bash_tools/spotify_backup.sh" "$@"
     exit 0
 fi
 
@@ -58,12 +61,12 @@ timestamp "Regenerating Blacklisted Artists"
 "$srcdir/blacklisted_artists.sh" >/dev/null
 echo >&2
 
-"$srcdir/bash-tools/spotify_backup.sh" "$@"
+"$bash_tools/spotify_backup.sh" "$@"
 
 if [ $# -eq 0 ]; then
     echo
 
-    "$srcdir/bash-tools/spotify_backup_playlist.sh" liked
+    "$bash_tools/spotify_backup_playlist.sh" liked
 
     echo
 fi
