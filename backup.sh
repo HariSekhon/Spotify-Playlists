@@ -28,4 +28,6 @@ export SPOTIFY_PUBLIC_ONLY=1
 
 git pull --no-edit
 
+"$srcdir/backup_artists_followed.sh"
+
 exec "$bash_tools/spotify_backup.sh" "$@"
