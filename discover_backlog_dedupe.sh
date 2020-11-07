@@ -37,6 +37,10 @@ spotify_token
 
 export SPOTIFY_DELETE_IGNORE_IRREGULAR_IDS=1
 
+cd "$srcdir"
+
+make pull
+
 # 18m
 time {
 
