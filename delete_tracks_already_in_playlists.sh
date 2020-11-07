@@ -42,8 +42,12 @@ else
 fi
 
 for playlist; do
-    if ! [[ "$playlist" =~ $safety_regex ]]; then
-        die "playlist name does not contain '$safety_regex', aborting for safety"
+    playlist_name="$playlist"
+    if is_spotify_playlist_id "$playlist"; then
+        playlist_name="$("$srcdir/bash-tools/spotify_playlist_id_to_name.sh" <<< "$playlist")"
+    fi
+    if ! [[ "$playlist_name" =~ $safety_regex ]]; then
+        die "playlist name '$playlist_name' does not contain '$safety_regex', aborting for safety"
     fi
 done
 
