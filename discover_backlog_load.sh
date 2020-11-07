@@ -40,18 +40,42 @@ usage_args=""
 
 help_usage "$@"
 
+export SPOTIFY_PRIVATE=1
+
+spotify_token
+
+# ============================================================================ #
+#                               Pre-flight checks
+# ============================================================================ #
+
 # check there are no duplicate playlists above slowing us down before we start as this is already a mega load
 if sort <<< "$discover_playlists" | uniq -d | grep .; then
     echo "Duplicate playlists detected in code!"
     exit 1
 fi
 
-export SPOTIFY_PRIVATE=1
+if ! [ -d private ]; then
+    echo "private/ subdirectory not found for playlist name pre-flight check"
+    exit 1
+fi
+
+"$srcdir/backup_playlists_lists.sh"
+echo >&2
+
+# ensure none of the playlists have been renamed
+timestamp "Checking all discover playlists are present"
+while read -r playlist_line; do
+    grep -Fxq "$playlist_line" private/playlists.txt private/spotify/playlists.txt ||
+    die "Playlist not found:  $playlist_line"
+done <<< "$discover_playlists"
+
+# ============================================================================ #
 
 # detect followed playlists so we can convert their playlist names to IDs are well
 export SPOTIFY_PLAYLISTS_FOLLOWED=1
 
-spotify_token
+"$srcdir/discover_backlog_dedupe.sh"
+echo
 
 # 10m30s
 time \
