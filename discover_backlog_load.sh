@@ -17,8 +17,10 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/bash-tools"
+
 # shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/spotify.sh"
+. "$bash_tools/lib/spotify.sh"
 
 discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/discover_playlists.txt")"
 num_discover_playlists="$(wc -l <<< "$discover_playlists" | sed 's/[[:space:]]*//g')"
@@ -81,6 +83,8 @@ export SPOTIFY_PLAYLISTS_FOLLOWED=1
 "$srcdir/discover_backlog_dedupe.sh"
 echo
 
+discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
+
 # 10m30s
 time \
 while read -r playlist_line; do
@@ -92,13 +96,13 @@ while read -r playlist_line; do
     if [[ "$playlist_id" =~ ^[[:alnum:]]{22}$ ]]; then
         playlist_name="${playlist_line#*[[:space:]]}"
         timestamp "Loading tracks from playlist id $playlist_id ( $playlist_name ) to Discover Backlog"
-        "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_id"
+        "$bash_tools/spotify_playlist_tracks_uri.sh" "$playlist_id"
     else
         playlist_name="$playlist_line"
         timestamp "Loading tracks from playlist \"$playlist_name\" to Discover Backlog"
-        "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_name"
+        "$bash_tools/spotify_playlist_tracks_uri.sh" "$playlist_name"
     fi |
-    "$srcdir/bash-tools/spotify_add_to_playlist.sh" "Discover Backlog"
+    "$bash_tools/spotify_add_to_playlist.sh" "$discover_backlog_playlist_id"
 done <<< "$discover_playlists"
 
 echo
