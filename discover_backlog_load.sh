@@ -48,6 +48,10 @@ spotify_token
 #                               Pre-flight checks
 # ============================================================================ #
 
+cd "$srcdir"
+
+make pull
+
 # check there are no duplicate playlists above slowing us down before we start as this is already a mega load
 if sort <<< "$discover_playlists" | uniq -d | grep .; then
     echo "Duplicate playlists detected in code!"
