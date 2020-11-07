@@ -17,8 +17,10 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/bash-tools"
+
 # shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/spotify.sh"
+. "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -41,6 +43,8 @@ cd "$srcdir"
 
 make pull
 
+discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
+
 # 18m
 time {
 
@@ -48,20 +52,22 @@ time {
 time {
     # this often gets a "500 Internal Server Error" after 1100 track deletions (11 batched calls), seems like a bug in Spotify's API, so run more than once to work around the problem
     # also, will hit "400 Could not remove tracks, please check parameters." if you delete any tracks from Discover Backlog while this is running it'll throw the track positions off
-    for _ in {1..6}; do
-        "$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "Discover Backlog" || continue
-        break
-    done
+    #for _ in {1..6}; do
+        # retries are now done in spotify_api.sh
+        "$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "$discover_backlog_playlist_id"  # || continue
+    #    break
+    #done
 }
 
 echo
 # 9m
 time {
     # Spotify's API gets random errors, so need to retry a couple times, more for huge discover backlog loaded (now 100+ playlists loaded > 10,000 tracks)
-    for _ in {1..6}; do
-        "$srcdir/delete_tracks_already_in_playlists.sh" "Discover Backlog" || continue
-        break
-    done
+    #for _ in {1..6}; do
+        # retries are now done in spotify_api.sh
+        "$srcdir/delete_tracks_already_in_playlists.sh" "$discover_backlog_playlist_id"  # || continue
+    #    break
+    #done
 }
 
 }
