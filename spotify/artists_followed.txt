@@ -114,6 +114,7 @@ spotify:artist:31CtLHmSL7Oa7TPU9YyBEu
 spotify:artist:31TPClRtHm23RisEBtV3X7
 spotify:artist:33fj8RtjQBL37nJ63YDHSP
 spotify:artist:360IAlyVv4PCEVjgyMZrxK
+spotify:artist:36E7oYfz3LLRto6l2WmDcD
 spotify:artist:3AQRLZ9PuTAozP28Skbq8V
 spotify:artist:3AuMNF8rQAKOzjYppFNAoB
 spotify:artist:3BeQqzKdlARoOd6y30kCO2
