@@ -28,12 +28,16 @@
 # discover_blacklisted.sh analysis of % blacklisted shows which playlists aren't worth following
 
 Discover Weekly
-New Music Friday
+# 99% blacklisted
+#New Music Friday
+# 90% blacklisted
 Best New Music
-Favourite New Releases
+# 86% blacklisted
+#Favourite New Releases
 # 90% blacklisted
 #the motherfucking future: the nocturne edit
-The motherfucking future - complete archive
+# 85% blacklisted
+#The motherfucking future - complete archive
 mint
 just hits
 # 89% blacklisted
@@ -47,7 +51,8 @@ UK Top 50
 United Kingdom Top 50
 Billboard Hot 100
 Dazed's The Only Tracks You Need To Hear
-The Drop
+# 80% blacklisted
+#The Drop
 Spotify's Most Played All-Time
 Top Tracks - All Time
 Top Tracks - Last Month
@@ -55,7 +60,8 @@ Top Tracks - Last Six Months
 billboard Number Ones
 <3 XXXO <3
 Signed XOXO
-RapCaviar
+# 85% blacklisted
+#RapCaviar
 wRap Caveat
 Who We Be
 Most Necessary
@@ -63,16 +69,20 @@ Most Necessary
 #Jazz Rap
 Happy Beats
 Massive Dance Hits
-The Dance List
+# 83% blacklisted
+#The Dance List
 # 94% blacklisted
 #The Dance Tent
 Dance Hits
-Dance Party
+# 82% blacklisted
+#Dance Party
 # 87% blacklisted
 #House Supreme
-UK House Music
+# 80% blacklisted
+#UK House Music
 Housewerk
-Altar
+# 82% blacklisted
+#Altar
 # 98% blacklisted
 #Bassline Bangers
 Warehouse Party
@@ -90,7 +100,8 @@ You & Me
 #Chilled R&B
 # 84% blacklisted
 #R&B 2020
-Tropical House
+# 81% blacklist
+#Tropical House
 # 90% blacklisted
 #Poolside Disco
 # 100% blacklisted
@@ -98,7 +109,8 @@ Tropical House
 Funk Outta Here
 # 86% blacklisted
 #Workout Twerkout
-Power Hour
+# 83% blacklisted
+#Power Hour
 # 94% blacklisted
 #Power Workout
 # 91% blacklisted
@@ -116,7 +128,8 @@ Massive Dance Classics
 Ibiza Classics
 Gold School
 I Love My '00s R&B
-'90s Baby Makers
+# 82% blacklisted
+# '90s Baby Makers
 All Out 00s
 All Out 90s
 All Out 80s
@@ -129,7 +142,8 @@ Rock Classics
 Rock Me UP!
 It's ALT Good!
 Nu Metal Generation
-Soul Revived
+# 82% blacklisted
+#Soul Revived
 UFC entrance songs
 UFC Promo Songs
 UFC Walkouts
