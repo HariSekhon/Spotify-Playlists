@@ -150,6 +150,7 @@ UFC Walkouts
 UFC GYM PLAYLIST
 
 15UWQHGQThtNio5tJ1htA2	UFC/MMA Walkout Songs
+# this playlist name keeps incrementing the UFC number, but the ID is fixed and reliable
 7f91W7rjbhzYts1G0jfp0V	UFC 254 - MMA - BOXING - WORKOUT
 
 Late Night Lofi
