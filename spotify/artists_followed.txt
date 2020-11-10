@@ -52,6 +52,7 @@ spotify:artist:1HwM5zlC5qNWhJtM00yXzG
 spotify:artist:1HY2Jd0NmPuamShAr6KMms
 spotify:artist:1J2VVASYAamtQ3Bt8wGgA6
 spotify:artist:1KCSPY1glIKqW2TotWuXOR
+spotify:artist:1l7ZsJRRS8wlW3WfJfPfNS
 spotify:artist:1moxjboGR7GNWYIMWsRjgG
 spotify:artist:1nhSLEYdoBHG6cJ8NDwoF1
 spotify:artist:1Oa0bMld0A3u5OTYfMzp5h
