@@ -97,9 +97,14 @@ aggregate:
 
 .PHONY: pull
 pull:
+	git stash && \
 	git pull --no-edit && \
-	cd private/ && \
-	git pull --no-edit
+	pushd private/ && \
+	git stash && \
+	git pull --no-edit && \
+	git stash pop && \
+	popd && \
+	git stash pop
 
 .PHONY: push
 push: pull
