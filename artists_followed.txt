@@ -22,6 +22,7 @@ B.o.B
 Baeza
 BANKS
 Beyoncé
+Bill Conti
 Black Eyed Peas
 Black Rob
 Blackmill
@@ -30,6 +31,7 @@ Bloc Party
 Blondie
 Bon Jovi
 Bone Thugs-N-Harmony
+Bryan Adams
 Busta Rhymes
 Calvin Harris
 Camila Cabello
@@ -93,12 +95,14 @@ Halsey
 Hayley Kiyoko
 Hey Violet
 Hinder
+Ice Cube
 Idlewild
 Imagine Dragons
 Incubus
 India.Arie
 J. Cole
 Ja Rule
+Jamiroquai
 Jason Derulo
 JAY-Z
 Jeezy
@@ -190,6 +194,7 @@ R. Kelly
 Rage Against The Machine
 Red Hot Chili Peppers
 Republica
+Rick Astley
 Rick Ross
 Rihanna
 Rita Ora
