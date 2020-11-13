@@ -102,9 +102,9 @@ pull:
 	pushd private/ && \
 	git stash && \
 	git pull --no-edit && \
-	git stash pop && \
+	git stash pop; \
 	popd && \
-	git stash pop
+	git stash pop || :
 
 .PHONY: push
 push: pull
