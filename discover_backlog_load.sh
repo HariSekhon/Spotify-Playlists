@@ -71,7 +71,15 @@ echo >&2
 # ensure none of the playlists have been renamed
 timestamp "Checking all discover playlists are present"
 while read -r playlist_line; do
-    grep -Fxq "$playlist_line" private/playlists.txt private/spotify/playlists.txt ||
+    if grep -Fxq "$playlist_line" private/playlists.txt private/spotify/playlists.txt; then
+        continue
+    fi
+    playlist_id="${playlist_line%%[[:space:]]*}"
+    if is_spotify_playlist_id "$playlist_id"; then
+        if grep -q "^${playlist_id}[[:space:]]" private/spotify/playlists.txt; then
+            continue
+        fi
+    fi
     die "Playlist not found:  $playlist_line"
 done <<< "$discover_playlists"
 
