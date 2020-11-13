@@ -76,6 +76,9 @@ updates: # backup commit
 	$(MAKE) backup
 	@echo
 	@echo
+	$(MAKE) aggregate
+	@echo
+	@echo
 	$(MAKE) commit
 
 .PHONY: update
