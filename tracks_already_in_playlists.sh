@@ -50,6 +50,13 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
+# requires GNU grep to work, Mac's grep is buggy with use of -f
+if is_mac; then
+    grep(){
+        command ggrep "$@"
+    }
+fi
+
 core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" | "$srcdir/bash-tools/spotify_playlist_to_filename.sh")}"
 
 # auto-resolve each spotify playlist's path to either ./spotify/ or ./private/spotify/
@@ -98,7 +105,6 @@ core_playlists_tracks="$(
     sort -u
 )"
 
-
 filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     grep -Fxh -f /dev/stdin <(echo "$core_spotify_playlists_tracks_uri") || :
@@ -107,19 +113,28 @@ filter_duplicate_URIs(){
 filter_tracks_in_core_playlists(){
     # would return the wrong results, the line numbers of the local playlists not the line numbers from the targeted playlist
     #eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
-    local index=1
-    while read -r track; do
-        if is_track_in_core_playlists "$track"; then
-            # uri variable is inherited from parent function filter_duplicate_URIs_by_track_name
-            sed -n "${index}p" <<< "$uris"
-        fi
-        ((index+=1))
-    done
+    #local index=1
+    # slooow due to so much forking
+    #while read -r track; do
+    #    if is_track_in_core_playlists "$track"; then
+    #        # uri variable is inherited from parent function filter_duplicate_URIs_by_track_name
+    #        #sed -n "${index}p" <<< "$uris"
+    #        echo "${index}p;"
+    #    fi
+    #    ((index+=1))
+    #done |
+    # requires GNU grep to work, Mac's grep is buggy
+    grep -Fxn --color=no -f <(echo "$core_playlists_tracks") /dev/stdin |
+    cut -f1 -d: |
+    sort -u |
+    sed '/^[[:space:]]*$/d; s/$/p;/g' |
+    sed -n "$(cat)" <<< "$uris"  # uris is read from parent function filter_duplicate_URIs_by_track_name
 }
 
-is_track_in_core_playlists(){
-    grep -Fxq "$1" <<< "$core_playlists_tracks"
-}
+# ok but slow
+#is_track_in_core_playlists(){
+#    grep -Fxq -f /dev/stdin <<< "$core_playlists_tracks"
+#}
 
 # works fine, but slower due to many calls of spotify_uri_to_name.sh (one per track URI)
 #filter_duplicate_URIs_by_track_name_slow(){
@@ -140,20 +155,11 @@ filter_duplicate_URIs_by_track_name(){
     #paste <("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
     tracks="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$uris" |
-              "$srcdir/spotify-tools/normalize_tracknames.pl" |
-              grep -v '^[[:space:]]*$')"
+              "$srcdir/spotify-tools/normalize_tracknames.pl")"
 
-    # off by one due to occasional track with blank artist/track name fields, rely on exit code instead of this
-    #if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
-    #    die "ERROR: failed to resolve all URIs for track name comparisons"
-    #fi
-
-    # XXX: wrong results, takes lines from the local files which might be in the wrong order to the current online playlist
-    #local lines_tracks
-    #lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
-    #sed_print_lines="$(sed 's/:.*/p;/' <<< "$lines_tracks")"
-    #sed -n "$sed_print_lines" <<< "$uris"
-    #lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
+    if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
+        die "ERROR: failed to resolve all URIs for track name comparisons"
+    fi
 
     filter_tracks_in_core_playlists <<< "$tracks"
 }
