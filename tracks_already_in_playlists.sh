@@ -18,8 +18,10 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/bash-tools"
+
 # shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/spotify.sh"
+. "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -55,9 +57,9 @@ core_spotify_playlists="$(< <(
     while read -r playlist; do
         [ -z "$playlist" ] && continue
         if [ -f "$srcdir/spotify/$playlist" ]; then
-            echo "\"$srcdir/spotify/$playlist\""
+            echo "$srcdir/spotify/$playlist"
         elif [ -f "$srcdir/private/spotify/$playlist" ]; then
-            echo "\"$srcdir/private/spotify/$playlist\""
+            echo "$srcdir/private/spotify/$playlist"
         else
             die "playlist not found: $playlist"
         fi
@@ -70,9 +72,9 @@ core_playlists="$(< <(
     while read -r playlist; do
         [ -z "$playlist" ] && continue
         if [ -f "$srcdir/$playlist" ]; then
-            echo "\"$srcdir/$playlist\""
+            echo "$srcdir/$playlist"
         elif [ -f "$srcdir/private/$playlist" ]; then
-            echo "\"$srcdir/private/$playlist\""
+            echo "$srcdir/private/$playlist"
         else
             die "playlist not found: $playlist"
         fi
@@ -80,9 +82,26 @@ core_playlists="$(< <(
     )
 )"
 
+# XXX: pre-load all URIs and track names for performance - trading RAM for I/O
+core_spotify_playlists_tracks_uri="$(
+    while read -r playlist; do
+        cat "$playlist"
+    done <<< "$core_spotify_playlists" |
+    sort -u
+)"
+
+core_playlists_tracks="$(
+    while read -r playlist; do
+        cat "$playlist"
+    done <<< "$core_playlists" |
+    "$srcdir/spotify-tools/normalize_tracknames.pl" |
+    sort -u
+)"
+
+
 filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
-    eval grep -Fxh -f /dev/stdin "$(tr '\n' ' ' <<< "$core_spotify_playlists")" || :
+    eval grep -Fxh -f /dev/stdin <<< "$core_spotify_playlists_tracks_uri" || :
 }
 
 filter_tracks_in_core_playlists(){
@@ -99,8 +118,18 @@ filter_tracks_in_core_playlists(){
 }
 
 is_track_in_core_playlists(){
-    eval grep -Fxq -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" <<< "$@"
+    grep -Fxq "$1" <<< "$core_playlists_tracks"
 }
+
+# works fine, but slower due to many calls of spotify_uri_to_name.sh (one per track URI)
+#filter_duplicate_URIs_by_track_name_slow(){
+#    while read -r track_uri; do
+#        track_name="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$track_uri")"
+#        if is_track_in_core_playlists "$track_name"; then
+#            echo "$track_uri"
+#        fi
+#    done
+#}
 
 filter_duplicate_URIs_by_track_name(){
     local uris
@@ -110,7 +139,9 @@ filter_duplicate_URIs_by_track_name(){
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
     #paste <("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
-    tracks="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$uris" | grep -v '^[[:space:]]*$')"
+    tracks="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$uris" |
+              grep -v '^[[:space:]]*$' |
+              "$srcdir/spotify-tools/normalize_tracknames.pl")"
 
     # off by one due to occasional track with blank artist/track name fields, rely on exit code instead of this
     #if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
@@ -125,16 +156,6 @@ filter_duplicate_URIs_by_track_name(){
     #lines_tracks="$(filter_tracks_in_core_playlists <<< "$tracks")"
 
     filter_tracks_in_core_playlists <<< "$tracks"
-}
-
-# works fine, but slow
-filter_duplicate_URIs_by_track_name_slow(){
-    while read -r track_uri; do
-        track_name="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$track_uri")"
-        if is_track_in_core_playlists "$track_name"; then
-            echo "$track_uri"
-        fi
-    done
 }
 
 find_duplicate_tracks_URIs(){
