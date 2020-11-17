@@ -42,21 +42,27 @@ mint
 just hits
 # 89% blacklisted
 #Night Rider
-Today's Top Hits
-Viral Hits
-Hot Hits UK
+# 80% blacklisted
+#Today's Top Hits
+# 85% blacklisted
+#Viral Hits
+# 80% blacklisted
+#Hot Hits UK
 Top Pop
 The Pop List
 UK Top 50
 United Kingdom Top 50
-Billboard Hot 100
-Dazed's The Only Tracks You Need To Hear
+# 81% blacklisted
+#Billboard Hot 100
+# 97% blacklisted
+#Dazed's The Only Tracks You Need To Hear
 # 80% blacklisted
 #The Drop
 Spotify's Most Played All-Time
 Top Tracks - All Time
 Top Tracks - Last Month
-Top Tracks - Last Six Months
+# 82% blacklisted
+#Top Tracks - Last Six Months
 billboard Number Ones
 <3 XXXO <3
 Signed XOXO
@@ -86,7 +92,8 @@ Housewerk
 # 98% blacklisted
 #Bassline Bangers
 Warehouse Party
-Trance Mission
+# 95% blacklisted
+#Trance Mission
 # 84% blacklisted
 #Soak Up the Sun
 # 92% blacklisted
@@ -153,13 +160,19 @@ UFC GYM PLAYLIST
 # this playlist name keeps incrementing the UFC number, but the ID is fixed and reliable
 7f91W7rjbhzYts1G0jfp0V	UFC 254 - MMA - BOXING - WORKOUT
 
-Late Night Lofi
-Phonica Recommends (Home)
-Phonica Recommends (Club)
-Phonica Best of 2019 Home-Listening
-Phonica Best of 2019
+# 95% blacklisted
+#Late Night Lofi
+# 90% blacklisted
+#Phonica Recommends (Home)
+# 97% blacklisted
+#Phonica Recommends (Club)
+# 100% blacklisted
+#Phonica Best of 2019 Home-Listening
+# 95% blacklisted
+#Phonica Best of 2019
 
-37i9dQZF1DWXmlLSKkfdAk	Acoustic Covers
+# 93% blacklisted
+#37i9dQZF1DWXmlLSKkfdAk	Acoustic Covers
 6R5RSdYz3oKXBJA2hRZRxr	Best R&B
 2qQT2IACcHqoHq9GsyRUZ0	The Best R&B
 1x1vWIj29OHNBziZ7JtDHx	Best Old R&B tunes
