@@ -101,7 +101,7 @@ core_playlists_tracks="$(
 
 filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
-    eval grep -Fxh -f /dev/stdin <<< "$core_spotify_playlists_tracks_uri" || :
+    grep -Fxh -f /dev/stdin <(echo "$core_spotify_playlists_tracks_uri") || :
 }
 
 filter_tracks_in_core_playlists(){
@@ -140,8 +140,8 @@ filter_duplicate_URIs_by_track_name(){
     #paste <("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
     tracks="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$uris" |
-              grep -v '^[[:space:]]*$' |
-              "$srcdir/spotify-tools/normalize_tracknames.pl")"
+              "$srcdir/spotify-tools/normalize_tracknames.pl" |
+              grep -v '^[[:space:]]*$')"
 
     # off by one due to occasional track with blank artist/track name fields, rely on exit code instead of this
     #if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
