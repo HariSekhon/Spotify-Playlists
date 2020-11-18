@@ -100,6 +100,12 @@ aggregate:
 
 .PHONY: pull
 pull:
+	git pull --no-edit && \
+	pushd private/ && \
+	git pull --no-edit
+
+.PHONY: pullstash
+pullstash:
 	git stash && \
 	git pull --no-edit && \
 	pushd private/ && \

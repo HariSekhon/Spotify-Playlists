@@ -76,7 +76,7 @@ while read -r playlist_line; do
     # need a global count across all Blacklists, whereas grep -c will give per file
     # shellcheck disable=SC2126
     # must silence exit code with || : to prevent no matches in grep raising a pipefail and exiting the script prematurely
-    blacklisted_trackcount="$(grep -Fx -f "$playlist_filename" private/spotify/Blacklist* | wc -l | sed 's/[[:space:]]//g' || :)"
+    blacklisted_trackcount="$(grep -Fx -f "$playlist_filename" private/spotify/Blacklist* | sort -u | wc -l | sed 's/[[:space:]]//g' || :)"
     percentage_blacklisted="$((100 * blacklisted_trackcount / total_trackcount))"
     printf '%3d%%\t%4d/%4d\t%s\n' "$percentage_blacklisted" "$blacklisted_trackcount" "$total_trackcount" "$playlist_line"
 done <<< "$discover_playlists" |
