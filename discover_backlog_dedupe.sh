@@ -41,7 +41,7 @@ export SPOTIFY_DELETE_IGNORE_IRREGULAR_IDS=1
 
 cd "$srcdir"
 
-make pull
+make pullstash
 
 discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
 
