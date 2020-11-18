@@ -105,7 +105,9 @@ done
 if [ -z "${DEBUG_TRANSLATE:-}" ]; then
     mega_playlists=()
     for mega_playlist_file in aggregations/*; do
-        mega_playlists+=("${mega_playlist_file#aggregations/}")
+        playlist="${mega_playlist_file#aggregations/}"
+        mega_playlists+=("$playlist")
     done
+    "$bash_tools/spotify_delete_duplicates_in_playlist.sh" "${mega_playlists[@]}"
     ./backup.sh "${mega_playlists[@]}"
 fi
