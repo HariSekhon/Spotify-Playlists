@@ -52,7 +52,8 @@ export SPOTIFY_PRIVATE=1
 spotify_token
 
 # XXX: important to have up to date playlists otherwise will load duplicates
-./backup.sh
+# backup is now a dependency of aggregate in Makefile
+#./backup.sh
 
 for mega_playlist_file in aggregations/*; do
     mega_playlist="${mega_playlist_file#aggregations/}"
