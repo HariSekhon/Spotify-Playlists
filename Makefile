@@ -95,7 +95,7 @@ dedupe:
 	./discover_backlog_dedupe.sh
 
 .PHONY: aggregate
-aggregate:
+aggregate: backup
 	./aggregate_playlists.sh
 
 .PHONY: pull
