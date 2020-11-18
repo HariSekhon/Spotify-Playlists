@@ -52,7 +52,7 @@ spotify_token
 
 cd "$srcdir"
 
-make pull
+make pullstash
 
 # check there are no duplicate playlists above slowing us down before we start as this is already a mega load
 if sort <<< "$discover_playlists" | uniq -d | grep .; then
