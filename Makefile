@@ -104,6 +104,10 @@ pull:
 	pushd private/ && \
 	git pull --no-edit
 
+.PHONY: pull2
+pull2: pullstash
+	@:
+
 .PHONY: pullstash
 pullstash:
 	git stash && \
