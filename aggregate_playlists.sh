@@ -52,7 +52,8 @@ export SPOTIFY_PRIVATE=1
 spotify_token
 
 # XXX: important to have up to date playlists otherwise will load duplicates
-./backup.sh
+# backup is now a dependency of aggregate in Makefile
+#./backup.sh
 
 for mega_playlist_file in aggregations/*; do
     mega_playlist="${mega_playlist_file#aggregations/}"
@@ -102,5 +103,11 @@ done
 
 # re-dump the aggregated playlists as soon as we're done. Could have just tee'd the URIs into the playlist files tbh but this feels more accurate using the API albeit slower
 if [ -z "${DEBUG_TRANSLATE:-}" ]; then
-    ./backup.sh "$(for mega_playlist_file in aggregations/*; do echo "${mega_playlist_file#aggregations/}"; done)"
+    mega_playlists=()
+    for mega_playlist_file in aggregations/*; do
+        playlist="${mega_playlist_file#aggregations/}"
+        mega_playlists+=("$playlist")
+    done
+    "$bash_tools/spotify_delete_duplicates_in_playlist.sh" "${mega_playlists[@]}"
+    ./backup.sh "${mega_playlists[@]}"
 fi

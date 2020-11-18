@@ -95,7 +95,7 @@ dedupe:
 	./discover_backlog_dedupe.sh
 
 .PHONY: aggregate
-aggregate:
+aggregate: backup
 	./aggregate_playlists.sh
 
 .PHONY: pull
@@ -103,6 +103,10 @@ pull:
 	git pull --no-edit && \
 	pushd private/ && \
 	git pull --no-edit
+
+.PHONY: pull2
+pull2: pullstash
+	@:
 
 .PHONY: pullstash
 pullstash:
