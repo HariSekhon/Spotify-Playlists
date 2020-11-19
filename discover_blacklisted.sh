@@ -49,11 +49,15 @@ if ! [ -f private/spotify/Blacklist ]; then
     die "private/spotify/Blacklist not found! Have you checked out the private repo?"
 fi
 
+# need GNU grep for -f ... Mac's grep is buggy
 if is_mac; then
     grep(){
         command ggrep "$@"
     }
 fi
+
+# XXX: pre-load normalized blacklisted tracks for comparison
+blacklisted_tracks="$("$srcdir/spotify-tools/normalize_tracknames.pl" private/Blacklist*)"
 
 #time \
 while read -r playlist_line; do
@@ -68,7 +72,8 @@ while read -r playlist_line; do
     fi
     # script only takes ~ 11 secs using local files so we don't need this progress, keep it concise
     #timestamp "Calculating % tracks blacklisted in playlist \"$playlist_name\""
-    playlist_filename="private/spotify/$("$bash_tools/spotify_playlist_to_filename.sh" <<< "$playlist_name")"
+    playlist_name="$("$bash_tools/spotify_playlist_to_filename.sh" <<< "$playlist_name")"
+    playlist_filename="private/$playlist_name"
     if ! [ -f "$playlist_filename" ]; then
         die "ERROR: playlist file does not exist - was a full backup taken first? Not Found:  $playlist_filename"
     fi
@@ -76,7 +81,7 @@ while read -r playlist_line; do
     # need a global count across all Blacklists, whereas grep -c will give per file
     # shellcheck disable=SC2126
     # must silence exit code with || : to prevent no matches in grep raising a pipefail and exiting the script prematurely
-    blacklisted_trackcount="$(grep -Fx -f "$playlist_filename" private/spotify/Blacklist* | sort -u | wc -l | sed 's/[[:space:]]//g' || :)"
+    blacklisted_trackcount="$(grep -Fx -f <("$srcdir/spotify-tools/normalize_tracknames.pl" "$playlist_filename") <<< "$blacklisted_tracks" | sort -u | wc -l | sed 's/[[:space:]]//g' || :)"
     percentage_blacklisted="$((100 * blacklisted_trackcount / total_trackcount))"
     printf '%3d%%\t%4d/%4d\t%s\n' "$percentage_blacklisted" "$blacklisted_trackcount" "$total_trackcount" "$playlist_line"
 done <<< "$discover_playlists" |
