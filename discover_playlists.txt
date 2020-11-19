@@ -27,19 +27,22 @@
 
 # discover_blacklisted.sh analysis of % blacklisted shows which playlists aren't worth following
 
-Discover Weekly
+# 83% blacklisted
+#Discover Weekly
 # 99% blacklisted
 #New Music Friday
-# 90% blacklisted
-Best New Music
+# 86% blacklisted
+#Best New Music
 # 86% blacklisted
 #Favourite New Releases
 # 90% blacklisted
 #the motherfucking future: the nocturne edit
 # 85% blacklisted
 #The motherfucking future - complete archive
-mint
-just hits
+# 89% blacklisted
+#mint
+# 79% blacklisted
+#just hits
 # 89% blacklisted
 #Night Rider
 # 80% blacklisted
@@ -49,9 +52,12 @@ just hits
 # 80% blacklisted
 #Hot Hits UK
 Top Pop
-The Pop List
-UK Top 50
-United Kingdom Top 50
+# 85% blacklisted
+#The Pop List
+# 82% blacklisted
+#UK Top 50
+# 76% blacklisted
+#United Kingdom Top 50
 # 81% blacklisted
 #Billboard Hot 100
 # 97% blacklisted
@@ -60,21 +66,27 @@ United Kingdom Top 50
 #The Drop
 Spotify's Most Played All-Time
 Top Tracks - All Time
-Top Tracks - Last Month
+# 76% blacklisted
+#Top Tracks - Last Month
 # 82% blacklisted
 #Top Tracks - Last Six Months
 billboard Number Ones
 <3 XXXO <3
-Signed XOXO
+# 84% blacklisted
+#Signed XOXO
 # 85% blacklisted
 #RapCaviar
 wRap Caveat
-Who We Be
-Most Necessary
+# 80% blacklisted
+#Who We Be
+# 81% blacklisted
+#Most Necessary
 # 92% blacklisted
 #Jazz Rap
-Happy Beats
-Massive Dance Hits
+# 76% blacklisted
+#Happy Beats
+# 84% blacklisted
+#Massive Dance Hits
 # 83% blacklisted
 #The Dance List
 # 94% blacklisted
@@ -86,7 +98,8 @@ Dance Hits
 #House Supreme
 # 80% blacklisted
 #UK House Music
-Housewerk
+# 85% blacklisted
+#Housewerk
 # 82% blacklisted
 #Altar
 # 98% blacklisted
@@ -98,7 +111,8 @@ Warehouse Party
 #Soak Up the Sun
 # 92% blacklisted
 #Are & Be
-You & Me
+# 80% blacklisted
+#You & Me
 # 90% blacklisted
 #B.A.E.
 # 85% blacklisted
@@ -142,12 +156,14 @@ All Out 90s
 All Out 80s
 All Out 70s
 80s Dance Hits
-Rave Classics
+# 78% blacklisted
+#Rave Classics
 Rock Classics
 # 86% blacklisted
 #Rock Ballads
 Rock Me UP!
-It's ALT Good!
+# 78% blacklisted
+#It's ALT Good!
 Nu Metal Generation
 # 82% blacklisted
 #Soul Revived
