@@ -245,6 +245,7 @@ spotify:artist:6vdMPayKk8YJxxeNP5oMCb
 spotify:artist:6Vh6UDWfu9PUSXSzAaB3CW
 spotify:artist:6vWDO969PvNqNYHIOW5v0m
 spotify:artist:6VX2R9L0O0d6qPvqGuIH7b
+spotify:artist:6wdvERzX4CUCOXu6hSS95x
 spotify:artist:6WjX4pepHwXa85B9KMk0PY
 spotify:artist:6XyY86QOPPrYVGvF9ch6wz
 spotify:artist:6YHEMoNPbcheiWS2haGzkn
