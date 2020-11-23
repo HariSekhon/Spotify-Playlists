@@ -17,16 +17,43 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/bash-tools"
+
+# shellcheck disable=SC1090
+. "$bash_tools/.bash.d/git.sh"
+
 cd "$srcdir"
 
-"$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
+"$bash_tools/scripts/spotify_commit_playlists.sh" "$@"
 
 if [ -n "$*" ]; then
     exit 0
 fi
 
+# commit .description and .txt files
+commit_other_files(){
+    local filenames=()
+    while read -r filename; do
+        filenames+=("$filename")
+    done < <(
+        git status --porcelain |
+        grep -E '^.M[[:space:]]' |
+        cut -c 4- |
+        sed 's/^"//; s/"$//' |
+        grep -E -e '\.description$' -e '\.txt$'
+    )
+
+    for filename in "${filenames[@]}"; do
+        gitu "$filename"
+    done
+}
+
+commit_other_files
+
 if [ -d "$srcdir/private" ]; then
     cd "$srcdir/private"
 
-    exec "$srcdir/bash-tools/scripts/spotify_commit_playlists.sh" "$@"
+    "$bash_tools/scripts/spotify_commit_playlists.sh" "$@"
+
+    commit_other_files
 fi
