@@ -119,6 +119,14 @@ pullstash:
 	popd && \
 	git stash pop || :
 
+.PHONY: pullreset
+pullreset:
+	git reset --hard && \
+	git pull --no-edit && \
+	pushd private/ && \
+	git reset --hard && \
+	git pull --no-edit
+
 .PHONY: push
 push: pull
 	git push && \
