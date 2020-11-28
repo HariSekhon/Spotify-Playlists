@@ -43,9 +43,11 @@ commit_other_files(){
         grep -E -e '\.description$' -e '\.txt$'
     )
 
-    for filename in "${filenames[@]}"; do
-        gitu "$filename"
-    done
+    if [ -n "${filenames:-}" ]; then
+        for filename in "${filenames[@]}"; do
+            gitu "$filename"
+        done
+    fi
 }
 
 commit_other_files
