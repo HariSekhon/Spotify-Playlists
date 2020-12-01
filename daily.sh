@@ -51,6 +51,13 @@ export SPOTIFY_ACCESS_TOKEN
 
 ./discover_backlog_load.sh 2>&1 | tee "$srcdir/discover_backlog_load.log" || :
 
-./discover_backlog_dedupe.sh 2>&1 | tee "$srcdir/discover_backlog_dedupe.log"
+
+# do 2 more attempts because the Spotify API often breaks for extended periods of time with 500 errors
+./discover_backlog_dedupe.sh 2>&1 | tee "$srcdir/discover_backlog_dedupe.log" || :
+
+# wait a while and do another pass as the backlog is several thousand tracks which is a large window to be hit with a 500 error outage on the Spotify API
+sleep 300
+
+./discover_backlog_dedupe.sh 2>&1 | tee -a "$srcdir/discover_backlog_dedupe.log"
 
 } 2>&1 | tee "$srcdir/daily.log"
