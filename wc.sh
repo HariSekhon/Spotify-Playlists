@@ -28,7 +28,7 @@ playlist_count="$(playlist_count)"
 spotify_playlist_count="$(cd spotify && playlist_count)"
 
 if [ "$playlist_count" != "$spotify_playlist_count" ]; then
-    echo "Playlist lists count mismatch between top level playlists.txt and spotify/playlists.txt" >&2
+    echo "Playlist lists count mismatch between top level playlists.txt ($playlist_count) vs spotify/playlists.txt ($spotify_playlist_count)" >&2
     exit 1
 fi
 
@@ -38,11 +38,15 @@ echo
 
 playlists="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" < playlists.txt)"
 
-playlists_linecount(){
+playlists_linecounts(){
     while read -r playlist; do
         printf '%s\0' "$playlist"
     done <<< "$playlists" |
-    xargs -0 wc -l |
+    xargs -0 wc -l
+}
+
+playlists_linecount(){
+    playlists_linecounts |
     awk '/^[[:space:]]*[[:digit:]]*[[:space:]]*total[[:space:]]*$/{print $1}'
 }
 
@@ -51,7 +55,14 @@ song_count="$(playlists_linecount)"
 spotify_song_count="$(cd spotify && playlists_linecount)"
 
 if [ "$song_count" != "$spotify_song_count" ]; then
-    echo "Song count mismatch between top level and spotify/" >&2
+    echo "Song count mismatch between top level ($song_count) vs spotify/ ($spotify_song_count)" >&2
+    echo >&2
+    tmp1="$(mktemp)"
+    tmp2="$(mktemp)"
+    playlists_linecounts > "$tmp1"
+    cd spotify
+    playlists_linecounts > "$tmp2"
+    diff "$tmp1" "$tmp2" >&2
     exit 1
 fi
 
