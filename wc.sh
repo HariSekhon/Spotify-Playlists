@@ -29,6 +29,11 @@ spotify_playlist_count="$(cd spotify && playlist_count)"
 
 if [ "$playlist_count" != "$spotify_playlist_count" ]; then
     echo "Playlist lists count mismatch between top level playlists.txt ($playlist_count) vs spotify/playlists.txt ($spotify_playlist_count)" >&2
+    echo >&2
+    tmp="$(mktemp)"
+    # normalize the spotify playlists by stripping the IDs field (22 alnum chars and whitespace) so we can directly diff the playlists vs spotify playlists
+    cut -c 24- spotify/playlists.txt > "$tmp"
+    diff playlists.txt "$tmp" >&2
     exit 1
 fi
 
