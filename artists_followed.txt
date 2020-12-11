@@ -21,6 +21,7 @@ Avicii
 B.o.B
 Baeza
 BANKS
+Becky Shaheen
 Beyoncé
 Bill Conti
 Black Eyed Peas
@@ -37,6 +38,7 @@ Calvin Harris
 Camila Cabello
 Cappella
 Chamillionaire
+Charli XCX
 Chase & Status
 CHIC
 Chicane
@@ -79,6 +81,7 @@ Example
 Fabolous
 Faith No More
 Far East Movement
+Fenech-Soler
 Fickle Friends
 Fleetwood Mac
 Flo Rida
