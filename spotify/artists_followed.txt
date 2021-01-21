@@ -240,6 +240,7 @@ spotify:artist:6olE6TJLqED3rqDCT0FyPh
 spotify:artist:6oZhc4ONSAMn6RYg6o6VWL
 spotify:artist:6RZUqkomCmb8zCRqc9eznB
 spotify:artist:6S0GHTqz5sxK5f9HtLXn9q
+spotify:artist:6SnMMbLQ4iS8WIyt3ksmCR
 spotify:artist:6TIYQ3jFPwQSRmorSezPxX
 spotify:artist:6UE7nl9mha6s8z0wFQFIZ2
 spotify:artist:6UocZe4AprSYBvmn3J0oqY
