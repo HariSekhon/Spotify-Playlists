@@ -93,6 +93,7 @@ discover:
 .PHONY: dedupe
 dedupe:
 	./discover_backlog_dedupe.sh
+	./spotify_delete_duplicates_in_playlist.sh "My Shazam Tracks"
 
 .PHONY: aggregate
 aggregate: backup
