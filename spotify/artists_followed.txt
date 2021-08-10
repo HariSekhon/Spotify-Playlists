@@ -157,6 +157,7 @@ spotify:artist:49H2dQUNhIlso7VNkS8nFR
 spotify:artist:4c4Ce4N4vJOs3Tzee020S4
 spotify:artist:4DFhHyjvGYa9wxdHUjtDkc
 spotify:artist:4exLIFE8sISLr28sqG1qNX
+spotify:artist:4fpTMHe34LC5t3h5ztK8qu
 spotify:artist:4gzpq5DPGxSnKTe4SA8HAU
 spotify:artist:4HBMToZ4yMR07eiK9IxtjK
 spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ
