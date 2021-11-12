@@ -93,6 +93,8 @@ echo
 
 discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
 
+"$srcdir/discover_backlog_load_maya.sh"
+
 # 10m30s
 time \
 while read -r playlist_line; do
