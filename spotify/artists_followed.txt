@@ -153,6 +153,7 @@ spotify:artist:40ttEBZPhAHbXH6aUg4GkL
 spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i
 spotify:artist:43sZBwHjahUvgbx1WNIkIz
 spotify:artist:46h3caIKtqPlEfRHuSdibg
+spotify:artist:47BNWfpngeFHYvBlPPyraM
 spotify:artist:49H2dQUNhIlso7VNkS8nFR
 spotify:artist:4c4Ce4N4vJOs3Tzee020S4
 spotify:artist:4DFhHyjvGYa9wxdHUjtDkc
