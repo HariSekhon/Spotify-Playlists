@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+#  vim:ts=4:sts=4:sw=4:et
+#
+#  Author: Hari Sekhon
+#  Date: 2021-11-12 16:36:17 +0000 (Fri, 12 Nov 2021)
+#
+#  https://github.com/harisekhon/spotify-playlists
+#
+#  License: see accompanying Hari Sekhon LICENSE file
+#
+#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#
+#  https://www.linkedin.com/in/harisekhon
+#
+
+set -euo pipefail
+[ -n "${DEBUG:-}" ] && set -x
+srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+bash_tools="$srcdir/bash-tools"
+
+# shellcheck disable=SC1090
+. "$bash_tools/lib/spotify.sh"
+
+# shellcheck disable=SC2034,SC2154
+usage_description="
+Loads tracks from Maya to Discover Backlog playlist
+"
+
+# used by usage() in lib/utils.sh
+# shellcheck disable=SC2034
+usage_args=""
+
+help_usage "$@"
+
+export SPOTIFY_PRIVATE=1
+
+spotify_token
+
+"$srcdir/bash-tools/spotify_playlists.sh" mayatriforce |
+while read -r playlist_id playlist_name; do
+    timestamp "adding tracks from playlist '$playlist_name':"
+    "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_id" |
+    "$srcdir/bash-tools/spotify_add_to_playlist.sh" "Discover Backlog"
+    echo
+done
