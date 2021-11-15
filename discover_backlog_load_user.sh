@@ -24,20 +24,26 @@ bash_tools="$srcdir/bash-tools"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Loads tracks from Maya to Discover Backlog playlist
+Loads tracks from any given user's public playlists to Discover Backlog playlist
+
+You can find the Spotify username from the 'copy profile link' button in the Spotify app
 "
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args=""
+usage_args="<spotify_username>"
 
 help_usage "$@"
+
+min_args 1 "$@"
+
+username="$1"
 
 export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-"$srcdir/bash-tools/spotify_playlists.sh" mayatriforce |
+"$srcdir/bash-tools/spotify_playlists.sh" "$username" |
 while read -r playlist_id playlist_name; do
     timestamp "adding tracks from playlist '$playlist_name':"
     "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_id" |
