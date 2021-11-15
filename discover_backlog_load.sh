@@ -93,7 +93,8 @@ echo
 
 discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
 
-"$srcdir/discover_backlog_load_maya.sh"
+"$srcdir/discover_backlog_load_user.sh" mayatriforce
+"$srcdir/discover_backlog_load_user.sh" 1163908670  # Gemma
 
 # 10m30s
 time \
