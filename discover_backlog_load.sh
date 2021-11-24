@@ -96,6 +96,12 @@ discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Di
 "$srcdir/discover_backlog_load_user.sh" mayatriforce
 "$srcdir/discover_backlog_load_user.sh" 1163908670  # Gemma
 
+#"$srcdir/bash-tools/spotify_artists_followed_uri.sh" |
+#while read -r artist_uri; do
+#    "$srcdir/bash-tools/spotify_artist_tracks.sh" "$artist_uri" |
+#    "$bash_tools/spotify_add_to_playlist.sh" "$discover_backlog_playlist_id"
+#done
+
 # 10m30s
 time \
 while read -r playlist_line; do
