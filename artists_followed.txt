@@ -27,9 +27,11 @@ Bill Conti
 Black Eyed Peas
 Black Rob
 Blackmill
+BLACKPINK
 Bliss n Eso
 Bloc Party
 Blondie
+Blur
 Bon Jovi
 Bone Thugs-N-Harmony
 Bryan Adams
@@ -56,7 +58,7 @@ Crystal F
 Curtis Stigers & The Forest Rangers
 Cypress Hill
 Daft Punk
-Darren Hayes of Savage Garden
+Darren Hayes
 David Guetta
 De La Soul
 deadmau5
@@ -105,6 +107,7 @@ Hayley Kiyoko
 Hey Violet
 Hinder
 Ice Cube
+ICE-T
 Idlewild
 Imagine Dragons
 Incubus
@@ -159,6 +162,7 @@ M.O.P.
 M83
 Machine Gun Kelly
 Madeon
+Madilyn Bailey
 Maggie Lindemann
 Magnetic Man
 Makaveli
@@ -166,6 +170,7 @@ Mariah Carey
 Marvin Gaye
 Mary J. Blige
 Mase
+Massive Attack
 MGMT
 Michael Bolton
 Michael Jackson
@@ -181,6 +186,7 @@ Natalia Kills
 Natalie Taylor
 Nate Dogg
 NERO
+New Hope Club
 Nickelback
 Nicki Minaj
 Nightcall
@@ -246,6 +252,7 @@ The Chemical Brothers
 The Game
 The Goo Goo Dolls
 The Heavy
+The Lightning Seeds
 The Midnight
 The Notorious B.I.G.
 The Phantoms
@@ -254,6 +261,7 @@ The Refugee Camp All-Stars
 The Script
 The Shapeshifters
 The Smashing Pumpkins
+The Vamps
 The Verve
 The Weeknd
 The Who
@@ -278,5 +286,7 @@ Wiz Khalifa
 Wretch 32
 Wyclef Jean
 YACHT
+Yumi Zouma
+YUNGBLUD
 Zara Larsson
 Zayde Wølf
