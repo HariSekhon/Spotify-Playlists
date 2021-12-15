@@ -192,6 +192,7 @@ spotify:artist:4yiQZ8tQPux8cPriYMWUFP
 spotify:artist:4zxvC7CRGvggq9EWXOpwAo
 spotify:artist:51Blml2LZPmy7TTiAg47vQ
 spotify:artist:526q7RxT5KA1VGeQ5GMSHO
+spotify:artist:52G6EB7xvVYA8IzF1T335g
 spotify:artist:53XhwfbYqKCa1cC15pYq2q
 spotify:artist:54OEro9sWZ3mVfMdlz2CIt
 spotify:artist:55Aa2cqylxrFIXC767Z865
