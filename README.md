@@ -11,7 +11,7 @@ Hari Sekhon - Spotify Playlists
 [![License](https://img.shields.io/github/license/HariSekhon/Spotify-Playlists)](https://github.com/HariSekhon/Spotify-Playlists/blob/master/LICENSE)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/Spotify-Playlists?logo=github)](https://github.com/HariSekhon/Spotify-Playlists/commits/master)
 
-[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://bitbucket.org/harisekhon/devops-bash-tools/src/master/STATUS.md)
+[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
 [![Validation](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/validate.yaml)
 [![Semgrep](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/semgrep.yaml)
 [![Travis CI](https://img.shields.io/badge/TravisCI-legacy-lightgrey?logo=travis&label=Travis%20CI)](https://github.com/HariSekhon/Spotify-Playlists/blob/master/.travis.yml)
