@@ -43,7 +43,7 @@ cd "$srcdir"
 
 make pull >&2
 
-discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/discover_playlists.txt")"
+discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/private/discover_playlists.txt")"
 
 if ! [ -f private/spotify/Blacklist ]; then
     die "private/spotify/Blacklist not found! Have you checked out the private repo?"
