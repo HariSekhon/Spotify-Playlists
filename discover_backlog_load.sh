@@ -22,7 +22,7 @@ bash_tools="$srcdir/bash-tools"
 # shellcheck disable=SC1090
 . "$bash_tools/lib/spotify.sh"
 
-discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/discover_playlists.txt")"
+discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/private/discover_playlists.txt")"
 num_discover_playlists="$(wc -l <<< "$discover_playlists" | sed 's/[[:space:]]*//g')"
 
 # shellcheck disable=SC2034,SC2154
