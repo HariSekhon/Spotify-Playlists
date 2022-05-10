@@ -7,13 +7,13 @@
 #  Date: 2020-07-20 10:18:09 +0100 (Mon, 20 Jul 2020)
 #  Original Date: 2012-04-15 19:31:27 +0100 (Sun, 15 Apr 2012)
 #
-#  https://github.com/harisekhon/spotify-playlists
+#  https://github.com/HariSekhon/Spotify-Playlists
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/harisekhon
+#  https://www.linkedin.com/in/HariSekhon
 #
 
 set -euo pipefail

@@ -12,9 +12,9 @@ Hari Sekhon - Spotify Playlists
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/Spotify-Playlists?logo=github)](https://github.com/HariSekhon/Spotify-Playlists/commits/master)
 
 [![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
-[![Validation](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/validate.yaml)
-[![Semgrep](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/semgrep.yaml)
-[![Kics](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/kics.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-playlists/actions/workflows/kics.yaml)
+[![Validation](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/validate.yaml)
+[![Semgrep](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep.yaml)
+[![Kics](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/kics.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/kics.yaml)
 [![Travis CI](https://img.shields.io/badge/TravisCI-ready-blue?logo=travis&label=Travis%20CI)](https://github.com/HariSekhon/Spotify-Playlists/blob/master/.travis.yml)
 
 [![Repo on Azure DevOps](https://img.shields.io/badge/repo-Azure%20DevOps-0078D7?logo=azure%20devops)](https://dev.azure.com/harisekhon/GitHub/_git/Spotify-Playlists)
@@ -31,7 +31,7 @@ An Epic collection of playlists built over a decade, using dozens of programs an
 </a>
 <br />
 
-If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/harisekhon/) to add it!
+If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/HariSekhon/) to add it!
 
 Top level playlists are in human readable format `Artist - Track`.
 
@@ -39,7 +39,7 @@ Spotify URI format playlists are under the `spotify/` directory for backup/resto
 
 Hari Sekhon
 
-[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=linkedin)](https://www.linkedin.com/in/harisekhon/)
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=linkedin)](https://www.linkedin.com/in/HariSekhon/)
 [![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
 ###### (you're welcome to connect with me on LinkedIn)
 
@@ -80,7 +80,7 @@ Artists with 5 or more tracks in my `Liked Songs` are automatically followed by 
 
 #### The Tech Stuff
 
-These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/harisekhon/spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
+These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/HariSekhon/Spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
 
 Aside from Backup & Restore, keeping all playlists in both Spotify and human readable formats allows all sorts of handy tricks, eg:
 
