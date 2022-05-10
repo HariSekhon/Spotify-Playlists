@@ -44,17 +44,27 @@ echo >&2
 
 timestamp "Stripping spotify playlist IDs from $srcdir/spotify/playlists.txt => $srcdir/playlists.txt"
 sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/spotify/playlists.txt" > "$srcdir/playlists.txt"
+echo >&2
+
+timestamp "Backing up list of Spotify followed playlists to $srcdir/private/playlists_followed.txt"
+SPOTIFY_PUBLIC_ONLY= \
+SPOTIFY_PLAYLISTS_FOLLOWED_ONLY=1 \
+"$bash_tools/spotify_playlists.sh" | sort -f > "$srcdir/private/playlists_followed.txt"
+echo >&2
 
 if [ -d private ]; then
-    echo >&2
-
     unset SPOTIFY_PUBLIC_ONLY
     export SPOTIFY_PRIVATE_ONLY=1
 
     timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
-    SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
+    "$bash_tools/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
     echo >&2
 
     timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists.txt => $srcdir/private/playlists.txt"
     sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/private/spotify/playlists.txt" > "$srcdir/private/playlists.txt"
+    echo >&2
 fi
+
+timestamp "Running discover_playlists_reconcile.sh"
+"$srcdir/discover_playlists_reconcile.sh"
+echo >&2
