@@ -27,7 +27,7 @@ bash_tools="$srcdir/bash-tools"
 cd "$srcdir"
 
 "$bash_tools/decomment.sh" private/discover_playlists.txt |
-while read line; do
+while read -r line; do
     if ! grep -Fxq "$line" private/playlists_followed.txt; then
         if grep -Eq $'\t' <<< "$line"; then
             id="$(awk '{print $1}' <<< "$line")"
@@ -35,7 +35,7 @@ while read line; do
             if is_blank "$replacement"; then
                 echo "WARNING: failed to find the playlist with ID '$id'" >&2
             else
-                sed -i 's|^$id'$'\t''.*|$replacement|' private/discover_playlists.txt
+                sed -i "s|^$id"$'\t'".*|$replacement|" private/discover_playlists.txt
             fi
         else
             echo "WARNING: playlist specified without a playlist ID prefix field, brittle, will likely break when externals rename their playlist:  $line" >&2
