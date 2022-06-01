@@ -12,6 +12,7 @@ Hari Sekhon - Spotify Playlists
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/Spotify-Playlists?logo=github)](https://github.com/HariSekhon/Spotify-Playlists/commits/master)
 
 [![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
+[![ShellCheck](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/shellcheck.yaml)
 [![Validation](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/validate.yaml)
 [![Semgrep](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep.yaml)
 [![Kics](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/kics.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/kics.yaml)
