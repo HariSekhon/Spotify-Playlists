@@ -47,7 +47,7 @@ sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/spotify/playlists.txt" > "$srcdir/
 echo >&2
 
 timestamp "Backing up list of Spotify followed playlists to $srcdir/private/playlists_followed.txt"
-SPOTIFY_PUBLIC_ONLY= \
+SPOTIFY_PUBLIC_ONLY='' \
 SPOTIFY_PLAYLISTS_FOLLOWED_ONLY=1 \
 "$bash_tools/spotify_playlists.sh" | sort -f > "$srcdir/private/playlists_followed.txt"
 echo >&2
