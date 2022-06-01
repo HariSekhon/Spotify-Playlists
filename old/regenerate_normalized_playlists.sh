@@ -19,7 +19,6 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$srcdir"
 
-
 #echo "Removing old normalized lists"
 #find . -type f -name '.*' -maxdepth 1 -exec echo rm -v {} \;
 echo "
