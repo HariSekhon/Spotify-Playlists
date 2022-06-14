@@ -39,8 +39,11 @@ Starred
 #
 # Auxillary / Artist already vetted playlists that have been scraped to major playlists
 #
+2Pac
 Chlöe Howl
 Chromeo
+Eric Prydz
+Ice-T
 Kiesza
 Rita Ora
 Rita Ora - ORA Deluxe
