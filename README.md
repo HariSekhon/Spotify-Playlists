@@ -13,6 +13,9 @@ Hari Sekhon - Spotify Playlists
 
 [![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
 [![ShellCheck](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/shellcheck.yaml)
+[![JSON](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/json.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/json.yaml)
+[![YAML](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/yaml.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/yaml.yaml)
+[![XML](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/xml.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/xml.yaml)
 [![Validation](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/validate.yaml)
 [![Semgrep](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep.yaml)
 [![Semgrep Cloud](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep-cloud.yaml/badge.svg)](https://github.com/HariSekhon/Spotify-Playlists/actions/workflows/semgrep-cloud.yaml)
