@@ -1,5 +1,4 @@
-Hari Sekhon - Spotify Playlists
-===============================
+# Hari Sekhon - Spotify Playlists
 
 [![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
 [![Playlists](https://img.shields.io/badge/Playlists-240+-blue?logo=spotify)](https://open.spotify.com/user/harisekhon)
