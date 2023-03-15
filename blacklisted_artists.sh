@@ -65,7 +65,9 @@ done < <(
 )
 
 {
-    for blacklist in Blacklist{,2}; do
+    #for blacklist in $(SPOTIFY_PRIVATE=1 "$bash_tools/spotify_playlists.sh" | cut -d' ' -f2- | sed 's/^[[:space:]]*//' | grep '^Blacklist'); do
+    # quicker
+    for blacklist in Blacklist{,2,3}; do
         timestamp "Getting list of artists with >= $threshold tracks in $blacklist"
         "$bash_tools/spotify_playlist_artists.sh" "$blacklist" || exit 1
     done
