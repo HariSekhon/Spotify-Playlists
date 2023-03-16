@@ -58,6 +58,7 @@ spotify:artist:1hvPdvTeY6McdTvN4DyKGe
 spotify:artist:1HwM5zlC5qNWhJtM00yXzG
 spotify:artist:1HY2Jd0NmPuamShAr6KMms
 spotify:artist:1J2VVASYAamtQ3Bt8wGgA6
+spotify:artist:1jHQI26XkjY8BHwvDnh9Jw
 spotify:artist:1KCSPY1glIKqW2TotWuXOR
 spotify:artist:1l7ZsJRRS8wlW3WfJfPfNS
 spotify:artist:1moxjboGR7GNWYIMWsRjgG
@@ -125,7 +126,6 @@ spotify:artist:2ycnb8Er79LoH2AsR5ldjh
 spotify:artist:2YVF0Ou5zIc4mpgtLIlGN0
 spotify:artist:31CtLHmSL7Oa7TPU9YyBEu
 spotify:artist:31TPClRtHm23RisEBtV3X7
-spotify:artist:33fj8RtjQBL37nJ63YDHSP
 spotify:artist:360IAlyVv4PCEVjgyMZrxK
 spotify:artist:36E7oYfz3LLRto6l2WmDcD
 spotify:artist:3AQRLZ9PuTAozP28Skbq8V
@@ -174,6 +174,7 @@ spotify:artist:4jcPxHNUKTVOyD2AFPZdRQ
 spotify:artist:4JNfz6aO9ZFz0gp5GY88am
 spotify:artist:4k1ELeJKT1ISyDv8JivPpB
 spotify:artist:4kjWnaLfIRcLJ1Dy4Wr6tY
+spotify:artist:4kYSro6naA4h99UJvo89HB
 spotify:artist:4lxfqrEsLX6N1N4OCSkILp
 spotify:artist:4nDoRrQiYLoBzwC5BhVJzF
 spotify:artist:4NTnwCK3RqTBH7TFIQrkfL
@@ -188,6 +189,7 @@ spotify:artist:4tPyCwWrsvZ8OKYl7QRavL
 spotify:artist:4tZwfgrHOc3mvqYlEYSvVi
 spotify:artist:4uRYpUQZrNrY5t8tAv3XrD
 spotify:artist:4whxX965DKKqYkXmk33b4E
+spotify:artist:4xfigyFOZnW8YfZiOVMYwI
 spotify:artist:4yBK75WVCQXej1p04GWqxH
 spotify:artist:4yiQZ8tQPux8cPriYMWUFP
 spotify:artist:4zxvC7CRGvggq9EWXOpwAo
