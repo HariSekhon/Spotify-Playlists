@@ -61,15 +61,15 @@ while read -r playlist; do
     fi
 done < <(
     sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" |
-    "$srcdir/bash-tools/spotify_playlist_to_filename.sh"
+    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
 )
 
 {
-    #for blacklist in $(SPOTIFY_PRIVATE=1 "$bash_tools/spotify_playlists.sh" | cut -d' ' -f2- | sed 's/^[[:space:]]*//' | grep '^Blacklist'); do
+    #for blacklist in $(SPOTIFY_PRIVATE=1 "$bash_tools/spotify/spotify_playlists.sh" | cut -d' ' -f2- | sed 's/^[[:space:]]*//' | grep '^Blacklist'); do
     # quicker
     for blacklist in Blacklist{,2,3}; do
         timestamp "Getting list of artists with >= $threshold tracks in $blacklist"
-        "$bash_tools/spotify_playlist_artists.sh" "$blacklist" || exit 1
+        "$bash_tools/spotify/spotify_playlist_artists.sh" "$blacklist" || exit 1
     done
 } |
 sort |
