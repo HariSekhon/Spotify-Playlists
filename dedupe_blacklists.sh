@@ -37,4 +37,4 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-"$srcdir/bash-tools/spotify_delete_from_playlist_if_in_other_playlists.sh" Blacklist2 Blacklist
+"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" Blacklist2 Blacklist
