@@ -29,6 +29,6 @@ while read -r playlist_file; do
         echo "playlist spotify file '$playlist_file' not found!"
         exit 1
     fi
-done < <(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" | "$srcdir/bash-tools/spotify_playlist_to_filename.sh")
+done < <(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")
 
 echo "OK - All playlist files downloaded"
