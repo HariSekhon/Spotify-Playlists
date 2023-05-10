@@ -46,7 +46,7 @@ cd "$srcdir"
 # doesn't commit but needed for full dedupe
 make backups 2>&1 | tee "$srcdir/backup.log"
 
-SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)"
+SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify/spotify_api_token.sh)"
 export SPOTIFY_ACCESS_TOKEN
 
 ./discover_backlog_load.sh 2>&1 | tee "$srcdir/discover_backlog_load.log" || :
