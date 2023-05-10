@@ -91,17 +91,17 @@ export SPOTIFY_PLAYLISTS_FOLLOWED=1
 "$srcdir/discover_backlog_dedupe.sh"
 echo
 
-discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
+discover_backlog_playlist_id="$("$bash_tools/spotify/spotify_playlist_name_to_id.sh" "Discover Backlog")"
 
 "$srcdir/discover_backlog_load_user.sh" mayatriforce
 "$srcdir/discover_backlog_load_user.sh" 1163908670  # Gemma
 echo
 
 #timestamp "Loading tracks from followed artists"
-#"$srcdir/bash-tools/spotify_artists_followed_uri.sh" |
+#"$srcdir/bash-tools/spotify/spotify_artists_followed_uri.sh" |
 #while read -r artist_uri; do
-#    "$srcdir/bash-tools/spotify_artist_tracks.sh" "$artist_uri" |
-#    "$bash_tools/spotify_add_to_playlist.sh" "$discover_backlog_playlist_id"
+#    "$srcdir/bash-tools/spotify/spotify_artist_tracks.sh" "$artist_uri" |
+#    "$bash_tools/spotify/spotify_add_to_playlist.sh" "$discover_backlog_playlist_id"
 #done
 
 # 10m30s
@@ -115,13 +115,13 @@ while read -r playlist_line; do
     if [[ "$playlist_id" =~ ^[[:alnum:]]{22}$ ]]; then
         playlist_name="${playlist_line#*[[:space:]]}"
         timestamp "Loading tracks from playlist id $playlist_id ( $playlist_name ) to Discover Backlog"
-        "$bash_tools/spotify_playlist_tracks_uri.sh" "$playlist_id"
+        "$bash_tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_id"
     else
         playlist_name="$playlist_line"
         timestamp "Loading tracks from playlist \"$playlist_name\" to Discover Backlog"
-        "$bash_tools/spotify_playlist_tracks_uri.sh" "$playlist_name"
+        "$bash_tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name"
     fi |
-    "$bash_tools/spotify_add_to_playlist.sh" "$discover_backlog_playlist_id"
+    "$bash_tools/spotify/spotify_add_to_playlist.sh" "$discover_backlog_playlist_id"
 done <<< "$discover_playlists"
 
 echo
