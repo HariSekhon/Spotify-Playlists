@@ -57,7 +57,7 @@ if is_mac; then
     }
 fi
 
-core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" | "$srcdir/bash-tools/spotify_playlist_to_filename.sh")}"
+core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")}"
 
 # auto-resolve each spotify playlist's path to either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
@@ -139,7 +139,7 @@ filter_tracks_in_core_playlists(){
 # works fine, but slower due to many calls of spotify_uri_to_name.sh (one per track URI)
 #filter_duplicate_URIs_by_track_name_slow(){
 #    while read -r track_uri; do
-#        track_name="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$track_uri")"
+#        track_name="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$track_uri")"
 #        if is_track_in_core_playlists "$track_name"; then
 #            echo "$track_uri"
 #        fi
@@ -152,9 +152,9 @@ filter_duplicate_URIs_by_track_name(){
     uris="$(cat)"
 
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
-    #paste <("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
+    #paste <("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
-    tracks="$("$srcdir/bash-tools/spotify_uri_to_name.sh" <<< "$uris" |
+    tracks="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$uris" |
               "$srcdir/spotify-tools/normalize_tracknames.pl")"
 
     if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
@@ -166,7 +166,7 @@ filter_duplicate_URIs_by_track_name(){
 
 find_duplicate_tracks_URIs(){
     local playlist_name="$1"
-    "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_name" |
+    "$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
     tee >/dev/null \
         >(filter_duplicate_URIs) \
         >(filter_duplicate_URIs_by_track_name) |
