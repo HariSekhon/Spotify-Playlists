@@ -41,7 +41,7 @@ echo
 echo "Playlists: $playlist_count"
 echo
 
-playlists="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" < playlists.txt)"
+playlists="$("$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh" < playlists.txt)"
 
 playlists_linecounts(){
     while read -r playlist; do
