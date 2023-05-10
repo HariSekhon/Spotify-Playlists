@@ -26,7 +26,7 @@ bash_tools="$srcdir/bash-tools"
 
 cd "$srcdir"
 
-"$bash_tools/decomment.sh" private/discover_playlists.txt |
+"$bash_tools/bin/decomment.sh" private/discover_playlists.txt |
 while read -r line; do
     if ! grep -Fxq "$line" private/playlists_followed.txt; then
         if grep -Eq $'\t' <<< "$line"; then
