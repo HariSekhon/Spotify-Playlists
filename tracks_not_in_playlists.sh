@@ -45,7 +45,7 @@ spotify_token
 
 find_missing_tracks(){
     local playlist_name="$1"
-    "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_name" |
+    "$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
     "$srcdir/filter_tracks_uri_not_in_core_playlists.sh"
 }
 
