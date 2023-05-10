@@ -42,7 +42,7 @@ cd "$srcdir"
 find_duplicate_tracks(){
     local playlist_name="$1"
     # converts slashes to unicode so filenames look like the playlists
-    filename="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" "$playlist_name")"
+    filename="$("$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh" "$playlist_name")"
     for x in "$filename" "spotify/$filename"; do
         if ! [ -f "$x" ]; then
             die "File not found: $x"
