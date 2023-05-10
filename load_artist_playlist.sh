@@ -43,15 +43,15 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-"$srcdir/bash-tools/spotify_artist_tracks.sh" "$artist" |
-"$srcdir/bash-tools/spotify_add_to_playlist.sh" "$artist"
+"$srcdir/bash-tools/spotify/spotify_artist_tracks.sh" "$artist" |
+"$srcdir/bash-tools/spotify/spotify_add_to_playlist.sh" "$artist"
 
 echo >&2
 
-"$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "$artist"
+"$srcdir/bash-tools/spotify/spotify_delete_any_duplicates_in_playlist.sh" "$artist"
 
 echo >&2
 
 # want splitting
 # shellcheck disable=SC2046
-"$srcdir/bash-tools/spotify_delete_from_playlist_if_in_other_playlists.sh" "$artist" $(echo private/Blacklist* | sed 's,.*/,,')
+"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "$artist" $(echo private/Blacklist* | sed 's,.*/,,')
