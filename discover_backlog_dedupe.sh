@@ -43,7 +43,7 @@ cd "$srcdir"
 
 make pullstash
 
-discover_backlog_playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
+discover_backlog_playlist_id="$("$bash_tools/spotify/spotify_playlist_name_to_id.sh" "Discover Backlog")"
 
 # 18m
 time {
@@ -54,7 +54,7 @@ time {
     # also, will hit "400 Could not remove tracks, please check parameters." if you delete any tracks from Discover Backlog while this is running it'll throw the track positions off
     #for _ in {1..6}; do
         # retries are now done in spotify_api.sh
-        "$srcdir/bash-tools/spotify_delete_any_duplicates_in_playlist.sh" "$discover_backlog_playlist_id"  # || continue
+        "$srcdir/bash-tools/spotify/spotify_delete_any_duplicates_in_playlist.sh" "$discover_backlog_playlist_id"  # || continue
     #    break
     #done
 }
