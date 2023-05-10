@@ -69,7 +69,7 @@ for mega_playlist_file in aggregations/*; do
     done
     # shellcheck disable=SC2094
     while read -r playlist; do
-        playlist_file="spotify/$("$bash_tools/spotify_playlist_to_filename.sh" "$playlist")"
+        playlist_file="spotify/$("$bash_tools/spotify/spotify_playlist_to_filename.sh" "$playlist")"
         if ! [ -f "$playlist_file" ]; then
             die "ERROR: playlist file not found '$playlist_file'"
         fi
@@ -85,7 +85,7 @@ for mega_playlist_file in aggregations/*; do
         # grep bubbles up a hard to debug exit 1 code if no matches
         { grep -Fxv -f "spotify/$mega_playlist" "$playlist_file" || : ; } |
         if [ -n "${DEBUG_TRANSLATE:-}" ]; then
-            "$bash_tools/spotify_uri_to_name.sh"
+            "$bash_tools/spotify/spotify_uri_to_name.sh"
         else
             cat
         fi
@@ -96,7 +96,7 @@ for mega_playlist_file in aggregations/*; do
     else
         sort -u |
         # will call spotify_playlist_to_filename.sh to do the right thing, pre-converting it will actually blow up by stripping the leading slash
-        "$bash_tools/spotify_add_to_playlist.sh" "$mega_playlist"
+        "$bash_tools/spotify/spotify_add_to_playlist.sh" "$mega_playlist"
     fi
     echo >&2
 done
@@ -108,6 +108,6 @@ if [ -z "${DEBUG_TRANSLATE:-}" ]; then
         playlist="${mega_playlist_file#aggregations/}"
         mega_playlists+=("$playlist")
     done
-    "$bash_tools/spotify_delete_duplicates_in_playlist.sh" "${mega_playlists[@]}"
+    "$bash_tools/spotify/spotify_delete_duplicates_in_playlist.sh" "${mega_playlists[@]}"
     ./backup.sh "${mega_playlists[@]}"
 fi
