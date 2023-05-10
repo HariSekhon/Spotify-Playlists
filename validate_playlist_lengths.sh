@@ -56,7 +56,7 @@ if [ $# -gt 0 ]; then
         validate_playlist_length "$playlist"
     done
 else
-    playlists="$("$srcdir/bash-tools/spotify_playlist_to_filename.sh" < playlists.txt)"
+    playlists="$("$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh" < playlists.txt)"
     while read -r playlist; do
         validate_playlist_length "$playlist"
     done <<< "$playlists"
