@@ -31,9 +31,9 @@ export SPOTIFY_PRIVATE=1
 spotify_token
 
 timestamp "Backing up Artists followed"
-"$bash_tools/spotify_artists_followed.sh" | sort -f > artists_followed.txt
+"$bash_tools/spotify/spotify_artists_followed.sh" | sort -f > artists_followed.txt
 echo >&2
 
 timestamp "Backing up Artists followed URIs"
-"$bash_tools/spotify_artists_followed_uri.sh" | sort -f > spotify/artists_followed.txt
+"$bash_tools/spotify/spotify_artists_followed_uri.sh" | sort -f > spotify/artists_followed.txt
 echo >&2
