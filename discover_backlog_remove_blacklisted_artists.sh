@@ -55,7 +55,7 @@ while read -r playlist; do
     fi
 done < <(
     sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" |
-    "$srcdir/bash-tools/spotify_playlist_to_filename.sh"
+    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
 )
 
 #timestamp "Getting list of blacklisted artists with >= N tracks in Blacklist but not in core playlists"
@@ -64,7 +64,7 @@ blacklisted_artists="$(sed 's/#.*//; s/^[[:space:]]*//; s/[[:space:]]*$//; /^[[:
 
 timestamp "Finding tracks in Discover Backlog by blacklisted artists"
 
-playlist_id="$("$bash_tools/spotify_playlist_name_to_id.sh" "Discover Backlog")"
+playlist_id="$("$bash_tools/spotify/spotify_playlist_name_to_id.sh" "Discover Backlog")"
 
 # defined in lib/spotify.sh
 # shellcheck disable=SC2154
@@ -81,12 +81,12 @@ output(){
 }
 
 while not_null "$url_path"; do
-    output="$("$bash_tools/spotify_api.sh" "$url_path" "$@")"
+    output="$("$bash_tools/spotify/spotify_api.sh" "$url_path" "$@")"
     die_if_error_field "$output"
     url_path="$(get_next "$output")"
     output
 done |
-"$bash_tools/spotify_delete_from_playlist.sh" "Discover Backlog"
+"$bash_tools/spotify/spotify_delete_from_playlist.sh" "Discover Backlog"
 #tee >/dev/null \
-#   >("$bash_tools/spotify_delete_from_playlist.sh" "Discover Backlog")
-#   >("$bash_tools/spotify_uri_to_name.sh") \
+#   >("$bash_tools/spotify/spotify_delete_from_playlist.sh" "Discover Backlog")
+#   >("$bash_tools/spotify/spotify_uri_to_name.sh") \
