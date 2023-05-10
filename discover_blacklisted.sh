@@ -72,7 +72,7 @@ while read -r playlist_line; do
     fi
     # script only takes ~ 11 secs using local files so we don't need this progress, keep it concise
     #timestamp "Calculating % tracks blacklisted in playlist \"$playlist_name\""
-    playlist_name="$("$bash_tools/spotify_playlist_to_filename.sh" <<< "$playlist_name")"
+    playlist_name="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" <<< "$playlist_name")"
     playlist_filename="private/$playlist_name"
     if ! [ -f "$playlist_filename" ]; then
         die "ERROR: playlist file does not exist - was a full backup taken first? Not Found:  $playlist_filename"
