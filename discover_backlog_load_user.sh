@@ -43,10 +43,10 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-"$srcdir/bash-tools/spotify_playlists.sh" "$username" |
+"$srcdir/bash-tools/spotify/spotify_playlists.sh" "$username" |
 while read -r playlist_id playlist_name; do
     timestamp "adding tracks from playlist '$playlist_name':"
-    "$srcdir/bash-tools/spotify_playlist_tracks_uri.sh" "$playlist_id" |
-    "$srcdir/bash-tools/spotify_add_to_playlist.sh" "Discover Backlog"
+    "$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_id" |
+    "$srcdir/bash-tools/spotify/spotify_add_to_playlist.sh" "Discover Backlog"
     echo
 done
