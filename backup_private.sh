@@ -37,18 +37,18 @@ export SPOTIFY_BACKUP_DIR="private"
 # auth pop-up once up front if no SPOTIFY_ACCESS_TOKEN found instead of multiple times (once for each called script)
 spotify_token
 # force re-auth since token only lasts for 1 hour and this can take 10 minutes, we don't want the token to expire and error out the scripts part way through
-#SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)"
+#SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify/spotify_api_token.sh)"
 #export SPOTIFY_ACCESS_TOKEN
 
 git pull --no-edit
 
 if [ -n "$*" ]; then
-    "$bash_tools/spotify_backup.sh" "$@"
+    "$bash_tools/spotify/spotify_backup.sh" "$@"
     exit 0
 fi
 
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
-SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
+SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
 echo >&2
 
 timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists.txt => $srcdir/private/playlists.txt"
@@ -61,12 +61,12 @@ timestamp "Regenerating Blacklisted Artists"
 "$srcdir/blacklisted_artists.sh" >/dev/null
 echo >&2
 
-"$bash_tools/spotify_backup.sh" "$@"
+"$bash_tools/spotify/spotify_backup.sh" "$@"
 
 if [ $# -eq 0 ]; then
     echo
 
-    "$bash_tools/spotify_backup_playlist.sh" liked
+    "$bash_tools/spotify/spotify_backup_playlist.sh" liked
 
     echo
 fi
