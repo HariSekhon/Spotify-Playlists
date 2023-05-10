@@ -31,7 +31,7 @@ $usage_token_private
 
 help_usage "$@"
 
-# playlist ID obtained from 'SPOTIFY_PRIVATE=1 bash-tools/spotify_playlist_name_to_id.sh Driving'
+# playlist ID obtained from 'SPOTIFY_PRIVATE=1 bash-tools/spotify/spotify_playlist_name_to_id.sh Driving'
 # can also be obtained from in private/spotify/playlists.txt
 playlist_id="7EbcD860xd91FE1zOF3F3E"
 
@@ -45,13 +45,13 @@ spotify_token
 clear_playlist(){
     timestamp "clearing driving playlist"
     # uris field needs to be blank for this to work, not really optional like doc implies
-    "$srcdir/bash-tools/spotify_api.sh" "$url_path" -X PUT -d '{"uris": []}' > /dev/null  # ignore the { "spotify_snapshot": ... } json output
+    "$srcdir/bash-tools/spotify/spotify_api.sh" "$url_path" -X PUT -d '{"uris": []}' > /dev/null  # ignore the { "spotify_snapshot": ... } json output
 }
 
 "$srcdir/backup.sh" "Upbeat & Sexual Pop"
 
 clear_playlist
 
-"$srcdir/bash-tools/spotify_add_to_playlist.sh" "$playlist_id" < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
+"$srcdir/bash-tools/spotify/spotify_add_to_playlist.sh" "$playlist_id" < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
 
 timestamp "Regenerated driving playlist in $SECONDS seconds"
