@@ -33,13 +33,13 @@ export SPOTIFY_PRIVATE=1
 # auth pop-up once up front if no SPOTIFY_ACCESS_TOKEN found instead of multiple times (once for each called script)
 spotify_token
 # force re-auth since token only lasts for 1 hour and this can take 10 minutes, we don't want the token to expire and error out the scripts part way through
-#SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify_api_token.sh)"
+#SPOTIFY_ACCESS_TOKEN="$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify/spotify_api_token.sh)"
 #export SPOTIFY_ACCESS_TOKEN
 
 export SPOTIFY_PUBLIC_ONLY=1
 
 timestamp "Backing up list of Spotify public playlists to $srcdir/spotify/playlists.txt"
-"$bash_tools/spotify_playlists.sh" > "$srcdir/spotify/playlists.txt"
+"$bash_tools/spotify/spotify_playlists.sh" > "$srcdir/spotify/playlists.txt"
 echo >&2
 
 timestamp "Stripping spotify playlist IDs from $srcdir/spotify/playlists.txt => $srcdir/playlists.txt"
@@ -49,7 +49,7 @@ echo >&2
 timestamp "Backing up list of Spotify followed playlists to $srcdir/private/playlists_followed.txt"
 SPOTIFY_PUBLIC_ONLY='' \
 SPOTIFY_PLAYLISTS_FOLLOWED_ONLY=1 \
-"$bash_tools/spotify_playlists.sh" | sort -f > "$srcdir/private/playlists_followed.txt"
+"$bash_tools/spotify/spotify_playlists.sh" | sort -f > "$srcdir/private/playlists_followed.txt"
 echo >&2
 
 if [ -d private ]; then
@@ -57,7 +57,7 @@ if [ -d private ]; then
     export SPOTIFY_PRIVATE_ONLY=1
 
     timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
-    "$bash_tools/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
+    "$bash_tools/spotify/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
     echo >&2
 
     timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists.txt => $srcdir/private/playlists.txt"
