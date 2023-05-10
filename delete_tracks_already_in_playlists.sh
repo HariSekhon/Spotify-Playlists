@@ -46,7 +46,7 @@ fi
 for playlist; do
     playlist_name="$playlist"
     if is_spotify_playlist_id "$playlist"; then
-        playlist_name="$("$bash_tools/spotify_playlist_id_to_name.sh" <<< "$playlist")"
+        playlist_name="$("$bash_tools/spotify/spotify_playlist_id_to_name.sh" <<< "$playlist")"
     fi
     if ! [[ "$playlist_name" =~ $safety_regex ]]; then
         die "playlist name '$playlist_name' does not contain '$safety_regex', aborting for safety"
@@ -65,7 +65,7 @@ delete_tracks_from_playlist(){
     fi
 
     if is_interactive; then
-        "$bash_tools/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
+        "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
 
         count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
 
@@ -77,7 +77,7 @@ delete_tracks_from_playlist(){
     fi
 
     echo
-    "$bash_tools/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$tracks_to_delete"
+    "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$tracks_to_delete"
     echo
 }
 
