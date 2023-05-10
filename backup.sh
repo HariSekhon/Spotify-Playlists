@@ -30,4 +30,4 @@ git pull --no-edit
 
 "$srcdir/backup_artists_followed.sh"
 
-exec "$bash_tools/spotify_backup.sh" "$@"
+exec "$bash_tools/spotify/spotify_backup.sh" "$@"
