@@ -49,14 +49,14 @@ Hari Sekhon
 [![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
 <br>*(you're welcome to connect with me on LinkedIn)*
 
-#### Quick Guide
+## Quick Guide
 
--  Genre mega mixes (eg. `Hip-Hop / R&B`, `Dance / Pop`, `Rock / Metal`, `Electronica`, `Classical`, `Motown / Soul`, `Classics`, `Club`, `Disco!` etc)
+- Genre mega mixes (eg. `Hip-Hop / R&B`, `Dance / Pop`, `Rock / Metal`, `Electronica`, `Classical`, `Motown / Soul`, `Classics`, `Club`, `Disco!` etc)
 - `Best of <Genre>` / `<special name>` - shorter highest quality playlists (these are the ones you really want, listed below)
 - `Artist` specific playlists
 - Mixes in Time - `YYYY MM - <description>` date stamped mixes - stuff that was either hot at that time or that I discovered and listened to more at that time
 
-#### Best of the Best
+### Best of the Best
 
 - `Upbeat & Sexual Pop` - the ultimate driving mega mix
 - `Chill` - excellent chill tunes for work and life
@@ -76,15 +76,13 @@ Hari Sekhon
 - `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
 - `Light Fun Feel Good` - because sometimes you need to lighten up
 
-
-#### Artists
+### Artists
 
 Even my followed artists are backed up to `artists_followed.txt` and can be restored via my spotify scripts.
 
 Artists with 5 or more tracks in my `Liked Songs` are automatically followed by my spotify scripts.
 
-
-#### The Tech Stuff
+### The Tech Stuff
 
 These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/HariSekhon/Spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
 
