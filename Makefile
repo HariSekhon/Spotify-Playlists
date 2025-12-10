@@ -53,8 +53,10 @@ lazy-init:
 
 .PHONY: backup
 backup: lazy-init
+	@# don't pre-load one long-lived token because it times out after 1 hour before all playlists are downloaded now
+	@# allow scripts to generate new tokens
+	#export SPOTIFY_ACCESS_TOKEN="$$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify/spotify_api_token.sh)"
 	@SECONDS=0 && \
-	export SPOTIFY_ACCESS_TOKEN="$$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify/spotify_api_token.sh)" && \
 	./backup.sh && \
 	echo && \
 	echo && \
