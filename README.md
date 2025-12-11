@@ -116,7 +116,7 @@ Hari Sekhon
 - [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of
   Mixed Martial Arts - the greatest among us
 - [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb?si=dx0JcQmhR-qUmctl-476aw) -
-  music from the hit TV show
+  large playlist of music from the hit TV show's many seasons
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
