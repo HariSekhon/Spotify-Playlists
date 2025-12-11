@@ -75,7 +75,8 @@ Hari Sekhon
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
 - [Trance / Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
   best tunes and vocal trance, hot chick music
-- `Love Songs` - for your sweetie
+- [Love Songs](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM?si=80Ha1Xp9T3eMFErkFrrQMA) -
+  traditional love songs for your sweetie
 - `Sensual` - for a nice evening in with the girlfriend
 - `Songs About Sex` - for single guys with high testosterone in their prime, hip-hop based
 - `Bad Boy Gets Down` - similar to above
