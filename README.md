@@ -71,6 +71,7 @@ Hari Sekhon
 - [Best of Workout Pop](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf?si=GwRiLHwnSEijEbx9ddEynA) -
   best of the bigger [Workout Pop](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6?si=K5RAT2cvRBW9PC8NRhDOnA)
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
+- [Best Female Vocal Trance / Dance](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt?si=a555dc6117404a73)
 - [Best Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
   excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - [Best Tunes & Instrumentals](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U?si=fe33852db70b49bb) -
