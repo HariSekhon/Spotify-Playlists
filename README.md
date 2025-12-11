@@ -73,7 +73,8 @@ Hari Sekhon
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
 - [Workout Hip-Hop (Aggressive)](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2?si=dXpnYY_1RKCKT2md-Hrn1Q) -
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
-- `Trance / Dance - Best of` - high energy gym mix, best vocal trance
+- [Trance / Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
+  best tunes and vocal trance, hot chick music
 - `Love Songs` - for your sweetie
 - `Sensual` - for a nice evening in with the girlfriend
 - `Songs About Sex` - for single guys with high testosterone in their prime, hip-hop based
