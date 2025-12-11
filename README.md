@@ -77,7 +77,8 @@ Hari Sekhon
   best tunes and vocal trance, hot chick music
 - [Love Songs](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM?si=80Ha1Xp9T3eMFErkFrrQMA) -
   traditional love songs for your sweetie
-- `Sensual` - for a nice evening in with the girlfriend
+- [Sensual](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny?si=eZMYRP2nRomPqQf63m-TZw) -
+  for a nice evening in with the girlfriend, massage & more music
 - `Songs About Sex` - for single guys with high testosterone in their prime, hip-hop based
 - `Bad Boy Gets Down` - similar to above
 - `Elite Hip-Hop with Attitude` - legendary hip-hop
