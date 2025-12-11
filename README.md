@@ -91,11 +91,13 @@ Hari Sekhon
   for single guys with high testosterone in their prime, hip-hop based
 - [Bad Boy Gets Down](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm?si=ftRYgfJiQvSEeV3S0_0-Wg) -
   for those late night bad boy journeys... for guys only, hip-hop based
-- [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
-  legendary hip-hop
 - [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga?si=9Yu_k_SqRtqfd_GTQx7W2w)
+- [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
+  legendary hip-hop to play while driving your
+  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
 - [Smooth Hip-Hop](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ?si=CRz-MwO8TeGNJ80nSN2f7g) -
-  legendary hip-hop
+  legendary hip-hop to play while driving your
+  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
 - [Bounce to the Rhythm](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F?si=V2eWcGYoR9yoSxVxEWXKvA) -
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
@@ -111,7 +113,7 @@ Hari Sekhon
   disco music - inspired by the 70s onwards...
 - [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW?si=bTqfOu-pTbuiPHvkEnwOAw)
 - [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
-  20th century classics and well known songs
+  mid to late 20th century classics and well known songs
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
