@@ -98,13 +98,8 @@ Hari Sekhon
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY?si=6SS8kPmUQ_2bifYJGZDzRw) -
   because sometimes you need to lighten up
-- [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
-- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
-  by a half-Jamaican girl I used to know...
-- [Jazz / Easy Listening / Lounge / Coffee Shops](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe?si=256bd4ff7f4f4e1e)
 - [Best Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
   excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
-- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
 - [Electronica](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy?si=f114322d134b4f99)
 - [Club](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX?si=02d985d585cf4538) -
   club music - upbeat dance, house, trance etc.
@@ -113,8 +108,6 @@ Hari Sekhon
 - [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW?si=bTqfOu-pTbuiPHvkEnwOAw)
 - [Soft](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB?si=2a59f31ce7004c48) -
   driving home late at night and don't want to wake the kids up in the back...
-- [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
-  mid to late 20th century classics and well known songs
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
@@ -145,19 +138,42 @@ Hari Sekhon
 
 ### More Playlists of Note
 
-- [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb?si=dx0JcQmhR-qUmctl-476aw) -
-  large playlist of music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
 - [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk?si=6f3ee6dce0974147) -
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
 - [College Rock](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q?si=79844b91581f4fba)
 - [Acoustic](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE?si=6d35437b5e014787)
 - [Guitar](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj?si=9eea909132be4380)
+- [Piano](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k?si=752e748b2da74371)
 - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO?si=250bda9e89b64a41)
 - [R & B Classics](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T?si=4b893f97f1a140ec)
-- [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
+- [Smooth](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk?si=27961520bf814fe4)
 - [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of
-  Mixed Martial Arts - the greatest among us
+  Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
 - [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i?si=e44ee3f6e9234f4e)
+
+### Larger Genre Playlists
+
+Entire genres of songs which are decent but not elite enough to make the lists above:
+
+- [Pop Mega-Mix](https://open.spotify.com/playlist/0KqHUE6aVzUh9ProBe2QzO?si=2ab92441a01c41ec)
+- [Pop Mega-Mix 2](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ?si=a0d23a1ff8714182) -
+  overspill because Spotify limits playlists to 10,000 tracks.
+  The first Pop Mega-Mix playlist is better since it sucked up most of the best known popular songs first
+- [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb?si=dx0JcQmhR-qUmctl-476aw) -
+  music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
+- [Workout Pop](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6?si=e6157d535d334ccc)
+- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
+  by a half-Jamaican girl I used to know...
+- [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
+- [Hip-Hop/R&B/Reggae/Grooves/Vibes](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F?si=59079c517d144df2)
+- [Rock / Metal / Indie / Alternative](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR?si=2a06bf8fd30048a5)
+- [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
+- [Jazz / Easy Listening / Lounge / Coffee Shops](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe?si=256bd4ff7f4f4e1e)
+- [Latin American](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2?si=8423ded2902c49f8)
+- [Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU?si=ed48fb41cf9e45a5)
+- [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
+  mid to late 20th century classics and well known songs
+- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
 
 ### Artists
 
