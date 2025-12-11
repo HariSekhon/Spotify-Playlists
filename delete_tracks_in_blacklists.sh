@@ -70,5 +70,9 @@ delete_blacklisted_tracks_from_playlist(){
 }
 
 for playlist; do
+    if [[ "$playlist" =~ Blacklist ]]; then
+        warn "Cannot specify to delete from a Blacklist itself"
+        continue
+    fi
     delete_blacklisted_tracks_from_playlist "$playlist"
 done
