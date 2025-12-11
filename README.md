@@ -71,7 +71,8 @@ Hari Sekhon
 - [Best of Workout Pop](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf?si=GwRiLHwnSEijEbx9ddEynA) -
   best of the bigger [Workout Pop](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6?si=K5RAT2cvRBW9PC8NRhDOnA)
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
-- `Workout Hip-Hop (Aggressive)` - gym hardcore for guys pumping iron and hitting bags
+- [Workout Hip-Hop (Aggressive)](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2?si=dXpnYY_1RKCKT2md-Hrn1Q) -
+  the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
 - `Trance / Dance - Best of` - high energy gym mix, best vocal trance
 - `Love Songs` - for your sweetie
 - `Sensual` - for a nice evening in with the girlfriend
