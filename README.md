@@ -102,6 +102,10 @@ and can be restored via my spotify scripts.
 Artists with 5 or more tracks in my `Liked Songs` are automatically followed by my
 [spotify scripts](https://github.com/HariSekhon/DevOps-Bash-tools/tree/master/spotify).
 
+Some of the best artist playlists:
+
+- [Jay-Z](https://open.spotify.com/playlist/3oMtJUFiSP6CFqZbO4bcrg?si=SGhcnG9CTWOkGYghtcJP-Q)
+
 ### The Tech Stuff
 
 These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/HariSekhon/Spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
