@@ -38,6 +38,8 @@ min_args 1 "$@"
 
 export SPOTIFY_PRIVATE=1
 
+# assume we are reasonably up to date since these tracks have a large stock to flow ratio and
+# we can always run a partial backup of just the latest Blacklist playlist manually if we want a fresher list
 #"$srcdir/backup_private.sh" $("$srcdir/bash-tools/spotify_playlists.sh" | grep -E '^Blacklist[[:digit:]]+$')
 
 delete_blacklisted_tracks_from_playlist(){
@@ -50,7 +52,7 @@ delete_blacklisted_tracks_from_playlist(){
         return
     fi
 
-    if is_interactive; then
+    if has_terminal; then
         "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
 
         count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
