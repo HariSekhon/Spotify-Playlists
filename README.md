@@ -90,7 +90,7 @@ Hari Sekhon
 - [Songs About Sex](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc?si=nN5V6bDvSxCW7ss06StMEw) -
   for single guys with high testosterone in their prime, hip-hop based
 - [Bad Boy Gets Down](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm?si=ftRYgfJiQvSEeV3S0_0-Wg) -
-  for those journeys on route to a bad boy slam dunk mission... for guys only, hip-hop based
+  for those late night bad boy journeys... for guys only, hip-hop based
 - [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
   legendary hip-hop
 - [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga?si=9Yu_k_SqRtqfd_GTQx7W2w)
