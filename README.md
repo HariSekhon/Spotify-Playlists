@@ -114,6 +114,7 @@ Hari Sekhon
   the 80s was the greatest decade in human history - upbeat, iconic, beautiful - any songs in a positive 80s style are
   also welcome here
 - [The 70s](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP?si=681c7673d1eb4d59)
+- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i?si=e44ee3f6e9234f4e)
 
 ### Artists
 
