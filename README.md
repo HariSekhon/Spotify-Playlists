@@ -113,6 +113,7 @@ Hari Sekhon
 - [The 80s - The Greatest Decade in Human History!](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03?si=f4453fefdbb945f6) -
   the 80s was the greatest decade in human history - upbeat, iconic, beautiful - any songs in a positive 80s style are
   also welcome here
+- [The 70s](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP?si=681c7673d1eb4d59)
 
 ### Artists
 
