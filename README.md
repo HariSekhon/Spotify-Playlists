@@ -102,7 +102,7 @@ and can be restored via my spotify scripts.
 Artists with 5 or more tracks in my `Liked Songs` are automatically followed by my
 [spotify scripts](https://github.com/HariSekhon/DevOps-Bash-tools/tree/master/spotify).
 
-Some of the best artist playlists:
+#### Best Artist Playlists
 
 - [Jay-Z](https://open.spotify.com/playlist/3oMtJUFiSP6CFqZbO4bcrg?si=SGhcnG9CTWOkGYghtcJP-Q)
 
