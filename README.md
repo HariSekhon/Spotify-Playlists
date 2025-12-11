@@ -178,6 +178,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [Simply Red](https://open.spotify.com/playlist/6H0plzqEiUxLEGctBdDZgS?si=0199d3692fff4c54)
 - [Placebo](https://open.spotify.com/playlist/3dX5cFDlXIDCWbD40BRZR6?si=d39bda6ec4354e9d)
 - [P!nk](https://open.spotify.com/playlist/3RKQrRdr7svKA3rHTyT00R?si=5e8d6f92f04d479a)
+- [Linkin Park](https://open.spotify.com/playlist/4nNIGVqsntJY1keKHZInbq?si=eeb72f27a9474ea4)
 - [M83](https://open.spotify.com/playlist/529fIcfithcAqEhMy0DQ8D?si=623dbb9f70054d6b)
 - [Blackmill](https://open.spotify.com/playlist/53YVm2qO0CbUlILwqJ40FF?si=8601af71284c40cb0)
 - [Ludovico Einaudi - Favourites](https://open.spotify.com/playlist/1GLIj8dABt2zckpZCg9ljh?si=45242cee216e4004)
