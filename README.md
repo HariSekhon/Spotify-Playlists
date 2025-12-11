@@ -59,7 +59,8 @@ Hari Sekhon
 
 ### Best of the Best
 
-- `Upbeat & Sexual Pop` - the ultimate driving mega mix
+- [Upbeat & Sexual Pop](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr?si=cW5J_1feRbOlWcJr1zaRLQ) -
+  the ultimate driving mega mix
 - `Chill` - excellent chill tunes for work and life
 - `Best R&B`
 - `Best Pop`
