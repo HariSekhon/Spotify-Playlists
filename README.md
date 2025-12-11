@@ -75,8 +75,6 @@ Hari Sekhon
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
 - [Best Workout Hip-Hop (Aggressive)](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2?si=dXpnYY_1RKCKT2md-Hrn1Q) -
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
-- [Best Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
-  excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - [Best Tunes & Instrumentals](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U?si=fe33852db70b49bb) -
   instrumentals and songs mostly for the tune...
 - [Trance / Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
@@ -96,22 +94,24 @@ Hari Sekhon
   for single guys with high testosterone in their prime, hip-hop based
 - [Bad Boy Gets Down](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm?si=ftRYgfJiQvSEeV3S0_0-Wg) -
   for those late night bad boy journeys... for guys only, hip-hop based
-- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
-  by a half-Jamaican girl I used to know...
 - [Bounce to the Rhythm](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F?si=V2eWcGYoR9yoSxVxEWXKvA) -
   rhythm & vibes hip-hop, puts a bounce in your step
-- [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
 - [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY?si=6SS8kPmUQ_2bifYJGZDzRw) -
   because sometimes you need to lighten up
-- [Electronica](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy?si=f114322d134b4f99)
+- [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
+- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
+  by a half-Jamaican girl I used to know...
 - [Jazz / Easy Listening / Lounge / Coffee Shops](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe?si=256bd4ff7f4f4e1e)
-- [Soft](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB?si=2a59f31ce7004c48) -
-  driving home late at night and don't want to wake the kids up in the back...
+- [Best Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
+  excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
+- [Electronica](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy?si=f114322d134b4f99)
 - [Club](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX?si=02d985d585cf4538) -
   club music - upbeat dance, house, trance etc.
 - [Disco!](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg?si=7c50d5494b424674) -
   disco music - inspired by the 70s onwards...
 - [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW?si=bTqfOu-pTbuiPHvkEnwOAw)
+- [Soft](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB?si=2a59f31ce7004c48) -
+  driving home late at night and don't want to wake the kids up in the back...
 - [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
   mid to late 20th century classics and well known songs
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
