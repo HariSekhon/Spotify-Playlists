@@ -92,6 +92,10 @@ Hari Sekhon
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY?si=6SS8kPmUQ_2bifYJGZDzRw) -
   because sometimes you need to lighten up
+- [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
+  [Heartbreakers](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU?si=f6LBB3f6Q7Sa_8KQpewiOw) -
+  everyone has that one person who they will think of when listening to the first playlist - the second one is for those
+  who haven't yet
 
 ### Artists
 
