@@ -175,6 +175,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [Ria Ora](https://open.spotify.com/playlist/4zIeT24ObpSQxuKkyYt9dn?si=7c683b8c1a02490a)
 - [Beyonce](https://open.spotify.com/playlist/0TmOIlsp1sdBzMl3Nr7oGm?si=10846c05d3a44763)
 - [Rihana](https://open.spotify.com/playlist/1ZCoN6y8wmOyZwyWZ1qrPL?si=8c3280002fab4cba)
+- [Kylie Minogue](https://open.spotify.com/playlist/2rjNx0DMTgcAkr4SIrzIJ3?si=bd12f47baeeb45e0)
 - [Simply Red](https://open.spotify.com/playlist/6H0plzqEiUxLEGctBdDZgS?si=0199d3692fff4c54)
 - [Placebo](https://open.spotify.com/playlist/3dX5cFDlXIDCWbD40BRZR6?si=d39bda6ec4354e9d)
 - [P!nk](https://open.spotify.com/playlist/3RKQrRdr7svKA3rHTyT00R?si=5e8d6f92f04d479a)
