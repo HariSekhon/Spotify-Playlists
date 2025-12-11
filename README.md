@@ -61,6 +61,7 @@ Hari Sekhon
 
 - [Upbeat & Sexual Pop](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr?si=cW5J_1feRbOlWcJr1zaRLQ) -
   the ultimate driving upbeat pop mega mix
+- [Hot Love](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa?si=nfh0dbZaRemcahKAyv0eQA)
 - [Chill](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk?si=_PHnENR5QI28tbQSUzy7jg0) -
   excellent chill tunes for work and life
 - [Best R&B](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7?si=x4Gw3opHRrurrbEpM0zE5w)
