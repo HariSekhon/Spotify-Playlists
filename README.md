@@ -180,6 +180,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [P!nk](https://open.spotify.com/playlist/3RKQrRdr7svKA3rHTyT00R?si=5e8d6f92f04d479a)
 - [Linkin Park](https://open.spotify.com/playlist/4nNIGVqsntJY1keKHZInbq?si=eeb72f27a9474ea4)
 - [M83](https://open.spotify.com/playlist/529fIcfithcAqEhMy0DQ8D?si=623dbb9f70054d6b)
+- [The xx](https://open.spotify.com/playlist/3pU80B1cfx97YJV32tQadx?si=0196f3b500444f1d)
 - [Blackmill](https://open.spotify.com/playlist/53YVm2qO0CbUlILwqJ40FF?si=8601af71284c40cb0)
 - [Ludovico Einaudi - Favourites](https://open.spotify.com/playlist/1GLIj8dABt2zckpZCg9ljh?si=45242cee216e4004)
 
