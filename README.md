@@ -77,6 +77,8 @@ Hari Sekhon
 - [Best Tunes & Instrumentals](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U?si=fe33852db70b49bb) -
   instrumentals and songs mostly for the tune...
 - [Acoustic]()https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE?si=6d35437b5e014787
+- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
+  by a half-Jamaican girl I used to know...
 - [Workout Hip-Hop (Aggressive)](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2?si=dXpnYY_1RKCKT2md-Hrn1Q) -
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
 - [Trance / Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
