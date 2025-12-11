@@ -18,7 +18,7 @@ all
 #exclude_rule 'MD001'
 #exclude_rule 'MD003'
 #exclude_rule 'MD005'
-#exclude_rule 'MD007'  # leave 2 space indentation for lists, 3 space is ugly af
+exclude_rule 'MD007'  # leave 2 space indentation for lists, 3 space is ugly af
 #exclude_rule 'MD012'
 exclude_rule 'MD013'  # long lines cannot be split if they are URLs
 #exclude_rule 'MD022'
