@@ -78,7 +78,8 @@ updates: # backup commit
 	$(MAKE) backup
 	@echo
 	@echo
-	$(MAKE) aggregate
+	@# needs redesign now there are two Pop Mega-Mix parent playlists
+	@#$(MAKE) aggregate
 	@echo
 	@echo
 	$(MAKE) commit
