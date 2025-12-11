@@ -92,6 +92,7 @@ Hari Sekhon
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY?si=6SS8kPmUQ_2bifYJGZDzRw) -
   because sometimes you need to lighten up
+- [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW?si=bTqfOu-pTbuiPHvkEnwOAw)
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
