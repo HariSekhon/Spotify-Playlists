@@ -166,7 +166,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [The Notorious B.I.G.](https://open.spotify.com/playlist/1zpLNVLf0lWlm8h8QWhgcv?si=6c782ff04db7449d)
 - [2Pac](https://open.spotify.com/playlist/6Gsq67sIl755bdLNFGMOP1?si=10d2ac8558e2493f)
 - [Bon Jovi](https://open.spotify.com/playlist/0BYhAyWESD4PK4F096AGeg?si=65df01acdf4b48c6)
-- [Guns N Roses](https://open.spotify.com/playlist/48iOxmFkMvZtk6C4uCbAIm?si=ef54d150aba24efd)
+- [Guns N' Roses](https://open.spotify.com/playlist/48iOxmFkMvZtk6C4uCbAIm?si=ef54d150aba24efd)
 - [Ellie Goulding](https://open.spotify.com/playlist/1gf3KnnRJT3AFdGDLC3q7Z?si=2823ecffe8974ff8)
 - [Florence + The Machine](https://open.spotify.com/playlist/6EmDuGij5n32He6PG3ED0j?si=c79802c77928454e)
 - [The Weeknd](https://open.spotify.com/playlist/1OD1SkerbfYup4fWazgYrY?si=b2a1a481529d448f)
