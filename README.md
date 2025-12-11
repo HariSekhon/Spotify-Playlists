@@ -104,6 +104,7 @@ Hari Sekhon
 - [Jazz / Easy Listening / Lounge / Coffee Shops](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe?si=256bd4ff7f4f4e1e)
 - [Best Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
   excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
+- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
 - [Electronica](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy?si=f114322d134b4f99)
 - [Club](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX?si=02d985d585cf4538) -
   club music - upbeat dance, house, trance etc.
@@ -155,7 +156,6 @@ Hari Sekhon
 - [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
 - [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of
   Mixed Martial Arts - the greatest among us
-- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
 - [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i?si=e44ee3f6e9234f4e)
 
 ### Artists
