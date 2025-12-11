@@ -169,6 +169,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [Lily Allen](https://open.spotify.com/playlist/3uu96wewWplY9iprjCe0DC?si=fc7097a8f65a4a82)
 - [Ria Ora](https://open.spotify.com/playlist/4zIeT24ObpSQxuKkyYt9dn?si=7c683b8c1a02490a)
 - [Beyonce](https://open.spotify.com/playlist/0TmOIlsp1sdBzMl3Nr7oGm?si=10846c05d3a44763)
+- [Rihana](https://open.spotify.com/playlist/1ZCoN6y8wmOyZwyWZ1qrPL?si=8c3280002fab4cba)
 - [Simply Red](https://open.spotify.com/playlist/6H0plzqEiUxLEGctBdDZgS?si=0199d3692fff4c54)
 - [M83](https://open.spotify.com/playlist/529fIcfithcAqEhMy0DQ8D?si=623dbb9f70054d6b)
 - [Blackmill](https://open.spotify.com/playlist/53YVm2qO0CbUlILwqJ40FF?si=8601af71284c40cb0)
