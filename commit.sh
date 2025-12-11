@@ -40,7 +40,7 @@ commit_other_files(){
         grep -E '^.M[[:space:]]' |
         cut -c 4- |
         sed 's/^"//; s/"$//' |
-        grep -E -e '\.description$' -e '\.txt$'
+        grep -E -e '\.txt$'
     )
 
     if [ -n "${filenames:-}" ]; then
