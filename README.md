@@ -52,7 +52,7 @@ Hari Sekhon
 
 ## Quick Guide
 
-- Genre mega mixes (eg. `Hip-Hop / R&B`, `Dance / Pop`, `Rock / Metal`, `Electronica`, `Classical`, `Motown / Soul`, `Classics`, `Club`, `Disco!` etc)
+- Genre mega mixes (eg. `Hip-Hop / R&B`, `Pop / Dance`, `Rock / Metal`, `Electronica`, `Classical`, `Motown / Soul`, `Classics`, `Club`, `Disco!` etc)
 - `Best of <Genre>` / `<special name>` - shorter highest quality playlists (these are the ones you really want, listed below)
 - `Artist` specific playlists
 - Mixes in Time - `YYYY MM - <description>` date stamped mixes - stuff that was either hot at that time or that I discovered and listened to more at that time
