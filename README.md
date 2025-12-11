@@ -124,7 +124,8 @@ Hari Sekhon
   working out or on your economic grind, there is no more respectable man than he who rises from nothing
   to something through his own hard work and merit.
   When people wonder how I beat the odds in life or why I get more ripped the older I get:
-  - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable"_
+  - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old
+    without seeing the beauty and strength of which his body is capable"_
     ― Socrates
 
 <!-- -->
