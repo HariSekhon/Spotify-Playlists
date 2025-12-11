@@ -26,6 +26,14 @@ cd "$srcdir"
 
 "$bash_tools/scripts/spotify_commit_playlists.sh" "$@"
 
+# spotify_commit_playlists.sh will skip txt and description files
+for _ in "$@"; do
+    if [[ "$_" =~ \.(txt|description)$ ]]; then
+        gitu "$_"
+    fi
+done
+
+# if no args are given, loop through all txt and description files to pick them up
 if [ -n "$*" ]; then
     exit 0
 fi
