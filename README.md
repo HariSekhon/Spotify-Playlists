@@ -59,7 +59,8 @@ Hari Sekhon
 
 ### Best of the Best
 
-- [Favourites](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk?si=-OPQrpCYTmWS-ywgQHmO1w)
+- [Favourites](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk?si=-OPQrpCYTmWS-ywgQHmO1w) -
+  favourites across all genres
 - [Upbeat & Sexual Pop](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr?si=cW5J_1feRbOlWcJr1zaRLQ) -
   the ultimate driving upbeat pop mega mix
 - [Hot Love](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa?si=nfh0dbZaRemcahKAyv0eQA)
