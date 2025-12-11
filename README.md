@@ -168,6 +168,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [Chromeo](https://open.spotify.com/playlist/32ZRbRsW4df2XLbzrITYvV?si=1ea2e2c817e34d96)
 - [Lily Allen](https://open.spotify.com/playlist/3uu96wewWplY9iprjCe0DC?si=fc7097a8f65a4a82)
 - [Ria Ora](https://open.spotify.com/playlist/4zIeT24ObpSQxuKkyYt9dn?si=7c683b8c1a02490a)
+- [Simply Red](https://open.spotify.com/playlist/6H0plzqEiUxLEGctBdDZgS?si=0199d3692fff4c54)
 - [M83](https://open.spotify.com/playlist/529fIcfithcAqEhMy0DQ8D?si=623dbb9f70054d6b)
 - [Blackmill](https://open.spotify.com/playlist/53YVm2qO0CbUlILwqJ40FF?si=8601af71284c40cb0)
 - [Ludovico Einaudi - Favourites](https://open.spotify.com/playlist/1GLIj8dABt2zckpZCg9ljh?si=45242cee216e4004)
