@@ -81,8 +81,13 @@ Hari Sekhon
   instrumentals and songs mostly for the tune...
 - [Trance / Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
   best tunes and vocal trance, hot chick music
-- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
-  by a half-Jamaican girl I used to know...
+- [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga?si=9Yu_k_SqRtqfd_GTQx7W2w)
+- [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
+  legendary hip-hop to play while driving your
+  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
+- [Smooth Hip-Hop](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ?si=CRz-MwO8TeGNJ80nSN2f7g) -
+  legendary hip-hop to play while driving your
+  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
 - [Love Songs](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM?si=80Ha1Xp9T3eMFErkFrrQMA) -
   traditional love songs for your sweetie
 - [Sensual](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny?si=eZMYRP2nRomPqQf63m-TZw) -
@@ -91,13 +96,8 @@ Hari Sekhon
   for single guys with high testosterone in their prime, hip-hop based
 - [Bad Boy Gets Down](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm?si=ftRYgfJiQvSEeV3S0_0-Wg) -
   for those late night bad boy journeys... for guys only, hip-hop based
-- [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga?si=9Yu_k_SqRtqfd_GTQx7W2w)
-- [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
-  legendary hip-hop to play while driving your
-  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
-- [Smooth Hip-Hop](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ?si=CRz-MwO8TeGNJ80nSN2f7g) -
-  legendary hip-hop to play while driving your
-  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
+- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
+  by a half-Jamaican girl I used to know...
 - [Bounce to the Rhythm](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F?si=V2eWcGYoR9yoSxVxEWXKvA) -
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
@@ -126,6 +126,9 @@ Hari Sekhon
   When people wonder how I beat the odds in life or why I get more ripped the older I get:
   - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable"_
     ― Socrates
+
+<!-- -->
+
 - [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss?si=760ee8ee2ffd4615)
 - [The 2010s](https://open.spotify.com/playlist/6CJIkvDN4f1WMO9ZnJ6wr1?si=30c16ba43670463b) -
   the decade of the Tinder Dating Apocalypse... at least there is good music to enjoy in the decline!!
