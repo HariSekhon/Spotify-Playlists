@@ -81,7 +81,8 @@ Hari Sekhon
   for a nice evening in with the girlfriend, massage & more music
 - [Songs About Sex](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc?si=nN5V6bDvSxCW7ss06StMEw) -
   for single guys with high testosterone in their prime, hip-hop based
-- `Bad Boy Gets Down` - similar to above
+- [Bad Boy Gets Down](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm?si=ftRYgfJiQvSEeV3S0_0-Wg) -
+  for those journeys on route to a bad boy slam dunk mission... for guys only, hip-hop based
 - `Elite Hip-Hop with Attitude` - legendary hip-hop
 - `Smooth Hip-Hop` - legendary hip-hop
 - `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
