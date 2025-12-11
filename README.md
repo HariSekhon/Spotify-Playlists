@@ -85,6 +85,7 @@ Hari Sekhon
   for those journeys on route to a bad boy slam dunk mission... for guys only, hip-hop based
 - [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
   legendary hip-hop
+- [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga?si=9Yu_k_SqRtqfd_GTQx7W2w)
 - [Smooth Hip-Hop](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ?si=CRz-MwO8TeGNJ80nSN2f7g) -
   legendary hip-hop
 - `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
