@@ -147,6 +147,7 @@ Artists with 5 or more tracks in my `Liked Songs` are automatically followed by 
 - [Jay-Z](https://open.spotify.com/playlist/3oMtJUFiSP6CFqZbO4bcrg?si=SGhcnG9CTWOkGYghtcJP-Q)
 - [Nas](https://open.spotify.com/playlist/36plJzYSaO6hevuQvFcCxh?si=04c91749582f4fce)
 - [Bon Jovi](https://open.spotify.com/playlist/0BYhAyWESD4PK4F096AGeg?si=65df01acdf4b48c6)
+- [The Weeknd](https://open.spotify.com/playlist/1OD1SkerbfYup4fWazgYrY?si=b2a1a481529d448f)
 
 ### The Tech Stuff
 
