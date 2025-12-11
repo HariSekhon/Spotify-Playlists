@@ -102,7 +102,12 @@ Hari Sekhon
   because sometimes you need to lighten up
 - [Soft](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB?si=2a59f31ce7004c48) -
   driving home late at night and don't want to wake the kids up in the back...
+- [Club](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX?si=02d985d585cf4538) -
+  club music - upbeat dance, house, trance etc.
+- [Disco!](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg?si=7c50d5494b424674) -
+  disco music - inspired by the 70s onwards...
 - [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW?si=bTqfOu-pTbuiPHvkEnwOAw)
+- [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of MMA
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
@@ -115,6 +120,7 @@ Hari Sekhon
   When people wonder how I beat the odds in life or why I get more ripped the older I get:
   - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable"_
     ― Socrates
+  - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO?si=250bda9e89b64a41)
 - [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
 - [College Rock](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q?si=79844b91581f4fba)
 - [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk?si=6f3ee6dce0974147) -
@@ -146,10 +152,21 @@ Artists with 5 or more tracks in my `Liked Songs` are automatically followed by 
 
 #### Best Artist Playlists
 
+Far from a complete list - artists whose body of work is consistently high quality enough for its own playlist.
+
 - [Jay-Z](https://open.spotify.com/playlist/3oMtJUFiSP6CFqZbO4bcrg?si=SGhcnG9CTWOkGYghtcJP-Q)
 - [Nas](https://open.spotify.com/playlist/36plJzYSaO6hevuQvFcCxh?si=04c91749582f4fce)
+- [The Notorious B.I.G.](https://open.spotify.com/playlist/1zpLNVLf0lWlm8h8QWhgcv?si=6c782ff04db7449d)
+- [2Pac](https://open.spotify.com/playlist/6Gsq67sIl755bdLNFGMOP1?si=10d2ac8558e2493f)
 - [Bon Jovi](https://open.spotify.com/playlist/0BYhAyWESD4PK4F096AGeg?si=65df01acdf4b48c6)
+- [Ellie Goulding](https://open.spotify.com/playlist/1gf3KnnRJT3AFdGDLC3q7Z?si=2823ecffe8974ff8)
 - [The Weeknd](https://open.spotify.com/playlist/1OD1SkerbfYup4fWazgYrY?si=b2a1a481529d448f)
+- [DMX](https://open.spotify.com/playlist/7phBhRlaZAFeKcbuZdlTvK?si=2af8ae5d0abf4a24)
+- [Chromeo](https://open.spotify.com/playlist/32ZRbRsW4df2XLbzrITYvV?si=1ea2e2c817e34d96)
+- [Lily Allen](https://open.spotify.com/playlist/3uu96wewWplY9iprjCe0DC?si=fc7097a8f65a4a82)
+- [Ria Ora](https://open.spotify.com/playlist/4zIeT24ObpSQxuKkyYt9dn?si=7c683b8c1a02490a)
+- [Blackmill](https://open.spotify.com/playlist/53YVm2qO0CbUlILwqJ40FF?si=8601af71284c40cb0)
+- [Ludovico Einaudi - Favourites](https://open.spotify.com/playlist/1GLIj8dABt2zckpZCg9ljh?si=45242cee216e4004)
 
 ### The Tech Stuff
 
