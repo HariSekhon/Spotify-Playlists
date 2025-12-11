@@ -73,6 +73,8 @@ Hari Sekhon
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
 - [Best Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
   excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
+- [Best Tunes & Instrumentals](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U?si=fe33852db70b49bb) -
+  instrumentals and songs mostly for the tune...
 - [Workout Hip-Hop (Aggressive)](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2?si=dXpnYY_1RKCKT2md-Hrn1Q) -
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
 - [Trance / Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
