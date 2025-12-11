@@ -109,7 +109,9 @@ Hari Sekhon
 - [Disco!](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg?si=7c50d5494b424674) -
   disco music - inspired by the 70s onwards...
 - [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW?si=bTqfOu-pTbuiPHvkEnwOAw)
-- [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of MMA
+- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
+- [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of
+  Mixed Martial Arts - the greatest among us
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
