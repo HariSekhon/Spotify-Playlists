@@ -169,6 +169,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [Florence + The Machine](https://open.spotify.com/playlist/6EmDuGij5n32He6PG3ED0j?si=c79802c77928454e)
 - [The Weeknd](https://open.spotify.com/playlist/1OD1SkerbfYup4fWazgYrY?si=b2a1a481529d448f)
 - [DMX](https://open.spotify.com/playlist/7phBhRlaZAFeKcbuZdlTvK?si=2af8ae5d0abf4a24)
+- [Lil Wayne](https://open.spotify.com/playlist/5SLI9TfLu894m8nXipeIjZ?si=5bc1d06b6acb472c)
 - [Devlin](https://open.spotify.com/playlist/7kxpjTmZZF2kFz4z1DNKDq?si=c143925e2ecb48cd)
 - [Chromeo](https://open.spotify.com/playlist/32ZRbRsW4df2XLbzrITYvV?si=1ea2e2c817e34d96)
 - [Lily Allen](https://open.spotify.com/playlist/3uu96wewWplY9iprjCe0DC?si=fc7097a8f65a4a82)
