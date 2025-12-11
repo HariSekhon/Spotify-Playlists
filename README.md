@@ -161,6 +161,7 @@ Far from a complete list - artists whose body of work is consistently high quali
 - [2Pac](https://open.spotify.com/playlist/6Gsq67sIl755bdLNFGMOP1?si=10d2ac8558e2493f)
 - [Bon Jovi](https://open.spotify.com/playlist/0BYhAyWESD4PK4F096AGeg?si=65df01acdf4b48c6)
 - [Ellie Goulding](https://open.spotify.com/playlist/1gf3KnnRJT3AFdGDLC3q7Z?si=2823ecffe8974ff8)
+- [Florence + The Machine](https://open.spotify.com/playlist/6EmDuGij5n32He6PG3ED0j?si=c79802c77928454e)
 - [The Weeknd](https://open.spotify.com/playlist/1OD1SkerbfYup4fWazgYrY?si=b2a1a481529d448f)
 - [DMX](https://open.spotify.com/playlist/7phBhRlaZAFeKcbuZdlTvK?si=2af8ae5d0abf4a24)
 - [Chromeo](https://open.spotify.com/playlist/32ZRbRsW4df2XLbzrITYvV?si=1ea2e2c817e34d96)
