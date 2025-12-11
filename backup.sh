@@ -24,6 +24,9 @@ bash_tools="$srcdir/bash-tools"
 
 cd "$srcdir"
 
+# needed to return public playlists that are not explicitly added to profile
+export SPOTIFY_PRIVATE=1
+
 export SPOTIFY_PUBLIC_ONLY=1
 
 git pull --no-edit
