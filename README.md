@@ -83,8 +83,10 @@ Hari Sekhon
   for single guys with high testosterone in their prime, hip-hop based
 - [Bad Boy Gets Down](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm?si=ftRYgfJiQvSEeV3S0_0-Wg) -
   for those journeys on route to a bad boy slam dunk mission... for guys only, hip-hop based
-- `Elite Hip-Hop with Attitude` - legendary hip-hop
-- `Smooth Hip-Hop` - legendary hip-hop
+- [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
+  legendary hip-hop
+- [Smooth Hip-Hop](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ?si=CRz-MwO8TeGNJ80nSN2f7g) -
+  legendary hip-hop
 - `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
 - `Light Fun Feel Good` - because sometimes you need to lighten up
 
