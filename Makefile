@@ -98,7 +98,7 @@ dedupe:
 	./spotify_delete_duplicates_in_playlist.sh "My Shazam Tracks"
 
 .PHONY: aggregate
-aggregate: backup
+aggregate:
 	./aggregate_playlists.sh
 
 .PHONY: pull
