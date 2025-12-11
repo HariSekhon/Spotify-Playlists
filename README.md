@@ -96,6 +96,12 @@ Hari Sekhon
   [Heartbreakers](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU?si=f6LBB3f6Q7Sa_8KQpewiOw) -
   everyone has that one person who they will think of when listening to the first playlist - the second one is for those
   who haven't yet
+- [Defiance - Beat the Odds](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp?si=hwQBfwn9RC6apjvDQ4gNhQ) -
+  working out or on your economic grind, there is no more respectable man than he who rises from nothing
+  to something.
+  When people wonder how I beat the odds in life or why I get more ripped the older I get:
+  - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable"_
+    ― Socrates
 
 ### Artists
 
