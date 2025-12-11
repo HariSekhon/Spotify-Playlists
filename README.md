@@ -107,6 +107,12 @@ Hari Sekhon
   When people wonder how I beat the odds in life or why I get more ripped the older I get:
   - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable"_
     ― Socrates
+- [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss?si=760ee8ee2ffd4615)
+- [The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧](https://open.spotify.com/playlist/3Hw9hpJ2Wv8i11UelqnY90?si=58f53e6f57d14259) -
+  re-live the Best of the 90s - with lots of Dance, R&B and BritPop from the UK’s last golden age
+- [The 80s - The Greatest Decade in Human History!](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03?si=f4453fefdbb945f6) -
+  the 80s was the greatest decade in human history - upbeat, iconic, beautiful - any songs in a positive 80s style are
+  also welcome here
 
 ### Artists
 
