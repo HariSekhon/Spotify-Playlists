@@ -163,6 +163,8 @@ Artists with 5 or more tracks in my `Liked Songs` are automatically followed by 
 
 Far from a complete list - artists whose body of work is consistently high quality enough for its own playlist.
 
+There are a *lot* of artist playlists in my libary but some need more culling of songs... time is always the issue.
+
 - [Jay-Z](https://open.spotify.com/playlist/3oMtJUFiSP6CFqZbO4bcrg?si=SGhcnG9CTWOkGYghtcJP-Q)
 - [Nas](https://open.spotify.com/playlist/36plJzYSaO6hevuQvFcCxh?si=04c91749582f4fce)
 - [The Notorious B.I.G.](https://open.spotify.com/playlist/1zpLNVLf0lWlm8h8QWhgcv?si=6c782ff04db7449d)
