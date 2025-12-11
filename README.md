@@ -125,6 +125,8 @@ Hari Sekhon
   the 80s was the greatest decade in human history - upbeat, iconic, beautiful - any songs in a positive 80s style are
   also welcome here
 - [The 70s](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP?si=681c7673d1eb4d59)
+- [🇬🇧 Brit Pop 🇬🇧](https://open.spotify.com/playlist/2gA1tjo1HsOJYTH1xFFQnh?si=cf6dca79b7244e68) -
+  re-live the golden 90s indie bands like The Verve, Oasis, Pulp, Blur, Skunk Anansie, Texas and Ocean Colour Scene plus newer acts like Lily Allen, Blossom, Micky James
 - [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i?si=e44ee3f6e9234f4e)
 
 ### Artists
