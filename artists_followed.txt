@@ -25,8 +25,10 @@ Baeza
 BANKS
 Banned Vinyl
 Becky Shaheen
+Betsy
 Beyoncé
 Bill Conti
+Bishop Briggs
 Black Eyed Peas
 Black Rob
 BLACKPINK
@@ -42,6 +44,7 @@ Calvin Harris
 Camila Cabello
 Cappella
 Cardi B
+Carpetman
 Central Cee
 Chamillionaire
 Charli xcx
@@ -57,12 +60,14 @@ Chromeo
 Cold Kingdom
 Coldplay
 Cover Drive
+Cover Sauce
 Craig Armstrong
 Creed
 Crystal F
 Curtis Stigers & The Forest Rangers
 Cypress Hill
 Daft Punk
+Daniel Wolf
 Darren Hayes
 Dave
 David Guetta
@@ -71,6 +76,7 @@ deadmau5
 Deftones
 Depeche Mode
 Destiny's Child
+Devin Hoffman
 Devlin
 Diddy
 Dizzee Rascal
@@ -79,8 +85,10 @@ DMX
 Dorothy
 Dr. Dre
 Drake
+Dylan
 Eamon
 Echos
+Ella Henderson
 Elley Duhé
 Ellie Goulding
 Ellie Holcomb
@@ -106,6 +114,7 @@ Fugees
 G-Eazy
 G-Unit
 Garbage
+Gia Lily
 Guano Apes
 Guns N' Roses
 Gwen Stefani
@@ -126,6 +135,7 @@ Ja Rule
 James
 Jamiroquai
 Jason Derulo
+Jax Jones
 JAY-Z
 Jazzystics
 Jeezy
@@ -167,12 +177,14 @@ Lily Allen
 Limp Bizkit
 Linkin Park
 LL COOL J
+Lloren
 Lorde
 lostprophets
 Ludacris
 Ludovico Einaudi
 Lupe Fiasco
 Luther Vandross
+Lvbel C5
 M.O.P.
 M83
 Madeon
@@ -209,6 +221,7 @@ Nickelback
 Nicki Minaj
 Nightcall
 Nirvana
+Olivia Rodrigo
 Olly Murs
 P Money
 P!nk
@@ -229,6 +242,7 @@ Pyotr Ilyich Tchaikovsky
 Queen
 R. Kelly
 Rage Against The Machine
+Raleigh Ritchie
 Raphael Lake
 Rationale
 Red Hot Chili Peppers
@@ -236,6 +250,7 @@ Republica
 Rick Astley
 Rick Ross
 Rihanna
+Rina Sawayama
 Rita Ora
 Robert Miles
 Robyn
@@ -253,6 +268,7 @@ September
 Shiny Toy Guns
 Sia
 Siamese Sex Show
+Sigrid
 Silverchair
 Simply Red
 Skepta
@@ -316,3 +332,4 @@ Yumi Zouma
 YUNGBLUD
 Zara Larsson
 Zayde Wølf
+Zel Mari
