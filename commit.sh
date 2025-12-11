@@ -19,7 +19,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-# shellcheck disable=SC1090
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/.bash.d/git.sh"
 
 cd "$srcdir"
