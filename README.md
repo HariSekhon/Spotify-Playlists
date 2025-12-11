@@ -118,7 +118,7 @@ Hari Sekhon
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
   [Heartbreakers](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU?si=f6LBB3f6Q7Sa_8KQpewiOw) -
-  that one person who you always think of when listening to the first playlist - the second one is for those
+  that one person you always think of when listening to the first playlist - the second one is for those
   who haven't yet
 - [Defiance - Beat the Odds](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp?si=hwQBfwn9RC6apjvDQ4gNhQ) -
   working out or on your economic grind, there is no more respectable man than he who rises from nothing
