@@ -88,7 +88,8 @@ Hari Sekhon
 - [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga?si=9Yu_k_SqRtqfd_GTQx7W2w)
 - [Smooth Hip-Hop](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ?si=CRz-MwO8TeGNJ80nSN2f7g) -
   legendary hip-hop
-- `Bounce to the Rhythm` - rhythm & vibes hip-hop, puts a bounce in your step
+- [Bounce to the Rhythm](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F?si=V2eWcGYoR9yoSxVxEWXKvA) -
+  rhythm & vibes hip-hop, puts a bounce in your step
 - `Light Fun Feel Good` - because sometimes you need to lighten up
 
 ### Artists
