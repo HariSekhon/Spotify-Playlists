@@ -115,6 +115,7 @@ Hari Sekhon
 - [College Rock](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q?si=79844b91581f4fba)
 - [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk?si=6f3ee6dce0974147) -
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
+- [Guitar](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj?si=9eea909132be4380)
 - [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss?si=760ee8ee2ffd4615)
 - [The 2010s](https://open.spotify.com/playlist/6CJIkvDN4f1WMO9ZnJ6wr1?si=30c16ba43670463b) -
   the decade of the Tinder Dating Apocalypse... at least there is good music to enjoy in the decline!!
