@@ -100,6 +100,7 @@ Hari Sekhon
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY?si=6SS8kPmUQ_2bifYJGZDzRw) -
   because sometimes you need to lighten up
+- [Electronica](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy?si=f114322d134b4f99)
 - [Soft](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB?si=2a59f31ce7004c48) -
   driving home late at night and don't want to wake the kids up in the back...
 - [Club](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX?si=02d985d585cf4538) -
