@@ -63,8 +63,8 @@ Hari Sekhon
   the ultimate driving upbeat pop mega mix
 - [Chill](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk?si=_PHnENR5QI28tbQSUzy7jg0) -
   excellent chill tunes for work and life
-- `Best R&B`
-- `Best Pop`
+- [Best R&B](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7?si=x4Gw3opHRrurrbEpM0zE5w)
+- [Best Pop](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS?si=6bhpVg64Qx-r3tgF9F2MvQ)
 - `Best Rock`
 - `Best Motown / Funk / Boogie / Groove / Soul` - excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - `Workout / Dance / Trance / DnB / Energy / Beats` - gym mega mix
