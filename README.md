@@ -77,7 +77,6 @@ Hari Sekhon
   excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - [Best Tunes & Instrumentals](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U?si=fe33852db70b49bb) -
   instrumentals and songs mostly for the tune...
-- [Acoustic](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE?si=6d35437b5e014787)
 - [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
   by a half-Jamaican girl I used to know...
 - [Workout Hip-Hop (Aggressive)](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2?si=dXpnYY_1RKCKT2md-Hrn1Q) -
@@ -113,11 +112,6 @@ Hari Sekhon
 - [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW?si=bTqfOu-pTbuiPHvkEnwOAw)
 - [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
   20th century classics and well known songs
-- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
-- [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of
-  Mixed Martial Arts - the greatest among us
-- [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb?si=dx0JcQmhR-qUmctl-476aw) -
-  large playlist of music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
 - [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v?si=fMNUYWAhRCeASiUkK_BfVw) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc?si=wlOjFlhZSDqJFf1MTVp4uA) /
@@ -130,12 +124,6 @@ Hari Sekhon
   When people wonder how I beat the odds in life or why I get more ripped the older I get:
   - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable"_
     ― Socrates
-  - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO?si=250bda9e89b64a41)
-- [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
-- [College Rock](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q?si=79844b91581f4fba)
-- [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk?si=6f3ee6dce0974147) -
-  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
-- [Guitar](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj?si=9eea909132be4380)
 - [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss?si=760ee8ee2ffd4615)
 - [The 2010s](https://open.spotify.com/playlist/6CJIkvDN4f1WMO9ZnJ6wr1?si=30c16ba43670463b) -
   the decade of the Tinder Dating Apocalypse... at least there is good music to enjoy in the decline!!
@@ -148,7 +136,22 @@ Hari Sekhon
 - [The 70s](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP?si=681c7673d1eb4d59)
 - [🇬🇧 Brit Pop 🇬🇧](https://open.spotify.com/playlist/2gA1tjo1HsOJYTH1xFFQnh?si=cf6dca79b7244e68) -
   re-live the golden 90s indie bands like The Verve, Oasis, Pulp, Blur, Skunk Anansie, Texas and Ocean Colour Scene plus newer acts like Lily Allen, Blossom, Micky James
+
+### More Playlists of Note
+
+- [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb?si=dx0JcQmhR-qUmctl-476aw) -
+  large playlist of music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
+- [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk?si=6f3ee6dce0974147) -
+  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
+- [College Rock](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q?si=79844b91581f4fba)
+- [Acoustic](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE?si=6d35437b5e014787)
+- [Guitar](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj?si=9eea909132be4380)
+- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO?si=250bda9e89b64a41)
 - [R & B Classics](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T?si=4b893f97f1a140ec)
+- [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
+- [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of
+  Mixed Martial Arts - the greatest among us
+- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
 - [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i?si=e44ee3f6e9234f4e)
 
 ### Artists
