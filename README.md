@@ -90,7 +90,8 @@ Hari Sekhon
   legendary hip-hop
 - [Bounce to the Rhythm](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F?si=V2eWcGYoR9yoSxVxEWXKvA) -
   rhythm & vibes hip-hop, puts a bounce in your step
-- `Light Fun Feel Good` - because sometimes you need to lighten up
+- [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY?si=6SS8kPmUQ_2bifYJGZDzRw) -
+  because sometimes you need to lighten up
 
 ### Artists
 
