@@ -79,7 +79,8 @@ Hari Sekhon
   traditional love songs for your sweetie
 - [Sensual](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny?si=eZMYRP2nRomPqQf63m-TZw) -
   for a nice evening in with the girlfriend, massage & more music
-- `Songs About Sex` - for single guys with high testosterone in their prime, hip-hop based
+- [Songs About Sex](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc?si=nN5V6bDvSxCW7ss06StMEw) -
+  for single guys with high testosterone in their prime, hip-hop based
 - `Bad Boy Gets Down` - similar to above
 - `Elite Hip-Hop with Attitude` - legendary hip-hop
 - `Smooth Hip-Hop` - legendary hip-hop
