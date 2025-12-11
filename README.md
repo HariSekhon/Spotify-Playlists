@@ -65,7 +65,7 @@ Hari Sekhon
   excellent chill tunes for work and life
 - [Best R&B](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7?si=x4Gw3opHRrurrbEpM0zE5w)
 - [Best Pop](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS?si=6bhpVg64Qx-r3tgF9F2MvQ)
-- `Best Rock`
+- [Best Rock](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww?si=va4Agci6RP2_Y_9Gic2FZw)
 - `Best Motown / Funk / Boogie / Groove / Soul` - excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
 - `Workout / Dance / Trance / DnB / Energy / Beats` - gym mega mix
 - `Workout Hip-Hop (Aggressive)` - gym hardcore for guys pumping iron and hitting bags
