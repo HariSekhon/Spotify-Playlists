@@ -107,6 +107,8 @@ Hari Sekhon
   When people wonder how I beat the odds in life or why I get more ripped the older I get:
   - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable"_
     ― Socrates
+- [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk?si=6f3ee6dce0974147) -
+  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
 - [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss?si=760ee8ee2ffd4615)
 - [The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧](https://open.spotify.com/playlist/3Hw9hpJ2Wv8i11UelqnY90?si=58f53e6f57d14259) -
   re-live the Best of the 90s - with lots of Dance, R&B and BritPop from the UK’s last golden age
@@ -128,6 +130,7 @@ Artists with 5 or more tracks in my `Liked Songs` are automatically followed by 
 #### Best Artist Playlists
 
 - [Jay-Z](https://open.spotify.com/playlist/3oMtJUFiSP6CFqZbO4bcrg?si=SGhcnG9CTWOkGYghtcJP-Q)
+- [Nas](https://open.spotify.com/playlist/36plJzYSaO6hevuQvFcCxh?si=04c91749582f4fce)
 
 ### The Tech Stuff
 
