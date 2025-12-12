@@ -44,18 +44,19 @@ export SPOTIFY_PRIVATE=1
 
 delete_blacklisted_tracks_from_playlist(){
     local playlist_name="$1"
-    local tracks_to_delete
+    local track_uris_to_delete
     local count
-    tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
-    if is_blank "$tracks_to_delete"; then
+    #tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
+    track_uris_to_delete="$(grep -Fxhf "$playlist" "$srcdir/private/spotify/Blacklist"{,2,3} | sort -u)"
+    if is_blank "$track_uris_to_delete"; then
         timestamp "No tracks found in existing playlists"
         return
     fi
 
     if has_terminal; then
-        "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
+        "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$track_uris_to_delete"
 
-        count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
+        count="$(wc -l <<< "$track_uris_to_delete" | sed 's/[[:space:]]//g')"
 
         echo
         read -r -p "Are you happy to delete these $count tracks from the playlist '$playlist_name'? (y/N) " answer
@@ -65,7 +66,7 @@ delete_blacklisted_tracks_from_playlist(){
     fi
 
     echo
-    "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$tracks_to_delete"
+    "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$track_uris_to_delete"
     echo
 }
 
