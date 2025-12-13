@@ -32,9 +32,12 @@ Finds Tracks already exist in the major playlist files saved here via
 1. exact URI match
 2. Artist - TrackName exact match (may be different URI copies but is exactly the same song)
 
-Gets the URIs of a given playlist and checks each one against the local offline playlist file backups because this is immensely faster than pulling all the tracks from massive core playlists dynamically
+Gets the URIs of a given playlist and checks each one against the local offline playlist file backups because this is
+immensely faster than pulling all the tracks from massive core playlists dynamically
 
-This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh). Used by adjacent delete_tracks_in_blacklists.sh
+This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh)
+
+Used by adjacent delete_tracks_in_blacklists.sh
 
 For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 track URIs checked per second across all core playlists
 
