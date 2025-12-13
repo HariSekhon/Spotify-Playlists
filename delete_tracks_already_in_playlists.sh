@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -19,7 +20,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-# shellcheck disable=SC1090
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
@@ -31,11 +32,16 @@ The playlist name must contain New Playlist / TODO / Discover / Backlog in the n
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<playlist_name> [<playlist_name> ...]"
+usage_args="<playlist_name> [<playlist_name2> ...]"
 
 help_usage "$@"
 
 min_args 1 "$@"
+
+export SPOTIFY_PRIVATE=1
+
+# pre-load token once for deletions and URI=>track name resolving prompt to avoid repeated pop-ups
+spotify_token
 
 if [ -n "${SPOTIFY_DISABLE_SAFETY:-}" ]; then
     safety_regex=".*"
@@ -46,6 +52,7 @@ fi
 for playlist; do
     playlist_name="$playlist"
     if is_spotify_playlist_id "$playlist"; then
+        timestamp "Resolving playlist ID to name"
         playlist_name="$("$bash_tools/spotify/spotify_playlist_id_to_name.sh" <<< "$playlist")"
     fi
     if ! [[ "$playlist_name" =~ $safety_regex ]]; then
@@ -55,19 +62,22 @@ done
 
 delete_tracks_from_playlist(){
     local playlist_name="$1"
-    local tracks_to_delete
+    local track_uris_to_delete
     local count
     timestamp "Finding tracks in playlist \"$playlist_name\" that are already in other playlists"
-    tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
-    if is_blank "$tracks_to_delete"; then
+    track_uris_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
+    if is_blank "$track_uris_to_delete"; then
         timestamp "No tracks found in existing playlists"
         return
     fi
 
-    if is_interactive; then
-        "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$tracks_to_delete"
+    if has_terminal; then
+        timestamp "Resolving track URIs to Names to list what we will delete:"
+        echo
 
-        count="$(wc -l <<< "$tracks_to_delete" | sed 's/[[:space:]]//g')"
+        "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$track_uris_to_delete"
+
+        count="$(wc -l <<< "$track_uris_to_delete" | sed 's/[[:space:]]//g')"
 
         echo
         read -r -p "Are you happy to delete these $count tracks from the playlist '$playlist_name'? (y/N) " answer
@@ -77,7 +87,8 @@ delete_tracks_from_playlist(){
     fi
 
     echo
-    "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$tracks_to_delete"
+    timestamp "Deleting tracks already in core playlists from playlist: $playlist"
+    "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$track_uris_to_delete"
     echo
 }
 
