@@ -90,7 +90,7 @@ find_playlist_file(){
     else
         die "playlist not found: $playlist_name"
     fi
-    timestamp "using file: $resolved_file"
+    log "using file: $resolved_file"
     echo "$resolved_file"
 }
 export -f find_playlist_file
