@@ -32,9 +32,9 @@ Finds Tracks already exist in the major playlist files saved here via
 1. exact URI match
 2. Artist - TrackName exact match (may be different URI copies but is exactly the same song)
 
-Gets the URIs of a given playlist and checks each one against the local offline playlist files backup
+Gets the URIs of a given playlist and checks each one against the local offline playlist file backups because this is immensely faster than pulling all the tracks from massive core playlists dynamically
 
-This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh)
+This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh). Used by adjacent delete_tracks_in_blacklists.sh
 
 For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 track URIs checked per second across all core playlists
 
@@ -50,6 +50,9 @@ usage_args="<playlist_name> [<only_if_in_this_playlist> <or_this_playlist> ...]"
 help_usage "$@"
 
 min_args 1 "$@"
+
+playlist="$1"
+shift || :
 
 # allow filtering private playlists
 export SPOTIFY_PRIVATE=1
@@ -179,6 +182,4 @@ find_duplicate_tracks_URIs(){
     sort -u
 }
 
-for playlist_name; do
-    find_duplicate_tracks_URIs "$playlist_name"
-done
+find_duplicate_tracks_URIs "$playlist_name"
