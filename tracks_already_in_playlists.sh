@@ -57,9 +57,10 @@ min_args 1 "$@"
 playlist_name="$1"
 shift || :
 
-# allow filtering private playlists
-export SPOTIFY_PRIVATE=1
+# allow filtering private playlists - we don't pull live playlists any more as files are faster
+#export SPOTIFY_PRIVATE=1
 
+# pre-load token for resolving URIs to tracks
 spotify_token
 
 # requires GNU grep to work, Mac's grep is buggy with use of -f
@@ -76,32 +77,33 @@ else
     core_playlists="$(sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")"
 fi
 
+# auto-resolve each spotify playlist's path to its file path under ./ or ./private
+find_playlist_file(){
+    local playlist_name="$1"
+    local get_uri_file="${2:-}"  # any value to trigger this logic
+    is_blank "$playlist_name" && return
+    if [ -f "$srcdir/${get_uri_file:+spotify/}$playlist_name" ]; then
+        echo "$srcdir/${get_uri_file:+spotify/}$playlist_name"
+    elif [ -f "$srcdir/private/${get_uri_file:+spotify/}$playlist_name" ]; then
+        echo "$srcdir/private/${get_uri_file:+spotify/}$playlist_name"
+    else
+        die "playlist not found: $playlist_name"
+    fi
+}
+export -f find_playlist_file
+
 # auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
-    while read -r playlist; do
-        [ -z "$playlist" ] && continue
-        if [ -f "$srcdir/spotify/$playlist" ]; then
-            echo "$srcdir/spotify/$playlist"
-        elif [ -f "$srcdir/private/spotify/$playlist" ]; then
-            echo "$srcdir/private/spotify/$playlist"
-        else
-            die "playlist not found: $playlist"
-        fi
+    while read -r playlist_name; do
+        find_playlist_file "$playlist_name" get_uri_file
     done <<< "$core_playlists"
     )
 )"
 
 # auto-resolve each playlist's path to either ./ or ./private
 core_playlists="$(< <(
-    while read -r playlist; do
-        [ -z "$playlist" ] && continue
-        if [ -f "$srcdir/$playlist" ]; then
-            echo "$srcdir/$playlist"
-        elif [ -f "$srcdir/private/$playlist" ]; then
-            echo "$srcdir/private/$playlist"
-        else
-            die "playlist not found: $playlist"
-        fi
+    while read -r playlist_name; do
+        find_playlist_file "$playlist_name"
     done <<< "$core_playlists"
     )
 )"
@@ -183,7 +185,10 @@ filter_duplicate_URIs_by_track_name(){
 
 find_duplicate_tracks_URIs(){
     local playlist_name="$1"
-    "$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
+    local playlist_file
+    playlist_file="$(find_playlist_file "$playlist_name" get_uri_file)"
+    #"$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
+    cat "$playlist_file" |
     tee >/dev/null \
         >(filter_duplicate_URIs) \
         >(filter_duplicate_URIs_by_track_name) |
