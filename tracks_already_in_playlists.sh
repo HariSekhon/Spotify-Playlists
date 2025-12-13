@@ -129,6 +129,7 @@ core_playlists_tracks="$(
 
 filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
+    timestamp "Finding tracks in existing playlists by exact URI matches"
     grep -Fxh -f /dev/stdin <(echo "$core_spotify_playlists_tracks_uri") || :
 }
 
@@ -145,6 +146,7 @@ filter_tracks_in_core_playlists(){
     #    fi
     #    ((index+=1))
     #done |
+    timestamp "Finding tracks in existing playlists by exact name matches"
     # requires GNU grep to work, Mac's grep is buggy
     grep -Fxn --color=no -f <(echo "$core_playlists_tracks") /dev/stdin |
     cut -f1 -d: |
@@ -176,6 +178,7 @@ filter_duplicate_URIs_by_track_name(){
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
     #paste <("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
+    timestamp "Resolving track URIs to names and normalizing them for comparison to existing playlists"
     tracks="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$uris" |
               "$srcdir/spotify-tools/normalize_tracknames.pl")"
 
@@ -191,6 +194,7 @@ find_duplicate_tracks_URIs(){
     local playlist_file
     playlist_file="$(find_playlist_file "$playlist_name" get_uri_file)"
     #"$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
+    timestamp "Finding tracks in existing playlists for: $playlist_file"
     cat "$playlist_file" |
     tee >/dev/null \
         >(filter_duplicate_URIs) \
