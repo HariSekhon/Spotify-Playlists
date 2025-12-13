@@ -46,8 +46,9 @@ delete_blacklisted_tracks_from_playlist(){
     local playlist_name="$1"
     local track_uris_to_delete
     local count
-    #tracks_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
-    track_uris_to_delete="$(grep -Fxhf "$playlist" "$srcdir/private/spotify/Blacklist"{,2,3} | sort -u)"
+    #track_uris_to_delete="$(grep -Fxhf "$playlist" "$srcdir/private/spotify/Blacklist"{,2,3} | sort -u)"
+    # finds songs by both URI match or name match
+    track_uris_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name" Blacklist{,2,3})"
     if is_blank "$track_uris_to_delete"; then
         timestamp "No tracks found in existing playlists"
         return
