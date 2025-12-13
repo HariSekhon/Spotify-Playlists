@@ -41,7 +41,8 @@ Used by adjacent delete_tracks_in_blacklists.sh
 
 For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 track URIs checked per second across all core playlists
 
-Can optionally specify the playlists the check against using args or \$SPOTIFY_CORE_PLAYLISTS environment variable, otherwise defaults to using the list at:
+Can optionally specify the playlists the check against using args or \$SPOTIFY_CORE_PLAYLISTS environment variable,
+otherwise defaults to using the list at:
 
     $core_playlists
 "
