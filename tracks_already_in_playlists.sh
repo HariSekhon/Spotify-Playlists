@@ -54,7 +54,7 @@ help_usage "$@"
 
 min_args 1 "$@"
 
-playlist="$1"
+playlist_name="$1"
 shift || :
 
 # allow filtering private playlists
