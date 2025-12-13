@@ -38,6 +38,9 @@ min_args 1 "$@"
 
 export SPOTIFY_PRIVATE=1
 
+# pre-load token once for deletions and URI=>track name resolving prompt to avoid repeated pop-ups
+spotify_token
+
 # assume we are reasonably up to date since these tracks have a large stock to flow ratio and
 # we can always run a partial backup of just the latest Blacklist playlist manually if we want a fresher list
 #"$srcdir/backup_private.sh" $("$srcdir/bash-tools/spotify_playlists.sh" | grep -E '^Blacklist[[:digit:]]+$')
