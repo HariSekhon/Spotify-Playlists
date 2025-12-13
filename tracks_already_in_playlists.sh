@@ -41,8 +41,7 @@ Used by adjacent delete_tracks_in_blacklists.sh
 
 For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 track URIs checked per second across all core playlists
 
-Can optionally specify the playlists the check against using args or \$SPOTIFY_CORE_PLAYLISTS environment variable,
-otherwise defaults to using the list at:
+Can optionally specify the playlists the check against using args, otherwise defaults to using the list at:
 
     $core_playlists
 "
@@ -70,7 +69,12 @@ if is_mac; then
     }
 fi
 
-core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")}"
+if [ $# -gt 0 ]; then
+    # format one file per line to normalize and align the input format with the core playlist for later use by functions the same way
+    core_playlists="$(for arg; do echo "$arg"; done)"
+else
+    core_playlists="$(sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")"
+fi
 
 # auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
