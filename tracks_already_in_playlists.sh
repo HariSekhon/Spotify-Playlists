@@ -81,14 +81,17 @@ fi
 find_playlist_file(){
     local playlist_name="$1"
     local get_uri_file="${2:-}"  # any value to trigger this logic
+    local resolved_file
     is_blank "$playlist_name" && return
     if [ -f "$srcdir/${get_uri_file:+spotify/}$playlist_name" ]; then
-        echo "$srcdir/${get_uri_file:+spotify/}$playlist_name"
+        resolved_file="$srcdir/${get_uri_file:+spotify/}$playlist_name"
     elif [ -f "$srcdir/private/${get_uri_file:+spotify/}$playlist_name" ]; then
-        echo "$srcdir/private/${get_uri_file:+spotify/}$playlist_name"
+        resolved_file="$srcdir/private/${get_uri_file:+spotify/}$playlist_name"
     else
         die "playlist not found: $playlist_name"
     fi
+    timestamp "using file: $resolved_file"
+    echo "$resolved_file"
 }
 export -f find_playlist_file
 
