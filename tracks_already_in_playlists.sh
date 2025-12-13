@@ -20,26 +20,32 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-# shellcheck disable=SC1090
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
+
+core_playlists="$srcdir/core_playlists.txt"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
 Finds Tracks already exist in the major playlist files saved here via
 
 1. exact URI match
-2. Artist - TrackName exact match (may be different URI copies but should be exactly the same song)
+2. Artist - TrackName exact match (may be different URI copies but is exactly the same song)
 
-Gets the URIs of a given playlist and hecks each one against the local offline playlist files backup
+Gets the URIs of a given playlist and checks each one against the local offline playlist files backup
 
 This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh)
 
 For massive 8772 track TODO playlists this took 305 seconds, operating at 28.76 track URIs checked per second across all core playlists
+
+Can optionally specify the playlists the check against using args or \$SPOTIFY_CORE_PLAYLISTS environment variable, otherwise defaults to using the list at:
+
+    $core_playlists
 "
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<playlist_name>"
+usage_args="<playlist_name> [<only_if_in_this_playlist> <or_this_playlist> ...]"
 
 help_usage "$@"
 
@@ -57,9 +63,9 @@ if is_mac; then
     }
 fi
 
-core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")}"
+core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")}"
 
-# auto-resolve each spotify playlist's path to either ./spotify/ or ./private/spotify/
+# auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
     while read -r playlist; do
         [ -z "$playlist" ] && continue
