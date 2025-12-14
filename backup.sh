@@ -36,7 +36,7 @@ export SPOTIFY_PUBLIC_ONLY=1
 
 git pull --no-edit
 
-if [ $# -eq 0 ];
+if [ $# -eq 0 ]; then
     "$srcdir/backup_artists_followed.sh"
 fi
 
