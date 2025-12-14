@@ -42,7 +42,7 @@ If you know a great track that isn't in one of these playlists, open [an issue](
 
 Top level playlists are in human readable format `Artist - Track`.
 
-Spotify URI format playlists are under the `spotify/` directory for backup/restore, analysis or copying to new playlists.
+Spotify URI format playlists are under the `spotify/` directory for easy backup / restore, analysis or copying to new playlists.
 
 Hari Sekhon
 
