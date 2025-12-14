@@ -19,7 +19,12 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-# shellcheck disable=SC1090
+# use the newer adjacent checkout if available - useful for development
+if [ -d "$srcdir/../bash-tools" ]; then
+    bash_tools="$srcdir/../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/utils.sh"
 
 cd "$srcdir"
