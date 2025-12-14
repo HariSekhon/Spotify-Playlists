@@ -138,6 +138,7 @@ Hari Sekhon
 
 ### More Playlists of Note
 
+- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i?si=e44ee3f6e9234f4e)
 - [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk?si=6f3ee6dce0974147) -
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
 - [College Rock](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q?si=79844b91581f4fba)
@@ -149,7 +150,6 @@ Hari Sekhon
 - [Smooth](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk?si=27961520bf814fe4)
 - [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt?si=46f078fb92d14d5d) - music from the legends of
   Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
-- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i?si=e44ee3f6e9234f4e)
 
 ### Larger Genre Playlists
 
