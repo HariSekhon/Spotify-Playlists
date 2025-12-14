@@ -51,6 +51,7 @@ spotify:artist:163tK9Wjr9P9DmM0AVK7lm
 spotify:artist:165ZgPlLkK7bf5bDoFc6Sb
 spotify:artist:17lzZA2AlOHwCwFALHttmp
 spotify:artist:19y5MFBH7gohEdGwKM7QsP
+spotify:artist:1BEUkE2CSUgHTLSBMZdnFB
 spotify:artist:1BH45DVSTeGBvcYXNCd67g
 spotify:artist:1C60viSZv6BoYtrnkZ44g5
 spotify:artist:1Cs0zKBU1kc0i8ypK3B9ai
