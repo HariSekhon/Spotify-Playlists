@@ -24,7 +24,7 @@ if [ -d "$srcdir/../bash-tools" ]; then
     bash_tools="$srcdir/../bash-tools"
 fi
 
-# shellcheck disable=SC1090
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 cd "$srcdir"
