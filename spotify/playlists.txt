@@ -1,3 +1,5 @@
+6aCvETipBaGiUVus7crgIT	Pop EDM Mix
+7v72c38N4Hq240KPVqfKWP	Pop EDM Mix
 1Bhyx82qJ4K0TsAaZW6L9d	New Releases TODO
 4xJD1AYvO70JEGDpFPkz3v	Baditude - Bad Bitches with Attitude ❤️
 5B3sc6MJA9dj738ULNLyhj	2025 11 - Latin America Tour
@@ -29,6 +31,7 @@
 5pfOPjDBDtxh4NrrZUib8y	Various Artists – The Greatest Showman (Original Motion Picture Soundtrack)
 1dexQR5WQzYgQzDfu5LdKU	Various Artists – The Greatest Showman: Reimagined
 5YVcwApAwzsZsIy4uKS5jH	Pulp – Different Class
+5YVcwApAwzsZsIy4uKS5jH	Pulp – Different Class
 1Q1M9XBxreoL0fcOqPgxTy	Tinie Tempah
 2kGU0A5LFZHYxUm5qRXa3x	Various Artists – Essential R&B Hit Selection
 5fzM88Jyrrxxhu3m0NjZid	Sean Paul – Mad Love The Prequel
@@ -39,7 +42,6 @@
 7KIya8V8zym7kbypwzuRYn	LL Cool J
 5IETY9YMY1QdADWSYJv5q4	Kanye West
 3zfkekiuYWDPpSSRtrBAmy	Mary J Blige
-14LV3IzsQx4oCoFGxobqmi	Nate Dogg
 14LV3IzsQx4oCoFGxobqmi	Nate Dogg
 77EebQq8mjDOmVW4zTLYU4	Pete Rock
 4K2Yh42luUK6Crcpfd7dqM	Cam'Ron
@@ -191,19 +193,18 @@
 3osMvBUe04HGxteJePjnN2	Latin American
 4WJxXer8wxr0OGs1gqBdNR	Liked from Radio
 3FHJjDKmpSGE6RKhUSOd1B	Starred
-41D9DlgkPQAHUTX68npGB6	2023 03 - Redeveloped
 2axzUPXJ04jkYZx37u0GSj	2025 07 European Summer Tour Part 2
 21yTJPggvGksxD6zxeqoXQ	2025 04 European Summer Tour
-7IcMUrVuiS5hbFQreHccFr	2025 10 - Med / Middle East Tour - Jordan, Lebanon, Tunisia, Spain
+7IcMUrVuiS5hbFQreHccFr	2025 10 - Med / Middle East Tour 
 0nAUHgW3sFrIUMZvtzjxvB	2025 09 - Ukraine
-5atWJ96ZJYvPQg29wsfUd3	2023 01 - Rebirth - Chelmsford
+4YBMdO9tXID9iKA7HPbHNk	2024 Summer - Poland
 5RDAXETrsDJhpcCA9BeYaS	2024 06 - European Summer Tour
 41XE1V2hrV8QXaSwl5BJVe	2024 03 - England, Goodbye Tour
 6VDlBk3oFHganOszkYBb1T	2024 04 - Dubai
-7dsxgbVkVbOzTJ4ht36kZk	2024 10 - Asia Tour - Thailand, Vietnam, Cambodia, Laos, Bali, Kuala Lumpur
-4YBMdO9tXID9iKA7HPbHNk	2024 Summer - Poland
+7dsxgbVkVbOzTJ4ht36kZk	2024 10 - SE Asia Tour
 5s4qQNn1qXWSEIaQepgqez	Maya Retro Classics
-1sBIdHrYwshMmbFUU9Lmdr	Maya Baby
+41D9DlgkPQAHUTX68npGB6	2023 03 - Redeveloped
+5atWJ96ZJYvPQg29wsfUd3	2023 01 - Rebirth - Chelmsford
 3WIwkxs7oYgDytwUBAv7HJ	2022 08 Summer
 6haucdeDit19A6qoDfxjux	2022 07 Maya Retro
 18gp41Mlx1sMqLdC8hK8wL	2022 06 Leamington Spa / Stratford-upon-Avon
@@ -211,7 +212,6 @@
 5TtWXKmWe8LtozMLX0qC2R	2021 08 Alithia
 6LfkOWuFpMhgi6HDX0z0Hh	2021 06 Gemma Mike Wazowski round 2
 4SfrafRpwzPI7u7LVKy5kn	2021 03 Bun in the Oven
-5ElHEqkSM2YfFXYQe9JV0o	Christmas
 1PNj0ljsPF2F8e05rzNwxo	2020 10 - Spotify on a Mission
 7vP0e9lMXgnRgHHzoHTKDH	2020 09 - Colchester
 15tAAGlZwGB7jSmixIP8M2	2020 - Maya Hip-Hop Classics
@@ -240,6 +240,8 @@
 57QarrihUxP0yp5rj05sjq	2012 Phone Hip-Hop/R&B
 1igQ2bujeHnuwEBKpEaovk	2011-12 Fitness First Classic Mix
 2El7IskssVIECUOuhdwIZr	2011-12 Big Mix
+1sBIdHrYwshMmbFUU9Lmdr	Maya Baby
+5ElHEqkSM2YfFXYQe9JV0o	Christmas
 1OD1SkerbfYup4fWazgYrY	The Weeknd
 69G8PSmAUbRRpzfCJBJ8ws	Olly Murs
 1gf3KnnRJT3AFdGDLC3q7Z	Ellie Goulding
