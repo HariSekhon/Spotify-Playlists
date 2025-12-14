@@ -262,6 +262,7 @@ spotify:artist:5WUlDfRSoLAfcVSX1WnrxN
 spotify:artist:5XfBH1AT964RDzmE8MZURI
 spotify:artist:5Y5TRrQiqgUO4S36tzjIRZ
 spotify:artist:5YjEVrNMrIRw2xGbjTN6Ti
+spotify:artist:5ypxebeHEIXjMtJb17uJlI
 spotify:artist:60FV7KyxIH9FH1uq7u8inP
 spotify:artist:61UzS7tQpBvgk6bhKDgNGs
 spotify:artist:63MQldklfxkjYDoUE4Tppz
