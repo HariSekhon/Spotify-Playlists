@@ -19,4 +19,11 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$srcdir"
 
-exec "$srcdir/bash-tools/scripts/spotify_rename_playlist_files.sh" "$@"
+bash_tools="$srcdir/bash-tools"
+
+# use the newer adjacent checkout if available - useful for development
+if [ -d "$srcdir/../bash-tools" ]; then
+    bash_tools="$srcdir/../bash-tools"
+fi
+
+exec "$bash_tools/scripts/spotify_rename_playlist_files.sh" "$@"
