@@ -24,6 +24,9 @@ bash_tools="$srcdir/bash-tools"
 
 cd "$srcdir"
 
+# reset playlists with large superfluous changes I don't want to deal with yet
+"$srcdir/reset.sh"
+
 "$bash_tools/scripts/spotify_commit_playlists.sh" "$@"
 
 # spotify_commit_playlists.sh will skip txt and description files
