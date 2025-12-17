@@ -24,7 +24,7 @@ if [ -d "$srcdir/../bash-tools" ]; then
     bash_tools="$srcdir/../bash-tools"
 fi
 
-# shellcheck disable=SC1090
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 cd "$srcdir"
@@ -43,30 +43,40 @@ spotify_token
 
 export SPOTIFY_PUBLIC_ONLY=1
 
+trap_cmd "git checkout \"$srcdir/spotify/playlists.txt\""
 timestamp "Backing up list of Spotify public playlists to $srcdir/spotify/playlists.txt"
 "$bash_tools/spotify/spotify_playlists.sh" > "$srcdir/spotify/playlists.txt"
+untrap
 echo >&2
 
+trap_cmd "git checkout \"spotify/playlists.txt\""
 timestamp "Stripping spotify playlist IDs from $srcdir/spotify/playlists.txt => $srcdir/playlists.txt"
 sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/spotify/playlists.txt" > "$srcdir/playlists.txt"
+untrap
 echo >&2
 
+trap_cmd "git checkout \"$srcdir/private/playlists_followed.txt\""
 timestamp "Backing up list of Spotify followed playlists to $srcdir/private/playlists_followed.txt"
 SPOTIFY_PUBLIC_ONLY='' \
 SPOTIFY_PLAYLISTS_FOLLOWED_ONLY=1 \
 "$bash_tools/spotify/spotify_playlists.sh" | sort -f > "$srcdir/private/playlists_followed.txt"
+untrap
 echo >&2
 
 if [ -d private ]; then
     unset SPOTIFY_PUBLIC_ONLY
     export SPOTIFY_PRIVATE_ONLY=1
 
+    trap_cmd "git checkout \"$srcdir/private/spotify/playlists.txt\""
     timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
     "$bash_tools/spotify/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
+    untrap
     echo >&2
 
+    trap_cmd "git checkout \"$srcdir/private/playlists.txt\""
     timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists.txt => $srcdir/private/playlists.txt"
     sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/private/spotify/playlists.txt" > "$srcdir/private/playlists.txt"
+    untrap
     echo >&2
 fi
 
