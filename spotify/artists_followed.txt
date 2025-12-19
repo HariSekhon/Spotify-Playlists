@@ -181,6 +181,7 @@ spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i
 spotify:artist:41MozSoPIsD1dJM0CLPjZF
 spotify:artist:42t4hWS8aGwWNQhutNCl9c
 spotify:artist:43sZBwHjahUvgbx1WNIkIz
+spotify:artist:45dkTj5sMRSjrmBSBeiHym
 spotify:artist:46h3caIKtqPlEfRHuSdibg
 spotify:artist:47BNWfpngeFHYvBlPPyraM
 spotify:artist:49H2dQUNhIlso7VNkS8nFR
