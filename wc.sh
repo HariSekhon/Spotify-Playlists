@@ -47,7 +47,7 @@ playlists_linecounts(){
     while read -r playlist; do
         printf '%s\0' "$playlist"
     done <<< "$playlists" |
-    xargs -0 wc -l
+    xargs -0 wc -l --
 }
 
 playlists_linecount(){
