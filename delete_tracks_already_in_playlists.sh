@@ -73,6 +73,7 @@ fi
 
 delete_tracks_from_playlist(){
     local playlist_name="$1"
+    shift || :
     local track_uris_to_delete
     local count
     timestamp "Finding tracks in playlist \"$playlist_name\" that are already in other playlists: $*"
