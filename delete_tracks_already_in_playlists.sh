@@ -64,6 +64,8 @@ fi
 if is_spotify_playlist_id "$playlist"; then
     timestamp "Resolving playlist ID to name"
     playlist_name="$("$bash_tools/spotify/spotify_playlist_id_to_name.sh" <<< "$playlist")"
+else
+    playlist_name="$playlist"
 fi
 if ! [[ "$playlist_name" =~ $safety_regex ]]; then
     die "playlist name '$playlist_name' does not contain '$safety_regex', aborting for safety"
