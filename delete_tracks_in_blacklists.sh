@@ -45,14 +45,14 @@ spotify_token
 # we can always run a partial backup of just the latest Blacklist playlist manually if we want a fresher list
 #"$srcdir/backup_private.sh" $("$srcdir/bash-tools/spotify_playlists.sh" | grep -E '^Blacklist[[:digit:]]+$')
 
-delete_blacklisted_tracks_from_playlist(){
+delete_tracks_from_playlist(){
     local playlist_name="$1"
     local track_uris_to_delete
     local count
     #track_uris_to_delete="$(grep -Fxhf "$playlist" "$srcdir/private/spotify/Blacklist"{,2,3} | sort -u)"
     # finds songs by both URI match or name match
     timestamp "Finding matching tracks from Blacklists"
-    track_uris_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name" Blacklist{,2,3})"
+    track_uris_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name" Blacklist{,2,3} | sort -u)"
     if is_blank "$track_uris_to_delete"; then
         timestamp "No tracks found in existing playlists"
         return
@@ -84,5 +84,5 @@ for playlist; do
         warn "Cannot specify to delete from a Blacklist itself"
         continue
     fi
-    delete_blacklisted_tracks_from_playlist "$playlist"
+    delete_tracks_from_playlist "$playlist"
 done
