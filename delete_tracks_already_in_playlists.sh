@@ -47,6 +47,9 @@ help_usage "$@"
 
 min_args 1 "$@"
 
+playlist="$1"
+shift || :
+
 export SPOTIFY_PRIVATE=1
 
 # pre-load token once for deletions and URI=>track name resolving prompt to avoid repeated pop-ups
@@ -58,16 +61,13 @@ else
     safety_regex="New Playlist|TODO|Discover|Backlog"
 fi
 
-for playlist; do
-    playlist_name="$playlist"
-    if is_spotify_playlist_id "$playlist"; then
-        timestamp "Resolving playlist ID to name"
-        playlist_name="$("$bash_tools/spotify/spotify_playlist_id_to_name.sh" <<< "$playlist")"
-    fi
-    if ! [[ "$playlist_name" =~ $safety_regex ]]; then
-        die "playlist name '$playlist_name' does not contain '$safety_regex', aborting for safety"
-    fi
-done
+if is_spotify_playlist_id "$playlist"; then
+    timestamp "Resolving playlist ID to name"
+    playlist_name="$("$bash_tools/spotify/spotify_playlist_id_to_name.sh" <<< "$playlist")"
+fi
+if ! [[ "$playlist_name" =~ $safety_regex ]]; then
+    die "playlist name '$playlist_name' does not contain '$safety_regex', aborting for safety"
+fi
 
 delete_tracks_from_playlist(){
     local playlist_name="$1"
@@ -102,6 +102,4 @@ delete_tracks_from_playlist(){
     echo
 }
 
-for playlist; do
-    delete_tracks_from_playlist "$playlist"
-done
+delete_tracks_from_playlist "$playlist"
