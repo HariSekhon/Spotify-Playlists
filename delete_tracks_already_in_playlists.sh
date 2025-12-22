@@ -104,4 +104,4 @@ delete_tracks_from_playlist(){
     echo
 }
 
-delete_tracks_from_playlist "$playlist_name"
+delete_tracks_from_playlist "$playlist_name" "$@"
