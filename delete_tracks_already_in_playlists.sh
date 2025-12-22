@@ -75,7 +75,7 @@ delete_tracks_from_playlist(){
     local playlist_name="$1"
     local track_uris_to_delete
     local count
-    timestamp "Finding tracks in playlist \"$playlist_name\" that are already in other playlists"
+    timestamp "Finding tracks in playlist \"$playlist_name\" that are already in other playlists: $*"
     # finds songs by both URI match or name match
     track_uris_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name" "$@" | sort -u)"
     if is_blank "$track_uris_to_delete"; then
