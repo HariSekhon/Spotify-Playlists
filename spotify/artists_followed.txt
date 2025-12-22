@@ -72,6 +72,7 @@ spotify:artist:1l7ZsJRRS8wlW3WfJfPfNS
 spotify:artist:1LBGR7XDjLl6koGwUthUEs
 spotify:artist:1McMsnEElThX1knmY4oliG
 spotify:artist:1moxjboGR7GNWYIMWsRjgG
+spotify:artist:1MVnyuEGQxpIwxOtlThiaL
 spotify:artist:1nhSLEYdoBHG6cJ8NDwoF1
 spotify:artist:1Oa0bMld0A3u5OTYfMzp5h
 spotify:artist:1P8IfcNKwrkQP5xJWuhaOC
@@ -217,6 +218,7 @@ spotify:artist:4TrraAsitQKl821DQY42cZ
 spotify:artist:4tZwfgrHOc3mvqYlEYSvVi
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4
 spotify:artist:4uRYpUQZrNrY5t8tAv3XrD
+spotify:artist:4Uwx6qzRn0kA9sz6cCDpBO
 spotify:artist:4whxX965DKKqYkXmk33b4E
 spotify:artist:4xfigyFOZnW8YfZiOVMYwI
 spotify:artist:4yBK75WVCQXej1p04GWqxH
