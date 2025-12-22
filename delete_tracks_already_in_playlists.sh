@@ -25,14 +25,23 @@ bash_tools="$srcdir/bash-tools"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Deletes tracks from a given playlist that are already in my core playlists
+Deletes tracks from a given playlist that are already in other given local downloaded playlists
+
+By default checks against my core playlists listed in:
+
+    $srcdir/core_playlists.txt
+
+Uses the offline URI playlists under spotify/ directory for speed since this is immensely faster
+than fetching thousands of track URIs in batches of 100 from the Spotify API using the dynamic script:
+
+    bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh
 
 The playlist name must contain New Playlist / TODO / Discover / Backlog in the name for safety
 "
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<playlist_name> [<playlist_name2> ...]"
+usage_args="<playlist_name> [<playlist_name2> <playlist_name3> ...]"
 
 help_usage "$@"
 
@@ -65,7 +74,8 @@ delete_tracks_from_playlist(){
     local track_uris_to_delete
     local count
     timestamp "Finding tracks in playlist \"$playlist_name\" that are already in other playlists"
-    track_uris_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name")"
+    # finds songs by both URI match or name match
+    track_uris_to_delete="$("$srcdir/tracks_already_in_playlists.sh" "$playlist_name" "$@")"
     if is_blank "$track_uris_to_delete"; then
         timestamp "No tracks found in existing playlists"
         return
