@@ -97,7 +97,7 @@ delete_tracks_from_playlist(){
     fi
 
     echo
-    timestamp "Deleting tracks already in core playlists from playlist: $playlist"
+    timestamp "Deleting tracks already in other playlists from playlist: $playlist"
     "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$playlist_name" <<< "$track_uris_to_delete"
     echo
 }
