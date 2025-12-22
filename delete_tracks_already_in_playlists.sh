@@ -41,7 +41,7 @@ The playlist name must contain New Playlist / TODO / Discover / Backlog in the n
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<playlist_name> [<playlist_name2> <playlist_name3> ...]"
+usage_args="<playlist_name> [<if_in_this_playlist_name> <or_this_playlist_name> ...]"
 
 help_usage "$@"
 
