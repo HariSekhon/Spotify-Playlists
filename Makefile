@@ -68,6 +68,10 @@ backup: lazy-init
 backups: backup
 	@:
 
+.PHONY: blacklists
+blacklists:
+	./backup_private.sh `ls private/Blacklist* | grep -v '\.description$$' | sed 's|private/||'`
+
 .PHONY: commit
 commit: lazy-init
 	./commit.sh
