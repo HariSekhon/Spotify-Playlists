@@ -84,13 +84,15 @@ delete_tracks_from_playlist(){
         return
     fi
 
+    count="$(wc -l <<< "$track_uris_to_delete" | sed 's/[[:space:]]//g')"
+
+    timestamp "Found $count tracks"
+
     if has_terminal; then
         timestamp "Resolving track URIs to Names to list what we will delete:"
         echo
 
         "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$track_uris_to_delete"
-
-        count="$(wc -l <<< "$track_uris_to_delete" | sed 's/[[:space:]]//g')"
 
         echo
         read -r -p "Are you happy to delete these $count tracks from the playlist '$playlist_name'? (y/N) " answer
