@@ -3,6 +3,7 @@ private*/
 *.log
 nohup.out
 *TODO*
+.DS_Store
 # id/ stores snapshot_id to skip re-downloading playlists again
 # we don't need to store and track this as it's regenerated the
 # first time if not found, like a local cache
