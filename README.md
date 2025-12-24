@@ -165,7 +165,7 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb?si=dx0JcQmhR-qUmctl-476aw) -
   music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
 - [Workout Pop](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6?si=e6157d535d334ccc)
-- [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
+- [Jamaican - Reggae - Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
   by a half-Jamaican girl I used to know...
 - [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
 - [Hip-Hop & R&B Mega-Mix](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F?si=59079c517d144df2)
