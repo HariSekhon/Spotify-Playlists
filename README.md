@@ -175,7 +175,7 @@ Entire genres of songs which are decent but not elite enough to make the lists a
   Easy Listening, Jazz, Lounge, Soft Pop... stuff you'd hear at Coffee Shops
 - [Latin American](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2?si=8423ded2902c49f8)
 - [Motown & Soul](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU?si=ed48fb41cf9e45a5)
-- [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
+- [Classic Hits from Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
   mid to late 20th century classics and well known songs
 - [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
 
