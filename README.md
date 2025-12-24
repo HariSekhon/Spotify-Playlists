@@ -79,7 +79,7 @@ _(you're welcome to connect with me on LinkedIn)_
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
 - [Best Tunes & Instrumentals](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U?si=fe33852db70b49bb) -
   instrumentals and songs mostly for the tune...
-- [Trance / Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
+- [Trance & Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh?si=-7juQkjnRHGje0y1hFRKXw) -
   best tunes and vocal trance, hot chick music
 - [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga?si=9Yu_k_SqRtqfd_GTQx7W2w)
 - [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv?si=IwAb7a1gTQCde4IAEaVHeA) -
