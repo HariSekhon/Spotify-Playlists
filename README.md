@@ -171,7 +171,8 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Hip-Hop & R&B Mega-Mix](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F?si=59079c517d144df2)
 - [Rock Mega-Mix](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR?si=2a06bf8fd30048a5)
 - [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
-- [Jazz / Easy Listening / Lounge / Coffee Shops](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe?si=256bd4ff7f4f4e1e)
+- [Coffee Shops Mega-Mix](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe?si=256bd4ff7f4f4e1e) -
+  Easy Listening, Jazz, Lounge, Soft Pop... stuff you'd hear at Coffee Shops
 - [Latin American](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2?si=8423ded2902c49f8)
 - [Motown & Soul](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU?si=ed48fb41cf9e45a5)
 - [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
