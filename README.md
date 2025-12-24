@@ -100,8 +100,9 @@ _(you're welcome to connect with me on LinkedIn)_
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY?si=6SS8kPmUQ_2bifYJGZDzRw) -
   because sometimes you need to lighten up
-- [Best Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
-  excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these Motown classics
+- [Best Motown & Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S?si=I9ZsjZe8TpW5VMrdEJdqJw) -
+  excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these
+  Motown classics
 - [Electronica](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy?si=f114322d134b4f99)
 - [Club](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX?si=02d985d585cf4538) -
   club music - upbeat dance, house, trance etc.
@@ -167,12 +168,12 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Jamaican / Reggae / Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO?si=f0969a6b5cb343ab) - inspired
   by a half-Jamaican girl I used to know...
 - [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4?si=dd6d2a3d3c4c44f8) - British street hip-hop
-- [Hip-Hop/R&B/Reggae/Grooves/Vibes](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F?si=59079c517d144df2)
-- [Rock / Metal / Indie / Alternative](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR?si=2a06bf8fd30048a5)
+- [Hip-Hop & R&B Mega-Mix](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F?si=59079c517d144df2)
+- [Rock Mega-Mix](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR?si=2a06bf8fd30048a5)
 - [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5?si=cddc5189d39a44ae)
 - [Jazz / Easy Listening / Lounge / Coffee Shops](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe?si=256bd4ff7f4f4e1e)
 - [Latin American](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2?si=8423ded2902c49f8)
-- [Motown / Funk / Boogie / Groove / Soul](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU?si=ed48fb41cf9e45a5)
+- [Motown & Soul](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU?si=ed48fb41cf9e45a5)
 - [Classics / Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t?si=354264e8cc6b4584) -
   mid to late 20th century classics and well known songs
 - [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN?si=fb2160c4506c4f6d)
