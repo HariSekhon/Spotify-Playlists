@@ -68,13 +68,12 @@ echo >&2
 
 "$bash_tools/spotify/spotify_backup.sh" "$@"
 
-if [ $# -eq 0 ]; then
-    echo
-
-    "$bash_tools/spotify/spotify_backup_playlist.sh" liked
-
-    echo
-fi
+# done in public playlists now
+#if [ $# -eq 0 ]; then
+#    echo
+#    "$bash_tools/spotify/spotify_backup_playlist.sh" liked
+#    echo
+#fi
 
 for subdir in . spotify; do
     if [ -f "private/$subdir/Liked Songs" ]; then
