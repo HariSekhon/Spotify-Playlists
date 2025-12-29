@@ -54,11 +54,15 @@ if [ -n "$*" ]; then
 fi
 
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
-SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify/spotify_playlists.sh" > "$srcdir/private/spotify/playlists.txt"
+tmp="$(mktemp)"
+SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify/spotify_playlists.sh" > "$tmp"
+mv -f "$tmp" "$srcdir/private/spotify/playlists.txt"
 echo >&2
 
 timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists.txt => $srcdir/private/playlists.txt"
-sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/private/spotify/playlists.txt" > "$srcdir/private/playlists.txt"
+tmp="$(mktemp)"
+sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/private/spotify/playlists.txt" > "$tmp"
+mv -f "$tmp" "$srcdir/private/playlists.txt"
 echo >&2
 
 "$srcdir/backup_artists_followed.sh"
