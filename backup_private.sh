@@ -63,11 +63,8 @@ echo >&2
 
 "$srcdir/backup_artists_followed.sh"
 
-timestamp "Regenerating Blacklisted Artists"
-"$srcdir/blacklisted_artists.sh" >/dev/null
-echo >&2
-
 "$bash_tools/spotify/spotify_backup.sh" "$@"
+echo >&2
 
 # done in public playlists now
 #if [ $# -eq 0 ]; then
@@ -82,3 +79,7 @@ for subdir in . spotify; do
         sort -f "private/$subdir/Liked Songs" > "$subdir/Liked Songs"
     fi
 done
+echo >&2
+
+timestamp "Regenerating Blacklisted Artists"
+"$srcdir/blacklisted_artists.sh" >/dev/null
