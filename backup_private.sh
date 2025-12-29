@@ -76,7 +76,9 @@ echo >&2
 for subdir in . spotify; do
     if [ -f "private/$subdir/Liked Songs" ]; then
         #mv -fv "private/$subdir/Liked Songs" "$subdir/Liked Songs"
-        sort -f "private/$subdir/Liked Songs" > "$subdir/Liked Songs"
+        tmp="$(mktemp)"
+        sort -f "private/$subdir/Liked Songs" > "$tmp"
+        mv -f "$tmp" "$subdir/Liked Songs"
     fi
 done
 echo >&2
