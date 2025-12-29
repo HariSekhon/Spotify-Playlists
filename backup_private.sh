@@ -31,6 +31,7 @@ cd "$srcdir"
 
 export SPOTIFY_PRIVATE=1
 export SPOTIFY_PRIVATE_ONLY=1
+unset SPOTIFY_PUBLIC_ONLY &>/dev/null || :
 
 # include followed playlists both for getting a full playlist.txt and also for using for discover_blacklisted.sh percentages
 export SPOTIFY_PLAYLISTS_FOLLOWED=1
