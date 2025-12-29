@@ -37,10 +37,12 @@ spotify_token
 
 timestamp "Backing up Artists followed"
 tmp="$(mktemp)"
-"$bash_tools/spotify/spotify_artists_followed.sh" | sort -f > "$tmp" && mv -f "$tmp" artists_followed.txt
+"$bash_tools/spotify/spotify_artists_followed.sh" | sort -f > "$tmp"
+mv -f "$tmp" artists_followed.txt
 echo >&2
 
 timestamp "Backing up Artists followed URIs"
 tmp="$(mktemp)"
-"$bash_tools/spotify/spotify_artists_followed_uri.sh" | sort -f > "$tmp" && mv -f "$tmp" spotify/artists_followed.txt
+"$bash_tools/spotify/spotify_artists_followed_uri.sh" | sort -f > "$tmp"
+mv -f "$tmp" spotify/artists_followed.txt
 echo >&2
