@@ -178,6 +178,8 @@ filter_duplicate_URIs_by_track_name(){
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
     #paste <("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
+    # XXX: because we need to return the track URIs to calling scripts and we cannot determine this from 'Artist - Track' names
+    #      so we can't do the quicker cheaper cat'ing of the top level file for comparison here
     timestamp "Resolving track URIs to names and normalizing them for comparison to existing playlists"
     tracks="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$uris" |
               "$srcdir/spotify-tools/normalize_tracknames.pl")"
