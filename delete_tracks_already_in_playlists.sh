@@ -55,6 +55,8 @@ playlist="$1"
 shift || :
 
 export SPOTIFY_PRIVATE=1
+unset SPOTIFY_PUBLIC_ONLY &>/dev/null || :
+unset SPOTIFY_PRIVATE_ONLY &>/dev/null || :
 
 # pre-load token once for deletions and URI=>track name resolving prompt to avoid repeated pop-ups
 spotify_token
