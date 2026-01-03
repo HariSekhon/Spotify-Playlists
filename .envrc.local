@@ -15,5 +15,6 @@
 #
 
 export SPOTIFY_PRIVATE=1
-export SPOTIFY_PUBLIC_ONLY=1
+#export SPOTIFY_PUBLIC_ONLY=1
+unset SPOTIFY_PUBLIC_ONLY  # messes up my ability to delete from private todo playlists from here
 unset SPOTIFY_PRIVATE_ONLY
