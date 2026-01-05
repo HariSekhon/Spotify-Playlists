@@ -17,6 +17,12 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/bash-tools"
+
+if [ -d "$srcdir/../bash-tools" ]; then
+    bash_tools="$srcdir/../bash-tools"
+fi
+
 cd "$srcdir"
 
 playlist_count(){
@@ -41,7 +47,7 @@ echo
 echo "Playlists: $playlist_count"
 echo
 
-playlists="$("$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh" < playlists.txt)"
+playlists="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" < playlists.txt)"
 
 playlists_linecounts(){
     while read -r playlist; do
