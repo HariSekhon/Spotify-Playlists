@@ -29,12 +29,17 @@ check(){
         echo "ERROR: playlist file '$filename' has outstanding changes!" >&2
         exit 1
     fi
+    echo -n .
 }
 
 while read -r playlist_file; do
     [ "$playlist_file" = Blacklist ] && continue
     check "$playlist_file"
     check "spotify/$playlist_file"
-done < <(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")
+done < <(
+    sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
+    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+)
 
+echo
 echo "OK - All playlist files committed with no outstanding changes"
