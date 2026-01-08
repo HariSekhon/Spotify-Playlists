@@ -32,6 +32,7 @@ check(){
     echo -n .
 }
 
+echo "Checking all playlists are committed:"
 while read -r playlist_file; do
     [ "$playlist_file" = Blacklist ] && continue
     check "$playlist_file"
