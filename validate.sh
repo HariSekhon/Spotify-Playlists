@@ -20,6 +20,9 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 set -x
 
 "$srcdir/validate_playlists_downloaded.sh"
+echo
 "$srcdir/validate_playlists_committed.sh"
+echo
 "$srcdir/validate_core_playlists_present.sh"
+echo
 "$srcdir/validate_playlist_lengths.sh"
