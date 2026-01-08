@@ -17,6 +17,8 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+set -x
+
 "$srcdir/validate_playlists_downloaded.sh"
 "$srcdir/validate_playlists_committed.sh"
 "$srcdir/validate_core_playlists_present.sh"
