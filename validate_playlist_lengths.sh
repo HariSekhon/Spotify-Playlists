@@ -19,8 +19,14 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd "$srcdir"
 
+bash_tools="$srcdir/bash-tools"
+
+if [ -d "$srcdir/../bash-tools" ]; then
+    bash_tools="$srcdir/../bash-tools"
+fi
+
 playlist_count(){
-    wc -l playlists.txt | awk '{print $1}'
+    wc -l "$srcdir/playlists.txt" | awk '{print $1}'
 }
 
 playlist_count="$(playlist_count)"
@@ -60,8 +66,7 @@ else
         validate_playlist_length "$playlist"
     done < <(
         sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
-        awk '{$1=""; print}' |
-        "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+        "$bash_tools/spotify/spotify_playlist_to_filename.sh"
     )
 fi
 
