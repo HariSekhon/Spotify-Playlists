@@ -19,7 +19,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-# shellcheck disable=SC1090
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/private/discover_playlists.txt")"
@@ -41,6 +41,15 @@ $discover_playlists
 usage_args=""
 
 help_usage "$@"
+
+duplicate_playlists="$(sort -u <<< "$discover_playlists" | uniq -d)"
+
+if [ -n "$duplicate_playlists" ]; then
+    die "Duplicate playlists detected - clean up the file: $srcdir/private/discover_playlists.txt:
+
+$duplicate_playlists
+"
+fi
 
 export SPOTIFY_PRIVATE=1
 
