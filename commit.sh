@@ -24,12 +24,17 @@ if [ -d "$srcdir/../bash-tools" ]; then
 fi
 
 # shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/spotify.sh"
+
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/.bash.d/git.sh"
 
 cd "$srcdir"
 
 # reset playlists with large superfluous changes I don't want to deal with yet
 "$srcdir/reset.sh"
+
+spotify_token
 
 "$bash_tools/scripts/spotify_commit_playlists.sh" "$@"
 
