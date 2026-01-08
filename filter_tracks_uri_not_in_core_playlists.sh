@@ -41,7 +41,11 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")}"
+core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(
+    sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" |
+    awk '{$1=""; print}' |
+    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+)}"
 
 # auto-resolve each spotify playlist's path to either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
