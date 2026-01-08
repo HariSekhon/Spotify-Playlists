@@ -19,6 +19,7 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd "$srcdir"
 
+echo "Checking all playlists in playlists.txt are downloaded:"
 while read -r playlist_file; do
     [ "$playlist_file" = Blacklist ] && continue
     if ! [ -f "$playlist_file" ]; then
@@ -29,6 +30,11 @@ while read -r playlist_file; do
         echo "playlist spotify file '$playlist_file' not found!"
         exit 1
     fi
-done < <(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")
+    echo -n '.'
+done < <(
+    sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
+    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+)
 
+echo
 echo "OK - All playlist files downloaded"
