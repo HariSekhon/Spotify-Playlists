@@ -50,9 +50,9 @@ validate_playlist_length(){
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
     spotify_playlist_wc=$(wc -l "$spotify_playlist" | awk '{print $1}')
     if [ "$playlist_wc" = "$spotify_playlist_wc" ]; then
-        echo "Playlist lengths OK: {,spotify}/$playlist => $playlist_wc/$spotify_playlist_wc lines"
+        echo "Playlist lengths OK: {,spotify}/$playlist   => $playlist_wc/$spotify_playlist_wc lines"
     else
-        echo "Playlist lengths MISMATCH: {,spotify}/$playlist => $playlist_wc vs $spotify_playlist_wc"
+        echo "Playlist lengths MISMATCH: {,spotify}/$playlist   => $playlist_wc vs $spotify_playlist_wc"
         exit 1
     fi
 }
