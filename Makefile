@@ -68,6 +68,17 @@ backup: lazy-init
 backups: backup
 	@:
 
+# Remove stale id files for playlists that were renamed
+.PHONY: clean
+clean:
+	for id in id/*; do \
+		playlist="$${id#id/}"; \
+		playlist="$${playlist%.id.txt}"; \
+		if ! [ -f "$$playlist" ]; then \
+			echo rm -v "$$id"; \
+		fi; \
+	done
+
 .PHONY: blacklists
 blacklists:
 	./backup_private.sh `ls private/Blacklist* | grep -v '\.description$$' | sed 's|private/||'`
