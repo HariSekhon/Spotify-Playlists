@@ -1,61 +1,73 @@
 # list of core playlists - used to check for tracks I already have
 # playlist names without directory prefixes - cannot put prefix paths like private/ due to ambiguity between directories and playlist names containing slashes when converting slashes to unicode slash filenames, instead I infer correct paths in code
-Blacklist
-Blacklist2
-Blacklist3
-My Shazam Tracks
-Upbeat & Sexual Pop
-Bounce to the Rhythm
-Best R&B
-Best Pop
-Best Rock
-Best Motown & Soul
-Best Workout Pop
-Chill
-Soft
-Sensual
-Love Songs
-Songs About Sex
-Bad Boy Gets Down
-Smooth
-Smooth Hip-Hop
-Elite Hip-Hop with Attitude
-Jamaican - Reggae - Riddim
-Grime
-Club
-Disco!
-Electronica
-Electro-Funk
-Motown & Soul
-Coffee Shops Mega-Mix
-Hip-Hop & R&B Mega-Mix
-Rock Mega-Mix
-Pop Mega-Mix
-Pop Mega-Mix 2
-Workout Pop
-Best Workout Hip-Hop (Aggressive)
-Best Trance, Dance, Deep House
-Classic Hits from Decades Gone By
-The 80s - The Greatest Decade in Human History!
-The 70s
-Classical
-Starred
+#
+0toy9Hu5w5Vle9SB2tQWre	Blacklist
+4spgTF6oa8e3uNYub4v219	Blacklist2
+22mkbR7zPK51YQ8kZpwoAS	Blacklist3
+2ddv4fdbsD7WOnmY30g40i	My Shazam Tracks
+64OO67Be8wOXn6STqHxexr	Upbeat & Sexual Pop 🍑 💦
+2b08Ao5VcNwwYs7Yo1hy3F	Bounce to the Rhythm 😎
+0DAPPqAeWuZrjge0LwYryS	Best Pop 🥳 🎉
+5hHBAgEmYWkcMkWWSNrml7	Best R&B 😎
+5YyD3L0oa0rVKUNREpEnww	Best Rock 🤘 🎸
+02WL8NiTqSfFp6VGVO834S	Best Motown & Soul 👻
+3uyuSQLQDGjdLrI91hUoqM	Love Songs
+1aezJEIl4ByZRomxh3Iynf	Best Workout Pop 💪 🏃🏃‍♀️
+1qeOhdKNPASZoecEBcnKfk	Chill 😎
+2EHjpno5iNbWw3th6ccnyB	Soft 🍦 🍦
+0UhdzfzP7jPLrG6U8LGmny	Sensual 🍑 💦
+4qfkwvXPaihbDEn0ZTZmwc	Songs About Sex 🍑 💦
+3UrLxZZZQkRPz9Q5bO8IWm	Bad Boy Gets Down 🍑 💦 😎
+3DIFW3Hi9nT9GlfbXuH5OU	Heart Breakers 💔 💔 💔
+5ldJ3IPprupbpY82PWOBnk	Smooth 😎
+7isarHP3nVD7punZolUnYZ	Smooth Hip-Hop 😎
+0ofbNCNYJunamfCUn20WPp	Defiance - Beat the Odds in Life 💪 🚀
+5RR38VsaYbbgK9KQv2V7gv	Elite Hip-Hop with Attitude 😎
+1y9m25Nt5DEx8xyvmvjSMO	Jamaican - Reggae - Riddim 🇯🇲
+04OuLIVbdaKmYy6AnJNTJ4	Grime - UK Hip-Hop 🇬🇧 😎
+4OxP5YjEPmOPNbbDvqwVqX	Club Bangers! 🥳 🎉
+6LP0XgEvqj5rd9vnAB0HHg	Disco! 🕺💃
+26wj2LINnAVSPfdY7CAOvy	Electronica ⚡️ 💿
+6I5B9oc9iJPShl6ULe95ZN	Electro-Funk
+2vkUGRxSZf4wElRZnmcxWU	Motown & Soul 👻
+1YDtdAjvbgDdDvNj4gLdgY	Light Fun Feel Good 🥳 🎉
+0I1TzQXuQ40jJReGtGCuIe	Coffee Shops Mega-Mix ☕️ 🎷
+1ExUJXCciAA7pvnPln6H6F	Hip-Hop & R&B Mega-Mix 😎
+4BHR4nL7taF7TrBKIB05pR	Rock Mega-Mix 🤘 🎸
+0KqHUE6aVzUh9ProBe2QzO	Pop Mega-Mix 🥳 🎉
+6mF730tPdh5NEfMY5bnRGQ	Pop Mega-Mix 2 🥳 🎉
+5JAocRkkq0i0mlLSPUzPF6	Workout Pop 💪 🏃🏃‍♀️
+3UwNxY21jMcrwxpTkLfvS2	Best Workout Hip-Hop (Aggressive) 💪 😎
+4T3ij5V3YkpESpzGENUbvt	Best Female Vocal Trance, Dance & Deep House 👩‍🦳 👩‍🦰 🍑 💦
+52En7jbzRvWdcbGJbrkvuh	Best Trance, Dance, Deep House 🥳 🎉
+62FSoffVF6FjQqIWZizL5t	Classics - Hits from Decades Gone By 🎩 🏛️
+01WhdxOGV8WQQkpek949ss	The 2020s
+6CJIkvDN4f1WMO9ZnJ6wr1	The 2010s
+10qqIUT4ahLBcpB1HNuToN	The 2000s
+3Hw9hpJ2Wv8i11UelqnY90	The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧 🥳 🎉
+4wfnKcetnvEepYSJsnDD03	The 80s - The Greatest Decade in Human History! 👩 😎 🥳 🎉
+2E4lr63XpMvXTZQBqyTgSP	The 70s - The Decade of Disco & Classics! 💃 🕺 😎 🥳 🎉
+2nlTlerazmVeLTj3oqupLP	The 60s
+2gA1tjo1HsOJYTH1xFFQnh	Brit Pop 🇬🇧 🇬🇧 🇬🇧
+7gpWzFmgkyHprLV921XU5U	Best Tunes & Instrumentals 🎹
+587N7QVPPa5U4tNml5tCoN	Classical 🎻 🎹
+#3FHJjDKmpSGE6RKhUSOd1B	Starred
 #
 # Auxillary / Artist already vetted playlists that have been scraped to major playlists
 #
-2Pac
-Chlöe Howl
-Chromeo
-Eric Prydz
-Ice-T
-Kiesza
-Rita Ora
-Rita Ora - ORA Deluxe
-Royal Deluxe
-Sébastien Tellier
-Sébastien Tellier - Sexuality
-Tami Chin
-Tami Chynn
-Zara Larsson
-Stranger Things, Vol. 1 Soundtrack
-Stranger Things, Vol. 2 Soundtrack
+6Gsq67sIl755bdLNFGMOP1	2Pac
+49ZUs6q1CnP6L14emsmqvJ	Chlöe Howl
+32ZRbRsW4df2XLbzrITYvV	Chromeo
+41BTjCB0Dhh3NYeU3EzCxu	Eric Prydz
+2HeNakUQHpfYgRJgQjU8E2	Ice-T
+0sZRq27QMAp7qiVNYj0IAV	Kiesza
+2pIKtPuEN5cEf0HXbGs6wf	Rita Ora
+4zIeT24ObpSQxuKkyYt9dn	Rita Ora - ORA Deluxe
+6QNUDGwkKiNqYD9Z9wvyzC	Royal Deluxe
+0F8CLcyhuOluKCHrBK8gUB	Sébastien Tellier
+6XM1Fl7D0FJG7eDrTMIoXa	Sébastien Tellier - Sexuality
+5fCMxcD1N14CsCl5HB5Gtx	Tami Chin
+6ptiNaB9Td8oeptcu19enw	Tami Chynn
+5YnJ7wMS1EmdxLPKziZj19	Zara Larsson
+56mxM5NYb3915RVzhkfluK	Stranger Things, Vol. 1 Soundtrack
+1SyzYaDOi5n4cAq03dxcPg	Stranger Things, Vol. 2 Soundtrack
