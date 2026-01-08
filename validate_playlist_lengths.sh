@@ -90,7 +90,7 @@ fi
 
 echo
 if [ "$exitcode" = 0 ]; then
-    echo "OK - All playlists length vs spotify/ length checks passed"
+    echo "OK - All playlist vs spotify/playlist length checks passed"
 else
-    echo "ERROR - playlists length vs spotify/ length mismatches detected!"
+    echo "ERROR - playlist vs spotify/playlist length mismatches detected!"
 fi
