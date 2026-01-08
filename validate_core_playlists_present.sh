@@ -19,6 +19,7 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd "$srcdir"
 
+echo "Checking Core Playlist files are present:"
 while read -r playlist_file; do
     if [[ "$playlist_file" =~ Blacklist ]]; then
         if ! [ -f "private/$playlist_file" ]; then
