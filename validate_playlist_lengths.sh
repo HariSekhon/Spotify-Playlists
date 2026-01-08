@@ -25,6 +25,9 @@ if [ -d "$srcdir/../bash-tools" ]; then
     bash_tools="$srcdir/../bash-tools"
 fi
 
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/utils.sh"
+
 playlist_count(){
     wc -l "$srcdir/playlists.txt" | awk '{print $1}'
 }
@@ -42,18 +45,28 @@ echo
 echo "Playlists: $playlist_count"
 echo
 
+exitcode=0
+
 validate_playlist_length(){
     local playlist="${1#./}"
     local spotify_playlist="spotify/$playlist"
-    [ -f "$playlist" ] || { echo "File not found: '$playlist'"; exit 1; }
-    [ -f "$spotify_playlist" ] || { echo "File not found: '$spotify_playlist'"; exit 1; }
+    if ! [ -f "$playlist" ]; then
+        warn "File not found: '$playlist'"
+        exitcode=1
+        return
+    fi
+    if ! [ -f "$spotify_playlist" ]; then
+        warn "File not found: '$spotify_playlist'"
+        exitcode=1
+        return
+    fi
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
     spotify_playlist_wc=$(wc -l "$spotify_playlist" | awk '{print $1}')
     if [ "$playlist_wc" = "$spotify_playlist_wc" ]; then
         echo "Playlist lengths OK: {,spotify}/$playlist   => $playlist_wc/$spotify_playlist_wc lines"
     else
         echo "Playlist lengths MISMATCH: {,spotify}/$playlist   => $playlist_wc vs $spotify_playlist_wc"
-        exit 1
+        exitcode=1
     fi
 }
 
@@ -66,9 +79,18 @@ else
         validate_playlist_length "$playlist"
     done < <(
         sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
-        "$bash_tools/spotify/spotify_playlist_to_filename.sh"
+        "$bash_tools/spotify/spotify_playlist_to_filename.sh" |
+        tr '\n' '\0' |
+        xargs -0 wc -l |
+        sed '/[[:space:]]total$/d' |
+        sort -k1n |
+        awk '{$1=""; print}'
     )
 fi
 
 echo
-echo "OK - All playlists length vs spotify/ length checks passed"
+if [ "$exitcode" = 0 ]; then
+    echo "OK - All playlists length vs spotify/ length checks passed"
+else
+    echo "ERROR - playlists length vs spotify/ length mismatches detected!"
+fi
