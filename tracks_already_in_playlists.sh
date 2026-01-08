@@ -74,7 +74,11 @@ if [ $# -gt 0 ]; then
     # format one file per line to normalize and align the input format with the core playlist for later use by functions the same way
     core_playlists="$(for arg; do echo "$arg"; done)"
 else
-    core_playlists="$(sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" | "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh")"
+    core_playlists="$(
+        sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" |
+        awk '{$1=""; print}' |
+        "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+    )"
 fi
 
 # auto-resolve each spotify playlist's path to its file path under ./ or ./private
