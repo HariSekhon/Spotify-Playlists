@@ -20,8 +20,12 @@ srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$srcdir"
 
 while read -r playlist_file; do
-    [ "$playlist_file" = Blacklist ] && continue
-    if ! [ -f "$playlist_file" ]; then
+    if [[ "$playlist_file" =~ Blacklist ]]; then
+        if ! [ -f "private/$playlist_file" ]; then
+            echo "core playlist file 'private/$playlist_file' not found!"
+            exit 1
+        fi
+    elif ! [ -f "$playlist_file" ]; then
         echo "core playlist file '$playlist_file' not found!"
         exit 1
     fi
