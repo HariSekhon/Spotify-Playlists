@@ -56,10 +56,13 @@ if [ $# -gt 0 ]; then
         validate_playlist_length "$playlist"
     done
 else
-    playlists="$("$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh" < playlists.txt)"
     while read -r playlist; do
         validate_playlist_length "$playlist"
-    done <<< "$playlists"
+    done < <(
+        sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
+        awk '{$1=""; print}' |
+        "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+    )
 fi
 
 echo
