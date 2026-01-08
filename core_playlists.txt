@@ -1,6 +1,7 @@
 # list of core playlists - used to check for tracks I already have
 # playlist names without directory prefixes - cannot put prefix paths like private/ due to ambiguity between directories and playlist names containing slashes when converting slashes to unicode slash filenames, instead I infer correct paths in code
 #
+# Updated; Playlist ID is first column now to enable other scripts to auto-update these playlists upon renames
 0toy9Hu5w5Vle9SB2tQWre	Blacklist
 4spgTF6oa8e3uNYub4v219	Blacklist2
 22mkbR7zPK51YQ8kZpwoAS	Blacklist3
