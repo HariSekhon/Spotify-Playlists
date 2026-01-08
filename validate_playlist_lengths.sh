@@ -49,11 +49,11 @@ validate_playlist_length(){
     [ -f "$spotify_playlist" ] || { echo "File not found: '$spotify_playlist'"; exit 1; }
     playlist_wc=$(wc -l "$playlist" | awk '{print $1}')
     spotify_playlist_wc=$(wc -l "$spotify_playlist" | awk '{print $1}')
-    if [ "$playlist_wc" != "$spotify_playlist_wc" ]; then
-        echo "Playlist $playlist backup invalid, mismatching number of lines ($playlist $playlist_wc vs $spotify_playlist $spotify_playlist_wc)"
-        exit 1
+    if [ "$playlist_wc" = "$spotify_playlist_wc" ]; then
+        echo "Playlist lengths OK: {,spotify}/$playlist => $playlist_wc/$spotify_playlist_wc lines"
     else
-        echo "Playlist $playlist ($playlist_wc lines) => $spotify_playlist ($spotify_playlist_wc lines) counts matched"
+        echo "Playlist lengths MISMATCH: {,spotify}/$playlist => $playlist_wc vs $spotify_playlist_wc"
+        exit 1
     fi
 }
 
