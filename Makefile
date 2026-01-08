@@ -113,8 +113,15 @@ artists:
 
 .PHONY: playlists
 playlists:
-	SPOTIFY_PRIVATE=1 SPOTIFY_PUBLIC_ONLY=1 "$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
-	SPOTIFY_PRIVATE=1 SPOTIFY_PUBLIC_ONLY= SPOTIFY_PRIVATE_ONLY=1 cd private && "$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
+	SPOTIFY_PRIVATE=1 \
+	SPOTIFY_PUBLIC_ONLY=1 \
+	"$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
+	@echo
+	cd private && \
+	SPOTIFY_PRIVATE=1 \
+	SPOTIFY_PUBLIC_ONLY= \
+	SPOTIFY_PRIVATE_ONLY=1 \
+	"$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
 
 .PHONY: discover
 discover:
