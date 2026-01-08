@@ -12,7 +12,7 @@
 #  https://www.linkedin.com/in/HariSekhon
 #
 
-override BASH_TOOLS := $(shell test -d ../bash-tools && echo ../bash-tools || echo bash-tools)
+override BASH_TOOLS := $(shell test -d "$(PWD)/bash-tools" && echo "$(PWD)/../bash-tools" || echo "$(PWD)/bash-tools")
 
 $(info Using bash-tools: $(BASH_TOOLS))
 
@@ -113,7 +113,8 @@ artists:
 
 .PHONY: playlists
 playlists:
-	"$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
+	SPOTIFY_PRIVATE=1 SPOTIFY_PUBLIC_ONLY=1 "$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
+	SPOTIFY_PRIVATE=1 SPOTIFY_PUBLIC_ONLY= SPOTIFY_PRIVATE_ONLY=1 cd private && "$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
 
 .PHONY: discover
 discover:
