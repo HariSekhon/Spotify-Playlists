@@ -101,6 +101,9 @@ updates: # backup commit
 	@#$(MAKE) aggregate
 	@echo
 	@echo
+	./validate.sh
+	@echo
+	@echo
 	$(MAKE) commit
 
 .PHONY: update
