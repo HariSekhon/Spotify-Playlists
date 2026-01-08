@@ -12,8 +12,12 @@
 #  https://www.linkedin.com/in/HariSekhon
 #
 
-ifneq ("$(wildcard bash-tools/Makefile.in)", "")
-	include bash-tools/Makefile.in
+override BASH_TOOLS := $(shell test -d ../bash-tools && echo ../bash-tools || echo bash-tools)
+
+$(info Using bash-tools: $(BASH_TOOLS))
+
+ifneq ("$(wildcard $(BASH_TOOLS)/Makefile.in)", "")
+	include $(BASH_TOOLS)/Makefile.in
 endif
 
 REPO := HariSekhon/Spotify-Playlists
@@ -33,8 +37,8 @@ build: init
 
 	@# doesn't exit Make anyway, only line, and don't wanna use oneshell
 	@#if [ -z "$(CPANM)" ]; then make; exit $$?; fi
-	cd bash-tools && $(MAKE)
-	cd spotify-tools && $(MAKE)
+	cd "$(BASH_TOOLS)" && "$(MAKE)"
+	cd spotify-tools && "$(MAKE)"
 
 	@echo
 	@echo "BUILD SUCCESSFUL (Spotify Playlists)"
@@ -102,6 +106,14 @@ updates: # backup commit
 .PHONY: update
 update: updates
 	@:
+
+.PHONY: artists
+artists:
+	backup_artists_followed.sh
+
+.PHONY: playlists
+playlists:
+	"$(BASH_TOOLS)/spotify/spotify_backup_playlists_list.sh"
 
 .PHONY: discover
 discover:
