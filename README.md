@@ -61,62 +61,62 @@ _(you're welcome to connect with me on LinkedIn)_
 
 ### Best of the Best
 
-- [Favourites](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
+- [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
   favourites across all genres
-- [Upbeat & Sexual Pop](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
+- [Upbeat & Sexual Pop 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
   the ultimate driving upbeat pop mega mix
-- [Hot Love](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa)
-- [Chill](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk) -
+- [Hot Love 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa)
+- [Chill 😎](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk) -
   chill & pop tunes for work and life
-- [Best Pop](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
-- [Best R&B](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
-- [Best Rock](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
-- [Best Female Vocal Trance / Dance](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt)
-- [Best Workout Pop](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf) -
-  best of the bigger [Workout Pop](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
+- [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
+- [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
+- [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
+- [Best Female Vocal Trance, Dance & Deep House 👩‍🦳 👩‍🦰 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt)
+- [Best Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf) -
+  best of the bigger [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
-- [Best Workout Hip-Hop (Aggressive)](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2) -
+- [Best Workout Hip-Hop (Aggressive) 💪 😎](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2) -
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
-- [Best Tunes & Instrumentals](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U) -
+- [Best Tunes & Instrumentals 🎹](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U) -
   instrumentals and songs mostly for the tune...
-- [Trance & Dance - Best of](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
+- [Best Trance, Dance, Deep House 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
   best tunes and vocal trance, hot chick music
-- [Elite Percussive Rock & Electro Blues](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
-- [Elite Hip-Hop with Attitude](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
+- [Elite Percussive Rock & Electro Blues 🤘 🎸](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
+- [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
   legendary hip-hop to play while driving your
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
-- [Smooth Hip-Hop](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
+- [Smooth Hip-Hop 😎](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
   legendary hip-hop to play while driving your
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
-- [Love Songs](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
+- [Love Songs ❤️ ❤️ ❤️](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
   traditional love songs for your sweetie
-- [Sensual](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny) -
+- [Sensual 🍑 💦](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny) -
   for a nice evening in with the girlfriend, massage & more music
-- [Songs About Sex](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc) -
+- [Songs About Sex 🍑 💦](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc) -
   for single guys with high testosterone in their prime, hip-hop based
-- [Bad Boy Gets Down](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
+- [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
   for those late night bad boy journeys... for guys only, hip-hop based
-- [Bounce to the Rhythm](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
+- [Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
   rhythm & vibes hip-hop, puts a bounce in your step
-- [Light Fun Feel Good](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY) -
+- [Light Fun Feel Good 🥳 🎉](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY) -
   because sometimes you need to lighten up
-- [Best Motown & Soul](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S) -
+- [Best Motown & Soul 👻](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S) -
   excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these
   Motown classics
-- [Electronica](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
-- [Club](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX) -
+- [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
+- [Club Bangers! 🥳 🎉](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX) -
   club music - upbeat dance, house, trance etc.
-- [Disco!](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
+- [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
   disco music - inspired by the 70s onwards...
-- [Karaoke Classics](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
-- [Soft](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
+- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
+- [Soft 🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
   driving home late at night and don't want to wake the kids up in the back...
-- [Baditude - Bad Bitches with Attitude ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
+- [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
-- [Heartbroken](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) /
-  [Heartbreakers](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) -
+- [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) /
+  [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) -
   that one person you always think of when listening to the first playlist - the second one is for those who haven't yet
-- [Defiance - Beat the Odds](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
+- [Defiance - Beat the Odds in Life 💪 🚀](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
   working out or on your economic grind, there is no more respectable man than he who rises from nothing
   to something through his own hard work and merit.
   When people wonder how I beat the odds in life or why I get more ripped the older I get:
@@ -130,27 +130,27 @@ _(you're welcome to connect with me on LinkedIn)_
 - [The 2010s](https://open.spotify.com/playlist/6CJIkvDN4f1WMO9ZnJ6wr1) -
   the decade of the Tinder Dating Apocalypse... at least there is good music to enjoy in the decline!!
 - [The 2000s](https://open.spotify.com/playlist/10qqIUT4ahLBcpB1HNuToN)
-- [The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧](https://open.spotify.com/playlist/3Hw9hpJ2Wv8i11UelqnY90) -
+- [The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧 🥳 🎉](https://open.spotify.com/playlist/3Hw9hpJ2Wv8i11UelqnY90) -
   re-live the Best of the 90s - with lots of Dance, R&B and BritPop from the UK’s last golden age
-- [The 80s - The Greatest Decade in Human History!](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03) -
+- [The 80s - The Greatest Decade in Human History! 👩 😎 🥳 🎉](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03) -
   the 80s was the greatest decade in human history - upbeat, iconic, beautiful - any songs in a positive 80s style are
   also welcome here
-- [The 70s](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP)
-- [🇬🇧 Brit Pop 🇬🇧](https://open.spotify.com/playlist/2gA1tjo1HsOJYTH1xFFQnh) -
+- [The 70s - The Decade of Disco & Classics! 💃 🕺 😎 🥳 🎉](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP)
+- [Brit Pop 🇬🇧 🇬🇧 🇬🇧](https://open.spotify.com/playlist/2gA1tjo1HsOJYTH1xFFQnh) -
   re-live the golden 90s indie bands like The Verve, Oasis, Pulp, Blur, Skunk Anansie, Texas and Ocean Colour Scene plus newer acts like Lily Allen, Blossom, Micky James
 
 ### More Playlists of Note
 
 - [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
-- [Redneck Rock](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
+- [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
-- [College Rock](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
-- [Acoustic](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
+- [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
+- [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
 - [Guitar](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
 - [Piano](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
 - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
-- [R & B Classics](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
-- [Smooth](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
+- [R & B Classics 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
+- [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
 - [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
   Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
 
@@ -158,26 +158,26 @@ _(you're welcome to connect with me on LinkedIn)_
 
 Entire genres of songs which are decent but not elite enough to make the lists above:
 
-- [Pop Mega-Mix](https://open.spotify.com/playlist/0KqHUE6aVzUh9ProBe2QzO)
-- [Pop Mega-Mix 2](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
+- [Pop Mega-Mix 🥳 🎉](https://open.spotify.com/playlist/0KqHUE6aVzUh9ProBe2QzO)
+- [Pop Mega-Mix 2 🥳 🎉](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
   overspill because Spotify limits playlists to 10,000 tracks.
   The first Pop Mega-Mix playlist is better since it sucked up most of the best known popular songs first
 - [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
   music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
-- [Workout Pop](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
-- [Jamaican - Reggae - Riddim](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
+- [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
+- [Jamaican - Reggae - Riddim 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
   by a half-Jamaican girl I used to know...
-- [Grime](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4) - British street hip-hop
-- [Hip-Hop & R&B Mega-Mix](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F)
-- [Rock Mega-Mix](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR)
-- [Nu Metal](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5)
-- [Coffee Shops Mega-Mix](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe) -
+- [Grime - UK Hip-Hop 🇬🇧 😎](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4) - British street hip-hop
+- [Hip-Hop & R&B Mega-Mix 😎](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F)
+- [Rock Mega-Mix 🤘 🎸](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR)
+- [Nu Metal 🤘 🎸](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5)
+- [Coffee Shops Mega-Mix ☕️ 🎷](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe) -
   Easy Listening, Jazz, Lounge, Soft Pop... stuff you'd hear at Coffee Shops
-- [Latin American](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2)
-- [Motown & Soul](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU)
-- [Classic Hits from Decades Gone By](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
+- [Latin American 🇧🇷 🇲🇽 🇦🇷 🇨🇴 🇻🇪](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2)
+- [Motown & Soul 👻](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU)
+- [Classics - Hits from Decades Gone By 🎩 🏛️](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
   mid to late 20th century classics and well known songs
-- [Classical](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
+- [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
 
 ### Artists
 
@@ -198,30 +198,30 @@ There are a *lot* of artist playlists in my libary but some need more culling of
 - [Nas](https://open.spotify.com/playlist/36plJzYSaO6hevuQvFcCxh)
 - [The Notorious B.I.G.](https://open.spotify.com/playlist/1zpLNVLf0lWlm8h8QWhgcv)
 - [2Pac](https://open.spotify.com/playlist/6Gsq67sIl755bdLNFGMOP1)
-- [Bon Jovi](https://open.spotify.com/playlist/0BYhAyWESD4PK4F096AGeg)
+- [Bon Jovi – Bon Jovi Greatest Hits - The Ultimate Collection](https://open.spotify.com/playlist/0BYhAyWESD4PK4F096AGeg)
 - [Guns N' Roses](https://open.spotify.com/playlist/48iOxmFkMvZtk6C4uCbAIm)
 - [Ellie Goulding](https://open.spotify.com/playlist/1gf3KnnRJT3AFdGDLC3q7Z)
 - [Florence + The Machine](https://open.spotify.com/playlist/6EmDuGij5n32He6PG3ED0j)
 - [The Weeknd](https://open.spotify.com/playlist/1OD1SkerbfYup4fWazgYrY)
-- [DMX](https://open.spotify.com/playlist/7phBhRlaZAFeKcbuZdlTvK)
+- [DMX – The Best Of DMX](https://open.spotify.com/playlist/7phBhRlaZAFeKcbuZdlTvK)
 - [Lil Wayne](https://open.spotify.com/playlist/5SLI9TfLu894m8nXipeIjZ)
 - [Devlin](https://open.spotify.com/playlist/7kxpjTmZZF2kFz4z1DNKDq)
 - [Foo Fighters](https://open.spotify.com/playlist/3JwIc0uADa27p1Fuit3jzl)
 - [Chromeo](https://open.spotify.com/playlist/32ZRbRsW4df2XLbzrITYvV)
-- [M83](https://open.spotify.com/playlist/529fIcfithcAqEhMy0DQ8D)
+- [M83 Condensed](https://open.spotify.com/playlist/529fIcfithcAqEhMy0DQ8D)
 - [Lily Allen](https://open.spotify.com/playlist/3uu96wewWplY9iprjCe0DC)
-- [Ria Ora](https://open.spotify.com/playlist/4zIeT24ObpSQxuKkyYt9dn)
-- [Beyonce](https://open.spotify.com/playlist/0TmOIlsp1sdBzMl3Nr7oGm)
+- [Rita Ora - ORA Deluxe](https://open.spotify.com/playlist/4zIeT24ObpSQxuKkyYt9dn)
+- [Beyoncé](https://open.spotify.com/playlist/0TmOIlsp1sdBzMl3Nr7oGm)
 - [Rihanna](https://open.spotify.com/playlist/1ZCoN6y8wmOyZwyWZ1qrPL)
-- [Kylie Minogue](https://open.spotify.com/playlist/2rjNx0DMTgcAkr4SIrzIJ3)
+- [Kylie Minogue - Best of](https://open.spotify.com/playlist/2rjNx0DMTgcAkr4SIrzIJ3)
 - [Robyn](https://open.spotify.com/playlist/5YQoWgTfJX08dEepg3iKHm)
-- [Simply Red](https://open.spotify.com/playlist/6H0plzqEiUxLEGctBdDZgS)
+- [Simply Red – The Greatest Hits 25](https://open.spotify.com/playlist/6H0plzqEiUxLEGctBdDZgS)
 - [Placebo](https://open.spotify.com/playlist/3dX5cFDlXIDCWbD40BRZR6)
 - [P!nk](https://open.spotify.com/playlist/3RKQrRdr7svKA3rHTyT00R)
-- [Fickle Friends](https://open.spotify.com/playlist/3x3OQVAPZ2N6bExXCdAG5W)
+- [Fickle Friends – You Are Someone Else](https://open.spotify.com/playlist/3x3OQVAPZ2N6bExXCdAG5W)
 - [Linkin Park](https://open.spotify.com/playlist/4nNIGVqsntJY1keKHZInbq)
 - [The xx](https://open.spotify.com/playlist/3pU80B1cfx97YJV32tQadx)
-- [Kings of Leon](https://open.spotify.com/playlist/5RWEs0cfBBOpPhJXNGlqgu)
+- [Kings Of Leon](https://open.spotify.com/playlist/5RWEs0cfBBOpPhJXNGlqgu)
 - [Blackmill](https://open.spotify.com/playlist/53YVm2qO0CbUlILwqJ40FF)
 - [Ludovico Einaudi - Favourites](https://open.spotify.com/playlist/1GLIj8dABt2zckpZCg9ljh)
 
