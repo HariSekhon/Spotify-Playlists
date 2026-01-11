@@ -198,7 +198,6 @@ There are a *lot* of artist playlists in my libary but some need more culling of
 - [Nas](https://open.spotify.com/playlist/36plJzYSaO6hevuQvFcCxh?si=04c91749582f4fce)
 - [The Notorious B.I.G.](https://open.spotify.com/playlist/1zpLNVLf0lWlm8h8QWhgcv?si=6c782ff04db7449d)
 - [2Pac](https://open.spotify.com/playlist/6Gsq67sIl755bdLNFGMOP1?si=10d2ac8558e2493f)
-- [50 Cent](https://open.spotify.com/playlist/7JwnY1zHVi3yPdtFxDwJ3e?si=5853906b543141cc)
 - [Bon Jovi](https://open.spotify.com/playlist/0BYhAyWESD4PK4F096AGeg?si=65df01acdf4b48c6)
 - [Guns N' Roses](https://open.spotify.com/playlist/48iOxmFkMvZtk6C4uCbAIm?si=ef54d150aba24efd)
 - [Ellie Goulding](https://open.spotify.com/playlist/1gf3KnnRJT3AFdGDLC3q7Z?si=2823ecffe8974ff8)
@@ -225,6 +224,12 @@ There are a *lot* of artist playlists in my libary but some need more culling of
 - [Kings of Leon](https://open.spotify.com/playlist/5RWEs0cfBBOpPhJXNGlqgu?si=c1e467c3bf334dd6)
 - [Blackmill](https://open.spotify.com/playlist/53YVm2qO0CbUlILwqJ40FF?si=8601af71284c40cb0)
 - [Ludovico Einaudi - Favourites](https://open.spotify.com/playlist/1GLIj8dABt2zckpZCg9ljh?si=45242cee216e4004)
+
+<!--
+
+- [50 Cent](TODO)
+
+-->
 
 ### The Tech Stuff
 
