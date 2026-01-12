@@ -113,11 +113,11 @@ _(you're welcome to connect with me on LinkedIn)_
   driving home late at night and don't want to wake the kids up in the back...
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
+- [Stripper Music 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E)
+- [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa)
 - [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) /
   [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) -
   that one person you always think of when listening to the first playlist - the second one is for those who haven't yet
-- [Stripper Music 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E)
-- [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa)
 - [Defiance - Beat the Odds in Life 💪 🚀](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
   working out or on your economic grind, there is no more respectable man than he who rises from nothing
   to something through his own hard work and merit.
