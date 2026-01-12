@@ -27,8 +27,6 @@ fi
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
-cd "$srcdir"
-
 export SPOTIFY_PRIVATE=1
 export SPOTIFY_PRIVATE_ONLY=1
 unset SPOTIFY_PUBLIC_ONLY &>/dev/null || :
@@ -36,7 +34,9 @@ unset SPOTIFY_PUBLIC_ONLY &>/dev/null || :
 # include followed playlists both for getting a full playlist.txt and also for using for discover_blacklisted.sh percentages
 export SPOTIFY_PLAYLISTS_FOLLOWED=1
 
-export SPOTIFY_BACKUP_DIR="private"
+export SPOTIFY_BACKUP_DIR="$srcdir/private"
+
+cd "$SPOTIFY_BACKUP_DIR"
 
 # This is done in Makefile before both backup playlists are called
 #
@@ -56,16 +56,17 @@ fi
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
 tmp="$(mktemp)"
 SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify/spotify_playlists.sh" > "$tmp"
-mv -f "$tmp" "$srcdir/private/spotify/playlists.txt"
+mv -f "$tmp" "$SPOTIFY_BACKUP_DIR/spotify/playlists.txt"
 echo >&2
 
-timestamp "Stripping spotify playlist IDs from $srcdir/private/spotify/playlists.txt => $srcdir/private/playlists.txt"
+timestamp "Stripping spotify playlist IDs from $SPOTIFY_BACKUP_DIR/spotify/playlists.txt => $SPOTIFY_BACKUP_DIR/playlists.txt"
 tmp="$(mktemp)"
-sed 's/^[^[:space:]]*[[:space:]]*//' "$srcdir/private/spotify/playlists.txt" > "$tmp"
-mv -f "$tmp" "$srcdir/private/playlists.txt"
+sed 's/^[^[:space:]]*[[:space:]]*//' "$SPOTIFY_BACKUP_DIR/spotify/playlists.txt" > "$tmp"
+mv -f "$tmp" "$SPOTIFY_BACKUP_DIR/playlists.txt"
 echo >&2
 
-"$srcdir/backup_artists_followed.sh"
+# done in public level
+#"$srcdir/backup_artists_followed.sh"
 
 "$bash_tools/spotify/spotify_backup.sh" "$@"
 echo >&2
