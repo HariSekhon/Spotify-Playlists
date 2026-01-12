@@ -73,7 +73,9 @@ if is_spotify_playlist_id "$playlist"; then
 else
     playlist_name="$playlist"
 fi
-if ! [[ "$playlist_name" =~ $safety_regex ]]; then
+if [[ "$playlist_name" =~ Blacklist ]] && [ "${CLEANING_BLACKLISTS:-}" = 1 ]; then
+    :
+elif ! [[ "$playlist_name" =~ $safety_regex ]]; then
     die "playlist name '$playlist_name' does not contain '$safety_regex', aborting for safety"
 fi
 
