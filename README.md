@@ -112,7 +112,7 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Soft 🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
   driving home late at night and don't want to wake the kids up in the back...
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
-  you’ll let her ruin your life because she’s hot… this is how we end up with beautiful babies
+  you’d let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Stripper Music 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E)
 - [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa)
 - [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) /
