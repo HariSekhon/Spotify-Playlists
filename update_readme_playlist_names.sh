@@ -37,27 +37,37 @@ help_usage "$@"
 
 no_more_args "$@"
 
-while read -r line; do
-    playlist_id="${line##*https://open.spotify.com/playlist/}"
-    playlist_id="${playlist_id%)}"
-    playlist_id="${playlist_id%%\?*}"
-    if ! is_spotify_playlist_id "$playlist_id"; then
-        die "Invalid spotify playlist ID read from README.md: $playlist_id"
-    fi
-    playlist_name="$(awk -v playlist_id="$playlist_id" '$1 == playlist_id {$1=""; sub(" ", ""); print; exit}' "$srcdir/spotify/playlists.txt")"
-    if is_blank "$playlist_name"; then
-        die "Failed to parse playlist name from '$srcdir/spotify/playlists.txt' for playlist ID: $playlist_id"
-    fi
-    playlist_name_escaped="${playlist_name//|/\\|}"
-    playlist_name_escaped="${playlist_name_escaped//&/\\&}"
-    sed -i "s|\\[.*\\](https://open.spotify.com/playlist/${playlist_id}[[:alnum:]_?\\&=-]*)|[${playlist_name_escaped}](https://open.spotify.com/playlist/$playlist_id)|" README.md
-    #awk -v playlist_name="$playlist_name" \
-    #    -v playlist_id="$playlist_id" \
-    #    '
-    #    $0 =~ playlist_id {
-    #        gsub("\[.*\\](https://open.spotify.com/playlist/[[:alnum:]?\\&=]*)|[${playlist_name_escaped}](https://open.spotify.com/playlist/$playlist_id))
-    #    }
-    #'
-done < <(
-    grep -Eo '\[[^\]+\]\(https://open.spotify.com/playlist/[[:alnum:]_?&=-]+\)' "$srcdir/README.md"
-)
+tmp="$(mktemp)"
+
+playlist_file="$srcdir/spotify/playlists.txt"
+
+awk -v playlist_file="$playlist_file" '
+    # pre-load playlist file and build hashmap of playlist_id -> playlist_name
+    BEGIN {
+        while ((getline < playlist_file) > 0) {
+            id = $1
+            $1 = ""
+            sub(/^ /, "")
+            name[id] = $0
+        }
+        close(playlist_file)
+    }
+
+    # replace each link with matching playlist_id with whatever the playlist_name is in the map
+    # which is the authoritative playlist name dumped from the Spotify API to playlist file
+    {
+        line = $0
+
+        if (match(line, /\[([^]]*)\]\((https:\/\/open\.spotify\.com\/playlist\/([A-Za-z0-9]+)[^)]*)\)/, m)) {
+            id = m[3]
+            if (id in name) {
+                new_link = "[" name[id] "](" m[2] ")"
+                line = substr(line, 1, RSTART-1) new_link substr(line, RSTART+RLENGTH)
+            }
+        }
+
+        print line
+    }
+' "$srcdir/README.md" > "$tmp"
+
+mv -f "$tmp" "$srcdir/README.md"
