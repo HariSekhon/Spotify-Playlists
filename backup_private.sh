@@ -53,9 +53,6 @@ if [ -n "$*" ]; then
     exit 0
 fi
 
-#"$srcdir/spotify_backup_playlists_list.sh"
-#echo >&2
-
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
 tmp="$(mktemp)"
 SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify/spotify_playlists.sh" > "$tmp"
