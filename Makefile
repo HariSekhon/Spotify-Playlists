@@ -66,6 +66,7 @@ backup: lazy-init
 	echo && \
 	./backup_private.sh && \
 	echo && \
+	./update_playlist_names.sh && \
 	echo "Public + Private backups completed in $$SECONDS seconds"
 
 .PHONY: backups
