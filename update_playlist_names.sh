@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
