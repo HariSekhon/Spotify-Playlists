@@ -172,9 +172,9 @@ pullreset:
 
 .PHONY: push
 push: pull
-	git push && \
+	bash-tools/git/git_review_push.sh && \
 	cd private/ && \
-	git push
+	../bash-tools/git/git_review_push.sh
 
 .PHONY: test
 test:
