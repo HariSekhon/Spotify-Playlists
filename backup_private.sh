@@ -53,6 +53,9 @@ if [ -n "$*" ]; then
     exit 0
 fi
 
+#"$srcdir/spotify_backup_playlists_list.sh"
+#echo >&2
+
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
 tmp="$(mktemp)"
 SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify/spotify_playlists.sh" > "$tmp"
@@ -68,23 +71,6 @@ echo >&2
 "$srcdir/backup_artists_followed.sh"
 
 "$bash_tools/spotify/spotify_backup.sh" "$@"
-echo >&2
-
-# done in public playlists now
-#if [ $# -eq 0 ]; then
-#    echo
-#    "$bash_tools/spotify/spotify_backup_playlist.sh" liked
-#    echo
-#fi
-
-for subdir in . spotify; do
-    if [ -f "private/$subdir/Liked Songs" ]; then
-        #mv -fv "private/$subdir/Liked Songs" "$subdir/Liked Songs"
-        tmp="$(mktemp)"
-        sort -f "private/$subdir/Liked Songs" > "$tmp"
-        mv -f "$tmp" "$subdir/Liked Songs"
-    fi
-done
 echo >&2
 
 timestamp "Regenerating Blacklisted Artists"
