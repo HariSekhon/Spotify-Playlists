@@ -55,7 +55,7 @@ playlists_linecounts(){
     done <<< "$playlists" |
     xargs -0 wc -l --
 }
-export -f
+export -f playlists_linecounts
 
 playlists_linecount(){
     playlists_linecounts |
