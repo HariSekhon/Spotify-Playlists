@@ -55,7 +55,7 @@ _(you're welcome to connect with me on LinkedIn)_
 ## Quick Guide
 
 - Genre mega mixes (eg. `Pop / Dance`, `Hip-Hop / R&B`, `Rock / Metal`, `Electronica`, `Classical`, `Motown / Soul`, `Classics`, `Club`, `Disco!` etc)
-- `Best <Genre>` / `<special name>` - shorter highest quality playlists (these are the ones you really want, listed below)
+- `Best <Genre>` / `Elite ...` / `<special name>` - shorter highest quality playlists (these are the ones you really want, listed below)
 - `Artist` specific playlists
 - Mixes in Time - `YYYY MM - <description>` date stamped mixes - stuff that was either hot at that time or that I discovered and listened to more at that time
 
