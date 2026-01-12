@@ -55,11 +55,13 @@ playlists_linecounts(){
     done <<< "$playlists" |
     xargs -0 wc -l --
 }
+export -f
 
 playlists_linecount(){
     playlists_linecounts |
     awk '/^[[:space:]]*[[:digit:]]*[[:space:]]*total[[:space:]]*$/{print $1}'
 }
+export -f playlists_linecount
 
 song_count="$(playlists_linecount)"
 
@@ -68,13 +70,7 @@ spotify_song_count="$(cd spotify && playlists_linecount)"
 if [ "$song_count" != "$spotify_song_count" ]; then
     echo "WARNING: Song count mismatch between top level ($song_count) vs spotify/ ($spotify_song_count)" >&2
     echo >&2
-    tmp1="$(mktemp)"
-    tmp2="$(mktemp)"
-    playlists_linecounts > "$tmp1"
-    cd spotify
-    playlists_linecounts > "$tmp2"
-    diff "$tmp1" "$tmp2" >&2 || :
-    cd -
+    diff <(playlists_linecounts) <(cd spotify && playlists_linecounts) >&2 || :
     #exit 1
 fi
 
