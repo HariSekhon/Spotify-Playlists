@@ -62,7 +62,7 @@ _(you're welcome to connect with me on LinkedIn)_
 ### Best of the Best
 
 - [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
-  favourites across all genres
+  absolute favs across all genres
 - [Upbeat & Sexual Pop 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
   the ultimate driving upbeat pop mega mix
 - [Hot Love 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa)
