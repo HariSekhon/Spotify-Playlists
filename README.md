@@ -71,7 +71,7 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
 - [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
 - [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
-- [Best Female Vocal Trance, Dance & Deep House 👩‍🦳 👩‍🦰 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt)
+- [Best Female Vocal Trance, Dance & Deep House ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt)
 - [Best Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf) -
   best of the bigger [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
@@ -79,7 +79,7 @@ _(you're welcome to connect with me on LinkedIn)_
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
 - [Best Tunes & Instrumentals 🎹](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U) -
   instrumentals and songs mostly for the tune...
-- [Best Trance, Dance, Deep House 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
+- [Best Trance, Dance, Deep House 👩🏻‍🦰 👩🏼 👩🏻 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
   best tunes and vocal trance, hot chick music
 - [Elite Percussive Rock & Electro Blues 🤘 🎸](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
 - [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
@@ -109,7 +109,7 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
   disco music - inspired by the 70s onwards...
 - [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
-- [Soft 🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
+- [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
   driving home late at night and don't want to wake the kids up in the back...
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’d let her ruin your life because she’s hot… this is how we end up with beautiful babies
@@ -148,8 +148,8 @@ _(you're welcome to connect with me on LinkedIn)_
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
 - [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
 - [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
-- [Guitar](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
-- [Piano](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
+- [Guitar 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
+- [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
 - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
 - [R & B Classics 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
 - [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
@@ -167,7 +167,7 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
   music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
 - [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
-- [Jamaican - Reggae - Riddim 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
+- [Jamaican - Reggae - Riddim 🇯🇲 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
   by a half-Jamaican girl I used to know...
 - [Grime - UK Hip-Hop 🇬🇧 😎](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4) - British street hip-hop
 - [Hip-Hop & R&B Mega-Mix 😎](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F)
