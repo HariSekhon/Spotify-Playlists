@@ -103,9 +103,6 @@ updates: # backup commit
 	@echo
 	@echo
 	$(MAKE) commit
-	@echo
-	@echo
-	./validate.sh
 
 .PHONY: update
 update: updates
@@ -177,7 +174,11 @@ push: pull
 	../bash-tools/git/git_review_push.sh
 
 .PHONY: test
-test:
+test: validate
+	@:
+
+.PHONY: validate
+validate:
 	./validate.sh
 
 .PHONY:
