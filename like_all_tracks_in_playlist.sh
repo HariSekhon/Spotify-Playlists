@@ -45,5 +45,11 @@ for playlist; do
     timestamp "Finding tracks in playlist '$playlist' that are not in '$liked'"
     playlist_file="$(find_playlist_file "$playlist" get_uri_file)"
     grep -Fvxhf "spotify/$playlist_file" "spotify/$liked" |
-    "$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh"
+    tee >(
+        echo "Liking the following tracks:"
+        echo
+        "$bash_tools/spotify/spotify_uri_to_name.sh"
+    ) |
+    cat
+    #"$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh"
 done
