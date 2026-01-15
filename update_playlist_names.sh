@@ -40,3 +40,6 @@ echo >&2
 
 timestamp "Calling update_core_playlist_names.sh"
 "$srcdir/update_core_playlist_names.sh"
+
+timestamp "Calling update_aggregate_playlist_names.sh"
+"$srcdir/update_aggregate_playlist_names.sh"
