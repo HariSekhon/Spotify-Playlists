@@ -24,6 +24,9 @@ bash_tools="$srcdir/bash-tools"
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
+# shellcheck disable=SC1090,SC1091
+. "$srcdir/lib/utils.sh"
+
 core_playlists="$srcdir/core_playlists.txt"
 
 # shellcheck disable=SC2034,SC2154
@@ -81,24 +84,6 @@ else
         "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
     )"
 fi
-
-# auto-resolve each spotify playlist's path to its file path under ./ or ./private
-find_playlist_file(){
-    local playlist_name="$1"
-    local get_uri_file="${2:-}"  # any value to trigger this logic
-    local resolved_file
-    is_blank "$playlist_name" && return
-    if [ -f "$srcdir/${get_uri_file:+spotify/}$playlist_name" ]; then
-        resolved_file="$srcdir/${get_uri_file:+spotify/}$playlist_name"
-    elif [ -f "$srcdir/private/${get_uri_file:+spotify/}$playlist_name" ]; then
-        resolved_file="$srcdir/private/${get_uri_file:+spotify/}$playlist_name"
-    else
-        die "playlist not found: $playlist_name"
-    fi
-    log "using file: $resolved_file"
-    echo "$resolved_file"
-}
-export -f find_playlist_file
 
 # auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
