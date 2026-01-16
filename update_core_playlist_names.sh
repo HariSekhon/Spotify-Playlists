@@ -64,7 +64,7 @@ awk -v playlist_file="$playlist_file" -v private_playlist_file="$private_playlis
             sub(/^ /, "")
             name[id] = $0
         }
-        close(playlist_file)
+        close(private_playlist_file)
     }
 
     # preserve comments and blank lines verbatim
