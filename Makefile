@@ -95,6 +95,9 @@ commit: lazy-init
 # need ordering so not putting as dependencies to avoid concurrency bug using eg. make -j 2
 .PHONY: updates
 updates: # backup commit
+	@# check internet is up before erroring out as I often launch this immediately after connecting to a wifi network
+	@# only to come back and find it has errored out before the network is fully up
+	@bash-tools/checks/check_internet.sh
 	$(MAKE) backup
 	@echo
 	@echo
