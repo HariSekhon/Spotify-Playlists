@@ -64,7 +64,7 @@ process_aggregate_playlist_file(){
                 sub(/^ /, "")
                 name[id] = $0
             }
-            close(playlist_file)
+            close(private_playlist_file)
         }
 
         # preserve comments and blank lines verbatim
@@ -90,6 +90,6 @@ process_aggregate_playlist_file(){
     mv -f "$tmp" "$aggregate_playlist_file"
 }
 
-for playlist_file in aggregations/*; do
-    process_aggregate_playlist_file "$playlist_file"
+for aggregate_playlist_file in aggregations/*; do
+    process_aggregate_playlist_file "$aggregate_playlist_file"
 done
