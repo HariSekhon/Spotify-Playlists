@@ -53,7 +53,7 @@ for playlist; do
     timestamp "Finding tracks in playlist '$playlist' that are not in '$liked'"
     playlist_file="$(find_playlist_file "$playlist" get_uri_file)"
     # exclude local tracks since they can't be Liked in Spotify
-    track_uris="$(grep -Fvxhf "spotify/$liked" "$playlist_file" | sed '/^spotify:local:/d')"
+    track_uris="$(grep -Fvxhf "spotify/$liked" "$playlist_file" | sed '/^spotify:local:/d' || :)"
     # here string <<< unconditionally adds a \n which creates an off-by-one error returning 1 even for an empty variable
     #count="$(wc -l <<< "$track_uris" | sed 's/[[:space:]]//g')"
     count="$(grep -c . <<< "$track_uris" || :)"
@@ -76,6 +76,7 @@ for playlist; do
     "$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh" <<< "$track_uris"
 done
 
+echo >&2
 timestamp "Completed Liking Songs"
 echo >&2
 timestamp "Remember track comparisons are done using downloaded playlist URIs for spped - you must run this before retrying:"
