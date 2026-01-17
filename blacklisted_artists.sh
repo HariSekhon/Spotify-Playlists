@@ -41,6 +41,8 @@ usage_args=""
 
 help_usage "$@"
 
+SECONDS=0
+
 export SPOTIFY_PRIVATE=1
 
 spotify_token
@@ -50,8 +52,6 @@ cd "$srcdir"
 filename="$srcdir/private/blacklisted_artists.txt"
 
 trap_cmd 'echo ERROR'
-
-SECONDS=0
 
 tmp="$(mktemp)"
 
