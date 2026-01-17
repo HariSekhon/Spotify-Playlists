@@ -24,6 +24,12 @@ bash_tools="$srcdir/bash-tools"
 #fi
 
 # shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/spotify.sh"
+
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/utils.sh"
+
+# shellcheck disable=SC1090,SC1091
 . "$srcdir/lib/utils.sh"
 
 # shellcheck disable=SC2034,SC2154
@@ -41,15 +47,21 @@ min_args 1 "$@"
 
 liked='Liked Songs'
 
+spotify_token
+
 for playlist; do
     timestamp "Finding tracks in playlist '$playlist' that are not in '$liked'"
     playlist_file="$(find_playlist_file "$playlist" get_uri_file)"
-    grep -Fvxhf "spotify/$playlist_file" "spotify/$liked" |
-    tee >(
-        echo "Liking the following tracks:"
-        echo
-        "$bash_tools/spotify/spotify_uri_to_name.sh"
-    ) |
-    cat
-    #"$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh"
+    track_uris="$(grep -Fvxhf "spotify/$liked" "$playlist_file")"
+    count="$(wc -l <<< "$track_uris" | sed 's/[[:space:]]//g')"
+    echo
+    echo "Tracks in playlist not currently 'Liked':"
+    echo
+    "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$track_uris"
+    echo
+    read -r -p "Are you happy to Like these $count tracks from the playlist '$playlist'? (y/N) " answer
+    if ! [[ "$answer" =~ ^(y|yes) ]]; then
+        die "Aborting..."
+    fi
+    "$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh" <<< "$track_uris"
 done
