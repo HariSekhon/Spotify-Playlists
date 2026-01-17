@@ -33,6 +33,8 @@ usage_args=""
 
 help_usage "$@"
 
+die "DON'T RUN THIS - might be useful to have alternate URI versions in other blacklists for quicker removals"
+
 export SPOTIFY_PRIVATE=1
 
 spotify_token
