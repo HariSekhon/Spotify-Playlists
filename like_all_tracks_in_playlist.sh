@@ -52,8 +52,18 @@ spotify_token
 for playlist; do
     timestamp "Finding tracks in playlist '$playlist' that are not in '$liked'"
     playlist_file="$(find_playlist_file "$playlist" get_uri_file)"
-    track_uris="$(grep -Fvxhf "spotify/$liked" "$playlist_file")"
-    count="$(wc -l <<< "$track_uris" | sed 's/[[:space:]]//g')"
+    # exclude local tracks since they can't be Liked in Spotify
+    track_uris="$(grep -Fvxhf "spotify/$liked" "$playlist_file" | sed '/^spotify:local:/d')"
+    # here string <<< unconditionally adds a \n which creates an off-by-one error returning 1 even for an empty variable
+    #count="$(wc -l <<< "$track_uris" | sed 's/[[:space:]]//g')"
+    count="$(grep -c . <<< "$track_uris" || :)"
+    # this also works
+    #count="$(printf '%s' "$track_uris" | wc -l)"
+    #is_int "$count" || die "Non-integer track count returned"
+    if [ "$count" = 0 ]; then
+        timestamp "No tracks not 'Liked' in playlist '$playlist'"
+        continue
+    fi
     echo
     echo "Tracks in playlist not currently 'Liked':"
     echo
@@ -63,5 +73,6 @@ for playlist; do
     if ! [[ "$answer" =~ ^(y|yes) ]]; then
         die "Aborting..."
     fi
+    # XXX: why is this printing instead of liking
     "$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh" <<< "$track_uris"
 done
