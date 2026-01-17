@@ -112,7 +112,7 @@ cp -f "$tmp" "$tmp2"
 timestamp "Removing any blacklist artists found in followed artists list"
 while read -r artist; do
     if grep -Fxq "$artist" "$srcdir/artists_followed.txt"; then
-        timestamp "removing artist $artist"
+        timestamp "Removing artist $artist"
         artist="${artist/\//\\/}"
         sed -i.bak "/^$artist/d" "$tmp2"
     fi
