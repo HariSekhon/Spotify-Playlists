@@ -44,7 +44,11 @@ Top level playlists are in human readable format `Artist - Track`.
 
 Spotify URI format playlists are under the `spotify/` directory for easy backup / restore, analysis or copying to new playlists.
 
-You can also migrate these playlists to any other music service of your choice using [Soundiiz](https://soundiiz.com/).
+You can also migrate these playlists to any other music service of your choice using [Soundiiz](https://soundiiz.com/),
+although that requires a paid plan.
+
+(I'd just write the code to push them to another music service if I wanted to,
+although if you were only doing a one time migration, paying for a month would be the most time-cost effective way to go).
 
 Hari Sekhon
 
