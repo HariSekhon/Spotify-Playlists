@@ -19,9 +19,9 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-#if [ -d "$srcdir/../bash-tools" ]; then
-#    bash_tools="$srcdir/../bash-tools"
-#fi
+if [ -d "$srcdir/../bash-tools" ]; then
+    bash_tools="$srcdir/../bash-tools"
+fi
 
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
@@ -73,6 +73,5 @@ for playlist; do
     if ! [[ "$answer" =~ ^(y|yes) ]]; then
         die "Aborting..."
     fi
-    # XXX: why is this printing instead of liking
     "$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh" <<< "$track_uris"
 done
