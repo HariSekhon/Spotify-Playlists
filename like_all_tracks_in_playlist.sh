@@ -77,7 +77,7 @@ for playlist; do
 done
 
 echo >&2
-timeestamp "Remember track comparisons are done using downloaded playlist URIs for spped - you must run this before retrying:"
+timestamp "Remember track comparisons are done using downloaded playlist URIs for spped - you must run this before retrying:"
 echo >&2
 echo "./backup.sh liked"
 echo >&2
