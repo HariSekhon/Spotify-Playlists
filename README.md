@@ -44,6 +44,8 @@ Top level playlists are in human readable format `Artist - Track`.
 
 Spotify URI format playlists are under the `spotify/` directory for easy backup / restore, analysis or copying to new playlists.
 
+You can also migrate these playlists to any other music service of your choice using [Soundiiz](https://soundiiz.com/).
+
 Hari Sekhon
 
 [![Spotify Profile](https://img.shields.io/badge/Spotify%20Profile-HariSekhon-brightgreen?logo=spotify&style=social)](https://open.spotify.com/user/harisekhon)
