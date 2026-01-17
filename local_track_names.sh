@@ -48,5 +48,6 @@ urldecode.sh |
 sed '
     s/+/ /g;
     s/::/ - /g;
+    s/:/ /g;
 ' |
 sort -fu
