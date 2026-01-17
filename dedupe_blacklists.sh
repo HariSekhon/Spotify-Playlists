@@ -38,9 +38,11 @@ export SPOTIFY_PRIVATE=1
 spotify_token
 
 blacklists=()
+
 while read -r blacklist; do
     blacklists+=("$blacklist")
 done < <(
     grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
 )
+
 "$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
