@@ -51,6 +51,10 @@ filename="$srcdir/private/blacklisted_artists.txt"
 
 trap_cmd 'echo ERROR'
 
+SECONDS=0
+
+tmp="$(mktemp)"
+
 # TODO: dedupe this with tracks_already_in_playlists.sh, move to lib/spotify.sh or rework the logic to be simpler
 core_playlists=()
 while read -r playlist; do
@@ -74,10 +78,13 @@ done < <(
 {
     #for blacklist in $(SPOTIFY_PRIVATE=1 "$bash_tools/spotify/spotify_playlists.sh" | cut -d' ' -f2- | sed 's/^[[:space:]]*//' | grep '^Blacklist'); do
     # quicker
-    for blacklist in Blacklist{,2,3}; do
+    #for blacklist in Blacklist{,2,3}; do
+    while read -r blacklist; do
         timestamp "Getting list of artists with >= $threshold tracks in $blacklist"
         "$bash_tools/spotify/spotify_playlist_artists.sh" "$blacklist" || exit 1
-    done
+    done < <(
+        grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
+    )
 } |
 sort |
 uniq -c |
@@ -92,22 +99,22 @@ while read -r count artist; do
     grep -Fq "$artist" "${core_playlists[@]}" ||
     echo "$artist"
 done |
-sort -f > "$filename" || :
+sort -fu > "$tmp" || :
 # || : to silence break exit code from loop above
 
 timestamp "Deduping blacklisted artists"
 
-tmp="$(mktemp)"
+tmp2="$(mktemp)"
 
-sort -fu "$filename" > "$tmp"
-
-cp -f "$tmp" "$filename"
+# need to split the input and output files to avoid weird race conditions
+cp -f "$tmp" "$tmp2"
 
 timestamp "Removing any blacklist artists found in followed artists list"
 while read -r artist; do
     if grep -Fxq "$artist" "$srcdir/artists_followed.txt"; then
         timestamp "removing artist $artist"
-        sed -i.bak "/^$artist^/d" "$filename"
+        artist="${artist/\//\\/}"
+        sed -i.bak "/^$artist/d" "$tmp2"
     fi
 done < "$tmp"
 
@@ -115,13 +122,14 @@ timestamp "Removing any pre-existing blacklisted artists that have had tracks ad
 while read -r artist; do
     if grep -Fq "$artist" "${core_playlists[@]}"; then
         timestamp "removing artist $artist"
-        sed -i.bak "/^$artist^/d" "$filename"
+        artist="${artist/\//\\/}"
+        sed -i.bak "/^$artist/d" "$tmp2"
     fi
 done < "$tmp"
 
-rm -f "$tmp"
+mv -f "$tmp2" "$filename"
 
 untrap
-timestamp "Finished generating artist blacklist"
+timestamp "Finished generating artist blacklists in $SECONDS secs"
 
 #cat "$filename"
