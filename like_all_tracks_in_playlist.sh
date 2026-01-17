@@ -76,6 +76,7 @@ for playlist; do
     "$bash_tools/spotify/spotify_set_tracks_uri_to_liked.sh" <<< "$track_uris"
 done
 
+timestamp "Completed Liking Songs"
 echo >&2
 timestamp "Remember track comparisons are done using downloaded playlist URIs for spped - you must run this before retrying:"
 echo >&2
