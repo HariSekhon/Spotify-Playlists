@@ -30,6 +30,7 @@ fi
 export SPOTIFY_PRIVATE=1
 export SPOTIFY_PRIVATE_ONLY=1
 unset SPOTIFY_PUBLIC_ONLY &>/dev/null || :
+export NO_LIKED_PLAYLIST=1  # we back this up in the public list now, don't waste 5 minutes downloading it again
 
 # include followed playlists both for getting a full playlist.txt and also for using for discover_blacklisted.sh percentages
 export SPOTIFY_PLAYLISTS_FOLLOWED=1
