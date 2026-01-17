@@ -19,7 +19,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-# shellcheck disable=SC1090
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
@@ -37,4 +37,10 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" Blacklist2 Blacklist
+blacklists=()
+while read -r blacklist; do
+    blacklists+=("$blacklist")
+done < <(
+    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
+)
+"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
