@@ -45,4 +45,5 @@ sed '
     s/:[[:digit:]]*$//
     ' |
 urldecode.sh |
-sed 's/+/ /g'
+sed 's/+/ /g' |
+sort -fu
