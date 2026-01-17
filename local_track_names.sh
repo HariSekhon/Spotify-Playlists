@@ -39,7 +39,7 @@ help_usage "$@"
 
 no_more_args "$@"
 
-git grep -h spotify:local: |
+git grep -h '^spotify:local:' |
 sed '
     s/spotify:local:*//;
     s/:[[:digit:]]*$//
