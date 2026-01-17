@@ -37,7 +37,7 @@ usage_args=""
 
 help_usage "$@"
 
-min_args 1 "$@"
+no_more_args "$@"
 
 git grep -h spotify:local: |
 sed '
