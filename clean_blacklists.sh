@@ -47,6 +47,9 @@ spotify_token
 
 export CLEANING_BLACKLISTS=1
 
-for playlist in Blacklist{,2,3}; do
-    "$srcdir/delete_tracks_already_in_playlists.sh" "$playlist"
-done
+#for playlist in Blacklist{,2,3}; do
+while read -r blacklist; do
+    "$srcdir/delete_tracks_already_in_playlists.sh" "$blacklist"
+done < <(
+    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
+)
