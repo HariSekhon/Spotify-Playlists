@@ -79,5 +79,5 @@ done
 echo >&2
 timestamp "Remember track comparisons are done using downloaded playlist URIs for spped - you must run this before retrying:"
 echo >&2
-echo "./backup.sh liked"
+echo "./backup.sh liked" >&2
 echo >&2
