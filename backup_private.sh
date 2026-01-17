@@ -56,7 +56,7 @@ fi
 
 timestamp "Backing up list of Spotify private playlists to $srcdir/private/spotify/playlists.txt"
 tmp="$(mktemp)"
-SPOTIFY_PLAYLISTS_FOLLOWED=1 "$bash_tools/spotify/spotify_playlists.sh" > "$tmp"
+"$bash_tools/spotify/spotify_playlists.sh" > "$tmp"
 mv -f "$tmp" "$SPOTIFY_BACKUP_DIR/spotify/playlists.txt"
 echo >&2
 
