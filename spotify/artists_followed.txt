@@ -31,6 +31,7 @@ spotify:artist:0NWLoTHkDz70WnSea4YhjA
 spotify:artist:0NxhAEPOSeCg6vypFr7yjU
 spotify:artist:0oJM3iJjMdzgsd4z5VHQvw
 spotify:artist:0qLNsNKm8bQcMoRFkR8Hmh
+spotify:artist:0QR764k0D36npmTMWx5bft
 spotify:artist:0SfsnGyD8FpIN4U4WCkBZ5
 spotify:artist:0sQ1wgSdRpoysgsa1VnI4G
 spotify:artist:0SwO7SWeDHJijQ3XNS7xEE
