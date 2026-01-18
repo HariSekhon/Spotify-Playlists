@@ -154,7 +154,7 @@ _(you're welcome to connect with me on LinkedIn)_
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
 - [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
 - [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
-- [Guitar 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
+- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
 - [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
 - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
 - [R & B Classics 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
@@ -170,7 +170,7 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Pop Mega-Mix 2 🥳 🎉](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
   overspill because Spotify limits playlists to 10,000 tracks.
   The first Pop Mega-Mix playlist is better since it sucked up most of the best known popular songs first
-- [Love Island](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
+- [Love Island Mega-Mix](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
   music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
 - [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
 - [Jamaican - Reggae - Riddim 🇯🇲 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
