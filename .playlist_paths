@@ -1,0 +1,38 @@
+#
+#  Author: Hari Sekhon
+#  Date: 2026-01-21 16:22:51 -0500 (Wed, 21 Jan 2026)
+#
+#  vim: set noexpandtab tabstop=8 shiftwidth=8 softtabstop=0 :
+#
+#  https://github.com/HariSekhon/Spotify-Playlists
+#
+#  License: see accompanying Hari Sekhon LICENSE file
+#
+#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
+#
+#  https://www.linkedin.com/in/HariSekhon
+#
+
+# ============================================================================ #
+#          S p o t i f y   P l a y l i s t   P a t h   M a p p i n g s
+# ============================================================================ #
+
+# Because Spotify API doesn't expose the directories so we have to map them here
+
+# Avoids polluting the top level namespace by putting things like Love Island playlist episodes under subdirectories
+
+# Latest match in this file wins so put more specific matches at the bottom
+
+# Format:
+#
+# Playlist Regex	\t\t..	Directory_Path
+
+Love Island UK			Love_Island_UK/
+Love Island US			Love_Island_UK/
+
+# Use capture group of the season number to avoid creating a mapping for every new season
+Love Island UK Season \d+	Love_Island_UK/Season_\1/
+Love Island US Season \d+	Love_Island_US/Season_\1/
+
+#  YYYY MM
+2\d\d\d \d\d			Mixes_in_Time/
