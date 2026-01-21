@@ -68,7 +68,7 @@ process_playlist(){
     echo >&2
     "$bash_tools/spotify/spotify_playlist_top_artists.sh" "$playlist" |
     # don't waste our time with artists with only 1 track
-    sed '/^[[:space:]]*1[[;space:]]/d'
+    sed '/^[[:space:]]*1[[:space:]]/d'
     echo >&2
 }
 
