@@ -67,6 +67,8 @@ else
     safety_regex="New Playlist|TODO|Discover|Backlog"
 fi
 
+playlist="${playlist#private/}"
+
 if is_spotify_playlist_id "$playlist"; then
     timestamp "Resolving playlist ID to name"
     playlist_name="$("$bash_tools/spotify/spotify_playlist_id_to_name.sh" <<< "$playlist")"
@@ -83,7 +85,6 @@ fi
 
 delete_tracks_from_playlist(){
     local playlist_name="$1"
-    playlist_name="${playlist_name#private/}"
     shift || :
     local track_uris_to_delete
     local count
