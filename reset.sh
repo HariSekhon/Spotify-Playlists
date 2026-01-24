@@ -14,3 +14,6 @@ while read -r playlist; do
     echo "Resetting playlist: $playlist"
     git checkout "$playlist" "spotify/$playlist"
 done <<< "$playlists_to_reset"
+
+echo "Deleting temporary playlist pollution:"
+rm -vf Love\ I\ * spotify/Love\ I\ *
