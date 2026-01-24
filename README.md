@@ -38,17 +38,18 @@ An Epic collection of playlists built over a decade, using dozens of programs an
 </a>
 <br />
 
-If you know a great track that isn't in one of these playlists, open [an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) or message me on [LinkedIn](https://www.linkedin.com/in/HariSekhon/) to add it!
+If you know a great track that isn't in one of these playlists, open
+[an issue](https://github.com/HariSekhon/Spotify-Playlists/issues)
+or message me on [LinkedIn](https://www.linkedin.com/in/HariSekhon/) to add it!
 
 Top level playlists are in human readable format `Artist - Track`.
 
-Spotify URI format playlists are under the `spotify/` directory for easy backup / restore, analysis or copying to new playlists.
+Spotify URI format playlists are under the `spotify/` directory for easy backup / restore, analysis or copying to new
+playlists.
 
-You can also migrate these playlists to any other music service of your choice using [Soundiiz](https://soundiiz.com/),
-although that requires a paid plan.
-
-(I'd just write the code to push them to another music service if I wanted to,
-although if you were only doing a one time migration, paying for a month would be the most time-cost effective way to go).
+See [HariSekhon/Knowledge-Base Spotify page](https://github.com/HariSekhon/Knowledge-Base/blob/main/spotify.md) for
+tools and tips around the playlist management, backups, playlist migrations, Spotify API tools I've written and 3rd
+party tools.
 
 Hari Sekhon
 
