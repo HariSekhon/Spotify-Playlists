@@ -16,9 +16,9 @@ override BASH_TOOLS := $(shell test -d "$(PWD)/bash-tools" && echo "$(PWD)/../ba
 
 $(info Using bash-tools: $(BASH_TOOLS))
 
-ifneq ("$(wildcard $(BASH_TOOLS)/Makefile.in)", "")
+#ifneq ("$(wildcard $(BASH_TOOLS)/Makefile.in)", "")
 	include $(BASH_TOOLS)/Makefile.in
-endif
+#endif
 
 REPO := HariSekhon/Spotify-Playlists
 
@@ -98,7 +98,7 @@ updates: # backup commit
 	@# check internet is up before erroring out as I often launch this immediately after connecting to a wifi network
 	@# only to come back and find it has errored out before the network is fully up
 	@# waits for internet to become fully available checking IP Routing, DNS and Connectivity
-	@bash-tools/checks/check_internet.sh
+	@#bash-tools/checks/check_internet.sh
 	$(MAKE) backup
 	@echo
 	@echo
