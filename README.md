@@ -70,15 +70,22 @@ _(you're welcome to connect with me on LinkedIn)_
 
 - [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
   absolute favs across all genres
+  - [Elite Favourites 💯😎](https://open.spotify.com/playlist/215bzez43cnPzX1cFUNP17) -
+    the Best of the Best across all genres, a more elite subset of the Favourites playlist
 - [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
-  the ultimate driving upbeat pop mega mix
-- [Hot Love 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa)
+  the ultimate driving upbeat pop mega mix for road trips with your girlfriend
+- [Hot Love 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa) -
+  Pop-Dance based, for your hot girlfriend current or future
 - [Chill 😎](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk) -
   chill & pop tunes for work and life
 - [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
 - [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
+- [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
+  superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
 - [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
-- [Best Female Vocal Trance, Dance & Deep House ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt)
+- [Best Female Vocal Trance, Dance & Deep House ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt) -
+  the sound of hot white girls singing.
+  See also the Hot Love playlist above
 - [Best Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf) -
   best of the bigger [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
@@ -96,15 +103,15 @@ _(you're welcome to connect with me on LinkedIn)_
   legendary hip-hop to play while driving your
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
 - [Love Songs ❤️ ❤️ ❤️](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
-  traditional love songs for your sweetie
+  romantic love songs for your sweetie... they don't make them like this any more!
 - [Sensual 🍑 💦](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny) -
   for a nice evening in with the girlfriend, massage & more music
 - [Songs About Sex 🍑 💦](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc) -
-  for single guys with high testosterone in their prime, hip-hop based
+  for single guys with high testosterone on their way to mischief, hip-hop based
 - [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
-  for those late night bad boy journeys... for guys only, hip-hop based
+  for those late night bad boy journeys... hip-hop based
 - [Hip-Hop - Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
-  rhythm & vibes hip-hop, puts a bounce in your step
+  Beats & Bounce. _"Break Ya Neck bitches"_... as Busta Rhymes would say...
 - [Light Fun Feel Good 🥳 🎉](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY) -
   because sometimes you need to lighten up
 - [Best Motown & Soul 👻](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S) -
@@ -114,17 +121,18 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Club Bangers! 🥳 🎉](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX) -
   club music - upbeat dance, house, trance etc.
 - [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
-  disco music - inspired by the 70s onwards...
+  inspired by the 70s onwards...
 - [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
 - [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
-  driving home late at night and don't want to wake the kids up in the back...
+  soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’d let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Stripper Music 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E) - Pop & Hip-Hop based - because who doesn't love a 304...
-- [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa) - Hip-hop based cos they know what’s up, with modern Pop mixed in… a sign of the times that there are this many songs in this playlist...
-- [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) /
-  [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) -
-  that one person you always think of when listening to the first playlist - the second one is for those who haven't yet
+- [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa) - Hip-hop based cos they know what’s up, with modern Pop mixed in… a sign of the
+  times that there are this many songs in this playlist...
+- [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) -
+  that one person you always think of
+  - [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) - for those who haven't yet
 - [Defiance - Beat the Odds in Life 💪 🚀](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
   working out or on your economic grind, there is no more respectable man than he who rises from nothing
   to something through his own hard work and merit.
