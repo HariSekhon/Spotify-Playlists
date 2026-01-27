@@ -70,9 +70,9 @@ _(you're welcome to connect with me on LinkedIn)_
 
 - [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
   absolute favs across all genres
-- [Upbeat & Sexual Pop 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
+- [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
   the ultimate driving upbeat pop mega mix
-- [Hot Love 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa)
+- [Hot Love 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa)
 - [Chill 😎](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk) -
   chill & pop tunes for work and life
 - [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
@@ -103,7 +103,7 @@ _(you're welcome to connect with me on LinkedIn)_
   for single guys with high testosterone in their prime, hip-hop based
 - [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
   for those late night bad boy journeys... for guys only, hip-hop based
-- [Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
+- [Hip-Hop - Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
   rhythm & vibes hip-hop, puts a bounce in your step
 - [Light Fun Feel Good 🥳 🎉](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY) -
   because sometimes you need to lighten up
@@ -158,7 +158,7 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
 - [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
 - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
-- [R & B Classics 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
+- [R&B Classics 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
 - [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
 - [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
   Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
@@ -171,7 +171,7 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Pop Mega-Mix 2 🥳 🎉](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
   overspill because Spotify limits playlists to 10,000 tracks.
   The first Pop Mega-Mix playlist is better since it sucked up most of the best known popular songs first
-- [Love Island Mega-Mix](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
+- [Love Island Mega-Mix 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
   music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
 - [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
 - [Jamaican - Reggae - Riddim 🇯🇲 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
