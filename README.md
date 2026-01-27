@@ -127,8 +127,8 @@ _(you're welcome to connect with me on LinkedIn)_
   soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’d let her ruin your life because she’s hot… this is how we end up with beautiful babies
-- [Stripper Music 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E) - Pop & Hip-Hop based - because who doesn't love a 304...
-- [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa) -
+- [Stripper Music 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E) - Pop & Hip-Hop based - because who doesn't love a 304...
+- [These Hoes Ain’t Loyal 👩🏻‍🦰 👩🏼 👩🏻 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa) -
   Hip-hop based cos they know what’s up, with modern Pop mixed in… a sign of the times that there are this many songs
   in this playlist...
 - [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) -
@@ -153,7 +153,7 @@ _(you're welcome to connect with me on LinkedIn)_
 - [The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧 🥳 🎉](https://open.spotify.com/playlist/3Hw9hpJ2Wv8i11UelqnY90) -
   re-live the Best of the 90s - with lots of Dance, R&B and BritPop from the UK’s last golden age.
   See also the Brit Pop playlist below
-- [The 80s - The Greatest Decade in Human History! 👩🏻‍🦰👩🏼👩🏻😎 🥳 🎉](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03) -
+- [The 80s - The Greatest Decade in Human History! 👩🏻‍🦰 👩🏼 👩🏻 😎 🥳 🎉](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03) -
   the 80s was the greatest decade in human history - upbeat, iconic, beautiful - any songs in a positive 80s style are
   also welcome here
 - [The 70s - The Decade of Disco & Classics! 💃 🕺 😎 🥳 🎉](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP) -
@@ -210,7 +210,7 @@ Entire genres of songs which are decent but not elite enough to make the lists a
     not just the hottest women in the world, but they have some good music too,
     I love the sound of some of these... it's ok to be biased in favour of Slavic 😉
   - [German 🇩🇪 🇩🇪](https://open.spotify.com/playlist/1yFQ6k9XTTgH8hHLSihe0x)
-- [Indian](https://open.spotify.com/playlist/4lI3wat6kSg1aCJmB1cFKZ) -
+- [Indian 🇮🇳 🇮🇳](https://open.spotify.com/playlist/4lI3wat6kSg1aCJmB1cFKZ) -
   Indian music has its moments, especially that classic from Punjabi MC
 - [Greek 🇬🇷 🇬🇷 🇨🇾 🇨🇾](https://open.spotify.com/playlist/6OdOLWUK3heyapcaBv8i0f)
 - [K-Pop 🇰🇷 🇰🇷](https://open.spotify.com/playlist/7l3s3YoFntSJOAq7mHykes) - Korean pop music
