@@ -57,4 +57,5 @@ jobs:
     name: Validate
     uses: HariSekhon/GitHub-Actions/.github/workflows/validate.yaml@master
     with:
+      submodules: true
       debug: ${{ github.event.inputs.debug }}
