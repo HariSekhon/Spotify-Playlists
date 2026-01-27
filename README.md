@@ -132,8 +132,10 @@ _(you're welcome to connect with me on LinkedIn)_
   Hip-hop based cos they know what’s up, with modern Pop mixed in… a sign of the times that there are this many songs
   in this playlist...
 - [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) -
-  that one person you always think of
-  - [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) - for those who haven't yet
+  one of my greatest & deepest playlists. Everyone has that one person in life that messes them up for a long time...
+  these artists clearly felt it too...
+  - [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) - a playlist of heartbreaker
+    songs that even those who haven't had their heart broken can appreciate
 - [Defiance - Beat the Odds in Life 💪 🚀](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
   working out or on your economic grind, there is no more respectable man than he who rises from nothing
   to something through his own hard work and merit.
