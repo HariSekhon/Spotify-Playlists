@@ -128,8 +128,9 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’d let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Stripper Music 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E) - Pop & Hip-Hop based - because who doesn't love a 304...
-- [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa) - Hip-hop based cos they know what’s up, with modern Pop mixed in… a sign of the
-  times that there are this many songs in this playlist...
+- [These Hoes Ain’t Loyal 🍑💦](https://open.spotify.com/playlist/3pOlSQjbf69WsUpdvRq7Qa) -
+  Hip-hop based cos they know what’s up, with modern Pop mixed in… a sign of the times that there are this many songs
+  in this playlist...
 - [2023 01 - Heartbroken 💔 💔](https://open.spotify.com/playlist/3SPW5oxpVbBNvzdbWX5xEc) -
   that one person you always think of
   - [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) - for those who haven't yet
