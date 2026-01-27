@@ -61,15 +61,19 @@ _(you're welcome to connect with me on LinkedIn)_
 
 ## Quick Guide
 
-- Genre mega mixes (eg. `Pop / Dance`, `Hip-Hop / R&B`, `Rock / Metal`, `Electronica`, `Classical`, `Motown / Soul`, `Classics`, `Club`, `Disco!` etc)
-- `Best <Genre>` / `Elite ...` / `<special name>` - shorter highest quality playlists (these are the ones you really want, listed below)
+- Genre mega mixes (eg.
+  `Pop / Dance`, `Hip-Hop / R&B`, `Rock / Metal`, `Electronica`, `Classical`, `Motown / Soul`, `Classics`, `Club`,
+  `Disco!` etc)
+- `Best <Genre>` / `Elite ...` / `<special name>` -
+  shorter highest quality playlists (these are the ones you really want, listed below)
 - `Artist` specific playlists
-- Mixes in Time - `YYYY MM - <description>` date stamped mixes - stuff that was either hot at that time or that I discovered and listened to more at that time
+- Mixes in Time - `YYYY MM - <description>` date stamped mixes -
+  stuff that was either hot at that time or that I discovered and listened to more at that time
 
 ### Best of the Best
 
 - [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
-  absolute favs across all genres
+  absolute favs & well known songs across all genres
   - [Elite Favourites 💯😎](https://open.spotify.com/playlist/215bzez43cnPzX1cFUNP17) -
     the Best of the Best across all genres, a more elite subset of the Favourites playlist
 - [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
