@@ -94,7 +94,7 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Best Tunes & Instrumentals 🎹](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U) -
   instrumentals and songs mostly for the tune...
 - [Best Trance, Dance, Deep House 👩🏻‍🦰 👩🏼 👩🏻 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
-  best tunes and vocal trance, hot chick music
+  best tunes and vocals, hot white chick music
 - [Elite Percussive Rock & Electro Blues 🤘 🎸](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
 - [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
   legendary hip-hop to play while driving your
