@@ -143,16 +143,18 @@ _(you're welcome to connect with me on LinkedIn)_
 
 <!-- -->
 
-- [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss)
+- [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss) - Hits from the 2020s - mix of Pop-Dance, Rock, R&B & Hip-Hop
 - [The 2010s](https://open.spotify.com/playlist/6CJIkvDN4f1WMO9ZnJ6wr1) -
   the decade of the Tinder Dating Apocalypse... at least there is good music to enjoy in the decline!!
-- [The 2000s](https://open.spotify.com/playlist/10qqIUT4ahLBcpB1HNuToN)
+- [The 2000s](https://open.spotify.com/playlist/10qqIUT4ahLBcpB1HNuToN) - Hits from the 2000s - mix of Pop-Dance, Rock, R&B & Hip-Hop
 - [The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧 🥳 🎉](https://open.spotify.com/playlist/3Hw9hpJ2Wv8i11UelqnY90) -
-  re-live the Best of the 90s - with lots of Dance, R&B and BritPop from the UK’s last golden age
-- [The 80s - The Greatest Decade in Human History! 👩 😎 🥳 🎉](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03) -
+  re-live the Best of the 90s - with lots of Dance, R&B and BritPop from the UK’s last golden age.
+  See also the Brit Pop playlist below
+- [The 80s - The Greatest Decade in Human History! 👩🏻‍🦰👩🏼👩🏻😎 🥳 🎉](https://open.spotify.com/playlist/4wfnKcetnvEepYSJsnDD03) -
   the 80s was the greatest decade in human history - upbeat, iconic, beautiful - any songs in a positive 80s style are
   also welcome here
-- [The 70s - The Decade of Disco & Classics! 💃 🕺 😎 🥳 🎉](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP)
+- [The 70s - The Decade of Disco & Classics! 💃 🕺 😎 🥳 🎉](https://open.spotify.com/playlist/2E4lr63XpMvXTZQBqyTgSP) -
+  the Best of the 1970s - including Queen, Blondie, Bill Conti, Fleetwood Mac ...
 - [Brit Pop 🇬🇧 🇬🇧 🇬🇧](https://open.spotify.com/playlist/2gA1tjo1HsOJYTH1xFFQnh) -
   re-live the golden 90s indie bands like The Verve, Oasis, Pulp, Blur, Skunk Anansie, Texas and Ocean Colour Scene plus newer acts like Lily Allen, Blossom, Micky James
 
