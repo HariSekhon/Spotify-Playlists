@@ -73,7 +73,7 @@ _(you're welcome to connect with me on LinkedIn)_
 ### Best of the Best
 
 - [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
-  absolute favs & well known songs across all genres
+  absolute favs across all genres. If you only ever had one playlist in your life, this is it!
   - [Elite Favourites 💯😎](https://open.spotify.com/playlist/215bzez43cnPzX1cFUNP17) -
     the Best of the Best across all genres, a more elite subset of the Favourites playlist
 - [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
