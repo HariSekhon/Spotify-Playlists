@@ -79,3 +79,5 @@ if [ -d "$srcdir/private" ]; then
 
     commit_other_files
 fi
+
+git_diff_commit.sh core_playlists.txt aggregations/
