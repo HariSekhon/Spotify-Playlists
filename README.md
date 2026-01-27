@@ -181,22 +181,36 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Pop Mega-Mix 2 🥳 🎉](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
   overspill because Spotify limits playlists to 10,000 tracks.
   The first Pop Mega-Mix playlist is better since it sucked up most of the best known popular songs first
+- [Hip-Hop & R&B Mega-Mix 😎](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F)
+- [Rock Mega-Mix 🤘 🎸](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR)
 - [Love Island Mega-Mix 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
   music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
+- [Coffee Shops Mega-Mix ☕️ 🎷](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe) -
+  Easy Listening, Jazz, Lounge, Soft Pop... stuff you'd hear at Coffee Shops
 - [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
 - [Jamaican - Reggae - Riddim 🇯🇲 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
   by a half-Jamaican girl I used to know...
 - [Grime - UK Hip-Hop 🇬🇧 😎](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4) - British street hip-hop
-- [Hip-Hop & R&B Mega-Mix 😎](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F)
-- [Rock Mega-Mix 🤘 🎸](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR)
 - [Nu Metal 🤘 🎸](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5)
-- [Coffee Shops Mega-Mix ☕️ 🎷](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe) -
-  Easy Listening, Jazz, Lounge, Soft Pop... stuff you'd hear at Coffee Shops
-- [Latin American 🇧🇷 🇲🇽 🇦🇷 🇨🇴 🇻🇪](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2)
 - [Motown & Soul 👻](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU)
 - [Classics - Hits from Decades Gone By 🎩 🏛️](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
   mid to late 20th century classics and well known songs
 - [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
+
+### Ethnic Playlists
+
+- [Latin American 🇧🇷 🇲🇽 🇦🇷 🇨🇴 🇻🇪](https://open.spotify.com/playlist/3osMvBUe04HGxteJePjnN2)
+- [European 🇪🇺 🇫🇷 🇩🇪 🇵🇱 🇨🇿 🇸🇰 🇺🇦 🇷🇺](https://open.spotify.com/playlist/2l43mxXvRxPvnRIProV51A) -
+  European music - mainly French, German and Slavic - superset of those adjacent playlists
+  - [French 🇫🇷 🇫🇷 🥐 🥐](https://open.spotify.com/playlist/6gY4cc3pfESAxoK5c1esBf) - French language / accent songs
+  - [Slavic 🇵🇱 🇨🇿 🇸🇰 🇺🇦 🇷🇺](https://open.spotify.com/playlist/1AtOJhlPfN8ukhW0BwO3ww) -
+    not just the hottest women in the world, but they have some good music too,
+    I love the sound of some of these... it's ok to be biased in favour of Slavic 😉
+  - [German 🇩🇪 🇩🇪](https://open.spotify.com/playlist/1yFQ6k9XTTgH8hHLSihe0x)
+- [Indian](https://open.spotify.com/playlist/4lI3wat6kSg1aCJmB1cFKZ) -
+  Indian music has its moments, especially that classic from Punjabi MC
+- [Greek 🇬🇷 🇬🇷 🇨🇾 🇨🇾](https://open.spotify.com/playlist/6OdOLWUK3heyapcaBv8i0f)
+- [K-Pop 🇰🇷 🇰🇷](https://open.spotify.com/playlist/7l3s3YoFntSJOAq7mHykes) - Korean pop music
 
 ### Artists
 
