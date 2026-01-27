@@ -306,6 +306,7 @@ spotify:artist:6nxWCVXbOlEVRexSbLsTer
 spotify:artist:6ogn9necmbUdCppmNnGOdi
 spotify:artist:6olE6TJLqED3rqDCT0FyPh
 spotify:artist:6oZhc4ONSAMn6RYg6o6VWL
+spotify:artist:6Q6wl4T5osps79OPDuLjNJ
 spotify:artist:6RZUqkomCmb8zCRqc9eznB
 spotify:artist:6S0GHTqz5sxK5f9HtLXn9q
 spotify:artist:6SnMMbLQ4iS8WIyt3ksmCR
