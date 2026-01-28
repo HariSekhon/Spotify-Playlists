@@ -98,7 +98,7 @@ updates: # backup commit
 	@# check internet is up before erroring out as I often launch this immediately after connecting to a wifi network
 	@# only to come back and find it has errored out before the network is fully up
 	@# waits for internet to become fully available checking IP Routing, DNS and Connectivity
-	@$(BASH_TOOLS)/checks/check_internet.sh
+	@$(BASH_TOOLS)/checks/check_internet.sh && \
 	$(MAKE) backup
 	@echo
 	@echo
