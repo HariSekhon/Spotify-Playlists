@@ -61,7 +61,7 @@ backup: lazy-init
 	@# allow scripts to generate new tokens
 	#export SPOTIFY_ACCESS_TOKEN="$$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify/spotify_api_token.sh)"
 	@$(BASH_TOOLS)/checks/check_internet.sh && \
-	@SECONDS=0 && \
+	SECONDS=0 && \
 	./backup.sh && \
 	echo && \
 	echo && \
