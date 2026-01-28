@@ -16,4 +16,8 @@ while read -r playlist; do
 done <<< "$playlists_to_reset"
 
 echo "Deleting temporary playlist pollution:"
-rm -vf Love\ I\ * spotify/Love\ I\ *
+for dir in . spotify; do
+    rm -vf \
+        "$dir"/Love\ I\ * \
+        "$dir"/My\ Playlist\ #*
+done
