@@ -1,6 +1,7 @@
 spotify:artist:00FQb4jTyendYWaN8pK0wa
 spotify:artist:01QTIT5P1pFP3QnnFSdsJf
 spotify:artist:02kJSzxNuaWGqwubyUba0Z
+spotify:artist:062wPuKbdxVkXURZqv0Pgj
 spotify:artist:066X20Nz7iquqkkCW6Jxy6
 spotify:artist:06HL4z0CvFAxyc27GXpf02
 spotify:artist:06YQ6XwCdPUn8rAXV70gge
