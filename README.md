@@ -175,9 +175,9 @@ _(you're welcome to connect with me on LinkedIn)_
 - [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
 - [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
 - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
-- [R&B Classics 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
+- [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
 - [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
-- [MMA](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
+- [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
   Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
 
 ### Larger Genre Playlists
