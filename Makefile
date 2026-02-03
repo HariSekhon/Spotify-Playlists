@@ -114,7 +114,7 @@ update: updates
 
 .PHONY: artists
 artists:
-	backup_artists_followed.sh
+	"$(BASH_TOOLS)/spotify/spotify_backup_artists_followed.sh"
 
 .PHONY: playlists
 playlists:
