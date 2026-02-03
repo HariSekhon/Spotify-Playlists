@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -80,8 +81,27 @@ done < <(
     # quicker
     #for blacklist in Blacklist{,2,3}; do
     while read -r blacklist; do
-        timestamp "Getting list of artists with >= $threshold tracks in $blacklist"
-        "$bash_tools/spotify/spotify_playlist_artists.sh" "$blacklist" || exit 1
+        blacklisted_artists_file="$srcdir/private/.spotify_metadata/blacklisted_artists/$blacklist/artists.txt"
+        blacklisted_artists_snapshot_file="$srcdir/private/.spotify_metadata/blacklisted_artists/$blacklist/snapshot_id"
+        mkdir -p -v "$(dirname "$blacklisted_artists_snapshot_file")"
+        timestamp "Getting '$blacklist' snapshot id"
+        blacklisted_artists_snapshot_id="$("$bash_tools/spotify/spotify_playlist_snapshot_id.sh" "$blacklist")"
+        if [ -f "$blacklisted_artists_file" ] &&
+           [ -f "$blacklisted_artists_snapshot_file" ] &&
+           [ "$(cat "$blacklisted_artists_snapshot_file")" = "$blacklisted_artists_snapshot_id" ]; then
+            timestamp "$blacklist has not changed, reusing locally cached blacklisted artists file"
+        else
+            timestamp "Getting list of artists with >= $threshold tracks in $blacklist"
+            # shellcheck disable=SC2030
+            blacklisted_artists_tmp="$(mktemp)"
+            "$bash_tools/spotify/spotify_playlist_artists.sh" "$blacklist" |
+                sort -fu > "$blacklisted_artists_tmp" ||
+                exit 1
+            # shellcheck disable=SC2094
+            mv -f "$blacklisted_artists_tmp" "$blacklisted_artists_file" || exit 1
+            echo "$blacklisted_artists_snapshot_id" > "$blacklisted_artists_snapshot_file"
+        fi
+        cat "$blacklisted_artists_file"
     done < <(
         grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
     )
@@ -120,6 +140,10 @@ done < "$tmp"
 
 timestamp "Removing any pre-existing blacklisted artists that have had tracks added to core playlists"
 while read -r artist; do
+    # this is a substring match, so not quite as tight as it could be, but on balance of speed trade off
+    # it's better than having to iterate the tracks to get exact artist name which would be very slow
+    # XXX: caveat - if artist name has changed without playlist snapshot_id changing, then there will be a miss
+    # and the artist will not be removed from blacklisted artists
     if grep -Fq "$artist" "${core_playlists[@]}"; then
         timestamp "removing artist $artist"
         artist="${artist/\//\\/}"
