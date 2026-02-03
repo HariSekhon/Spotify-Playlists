@@ -221,6 +221,7 @@ spotify:artist:4tpUmLEVLCGFr93o8hFFIB
 spotify:artist:4tPyCwWrsvZ8OKYl7QRavL
 spotify:artist:4TrraAsitQKl821DQY42cZ
 spotify:artist:4tZwfgrHOc3mvqYlEYSvVi
+spotify:artist:4uKYbUZCaUr0KfiuOuIpRB
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4
 spotify:artist:4uRYpUQZrNrY5t8tAv3XrD
 spotify:artist:4Uwx6qzRn0kA9sz6cCDpBO
