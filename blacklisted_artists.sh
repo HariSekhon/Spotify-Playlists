@@ -52,7 +52,7 @@ cd "$srcdir"
 
 filename="$srcdir/private/blacklisted_artists.txt"
 
-trap_cmd 'echo ERROR'
+trap_cmd 'echo ERROR; exit 1'
 
 tmp="$(mktemp)"
 
@@ -84,7 +84,7 @@ done < <(
         blacklisted_artists_file="$srcdir/private/.spotify_metadata/blacklisted_artists/$blacklist/artists.txt"
         blacklisted_artists_snapshot_file="$srcdir/private/.spotify_metadata/blacklisted_artists/$blacklist/snapshot_id"
         mkdir -p -v "$(dirname "$blacklisted_artists_snapshot_file")"
-        timestamp "Getting '$blacklist' snapshot id"
+        timestamp "Getting $blacklist snapshot id"
         blacklisted_artists_snapshot_id="$("$bash_tools/spotify/spotify_playlist_snapshot_id.sh" "$blacklist")"
         if [ -f "$blacklisted_artists_file" ] &&
            [ -f "$blacklisted_artists_snapshot_file" ] &&
