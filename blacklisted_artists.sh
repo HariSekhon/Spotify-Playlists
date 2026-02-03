@@ -52,7 +52,8 @@ cd "$srcdir"
 
 filename="$srcdir/private/blacklisted_artists.txt"
 
-trap_cmd 'echo ERROR; exit 1'
+# not needed, a Control-C will exit without continuing anyway with exit code 130
+#trap_cmd 'echo ERROR; exit 1'
 
 tmp="$(mktemp)"
 
