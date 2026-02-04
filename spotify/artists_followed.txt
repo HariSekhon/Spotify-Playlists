@@ -210,6 +210,7 @@ spotify:artist:3koiLjNrgRTNbOwViDipeA	Marvin Gaye
 spotify:artist:1XkoF8ryArs86LZvFOkbyr	Mary J. Blige
 spotify:artist:1wiBLzTI7z9RUwEpNPdFT6	Mase
 spotify:artist:6FXMGgJwohJLUSr5nVlf9X	Massive Attack
+spotify:artist:3X1qJiLZsl7dysP9FY9UWp	Mati Sonntag
 spotify:artist:0xRXCcSX89eobfrshSVdyu	MEDUZA
 spotify:artist:181bsRPaVXVlUKXrxwZfHK	Megan Thee Stallion
 spotify:artist:6TIYQ3jFPwQSRmorSezPxX	mgk
