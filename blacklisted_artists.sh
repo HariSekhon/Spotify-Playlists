@@ -103,6 +103,7 @@ done < <(
             echo "$blacklisted_artists_snapshot_id" > "$blacklisted_artists_snapshot_file"
         fi
         cat "$blacklisted_artists_file"
+        echo >&2
     done < <(
         grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
     )
