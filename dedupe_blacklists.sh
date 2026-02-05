@@ -29,7 +29,7 @@ fi
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Deletes duplicates between blacklist playlists
+Deletes duplicate URIs in later Blacklist playlists
 "
 
 # used by usage() in lib/utils.sh
