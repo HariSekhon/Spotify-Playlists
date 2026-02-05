@@ -84,7 +84,7 @@ if [ "$count" = 0 ]; then
 fi
 
 echo
-echo "Tracks in playlist not currently 'Liked':"
+echo "Tracks in playlist(s) that are not currently 'Liked':"
 echo
 
 "$bash_tools/spotify/spotify_uri_to_name.sh" <<< "$track_uris"
