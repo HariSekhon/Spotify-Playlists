@@ -44,12 +44,12 @@ while read -r blacklist; do
     blacklists+=("$blacklist")
 done < <(
     # reverse sort so we remove the duplicates from the highest number Blacklist and leave the original one untouched
-    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort -r
+    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort -nr
 )
 
 while [ "${#blacklists[@]}" -gt 1 ]; do
     # pop off first item from array
-    blacklists=( "${blacklists[@]:1}" )
     timestamp "Removing exact duplicate URIs from: ${blacklists[0]}"
     "$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
+    blacklists=( "${blacklists[@]:1}" )
 done
