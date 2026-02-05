@@ -51,9 +51,21 @@ done < <(
     grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort -nr
 )
 
+# loop should end when we are down to last blacklist which should be the original Blacklist
 while [ "${#blacklists[@]}" -gt 1 ]; do
-    # pop off first item from array
-    timestamp "Removing exact duplicate URIs from: ${blacklists[0]}"
-    "$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
+
+    target_blacklist="${blacklists[0]}"
+
+    timestamp "Removing exact duplicate URIs from: $target_blacklist"
+
+    # Extremely inefficient as it's pulling the entire tracklist live while we have downloaded URI playlist copies
+    #"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
+
+    # Fast as it is just grepping local files
+    "$srcdir/track_uris_already_in_playlists.sh" "${blacklists[@]}" |
+    sort -u |
+    "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$target_blacklist"
+
+    # pop off first item from array - must be done at end of loop because we want the first item to be the first arg to delete from
     blacklists=( "${blacklists[@]:1}" )
 done
