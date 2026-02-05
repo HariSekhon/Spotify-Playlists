@@ -43,7 +43,12 @@ blacklists=()
 while read -r blacklist; do
     blacklists+=("$blacklist")
 done < <(
-    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
+    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort -r
 )
 
-"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
+while [ "${#blacklists[@]}" -gt 1 ]; do
+    # pop off first item from array
+    blacklists=( "${blacklists[@]:1}" )
+    timestamp "Removing exact duplicate URIs from: ${blacklists[0]}"
+    "$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
+done
