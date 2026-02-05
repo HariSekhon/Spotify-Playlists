@@ -43,6 +43,7 @@ blacklists=()
 while read -r blacklist; do
     blacklists+=("$blacklist")
 done < <(
+    # reverse sort so we remove the duplicates from the highest number Blacklist and leave the original one untouched
     grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort -r
 )
 
