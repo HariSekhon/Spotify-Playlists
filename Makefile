@@ -106,6 +106,8 @@ updates: # backup commit
 	@#$(MAKE) aggregate
 	@echo
 	@echo
+	./like_all_tracks_in_playlists.sh
+	@echo
 	$(MAKE) commit
 
 .PHONY: update
