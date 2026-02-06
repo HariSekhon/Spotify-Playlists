@@ -67,8 +67,6 @@ backup: lazy-init
 	echo && \
 	./backup_private.sh && \
 	echo && \
-	./dedupe_blacklist_uris.sh && \
-	echo && \
 	./update_playlist_names.sh && \
 	echo "Public + Private backups completed in $$SECONDS seconds"
 
@@ -139,6 +137,7 @@ discover:
 
 .PHONY: dedupe
 dedupe:
+	./dedupe_blacklist_uris.sh
 	./discover_backlog_dedupe.sh
 	./spotify_delete_duplicates_in_playlist.sh "My Shazam Tracks"
 
