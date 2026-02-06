@@ -36,7 +36,7 @@ export SPOTIFY_PUBLIC_ONLY=1
 
 git pull --no-edit
 
-if ! is_blank "${NO_QUIET_PLAYLISTS:-}"; then
+if is_blank "${NO_QUIET_PLAYLISTS:-}"; then
     export QUIET_UNCHANGED_PLAYLISTS=1
 fi
 
