@@ -69,6 +69,8 @@ echo >&2
 # done in public level
 #"$srcdir/backup_artists_followed.sh"
 
+export QUIET_UNCHANGED_PLAYLISTS=1
+
 "$bash_tools/spotify/spotify_backup.sh" "$@"
 echo >&2
 
