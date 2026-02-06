@@ -69,7 +69,9 @@ echo >&2
 # done in public level
 #"$srcdir/backup_artists_followed.sh"
 
-export QUIET_UNCHANGED_PLAYLISTS=1
+if ! is_blank "${NO_QUIET_PLAYLISTS:-}"; then
+    export QUIET_UNCHANGED_PLAYLISTS=1
+fi
 
 "$bash_tools/spotify/spotify_backup.sh" "$@"
 echo >&2
