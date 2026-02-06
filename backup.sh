@@ -36,6 +36,8 @@ export SPOTIFY_PUBLIC_ONLY=1
 
 git pull --no-edit
 
-export QUIET_UNCHANGED_PLAYLISTS=1
+if ! is_blank "${NO_QUIET_PLAYLISTS:-}"; then
+    export QUIET_UNCHANGED_PLAYLISTS=1
+fi
 
 exec "$bash_tools/spotify/spotify_backup.sh" "$@"
