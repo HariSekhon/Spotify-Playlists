@@ -69,7 +69,7 @@ echo >&2
 # done in public level
 #"$srcdir/backup_artists_followed.sh"
 
-if ! is_blank "${NO_QUIET_PLAYLISTS:-}"; then
+if is_blank "${NO_QUIET_PLAYLISTS:-}"; then
     export QUIET_UNCHANGED_PLAYLISTS=1
 fi
 
