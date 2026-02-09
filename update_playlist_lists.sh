@@ -47,7 +47,7 @@ playlist_file="$srcdir/spotify/playlists.txt"
 private_playlist_file="$srcdir/private/spotify/playlists.txt"
 
 update_playlist_file(){
-    local aggregate_playlist_file="$1"
+    local playlist_file="$1"
     local tmp
     tmp="$(mktemp)"
     awk -v playlist_file="$playlist_file" -v private_playlist_file="$private_playlist_file" '
@@ -99,9 +99,9 @@ update_playlist_file(){
             printf "ERROR: line is neither a known playlist ID nor a playlist name: %s\n", $0 > "/dev/stderr"
             exit 1
         }
-    ' "$aggregate_playlist_file" > "$tmp"
+    ' "$playlist_file" > "$tmp"
 
-    mv -f "$tmp" "$aggregate_playlist_file"
+    mv -f "$tmp" "$playlist_file"
 }
 
 for arg; do
