@@ -1,0 +1,5 @@
+# Path mappings: first column = directory name (tab), rest of line = ERE regex to match playlist name.
+# Spotify does not expose folder structure; this file recreates grouping in the backup directory.
+# First matching line wins. Blank lines and # comments are ignored.
+Best of Year	Best of [0-9]{4}
+Mixes in Time	^[0-9]{4}[[:space:]-][0-9]{2}
