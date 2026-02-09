@@ -58,7 +58,7 @@ update_playlist_file(){
                 $1 = ""
                 sub(/^[[:space:]]+/, "")
                 name[id] = $0
-                name_to_id[$0] = id
+                name_to_id[tolower($0)] = id
             }
             close(playlist_file)
 
@@ -67,7 +67,7 @@ update_playlist_file(){
                 $1 = ""
                 sub(/^[[:space:]]+/, "")
                 name[id] = $0
-                name_to_id[$0] = id
+                name_to_id[tolower($0)] = id
             }
             close(private_playlist_file)
         }
@@ -89,9 +89,9 @@ update_playlist_file(){
                 next
             }
 
-            # Whole line (trimmed) is a playlist name -> replace with id and name
-            if (line in name_to_id) {
-                id = name_to_id[line]
+            # Whole line (trimmed) is a playlist name -> replace with id and name (case insensitive)
+            if (tolower(line) in name_to_id) {
+                id = name_to_id[tolower(line)]
                 print id "\t" name[id]
                 next
             }
