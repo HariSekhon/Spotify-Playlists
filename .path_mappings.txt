@@ -1,6 +1,185 @@
 # Path mappings: first column = directory name (tab), rest of line = ERE regex to match playlist name.
 # Spotify does not expose folder structure; this file recreates grouping in the backup directory.
 # First matching line wins. Blank lines and # comments are ignored.
+Love Island		^Love\ Island
 Best of Year	^Best of [0-9]{4}$
 Mixes in Time	^[0-9]{4}[[:space:]-][0-9]{2}
-Love Island     ^Love\ Island
+Mixes in Time	Maya Baby
+
+Ethnic	European
+Ethnic	French
+Ethnic	Latin American
+Ethnic	Slavic
+Ethnic	German
+Ethnic	Indian
+Ethnic	Greek
+Ethnic	K-Pop
+
+Compilations, TV & Movies		Soundtrack
+Compilations, TV & Movies		Christmas
+Compilations, TV & Movies		Erotic Lounge
+Compilations, TV & Movies		Music We Can Fuck Too
+Compilations, TV & Movies		R\&B Slow Jamz 3 Discs
+Compilations, TV & Movies		Game Of Thrones
+Compilations, TV & Movies		Bones \(Original Television Soundtrack\)
+Compilations, TV & Movies		Cruel Intentions Soundtrack
+Compilations, TV & Movies		Dirty Dancing Soundtrack
+Compilations, TV & Movies		Rocky
+Compilations, TV & Movies		Songs of Anarchy
+Compilations, TV & Movies		Sons of Anarchy
+Compilations, TV & Movies		Stranger Things
+Compilations, TV & Movies		Matrix Reloaded
+Compilations, TV & Movies		Various Artists
+Compilations, TV & Movies		Boogie Nights
+Compilations, TV & Movies		Music From The Original Motion Picture
+
+Artists		2Pac
+Artists		3OH\!3
+Artists		A Perfect Circle
+Artists		AC/DC
+Artists		Alessia Cara
+Artists		Anastacia
+Artists		Beyoncé
+Artists		Beyonce
+Artists		Black Eyed Peas
+Artists		Blackmill
+Artists		Bloc Party
+Artists		Bon Jovi
+Artists		Bone Thugs n Harmony
+Artists		Busta Rhymes
+Artists		Chase \& Status
+Artists		Chemical Brothers
+Artists		Cheryl
+Artists		Chicane
+Artists		Childish Gambino
+Artists		Chlöe Howl
+Artists		Chris Webby
+Artists		Chromeo
+Artists		Coldplay
+Artists		Cover Drive
+Artists		Craig Armstrong
+Artists		Creed
+Artists		Cypress Hill
+Artists		DMX
+Artists		Daft Punk
+Artists		David Guetta
+Artists		Deadmau5
+Artists		Deftones
+Artists		Devlin
+Artists		Dj Loony
+Artists		Dr Dre
+Artists		Eamon
+Artists		Ellie Goulding
+Artists		Emeli Sandé
+Artists		Emeli Sande
+Artists		Eminem
+Artists		Eric Prydz
+Artists		Faith No More
+Artists		Fickle Friends
+Artists		Fleetwood Mac
+Artists		Flo Rida
+Artists		Floetry
+Artists		Florence \+ The Machine
+Artists		Foo Fighters
+Artists		Foxy Brown
+Artists		Frankee
+Artists		Freya Ridings
+Artists		Fugees
+Artists		Lauren Hill
+Artists		Wyclef Jean
+Artists		Garbage
+Artists		Goo Goo Dolls
+Artists		Guano Apes
+Artists		Guns N' Roses
+Artists		Gwen Stefani
+Artists		No Doubt
+Artists		Halsey
+Artists		Hinder
+Artists		Ice-T
+Artists		Idlewild
+Artists		Incubus
+Artists		Jay Sean
+Artists		Jay-Z
+Artists		Jeremih
+Artists		Kasabian
+Artists		Katy B
+Artists		Ke$ha
+Artists		Kevin Rudolf
+Artists		Keyshia Cole
+Artists		Kiesza
+Artists		Kings Of Leon
+Artists		KoRn
+Artists		Kylie Minogue
+Artists		Lady Gaga
+Artists		Lana Del Rey
+Artists		Lauryn Hill
+Artists		Lauren Hill
+Artists		Lil Wayne
+Artists		Lily Allen
+Artists		Limp Bizkit
+Artists		Linkin Park
+Artists		Lost Prophets
+Artists		Ludovico Einaudi
+Artists		Lupe Fiasco
+Artists		M83
+Artists		M83 Condensed
+Artists		Mariah Carey
+Artists		Marina and The Diamonds
+Artists		Marvin Gaye
+Artists		Michael Bolton
+Artists		Michael Jackson
+Artists		Moby
+Artists		My Darkest Days
+Artists		Nas
+Artists		Nero
+Artists		Nirvana
+Artists		Olly Murs
+Artists		P!nk
+Artists		Papa Roach
+Artists		Paramore
+Artists		Pearl Jam
+Artists		Pendulum
+Artists		Pet Shop Boys
+Artists		Placebo
+Artists		Prodigy
+Artists		Rage Against The Machine
+Artists		Rebecca Ferguson
+Artists		Red Hot Chili Peppers
+Artists		Republica
+Artists		Rihanna
+Artists		Rita Ora
+Artists		Robyn
+Artists		Royal Deluxe
+Artists		Saigon
+Artists		Saliva
+Artists		Savage Garden
+Artists		Sébastien Tellier
+Artists		Shapeshifters
+Artists		Siamese Sex Show
+Artists		Silverchair
+Artists		Simply Red
+Artists		Skunk Anansie
+Artists		Smashing Pumpkins
+Artists		Snoop Dog
+Artists		Snow Strippers
+Artists		Soulja Boy Tell'em
+Artists		Staind
+Artists		Stereophonics
+Artists		Steve Aoki
+Artists		Stevie Wonder
+Artists		Tami Chin
+Artists		Tami Chynn
+Artists		Texas
+Artists		The Death Row Era
+Artists		The Notorious B.I.G.
+Artists		The Script
+Artists		The Weeknd
+Artists		The Who
+Artists		The xx
+Artists		Theory Of A Deadman
+Artists		Thirteen Senses
+Artists		Three Days Grace
+Artists		Tina Cousins
+Artists		U2
+Artists		Warren G
+Artists		Zara Larsson
