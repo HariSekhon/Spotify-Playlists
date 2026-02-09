@@ -43,33 +43,33 @@ help_usage "$@"
 
 min_args 1 "$@"
 
-playlist_file="$srcdir/spotify/playlists.txt"
-private_playlist_file="$srcdir/private/spotify/playlists.txt"
+playlists_map="$srcdir/spotify/playlists.txt"
+private_playlists_map="$srcdir/private/spotify/playlists.txt"
 
 update_playlist_file(){
     local playlist_file="$1"
     local tmp
     tmp="$(mktemp)"
-    awk -v playlist_file="$playlist_file" -v private_playlist_file="$private_playlist_file" '
+    awk -v playlists_map="$playlists_map" -v private_playlists_map="$private_playlists_map" '
         # pre-load both public and private playlist files; build id -> name and name -> id
         BEGIN {
-            while ((getline < playlist_file) > 0) {
+            while ((getline < playlists_map) > 0) {
                 id = $1
                 $1 = ""
                 sub(/^[[:space:]]+/, "")
                 name[id] = $0
                 name_to_id[tolower($0)] = id
             }
-            close(playlist_file)
+            close(playlists_map)
 
-            while ((getline < private_playlist_file) > 0) {
+            while ((getline < private_playlists_map) > 0) {
                 id = $1
                 $1 = ""
                 sub(/^[[:space:]]+/, "")
                 name[id] = $0
                 name_to_id[tolower($0)] = id
             }
-            close(private_playlist_file)
+            close(private_playlists_map)
         }
 
         # preserve comments and blank lines verbatim
