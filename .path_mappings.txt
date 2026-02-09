@@ -3,3 +3,4 @@
 # First matching line wins. Blank lines and # comments are ignored.
 Best of Year	^Best of [0-9]{4}$
 Mixes in Time	^[0-9]{4}[[:space:]-][0-9]{2}
+Love Island     ^Love\ Island
