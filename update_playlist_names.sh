@@ -34,12 +34,12 @@ help_usage "$@"
 
 no_more_args "$@"
 
-timestamp "Calling update_readme_playlist_names.sh"
+timestamp "Updating README playlist names"
 "$srcdir/update_readme_playlist_names.sh"
 echo >&2
 
-timestamp "Calling update_core_playlist_names.sh"
-"$srcdir/update_core_playlist_names.sh"
+timestamp "Updating Core playlist names"
+"$srcdir/update_playlist_list.sh" "$srcdir/core_playlists.txt"
 
-timestamp "Calling update_aggregate_playlist_names.sh"
-"$srcdir/update_aggregate_playlist_names.sh"
+timestamp "Updating Aggregations playlist names"
+"$srcdir/update_playlist_list.sh" aggregations/*
