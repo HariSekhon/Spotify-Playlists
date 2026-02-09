@@ -39,7 +39,7 @@ timestamp "Updating README playlist names"
 echo >&2
 
 timestamp "Updating Core playlist names"
-"$srcdir/update_playlist_list.sh" "$srcdir/core_playlists.txt"
+"$srcdir/update_playlist_lists.sh" "$srcdir/core_playlists.txt"
 
 timestamp "Updating Aggregations playlist names"
-"$srcdir/update_playlist_list.sh" aggregations/*
+"$srcdir/update_playlist_lists.sh" aggregations/*
