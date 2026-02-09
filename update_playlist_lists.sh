@@ -51,21 +51,23 @@ update_playlist_file(){
     local tmp
     tmp="$(mktemp)"
     awk -v playlist_file="$playlist_file" -v private_playlist_file="$private_playlist_file" '
-        # pre-load both public and private playlist files and build hashmap of playlist_id -> playlist_name
+        # pre-load both public and private playlist files; build id -> name and name -> id
         BEGIN {
             while ((getline < playlist_file) > 0) {
                 id = $1
                 $1 = ""
-                sub(/^ /, "")
+                sub(/^[[:space:]]+/, "")
                 name[id] = $0
+                name_to_id[$0] = id
             }
             close(playlist_file)
 
             while ((getline < private_playlist_file) > 0) {
                 id = $1
                 $1 = ""
-                sub(/^ /, "")
+                sub(/^[[:space:]]+/, "")
                 name[id] = $0
+                name_to_id[$0] = id
             }
             close(private_playlist_file)
         }
@@ -77,16 +79,25 @@ update_playlist_file(){
         }
 
         {
+            line = $0
+            gsub(/^[[:space:]]+|[[:space:]]+$/, "", line)
             id = $1
 
-            if (!(id in name)) {
-                printf "ERROR: playlist ID not found in playlists file: %s\n", id > "/dev/stderr"
-                exit 1
+            # First field is a known playlist ID -> normalize to id + current name from map
+            if (id in name) {
+                print id "\t" name[id]
+                next
             }
 
-            # Replace everything after the ID with the current name
-            # (dumped from the Spotify API to the playlist files)
-            print id "\t" name[id]
+            # Whole line (trimmed) is a playlist name -> replace with id and name
+            if (line in name_to_id) {
+                id = name_to_id[line]
+                print id "\t" name[id]
+                next
+            }
+
+            printf "ERROR: line is neither a known playlist ID nor a playlist name: %s\n", $0 > "/dev/stderr"
+            exit 1
         }
     ' "$aggregate_playlist_file" > "$tmp"
 
