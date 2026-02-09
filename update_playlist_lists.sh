@@ -83,13 +83,13 @@ update_playlist_file(){
             gsub(/^[[:space:]]+|[[:space:]]+$/, "", line)
             id = $1
 
-            # First field is a known playlist ID -> normalize to id + current name from map
+            # if first field is a known playlist ID -> normalize to id + current name from playlists map
             if (id in name) {
                 print id "\t" name[id]
                 next
             }
 
-            # Whole line (trimmed) is a playlist name -> replace with id and name (case insensitive)
+            # if whole line (trimmed) is a playlist name -> replace it with id and name (case insensitive)
             if (tolower(line) in name_to_id) {
                 id = name_to_id[tolower(line)]
                 print id "\t" name[id]
