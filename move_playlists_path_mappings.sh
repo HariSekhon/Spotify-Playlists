@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -44,10 +45,12 @@ mappings_file="$srcdir/.path_mappings.txt"
 mappings="$("$bash_tools/bin/decomment.sh" "$mappings_file")"
 
 while read -r _id playlist; do
-    while read -r dir regex; do
-        if [[ "$playlist" =~ $regex ]]; then
-            "$srcdir/rename.sh" "$playlist" "$dir/"
-            break
-        fi
-    done <<< "$mappings"
+    if [ -f "$playlist" ]; then
+        while read -r dir regex; do
+            if [[ "$playlist" =~ $regex ]]; then
+                "$srcdir/rename.sh" "$playlist" "$dir/"
+                break
+            fi
+        done <<< "$mappings"
+    fi
 done < "$srcdir/spotify/playlists.txt"
