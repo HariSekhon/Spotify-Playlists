@@ -69,11 +69,19 @@ echo >&2
 # done in public level
 #"$srcdir/backup_artists_followed.sh"
 
-if is_blank "${NO_QUIET_PLAYLISTS:-}"; then
-    export QUIET_UNCHANGED_PLAYLISTS=1
+# stripping leading directories so I can use path autocompletion in shell but pass the playlist base filenames
+args=()
+for arg; do
+    args+=("${arg##*/}")
+done
+
+if [ $# -eq 0 ]; then
+    if is_blank "${NO_QUIET_PLAYLISTS:-}"; then
+        export QUIET_UNCHANGED_PLAYLISTS=1
+    fi
 fi
 
-"$bash_tools/spotify/spotify_backup.sh" "$@"
+"$bash_tools/spotify/spotify_backup.sh" "${args[@]}"
 echo >&2
 
 timestamp "Regenerating Blacklisted Artists"
