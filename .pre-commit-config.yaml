@@ -19,7 +19,7 @@
 # ============================================================================ #
 
 ---
-fail_fast: false
+fail_fast: true
 #exclude: *.tmp$
 
 repos:
@@ -30,6 +30,7 @@ repos:
     rev: v4.6.0
     hooks:
       - id: check-yaml
+        files: \.(yml|yaml)$
       # Common errors
       #- id: end-of-file-fixer  # ruins .gitignore Icon\r
       - id: trailing-whitespace
@@ -62,6 +63,9 @@ repos:
     rev: 5357e18
     hooks:
       - id: git-secrets
+        args: ['--no-index']
+        pass_filenames: true
+        stages: [push]
 
   - repo: https://github.com/markdownlint/markdownlint
     rev: v0.12.0
@@ -70,6 +74,6 @@ repos:
         name: Markdownlint
         description: Run markdownlint on your Markdown files
         entry: mdl
-        args: [-s, .mdl.rb]
+        args: [-s, .mdl.rb, --quiet]
         language: ruby
         files: \.(md|mdown|markdown)$
