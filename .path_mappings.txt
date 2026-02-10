@@ -86,8 +86,6 @@ Artists		Foxy Brown
 Artists		Frankee
 Artists		Freya Ridings
 Artists		Fugees
-Artists		Lauren Hill
-Artists		Wyclef Jean
 Artists		Garbage
 Artists		Goo Goo Dolls
 Artists		Guano Apes
@@ -183,4 +181,5 @@ Artists		Three Days Grace
 Artists		Tina Cousins
 Artists		U2
 Artists		Warren G
+Artists		Wyclef Jean
 Artists		Zara Larsson
