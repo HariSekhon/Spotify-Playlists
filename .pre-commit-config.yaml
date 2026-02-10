@@ -65,7 +65,7 @@ repos:
       - id: git-secrets
         args: ['--no-index']
         pass_filenames: true
-        stages: [push]
+        stages: [pre-push]
 
   - repo: https://github.com/markdownlint/markdownlint
     rev: v0.12.0
