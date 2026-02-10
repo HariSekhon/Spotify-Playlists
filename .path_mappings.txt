@@ -80,7 +80,7 @@ Artists		Fickle Friends
 Artists		Fleetwood Mac
 Artists		Flo Rida
 Artists		Floetry
-Artists		Florence + The Machine
+Artists		Florence \+ The Machine
 Artists		Foo Fighters
 Artists		Foxy Brown
 Artists		Frankee
