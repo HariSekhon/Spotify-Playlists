@@ -78,13 +78,11 @@ while IFS= read -r line; do
     fi
 
     # Validate regex
-    if ! printf 'test\n' | grep -Eq "$regex" 2>/dev/null; then
-        if ! printf 'test\n' | grep -Eq '.' 2>/dev/null; then
-            echo "ERROR: Line $lineno: invalid regex" >&2
-            echo "  $regex" >&2
-            echo
-            errors=$((errors + 1))
-        fi
+    if grep -Eq "$regex" /dev/null &>/dev/null; then
+        echo "ERROR: Line $lineno: invalid regex" >&2
+        echo "  $regex" >&2
+        echo
+        errors=$((errors + 1))
     fi
 
     # Duplicate detection
