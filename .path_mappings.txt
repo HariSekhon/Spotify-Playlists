@@ -7,14 +7,14 @@ Best of Year	^Best of [0-9]{4}$
 Mixes in Time	^[0-9]{4}[[:space:]-][0-9]{2}
 Mixes in Time	Maya Baby
 
-Ethnic	European
-Ethnic	French
-Ethnic	Latin American
-Ethnic	Slavic
-Ethnic	German
-Ethnic	Indian
-Ethnic	Greek
-Ethnic	K-Pop
+Ethnic		European
+Ethnic		French
+Ethnic		Latin American
+Ethnic		Slavic
+Ethnic		German
+Ethnic		Indian
+Ethnic		Greek
+Ethnic		K-Pop
 
 Compilations, TV & Movies		Soundtrack
 Compilations, TV & Movies		Christmas
