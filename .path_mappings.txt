@@ -1,6 +1,33 @@
-# Path mappings: first column = directory name (tab), rest of line = ERE regex to match playlist name.
-# Spotify does not expose folder structure; this file recreates grouping in the backup directory.
-# First matching line wins. Blank lines and # comments are ignored.
+#  vim:noet
+#
+#  Author: Hari Sekhon
+#  Date: 2026-02-10 15:14:28 -0300 (Tue, 10 Feb 2026)
+#
+#  https///github.com/HariSekhon/Spotify-Playlists
+#
+#  License: see accompanying Hari Sekhon LICENSE file
+#
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback
+#
+#  https://www.linkedin.com/in/HariSekhon
+#
+
+# ============================================================================ #
+#                  P l a y l i s t   P a t h   M a p p i n g s
+# ============================================================================ #
+
+# Spotify does not expose folder structure so this file recreates the mappings explicitly
+#
+# Used by spotify_backup_playlist.sh in adjacent DevOps-Bash-tools repo that handles these backups
+#
+# Format:
+#
+#  <dir>  \t  <literal_or_ERE_regex_of_playlist_name>
+#
+# First matching line wins
+#
+# Blank and hash # comment lines are ignored
 
 Love Island		^Love Island
 Best of Year	^Best of [0-9]{4}$
