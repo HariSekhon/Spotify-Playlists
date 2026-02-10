@@ -78,13 +78,15 @@ while IFS= read -r line; do
     fi
 
     # Validate regex
-    if grep -Eq "$regex" /dev/null &>/dev/null; then
-        echo "ERROR: Line $lineno: invalid regex" >&2
-        echo "  $regex" >&2
-        echo
-        errors=$((errors + 1))
+    if ! grep -E "$regex" /dev/null >/dev/null 2>&1; then
+        returncode=$?
+        if [ "$returncode" -eq 2 ]; then
+            echo "ERROR: Line $lineno: invalid regex" >&2
+            echo "  $regex" >&2
+            echo
+            errors=$((errors + 1))
+        fi
     fi
-
     # Duplicate detection
     for prev in "${seen_regex[@]:-}"; do
         if [ "$prev" = "$regex" ]; then
