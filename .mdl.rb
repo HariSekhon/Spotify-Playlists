@@ -25,6 +25,7 @@ exclude_rule 'MD013'  # long lines cannot be split if they are URLs
 #exclude_rule 'MD024'  # Multiple headers with the same content
 #exclude_rule 'MD025'
 #exclude_rule 'MD026'  # Trailing punctuation in header - sometimes I want to do etc. or ... at the end of a heading
+exclude_rule 'MD029'  # Ordered list item prefix - BS - I want to continue numbering after an intersecting comment
 #exclude_rule 'MD031'
 #exclude_rule 'MD032'
 exclude_rule 'MD033'  # inline HTML is important for formatting
