@@ -47,7 +47,7 @@ mappings="$("$bash_tools/bin/decomment.sh" "$mappings_file")"
 while read -r _id playlist; do
     if [ -f "$playlist" ]; then
         while read -r dir regex; do
-            if [[ "$playlist" =~ $regex ]]; then
+            if [ "$playlist" = "$regex" ] || [[ "$playlist" =~ $regex ]]; then
                 "$srcdir/rename.sh" "$playlist" "$dir/"
                 break
             fi
