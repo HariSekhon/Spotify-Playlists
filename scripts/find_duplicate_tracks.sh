@@ -30,6 +30,9 @@ fi
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/utils.sh"
 
+# shellcheck disable=SC1090,SC1091
+. "$srcdir/lib/utils.sh"
+
 # shellcheck disable=SC2034
 usage_description="
 Finds duplicate track URIs and track names in the local playlist files
@@ -50,15 +53,11 @@ find_duplicate_tracks(){
     local playlist_name="$1"
     # converts slashes to unicode so filenames look like the playlists
     filename="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" "$playlist_name")"
-    for x in "$filename" "$srcdir/../spotify/$filename"; do
-        if ! [ -f "$x" ]; then
-            die "File not found: $x"
-        fi
-    done
+    filename="$(find_playlist_file "$filename")"
     uri_dups="$(sort "$srcdir/../spotify/$filename" | uniq -d -i)"
     if not_blank "$uri_dups"; then
         echo
-        echo "* Duplicates in $srcdir/../spotify/$filename:"
+        echo "* Duplicates in $filename:"
         echo
         echo "$uri_dups"
         echo
