@@ -11,7 +11,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -20,8 +21,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/utils.sh"
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/utils.sh"
 
 # shellcheck disable=SC2034
 usage_description="
@@ -37,21 +44,21 @@ usage_args="playlist1 playlist2 ..."
 
 help_usage "$@"
 
-cd "$srcdir"
+cd "$srcdir/.."
 
 find_duplicate_tracks(){
     local playlist_name="$1"
     # converts slashes to unicode so filenames look like the playlists
-    filename="$("$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh" "$playlist_name")"
-    for x in "$filename" "spotify/$filename"; do
+    filename="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" "$playlist_name")"
+    for x in "$filename" "$srcdir/../spotify/$filename"; do
         if ! [ -f "$x" ]; then
             die "File not found: $x"
         fi
     done
-    uri_dups="$(sort "spotify/$filename" | uniq -d -i)"
+    uri_dups="$(sort "$srcdir/../spotify/$filename" | uniq -d -i)"
     if not_blank "$uri_dups"; then
         echo
-        echo "* Duplicates in spotify/$filename:"
+        echo "* Duplicates in $srcdir/../spotify/$filename:"
         echo
         echo "$uri_dups"
         echo
@@ -73,5 +80,5 @@ if [ $# -gt 0 ]; then
 else
     while read -r playlist_name; do
         find_duplicate_tracks "$playlist_name"
-    done < playlists.txt
+    done < "$srcdir/../playlists.txt
 fi
