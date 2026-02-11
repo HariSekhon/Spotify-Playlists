@@ -17,7 +17,7 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-cd "$srcdir"
+cd "$srcdir/.."
 
 echo "Checking all playlists in playlists.txt are downloaded:"
 while read -r playlist_file; do
@@ -32,8 +32,8 @@ while read -r playlist_file; do
     fi
     echo -n '.'
 done < <(
-    sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
-    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+    sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/../playlists.txt" |
+    "$srcdir/../bash-tools/spotify/spotify_playlist_to_filename.sh"
 )
 
 echo
