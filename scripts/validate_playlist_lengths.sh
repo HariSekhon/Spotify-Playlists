@@ -17,19 +17,19 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-cd "$srcdir"
+bash_tools="$srcdir/../bash-tools"
 
-bash_tools="$srcdir/bash-tools"
-
-if [ -d "$srcdir/../bash-tools" ]; then
-    bash_tools="$srcdir/../bash-tools"
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
 fi
 
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/utils.sh"
 
+cd "$srcdir/.."
+
 playlist_count(){
-    wc -l "$srcdir/playlists.txt" | awk '{print $1}'
+    wc -l "playlists.txt" | awk '{print $1}'
 }
 
 playlist_count="$(playlist_count)"
@@ -78,7 +78,7 @@ else
     while read -r playlist; do
         validate_playlist_length "$playlist"
     done < <(
-        sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
+        sed 's/#.*//; /^[[:space:]]*$/d' "playlists.txt" |
         "$bash_tools/spotify/spotify_playlist_to_filename.sh" |
         tr '\n' '\0' |
         xargs -0 wc -l |
