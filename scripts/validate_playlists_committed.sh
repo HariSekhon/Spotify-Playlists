@@ -17,6 +17,12 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
 cd "$srcdir/.."
 
 check(){
@@ -39,7 +45,7 @@ while read -r playlist_file; do
     check "spotify/$playlist_file"
 done < <(
     sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/../playlists.txt" |
-    "$srcdir/../bash-tools/spotify/spotify_playlist_to_filename.sh"
+    "$bash_tools/spotify/spotify_playlist_to_filename.sh"
 )
 
 echo
