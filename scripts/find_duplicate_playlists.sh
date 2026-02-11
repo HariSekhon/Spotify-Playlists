@@ -42,17 +42,16 @@ cd "$srcdir"
 
 exitcode=0
 
-for playlists_file in "$srcdir/../playlists.txt" "$srcdir/../private/playlists.txt"; do
-    if [ -f "$playlists_file" ]; then
-        duplicate_playlists="$(sort "$playlists_file" | uniq -d)"
-        if [ -n "$duplicate_playlists" ]; then
-            echo "Duplicate playlists in $playlists_file:"
-            echo
-            echo "$duplicate_playlists"
-            echo
-            exitcode=1
-        fi
-    fi
-done
+duplicate_playlists="$(
+    sort "$srcdir/../playlists.txt" "$srcdir/../private/playlists.txt" |
+    uniq -d
+)"
+if [ -n "$duplicate_playlists" ]; then
+    echo "Duplicate playlists:"
+    echo
+    echo "$duplicate_playlists"
+    echo
+    exitcode=1
+fi
 
 exit $exitcode
