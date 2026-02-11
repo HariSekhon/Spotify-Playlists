@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -17,9 +18,13 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
 
-# shellcheck disable=SC1090
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
@@ -54,7 +59,7 @@ time {
     # also, will hit "400 Could not remove tracks, please check parameters." if you delete any tracks from Discover Backlog while this is running it'll throw the track positions off
     #for _ in {1..6}; do
         # retries are now done in spotify_api.sh
-        "$srcdir/bash-tools/spotify/spotify_delete_any_duplicates_in_playlist.sh" "$discover_backlog_playlist_id"  # || continue
+        "$bash_tools/spotify/spotify_delete_any_duplicates_in_playlist.sh" "$discover_backlog_playlist_id"  # || continue
     #    break
     #done
 }
@@ -65,7 +70,7 @@ time {
     # Spotify's API gets random errors, so need to retry a couple times, more for huge discover backlog loaded (now 100+ playlists loaded > 10,000 tracks)
     #for _ in {1..6}; do
         # retries are now done in spotify_api.sh
-        "$srcdir/delete_tracks_already_in_playlists.sh" "$discover_backlog_playlist_id"  # || continue
+        "$srcdir/../delete_tracks_already_in_playlists.sh" "$discover_backlog_playlist_id"  # || continue
     #    break
     #done
 }
