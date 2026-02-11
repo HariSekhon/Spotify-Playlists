@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -17,9 +18,13 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
 
-# shellcheck disable=SC1090
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
@@ -39,14 +44,14 @@ help_usage "$@"
 
 #spotify_token
 
-cd "$srcdir"
+cd "$srcdir/.."
 
 make pull >&2
 
-discover_playlists="$(sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/private/discover_playlists.txt")"
+discover_playlists="$("$bash_tools/bin/decomment.sh" "$srcdir/../private/discover_playlists.txt")"
 
-if ! [ -f private/spotify/Blacklist ]; then
-    die "private/spotify/Blacklist not found! Have you checked out the private repo?"
+if ! [ -f "$srcdir/../private/spotify/Blacklist" ]; then
+    die "$srcdir/../private/spotify/Blacklist not found! Have you checked out the private repo?"
 fi
 
 # need GNU grep for -f ... Mac's grep is buggy
@@ -57,7 +62,7 @@ if is_mac; then
 fi
 
 # XXX: pre-load normalized blacklisted tracks for comparison
-blacklisted_tracks="$("$srcdir/spotify-tools/normalize_tracknames.pl" private/Blacklist*)"
+blacklisted_tracks="$("$srcdir/spotify-tools/normalize_tracknames.pl" "$srcdir/../private/Blacklist"*)"
 
 #time \
 while read -r playlist_line; do
@@ -73,7 +78,7 @@ while read -r playlist_line; do
     # script only takes ~ 11 secs using local files so we don't need this progress, keep it concise
     #timestamp "Calculating % tracks blacklisted in playlist \"$playlist_name\""
     playlist_name="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" <<< "$playlist_name")"
-    playlist_filename="private/$playlist_name"
+    playlist_filename="$bash_tools/../private/$playlist_name"
     if ! [ -f "$playlist_filename" ]; then
         die "ERROR: playlist file does not exist - was a full backup taken first? Not Found:  $playlist_filename"
     fi
