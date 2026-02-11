@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -19,23 +20,27 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
 
-# shellcheck disable=SC1090
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
-cd "$srcdir"
+cd "$srcdir/.."
 
-"$bash_tools/bin/decomment.sh" private/discover_playlists.txt |
+"$bash_tools/bin/decomment.sh" "$srcdir/private/discover_playlists.txt" |
 while read -r line; do
-    if ! grep -Fxq "$line" private/playlists_followed.txt; then
+    if ! grep -Fxq "$line" "$srcdir/private/playlists_followed.txt"; then
         if grep -Eq $'\t' <<< "$line"; then
             id="$(awk '{print $1}' <<< "$line")"
-            replacement="$(grep -E "^$id"$'\t' private/playlists_followed.txt || :)"
+            replacement="$(grep -E "^$id"$'\t' "$srcdir/private/playlists_followed.txt" || :)"
             if is_blank "$replacement"; then
                 echo "WARNING: failed to find the playlist with ID '$id'" >&2
             else
-                sed -i "s|^$id"$'\t'".*|$replacement|" private/discover_playlists.txt
+                sed -i "s|^$id"$'\t'".*|$replacement|" "$srcdir/private/discover_playlists.txt"
             fi
         else
             echo "WARNING: playlist specified without a playlist ID prefix field, brittle, will likely break when externals rename their playlist:  $line" >&2
