@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -17,9 +18,13 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
 
-# shellcheck disable=SC1090
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
@@ -43,10 +48,10 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-"$srcdir/bash-tools/spotify/spotify_playlists.sh" "$username" |
+"$bash_tools/spotify/spotify_playlists.sh" "$username" |
 while read -r playlist_id playlist_name; do
     timestamp "adding tracks from playlist '$playlist_name':"
-    "$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_id" |
-    "$srcdir/bash-tools/spotify/spotify_add_to_playlist.sh" "Discover Backlog"
+    "$bash_tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_id" |
+    "$bash_tools/spotify/spotify_add_to_playlist.sh" "Discover Backlog"
     echo
 done
