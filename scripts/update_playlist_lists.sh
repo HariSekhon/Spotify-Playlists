@@ -18,8 +18,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
 # shellcheck disable=SC1090,SC1091
-. "$srcdir/bash-tools/lib/utils.sh"
+. "$bash_tools/lib/utils.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -43,8 +49,8 @@ help_usage "$@"
 
 min_args 1 "$@"
 
-playlists_map="$srcdir/spotify/playlists.txt"
-private_playlists_map="$srcdir/private/spotify/playlists.txt"
+playlists_map="$srcdir/../spotify/playlists.txt"
+private_playlists_map="$srcdir/../private/spotify/playlists.txt"
 
 update_playlist_file(){
     local playlist_file="$1"
