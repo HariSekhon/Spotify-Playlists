@@ -35,7 +35,7 @@ while read -r playlist_file; do
 done < <(
     sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" |
     awk '{$1=""; print}' |
-    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+    "$srcdir/../bash-tools/spotify/spotify_playlist_to_filename.sh"
 )
 echo
 echo "OK - All core playlist files found"
