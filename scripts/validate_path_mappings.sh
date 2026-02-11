@@ -18,7 +18,7 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
 
 if [ -d "$srcdir/../../bash-tools" ]; then
     bash_tools="$srcdir/../../bash-tools"
