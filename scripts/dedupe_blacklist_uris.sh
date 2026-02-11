@@ -18,10 +18,10 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
 
-if [ -d "$srcdir/../bash-tools" ]; then
-    bash_tools="$srcdir/../bash-tools"
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
 fi
 
 # shellcheck disable=SC1090,SC1091
@@ -48,7 +48,7 @@ while read -r blacklist; do
     blacklists+=("$blacklist")
 done < <(
     # reverse sort so we remove the duplicates from the highest number Blacklist and leave the original one untouched
-    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort -nr
+    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/../private/playlists.txt" | sort -nr
 )
 
 # loop should end when we are down to last blacklist which should be the original Blacklist
@@ -62,7 +62,7 @@ while [ "${#blacklists[@]}" -gt 1 ]; do
     #"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "${blacklists[@]}"
 
     # Fast as it is just grepping local files
-    "$srcdir/track_uris_already_in_playlists.sh" "${blacklists[@]}" |
+    "$srcdir/../track_uris_already_in_playlists.sh" "${blacklists[@]}" |
     sort -u |
     "$bash_tools/spotify/spotify_delete_from_playlist.sh" "$target_blacklist"
 
