@@ -9,7 +9,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -18,8 +19,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
 # shellcheck disable=SC1090,SC1091
-. "$srcdir/bash-tools/lib/spotify.sh"
+. "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -44,17 +51,17 @@ spotify_token
 core_playlists="${SPOTIFY_CORE_PLAYLISTS:-$(
     sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" |
     awk '{$1=""; print}' |
-    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+    "$bash_tools/spotify/spotify_playlist_to_filename.sh"
 )}"
 
 # auto-resolve each spotify playlist's path to either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
     while read -r playlist; do
         [ -z "$playlist" ] && continue
-        if [ -f "$srcdir/spotify/$playlist" ]; then
-            echo "\"$srcdir/spotify/$playlist\""
-        elif [ -f "$srcdir/private/spotify/$playlist" ]; then
-            echo "\"$srcdir/private/spotify/$playlist\""
+        if [ -f "$srcdir/../spotify/$playlist" ]; then
+            echo "\"$srcdir/../spotify/$playlist\""
+        elif [ -f "$srcdir/../private/spotify/$playlist" ]; then
+            echo "\"$srcdir/../private/spotify/$playlist\""
         else
             die "playlist not found: $playlist"
         fi
