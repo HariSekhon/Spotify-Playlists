@@ -22,16 +22,29 @@ playlist_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && pwd)"
 find_playlist_file(){
     local playlist_name="$1"
     local get_uri_file="${2:-}"  # any value to trigger this logic
-    local resolved_file
+    local resolved_file=""
     is_blank "$playlist_name" && return
-    if [ -f "$playlist_dir/${get_uri_file:+spotify/}$playlist_name" ]; then
-        resolved_file="$playlist_dir/${get_uri_file:+spotify/}$playlist_name"
-    elif [ -f "$playlist_dir/private/${get_uri_file:+spotify/}$playlist_name" ]; then
-        resolved_file="$playlist_dir/private/${get_uri_file:+spotify/}$playlist_name"
+    local filename="${get_uri_file:+spotify/}$playlist_name"
+    if [ -f "$playlist_dir/$filename" ]; then
+        resolved_file="$playlist_dir/$filename"
+    elif [ -f "$playlist_dir/private/$filename" ]; then
+        resolved_file="$playlist_dir/private/$filename"
+    else
+        for dir in *; do
+            if [ -d "$dir" ]; then
+                if [ -f "$dir/$filename" ]; then
+                    resolved_file="$dir/$filename"
+                    break
+                fi
+            fi
+        done
+        resolved_file="$(find "$playlist_dir" -maxdepth 2 -ipath "$filename" | head -n1 || :)"
+    fi
+    if [ -n "$resolved_file" ]; then
+        log "using file: $resolved_file"
+        echo "$resolved_file"
     else
         die "playlist not found: $playlist_name"
     fi
-    log "using file: $resolved_file"
-    echo "$resolved_file"
 }
 export -f find_playlist_file
