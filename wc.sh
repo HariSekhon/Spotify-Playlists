@@ -51,6 +51,9 @@ playlists="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" < playlists.t
 
 playlists_linecounts(){
     while read -r playlist; do
+        if ! [ -f "$playlist" ]; then
+            playlist="$(find . -maxdepth 2 -name "$playlist" | sed '/spotify/d' | head -n1 || :)"
+        fi
         printf '%s\0' "$playlist"
     done <<< "$playlists" |
     xargs -0 wc -l --
@@ -79,6 +82,21 @@ echo
 
 playlists_linecount_uniq(){
     while read -r playlist; do
+        [[ "$playlist" =~ Love\ I\  ]] && continue
+        if [ -f "$playlist" ]; then
+            :
+        elif [ -f "Mixes in Time/$playlist" ]; then
+            # neither this nor the find below is matching the Leaving It All Behind playlist, must be emoji weirdness
+            playlist="Mixes in Time/$playlist"
+        elif [ -f "Artists/$playlist" ]; then
+            playlist="Artists/$playlist"
+        else
+            playlist="$(
+                find . -maxdepth 2 -name "$playlist" |
+                sed '/spotify/d' |
+                head -n1 || :
+            )"
+        fi
         cat "$playlist"
     done <<< "$playlists" |
     spotify-tools/normalize_tracknames.pl |
