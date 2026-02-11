@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -17,7 +18,11 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
 
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
@@ -45,7 +50,7 @@ help_usage "$@"
 duplicate_playlists="$(sort -u <<< "$discover_playlists" | uniq -d)"
 
 if [ -n "$duplicate_playlists" ]; then
-    die "Duplicate playlists detected - clean up the file: $srcdir/private/discover_playlists.txt:
+    die "Duplicate playlists detected - clean up the file: $srcdir/../private/discover_playlists.txt:
 
 $duplicate_playlists
 "
@@ -59,7 +64,7 @@ spotify_token
 #                               Pre-flight checks
 # ============================================================================ #
 
-cd "$srcdir"
+cd "$srcdir/.."
 
 make pullstash
 
