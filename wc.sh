@@ -47,7 +47,22 @@ echo
 echo "Playlists: $playlist_count"
 echo
 
-playlists="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" < playlists.txt)"
+#playlists="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" < playlists.txt)"
+playlists="$(
+    git ls  |
+    grep -v \
+        -e 'spotify' \
+        -e '\.sh' \
+        -e '\.txt' \
+        -e '\.description$' \
+        -e 'other/' \
+        -e 'old/' \
+        -e TODO \
+        -e '^\.' \
+        -e Makefile \
+        -e README \
+        -e bash-tools
+)"
 
 playlists_linecounts(){
     while read -r playlist; do
@@ -108,7 +123,7 @@ playlists_linecount_uniq(){
                 head -n1 || :
             )"
         fi
-        cat "$playlist"
+        cat "$playlist" || :
     done <<< "$playlists" |
     spotify-tools/normalize_tracknames.pl |
     sort -u |
