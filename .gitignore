@@ -8,3 +8,8 @@ nohup.out
 # we create this to track snapshot IDs to skip downloads when nothing has changed,
 # and also to track playlist renames for automatic renaming
 .spotify_metadata/
+
+scripts/*.gnuplot
+scripts/*.mmd
+scripts/*.png
+scripts/*.svg
