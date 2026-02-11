@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -16,6 +17,15 @@
 set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/utils.sh"
 
 # shellcheck disable=SC2034
 usage_description="
@@ -33,15 +43,9 @@ as it takes a long time do query the Spotify API for all these tracks
 # shellcheck disable=SC2034
 usage_args="[<curl_options>]"
 
-#bash_tools="../bash-tools"
-bash_tools="$srcdir/bash-tools"
-
-# shellcheck disable=SC1090
-. "$bash_tools/lib/utils.sh"
-
 help_usage "$@"
 
-cd "$srcdir"
+cd "$srcdir/.."
 
 playlists="$(bash-tools/spotify/spotify_playlist_to_filename.sh < playlists.txt)"
 
