@@ -101,24 +101,31 @@ timestamp "Data written to: $outfile"
 timestamp "Generating GNUplot Graph"
 
 cat > "$gnuplot_code" <<EOF
-set terminal pngcairo size 1280,720 enhanced font 'Arial,14'
+set terminal pngcairo size 1280,720 enhanced font 'Arial,14' \
+    background rgb "#1e1e1e"
+
 set output "$gnuplot_png"
 
 set datafile separator ' '
+set boxwidth 0.6 relative
+set style fill solid border -1
+
+# Dark theme styling
+set border lc rgb "#aaaaaa"
+set tics textcolor rgb "#dddddd"
+set xlabel textcolor rgb "#dddddd"
+set ylabel textcolor rgb "#dddddd"
+set title textcolor rgb "#ffffff"
+
+set grid lc rgb "#444444"
 
 set title "Unique Tracks Per Year"
 set xlabel "Year"
 set ylabel "Unique Tracks"
 
-set grid ytics
-set xtics rotate by -45
+set xtics rotate by -75
 
-set boxwidth 0.6 relative
-set style fill solid 1.0 border -1
-
-set style line 1 lc rgb "#2E86DE"
-
-plot "$outfile" using 1:2 with boxes ls 1 notitle
+plot "$outfile" using 2:xtic(1) with boxes lc rgb "#4ea1ff" notitle
 EOF
 
 timestamp "GNUplot code written to: $gnuplot_code"
@@ -131,28 +138,39 @@ timestamp "Opening graph image: $gnuplot_png"
 
 "$bash_tools/media/imageopen.sh" "$gnuplot_png"
 
-echo >&2
+# MermaidJS x-axis is ugly, don't use it
+exit 0
 
-timestamp "Generating MermaidJS Graph"
-
-{
-    echo "xychart-beta"
-    echo "    title \"Unique Tracks Per Year\""
-    echo "    x-axis [$(awk '{printf "%s,", $1}' "$outfile" | sed 's/,$//')]"
-    echo "    y-axis \"Tracks\" 0 --> $(awk 'max<$2{max=$2}END{print max+5}' "$outfile")"
-    echo -n "    bar ["
-    awk '{printf "%s,", $2}' "$outfile" | sed 's/,$//'
-    echo "]"
-} > "$mermaid_code"
-
-timestamp "MermaidJS code written to: $mermaid_code"
-
-mmdc -i "$mermaid_code" -o "$mermaid_svg" -t dark --quiet # -b transparent
-
-timestamp "MermaidJS graph written to: $mermaid_svg"
-
-timestamp "Opening image: $mermaid_svg"
-
-"$bash_tools/media/imageopen.sh" "$mermaid_svg"
-
-timestamp "Done"
+#echo >&2
+#
+#timestamp "Generating MermaidJS Graph"
+#
+#x_labels=$(awk '{printf "\"%s\",",$1}' "$outfile" | sed 's/,$//')
+#values=$(awk '{printf "%s,",$2}' "$outfile" | sed 's/,$//')
+#
+#cat > "$mermaid_code" <<EOF
+#---
+#config:
+#  theme: dark
+#  xyChart:
+#    xAxis:
+#      labelRotation: -45
+#---
+#xychart-beta
+#    title "Unique Tracks Per Year"
+#    x-axis [$x_labels]
+#    y-axis "Tracks"
+#    bar [$values]
+#EOF
+#
+#timestamp "MermaidJS code written to: $mermaid_code"
+#
+#mmdc -i "$mermaid_code" -o "$mermaid_svg" -t dark --quiet # -b transparent
+#
+#timestamp "MermaidJS graph written to: $mermaid_svg"
+#
+#timestamp "Opening image: $mermaid_svg"
+#
+#"$bash_tools/media/imageopen.sh" "$mermaid_svg"
+#
+#timestamp "Done"
