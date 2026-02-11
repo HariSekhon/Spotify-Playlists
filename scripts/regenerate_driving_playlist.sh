@@ -18,8 +18,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/spotify.sh"
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -44,15 +50,15 @@ export SPOTIFY_PRIVATE=1
 spotify_token
 
 clear_playlist(){
-    timestamp "clearing driving playlist"
+    timestamp "Clearing Driving Playlist"
     # uris field needs to be blank for this to work, not really optional like doc implies
-    "$srcdir/bash-tools/spotify/spotify_api.sh" "$url_path" -X PUT -d '{"uris": []}' > /dev/null  # ignore the { "spotify_snapshot": ... } json output
+    "$bash_tools/spotify/spotify_api.sh" "$url_path" -X PUT -d '{"uris": []}' > /dev/null  # ignore the { "spotify_snapshot": ... } json output
 }
 
-"$srcdir/backup.sh" "Upbeat & Sexual Pop"
+"$srcdir/../backup.sh" "Upbeat & Sexual Pop"
 
 clear_playlist
 
-"$srcdir/bash-tools/spotify/spotify_add_to_playlist.sh" "$playlist_id" < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
+"$bash_tools/spotify/spotify_add_to_playlist.sh" "$playlist_id" < <(tail -r "$srcdir/spotify/Upbeat & Sexual Pop")
 
-timestamp "Regenerated driving playlist in $SECONDS seconds"
+timestamp "Regenerated Driving Playlist in $SECONDS seconds"
