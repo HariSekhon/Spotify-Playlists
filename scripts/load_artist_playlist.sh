@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -17,8 +18,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(dirname "${BASH_SOURCE[0]}")"
 
-# shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/utils.sh"
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/utils.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -43,15 +50,15 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-"$srcdir/bash-tools/spotify/spotify_artist_tracks.sh" "$artist" |
-"$srcdir/bash-tools/spotify/spotify_add_to_playlist.sh" "$artist"
+"$bash_tools/spotify/spotify_artist_tracks.sh" "$artist" |
+"$bash_tools/spotify/spotify_add_to_playlist.sh" "$artist"
 
 echo >&2
 
-"$srcdir/bash-tools/spotify/spotify_delete_any_duplicates_in_playlist.sh" "$artist"
+"$bash_tools/spotify/spotify_delete_any_duplicates_in_playlist.sh" "$artist"
 
 echo >&2
 
 # want splitting
 # shellcheck disable=SC2046
-"$srcdir/bash-tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "$artist" $(echo private/Blacklist* | sed 's,.*/,,')
+"$bash_tools/spotify/spotify_delete_from_playlist_if_in_other_playlists.sh" "$artist" $(echo "$srcdir/../private/Blacklist"* | sed 's,.*/,,')
