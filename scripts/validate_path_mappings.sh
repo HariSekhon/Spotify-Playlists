@@ -20,8 +20,8 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/bash-tools"
 
-if [ -d "$srcdir/../bash-tools" ]; then
-    bash_tools="$srcdir/../bash-tools"
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
 fi
 
 # shellcheck disable=SC1090,SC1091
@@ -39,6 +39,8 @@ usage_args="[<path_mappings_file>]"
 help_usage "$@"
 
 file="${1:-.path_mappings.txt}"
+
+cd "$srcdir/.."
 
 [ -f "$file" ] || {
     die "ERROR: mapping file not found: $file"
