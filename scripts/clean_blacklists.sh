@@ -18,7 +18,11 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
 
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/spotify.sh"
@@ -49,7 +53,7 @@ export CLEANING_BLACKLISTS=1
 
 #for playlist in Blacklist{,2,3}; do
 while read -r blacklist; do
-    "$srcdir/delete_tracks_already_in_playlists.sh" "$blacklist"
+    "$srcdir/../delete_tracks_already_in_playlists.sh" "$blacklist"
 done < <(
-    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
+    grep -E '^Blacklist[[:digit:]]*$' "$srcdir/../private/playlists.txt" | sort
 )
