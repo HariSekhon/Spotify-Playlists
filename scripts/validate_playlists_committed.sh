@@ -17,7 +17,7 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-cd "$srcdir"
+cd "$srcdir/.."
 
 check(){
     local filename="$1"
@@ -38,8 +38,8 @@ while read -r playlist_file; do
     check "$playlist_file"
     check "spotify/$playlist_file"
 done < <(
-    sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/playlists.txt" |
-    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+    sed 's/#.*//; /^[[:space:]]*$/d' "$srcdir/../playlists.txt" |
+    "$srcdir/../bash-tools/spotify/spotify_playlist_to_filename.sh"
 )
 
 echo
