@@ -69,7 +69,7 @@ while read -r playlist; do
     elif [ -f "$srcdir/private/$playlist" ]; then
         core_playlists+=("$srcdir/private/$playlist")
     else
-        # search in the subdirectories
+        # search in the subdirectories as I've reorganized a tonne of playlists as per .path_mappings.txt
         search_result="$(find . -maxdepth 2 -name "$playlist" | sed '/spotify/d' | head -n1 || :)"
         if [ -n "$search_result" ]; then
             core_playlists+=("$search_result")
