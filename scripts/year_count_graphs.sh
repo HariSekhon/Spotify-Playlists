@@ -101,16 +101,24 @@ timestamp "Data written to: $outfile"
 timestamp "Generating GNUplot Graph"
 
 cat > "$gnuplot_code" <<EOF
-set terminal pngcairo size 1280,720
+set terminal pngcairo size 1280,720 enhanced font 'Arial,14'
 set output "$gnuplot_png"
+
+set datafile separator ' '
 
 set title "Unique Tracks Per Year"
 set xlabel "Year"
 set ylabel "Unique Tracks"
-set grid
-set xtics rotate
 
-plot "$outfile" using 1:2 with linespoints title "Tracks"
+set grid ytics
+set xtics rotate by -45
+
+set boxwidth 0.6 relative
+set style fill solid 1.0 border -1
+
+set style line 1 lc rgb "#2E86DE"
+
+plot "$outfile" using 1:2 with boxes ls 1 notitle
 EOF
 
 timestamp "GNUplot code written to: $gnuplot_code"
