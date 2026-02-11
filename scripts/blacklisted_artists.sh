@@ -18,14 +18,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-bash_tools="$srcdir/bash-tools"
+bash_tools="$srcdir/../bash-tools"
 
-if [ -d "$srcdir/../bash-tools" ]; then
-    bash_tools="$srcdir/../bash-tools"
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
 fi
 
 # shellcheck disable=SC1090,SC1091
-. "$srcdir/bash-tools/lib/spotify.sh"
+. "$bash_tools/lib/spotify.sh"
 
 threshold=3
 
@@ -48,9 +48,9 @@ export SPOTIFY_PRIVATE=1
 
 spotify_token
 
-cd "$srcdir"
+cd "$srcdir/.."
 
-filename="$srcdir/private/blacklisted_artists.txt"
+filename="private/blacklisted_artists.txt"
 
 # not needed, a Control-C will exit without continuing anyway with exit code 130
 #trap_cmd 'echo ERROR; exit 1'
@@ -64,10 +64,10 @@ while read -r playlist; do
         continue
     fi
     # auto-resolve each playlist's path to either ./ or ./private
-    if [ -f "$srcdir/$playlist" ]; then
-        core_playlists+=("$srcdir/$playlist")
-    elif [ -f "$srcdir/private/$playlist" ]; then
-        core_playlists+=("$srcdir/private/$playlist")
+    if [ -f "$playlist" ]; then
+        core_playlists+=("$playlist")
+    elif [ -f "private/$playlist" ]; then
+        core_playlists+=("private/$playlist")
     else
         # search in the subdirectories as I've reorganized a tonne of playlists as per .path_mappings.txt
         search_result="$(find . -maxdepth 2 -name "$playlist" | sed '/spotify/d' | head -n1 || :)"
@@ -78,9 +78,9 @@ while read -r playlist; do
         fi
     fi
 done < <(
-    sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" |
+    sed 's/^#.*//; /^[[:space:]]*$/d' "scripts/core_playlists.txt" |
     awk '{$1=""; print}' |
-    "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+    "$bash_tools/spotify/spotify_playlist_to_filename.sh"
 )
 
 {
@@ -88,8 +88,8 @@ done < <(
     # quicker
     #for blacklist in Blacklist{,2,3}; do
     while read -r blacklist; do
-        blacklisted_artists_file="$srcdir/private/.spotify_metadata/blacklisted_artists/$blacklist/artists.txt"
-        blacklisted_artists_snapshot_file="$srcdir/private/.spotify_metadata/blacklisted_artists/$blacklist/snapshot_id"
+        blacklisted_artists_file="private/.spotify_metadata/blacklisted_artists/$blacklist/artists.txt"
+        blacklisted_artists_snapshot_file="private/.spotify_metadata/blacklisted_artists/$blacklist/snapshot_id"
         mkdir -p -v "$(dirname "$blacklisted_artists_snapshot_file")"
         timestamp "Getting $blacklist snapshot id"
         blacklisted_artists_snapshot_id="$("$bash_tools/spotify/spotify_playlist_snapshot_id.sh" "$blacklist")"
@@ -111,7 +111,7 @@ done < <(
         cat "$blacklisted_artists_file"
         echo >&2
     done < <(
-        grep -E '^Blacklist[[:digit:]]*$' "$srcdir/private/playlists.txt" | sort
+        grep -E '^Blacklist[[:digit:]]*$' "private/playlists.txt" | sort
     )
 } |
 sort |
@@ -139,7 +139,7 @@ cp -f "$tmp" "$tmp2"
 
 timestamp "Removing any blacklist artists found in followed artists list"
 while read -r artist; do
-    if grep -Fxq "$artist" "$srcdir/artists_followed.txt"; then
+    if grep -Fxq "$artist" "artists_followed.txt"; then
         timestamp "Removing artist $artist"
         artist="${artist/\//\\/}"
         sed -i.bak "/^$artist/d" "$tmp2"
