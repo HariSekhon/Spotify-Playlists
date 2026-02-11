@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback to help steer this or other code I publish
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -17,8 +18,14 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# shellcheck disable=SC1090
-. "$srcdir/bash-tools/lib/spotify.sh"
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
+
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -36,8 +43,6 @@ help_usage "$@"
 export SPOTIFY_PRIVATE=1
 
 spotify_token
-
-bash_tools="$srcdir/bash-tools"
 
 # TODO: dedupe this with tracks_already_in_playlists.sh, move to lib/spotify.sh or rework the logic to be simpler
 core_playlists=()
@@ -61,7 +66,14 @@ done < <(
 
 #timestamp "Getting list of blacklisted artists with >= N tracks in Blacklist but not in core playlists"
 #blacklisted_artists="$("$bash_tools/blacklisted_artists.sh")"
-blacklisted_artists="$(sed 's/#.*//; s/^[[:space:]]*//; s/[[:space:]]*$//; /^[[:space:]]*$/d' "$srcdir/private/blacklisted_artists.txt")"
+blacklisted_artists="$(
+    sed '
+        s/#.*//;
+        s/^[[:space:]]*//;
+        s/[[:space:]]*$//;
+        /^[[:space:]]*$/d
+    ' "$srcdir/../private/blacklisted_artists.txt"
+)"
 
 timestamp "Finding tracks in Discover Backlog by blacklisted artists"
 
@@ -78,7 +90,13 @@ done <<< "$blacklisted_artists"
 jq_filter_artists="${jq_filter_artists%, }"
 
 output(){
-    jq -r ".items[] | select(.track.artists[].name == ($jq_filter_artists)) | .track.uri" <<< "$output"
+    jq -r "
+        .items[]
+        | select(
+            .track.artists[].name == ($jq_filter_artists)
+          )
+        | .track.uri
+    " <<< "$output"
 }
 
 while not_null "$url_path"; do
