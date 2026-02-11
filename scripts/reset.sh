@@ -2,6 +2,10 @@
 
 set -euo pipefail
 
+srcdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+cd "$srcdir/.."
+
 # playlists that have substantial changes that need review, for now just revert and deal with them later
 playlists_to_reset="
 LL Cool J
