@@ -192,6 +192,21 @@ Entire genres of songs which are decent but not elite enough to make the lists a
   mid to late 20th century classics and well known songs
 - [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
 
+### More Playlists of Note
+
+- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
+- [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
+  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
+- [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
+- [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
+- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
+- [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
+- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
+- [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
+- [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
+- [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
+  Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
+
 ### Best by Year
 
 Here are the best tracks by year:
@@ -247,21 +262,6 @@ but what I can say with some confidence is...
 11. Even my beloved 1980s cannot compete with the sheer volume of good songs available today
 12. Even if I wish they still made more music like the 80s, it's actually better to reach the 90s to collect the entire
     80s music collection - vs if I went back to the mid 80s I'd be missing roughly half of it
-
-### More Playlists of Note
-
-- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
-- [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
-  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
-- [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
-- [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
-- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
-- [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
-- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
-- [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
-- [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
-- [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
-  Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
 
 ### Ethnic Playlists
 
