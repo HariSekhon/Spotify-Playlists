@@ -192,7 +192,7 @@ Entire genres of songs which are decent but not elite enough to make the lists a
   mid to late 20th century classics and well known songs
 - [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
 
-### Best of the Years
+### Best by Year
 
 Here are the best tracks by year:
 
