@@ -37,5 +37,6 @@ echo "using last $shazam_dump" >&2
 sed 's/ [Ff]eat[^-]*|/|/;s/|/.*-.*/;s/^The //' < "$shazam_dump" |
 sort -fu |
 while read -r track; do
+    # TODO: needs updating to modern playlist names
     grep -qi "$track" dance kiss rock classics chill classical love jazz disco Shazam-ignore.txt || sed 's/\.\*/ /g' <<< "$track"
 done
