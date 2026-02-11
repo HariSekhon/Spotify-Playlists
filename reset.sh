@@ -6,7 +6,6 @@ set -euo pipefail
 playlists_to_reset="
 LL Cool J
 Fabulous
-Christmas
 "
 
 while read -r playlist; do
