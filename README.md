@@ -31,16 +31,20 @@
 
 [git.io/spotify-playlists](https://git.io/spotify-playlists)
 
-An Epic collection of playlists built over a decade, using dozens of programs and scripts to track and manage to a high standard.
+The Greatest Playlists Collection of anybody I know of in the world.
+
+Point me to a better public one if you can! 🙏🏼
+
+Built over 15+ years of scouring Spotify and writing dozens of programs using its API to track and manage my playlists
+to a high standard.
 
 <a href="https://open.spotify.com/user/harisekhon">
 <img src="https://www.seekpng.com/png/full/23-236407_listen-on-spotify-listen-on-spotify-logo.png" width=150 height=54 />
 </a>
 <br />
 
-If you know a great track that isn't in one of these playlists, open
-[an issue](https://github.com/HariSekhon/Spotify-Playlists/issues)
-or message me on [LinkedIn](https://www.linkedin.com/in/HariSekhon/) to add it!
+I'm always looking for new songs so if you know a great track that isn't in one of these playlists, open
+[an issue](https://github.com/HariSekhon/Spotify-Playlists/issues) for me to add it!
 
 Top level playlists are in human readable format `Artist - Track`.
 
@@ -164,22 +168,6 @@ _(you're welcome to connect with me on LinkedIn)_
   the Best of the 1970s - including Queen, Blondie, Bill Conti, Fleetwood Mac ...
 - [Brit Pop 🇬🇧 🇬🇧 🇬🇧](https://open.spotify.com/playlist/2gA1tjo1HsOJYTH1xFFQnh) -
   re-live the golden 90s indie bands like The Verve, Oasis, Pulp, Blur, Skunk Anansie, Texas and Ocean Colour Scene plus newer acts like Lily Allen, Blossom, Micky James
-
-### More Playlists of Note
-
-- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
-- [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
-  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
-- [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
-- [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
-- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
-- [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
-- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
-- [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
-- [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
-- [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
-  Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
-
 ### Larger Genre Playlists
 
 Entire genres of songs which are decent but not elite enough to make the lists above:
@@ -203,6 +191,77 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Classics - Hits from Decades Gone By 🎩 🏛️](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
   mid to late 20th century classics and well known songs
 - [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
+
+### Best of the Years
+
+Here are the best tracks by year:
+
+- [2020](https://open.spotify.com/playlist/6lHOWPfsNBvHEGdQOqiMM7) • [2021](https://open.spotify.com/playlist/6T6SKdvLQjcAJwQAVVCGro) • [2022](https://open.spotify.com/playlist/18gapq8wGuPxfkAsD6sSpD) • [2023](https://open.spotify.com/playlist/1vcPDwWlH5X41kK6zAJTo1) • [2024](https://open.spotify.com/playlist/3VYaFp02V3eTShDGjt9B2m) • [2025](https://open.spotify.com/playlist/2FVo3QNrdC19naYT2BoIzA) • [2026](https://open.spotify.com/playlist/5le9EBtv1DA09yo5uLacMS)
+
+- [2010](https://open.spotify.com/playlist/4x5uXisa43JXnsOIIYWlR1) • [2011](https://open.spotify.com/playlist/7lqwQTjR7guSlchmVEkz1z) • [2012](https://open.spotify.com/playlist/0okStRRvdUwQTOUXDmrI2y) • [2013](https://open.spotify.com/playlist/6Yg12D1bL2Y9eBvsdrFdWk) • [2014](https://open.spotify.com/playlist/6VF25YXvkiViLJ9zHqBhvR) • [2015](https://open.spotify.com/playlist/3X1ovVb4XEU8ZwTamu8LYm) • [2016](https://open.spotify.com/playlist/3KX0jBjvbPxmOs0O0d8Irq) • [2017](https://open.spotify.com/playlist/2czJgymee6pu1QinnElMNe) • [2018](https://open.spotify.com/playlist/0WpRKysiQwKdiD7MJ6xe4N) • [2019](https://open.spotify.com/playlist/5iuKOvejeh7mf0QiyhocTD)
+
+- [2000](https://open.spotify.com/playlist/55yrHq8pldE7lHwVm5Cdp1) • [2001](https://open.spotify.com/playlist/6odQlbc5ofCZbDP0lpUYsK) • [2002](https://open.spotify.com/playlist/1GsCntpXEyRPsONka1TRLh) • [2003](https://open.spotify.com/playlist/3WwvUzL6BIuQ8L4zG1Ceti) • [2004](https://open.spotify.com/playlist/3Y6FJG69iMmGMNIl3iPlyE) • [2005](https://open.spotify.com/playlist/0Hsap62GwfQ36ZOtr4GdNm) • [2006](https://open.spotify.com/playlist/23AZkIwSaJL1G6OnW1BCz4) • [2007](https://open.spotify.com/playlist/3rgnOA1ZKt0WvhAvqj2Wom) • [2008](https://open.spotify.com/playlist/69uPFE8QUTIeUn7OGkrujB) • [2009](https://open.spotify.com/playlist/75TOtOIiy1K47zaGYqMVxL)
+
+- [1990](https://open.spotify.com/playlist/5Ozhud0Zbtu7Nf4pDxjnMr) • [1991](https://open.spotify.com/playlist/6lOJfpj7FpkoVpzOq5dolV) • [1992](https://open.spotify.com/playlist/5xBMGWtzU0rS5qGxjLdq7C) • [1993](https://open.spotify.com/playlist/1oon5tS3nBuFVUzFowzLiA) • [1994](https://open.spotify.com/playlist/1eK3JacpOsAcFHgCmntwud) • [1995](https://open.spotify.com/playlist/2UELIYK9J9QUV1FfU99bGL) • [1996](https://open.spotify.com/playlist/5mRL4XuUQd0TnXeV554B6Z) • [1997](https://open.spotify.com/playlist/5YE8xpDRY3rN1UI42Il87P) • [1998](https://open.spotify.com/playlist/4OXFWog0tLTWSSNdIUB2Th) • [1999](https://open.spotify.com/playlist/64kCWd7MCPScZZsaSFRe3u)
+
+- [1980](https://open.spotify.com/playlist/4ceseEnPxMqt7R01ZDPXRs) • [1981](https://open.spotify.com/playlist/3b8bickvnwac5ScCmfixJu) • [1982](https://open.spotify.com/playlist/5Sdag3D9cSCrzMEOEVcvWF) • [1983](https://open.spotify.com/playlist/1CnlXSYutt292QdnkRXhql) • [1984](https://open.spotify.com/playlist/2s4gqQAVnEdLPatHmC2jJL) • [1985](https://open.spotify.com/playlist/6O7A5D8dKOaXg7LC7ZDZRl) • [1986](https://open.spotify.com/playlist/5khyp17purNBg6hP0UGPRj) • [1987](https://open.spotify.com/playlist/4T2falLF1QwhUS8pHr7c6Y) • [1988](https://open.spotify.com/playlist/5xT385CTpQQY9bLpJvXXtr) • [1989](https://open.spotify.com/playlist/2gV97SrkRyiELL6kDCBynu)
+
+- [1970](https://open.spotify.com/playlist/357OQRrAujElUfWktfidrj) • [1971](https://open.spotify.com/playlist/3WfcbYgNIEqtTN9JgeFQYV) • [1972](https://open.spotify.com/playlist/3XAFQQlqqjQRuS3qzO2v8q) • [1973](https://open.spotify.com/playlist/7r6MOd3EtxWFSpPcDKjc6e) • [1974](https://open.spotify.com/playlist/1orsmhbSB8ISlKDEQ0se03) • [1975](https://open.spotify.com/playlist/6ySnWa2TezgPUEv5gITJyk) • [1976](https://open.spotify.com/playlist/67GRNVKhkvOiYVngeSgFzx) • [1977](https://open.spotify.com/playlist/0NqLbeFmQec9sQYosNw9Dy) • [1978](https://open.spotify.com/playlist/1o38NRb6dfKfwKZH6Ckrjm) • [1979](https://open.spotify.com/playlist/3GqzYJIIEL1v6XHMKOq8mu)
+
+- [1964](https://open.spotify.com/playlist/6kFch7bCeIDpRau0eEyyQF) • [1965](https://open.spotify.com/playlist/0Sr1MdO2A6xAMZjuI35NKD) • [1966](https://open.spotify.com/playlist/2zrN4HeeOLptBRSoqw7KBJ) • [1967](https://open.spotify.com/playlist/2StTsVVEzpROHlq183kBv6) • [1968](https://open.spotify.com/playlist/0kWzvXFOB88gkfAn8O5Q2a) • [1969](https://open.spotify.com/playlist/3ylUx0wtGeWVlxoxtEYFZT)
+
+#### Shocking Revelations & Analytics
+
+When compiling these playlists, I was shocked at the disparity in number of songs worthy of each year group.
+
+Here is a graph of each year playlist number of tracks (run through my track name normalization code to deduplicate
+different versions of the same track to only count them once).
+
+No this graph is not cumulative, it is per individual year in isolation:
+
+![Tracks Per Year](https://github.com/HariSekhon/Spotify-Playlists/releases/download/graphs/tracks_per_year.png)
+
+Conclusions:
+
+1. I cannot say that _"Music is actually getting better"_ from a classical musician standpoint...
+2. We all know there are some all-time legendary songs that have ingrained themselves in our childhoods, movies &
+   culture...
+3. We may or may not have some personal bias towards older legendary tracks due to replay bias building our connection
+   to the older songs
+
+but what I can say with some confidence is...
+
+4. There are more good songs in across genres overall in recent years than there were in earlier years -
+   this is clearly shown in the graph of tracks below which is scraped from all my major playlists, genres and decades
+5. Of course the golden age of Hip-Hop & R&B has passed... this is well known
+6. There were some god awful number 1 songs in the 1990s that would never have been even played today given the higher
+   competition...
+7. The competition was definitely thinner the further back in years you go -
+   artists could afford to be less competitive and still get to the top
+8. Today that fantastic song you don't even remember the artist before moving on to the next song in the 100M+ song
+   catalog
+9. We are drowning in more music than ever
+10. This gives us the bias that music today is too samey - really this is a music spam & filtering problem, which I have
+    largely solved in this repo using extensive obsessive amounts of time and code as well as my general overall music
+    fan coolness 😎 😉
+11. Even my beloved 1980s cannot compete with the sheer volume of good songs available today
+12. Even if I wish they still made more music like the 80s, it's actually better to reach the 90s to collect the entire
+    80s music collection - vs if I went back to the mid 80s I'd be missing roughly half of it
+
+### More Playlists of Note
+
+- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
+- [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
+  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
+- [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
+- [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
+- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
+- [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
+- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
+- [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
+- [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
+- [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
+  Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
 
 ### Ethnic Playlists
 
