@@ -69,7 +69,13 @@ while read -r playlist; do
     elif [ -f "$srcdir/private/$playlist" ]; then
         core_playlists+=("$srcdir/private/$playlist")
     else
-        die "playlist not found: $playlist"
+        # search in the subdirectories
+        search_result="$(find . -maxdepth 2 -name "$playlist" | sed '/spotify/d' | head -n1 || :)"
+        if [ -n "$search_result" ]; then
+            core_playlists+=("$search_result")
+        else
+            die "playlist not found: $playlist"
+        fi
     fi
 done < <(
     sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/core_playlists.txt" |
