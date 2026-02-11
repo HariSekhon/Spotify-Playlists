@@ -80,5 +80,5 @@ if [ $# -gt 0 ]; then
 else
     while read -r playlist_name; do
         find_duplicate_tracks "$playlist_name"
-    done < "$srcdir/../playlists.txt
+    done < "$srcdir/../playlists.txt"
 fi
