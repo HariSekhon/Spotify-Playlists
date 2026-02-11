@@ -18,11 +18,17 @@ set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# shellcheck disable=SC1090,SC1091
-. "$srcdir/bash-tools/lib/utils.sh"
+bash_tools="$srcdir/../bash-tools"
+
+if [ -d "$srcdir/../../bash-tools" ]; then
+    bash_tools="$srcdir/../../bash-tools"
+fi
 
 # shellcheck disable=SC1090,SC1091
-. "$srcdir/bash-tools/lib/spotify.sh"
+. "$bash_tools/lib/utils.sh"
+
+# shellcheck disable=SC1090,SC1091
+. "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
@@ -39,7 +45,7 @@ no_more_args "$@"
 
 tmp="$(mktemp)"
 
-playlist_file="$srcdir/spotify/playlists.txt"
+playlist_file="$srcdir/../spotify/playlists.txt"
 
 awk -v playlist_file="$playlist_file" '
     # pre-load playlist file and build hashmap of playlist_id -> playlist_name
@@ -68,6 +74,6 @@ awk -v playlist_file="$playlist_file" '
 
         print line
     }
-' "$srcdir/README.md" > "$tmp"
+' "$srcdir/../README.md" > "$tmp"
 
-mv -f "$tmp" "$srcdir/README.md"
+mv -f "$tmp" "$srcdir/../README.md"
