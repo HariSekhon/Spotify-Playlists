@@ -50,5 +50,8 @@ timestamp "Updating Core playlist names"
 timestamp "Updating Core playlist names"
 "$srcdir/update_playlist_lists.sh" "$srcdir/best_years_source_playlists.txt"
 
+timestamp "Updating Like playlist names"
+"$srcdir/update_playlist_lists.sh" "$srcdir/like_playlists.txt"
+
 timestamp "Updating Aggregations playlist names"
 "$srcdir/update_playlist_lists.sh" "$srcdir/../aggregations/"*
