@@ -16,7 +16,9 @@
 
 set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
-playlist_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && pwd)"
+lib_srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+playlist_dir="$lib_srcdir/../.."
 
 # auto-resolve each spotify playlist's path to its file path under ./ or ./private
 find_playlist_file(){
@@ -38,7 +40,9 @@ find_playlist_file(){
                 fi
             fi
         done
-        resolved_file="$(find "$playlist_dir" -maxdepth 2 -ipath "$filename" | head -n1 || :)"
+        #if [ -z "$resolved_file" ]; then
+            resolved_file="$(find "$playlist_dir" -maxdepth 2 -ipath "*/$filename" | head -n1 || :)"
+        #fi
     fi
     if [ -n "$resolved_file" ]; then
         log "using file: $resolved_file"
