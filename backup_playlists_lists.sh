@@ -81,5 +81,5 @@ if [ -d private ]; then
 fi
 
 timestamp "Running discover_playlists_reconcile.sh"
-"$srcdir/discover_playlists_reconcile.sh"
+"$srcdir/scripts/discover_playlists_reconcile.sh"
 echo >&2
