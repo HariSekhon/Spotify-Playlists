@@ -23,15 +23,21 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 bash_tools="$srcdir/../bash-tools"
 
+spotify_tools="$srcdir/../spotify-tools"
+
 if [ -d "$srcdir/../../bash-tools" ]; then
     bash_tools="$srcdir/../../bash-tools"
+fi
+
+if [ -d "$srcdir/../../spotify-tools" ]; then
+    spotify_tools="$srcdir/../../spotify-tools"
 fi
 
 # shellcheck disable=SC1090,SC1091
 . "$bash_tools/lib/utils.sh"
 
 # shellcheck disable=SC1090,SC1091
-. "$srcdir/lib/utils.sh"
+. "$srcdir/lib/playlist-utils.sh"
 
 # shellcheck disable=SC2034
 usage_description="
@@ -54,15 +60,16 @@ find_duplicate_tracks(){
     # converts slashes to unicode so filenames look like the playlists
     filename="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" "$playlist_name")"
     filename="$(find_playlist_file "$filename")"
-    uri_dups="$(sort "$srcdir/../spotify/$filename" | uniq -d -i)"
+    spotify_filename="$(find_playlist_file "$filename" get_uri_path)"
+    uri_dups="$(sort "$spotify_filename" | uniq -d -i)"
     if not_blank "$uri_dups"; then
         echo
-        echo "* Duplicates in $filename:"
+        echo "* Duplicates in $spotify_filename:"
         echo
         echo "$uri_dups"
         echo
     fi
-    track_dups="$(sort "$filename" | uniq -d -i)"
+    track_dups="$("$spotify_tools/normalize_tracknames.pl" < "$filename" | sort | uniq -d -i)"
     if not_blank "$track_dups"; then
         echo
         echo "* Duplicates in $filename:"
@@ -77,7 +84,7 @@ if [ $# -gt 0 ]; then
         find_duplicate_tracks "$playlist_name"
     done
 else
-    while read -r playlist_name; do
+    while read -r _playlist_id playlist_name; do
         find_duplicate_tracks "$playlist_name"
     done < "$srcdir/../playlists.txt"
 fi
