@@ -29,7 +29,7 @@ bash_tools="$srcdir/bash-tools"
 . "$bash_tools/lib/spotify.sh"
 
 # shellcheck disable=SC1090,SC1091
-. "$srcdir/lib/utils.sh"
+. "$srcdir/lib/playlist-utils.sh"
 
 core_playlists="$srcdir/core_playlists.txt"
 
