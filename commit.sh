@@ -33,7 +33,7 @@ fi
 cd "$srcdir"
 
 # reset playlists with large superfluous changes I don't want to deal with yet
-"$srcdir/reset.sh"
+"$srcdir/scripts/reset.sh"
 
 "$bash_tools/checks/check_internet.sh"
 
