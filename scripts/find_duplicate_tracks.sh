@@ -61,7 +61,10 @@ find_duplicate_tracks(){
     filename="$("$bash_tools/spotify/spotify_playlist_to_filename.sh" "$playlist_name")"
     filename="$(find_playlist_file "$filename")"
     spotify_filename="$(find_playlist_file "$filename" get_uri_path)"
-    uri_dups="$(sort "$spotify_filename" | uniq -d -i)"
+    uri_dups="$(
+        sort "$spotify_filename" |
+        uniq -d -i
+    )"
     if not_blank "$uri_dups"; then
         echo
         echo "* Duplicates in $spotify_filename:"
@@ -69,7 +72,11 @@ find_duplicate_tracks(){
         echo "$uri_dups"
         echo
     fi
-    track_dups="$("$spotify_tools/normalize_tracknames.pl" < "$filename" | sort | uniq -d -i)"
+    track_dups="$(
+        "$spotify_tools/normalize_tracknames.pl" < "$filename" |
+        sort |
+        uniq -d -i
+    )"
     if not_blank "$track_dups"; then
         echo
         echo "* Duplicates in $filename:"
