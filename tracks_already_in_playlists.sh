@@ -31,7 +31,7 @@ bash_tools="$srcdir/bash-tools"
 # shellcheck disable=SC1090,SC1091
 . "$srcdir/lib/playlist-utils.sh"
 
-core_playlists="$srcdir/core_playlists.txt"
+core_playlists="$srcdir/scripts/core_playlists.txt"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
