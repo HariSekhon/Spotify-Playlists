@@ -37,11 +37,12 @@ core_playlists="$srcdir/core_playlists.txt"
 usage_description="
 Finds Tracks already exist in the major playlist files saved here via
 
-1. exact URI match
+1. Exact URI match
 2. Artist - TrackName exact match (may be different URI copies but is exactly the same song)
 
 Gets the URIs of a given playlist and checks each one against the local offline playlist file backups because this is
-immensely faster than pulling all the tracks from massive core playlists dynamically
+immensely faster than pulling all the tracks from massive core playlists dynamically via the Spotify API which is rate
+limited and blocks excessive number of requests with HTTP 429 Too Many Requests 14 hour bans
 
 This is useful for deleting them from TODO playlists, saving tonnes of time (combine with spotify_delete_from_playlist.sh)
 
