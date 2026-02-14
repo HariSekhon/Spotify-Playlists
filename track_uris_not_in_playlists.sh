@@ -26,7 +26,7 @@ fi
 . "$bash_tools/lib/utils.sh"
 
 # shellcheck disable=SC1090,SC1091
-. "$srcdir/lib/utils.sh"
+. "$srcdir/lib/playlist-utils.sh"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
