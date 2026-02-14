@@ -33,7 +33,7 @@ Deletes tracks from a given playlist that are already in other given local downl
 
 By default checks against my core playlists listed in:
 
-    $srcdir/core_playlists.txt
+    $srcdir/scripts/core_playlists.txt
 
 Uses the offline URI playlists under spotify/ directory for speed since this is immensely faster
 than fetching thousands of track URIs in batches of 100 from the Spotify API using the dynamic script:
