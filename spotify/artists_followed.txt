@@ -166,6 +166,7 @@ spotify:artist:47BNWfpngeFHYvBlPPyraM	Kate Ryan
 spotify:artist:0UF7XLthtbSF2Eur7559oV	Kavinsky
 spotify:artist:3WTRGOdgo9ZUwqRzvObalK	Kealux
 spotify:artist:3AuMNF8rQAKOzjYppFNAoB	Kelly Rowland
+spotify:artist:3RqBeV12Tt7A8xH3zBDDUF	Kelsea Ballerini
 spotify:artist:63wjoROpeh5f11Qm93UiJ1	Keri Hilson
 spotify:artist:6LqNN22kT3074XbTVUrhzX	Kesha
 spotify:artist:0Chxmm4XMM87mJOHvyiUzL	Kevin Rudolf
