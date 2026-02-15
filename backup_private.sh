@@ -85,4 +85,4 @@ fi
 echo >&2
 
 timestamp "Regenerating Blacklisted Artists"
-"$srcdir/blacklisted_artists.sh" >/dev/null
+"$srcdir/scripts/blacklisted_artists.sh" >/dev/null
