@@ -67,7 +67,7 @@ backup: lazy-init
 	echo && \
 	./backup_private.sh && \
 	echo && \
-	./update_playlist_names.sh && \
+	./scripts/update_playlist_names.sh && \
 	echo "Public + Private backups completed in $$SECONDS seconds"
 
 .PHONY: backups
@@ -106,7 +106,7 @@ updates: # backup commit
 	@#$(MAKE) aggregate
 	@echo
 	@echo
-	./like_all_tracks_in_playlists.sh
+	./scripts/like_all_tracks_in_playlists.sh
 	@echo
 	$(MAKE) commit
 
@@ -132,18 +132,18 @@ playlists:
 
 .PHONY: discover
 discover:
-	./discover_backlog_load.sh
+	./scripts/discover_backlog_load.sh
 	$(MAKE) dedupe
 
 .PHONY: dedupe
 dedupe:
-	./dedupe_blacklist_uris.sh
-	./discover_backlog_dedupe.sh
-	./spotify_delete_duplicates_in_playlist.sh "My Shazam Tracks"
+	./scripts/dedupe_blacklist_uris.sh
+	./scripts/discover_backlog_dedupe.sh
+	./scripts/spotify_delete_duplicates_in_playlist.sh "My Shazam Tracks"
 
 .PHONY: aggregate
 aggregate:
-	./aggregate_playlists.sh
+	./scripts/aggregate_playlists.sh
 
 .PHONY: pull
 pull:
