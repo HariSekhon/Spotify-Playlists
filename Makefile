@@ -139,7 +139,7 @@ discover:
 dedupe:
 	./scripts/dedupe_blacklist_uris.sh
 	./scripts/discover_backlog_dedupe.sh
-	./scripts/spotify_delete_duplicates_in_playlist.sh "My Shazam Tracks"
+	"$(BASH_TOOLS)/spotify/spotify_delete_duplicates_in_playlist.sh" "My Shazam Tracks"
 
 .PHONY: aggregate
 aggregate:
