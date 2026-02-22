@@ -147,8 +147,8 @@ spotify:artist:0qLNsNKm8bQcMoRFkR8Hmh	James
 spotify:artist:6J7biCazzYhU3gM9j1wfid	Jamiroquai
 spotify:artist:07YZf4WDAMNwqr4jfgOZ8y	Jason Derulo
 spotify:artist:4Q6nIcaBED8qUel8bBx6Cr	Jax Jones
-spotify:artist:3nFkdlSjzX9mRTtwJOzDYB	JAY-Z
 spotify:artist:593TG88zhlcUxEYmhMYeIG	Jazzystics
+spotify:artist:3nFkdlSjzX9mRTtwJOzDYB	JAŸ-Z
 spotify:artist:4yBK75WVCQXej1p04GWqxH	Jeezy
 spotify:artist:2DlGxzQSjYe5N6G9nkYghR	Jennifer Lopez
 spotify:artist:3KV3p5EY4AvKxOlhGHORLg	Jeremih
