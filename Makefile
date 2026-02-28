@@ -106,9 +106,9 @@ updates: # backup commit
 	@#$(MAKE) aggregate
 	@echo
 	@echo
-	./scripts/like_all_tracks_in_playlists.sh
-	@echo
 	$(MAKE) commit
+	@echo
+	./scripts/like_all_tracks_in_playlists.sh
 
 .PHONY: update
 update: updates
