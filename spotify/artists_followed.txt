@@ -193,6 +193,7 @@ spotify:artist:1P8IfcNKwrkQP5xJWuhaOC	LL COOL J
 spotify:artist:6BXnCNvWCmFRvlMazWAomB	Lloren
 spotify:artist:163tK9Wjr9P9DmM0AVK7lm	Lorde
 spotify:artist:7KnaZr690xW0sCihF9Z8oP	lostprophets
+spotify:artist:76vO0RjFam5iW8mbtVsc4h	Lucy Deakin
 spotify:artist:3ipn9JLAPI5GUEo4y4jcoi	Ludacris
 spotify:artist:2uFUBdaVGtyMqckSeCl0Qj	Ludovico Einaudi
 spotify:artist:01QTIT5P1pFP3QnnFSdsJf	Lupe Fiasco
@@ -279,6 +280,7 @@ spotify:artist:1HT9k1ZSUL9IczSstOAgWJ	Roger Sanchez
 spotify:artist:2SHhfs4BiDxGQ3oxqf0UHY	Roxette
 spotify:artist:54OEro9sWZ3mVfMdlz2CIt	Royal Deluxe
 spotify:artist:5tIkXJTex4JY7cv9mmgAZx	Ruelle
+spotify:artist:1z7b1Pr1rSlvWRzsW3HOrS	Russ
 spotify:artist:0mTfntDCCWRozUnyxpGf6E	Saigon
 spotify:artist:5S6hjAxgxjsLylsTtMIimO	Saliva
 spotify:artist:2wY79sveU1sp5g7SokKOiI	Sam Smith
