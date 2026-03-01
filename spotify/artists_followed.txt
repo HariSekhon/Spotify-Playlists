@@ -284,6 +284,7 @@ spotify:artist:1z7b1Pr1rSlvWRzsW3HOrS	Russ
 spotify:artist:0mTfntDCCWRozUnyxpGf6E	Saigon
 spotify:artist:5S6hjAxgxjsLylsTtMIimO	Saliva
 spotify:artist:2wY79sveU1sp5g7SokKOiI	Sam Smith
+spotify:artist:3ffu6UPnCNmm4BR1a8Wh3u	Sarah McIntosh
 spotify:artist:3NRFinRTEqUCfaTTZmk8ek	Savage Garden
 spotify:artist:23ymPLjbtAMzTJS2qRtQ8Z	Sébastien Tellier
 spotify:artist:4uKYbUZCaUr0KfiuOuIpRB	Selectracks Song Catalog
