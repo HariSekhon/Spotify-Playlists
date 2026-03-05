@@ -41,6 +41,7 @@ spotify:artist:4tpUmLEVLCGFr93o8hFFIB	Blondie
 spotify:artist:7MhMgCo0Bl0Kukl93PZbYS	Blur
 spotify:artist:58lV9VcRSjABbAbfWS6skp	Bon Jovi
 spotify:artist:5spEJXLwD1sKUdC2bnOHPg	Bone Thugs-N-Harmony
+spotify:artist:0du5cEVh5yTK9QJze8zA0C	Bruno Mars
 spotify:artist:3Z02hBLubJxuFJfhacLSDc	Bryan Adams
 spotify:artist:1YfEcTuGvBQ8xSD1f53UnK	Busta Rhymes
 spotify:artist:7CajNmpbOovFoOoasH2HaY	Calvin Harris
@@ -158,6 +159,7 @@ spotify:artist:5ypxebeHEIXjMtJb17uJlI	Jet
 spotify:artist:1eNkUXHPaXyuyC8NAgzykK	Jodeci
 spotify:artist:24Cf1irKt7kcewb9OOkPum	Joyce Wrice
 spotify:artist:5gCRApTajqwbnHHPbr2Fpi	Juicy J
+spotify:artist:1uNFoZAHBGtllmzznpCI3s	Justin Bieber
 spotify:artist:31TPClRtHm23RisEBtV3X7	Justin Timberlake
 spotify:artist:0bMt8SJlp0gFRUufzifS05	K.I.Z
 spotify:artist:5K4W6rqBFWDnAN6FQUkS6x	Kanye West
@@ -208,6 +210,7 @@ spotify:artist:0uGk2czvcpWQA383Im6ajf	Maggie Lindemann
 spotify:artist:40ttEBZPhAHbXH6aUg4GkL	Magnetic Man
 spotify:artist:4pmNqFu71wEmFXSsYAiWK8	Makaveli
 spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ	Mariah Carey
+spotify:artist:04gDigrS5kc9YWfZHwBETP	Maroon 5
 spotify:artist:3koiLjNrgRTNbOwViDipeA	Marvin Gaye
 spotify:artist:1XkoF8ryArs86LZvFOkbyr	Mary J. Blige
 spotify:artist:1wiBLzTI7z9RUwEpNPdFT6	Mase
@@ -252,6 +255,7 @@ spotify:artist:7MqnCTCAX6SsIYYdJCQj9B	Pendulum
 spotify:artist:2ycnb8Er79LoH2AsR5ldjh	Pet Shop Boys
 spotify:artist:3BeQqzKdlARoOd6y30kCO2	Pete Rock
 spotify:artist:4lxfqrEsLX6N1N4OCSkILp	Phil Collins
+spotify:artist:0TnOYISbd1XYRBk9myaseg	Pitbull
 spotify:artist:6RZUqkomCmb8zCRqc9eznB	Placebo
 spotify:artist:4c4Ce4N4vJOs3Tzee020S4	Planet Funk
 spotify:artist:4NTnwCK3RqTBH7TFIQrkfL	PLÜM
