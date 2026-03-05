@@ -41,6 +41,7 @@ Blondie
 Blur
 Bon Jovi
 Bone Thugs-N-Harmony
+Bruno Mars
 Bryan Adams
 Busta Rhymes
 Calvin Harris
@@ -158,6 +159,7 @@ Jet
 Jodeci
 Joyce Wrice
 Juicy J
+Justin Bieber
 Justin Timberlake
 K.I.Z
 Kanye West
@@ -208,6 +210,7 @@ Maggie Lindemann
 Magnetic Man
 Makaveli
 Mariah Carey
+Maroon 5
 Marvin Gaye
 Mary J. Blige
 Mase
@@ -252,6 +255,7 @@ Pendulum
 Pet Shop Boys
 Pete Rock
 Phil Collins
+Pitbull
 Placebo
 Planet Funk
 PLÜM
