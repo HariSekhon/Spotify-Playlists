@@ -160,24 +160,24 @@ echo >&2
 timestamp "$num Blacklisted Artists remaining after removing any followed artists"
 echo >&2
 
-#timestamp "Removing any pre-existing blacklisted artists that have had tracks added to core playlists"
-#while read -r artist; do
-#    # this is a substring match, so not quite as tight as it could be, but on balance of speed trade off
-#    # it's better than having to iterate the tracks to get exact artist name which would be very slow
-#    # XXX: caveat - if artist name has changed without playlist snapshot_id changing, then there will be a miss
-#    # and the artist will not be removed from blacklisted artists
-#    if grep -Fq "$artist" "${core_playlists[@]}"; then
-#        log "Removing artist $artist"
-#        artist="${artist/\//\\/}"
-#        sed -i.bak "/^$artist/d" "$tmp2"
-#    fi
-#done < "$tmp"
-#
-#num="$(wc -l < "$tmp2" | sed 's/[[:space:]]*//')"
-#
-#echo >&2
-#timestamp "$num Blacklisted Artists remaining after removing any artists with tracks in core playlists"
-#echo >&2
+timestamp "Removing any pre-existing blacklisted artists that have had tracks added to core playlists"
+while read -r artist; do
+    # this is a substring match, so not quite as tight as it could be, but on balance of speed trade off
+    # it's better than having to iterate the tracks to get exact artist name which would be very slow
+    # XXX: caveat - if artist name has changed without playlist snapshot_id changing, then there will be a miss
+    # and the artist will not be removed from blacklisted artists
+    if grep -Fq "$artist" "${core_playlists[@]}"; then
+        log "Removing artist $artist"
+        artist="${artist/\//\\/}"
+        sed -i.bak "/^$artist/d" "$tmp2"
+    fi
+done < "$tmp"
+
+num="$(wc -l < "$tmp2" | sed 's/[[:space:]]*//')"
+
+echo >&2
+timestamp "$num Blacklisted Artists remaining after removing any artists with tracks in core playlists"
+echo >&2
 
 mv -f "$tmp2" "$filename"
 
