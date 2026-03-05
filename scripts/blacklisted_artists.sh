@@ -98,7 +98,7 @@ done < <(
            [ "$(cat "$blacklisted_artists_snapshot_file")" = "$blacklisted_artists_snapshot_id" ]; then
             timestamp "$blacklist has not changed, reusing locally cached blacklisted artists file"
         else
-            timestamp "Getting list of artists with >= $threshold tracks in $blacklist"
+            timestamp "Getting list of artists in $blacklist"
             # shellcheck disable=SC2030
             blacklisted_artists_tmp="$(mktemp)"
             "$bash_tools/spotify/spotify_playlist_artists.sh" "$blacklist" |
