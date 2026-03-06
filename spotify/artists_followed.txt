@@ -210,6 +210,7 @@ spotify:artist:0uGk2czvcpWQA383Im6ajf	Maggie Lindemann
 spotify:artist:40ttEBZPhAHbXH6aUg4GkL	Magnetic Man
 spotify:artist:4pmNqFu71wEmFXSsYAiWK8	Makaveli
 spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ	Mariah Carey
+spotify:artist:76nW12AUcUVEiC8fwFoAns	Mariette
 spotify:artist:04gDigrS5kc9YWfZHwBETP	Maroon 5
 spotify:artist:3koiLjNrgRTNbOwViDipeA	Marvin Gaye
 spotify:artist:1XkoF8ryArs86LZvFOkbyr	Mary J. Blige
