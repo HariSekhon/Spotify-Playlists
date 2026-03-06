@@ -45,7 +45,8 @@ spotify_token
 
 while read -r blacklist; do
     blacklisted_uris="private/spotify/$blacklist"
-    "$bash_tools/spotify/spotify_search_alternate_track_uris.sh" "$blacklisted_uris"
+    "$bash_tools/spotify/spotify_search_alternate_track_uris.sh" "$blacklisted_uris" |
+    grep -Fvxhf "$blacklisted_uris"
 done < <(
     grep -E '^Blacklist[[:digit:]]*$' "private/playlists.txt" | sort
 )
