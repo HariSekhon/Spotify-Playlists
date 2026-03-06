@@ -119,7 +119,6 @@ uniq -c |
 sort -k1nr |
 while read -r count artist; do
     if [ "$count" -lt $threshold ]; then
-        # causes a set -e exit triggering trap
         continue
     fi
     # don't output any artist that is found in core playlists as they may have additional tracks worth having
@@ -130,9 +129,8 @@ while read -r count artist; do
 done |
 {
 timestamp "Deduping Blacklisted Artists"
-sort -fu > "$tmp"  # || :
+sort -fu > "$tmp"
 }
-# || : to silence break exit code from loop above
 
 num="$(wc -l < "$tmp" | sed 's/[[:space:]]*//')"
 
