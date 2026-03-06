@@ -43,6 +43,13 @@ cd "$srcdir/.."
 
 spotify_token
 
+if is_mac; then
+    grep(){
+        command ggrep "$@"
+    }
+    export -f grep
+fi
+
 while read -r blacklist; do
     blacklisted_uris="private/spotify/$blacklist"
     "$bash_tools/spotify/spotify_search_alternate_track_uris.sh" "$blacklisted_uris" |
