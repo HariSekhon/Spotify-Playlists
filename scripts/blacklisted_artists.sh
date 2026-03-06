@@ -120,7 +120,7 @@ sort -k1nr |
 while read -r count artist; do
     if [ "$count" -lt $threshold ]; then
         # causes a set -e exit triggering trap
-        break
+        continue
     fi
     # don't output any artist that is found in core playlists as they may have additional tracks worth having
     # don't strip song name as sometimes artists are suffixed by 'featuring ...', not always in the prefix artists comma separated - better to fail safe and exclude them
@@ -130,7 +130,7 @@ while read -r count artist; do
 done |
 {
 timestamp "Deduping Blacklisted Artists"
-sort -fu > "$tmp" || :
+sort -fu > "$tmp"  # || :
 }
 # || : to silence break exit code from loop above
 
