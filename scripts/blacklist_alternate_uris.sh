@@ -43,6 +43,8 @@ cd "$srcdir/.."
 
 spotify_token
 
+output="$srcdir/blacklist_uris.txt"
+
 if is_mac; then
     grep(){
         command ggrep "$@"
@@ -50,10 +52,16 @@ if is_mac; then
     export -f grep
 fi
 
-while read -r blacklist; do
+{
+
+    while read -r blacklist; do
     blacklisted_uris="private/spotify/$blacklist"
     "$bash_tools/spotify/spotify_search_alternate_track_uris.sh" "$blacklisted_uris" |
     grep -Fvxhf "$blacklisted_uris"
 done < <(
     grep -E '^Blacklist[[:digit:]]*$' "private/playlists.txt" | sort
 )
+
+} | tee "$output"
+echo
+split -l 10000 "$output" "$output."
