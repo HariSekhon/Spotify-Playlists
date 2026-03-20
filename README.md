@@ -148,10 +148,10 @@ These first few are among my all time all genre favourite playlists:
 <!-- -->
 
 - [Smooth Hip-Hop 😎](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
-  legendary hip-hop to play while driving your
+  legendary smooth hip-hop to play while driving your
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
 - [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
-  legendary hip-hop to play while driving your
+  legendary elite hip-hop with attitude to play while driving your
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
   - [Gangsta Rap Made Me Do It 😎](https://open.spotify.com/playlist/2Nhb1tMCNDYPHKndRgNxSR) - subset of Elite Hip-Hop
     with Attitude and a few Smooth Hip-Hop tracks
