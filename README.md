@@ -172,7 +172,7 @@ These first few are among my all time all genre favourite playlists:
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
 - [Nu Metal 🤘 🎸](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5)
 - [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
-- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
+- [Guitar Rock 🤘 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
 
 ### Workout & Defiance
 
@@ -181,7 +181,7 @@ These first few are among my all time all genre favourite playlists:
   gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
 - [Best Workout Hip-Hop (Aggressive) 💪 😎](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2) -
   the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
-- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
+- [Rocky 🥊](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
 - [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
   Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
 - [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
