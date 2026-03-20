@@ -246,8 +246,8 @@ Conclusions:
 
 but what I can say with some confidence is...
 
-4. There are more good songs in across genres overall in recent years than there were in earlier years -
-   this is clearly shown in the graph of tracks below which is scraped from all my major playlists, genres and decades
+4. There are more good songs across genres overall in recent years than there were in earlier years -
+   this is clearly shown in the graph of tracks above which is scraped from all my major playlists, genres and decades
 5. Of course the golden age of Hip-Hop & R&B has passed... this is well known
 6. There were some god awful number 1 songs in the 1990s that would never have been even played today given the higher
    competition...
