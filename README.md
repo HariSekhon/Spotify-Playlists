@@ -63,6 +63,28 @@ Hari Sekhon
 
 _(you're welcome to connect with me on LinkedIn)_
 
+<!-- INDEX_START -->
+
+- [Quick Guide](#quick-guide)
+- [Best of the Best](#best-of-the-best)
+  - [Favourites](#favourites)
+  - [Pop, Dance, Trance, House](#pop-dance-trance-house)
+  - [Hip-Hop & R&B](#hip-hop--rb)
+  - [Rock](#rock)
+  - [Workout & Defiance](#workout--defiance)
+  - [Love, Sex & Modern 304 Life](#love-sex--modern-304-life)
+  - [Chill, Instrumentals, Acoustic, Other](#chill-instrumentals-acoustic-other)
+  - [Classics of Past Decades, Jazz, Classical, Motown & Soul](#classics-of-past-decades-jazz-classical-motown--soul)
+  - [Best of Decades](#best-of-decades)
+  - [Best by Year](#best-by-year)
+    - [Shocking Revelations & Analytics](#shocking-revelations--analytics)
+  - [Ethnic Playlists](#ethnic-playlists)
+  - [Artists](#artists)
+    - [Best Artist Playlists](#best-artist-playlists)
+- [The Tech Stuff](#the-tech-stuff)
+
+<!-- INDEX_END -->
+
 ## Quick Guide
 
 - Genre mega mixes (eg.
@@ -74,16 +96,16 @@ _(you're welcome to connect with me on LinkedIn)_
 - Mixes in Time - `YYYY MM - <description>` date stamped mixes -
   stuff that was either hot at that time or that I discovered and listened to more at that time
 
-### Best of the Best
+## Best of the Best
 
-#### Favourites
+### Favourites
 
 - [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
   absolute favs across all genres. If you only ever had one playlist in your life, this is it!
   - [Elite Favourites 💯😎](https://open.spotify.com/playlist/215bzez43cnPzX1cFUNP17) -
     the Best of the Best across all genres, a more elite subset of the Favourites playlist
 
-#### Best Pop, Dance, Trance, House
+### Pop, Dance, Trance, House
 
 These first few are among my all time all genre favourite playlists:
 
@@ -117,7 +139,7 @@ These first few are among my all time all genre favourite playlists:
 - [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
   soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
 
-#### Hip-Hop & R&B
+### Hip-Hop & R&B
 
 - [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
   superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
@@ -141,7 +163,7 @@ These first few are among my all time all genre favourite playlists:
 - [Jamaican - Reggae - Riddim 🇯🇲 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
   by a half-Jamaican girl I used to know...
 
-#### Rock
+### Rock
 
 - [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
 - [Rock Mega-Mix 🤘 🎸](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR)
@@ -152,7 +174,7 @@ These first few are among my all time all genre favourite playlists:
 - [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
 - [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
 
-#### Workout & Defiance
+### Workout & Defiance
 
 - [Best Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf) -
   best of the bigger [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
@@ -171,7 +193,7 @@ These first few are among my all time all genre favourite playlists:
     without seeing the beauty and strength of which his body is capable"_
     ― Socrates
 
-#### Love & Sex
+### Love, Sex & Modern 304 Life
 
 - [Love Songs ❤️ ❤️ ❤️](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
   romantic love songs for your sweetie... they don't make them like this any more!
@@ -181,9 +203,6 @@ These first few are among my all time all genre favourite playlists:
   for single guys with high testosterone on their way to mischief, hip-hop based
 - [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
   for those late night bad boy journeys... hip-hop based
-
-#### 304 Life
-
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’d let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Stripper Music 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E) - Pop & Hip-Hop based - because who doesn't love a 304...
@@ -196,7 +215,7 @@ These first few are among my all time all genre favourite playlists:
   - [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) - a playlist of heartbreaker
     songs that even those who haven't had their heart broken can appreciate
 
-#### Chill, Instrumentals, Acoustic, Other
+### Chill, Instrumentals, Acoustic, Other
 
 - [Chill 😎](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk) -
   chill & pop tunes for work and life
@@ -210,7 +229,7 @@ These first few are among my all time all genre favourite playlists:
 - [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
 - [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
 
-#### Classics of Past Decades, Jazz, Classical, Motown & Soul
+### Classics of Past Decades, Jazz, Classical, Motown & Soul
 
 - [Classics - Hits from Decades Gone By 🎩 🏛️](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
   mid to late 20th century classics and well known songs
@@ -231,7 +250,7 @@ These first few are among my all time all genre favourite playlists:
 
 - [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
 
-#### Best of Decades
+### Best of Decades
 
 - [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss) - Hits from the 2020s - mix of Pop-Dance, Rock, R&B & Hip-Hop
 - [The 2010s](https://open.spotify.com/playlist/6CJIkvDN4f1WMO9ZnJ6wr1) -
@@ -371,7 +390,7 @@ There are a *lot* of artist playlists in my libary but some need more culling of
 
 -->
 
-### The Tech Stuff
+## The Tech Stuff
 
 These playlists are downloaded and managed by scripts in the [DevOps Bash tools](https://github.com/harisekhon/bash-tools) and [Spotify tools](https://github.com/HariSekhon/Spotify-tools) repos which are available as submodules under the `bash-tools/` and `spotify-tools/` directories respectively.
 
