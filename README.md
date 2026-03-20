@@ -99,7 +99,6 @@ These are among my all time favourite playlists:
   best tunes and vocals, hot white chick music
 - [Club Bangers! 🥳 🎉](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX) -
   club music - upbeat dance, house, trance etc.
-- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
 - [Pop Mega-Mix 🥳 🎉](https://open.spotify.com/playlist/0KqHUE6aVzUh9ProBe2QzO)
 - [Pop Mega-Mix 2 🥳 🎉](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
   overspill because Spotify limits playlists to 10,000 tracks.
@@ -110,8 +109,8 @@ These are among my all time favourite playlists:
 <!-- -->
 
 - [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
-- [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
-  inspired by the 70s onwards...
+- [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) - inspired by the 70s onwards...
+- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
 - [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
   soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
 
