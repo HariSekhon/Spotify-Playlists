@@ -47,6 +47,12 @@ tmp="$(mktemp)"
 
 playlist_file="$srcdir/../spotify/playlists.txt"
 
+if is_mac; then
+    awk(){
+        gawk "$@"
+    }
+fi
+
 awk -v playlist_file="$playlist_file" '
     # pre-load playlist file and build hashmap of playlist_id -> playlist_name
     BEGIN {
@@ -54,6 +60,7 @@ awk -v playlist_file="$playlist_file" '
             id = $1
             $1 = ""
             sub(/^ /, "")
+            $0 = gensub(/^Best of ([0-9]{4})$/, "\\1", "g")
             name[id] = $0
         }
         close(playlist_file)
