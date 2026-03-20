@@ -2,6 +2,7 @@ spotify:artist:17lzZA2AlOHwCwFALHttmp	2 Chainz
 spotify:artist:1ZwdS5xdxEREPySFridCfh	2Pac
 spotify:artist:0FWzNDaEu9jdgcYTbcOa4F	3OH!3
 spotify:artist:3q7HBObVc0L8jNeTe5Gofh	50 Cent
+spotify:artist:31W5EY0aAly4Qieq6OFu6I	A Boogie Wit da Hoodie
 spotify:artist:4DFhHyjvGYa9wxdHUjtDkc	A Perfect Circle
 spotify:artist:7hOGhpa8RMSuDOWntGIAJt	A R I Z O N A
 spotify:artist:2t2XKfWKLXpFIjFwy1K8wx	Aaron Lewis
