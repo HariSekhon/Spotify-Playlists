@@ -108,9 +108,9 @@ These are among my all time favourite playlists:
 
 <!-- -->
 
-- [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
 - [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) - inspired by the 70s onwards...
 - [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
+- [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
 - [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
   soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
 
