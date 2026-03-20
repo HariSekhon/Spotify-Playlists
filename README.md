@@ -87,6 +87,7 @@ _(you're welcome to connect with me on LinkedIn)_
 
 These are among my all time favourite playlists:
 
+- [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
 - [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
   the ultimate driving upbeat pop mega mix for road trips with your girlfriend
 - [Hot Love 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa) -
@@ -98,27 +99,54 @@ These are among my all time favourite playlists:
   best tunes and vocals, hot white chick music
 - [Club Bangers! 🥳 🎉](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX) -
   club music - upbeat dance, house, trance etc.
+- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
+- [Pop Mega-Mix 🥳 🎉](https://open.spotify.com/playlist/0KqHUE6aVzUh9ProBe2QzO)
+- [Pop Mega-Mix 2 🥳 🎉](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
+  overspill because Spotify limits playlists to 10,000 tracks.
+  The first Pop Mega-Mix playlist is better since it sucked up most of the best known popular songs first
+- [Love Island Mega-Mix 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
+  music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
+
+<!-- -->
+
+- [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
+- [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
+  inspired by the 70s onwards...
+- [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
+  soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
 
 #### Hip-Hop & R&B
+
+- [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
+  superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
+- [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
+
+<!-- -->
 
 - [Smooth Hip-Hop 😎](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
   legendary hip-hop to play while driving your
 - [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
   legendary hip-hop to play while driving your
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
-- [Gangsta Rap Made Me Do It 😎](https://open.spotify.com/playlist/2Nhb1tMCNDYPHKndRgNxSR) - subset of Elite Hip-Hop
-  with Attitude and a few Smooth Hip-Hop tracks
+  - [Gangsta Rap Made Me Do It 😎](https://open.spotify.com/playlist/2Nhb1tMCNDYPHKndRgNxSR) - subset of Elite Hip-Hop
+    with Attitude and a few Smooth Hip-Hop tracks
 - [Hip-Hop - Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
   Beats & Bounce. _"Break Ya Neck bitches"_... as Busta Rhymes would say...
+- [Grime - UK Hip-Hop 🇬🇧 😎](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4) - British street hip-hop
+- [Hip-Hop & R&B Mega-Mix 😎](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F)
 - [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
-- [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
 - [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
+- [Jamaican - Reggae - Riddim 🇯🇲 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
+  by a half-Jamaican girl I used to know...
 
 #### Rock
 
+- [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
+- [Rock Mega-Mix 🤘 🎸](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR)
 - [Elite Percussive Rock & Electro Blues 🤘 🎸](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
 - [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
   🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
+- [Nu Metal 🤘 🎸](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5)
 - [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
 - [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
 
@@ -132,6 +160,7 @@ These are among my all time favourite playlists:
 - [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
 - [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
   Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
+- [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
 - [Defiance - Beat the Odds in Life 💪 🚀](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
   working out or on your economic grind, there is no more respectable man than he who rises from nothing
   to something through his own hard work and merit.
@@ -176,23 +205,29 @@ These are among my all time favourite playlists:
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
 - [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
 - [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
+- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
 - [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
 
-#### Best of Genres
+#### Classics of Past Decades, Jazz, Classical, Motown & Soul
 
-- [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
-- [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
-- [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
-  superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
+- [Classics - Hits from Decades Gone By 🎩 🏛️](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
+  mid to late 20th century classics and well known songs
+
+<!-- -->
+
+- [Coffee Shops Mega-Mix ☕️ 🎷](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe) -
+  Easy Listening, Jazz, Lounge, Soft Pop... stuff you'd hear at Coffee Shops
+
+<!-- -->
+
 - [Best Motown & Soul 👻](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S) -
   excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these
   Motown classics
-- [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
-- [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
-  inspired by the 70s onwards...
-- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
-- [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
-  soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
+- [Motown & Soul 👻](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU)
+
+<!-- -->
+
+- [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
 
 #### Best of Decades
 
@@ -210,29 +245,6 @@ These are among my all time favourite playlists:
   the Best of the 1970s - including Queen, Blondie, Bill Conti, Fleetwood Mac ...
 - [Brit Pop 🇬🇧 🇬🇧 🇬🇧](https://open.spotify.com/playlist/2gA1tjo1HsOJYTH1xFFQnh) -
   re-live the golden 90s indie bands like The Verve, Oasis, Pulp, Blur, Skunk Anansie, Texas and Ocean Colour Scene plus newer acts like Lily Allen, Blossom, Micky James
-### Larger Genre Playlists
-
-Entire genres of songs which are decent but not elite enough to make the lists above:
-
-- [Pop Mega-Mix 🥳 🎉](https://open.spotify.com/playlist/0KqHUE6aVzUh9ProBe2QzO)
-- [Pop Mega-Mix 2 🥳 🎉](https://open.spotify.com/playlist/6mF730tPdh5NEfMY5bnRGQ) -
-  overspill because Spotify limits playlists to 10,000 tracks.
-  The first Pop Mega-Mix playlist is better since it sucked up most of the best known popular songs first
-- [Hip-Hop & R&B Mega-Mix 😎](https://open.spotify.com/playlist/1ExUJXCciAA7pvnPln6H6F)
-- [Rock Mega-Mix 🤘 🎸](https://open.spotify.com/playlist/4BHR4nL7taF7TrBKIB05pR)
-- [Love Island Mega-Mix 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/3ZNs8vkg6EjS4PADT4sGFb) -
-  music from the hit TV show's many seasons - generally Pop-Dance with some R&B and Hip-Hop mixed in
-- [Coffee Shops Mega-Mix ☕️ 🎷](https://open.spotify.com/playlist/0I1TzQXuQ40jJReGtGCuIe) -
-  Easy Listening, Jazz, Lounge, Soft Pop... stuff you'd hear at Coffee Shops
-- [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
-- [Jamaican - Reggae - Riddim 🇯🇲 🇯🇲](https://open.spotify.com/playlist/1y9m25Nt5DEx8xyvmvjSMO) - inspired
-  by a half-Jamaican girl I used to know...
-- [Grime - UK Hip-Hop 🇬🇧 😎](https://open.spotify.com/playlist/04OuLIVbdaKmYy6AnJNTJ4) - British street hip-hop
-- [Nu Metal 🤘 🎸](https://open.spotify.com/playlist/3myqNqXInqIMOA211nAxa5)
-- [Motown & Soul 👻](https://open.spotify.com/playlist/2vkUGRxSZf4wElRZnmcxWU)
-- [Classics - Hits from Decades Gone By 🎩 🏛️](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
-  mid to late 20th century classics and well known songs
-- [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
 
 ### Best by Year
 
