@@ -88,8 +88,6 @@ _(you're welcome to connect with me on LinkedIn)_
   chill & pop tunes for work and life
 - [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
 - [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
-- [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
-  superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
 - [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
 - [Best Female Vocal Trance, Dance & Deep House ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt) -
   the sound of hot white girls singing.
@@ -103,12 +101,18 @@ _(you're welcome to connect with me on LinkedIn)_
   instrumentals and songs mostly for the tune...
 - [Best Trance, Dance, Deep House 👩🏻‍🦰 👩🏼 👩🏻 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
   best tunes and vocals, hot white chick music
+- [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
+  superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
+  - [Smooth Hip-Hop 😎](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
+    legendary hip-hop to play while driving your
+  - [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
+    legendary hip-hop to play while driving your
+    [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
+    - [Gangsta Rap Made Me Do It 😎](https://open.spotify.com/playlist/2Nhb1tMCNDYPHKndRgNxSR) - subset of Elite Hip-Hop
+      with Attitude and a few Smooth Hip-Hop tracks
+  - [Hip-Hop - Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
+    Beats & Bounce. _"Break Ya Neck bitches"_... as Busta Rhymes would say...
 - [Elite Percussive Rock & Electro Blues 🤘 🎸](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
-- [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
-  legendary hip-hop to play while driving your
-  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
-- [Smooth Hip-Hop 😎](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
-  legendary hip-hop to play while driving your
   [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
 - [Love Songs ❤️ ❤️ ❤️](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
   romantic love songs for your sweetie... they don't make them like this any more!
@@ -118,8 +122,6 @@ _(you're welcome to connect with me on LinkedIn)_
   for single guys with high testosterone on their way to mischief, hip-hop based
 - [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
   for those late night bad boy journeys... hip-hop based
-- [Hip-Hop - Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
-  Beats & Bounce. _"Break Ya Neck bitches"_... as Busta Rhymes would say...
 - [Light Fun Feel Good 🥳 🎉](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY) -
   because sometimes you need to lighten up
 - [Best Motown & Soul 👻](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S) -
