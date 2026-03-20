@@ -356,6 +356,7 @@ spotify:artist:51Blml2LZPmy7TTiAg47vQ	U2
 spotify:artist:23zg3TcAtWQy7J6upgbUnj	USHER
 spotify:artist:0LyfQWJT6nXafLPZqxe9Of	Various Artists
 spotify:artist:5ujrA1eZLDHR7yQ6FZa2qA	Vera Blue
+spotify:artist:4z8x1jIkUBEiVibHB6tFsz	Vindaloo Singh
 spotify:artist:67nwj3Y5sZQLl72VNUHEYE	Wale
 spotify:artist:2B4ZHz4QDWJTXPFPgO5peE	Warren G
 spotify:artist:7k9T7lZlHjRAM1bb0r9Rm3	Wiley
