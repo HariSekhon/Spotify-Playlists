@@ -85,7 +85,7 @@ _(you're welcome to connect with me on LinkedIn)_
 
 #### Best Pop, Dance, Trance, House
 
-These are among my all time favourite playlists:
+These first few are among my all time all genre favourite playlists:
 
 - [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
 - [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
