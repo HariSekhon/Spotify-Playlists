@@ -198,7 +198,7 @@ These first few are among my all time all genre favourite playlists:
 - [Love Songs ❤️ ❤️ ❤️](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
   romantic love songs for your sweetie... they don't make them like this any more!
 - [Sensual 🍑 💦](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny) -
-  for a nice evening in with the girlfriend, massage & more music
+  for a nice evening in with the girlfriend, massage & more
 - [Songs About Sex 🍑 💦](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc) -
   for single guys with high testosterone on their way to mischief, hip-hop based
 - [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
