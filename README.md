@@ -76,68 +76,83 @@ _(you're welcome to connect with me on LinkedIn)_
 
 ### Best of the Best
 
+#### Favourites
+
 - [Favourites 💯 😎](https://open.spotify.com/playlist/3iRkPfmGAPH9zOrOwPOibk) -
   absolute favs across all genres. If you only ever had one playlist in your life, this is it!
   - [Elite Favourites 💯😎](https://open.spotify.com/playlist/215bzez43cnPzX1cFUNP17) -
     the Best of the Best across all genres, a more elite subset of the Favourites playlist
-- Pop, Dance, Trance, House etc:
-  - [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
-    the ultimate driving upbeat pop mega mix for road trips with your girlfriend
-  - [Hot Love 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa) -
-    Pop-Dance based, for your hot girlfriend current or future
-  - [Best Female Vocal Trance, Dance & Deep House ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt) -
-    the sound of hot white girls singing.
-    See also the Hot Love playlist above
-  - [Best Trance, Dance, Deep House 👩🏻‍🦰 👩🏼 👩🏻 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
-    best tunes and vocals, hot white chick music
-- [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
-- [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
-- [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
-  - [Elite Percussive Rock & Electro Blues 🤘 🎸](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
-- Workout:
-  - [Best Workout Hip-Hop (Aggressive) 💪 😎](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2) -
-    the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
-  - [Best Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf) -
-    best of the bigger [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
-    gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
-- [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
-  superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
-  - [Smooth Hip-Hop 😎](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
-    legendary hip-hop to play while driving your
-  - [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
-    legendary hip-hop to play while driving your
-    [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
-    - [Gangsta Rap Made Me Do It 😎](https://open.spotify.com/playlist/2Nhb1tMCNDYPHKndRgNxSR) - subset of Elite Hip-Hop
-      with Attitude and a few Smooth Hip-Hop tracks
-  - [Hip-Hop - Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
-    Beats & Bounce. _"Break Ya Neck bitches"_... as Busta Rhymes would say...
-- [Chill 😎](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk) -
-  chill & pop tunes for work and life
-- [Best Tunes & Instrumentals 🎹](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U) -
-  instrumentals and songs mostly for the tune...
-  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
-- Love & Sex:
-  - [Love Songs ❤️ ❤️ ❤️](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
-    romantic love songs for your sweetie... they don't make them like this any more!
-  - [Sensual 🍑 💦](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny) -
-    for a nice evening in with the girlfriend, massage & more music
-  - [Songs About Sex 🍑 💦](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc) -
-    for single guys with high testosterone on their way to mischief, hip-hop based
-  - [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
-    for those late night bad boy journeys... hip-hop based
-- [Light Fun Feel Good 🥳 🎉](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY) -
-  because sometimes you need to lighten up
-- [Best Motown & Soul 👻](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S) -
-  excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these
-  Motown classics
-- [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
+
+#### Best Pop, Dance, Trance, House
+
+These are among my all time favourite playlists:
+
+- [Upbeat & Sexual Pop 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/64OO67Be8wOXn6STqHxexr) -
+  the ultimate driving upbeat pop mega mix for road trips with your girlfriend
+- [Hot Love 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/0a89oThiwNzUZtJWF3NDwa) -
+  Pop-Dance based, for your hot girlfriend current or future
+- [Best Female Vocal Trance, Dance & Deep House ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt) -
+  the sound of hot white girls singing.
+  See also the Hot Love playlist above
+- [Best Trance, Dance, Deep House 👩🏻‍🦰 👩🏼 👩🏻 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
+  best tunes and vocals, hot white chick music
 - [Club Bangers! 🥳 🎉](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX) -
   club music - upbeat dance, house, trance etc.
-- [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
-  inspired by the 70s onwards...
-- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
-- [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
-  soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
+
+#### Hip-Hop & R&B
+
+- [Smooth Hip-Hop 😎](https://open.spotify.com/playlist/7isarHP3nVD7punZolUnYZ) -
+  legendary hip-hop to play while driving your
+- [Elite Hip-Hop with Attitude 😎](https://open.spotify.com/playlist/5RR38VsaYbbgK9KQv2V7gv) -
+  legendary hip-hop to play while driving your
+  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
+- [Gangsta Rap Made Me Do It 😎](https://open.spotify.com/playlist/2Nhb1tMCNDYPHKndRgNxSR) - subset of Elite Hip-Hop
+  with Attitude and a few Smooth Hip-Hop tracks
+- [Hip-Hop - Bounce to the Rhythm 😎](https://open.spotify.com/playlist/2b08Ao5VcNwwYs7Yo1hy3F) -
+  Beats & Bounce. _"Break Ya Neck bitches"_... as Busta Rhymes would say...
+- [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
+- [Best R&B 😎](https://open.spotify.com/playlist/5hHBAgEmYWkcMkWWSNrml7)
+- [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
+
+#### Rock
+
+- [Elite Percussive Rock & Electro Blues 🤘 🎸](https://open.spotify.com/playlist/2G62FKPpyNMI3Sx0VTaoga)
+- [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
+  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
+- [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
+- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
+
+#### Workout & Defiance
+
+- [Best Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/1aezJEIl4ByZRomxh3Iynf) -
+  best of the bigger [Workout Pop 💪 🏃🏃‍♀️](https://open.spotify.com/playlist/5JAocRkkq0i0mlLSPUzPF6)
+  gym mega mix - Energetic Pop, Dance, Trance, Drum n Bass, Beats
+- [Best Workout Hip-Hop (Aggressive) 💪 😎](https://open.spotify.com/playlist/3UwNxY21jMcrwxpTkLfvS2) -
+  the best workout hip-hop, gym hardcore for guys pumping iron and hitting bags
+- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
+- [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
+  Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
+- [Defiance - Beat the Odds in Life 💪 🚀](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
+  working out or on your economic grind, there is no more respectable man than he who rises from nothing
+  to something through his own hard work and merit.
+  When people wonder how I beat the odds in life or why I get more ripped the older I get:
+  - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old
+    without seeing the beauty and strength of which his body is capable"_
+    ― Socrates
+
+#### Love & Sex
+
+- [Love Songs ❤️ ❤️ ❤️](https://open.spotify.com/playlist/3uyuSQLQDGjdLrI91hUoqM) -
+  romantic love songs for your sweetie... they don't make them like this any more!
+- [Sensual 🍑 💦](https://open.spotify.com/playlist/0UhdzfzP7jPLrG6U8LGmny) -
+  for a nice evening in with the girlfriend, massage & more music
+- [Songs About Sex 🍑 💦](https://open.spotify.com/playlist/4qfkwvXPaihbDEn0ZTZmwc) -
+  for single guys with high testosterone on their way to mischief, hip-hop based
+- [Bad Boy Gets Down 🍑 💦 😎](https://open.spotify.com/playlist/3UrLxZZZQkRPz9Q5bO8IWm) -
+  for those late night bad boy journeys... hip-hop based
+
+#### 304 Life
+
 - [Baditude - Bad Bitches with Attitude ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 ❤️](https://open.spotify.com/playlist/4xJD1AYvO70JEGDpFPkz3v) -
   you’d let her ruin your life because she’s hot… this is how we end up with beautiful babies
 - [Stripper Music 👩🏻‍🦰 👩🏼 👩🏻 🍑 💦](https://open.spotify.com/playlist/6EzBzGIma4FvgGv7lzXn2E) - Pop & Hip-Hop based - because who doesn't love a 304...
@@ -149,15 +164,37 @@ _(you're welcome to connect with me on LinkedIn)_
   these artists clearly felt it too...
   - [Heart Breakers 💔 💔 💔](https://open.spotify.com/playlist/3DIFW3Hi9nT9GlfbXuH5OU) - a playlist of heartbreaker
     songs that even those who haven't had their heart broken can appreciate
-- [Defiance - Beat the Odds in Life 💪 🚀](https://open.spotify.com/playlist/0ofbNCNYJunamfCUn20WPp) -
-  working out or on your economic grind, there is no more respectable man than he who rises from nothing
-  to something through his own hard work and merit.
-  When people wonder how I beat the odds in life or why I get more ripped the older I get:
-  - _"No man has the right to be an amateur in the matter of physical training. It is a shame for a man to grow old
-    without seeing the beauty and strength of which his body is capable"_
-    ― Socrates
 
-<!-- -->
+#### Chill, Instrumentals, Acoustic, Other
+
+- [Chill 😎](https://open.spotify.com/playlist/1qeOhdKNPASZoecEBcnKfk) -
+  chill & pop tunes for work and life
+- [Light Fun Feel Good 🥳 🎉](https://open.spotify.com/playlist/1YDtdAjvbgDdDvNj4gLdgY) -
+  because sometimes you need to lighten up
+- [Best Tunes & Instrumentals 🎹](https://open.spotify.com/playlist/7gpWzFmgkyHprLV921XU5U) -
+  instrumentals and songs mostly for the tune...
+  [drug dealer car](https://medium.com/@harisekhon/the-police-attention-you-get-driving-a-drug-dealer-looking-car-through-europe-d38c5919835f)
+- [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
+- [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
+- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
+
+#### Best of Genres
+
+- [Best Pop 🥳 🎉](https://open.spotify.com/playlist/0DAPPqAeWuZrjge0LwYryS)
+- [Best Rock 🤘 🎸](https://open.spotify.com/playlist/5YyD3L0oa0rVKUNREpEnww)
+- [Best Hip-Hop 😎](https://open.spotify.com/playlist/4tqT98AY7OV29kCdDHq7J8) - both Classic & New -
+  superset of Elite Hip-Hop with Attitude and Smooth Hip-Hop playlists
+- [Best Motown & Soul 👻](https://open.spotify.com/playlist/02WL8NiTqSfFp6VGVO834S) -
+  excellent tracks you wish you knew earlier, much of the best contemporary hip-hop tunes are "borrowed" from these
+  Motown classics
+- [Electronica ⚡️ 💿](https://open.spotify.com/playlist/26wj2LINnAVSPfdY7CAOvy)
+- [Disco! 🕺💃](https://open.spotify.com/playlist/6LP0XgEvqj5rd9vnAB0HHg) -
+  inspired by the 70s onwards...
+- [Karaoke Classics 🎤 🥳 🎉](https://open.spotify.com/playlist/3LNMVHtLKj1YWtb4PDG7JW)
+- [Soft Pop🍦 🍦](https://open.spotify.com/playlist/2EHjpno5iNbWw3th6ccnyB) -
+  soft pop songs that you can listen to late night while the kids are asleep in the back of the car...
+
+#### Best of Decades
 
 - [The 2020s](https://open.spotify.com/playlist/01WhdxOGV8WQQkpek949ss) - Hits from the 2020s - mix of Pop-Dance, Rock, R&B & Hip-Hop
 - [The 2010s](https://open.spotify.com/playlist/6CJIkvDN4f1WMO9ZnJ6wr1) -
@@ -196,21 +233,6 @@ Entire genres of songs which are decent but not elite enough to make the lists a
 - [Classics - Hits from Decades Gone By 🎩 🏛️](https://open.spotify.com/playlist/62FSoffVF6FjQqIWZizL5t) -
   mid to late 20th century classics and well known songs
 - [Classical 🎻 🎹](https://open.spotify.com/playlist/587N7QVPPa5U4tNml5tCoN)
-
-### More Playlists of Note
-
-- [My Shazam Tracks](https://open.spotify.com/playlist/2ddv4fdbsD7WOnmY30g40i)
-- [Redneck Rock 🇺🇸 🤘 🎸 🇺🇸](https://open.spotify.com/playlist/5bQAMJAg5ymLQU0JAw8OIk) -
-  🇺🇸 God Bless America 🇺🇸 - never leave home without your 9 or 45...
-- [College Rock 🤘 🎸](https://open.spotify.com/playlist/073BdrY7DAUgrQbAvfB98Q)
-- [Acoustic 🎤 🎤](https://open.spotify.com/playlist/6sXeNgEhAS8NVgS90TlLgE)
-- [Guitar Rock 🎸](https://open.spotify.com/playlist/4z4KdwmGGgfYo0Ztf8rKXj)
-- [Piano 🎹](https://open.spotify.com/playlist/4sf4JaqFlCfZqOa2e9h59k)
-- [Rocky](https://open.spotify.com/playlist/7db5ZLCZuwbPTe5oJgcYHO)
-- [R&B 😎](https://open.spotify.com/playlist/4vVKezqPX4aTuY1g4nNF6T)
-- [Smooth 😎](https://open.spotify.com/playlist/5ldJ3IPprupbpY82PWOBnk)
-- [MMA, UFC & Boxing 🥊](https://open.spotify.com/playlist/7EaojRF7v8MnFIhFxG2xAt) - music from the legends of
-  Mixed Martial Arts such as UFC / PrideFC walkout songs or event previews
 
 ### Best by Year
 
