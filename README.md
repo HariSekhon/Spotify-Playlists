@@ -117,7 +117,7 @@ These first few are among my all time all genre favourite playlists:
 - [Best Female Vocal Trance, Dance & Deep House ❤️ 👩🏻‍🦰 👩🏼 👩🏻 😍 🍑 💦](https://open.spotify.com/playlist/4T3ij5V3YkpESpzGENUbvt) -
   the sound of hot white girls singing.
   See also the Hot Love playlist above
-- [Best Trance, Dance, Deep House 👩🏻‍🦰 👩🏼 👩🏻 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
+- [Best Trance, Dance & Deep House 👩🏻‍🦰 👩🏼 👩🏻 🥳 🎉](https://open.spotify.com/playlist/52En7jbzRvWdcbGJbrkvuh) -
   best tunes and vocals, hot white chick music
 - [Club Bangers! 🥳 🎉](https://open.spotify.com/playlist/4OxP5YjEPmOPNbbDvqwVqX) -
   club music - upbeat dance, house, trance etc.
