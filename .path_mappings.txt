@@ -162,6 +162,7 @@ Artists		Michael Bolton
 Artists		Michael Jackson
 Artists		Moby
 Artists		My Darkest Days
+Artists		Nadia Ali
 Artists		Nas
 Artists		Nero
 Artists		Nickelback
