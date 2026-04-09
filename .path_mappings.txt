@@ -73,6 +73,7 @@ Artists		Beyonce
 Artists		Black Eyed Peas
 Artists		Blackmill
 Artists		Bloc Party
+Artists		Bob Marley & The Wailers
 Artists		Bon Jovi
 Artists		Bone Thugs n Harmony
 Artists		Busta Rhymes
