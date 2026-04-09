@@ -158,6 +158,7 @@ Artists		Moby
 Artists		My Darkest Days
 Artists		Nas
 Artists		Nero
+Artists		Nickelback
 Artists		Nirvana
 Artists		Olly Murs
 Artists		P!nk
