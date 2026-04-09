@@ -208,6 +208,7 @@ Artists		Three Days Grace
 Artists		Tina Cousins
 Artists		Tinie Tempah
 Artists		U2
+Artists		Verve
 Artists		Warren G
 Artists		Wale
 Artists		Wyclef Jean
