@@ -97,6 +97,7 @@ Artists		Deftones
 Artists		Devlin
 Artists		Dj Loony
 Artists		Dr Dre
+Artists		Dua Lipa
 Artists		Eamon
 Artists		Ellie Goulding
 Artists		Emeli Sandé
