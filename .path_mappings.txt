@@ -138,6 +138,7 @@ Artists		Keyshia Cole
 Artists		Kiesza
 Artists		Kings Of Leon
 Artists		KoRn
+Artists		Kygo
 Artists		Kylie Minogue
 Artists		Lady Gaga
 Artists		Lana Del Rey
