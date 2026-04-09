@@ -209,5 +209,6 @@ Artists		Tina Cousins
 Artists		Tinie Tempah
 Artists		U2
 Artists		Warren G
+Artists		Wale
 Artists		Wyclef Jean
 Artists		Zara Larsson
