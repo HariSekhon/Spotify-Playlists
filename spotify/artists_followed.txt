@@ -7,6 +7,7 @@ spotify:artist:4DFhHyjvGYa9wxdHUjtDkc	A Perfect Circle
 spotify:artist:7hOGhpa8RMSuDOWntGIAJt	A R I Z O N A
 spotify:artist:2t2XKfWKLXpFIjFwy1K8wx	Aaron Lewis
 spotify:artist:0LcJLqbBmaGUft1e9Mm8HV	ABBA
+spotify:artist:10gzBoINW3cLJfZUka8Zoe	Above & Beyond
 spotify:artist:711MCceyCBcFnzjGY4Q7Un	AC/DC
 spotify:artist:266SmBZTt4zRzaKEANWbfQ	Adina Howard
 spotify:artist:31CtLHmSL7Oa7TPU9YyBEu	Aeroplane
@@ -39,6 +40,7 @@ spotify:artist:41MozSoPIsD1dJM0CLPjZF	BLACKPINK
 spotify:artist:1xSSjJrKTO2ZNPU81uLtmI	Bliss n Eso
 spotify:artist:3MM8mtgFzaEJsqbjZBSsHJ	Bloc Party
 spotify:artist:4tpUmLEVLCGFr93o8hFFIB	Blondie
+spotify:artist:2gI1WfmpFmmgSRojy4Jup2	BLÜ EYES
 spotify:artist:7MhMgCo0Bl0Kukl93PZbYS	Blur
 spotify:artist:58lV9VcRSjABbAbfWS6skp	Bon Jovi
 spotify:artist:5spEJXLwD1sKUdC2bnOHPg	Bone Thugs-N-Harmony
@@ -137,6 +139,7 @@ spotify:artist:4JNfz6aO9ZFz0gp5GY88am	Hey Violet
 spotify:artist:6BMhCQJYHxxKAeqYS1p5rY	Hinder
 spotify:artist:2FXC3k01G6Gw61bmprjgqS	Hozier
 spotify:artist:3Mcii5XWf6E0lrY3Uky4cA	Ice Cube
+spotify:artist:3LZZPxNDGDFVSIPqf4JuEf	Ice Spice
 spotify:artist:0eGh2jSWPBX5GuqIHoZJZG	ICE-T
 spotify:artist:1xdB9gS1NrKEYgZUEfoqIw	Idlewild
 spotify:artist:53XhwfbYqKCa1cC15pYq2q	Imagine Dragons
@@ -185,6 +188,7 @@ spotify:artist:3K2zB87GZv1krx031en5VA	La Roux
 spotify:artist:2feDdbD5araYcm6JhFHHw7	Labrinth
 spotify:artist:1HY2Jd0NmPuamShAr6KMms	Lady Gaga
 spotify:artist:00FQb4jTyendYWaN8pK0wa	Lana Del Rey
+spotify:artist:3MdXrJWsbVzdn6fe5JYkSQ	Latto
 spotify:artist:066X20Nz7iquqkkCW6Jxy6	LCD Soundsystem
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4	Le Bober
 spotify:artist:5gznATMVO85ZcLTkE9ULU7	Lenny Kravitz
@@ -235,6 +239,7 @@ spotify:artist:5wPoxI5si3eJsYYwyXV4Wi	N.E.R.D
 spotify:artist:1C60viSZv6BoYtrnkZ44g5	Nadia Ali
 spotify:artist:20qISvAhX20dpIbOOzGK3q	Nas
 spotify:artist:6wdvERzX4CUCOXu6hSS95x	Natalia Kills
+spotify:artist:6N1l2HIYtw3RhoJ2wzLYaB	Natalie Layne
 spotify:artist:2WxjxdeF7GGdcCK276qViY	Natalie Taylor
 spotify:artist:7o95ZoZt5ZYn31e9z1Hc0a	Natasha Bedingfield
 spotify:artist:1Oa0bMld0A3u5OTYfMzp5h	Nate Dogg
@@ -306,6 +311,7 @@ spotify:artist:2p1fiYHYiXz9qi0JJyxBzN	Skepta
 spotify:artist:5HlXA01kcjssYDT7EoqUJF	Skunk Anansie
 spotify:artist:7hJcb9fa4alzcOq3EaNPoG	Snoop Dogg
 spotify:artist:6TsAG8Ve1icEC8ydeHm3C8	Snow Strippers
+spotify:artist:1497VRGLDSi0Tb1sPill0K	Somna
 spotify:artist:6GMYJwaziB4ekv1Y6wCDWS	Soulja Boy
 spotify:artist:5KDIH2gF0VpelTqyQS7udb	Staind
 spotify:artist:21UJ7PRWb3Etgsu99f8yo8	Stereophonics
