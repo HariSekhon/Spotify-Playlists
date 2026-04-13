@@ -81,6 +81,7 @@ spotify:artist:6Ip8FS7vWT1uKkJSweANQK	Dave
 spotify:artist:1Cs0zKBU1kc0i8ypK3B9ai	David Guetta
 spotify:artist:1Z8ODXyhEBi3WynYw0Rya6	De La Soul
 spotify:artist:2CIMQHirSU0MQqyYHq0eOx	deadmau5
+spotify:artist:0MR7IMVJ0cdWJBivbwRr4A	Deep Mage
 spotify:artist:6Ghvu1VvMGScGpOUJBAHNH	Deftones
 spotify:artist:762310PdDnwsDxAQxzQkfX	Depeche Mode
 spotify:artist:1Y8cdNmUJH7yBTd9yOvr5i	Destiny's Child
