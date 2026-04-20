@@ -84,8 +84,14 @@ if [ $# -gt 0 ]; then
     core_playlists="$(for arg; do echo "$arg"; done)"
 else
     core_playlists="$(
-        sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" |
-        awk '{$1=""; print}' |
+        {
+            sed 's/^#.*//; /^[[:space:]]*$/d' "$core_playlists" |
+            awk '{$1=""; print}'
+
+            sed 's/^#.*//; /^[[:space:]]*$/d' "$srcdir/private/spotify/playlists.txt" |
+            awk '/Blacklist/{$1=""; print}'
+        } |
+        sort -u |
         "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
     )"
 fi
