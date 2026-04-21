@@ -102,7 +102,7 @@ fi
 echo >&2
 timestamp "Completed Liking $count Songs"
 echo >&2
-timestamp "Remember track comparisons are done using downloaded playlist URIs for spped - you must run this before retrying:"
+timestamp "Remember track comparisons are done using downloaded playlist URIs for speed - you must run this before retrying:"
 echo >&2
 echo "./backup.sh liked" >&2
 echo >&2
