@@ -79,7 +79,7 @@ count="$(grep -c . <<< "$track_uris" || :)"
 is_int "$count" || die "Non-integer track count returned"
 
 if [ "$count" = 0 ]; then
-    timestamp "No tracks unLiked tracks found"
+    timestamp "No unLiked tracks found"
     exit 0
 fi
 
