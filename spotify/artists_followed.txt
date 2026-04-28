@@ -249,6 +249,7 @@ spotify:artist:7o95ZoZt5ZYn31e9z1Hc0a	Natasha Bedingfield
 spotify:artist:1Oa0bMld0A3u5OTYfMzp5h	Nate Dogg
 spotify:artist:4uRYpUQZrNrY5t8tAv3XrD	NERO
 spotify:artist:2WuKU0SYZOQyY3MmE4vtez	New Hope Club
+spotify:artist:4Rxn7Im3LGfyRkY2FlHhWi	Nick Jonas
 spotify:artist:6deZN1bslXzeGvOLaLMOIF	Nickelback
 spotify:artist:0hCNtLu0JehylgoiP8L4Gh	Nicki Minaj
 spotify:artist:3xFkHylXN9yHzwCQBypRFn	Nightcall
