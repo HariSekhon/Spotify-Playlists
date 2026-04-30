@@ -56,6 +56,7 @@ spotify:artist:4kYSro6naA4h99UJvo89HB	Cardi B
 spotify:artist:3zzOs4npAwsNSmwFYDzdHx	Carpetman
 spotify:artist:5H4yInM5zmHqpKIoMNAx4r	Central Cee
 spotify:artist:6vdMPayKk8YJxxeNP5oMCb	Chamillionaire
+spotify:artist:7GlBOeep6PqTfFi59PTUUN	Chappell Roan
 spotify:artist:25uiPmTg16RbhZWAqwLBy5	Charli xcx
 spotify:artist:3jNkaOXasoc7RsxdchvEVq	Chase & Status
 spotify:artist:0Xf8oDAJYd2D0k3NLI19OV	CHIC
@@ -75,6 +76,7 @@ spotify:artist:43sZBwHjahUvgbx1WNIkIz	Creed
 spotify:artist:6oZhc4ONSAMn6RYg6o6VWL	Crystal F
 spotify:artist:4xfigyFOZnW8YfZiOVMYwI	Curtis Stigers & The Forest Rangers
 spotify:artist:1MVnyuEGQxpIwxOtlThiaL	CXSPER
+spotify:artist:2BTZIqw0ntH9MvilQ3ewNY	Cyndi Lauper
 spotify:artist:4P0dddbxPil35MNN9G2MEX	Cypress Hill
 spotify:artist:4tZwfgrHOc3mvqYlEYSvVi	Daft Punk
 spotify:artist:7HGnJVV3oCHjTvFc9RFL8X	Daniel Wolf
@@ -322,6 +324,7 @@ spotify:artist:6GMYJwaziB4ekv1Y6wCDWS	Soulja Boy
 spotify:artist:5KDIH2gF0VpelTqyQS7udb	Staind
 spotify:artist:21UJ7PRWb3Etgsu99f8yo8	Stereophonics
 spotify:artist:77AiFEVeAVj2ORpC85QVJs	Steve Aoki
+spotify:artist:7crPfGd2k81ekOoSqQKWWz	Stevie Nicks
 spotify:artist:7guDJrEfX3qb6FEbdPA5qi	Stevie Wonder
 spotify:artist:2SrSdSvpminqmStGELCSNd	Stormzy
 spotify:artist:1h6Cn3P4NGzXbaXidqURXs	Swedish House Mafia
