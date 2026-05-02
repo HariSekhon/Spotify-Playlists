@@ -20,6 +20,7 @@ spotify:artist:2DORQjKJVYZMx9uu82UGtT	Amy Shark
 spotify:artist:2siHvYaxjaW5rKVRiIrMYH	Anastacia
 spotify:artist:7Ln80lUS6He07XvHI8qqHH	Arctic Monkeys
 spotify:artist:0SfsnGyD8FpIN4U4WCkBZ5	Armin van Buuren
+spotify:artist:3r1Md7Hk5iqtpyEoGo8032	ARTEM SHILOVETS
 spotify:artist:5rkVyNGXEgeUqKkB5ccK83	Ashanti
 spotify:artist:2kqVmaPdvLEcfaT9oibK27	Athena Cage
 spotify:artist:1WgXqy2Dd70QQOU7Ay074N	AURORA
@@ -258,6 +259,7 @@ spotify:artist:0hCNtLu0JehylgoiP8L4Gh	Nicki Minaj
 spotify:artist:3xFkHylXN9yHzwCQBypRFn	Nightcall
 spotify:artist:7AzjETXRUKNRSJHMW9GIqd	Nina Nesbitt
 spotify:artist:6olE6TJLqED3rqDCT0FyPh	Nirvana
+spotify:artist:0kD3TUffiD0sPxGwygzjg7	nkeeei
 spotify:artist:1McMsnEElThX1knmY4oliG	Olivia Rodrigo
 spotify:artist:3whuHq0yGx60atvA2RCVRW	Olly Murs
 spotify:artist:6WjX4pepHwXa85B9KMk0PY	P Money
@@ -369,6 +371,7 @@ spotify:artist:4exLIFE8sISLr28sqG1qNX	Travis Barker
 spotify:artist:5XfBH1AT964RDzmE8MZURI	Trisha Paytas
 spotify:artist:6vbY3hOaCAhC7VjucswgdS	Twista
 spotify:artist:51Blml2LZPmy7TTiAg47vQ	U2
+spotify:artist:0NhjeTa9uSqiD1wEG3gfII	uniqe
 spotify:artist:23zg3TcAtWQy7J6upgbUnj	USHER
 spotify:artist:0LyfQWJT6nXafLPZqxe9Of	Various Artists
 spotify:artist:5ujrA1eZLDHR7yQ6FZa2qA	Vera Blue
