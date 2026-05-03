@@ -36,6 +36,7 @@ spotify:artist:58FAQGIDRMXK5AsxJu9YNp	Betsy
 spotify:artist:6vWDO969PvNqNYHIOW5v0m	Beyoncé
 spotify:artist:7mnAzEmgquhrVtGob81SmO	Big Shaq
 spotify:artist:272ygo5fv9cYsiCLcV0HV2	Bill Conti
+spotify:artist:3hqXJzw9ubKNcvVhZV03gQ	Billy Barman
 spotify:artist:0yb46jwm7gqbZXVXZQ8Z1e	Bishop Briggs
 spotify:artist:1yxSLGMDHlW21z4YXirZDS	Black Eyed Peas
 spotify:artist:1QPZhx0asYTBxD5RDqfU49	Black Rob
