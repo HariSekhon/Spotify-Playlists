@@ -263,6 +263,7 @@ spotify:artist:6olE6TJLqED3rqDCT0FyPh	Nirvana
 spotify:artist:0kD3TUffiD0sPxGwygzjg7	nkeeei
 spotify:artist:1McMsnEElThX1knmY4oliG	Olivia Rodrigo
 spotify:artist:3whuHq0yGx60atvA2RCVRW	Olly Murs
+spotify:artist:39xGBa2ltqT4ZkkeeYlH54	Orgvsm
 spotify:artist:6WjX4pepHwXa85B9KMk0PY	P Money
 spotify:artist:1KCSPY1glIKqW2TotWuXOR	P!nk
 spotify:artist:4RddZ3iHvSpGV4dvATac9X	Papa Roach
