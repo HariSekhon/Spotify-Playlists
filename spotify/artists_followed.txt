@@ -157,6 +157,7 @@ spotify:artist:6l3HvQ5sa6mXTsMTB19rO5	J. Cole
 spotify:artist:1J2VVASYAamtQ3Bt8wGgA6	Ja Rule
 spotify:artist:0qLNsNKm8bQcMoRFkR8Hmh	James
 spotify:artist:6J7biCazzYhU3gM9j1wfid	Jamiroquai
+spotify:artist:5YI7PJwny5JsO7djczHwhP	Jarren Benton
 spotify:artist:07YZf4WDAMNwqr4jfgOZ8y	Jason Derulo
 spotify:artist:4Q6nIcaBED8qUel8bBx6Cr	Jax Jones
 spotify:artist:593TG88zhlcUxEYmhMYeIG	Jazzystics
@@ -350,6 +351,7 @@ spotify:artist:2NFrAuh8RQdQoS7iYFbckw	The Midnight
 spotify:artist:5me0Irg2ANcsgc93uaYrpb	The Notorious B.I.G.
 spotify:artist:4jcPxHNUKTVOyD2AFPZdRQ	The Phantoms
 spotify:artist:4k1ELeJKT1ISyDv8JivPpB	The Prodigy
+spotify:artist:64gcbdPQ6tH50Mk3gEaIIO	The Real Samson
 spotify:artist:2xupoYyooRpQS00KhQPkZJ	The Refugee Camp All-Stars
 spotify:artist:3AQRLZ9PuTAozP28Skbq8V	The Script
 spotify:artist:60FV7KyxIH9FH1uq7u8inP	The Shapeshifters
