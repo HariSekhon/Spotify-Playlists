@@ -242,6 +242,7 @@ spotify:artist:52G6EB7xvVYA8IzF1T335g	Micky James
 spotify:artist:360IAlyVv4PCEVjgyMZrxK	Miguel
 spotify:artist:2wIVse2owClT7go1WT98tk	Missy Elliott
 spotify:artist:3OsRAKCvk37zwYcnzRf5XF	Moby
+spotify:artist:60uPSVM3svOL8kZ3Wkb3Zw	Monet192
 spotify:artist:64g59lHsc4g2jMFokrKDGW	My Darkest Days
 spotify:artist:5YjEVrNMrIRw2xGbjTN6Ti	Mylo
 spotify:artist:5wPoxI5si3eJsYYwyXV4Wi	N.E.R.D
