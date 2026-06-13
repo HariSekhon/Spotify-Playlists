@@ -50,6 +50,7 @@ spotify:artist:58lV9VcRSjABbAbfWS6skp	Bon Jovi
 spotify:artist:5spEJXLwD1sKUdC2bnOHPg	Bone Thugs-N-Harmony
 spotify:artist:0du5cEVh5yTK9QJze8zA0C	Bruno Mars
 spotify:artist:3Z02hBLubJxuFJfhacLSDc	Bryan Adams
+spotify:artist:56tAdT5WT6Mi288cBRDjnt	BURY
 spotify:artist:1YfEcTuGvBQ8xSD1f53UnK	Busta Rhymes
 spotify:artist:7CajNmpbOovFoOoasH2HaY	Calvin Harris
 spotify:artist:4nDoRrQiYLoBzwC5BhVJzF	Camila Cabello
@@ -392,6 +393,7 @@ spotify:artist:7aBzpmFXB4WWpPl2F7RjBe	Wyclef Jean
 spotify:artist:57anmI1X2hXWPrNagFdzZr	YACHT
 spotify:artist:4tPyCwWrsvZ8OKYl7QRavL	Yumi Zouma
 spotify:artist:6Ad91Jof8Niiw0lGLLi3NW	YUNGBLUD
+spotify:artist:30gojhXynjLSWe1kHNUZ1Q	zandros
 spotify:artist:1Xylc3o4UrD53lo9CvFvVg	Zara Larsson
 spotify:artist:7LIy7KinYq7a83dUH6kvxT	Zayde Wølf
 spotify:artist:517iCrN4Tsr4s6JhwPprKG	Zel Mari
