@@ -294,7 +294,8 @@ When compiling these playlists, I was shocked at the disparity in number of song
 Here is a graph of each year playlist number of tracks (run through my track name normalization code to deduplicate
 different versions of the same track to only count them once).
 
-No this graph is not cumulative, it is per individual year in isolation:
+When I first made this graph it looked like a cumulative distribution, except it was not. It has since become more
+jagged which makes it more obvious at first glance that it is per individual year in isolation:
 
 ![Tracks Per Year](https://github.com/HariSekhon/Spotify-Playlists/releases/download/graphs/tracks_per_year.png)
 
