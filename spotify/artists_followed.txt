@@ -292,6 +292,7 @@ spotify:artist:2d0hyoQ5ynDBnkvAbJKORj	Rage Against The Machine
 spotify:artist:0IB0VjX9NSrGX6PjCXGVcq	Raleigh Ritchie
 spotify:artist:1jHQI26XkjY8BHwvDnh9Jw	Raphael Lake
 spotify:artist:2IQDM5URYGYfSMmwhTCmyy	Rationale
+spotify:artist:5KKpBU5eC2tJDzf0wmlRp2	RAYE
 spotify:artist:0L8ExT028jH3ddEcZwqJJ5	Red Hot Chili Peppers
 spotify:artist:06YQ6XwCdPUn8rAXV70gge	Republica
 spotify:artist:0gxyHStUsqpMadRV0Di1Qt	Rick Astley
