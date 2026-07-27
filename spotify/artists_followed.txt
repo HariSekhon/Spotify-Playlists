@@ -202,6 +202,7 @@ spotify:artist:3MdXrJWsbVzdn6fe5JYkSQ	Latto
 spotify:artist:066X20Nz7iquqkkCW6Jxy6	LCD Soundsystem
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4	Le Bober
 spotify:artist:5gznATMVO85ZcLTkE9ULU7	Lenny Kravitz
+spotify:artist:5VcrwzYyoX3WUTbkaqcIvN	Lenny Williams
 spotify:artist:55Aa2cqylxrFIXC767Z865	Lil Wayne
 spotify:artist:13saZpZnCDWOI9D4IJhp1f	Lily Allen
 spotify:artist:165ZgPlLkK7bf5bDoFc6Sb	Limp Bizkit
@@ -234,6 +235,7 @@ spotify:artist:6FXMGgJwohJLUSr5nVlf9X	Massive Attack
 spotify:artist:3X1qJiLZsl7dysP9FY9UWp	Mati Sonntag
 spotify:artist:0xRXCcSX89eobfrshSVdyu	MEDUZA
 spotify:artist:181bsRPaVXVlUKXrxwZfHK	Megan Thee Stallion
+spotify:artist:74IYRdqa9EFKMMXUIjGyxM	Merve Özbey
 spotify:artist:6TIYQ3jFPwQSRmorSezPxX	mgk
 spotify:artist:0SwO7SWeDHJijQ3XNS7xEE	MGMT
 spotify:artist:6YHEMoNPbcheiWS2haGzkn	Michael Bolton
