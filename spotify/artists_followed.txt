@@ -241,6 +241,7 @@ spotify:artist:0SwO7SWeDHJijQ3XNS7xEE	MGMT
 spotify:artist:6YHEMoNPbcheiWS2haGzkn	Michael Bolton
 spotify:artist:3fMbdgg4jU18AjLCKBhRSm	Michael Jackson
 spotify:artist:5DCXmX5NJ16feLwzQ7oGGD	Michelle Price
+spotify:artist:1a35bs8Zs05TNQ1tnfeHFV	Michelle Ray
 spotify:artist:52G6EB7xvVYA8IzF1T335g	Micky James
 spotify:artist:360IAlyVv4PCEVjgyMZrxK	Miguel
 spotify:artist:2wIVse2owClT7go1WT98tk	Missy Elliott
