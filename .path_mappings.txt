@@ -37,6 +37,7 @@ Mixes in Time	Maya Baby
 Ethnic		European
 Ethnic		French
 Ethnic		Latin American
+Ethnic		Middle Eastern
 Ethnic		Slavic
 Ethnic		German
 Ethnic		Indian
