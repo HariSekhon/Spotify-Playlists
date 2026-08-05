@@ -25,6 +25,7 @@ spotify:artist:5rkVyNGXEgeUqKkB5ccK83	Ashanti
 spotify:artist:2kqVmaPdvLEcfaT9oibK27	Athena Cage
 spotify:artist:1WgXqy2Dd70QQOU7Ay074N	AURORA
 spotify:artist:1vCWHaC5f2uS3yhpwWbIA6	Avicii
+spotify:artist:7M5pDtJpCdnftEQZtczYco	Ayesha Erotica
 spotify:artist:5ndkK3dpZLKtBklKjxNQwT	B.o.B
 spotify:artist:0g7YfJuAQnXWMiFny5elRH	Baeza
 spotify:artist:2xe8IXgCTpwHE3eA9hTs4n	BANKS
@@ -62,6 +63,7 @@ spotify:artist:6vdMPayKk8YJxxeNP5oMCb	Chamillionaire
 spotify:artist:7GlBOeep6PqTfFi59PTUUN	Chappell Roan
 spotify:artist:25uiPmTg16RbhZWAqwLBy5	Charli xcx
 spotify:artist:3jNkaOXasoc7RsxdchvEVq	Chase & Status
+spotify:artist:7cYEt1pqMgXJdq00hAwVpT	Chase Atlantic
 spotify:artist:0Xf8oDAJYd2D0k3NLI19OV	CHIC
 spotify:artist:5GxyeQagayzZOg4UwffQlD	Chicane
 spotify:artist:0hE6TKAV7j8kQSKaePY0aH	Chicane vs Natasha Bedingfield
@@ -203,6 +205,7 @@ spotify:artist:066X20Nz7iquqkkCW6Jxy6	LCD Soundsystem
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4	Le Bober
 spotify:artist:5gznATMVO85ZcLTkE9ULU7	Lenny Kravitz
 spotify:artist:5VcrwzYyoX3WUTbkaqcIvN	Lenny Williams
+spotify:artist:23u7q6jxXa010A8xnjJPGP	LEOWOLF
 spotify:artist:55Aa2cqylxrFIXC767Z865	Lil Wayne
 spotify:artist:13saZpZnCDWOI9D4IJhp1f	Lily Allen
 spotify:artist:165ZgPlLkK7bf5bDoFc6Sb	Limp Bizkit
@@ -245,6 +248,7 @@ spotify:artist:1a35bs8Zs05TNQ1tnfeHFV	Michelle Ray
 spotify:artist:52G6EB7xvVYA8IzF1T335g	Micky James
 spotify:artist:360IAlyVv4PCEVjgyMZrxK	Miguel
 spotify:artist:2wIVse2owClT7go1WT98tk	Missy Elliott
+spotify:artist:2Hil1oktsE7Wic4X5cBGK3	Mo Beats
 spotify:artist:3OsRAKCvk37zwYcnzRf5XF	Moby
 spotify:artist:60uPSVM3svOL8kZ3Wkb3Zw	Monet192
 spotify:artist:64g59lHsc4g2jMFokrKDGW	My Darkest Days
