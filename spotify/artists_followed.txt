@@ -84,6 +84,7 @@ spotify:artist:1MVnyuEGQxpIwxOtlThiaL	CXSPER
 spotify:artist:2BTZIqw0ntH9MvilQ3ewNY	Cyndi Lauper
 spotify:artist:4P0dddbxPil35MNN9G2MEX	Cypress Hill
 spotify:artist:4tZwfgrHOc3mvqYlEYSvVi	Daft Punk
+spotify:artist:2LwSighkNo49filvTvJmBz	Daniel Santoro
 spotify:artist:7HGnJVV3oCHjTvFc9RFL8X	Daniel Wolf
 spotify:artist:0ihJnGEjNnbM6uuTn3RHMo	Darren Hayes
 spotify:artist:6Ip8FS7vWT1uKkJSweANQK	Dave
@@ -97,6 +98,7 @@ spotify:artist:1Y8cdNmUJH7yBTd9yOvr5i	Destiny's Child
 spotify:artist:3Rg7OiUyC9WwwbcgZzfwqb	Devin Hoffman
 spotify:artist:7Ks3elJhSP20mD04lgiA68	Devlin
 spotify:artist:59wfkuBoNyhDMQGCljbUbA	Diddy
+spotify:artist:5OBm2KxB9JIw4o9msXkeNQ	DIMEO
 spotify:artist:0gusqTJKxtU1UTmNRMHZcv	Dizzee Rascal
 spotify:artist:61UzS7tQpBvgk6bhKDgNGs	Dj Loony
 spotify:artist:062wPuKbdxVkXURZqv0Pgj	DJ Wich
