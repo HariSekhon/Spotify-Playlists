@@ -107,6 +107,7 @@ spotify:artist:5cj0lLjcoR7YOSnhnX0Po5	Doja Cat
 spotify:artist:6IOvhXyk5edbA2DVaeP9Up	Dorothy
 spotify:artist:6DPYiyq5kWVQS4RGwxzPC7	Dr. Dre
 spotify:artist:3TVXtAsR1Inumwj472S9r4	Drake
+spotify:artist:6M2wZ9GZgrQXHCFfjv46we	Dua Lipa
 spotify:artist:4LOM7NzyrZvlGSYPFDsnTk	Dylan
 spotify:artist:1y20PpXw0yeuJ1avCD0Ob9	Eamon
 spotify:artist:6SnMMbLQ4iS8WIyt3ksmCR	Echos
@@ -347,6 +348,7 @@ spotify:artist:7crPfGd2k81ekOoSqQKWWz	Stevie Nicks
 spotify:artist:7guDJrEfX3qb6FEbdPA5qi	Stevie Wonder
 spotify:artist:2SrSdSvpminqmStGELCSNd	Stormzy
 spotify:artist:1h6Cn3P4NGzXbaXidqURXs	Swedish House Mafia
+spotify:artist:3aQeKQSyrW4qWr35idm0cy	T-Pain
 spotify:artist:4OBJLual30L7gRl5UkeRcT	T.I.
 spotify:artist:45dkTj5sMRSjrmBSBeiHym	Tate McRae
 spotify:artist:06HL4z0CvFAxyc27GXpf02	Taylor Swift
