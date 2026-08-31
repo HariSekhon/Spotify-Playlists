@@ -41,9 +41,9 @@ Ethnic		Middle Eastern
 Ethnic		Slavic
 Ethnic		German
 Ethnic		Indian
+Ethnic		Far East Asian
 Ethnic		Greek
 Ethnic		K-Pop
-Ethnic		Far East Asian
 
 Compilations, TV & Movies		Soundtrack
 Compilations, TV & Movies		Christmas
