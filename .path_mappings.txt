@@ -43,6 +43,7 @@ Ethnic		German
 Ethnic		Indian
 Ethnic		Greek
 Ethnic		K-Pop
+Ethnic		Far East Asian
 
 Compilations, TV & Movies		Soundtrack
 Compilations, TV & Movies		Christmas
