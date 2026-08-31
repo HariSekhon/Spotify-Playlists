@@ -108,6 +108,7 @@ spotify:artist:6IOvhXyk5edbA2DVaeP9Up	Dorothy
 spotify:artist:6DPYiyq5kWVQS4RGwxzPC7	Dr. Dre
 spotify:artist:3TVXtAsR1Inumwj472S9r4	Drake
 spotify:artist:6M2wZ9GZgrQXHCFfjv46we	Dua Lipa
+spotify:artist:0lZoBs4Pzo7R89JM9lxwoT	Duran Duran
 spotify:artist:4LOM7NzyrZvlGSYPFDsnTk	Dylan
 spotify:artist:1y20PpXw0yeuJ1avCD0Ob9	Eamon
 spotify:artist:6SnMMbLQ4iS8WIyt3ksmCR	Echos
@@ -148,6 +149,7 @@ spotify:artist:3qm84nBOXUEQ2vnTfUTTFC	Guns N' Roses
 spotify:artist:4yiQZ8tQPux8cPriYMWUFP	Gwen Stefani
 spotify:artist:26VFTg2z8YR0cCuwLzESi2	Halsey
 spotify:artist:3LjhVl7GzYsza1biQjTpaN	Hayley Kiyoko
+spotify:artist:34jw2BbxjoYalTp8cJFCPv	Heart
 spotify:artist:4JNfz6aO9ZFz0gp5GY88am	Hey Violet
 spotify:artist:6BMhCQJYHxxKAeqYS1p5rY	Hinder
 spotify:artist:2FXC3k01G6Gw61bmprjgqS	Hozier
@@ -328,6 +330,7 @@ spotify:artist:3NRFinRTEqUCfaTTZmk8ek	Savage Garden
 spotify:artist:23ymPLjbtAMzTJS2qRtQ8Z	Sébastien Tellier
 spotify:artist:4uKYbUZCaUr0KfiuOuIpRB	Selectracks Song Catalog
 spotify:artist:6VX2R9L0O0d6qPvqGuIH7b	September
+spotify:artist:7n2wHs1TKAczGzO7Dd2rGr	Shawn Mendes
 spotify:artist:6UocZe4AprSYBvmn3J0oqY	Shiny Toy Guns
 spotify:artist:5WUlDfRSoLAfcVSX1WnrxN	Sia
 spotify:artist:0NWLoTHkDz70WnSea4YhjA	Siamese Sex Show
