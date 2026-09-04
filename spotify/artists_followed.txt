@@ -177,6 +177,7 @@ spotify:artist:4ScCswdRlyA23odg9thgIO	Jess Glynne
 spotify:artist:2gsggkzM5R49q6jpPvazou	Jessie J
 spotify:artist:5ypxebeHEIXjMtJb17uJlI	Jet
 spotify:artist:1eNkUXHPaXyuyC8NAgzykK	Jodeci
+spotify:artist:1HBjj22wzbscIZ9sEb5dyf	Jonas Blue
 spotify:artist:24Cf1irKt7kcewb9OOkPum	Joyce Wrice
 spotify:artist:5gCRApTajqwbnHHPbr2Fpi	Juicy J
 spotify:artist:1uNFoZAHBGtllmzznpCI3s	Justin Bieber
@@ -241,6 +242,7 @@ spotify:artist:1XkoF8ryArs86LZvFOkbyr	Mary J. Blige
 spotify:artist:1wiBLzTI7z9RUwEpNPdFT6	Mase
 spotify:artist:6FXMGgJwohJLUSr5nVlf9X	Massive Attack
 spotify:artist:3X1qJiLZsl7dysP9FY9UWp	Mati Sonntag
+spotify:artist:1bqxdqvUtPWZri43cKHac8	MAX
 spotify:artist:0xRXCcSX89eobfrshSVdyu	MEDUZA
 spotify:artist:181bsRPaVXVlUKXrxwZfHK	Megan Thee Stallion
 spotify:artist:74IYRdqa9EFKMMXUIjGyxM	Merve Özbey
