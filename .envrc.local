@@ -21,10 +21,10 @@ export SPOTIFY_PRIVATE=1
 unset SPOTIFY_PUBLIC_ONLY
 unset SPOTIFY_PRIVATE_ONLY
 
-# github.com often times out in China,
-# but api.spotify.com is more reliable and the more important site
-# to iterate the playlist API downloads
-if curl -sS ifconfig.co/json | jq -r '.country'; then
+if [ "$(curl -sS ifconfig.co/json | jq -r '.country')" = 'China' ]; then
+    echo "Running in China, skipping github.com check as it's slow and often times out"
+    echo " but api.spotify.com is more reliable and the more important site to be able"
+    echo "to iterate the playlist API downloads"
     export CHECK_INTERNET_IMPORTANT_WEBSITES='api.spotify.com'
 else
     export CHECK_INTERNET_IMPORTANT_WEBSITES='api.spotify.com github.com'
