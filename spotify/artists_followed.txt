@@ -163,6 +163,7 @@ spotify:artist:7Gf3LSwa5hh8Cjo60WhVjC	India.Arie
 spotify:artist:5arKwJZEvT5uKq4o0JfqR4	Isabel LaRosa
 spotify:artist:6l3HvQ5sa6mXTsMTB19rO5	J. Cole
 spotify:artist:1J2VVASYAamtQ3Bt8wGgA6	Ja Rule
+spotify:artist:0wVKXWiOMLfqmFCdCPR7Ar	Jackie Chan
 spotify:artist:0qLNsNKm8bQcMoRFkR8Hmh	James
 spotify:artist:6J7biCazzYhU3gM9j1wfid	Jamiroquai
 spotify:artist:5YI7PJwny5JsO7djczHwhP	Jarren Benton
