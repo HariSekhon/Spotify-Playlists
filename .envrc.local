@@ -21,4 +21,11 @@ export SPOTIFY_PRIVATE=1
 unset SPOTIFY_PUBLIC_ONLY
 unset SPOTIFY_PRIVATE_ONLY
 
-export CHECK_INTERNET_IMPORTANT_WEBSITES=api.spotify.com
+# github.com often times out in China,
+# but api.spotify.com is more reliable and the more important site
+# to iterate the playlist API downloads
+if curl -sS ifconfig.co/json | jq -r '.country'; then
+    export CHECK_INTERNET_IMPORTANT_WEBSITES='api.spotify.com'
+else
+    export CHECK_INTERNET_IMPORTANT_WEBSITES='api.spotify.com github.com'
+fi
