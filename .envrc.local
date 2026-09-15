@@ -24,7 +24,7 @@ unset SPOTIFY_PRIVATE_ONLY
 if [ "$(curl -sS ifconfig.co/json | jq -r '.country')" = 'China' ]; then
     echo
     echo "Running in China, setting CHECK_INTERNET_IMPORTANT_WEBSITES to skip github.com"
-    echo "as it's slow and often times out with The Great Firewall of China"
+    echo "as it's slow and often times out due to The Great Firewall of China"
     echo "but api.spotify.com is more reliable and the more important site to be able"
     echo "to iterate the playlist API downloads"
     echo
