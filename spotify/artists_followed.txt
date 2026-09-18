@@ -33,6 +33,7 @@ spotify:artist:42t4hWS8aGwWNQhutNCl9c	Banned Vinyl
 spotify:artist:2VL0G8nTevMkOCc1cPWu5i	Beats By AI
 spotify:artist:64M6ah0SkkRsnPGtGiRAbb	Bebe Rexha
 spotify:artist:5an4oj0S5bqONhXPpK4Myu	Becky Shaheen
+spotify:artist:1OuL8Cuw5Ed403k0dUnloa	Ben Elson
 spotify:artist:58FAQGIDRMXK5AsxJu9YNp	Betsy
 spotify:artist:6vWDO969PvNqNYHIOW5v0m	Beyoncé
 spotify:artist:7mnAzEmgquhrVtGob81SmO	Big Shaq
@@ -74,6 +75,7 @@ spotify:artist:1l7ZsJRRS8wlW3WfJfPfNS	Christina Aguilera
 spotify:artist:2mV8aJphiSHYJf43DxL7Gt	Chromeo
 spotify:artist:2xCNGjnt3szUnV29cCtrWD	Cold Kingdom
 spotify:artist:4gzpq5DPGxSnKTe4SA8HAU	Coldplay
+spotify:artist:4Uc8Dsxct0oMqx0P6i60ea	Conan Gray
 spotify:artist:4jbcqKzc4Wuy6MivHhzPrP	Cover Drive
 spotify:artist:2IPvFiMwrpPEruJNAldRWz	Cover Sauce
 spotify:artist:526q7RxT5KA1VGeQ5GMSHO	Craig Armstrong
@@ -94,6 +96,7 @@ spotify:artist:2CIMQHirSU0MQqyYHq0eOx	deadmau5
 spotify:artist:0MR7IMVJ0cdWJBivbwRr4A	Deep Mage
 spotify:artist:6Ghvu1VvMGScGpOUJBAHNH	Deftones
 spotify:artist:762310PdDnwsDxAQxzQkfX	Depeche Mode
+spotify:artist:5KNNVgR6LBIABRIomyCwKJ	Dermot Kennedy
 spotify:artist:1Y8cdNmUJH7yBTd9yOvr5i	Destiny's Child
 spotify:artist:3Rg7OiUyC9WwwbcgZzfwqb	Devin Hoffman
 spotify:artist:7Ks3elJhSP20mD04lgiA68	Devlin
@@ -172,6 +175,7 @@ spotify:artist:4Q6nIcaBED8qUel8bBx6Cr	Jax Jones
 spotify:artist:593TG88zhlcUxEYmhMYeIG	Jazzystics
 spotify:artist:3nFkdlSjzX9mRTtwJOzDYB	JAŸ-Z
 spotify:artist:4yBK75WVCQXej1p04GWqxH	Jeezy
+spotify:artist:3QedSyA176gQkxfgUV4wCa	Jelena Rozga
 spotify:artist:2DlGxzQSjYe5N6G9nkYghR	Jennifer Lopez
 spotify:artist:3KV3p5EY4AvKxOlhGHORLg	Jeremih
 spotify:artist:4ScCswdRlyA23odg9thgIO	Jess Glynne
@@ -224,6 +228,7 @@ spotify:artist:7KnaZr690xW0sCihF9Z8oP	lostprophets
 spotify:artist:76vO0RjFam5iW8mbtVsc4h	Lucy Deakin
 spotify:artist:3ipn9JLAPI5GUEo4y4jcoi	Ludacris
 spotify:artist:2uFUBdaVGtyMqckSeCl0Qj	Ludovico Einaudi
+spotify:artist:25u4wHJWxCA9vO0CzxAbK7	Lukas Graham
 spotify:artist:01QTIT5P1pFP3QnnFSdsJf	Lupe Fiasco
 spotify:artist:19y5MFBH7gohEdGwKM7QsP	Luther Vandross
 spotify:artist:0V2oXYR7DtrZAEFeILRW2r	Lvbel C5
