@@ -18,7 +18,9 @@ Alicia Keys
 Alosa
 Amy Shark
 Anastacia
+Anitta
 Arctic Monkeys
+Ariana Grande
 Armin van Buuren
 ARTEM SHILOVETS
 Ashanti
@@ -33,6 +35,7 @@ Banned Vinyl
 Beats By AI
 Bebe Rexha
 Becky Shaheen
+Beéle
 Ben Elson
 Betsy
 Beyoncé
@@ -85,6 +88,7 @@ Curtis Stigers & The Forest Rangers
 CXSPER
 Cyndi Lauper
 Cypress Hill
+Daecolm
 Daft Punk
 Daniel Santoro
 Daniel Wolf
@@ -115,6 +119,7 @@ Duran Duran
 Dylan
 Eamon
 Echos
+Eli & Fur
 Ella Henderson
 Elley Duhé
 Ellie Goulding
@@ -134,6 +139,7 @@ Flo Rida
 Floetry
 Florence + The Machine
 Flume
+FM-84
 Foo Fighters
 Foreign Beggars
 Foxy Brown
@@ -147,6 +153,7 @@ G-Unit
 Garbage
 Gesaffelstein
 Gia Lily
+Goodscandal
 Guano Apes
 Guns N' Roses
 Gwen Stefani
@@ -183,12 +190,15 @@ Jessie J
 Jet
 Jodeci
 Jonas Blue
+Jonas Brothers
 Joyce Wrice
 Juicy J
 Justin Bieber
+Justin Jesso
 Justin Timberlake
 K.I.Z
 Kanye West
+Karen Harding
 Kasabian
 Kate Ryan
 Kavinsky
@@ -221,6 +231,7 @@ Lil Wayne
 Lily Allen
 Limp Bizkit
 Linkin Park
+LISA
 LL COOL J
 Lloren
 Lorde
@@ -243,12 +254,14 @@ Makaveli
 Mariah Carey
 Mariette
 Maroon 5
+Martin Garrix
 Marvin Gaye
 Mary J. Blige
 Mase
 Massive Attack
 Mati Sonntag
 MAX
+Max Elto
 MEDUZA
 Megan Thee Stallion
 Merve Özbey
@@ -283,9 +296,13 @@ Nicki Minaj
 Nightcall
 Nina Nesbitt
 Nirvana
+Nito-Onna
 nkeeei
+Ofenbach
 Olivia Rodrigo
+Ollie Wride
 Olly Murs
+OneRepublic
 Orgvsm
 P Money
 P!nk
@@ -314,6 +331,7 @@ Raphael Lake
 Rationale
 RAYE
 Red Hot Chili Peppers
+Red Velvet
 Republica
 Rick Astley
 Rick Ross
@@ -335,9 +353,11 @@ Sam Smith
 Sarah McIntosh
 SATV Music
 Savage Garden
+Scorpions
 Sébastien Tellier
 Selectracks Song Catalog
 September
+Shakira
 Shawn Mendes
 Shiny Toy Guns
 Sia
@@ -397,8 +417,14 @@ Tkandz
 Tom MacDonald
 Tom Walker
 Tommee Profitt
+TOMORROW X TOGETHER
+Topic
+Tove Lo
+Trap King
 Travis Barker
+Trevor Something
 Trisha Paytas
+Troye Sivan
 Twista
 U2
 uniqe
@@ -409,11 +435,14 @@ Vindaloo Singh
 Wale
 Warren G
 Wiley
+Wilkinson
 will.i.am
 Wiz Khalifa
 Wretch 32
 Wyclef Jean
 YACHT
+YOTTO
+Young Empress
 Yumi Zouma
 YUNGBLUD
 zandros
