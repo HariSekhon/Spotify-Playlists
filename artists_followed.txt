@@ -5,12 +5,15 @@
 A Boogie Wit da Hoodie
 A Perfect Circle
 A R I Z O N A
+AALLAR
 Aaron Lewis
 ABBA
 Above & Beyond
 AC/DC
+ACRAZE
 Adina Howard
 Aeroplane
+Afro Queen
 Alanis Morissette
 Alice Deejay
 Alice In Chains
@@ -51,12 +54,15 @@ Bloc Party
 Blondie
 BLÜ EYES
 Blur
+BNHM
 Bon Jovi
 Bone Thugs-N-Harmony
+BONIIL
 Bruno Mars
 Bryan Adams
 BURY
 Busta Rhymes
+Cale
 Calvin Harris
 Camila Cabello
 Cappella
@@ -79,6 +85,7 @@ Chromeo
 Cold Kingdom
 Coldplay
 Conan Gray
+Costa Mee
 Cover Drive
 Cover Sauce
 Craig Armstrong
@@ -88,6 +95,7 @@ Curtis Stigers & The Forest Rangers
 CXSPER
 Cyndi Lauper
 Cypress Hill
+Dabeull
 Daecolm
 Daft Punk
 Daniel Santoro
@@ -97,6 +105,7 @@ Dave
 David Guetta
 De La Soul
 deadmau5
+Deagon
 Deep Mage
 Deftones
 Depeche Mode
@@ -104,6 +113,7 @@ Dermot Kennedy
 Destiny's Child
 Devin Hoffman
 Devlin
+Dezzy Hollow
 Diddy
 DIMEO
 Dizzee Rascal
@@ -126,12 +136,14 @@ Ellie Goulding
 Ellie Holcomb
 Emeli Sandé
 Eminem
+Emy Smith
 Eric Prydz
 Example
 Extreme Music
 Fabolous
 Faith No More
 Far East Movement
+Feather
 Fenech-Soler
 Fickle Friends
 Fleetwood Mac
@@ -158,10 +170,12 @@ Guano Apes
 Guns N' Roses
 Gwen Stefani
 Halsey
+HALUNA
 Hayley Kiyoko
 Heart
 Hey Violet
 Hinder
+HolyBrune
 Hozier
 Ice Cube
 Ice Spice
@@ -215,6 +229,7 @@ Kings of Leon
 Klaypex
 Korn
 Kosheen
+Kunta
 Kygo
 Kylie Minogue
 La Roux
@@ -228,6 +243,7 @@ Lenny Kravitz
 Lenny Williams
 LEOWOLF
 Lil Wayne
+Lilli Köhler
 Lily Allen
 Limp Bizkit
 Linkin Park
@@ -251,10 +267,12 @@ Mae Muller
 Maggie Lindemann
 Magnetic Man
 Makaveli
+Marc Philippe
 Mariah Carey
 Mariette
 Maroon 5
 Martin Garrix
+Martin Trevy
 Marvin Gaye
 Mary J. Blige
 Mase
@@ -273,10 +291,12 @@ Michelle Price
 Michelle Ray
 Micky James
 Miguel
+Miley Cyrus
 Missy Elliott
 Mo Beats
 Moby
 Monet192
+MØØNE
 My Darkest Days
 Mylo
 N.E.R.D
@@ -306,6 +326,7 @@ OneRepublic
 Orgvsm
 P Money
 P!nk
+Paige Cavell
 Papa Roach
 Paramore
 Parv
@@ -370,8 +391,10 @@ Skepta
 Skunk Anansie
 Snoop Dogg
 Snow Strippers
+Sofiya Nzau
 Somna
 Soulja Boy
+Sound Quelle
 Staind
 Stereophonics
 Steve Aoki
@@ -426,6 +449,7 @@ Trevor Something
 Trisha Paytas
 Troye Sivan
 Twista
+TWOPILOTS
 U2
 uniqe
 USHER
@@ -449,4 +473,5 @@ zandros
 Zara Larsson
 Zayde Wølf
 Zel Mari
+Zerb
 Żabson
