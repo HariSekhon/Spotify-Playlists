@@ -126,6 +126,7 @@ spotify:artist:6DPYiyq5kWVQS4RGwxzPC7	Dr. Dre
 spotify:artist:3TVXtAsR1Inumwj472S9r4	Drake
 spotify:artist:6M2wZ9GZgrQXHCFfjv46we	Dua Lipa
 spotify:artist:0lZoBs4Pzo7R89JM9lxwoT	Duran Duran
+spotify:artist:4KhjcdYNau3U89mU0hLuqr	Dux
 spotify:artist:4LOM7NzyrZvlGSYPFDsnTk	Dylan
 spotify:artist:1y20PpXw0yeuJ1avCD0Ob9	Eamon
 spotify:artist:6SnMMbLQ4iS8WIyt3ksmCR	Echos
@@ -229,7 +230,9 @@ spotify:artist:2qk9voo8llSGYcZ6xrBzKx	Kings of Leon
 spotify:artist:4HBMToZ4yMR07eiK9IxtjK	Klaypex
 spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD	Korn
 spotify:artist:5squ8uM6fhMQY71t9xobJC	Kosheen
+spotify:artist:7keGfmQR4X5w0two1xKZ7d	Kungs
 spotify:artist:3ishWMiOKQ8C7iUViLsS6V	Kunta
+spotify:artist:3VuZZ1n0XGacnz96Ys8mrZ	KYANU
 spotify:artist:23fqKkggKUBHNkbKtXEls4	Kygo
 spotify:artist:4RVnAU35WRWra6OZ3CbbMA	Kylie Minogue
 spotify:artist:3K2zB87GZv1krx031en5VA	La Roux
@@ -248,6 +251,7 @@ spotify:artist:13saZpZnCDWOI9D4IJhp1f	Lily Allen
 spotify:artist:165ZgPlLkK7bf5bDoFc6Sb	Limp Bizkit
 spotify:artist:6XyY86QOPPrYVGvF9ch6wz	Linkin Park
 spotify:artist:5L1lO4eRHmJ7a0Q6csE5cT	LISA
+spotify:artist:12A83CWwFiyXy90ScLWPIe	LIZOT
 spotify:artist:1P8IfcNKwrkQP5xJWuhaOC	LL COOL J
 spotify:artist:6BXnCNvWCmFRvlMazWAomB	Lloren
 spotify:artist:163tK9Wjr9P9DmM0AVK7lm	Lorde
@@ -256,6 +260,7 @@ spotify:artist:76vO0RjFam5iW8mbtVsc4h	Lucy Deakin
 spotify:artist:3ipn9JLAPI5GUEo4y4jcoi	Ludacris
 spotify:artist:2uFUBdaVGtyMqckSeCl0Qj	Ludovico Einaudi
 spotify:artist:25u4wHJWxCA9vO0CzxAbK7	Lukas Graham
+spotify:artist:7CLsFRcEkn0Amc9VlVOFwR	LUNAX
 spotify:artist:01QTIT5P1pFP3QnnFSdsJf	Lupe Fiasco
 spotify:artist:19y5MFBH7gohEdGwKM7QsP	Luther Vandross
 spotify:artist:0V2oXYR7DtrZAEFeILRW2r	Lvbel C5
@@ -321,6 +326,7 @@ spotify:artist:0kD3TUffiD0sPxGwygzjg7	nkeeei
 spotify:artist:4AKwRarlmsUlLjIwt38NLw	Ofenbach
 spotify:artist:1McMsnEElThX1knmY4oliG	Olivia Rodrigo
 spotify:artist:1anhHn744LbctzF9EHpvea	Ollie Wride
+spotify:artist:5vBSrE1xujD2FXYRarbAXc	Olly Alexander (Years & Years)
 spotify:artist:3whuHq0yGx60atvA2RCVRW	Olly Murs
 spotify:artist:5Pwc4xIPtQLFEnJriah9YJ	OneRepublic
 spotify:artist:39xGBa2ltqT4ZkkeeYlH54	Orgvsm
@@ -388,6 +394,7 @@ spotify:artist:4TrraAsitQKl821DQY42cZ	Sigrid
 spotify:artist:4iudEcmuPlYNdbP3e1bdn1	Silverchair
 spotify:artist:1fa0cOhromAZdq2xRA4vv8	Simply Red
 spotify:artist:2p1fiYHYiXz9qi0JJyxBzN	Skepta
+spotify:artist:6CP5wWvO8oIxedESJNCN4H	Ski Aggu
 spotify:artist:5HlXA01kcjssYDT7EoqUJF	Skunk Anansie
 spotify:artist:7hJcb9fa4alzcOq3EaNPoG	Snoop Dogg
 spotify:artist:6TsAG8Ve1icEC8ydeHm3C8	Snow Strippers
@@ -396,6 +403,7 @@ spotify:artist:1497VRGLDSi0Tb1sPill0K	Somna
 spotify:artist:6GMYJwaziB4ekv1Y6wCDWS	Soulja Boy
 spotify:artist:5mdTuNl23tON1WlsVbvD18	Sound Quelle
 spotify:artist:5KDIH2gF0VpelTqyQS7udb	Staind
+spotify:artist:0FLx5Ts7ydf1NuSsy334eU	Stan Taylor
 spotify:artist:21UJ7PRWb3Etgsu99f8yo8	Stereophonics
 spotify:artist:77AiFEVeAVj2ORpC85QVJs	Steve Aoki
 spotify:artist:7crPfGd2k81ekOoSqQKWWz	Stevie Nicks
