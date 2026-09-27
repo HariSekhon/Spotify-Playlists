@@ -35,6 +35,7 @@ B.o.B
 Baeza
 BANKS
 Banned Vinyl
+BBYx
 Beats By AI
 Bebe Rexha
 Becky Shaheen
@@ -124,8 +125,10 @@ Doja Cat
 Dorothy
 Dr. Dre
 Drake
+Dread MC
 Dua Lipa
 Duran Duran
+DUX
 Dux
 Dylan
 Eamon
@@ -136,6 +139,7 @@ Elley Duhé
 Ellie Goulding
 Ellie Holcomb
 Emeli Sandé
+Emily Makis
 Eminem
 Emy Smith
 Eric Prydz
@@ -172,11 +176,13 @@ Guns N' Roses
 Gwen Stefani
 Halsey
 HALUNA
+Harry T
 Hayley Kiyoko
 Heart
 Hey Violet
 Hinder
 HolyBrune
+Housenick
 Hozier
 Ice Cube
 Ice Spice
@@ -208,6 +214,7 @@ Jonas Blue
 Jonas Brothers
 Joyce Wrice
 Juicy J
+Jung Kook
 Justin Bieber
 Justin Jesso
 Justin Timberlake
@@ -263,6 +270,7 @@ Lukas Graham
 LUNAX
 Lupe Fiasco
 Luther Vandross
+Luude
 Lvbel C5
 M.O.P.
 M83
@@ -283,6 +291,7 @@ Mary J. Blige
 Mase
 Massive Attack
 Mati Sonntag
+Mattafix
 MAX
 Max Elto
 MEDUZA
@@ -297,6 +306,7 @@ Michelle Ray
 Micky James
 Miguel
 Miley Cyrus
+Minelli
 Missy Elliott
 Mo Beats
 Moby
@@ -312,6 +322,7 @@ Natalie Layne
 Natalie Taylor
 Natasha Bedingfield
 Nate Dogg
+Nazzereene
 NERO
 Nessa Barrett
 New Hope Club
@@ -323,6 +334,7 @@ Nina Nesbitt
 Nirvana
 Nito-Onna
 nkeeei
+NO EMOTION
 Ofenbach
 Olivia Rodrigo
 Ollie Wride
@@ -335,7 +347,9 @@ P!nk
 Paige Cavell
 Papa Roach
 Paramore
+Paratone
 Parv
+Paul Lock
 Pearl Jam
 Pendulum
 Pet Shop Boys
@@ -377,6 +391,7 @@ Russ
 Saigon
 Saliva
 Sam Smith
+Sara Bareilles
 Sarah McIntosh
 SATV Music
 Savage Garden
@@ -396,6 +411,7 @@ Simply Red
 Skepta
 Ski Aggu
 Skunk Anansie
+Skyy
 Snoop Dogg
 Snow Strippers
 Sofiya Nzau
@@ -410,10 +426,12 @@ Stevie Nicks
 Stevie Wonder
 Stormzy
 Swedish House Mafia
+T-Man
 T-Pain
 T.I.
 Tate McRae
 Taylor Swift
+Tensnake
 Texas
 The Beloved
 The Cardigans
@@ -422,6 +440,7 @@ The Chemical Brothers
 The Game
 The Goo Goo Dolls
 The Heavy
+The Kid LAROI
 The Lightning Seeds
 The Midnight
 The Notorious B.I.G.
@@ -463,6 +482,7 @@ uniqe
 USHER
 Various Artists
 Vera Blue
+VHS Collection
 Vindaloo Singh
 Wale
 Warren G
