@@ -1,3 +1,4 @@
+11:11 Music Group
 2 Chainz
 2Pac
 3OH!3
@@ -9,16 +10,20 @@ AALLAR
 Aaron Lewis
 ABBA
 Above & Beyond
+Abraham Alexander
 AC/DC
 ACRAZE
 Adina Howard
+Adrian Quesada
 Aeroplane
 Afro Queen
 Alanis Morissette
+Alex Warren
 Alice Deejay
 Alice In Chains
 Alicia Keys
 Alosa
+Amelia Moore
 Amy Shark
 Anastacia
 Anitta
@@ -83,6 +88,7 @@ Chlöe Howl
 Chris Webby
 Christina Aguilera
 Chromeo
+CLOSR
 Cold Kingdom
 Coldplay
 Conan Gray
@@ -90,6 +96,7 @@ Costa Mee
 Cover Drive
 Cover Sauce
 Craig Armstrong
+creamy
 Creed
 Crystal F
 Curtis Stigers & The Forest Rangers
@@ -99,6 +106,7 @@ Cypress Hill
 Dabeull
 Daecolm
 Daft Punk
+Daniel Caesar
 Daniel Santoro
 Daniel Wolf
 Darren Hayes
@@ -108,6 +116,7 @@ De La Soul
 deadmau5
 Deagon
 Deep Mage
+Deeplace
 Deftones
 Depeche Mode
 Dermot Kennedy
@@ -152,6 +161,7 @@ Feather
 Fenech-Soler
 Fickle Friends
 Fleetwood Mac
+Fleurie
 Flo Rida
 Floetry
 Florence + The Machine
@@ -170,7 +180,9 @@ G-Unit
 Garbage
 Gesaffelstein
 Gia Lily
+GIVĒON
 Goodscandal
+Grimes
 Guano Apes
 Guns N' Roses
 Gwen Stefani
@@ -214,6 +226,7 @@ Jonas Blue
 Jonas Brothers
 Joyce Wrice
 Juicy J
+Julian Casablancas
 Jung Kook
 Justin Bieber
 Justin Jesso
@@ -221,6 +234,7 @@ Justin Timberlake
 K.I.Z
 Kanye West
 Karen Harding
+KAROL G
 Kasabian
 Kate Ryan
 Kavinsky
@@ -251,6 +265,7 @@ LCD Soundsystem
 Le Bober
 Lenny Kravitz
 Lenny Williams
+Leonelle
 LEOWOLF
 Lil Wayne
 Lilli Köhler
@@ -261,6 +276,7 @@ LISA
 LIZOT
 LL COOL J
 Lloren
+Lola Young
 Lorde
 lostprophets
 Lucy Deakin
@@ -296,6 +312,7 @@ MAX
 Max Elto
 MEDUZA
 Megan Thee Stallion
+Mellen Gi
 Merve Özbey
 mgk
 MGMT
@@ -325,11 +342,13 @@ Nate Dogg
 Nazzereene
 NERO
 Nessa Barrett
+Netsky
 New Hope Club
 Nick Jonas
 Nickelback
 Nicki Minaj
 Nightcall
+Nile Rodgers
 Nina Nesbitt
 Nirvana
 Nito-Onna
@@ -354,6 +373,7 @@ Pearl Jam
 Pendulum
 Pet Shop Boys
 Pete Rock
+Pharrell Williams
 Phil Collins
 PhiloSofie
 Pitbull
@@ -425,10 +445,12 @@ Steve Aoki
 Stevie Nicks
 Stevie Wonder
 Stormzy
+Supertaste
 Swedish House Mafia
 T-Man
 T-Pain
 T.I.
+Tame Impala
 Tate McRae
 Taylor Swift
 Tensnake
@@ -459,11 +481,13 @@ The xx
 Theory of a Deadman
 Thirteen Senses
 Three Days Grace
+Tiësto
 Timbaland
 Tina Cousins
 Tinashe
 Tinie Tempah
 Tkandz
+Tom Grennan
 Tom MacDonald
 Tom Walker
 Tommee Profitt
@@ -479,6 +503,7 @@ Twista
 TWOPILOTS
 U2
 uniqe
+untrusted
 USHER
 Various Artists
 Vera Blue
