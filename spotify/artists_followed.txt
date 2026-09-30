@@ -1,5 +1,6 @@
 spotify:artist:2MDj296KJIfgWDNBtHzeFi	11:11 Music Group
 spotify:artist:17lzZA2AlOHwCwFALHttmp	2 Chainz
+spotify:artist:1URnnhqYAYcrqrcwql10ft	21 Savage
 spotify:artist:1ZwdS5xdxEREPySFridCfh	2Pac
 spotify:artist:0FWzNDaEu9jdgcYTbcOa4F	3OH!3
 spotify:artist:3q7HBObVc0L8jNeTe5Gofh	50 Cent
@@ -242,6 +243,7 @@ spotify:artist:3WTRGOdgo9ZUwqRzvObalK	Kealux
 spotify:artist:2r09Inibex3C4ZNTUVSG3m	Keith Sweat
 spotify:artist:3AuMNF8rQAKOzjYppFNAoB	Kelly Rowland
 spotify:artist:3RqBeV12Tt7A8xH3zBDDUF	Kelsea Ballerini
+spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg	Kendrick Lamar
 spotify:artist:63wjoROpeh5f11Qm93UiJ1	Keri Hilson
 spotify:artist:6LqNN22kT3074XbTVUrhzX	Kesha
 spotify:artist:0Chxmm4XMM87mJOHvyiUzL	Kevin Rudolf
@@ -404,6 +406,7 @@ spotify:artist:6UE7nl9mha6s8z0wFQFIZ2	Robyn
 spotify:artist:1LBGR7XDjLl6koGwUthUEs	Rochelle Diamante
 spotify:artist:68rXycYWowQvm6C5bv4Wg1	Rock Heroes
 spotify:artist:1HT9k1ZSUL9IczSstOAgWJ	Roger Sanchez
+spotify:artist:3qwabfaWewpfli7hMNM3O8	Róisín Murphy
 spotify:artist:2SHhfs4BiDxGQ3oxqf0UHY	Roxette
 spotify:artist:54OEro9sWZ3mVfMdlz2CIt	Royal Deluxe
 spotify:artist:5tIkXJTex4JY7cv9mmgAZx	Ruelle
@@ -445,6 +448,7 @@ spotify:artist:77AiFEVeAVj2ORpC85QVJs	Steve Aoki
 spotify:artist:7crPfGd2k81ekOoSqQKWWz	Stevie Nicks
 spotify:artist:7guDJrEfX3qb6FEbdPA5qi	Stevie Wonder
 spotify:artist:2SrSdSvpminqmStGELCSNd	Stormzy
+spotify:artist:57LYzLEk2LcFghVwuWbcuS	Summer Walker
 spotify:artist:6C4cWzfNlyH0l5xTQPLQa6	Supertaste
 spotify:artist:1h6Cn3P4NGzXbaXidqURXs	Swedish House Mafia
 spotify:artist:5p0SkCjy1OmhoXPSM5dvW2	T-Man
@@ -453,6 +457,7 @@ spotify:artist:4OBJLual30L7gRl5UkeRcT	T.I.
 spotify:artist:5INjqkS1o8h1imAzPqGZBb	Tame Impala
 spotify:artist:45dkTj5sMRSjrmBSBeiHym	Tate McRae
 spotify:artist:06HL4z0CvFAxyc27GXpf02	Taylor Swift
+spotify:artist:0fGcIStdT1OpFFhOC7Wp36	Teezo Touchdown
 spotify:artist:75nC6MXUalYZSOd7OfNkwq	Tensnake
 spotify:artist:5JsdVATHNPE0XdMFMRoSuf	Texas
 spotify:artist:46h3caIKtqPlEfRHuSdibg	The Beloved
@@ -481,6 +486,7 @@ spotify:artist:3iOvXCl6edW5Um0fXEBRXy	The xx
 spotify:artist:74eX4C98E4FCrAMl39qRsJ	Theory of a Deadman
 spotify:artist:766wIvoqqGrjRDnExOjJls	Thirteen Senses
 spotify:artist:2xiIXseIJcq3nG7C8fHeBj	Three Days Grace
+spotify:artist:3o0xJMKswwtXz2PhrRCHhJ	Thunder Jackson
 spotify:artist:2o5jDhtHVPhrJdv3cEQ99Z	Tiësto
 spotify:artist:5Y5TRrQiqgUO4S36tzjIRZ	Timbaland
 spotify:artist:2uhEmRPgI5Ppg2T3o8VP31	Tina Cousins
