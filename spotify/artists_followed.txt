@@ -110,6 +110,7 @@ spotify:artist:4tZwfgrHOc3mvqYlEYSvVi	Daft Punk
 spotify:artist:20wkVLutqVOYrc0kxFs7rA	Daniel Caesar
 spotify:artist:2LwSighkNo49filvTvJmBz	Daniel Santoro
 spotify:artist:7HGnJVV3oCHjTvFc9RFL8X	Daniel Wolf
+spotify:artist:1pb3Yx1Mz0soZDeVyO8t8V	Danny Farrant
 spotify:artist:0ihJnGEjNnbM6uuTn3RHMo	Darren Hayes
 spotify:artist:6Ip8FS7vWT1uKkJSweANQK	Dave
 spotify:artist:1Cs0zKBU1kc0i8ypK3B9ai	David Guetta
@@ -127,10 +128,12 @@ spotify:artist:7Ks3elJhSP20mD04lgiA68	Devlin
 spotify:artist:6YY8kfgPtpc49TxClWFKS0	Dezzy Hollow
 spotify:artist:59wfkuBoNyhDMQGCljbUbA	Diddy
 spotify:artist:5OBm2KxB9JIw4o9msXkeNQ	DIMEO
+spotify:artist:04BBCjrKMZI5U2wxRFXHmu	Dimitris Athanasiou
 spotify:artist:0gusqTJKxtU1UTmNRMHZcv	Dizzee Rascal
 spotify:artist:61UzS7tQpBvgk6bhKDgNGs	Dj Loony
 spotify:artist:062wPuKbdxVkXURZqv0Pgj	DJ Wich
 spotify:artist:1HwM5zlC5qNWhJtM00yXzG	DMX
+spotify:artist:7usDVD6PDkEOCbHK7Elk7O	Doc Brown
 spotify:artist:5cj0lLjcoR7YOSnhnX0Po5	Doja Cat
 spotify:artist:6IOvhXyk5edbA2DVaeP9Up	Dorothy
 spotify:artist:6DPYiyq5kWVQS4RGwxzPC7	Dr. Dre
@@ -335,6 +338,7 @@ spotify:artist:64g59lHsc4g2jMFokrKDGW	My Darkest Days
 spotify:artist:5YjEVrNMrIRw2xGbjTN6Ti	Mylo
 spotify:artist:5wPoxI5si3eJsYYwyXV4Wi	N.E.R.D
 spotify:artist:1C60viSZv6BoYtrnkZ44g5	Nadia Ali
+spotify:artist:4Gh8A1RTrjAlnz5pj4Y0WG	Nando Fortunato
 spotify:artist:20qISvAhX20dpIbOOzGK3q	Nas
 spotify:artist:6wdvERzX4CUCOXu6hSS95x	Natalia Kills
 spotify:artist:6N1l2HIYtw3RhoJ2wzLYaB	Natalie Layne
@@ -347,6 +351,7 @@ spotify:artist:7pwufEBGfggjoI8twqlsmQ	Nessa Barrett
 spotify:artist:5TgQ66WuWkoQ2xYxaSTnVP	Netsky
 spotify:artist:2WuKU0SYZOQyY3MmE4vtez	New Hope Club
 spotify:artist:4Rxn7Im3LGfyRkY2FlHhWi	Nick Jonas
+spotify:artist:7j4GDuXVsIMs6ZBBumWkrh	Nick Kingsley
 spotify:artist:6deZN1bslXzeGvOLaLMOIF	Nickelback
 spotify:artist:0hCNtLu0JehylgoiP8L4Gh	Nicki Minaj
 spotify:artist:3xFkHylXN9yHzwCQBypRFn	Nightcall
@@ -467,6 +472,7 @@ spotify:artist:1GhPHrq36VKCY3ucVaZCfo	The Chemical Brothers
 spotify:artist:0NbfKEOTQCcwd6o7wSDOHI	The Game
 spotify:artist:2sil8z5kiy4r76CRTXxBCA	The Goo Goo Dolls
 spotify:artist:0bZCak2tcRMY1dzEIuwF42	The Heavy
+spotify:artist:2SFVBZdS09KBBK229v7iKf	The Jazz Defenders
 spotify:artist:2tIP7SsRs7vjIcLrU85W8J	The Kid LAROI
 spotify:artist:67YNiSqhrx1P8oPvIIvbP5	The Lightning Seeds
 spotify:artist:2NFrAuh8RQdQoS7iYFbckw	The Midnight
@@ -513,6 +519,7 @@ spotify:artist:31mtcsgS3CJW5dEPlG83E7	untrusted
 spotify:artist:23zg3TcAtWQy7J6upgbUnj	USHER
 spotify:artist:0LyfQWJT6nXafLPZqxe9Of	Various Artists
 spotify:artist:5ujrA1eZLDHR7yQ6FZa2qA	Vera Blue
+spotify:artist:3xIHOffeC188QWHIiCaLXr	Veronica Bravo
 spotify:artist:2Nvaq4y2ygxIqfwXyz0HeH	VHS Collection
 spotify:artist:4z8x1jIkUBEiVibHB6tFsz	Vindaloo Singh
 spotify:artist:67nwj3Y5sZQLl72VNUHEYE	Wale
