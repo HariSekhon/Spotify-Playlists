@@ -18,7 +18,10 @@ Adina Howard
 Adrian Quesada
 Aeroplane
 Afro Queen
+Alan Benn
 Alanis Morissette
+Alec Benjamin
+Alessia Cara
 Alex Warren
 Alice Deejay
 Alice In Chains
@@ -28,6 +31,7 @@ Amelia Moore
 Amy Shark
 Anastacia
 Anitta
+Anne-Marie
 Arctic Monkeys
 Ariana Grande
 Armin van Buuren
@@ -46,6 +50,7 @@ Beats By AI
 Bebe Rexha
 Becky Shaheen
 Beéle
+Bellestar
 Ben Elson
 Betsy
 Beyoncé
@@ -65,11 +70,13 @@ BNHM
 Bon Jovi
 Bone Thugs-N-Harmony
 BONIIL
+Britt
 Bruno Mars
 Bryan Adams
 BURY
 Busta Rhymes
 Cale
+Callum J Wright
 Calvin Harris
 Camila Cabello
 Cappella
@@ -79,6 +86,7 @@ Central Cee
 Chamillionaire
 Chappell Roan
 Charli xcx
+Charlie Puth
 Chase & Status
 Chase Atlantic
 CHIC
@@ -131,6 +139,7 @@ DIMEO
 Dimitris Athanasiou
 Dizzee Rascal
 Dj Loony
+DJ Tomekk
 DJ Wich
 DMX
 Doc Brown
@@ -145,6 +154,7 @@ DUX
 Dux
 Dylan
 Eamon
+Ebony Day
 Echos
 Eli & Fur
 Ella Henderson
@@ -173,6 +183,7 @@ Flume
 FM-84
 Foo Fighters
 Foreign Beggars
+Foxes
 Foxy Brown
 Frankee
 Freemasons
@@ -190,9 +201,11 @@ Grimes
 Guano Apes
 Guns N' Roses
 Gwen Stefani
+halocline
 Halsey
 HALUNA
 Harry T
+HAYLA
 Hayley Kiyoko
 Heart
 Hey Violet
@@ -212,6 +225,7 @@ J. Cole
 Ja Rule
 Jackie Chan
 James
+Jamie N Commons
 Jamiroquai
 Jarren Benton
 Jason Derulo
@@ -225,7 +239,10 @@ Jeremih
 Jess Glynne
 Jessie J
 Jet
+Jex
 Jodeci
+John Summit
+Johnny Stimson
 Jonas Blue
 Jonas Brothers
 Joyce Wrice
@@ -273,6 +290,7 @@ Lenny Williams
 Leonelle
 LEOWOLF
 Lil Wayne
+Lil' Kim
 Lilli Köhler
 Lily Allen
 Limp Bizkit
@@ -334,6 +352,7 @@ Mo Beats
 Moby
 Monet192
 MØØNE
+Morgan Wallen
 My Darkest Days
 Mylo
 N.E.R.D
@@ -361,6 +380,7 @@ Nirvana
 Nito-Onna
 nkeeei
 NO EMOTION
+Normani
 Ofenbach
 Olivia Rodrigo
 Ollie Wride
@@ -398,6 +418,7 @@ Raleigh Ritchie
 Raphael Lake
 Rationale
 RAYE
+Rebel Rae
 Red Hot Chili Peppers
 Red Velvet
 Republica
@@ -407,6 +428,7 @@ Rihanna
 Rina Sawayama
 Rita Ora
 Robert Miles
+Robin Hustin
 Robyn
 Rochelle Diamante
 Rock Heroes
@@ -419,6 +441,7 @@ Russ
 Saigon
 Saliva
 Sam Smith
+Santigold
 Sara Bareilles
 Sarah McIntosh
 SATV Music
@@ -426,6 +449,7 @@ Savage Garden
 Scorpions
 Sébastien Tellier
 Selectracks Song Catalog
+Selena Gomez
 September
 Shakira
 Shawn Mendes
@@ -456,6 +480,7 @@ Stormzy
 Summer Walker
 Supertaste
 Swedish House Mafia
+T'art
 T-Man
 T-Pain
 T.I.
@@ -464,7 +489,9 @@ Tate McRae
 Taylor Swift
 Teezo Touchdown
 Tensnake
+Tep Piseth
 Texas
+The 1975
 The Beloved
 The Cardigans
 The Carters
@@ -499,8 +526,10 @@ Tina Cousins
 Tinashe
 Tinie Tempah
 Tkandz
+TobiMorrow
 Tom Grennan
 Tom MacDonald
+Tom Polo
 Tom Walker
 Tommee Profitt
 TOMORROW X TOGETHER
@@ -510,15 +539,18 @@ Trap King
 Travis Barker
 Trevor Something
 Trisha Paytas
+Trooper Da Don
 Troye Sivan
 Twista
 TWOPILOTS
 U2
 uniqe
 untrusted
+Urban Love
 USHER
 Various Artists
 Vera Blue
+VÉRITÉ
 Veronica Bravo
 VHS Collection
 Vindaloo Singh
@@ -530,6 +562,7 @@ will.i.am
 Wiz Khalifa
 Wretch 32
 Wyclef Jean
+X Ambassadors
 YACHT
 YOTTO
 Young Empress
