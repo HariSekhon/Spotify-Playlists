@@ -19,6 +19,7 @@ spotify:artist:07YivsJVCrmhhjzBcBtMGv	Adrian Quesada
 spotify:artist:31CtLHmSL7Oa7TPU9YyBEu	Aeroplane
 spotify:artist:0iQaClnw8ysyL24QKIeFuT	Afro Queen
 spotify:artist:2Mbb4GLTxyA1cehXP48jqr	Alan Benn
+spotify:artist:7vk5e3vY1uw9plTHJAMwjN	Alan Walker
 spotify:artist:6ogn9necmbUdCppmNnGOdi	Alanis Morissette
 spotify:artist:5IH6FPUwQTxPSXurCrcIov	Alec Benjamin
 spotify:artist:2wUjUUtkb5lvLKcGKsKqsR	Alessia Cara
@@ -39,6 +40,7 @@ spotify:artist:3r1Md7Hk5iqtpyEoGo8032	ARTEM SHILOVETS
 spotify:artist:5rkVyNGXEgeUqKkB5ccK83	Ashanti
 spotify:artist:2kqVmaPdvLEcfaT9oibK27	Athena Cage
 spotify:artist:1WgXqy2Dd70QQOU7Ay074N	AURORA
+spotify:artist:4npEfmQ6YuiwW1GpUmaq3F	Ava Max
 spotify:artist:1vCWHaC5f2uS3yhpwWbIA6	Avicii
 spotify:artist:7M5pDtJpCdnftEQZtczYco	Ayesha Erotica
 spotify:artist:5ndkK3dpZLKtBklKjxNQwT	B.o.B
@@ -52,8 +54,10 @@ spotify:artist:5an4oj0S5bqONhXPpK4Myu	Becky Shaheen
 spotify:artist:7a0XAaPaK2aDSqa8p3QnC7	Beéle
 spotify:artist:004F88I7EWH54o9jNfUbEn	Bellestar
 spotify:artist:1OuL8Cuw5Ed403k0dUnloa	Ben Elson
+spotify:artist:22wbnEMDvgVIAGdFeek6ET	Benson Boone
 spotify:artist:58FAQGIDRMXK5AsxJu9YNp	Betsy
 spotify:artist:6vWDO969PvNqNYHIOW5v0m	Beyoncé
+spotify:artist:76ZDdIwxzIsdzCAgf8gXaJ	Bianka
 spotify:artist:7mnAzEmgquhrVtGob81SmO	Big Shaq
 spotify:artist:272ygo5fv9cYsiCLcV0HV2	Bill Conti
 spotify:artist:3hqXJzw9ubKNcvVhZV03gQ	Billy Barman
@@ -70,6 +74,7 @@ spotify:artist:5Dbey2rYHmx0fZWywHiO2N	BNHM
 spotify:artist:58lV9VcRSjABbAbfWS6skp	Bon Jovi
 spotify:artist:5spEJXLwD1sKUdC2bnOHPg	Bone Thugs-N-Harmony
 spotify:artist:27l1R4PuVMF6k5CxnjH8s5	BONIIL
+spotify:artist:3qXWWITvZcTD1M2QmXszJK	Brandon Chase
 spotify:artist:6C0GDQqkaIX35GF3rTV1U1	Britt
 spotify:artist:0du5cEVh5yTK9QJze8zA0C	Bruno Mars
 spotify:artist:3Z02hBLubJxuFJfhacLSDc	Bryan Adams
@@ -128,6 +133,7 @@ spotify:artist:34h3uv9dVLZqv4chYpSXWw	Deagon
 spotify:artist:0MR7IMVJ0cdWJBivbwRr4A	Deep Mage
 spotify:artist:5Ql34EV7kn3bq8LV5q8dYO	Deeplace
 spotify:artist:6Ghvu1VvMGScGpOUJBAHNH	Deftones
+spotify:artist:2Bg8nAES4HGifHi8ONfMLy	Denis Bravo
 spotify:artist:762310PdDnwsDxAQxzQkfX	Depeche Mode
 spotify:artist:5KNNVgR6LBIABRIomyCwKJ	Dermot Kennedy
 spotify:artist:1Y8cdNmUJH7yBTd9yOvr5i	Destiny's Child
@@ -193,6 +199,7 @@ spotify:artist:2WKdxPFRD7IqZvlIAvhMgY	Fugees
 spotify:artist:02kJSzxNuaWGqwubyUba0Z	G-Eazy
 spotify:artist:6evKD5JWJON3qPBJtUEmtY	G-Unit
 spotify:artist:6S0GHTqz5sxK5f9HtLXn9q	Garbage
+spotify:artist:5Jz6BO8BnsuARSdU6egltM	GeoM
 spotify:artist:3hteYQFiMFbJY7wS0xDymP	Gesaffelstein
 spotify:artist:5d7p9yDO6NSYQVbI9YNcHB	Gia Lily
 spotify:artist:4fxd5Ee7UefO4CUXgwJ7IP	GIVĒON
@@ -269,6 +276,7 @@ spotify:artist:6LqNN22kT3074XbTVUrhzX	Kesha
 spotify:artist:0Chxmm4XMM87mJOHvyiUzL	Kevin Rudolf
 spotify:artist:1vfezMIyCr4XUdYRaKIKi3	Keyshia Cole
 spotify:artist:4zxvC7CRGvggq9EWXOpwAo	Kiesza
+spotify:artist:5PN2aHIvLEM98XIorsPMhE	Kim Carnes
 spotify:artist:2qk9voo8llSGYcZ6xrBzKx	Kings of Leon
 spotify:artist:4HBMToZ4yMR07eiK9IxtjK	Klaypex
 spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD	Korn
@@ -325,6 +333,7 @@ spotify:artist:76nW12AUcUVEiC8fwFoAns	Mariette
 spotify:artist:04gDigrS5kc9YWfZHwBETP	Maroon 5
 spotify:artist:60d24wfXkVzDSfLS6hyCjZ	Martin Garrix
 spotify:artist:0i3OcVzzb5UEdC4j4hRQte	Martin Trevy
+spotify:artist:7E1cYTM1165LXxLhY82iV0	Martyna Jakubowicz
 spotify:artist:3koiLjNrgRTNbOwViDipeA	Marvin Gaye
 spotify:artist:1XkoF8ryArs86LZvFOkbyr	Mary J. Blige
 spotify:artist:1wiBLzTI7z9RUwEpNPdFT6	Mase
@@ -388,6 +397,7 @@ spotify:artist:5vBSrE1xujD2FXYRarbAXc	Olly Alexander (Years & Years)
 spotify:artist:3whuHq0yGx60atvA2RCVRW	Olly Murs
 spotify:artist:5Pwc4xIPtQLFEnJriah9YJ	OneRepublic
 spotify:artist:39xGBa2ltqT4ZkkeeYlH54	Orgvsm
+spotify:artist:1Yq11FlV5GeYdKzHutWv3X	outset island
 spotify:artist:6WjX4pepHwXa85B9KMk0PY	P Money
 spotify:artist:1KCSPY1glIKqW2TotWuXOR	P!nk
 spotify:artist:6K3xqGQiS7BLYG6llkAF24	Paige Cavell
@@ -438,6 +448,7 @@ spotify:artist:2SHhfs4BiDxGQ3oxqf0UHY	Roxette
 spotify:artist:54OEro9sWZ3mVfMdlz2CIt	Royal Deluxe
 spotify:artist:5tIkXJTex4JY7cv9mmgAZx	Ruelle
 spotify:artist:1z7b1Pr1rSlvWRzsW3HOrS	Russ
+spotify:artist:74KM79TiuVKeVCqs8QtB0B	Sabrina Carpenter
 spotify:artist:0mTfntDCCWRozUnyxpGf6E	Saigon
 spotify:artist:5S6hjAxgxjsLylsTtMIimO	Saliva
 spotify:artist:2wY79sveU1sp5g7SokKOiI	Sam Smith
@@ -559,6 +570,7 @@ spotify:artist:2B4ZHz4QDWJTXPFPgO5peE	Warren G
 spotify:artist:7k9T7lZlHjRAM1bb0r9Rm3	Wiley
 spotify:artist:6m8itYST9ADjBIYevXSb1r	Wilkinson
 spotify:artist:085pc2PYOi8bGKj0PNjekA	will.i.am
+spotify:artist:02cJqU9jxI9t8TfJpWzMMP	Wipo
 spotify:artist:137W8MRPWKqSmrBGDBFSop	Wiz Khalifa
 spotify:artist:0T2sGLJKge2eaFmZJxX7sq	Wretch 32
 spotify:artist:7aBzpmFXB4WWpPl2F7RjBe	Wyclef Jean
