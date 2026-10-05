@@ -19,6 +19,7 @@ Adrian Quesada
 Aeroplane
 Afro Queen
 Alan Benn
+Alan Walker
 Alanis Morissette
 Alec Benjamin
 Alessia Cara
@@ -39,6 +40,7 @@ ARTEM SHILOVETS
 Ashanti
 Athena Cage
 AURORA
+Ava Max
 Avicii
 Ayesha Erotica
 B.o.B
@@ -52,8 +54,10 @@ Becky Shaheen
 Beéle
 Bellestar
 Ben Elson
+Benson Boone
 Betsy
 Beyoncé
+Bianka
 Big Shaq
 Bill Conti
 Billy Barman
@@ -70,6 +74,7 @@ BNHM
 Bon Jovi
 Bone Thugs-N-Harmony
 BONIIL
+Brandon Chase
 Britt
 Bruno Mars
 Bryan Adams
@@ -128,6 +133,7 @@ Deagon
 Deep Mage
 Deeplace
 Deftones
+Denis Bravo
 Depeche Mode
 Dermot Kennedy
 Destiny's Child
@@ -193,6 +199,7 @@ Fugees
 G-Eazy
 G-Unit
 Garbage
+GeoM
 Gesaffelstein
 Gia Lily
 GIVĒON
@@ -269,6 +276,7 @@ Kesha
 Kevin Rudolf
 Keyshia Cole
 Kiesza
+Kim Carnes
 Kings of Leon
 Klaypex
 Korn
@@ -325,6 +333,7 @@ Mariette
 Maroon 5
 Martin Garrix
 Martin Trevy
+Martyna Jakubowicz
 Marvin Gaye
 Mary J. Blige
 Mase
@@ -388,6 +397,7 @@ Olly Alexander (Years & Years)
 Olly Murs
 OneRepublic
 Orgvsm
+outset island
 P Money
 P!nk
 Paige Cavell
@@ -438,6 +448,7 @@ Roxette
 Royal Deluxe
 Ruelle
 Russ
+Sabrina Carpenter
 Saigon
 Saliva
 Sam Smith
@@ -559,6 +570,7 @@ Warren G
 Wiley
 Wilkinson
 will.i.am
+Wipo
 Wiz Khalifa
 Wretch 32
 Wyclef Jean
