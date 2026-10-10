@@ -16,6 +16,7 @@ AC/DC
 ACRAZE
 Adina Howard
 Adrian Quesada
+Adriana Stone
 Aeroplane
 Afro Queen
 Alan Benn
@@ -65,6 +66,7 @@ Bishop Briggs
 Black Eyed Peas
 Black Rob
 BLACKPINK
+Bleeding Fingers
 Bliss n Eso
 Bloc Party
 Blondie
@@ -123,6 +125,7 @@ Dabeull
 Daecolm
 Daft Punk
 Daniel Caesar
+Daniel Farrant
 Daniel Santoro
 Daniel Wolf
 Danny Farrant
@@ -157,6 +160,7 @@ Dorothy
 Dr. Dre
 Drake
 Dread MC
+Drew Dvorsky
 Dua Lipa
 Duran Duran
 DUX
@@ -168,6 +172,7 @@ Echos
 Edmofo
 Eli & Fur
 Ella Henderson
+Eller
 Elley Duhé
 Ellie Goulding
 Ellie Holcomb
@@ -208,6 +213,7 @@ Garbage
 GeoM
 Gesaffelstein
 Gia Lily
+Giles Palmer
 GIVĒON
 Goodscandal
 Grimes
@@ -226,6 +232,7 @@ Hinder
 HolyBrune
 Housenick
 Hozier
+Hugo Russo
 Ice Cube
 Ice Spice
 ICE-T
@@ -239,10 +246,14 @@ J. Cole
 Ja Rule
 Jackie Chan
 James
+James Cocozza
+James Howland
 Jamie N Commons
 Jamiroquai
+Janet Grogan
 Jarren Benton
 Jason Derulo
+Jason Tarver
 Jax Jones
 Jazzystics
 JAŸ-Z
@@ -257,17 +268,21 @@ Jex
 Jodeci
 John Summit
 Johnny Stimson
+Jon Murrill
 Jonas Blue
 Jonas Brothers
+Jonathan Murrill
 Joyce Wrice
 Juicy J
 Julian Casablancas
+Julian De Vizio
 Jung Kook
 Justin Bieber
 Justin Jesso
 Justin Timberlake
 K.I.Z
 Kanye West
+Kara Marni
 Karen Harding
 KAROL G
 Kasabian
@@ -301,6 +316,7 @@ Lana Del Rey
 Latto
 LCD Soundsystem
 Le Bober
+Lee Richardson
 Lenny Kravitz
 Lenny Williams
 Leonelle
@@ -318,6 +334,7 @@ Lloren
 Lola Young
 Lorde
 lostprophets
+Loving Caliber
 Lucy Deakin
 Ludacris
 Ludovico Einaudi
@@ -334,6 +351,7 @@ Madilyn Bailey
 Madison Beer
 Mae Muller
 Maggie Lindemann
+Maggie Rogers
 Magnetic Man
 Makaveli
 Marc Philippe
@@ -352,6 +370,7 @@ Mati Sonntag
 Mattafix
 MAX
 Max Elto
+Mazzy Star
 MEDUZA
 Megan Thee Stallion
 Mellen Gi
@@ -364,6 +383,7 @@ Michelle Price
 Michelle Ray
 Micky James
 Miguel
+MIIA
 Miley Cyrus
 Minelli
 Missy Elliott
@@ -372,6 +392,7 @@ Moby
 Monet192
 MØØNE
 Morgan Wallen
+Ms Triniti
 My Darkest Days
 Mylène Farmer
 Mylo
@@ -389,6 +410,8 @@ NERO
 Nessa Barrett
 Netsky
 New Hope Club
+Niamh Quinn
+Nicholas Kingsley
 Nick Jonas
 Nick Kingsley
 Nickelback
@@ -396,6 +419,7 @@ Nicki Minaj
 Nightcall
 Nile Rodgers
 Nina Nesbitt
+Nine One One
 Nirvana
 Nito-Onna
 nkeeei
@@ -419,6 +443,7 @@ Parv
 Paul Lock
 Pearl Jam
 Pendulum
+Penguin Asylum
 Pet Shop Boys
 Pete Bellis & Tommy
 Pete Rock
@@ -430,6 +455,7 @@ Placebo
 Planet Funk
 PLÜM
 Professor Green
+Prong Praison
 Pulp
 Purple Disco Machine
 Pyotr Ilyich Tchaikovsky
@@ -443,12 +469,14 @@ RAYE
 Rebel Rae
 Red Hot Chili Peppers
 Red Velvet
+rem.y
 Republica
 Rick Astley
 Rick Ross
 Rihanna
 Rina Sawayama
 Rita Ora
+Robbie Nevil
 Robert Miles
 Robin Hustin
 Robyn
@@ -459,13 +487,16 @@ Róisín Murphy
 Roxette
 Royal Deluxe
 Ruelle
+Rupert Pope
 Russ
 Sabrina Carpenter
 Saigon
 Saliva
+Sam Shrieve
 Sam Smith
 Santigold
 Sara Bareilles
+Sarah Jane Norman
 Sarah McIntosh
 SATV Music
 Savage Garden
@@ -488,11 +519,14 @@ Simply Red
 Skepta
 Ski Aggu
 Skunk Anansie
+Skye Emanuel
 Skyy
 Snoop Dogg
 Snow Strippers
 Sofiya Nzau
+Soleil
 Somna
+Sophie Gold
 Soulja Boy
 Sound Quelle
 Staind
@@ -505,6 +539,7 @@ Sting
 Stormzy
 Summer Walker
 Supertaste
+Susanna Lopez
 Swedish House Mafia
 T'art
 T-Man
@@ -519,12 +554,14 @@ Tep Piseth
 Texas
 The 1975
 The Beloved
+The Breaker Sisters
 The Cardigans
 The Carters
 The Chemical Brothers
 The Game
 The Goo Goo Dolls
 The Heavy
+The Home Of Happy
 The Jazz Defenders
 The Kid LAROI
 The Lightning Seeds
@@ -553,6 +590,7 @@ Tinashe
 Tinie Tempah
 Tkandz
 TobiMorrow
+Tom Ford
 Tom Grennan
 Tom MacDonald
 Tom Polo
@@ -568,7 +606,9 @@ Trisha Paytas
 Trooper Da Don
 Troye Sivan
 Twista
+Twodot Sensei
 TWOPILOTS
+Ty Frankel
 U2
 uniqe
 untrusted
