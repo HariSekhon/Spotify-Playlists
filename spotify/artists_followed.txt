@@ -48,9 +48,11 @@ spotify:artist:5ndkK3dpZLKtBklKjxNQwT	B.o.B
 spotify:artist:0g7YfJuAQnXWMiFny5elRH	Baeza
 spotify:artist:2xe8IXgCTpwHE3eA9hTs4n	BANKS
 spotify:artist:42t4hWS8aGwWNQhutNCl9c	Banned Vinyl
+spotify:artist:7hcqMqEdbzm6mWglVaF8tw	BB St. Clair
 spotify:artist:2QiXPWnegDIZucLvDpYRS7	BBYx
 spotify:artist:2VL0G8nTevMkOCc1cPWu5i	Beats By AI
 spotify:artist:64M6ah0SkkRsnPGtGiRAbb	Bebe Rexha
+spotify:artist:5dmaew3NRaF4GljrhB0VOc	Beck Goldsmith
 spotify:artist:5an4oj0S5bqONhXPpK4Myu	Becky Shaheen
 spotify:artist:7a0XAaPaK2aDSqa8p3QnC7	Beéle
 spotify:artist:004F88I7EWH54o9jNfUbEn	Bellestar
@@ -71,6 +73,7 @@ spotify:artist:1xSSjJrKTO2ZNPU81uLtmI	Bliss n Eso
 spotify:artist:3MM8mtgFzaEJsqbjZBSsHJ	Bloc Party
 spotify:artist:4tpUmLEVLCGFr93o8hFFIB	Blondie
 spotify:artist:2gI1WfmpFmmgSRojy4Jup2	BLÜ EYES
+spotify:artist:5AVBFCn4Hq4KY2Xjc5Gj4y	Blues Saraceno
 spotify:artist:7MhMgCo0Bl0Kukl93PZbYS	Blur
 spotify:artist:5Dbey2rYHmx0fZWywHiO2N	BNHM
 spotify:artist:58lV9VcRSjABbAbfWS6skp	Bon Jovi
@@ -118,12 +121,14 @@ spotify:artist:2uSVRVjYZ0PlJPdFHnBETu	creamy
 spotify:artist:43sZBwHjahUvgbx1WNIkIz	Creed
 spotify:artist:6oZhc4ONSAMn6RYg6o6VWL	Crystal F
 spotify:artist:4xfigyFOZnW8YfZiOVMYwI	Curtis Stigers & The Forest Rangers
+spotify:artist:0AVoyEEWwMPhMIiBujqkQP	CVCHE
 spotify:artist:1MVnyuEGQxpIwxOtlThiaL	CXSPER
 spotify:artist:2BTZIqw0ntH9MvilQ3ewNY	Cyndi Lauper
 spotify:artist:4P0dddbxPil35MNN9G2MEX	Cypress Hill
 spotify:artist:7sw3xJMTpdcpfssx17hfrb	Dabeull
 spotify:artist:1IFAU4mznUcfPVP9z2c24N	Daecolm
 spotify:artist:4tZwfgrHOc3mvqYlEYSvVi	Daft Punk
+spotify:artist:248jGHzEOhF6EcdUPwwi1V	Dana McKeon
 spotify:artist:20wkVLutqVOYrc0kxFs7rA	Daniel Caesar
 spotify:artist:59oUlUYF0ef44qArSKQBgK	Daniel Farrant
 spotify:artist:2LwSighkNo49filvTvJmBz	Daniel Santoro
@@ -216,6 +221,7 @@ spotify:artist:5d7p9yDO6NSYQVbI9YNcHB	Gia Lily
 spotify:artist:2qIRCEFFjQDhlDqMA4CfiR	Giles Palmer
 spotify:artist:4fxd5Ee7UefO4CUXgwJ7IP	GIVĒON
 spotify:artist:3NCorVsEBFRYAMkhF0gwqR	Goodscandal
+spotify:artist:5905M0XGqGTCLrWK7GT6ZU	Grayson Voltaire
 spotify:artist:053q0ukIDRgzwTr4vNSwab	Grimes
 spotify:artist:4whxX965DKKqYkXmk33b4E	Guano Apes
 spotify:artist:3qm84nBOXUEQ2vnTfUTTFC	Guns N' Roses
@@ -223,6 +229,7 @@ spotify:artist:4yiQZ8tQPux8cPriYMWUFP	Gwen Stefani
 spotify:artist:5ofIlDx8lax1NOi2stXaTn	halocline
 spotify:artist:26VFTg2z8YR0cCuwLzESi2	Halsey
 spotify:artist:0JB4i9bhEANaZv1c3i3oYq	HALUNA
+spotify:artist:0d4XXCeHXIfK7So8O9qHCC	Harry Matthew Tarlton
 spotify:artist:59MrYHVIGkhd5wgaWXl7qa	Harry T
 spotify:artist:4yX6mpMyBGf9UfvBB8JJrc	HAYLA
 spotify:artist:3LjhVl7GzYsza1biQjTpaN	Hayley Kiyoko
@@ -268,10 +275,12 @@ spotify:artist:0NO8SsF6umjI3iQJzTycVF	Jex
 spotify:artist:1eNkUXHPaXyuyC8NAgzykK	Jodeci
 spotify:artist:7kNqXtgeIwFtelmRjWv205	John Summit
 spotify:artist:00OF0nwYaoBSO3AnPVq3vE	Johnny Stimson
+spotify:artist:4Bea9RTaB2sArO1lyetMWf	Jon Dix
 spotify:artist:6ewQs1ljaLZO5WXegSeCef	Jon Murrill
 spotify:artist:1HBjj22wzbscIZ9sEb5dyf	Jonas Blue
 spotify:artist:7gOdHgIoIKoe4i9Tta6qdD	Jonas Brothers
 spotify:artist:1koTy008UTQlXfupIGp0q5	Jonathan Murrill
+spotify:artist:72E3jibe9NNSGWJL1n7BCZ	Joseph AMG Sporck
 spotify:artist:24Cf1irKt7kcewb9OOkPum	Joyce Wrice
 spotify:artist:5gCRApTajqwbnHHPbr2Fpi	Juicy J
 spotify:artist:1rAv1GhTQ2rmG94p9lU3rB	Julian Casablancas
@@ -375,6 +384,7 @@ spotify:artist:0xRXCcSX89eobfrshSVdyu	MEDUZA
 spotify:artist:181bsRPaVXVlUKXrxwZfHK	Megan Thee Stallion
 spotify:artist:6Hpe3EZqFMWYtJ61D0GjSa	Mellen Gi
 spotify:artist:74IYRdqa9EFKMMXUIjGyxM	Merve Özbey
+spotify:artist:1rCIEwPp5OnXW0ornlSsRl	Metric
 spotify:artist:6TIYQ3jFPwQSRmorSezPxX	mgk
 spotify:artist:0SwO7SWeDHJijQ3XNS7xEE	MGMT
 spotify:artist:6YHEMoNPbcheiWS2haGzkn	Michael Bolton
@@ -512,6 +522,7 @@ spotify:artist:1wxPItEzr7U7rGSMPqZ25r	Shiloh Dynasty
 spotify:artist:6UocZe4AprSYBvmn3J0oqY	Shiny Toy Guns
 spotify:artist:5WUlDfRSoLAfcVSX1WnrxN	Sia
 spotify:artist:0NWLoTHkDz70WnSea4YhjA	Siamese Sex Show
+spotify:artist:07bc07kEzUQS2m70LOWchA	Sid Narbom
 spotify:artist:1IueXOQyABrMOprrzwQJWN	Sigala
 spotify:artist:4TrraAsitQKl821DQY42cZ	Sigrid
 spotify:artist:4iudEcmuPlYNdbP3e1bdn1	Silverchair
@@ -523,14 +534,17 @@ spotify:artist:6KZJhPLGWgAc303swdOlzM	Skye Emanuel
 spotify:artist:5uFqO7FceiE84xjEjFtQLX	Skyy
 spotify:artist:7hJcb9fa4alzcOq3EaNPoG	Snoop Dogg
 spotify:artist:6TsAG8Ve1icEC8ydeHm3C8	Snow Strippers
+spotify:artist:7bp2lSdh12wcA8LyB1srfJ	Sofia Carson
 spotify:artist:5Y2FS5YbGf7yRDumzD5nY3	Sofiya Nzau
 spotify:artist:1LLxUwtDcZsj12ShYvdyhX	Soleil
 spotify:artist:1497VRGLDSi0Tb1sPill0K	Somna
 spotify:artist:1qjGHQLiAiVK0jTJXXdheQ	Sophie Gold
 spotify:artist:6GMYJwaziB4ekv1Y6wCDWS	Soulja Boy
 spotify:artist:5mdTuNl23tON1WlsVbvD18	Sound Quelle
+spotify:artist:3vRXofOHf2LwrjDrCd4vzv	Spencer Wilson
 spotify:artist:5KDIH2gF0VpelTqyQS7udb	Staind
 spotify:artist:0FLx5Ts7ydf1NuSsy334eU	Stan Taylor
+spotify:artist:0ZEMOJDjKWNfy462D8k61o	Stef Tahlia
 spotify:artist:21UJ7PRWb3Etgsu99f8yo8	Stereophonics
 spotify:artist:77AiFEVeAVj2ORpC85QVJs	Steve Aoki
 spotify:artist:7crPfGd2k81ekOoSqQKWWz	Stevie Nicks
