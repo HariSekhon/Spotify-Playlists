@@ -32,6 +32,7 @@ Alosa
 Amelia Moore
 Amy Shark
 Anastacia
+Andy Powell
 Anitta
 Anne-Marie
 Arctic Monkeys
@@ -92,6 +93,7 @@ Camila Cabello
 Cappella
 Cardi B
 Carpetman
+Cavendish Music
 Central Cee
 Chamillionaire
 Chappell Roan
@@ -249,6 +251,7 @@ Incubus
 India.Arie
 Isabel LaRosa
 itssvd
+Izzy Warner
 J. Cole
 Ja Rule
 Jackie Chan
@@ -269,6 +272,8 @@ Jelena Rozga
 Jennifer Lopez
 Jeremih
 Jess Glynne
+Jessica Easley
+Jessica Kline
 Jessie J
 Jet
 Jex
@@ -383,6 +388,7 @@ Mazzy Star
 MEDUZA
 Megan Thee Stallion
 Mellen Gi
+Meredith Hope Raney
 Merve Özbey
 Metric
 mgk
@@ -450,6 +456,7 @@ Papa Roach
 Paramore
 Paratone
 Parv
+Patrick Hagenaar
 Paul Lock
 Pearl Jam
 Pendulum
@@ -547,6 +554,7 @@ Stan Taylor
 Stef Tahlia
 Stereophonics
 Steve Aoki
+Stevie Gold
 Stevie Nicks
 Stevie Wonder
 Sting
@@ -560,6 +568,7 @@ T-Man
 T-Pain
 T.I.
 Tame Impala
+Tara Chinn
 Tate McRae
 Taylor Swift
 Teezo Touchdown
@@ -576,6 +585,7 @@ The Game
 The Goo Goo Dolls
 The Heavy
 The Home Of Happy
+The Hoof
 The Jazz Defenders
 The Kid LAROI
 The Lightning Seeds
