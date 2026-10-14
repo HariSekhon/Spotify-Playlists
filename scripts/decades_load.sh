@@ -8,7 +8,8 @@
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
+#  If you're using my code you're welcome to connect with me on LinkedIn
+#  and optionally send me feedback
 #
 #  https://www.linkedin.com/in/HariSekhon
 #
@@ -74,8 +75,10 @@ load_decade(){
     {
         timestamp "Adding tracks"
         echo
-        wc -l
-        #"$bash_tools/spotify/spotify_uri_to_name.sh"
+        tee >("$bash_tools/spotify/spotify_uri_to_name.sh") >(echo -n "Count:"; wc -l) |
+        # TODO: enable this once reviewed the list of additions
+        #"$bash_tools/spotify/spotify_add_to_playlist.sh" "$decade"
+        cat >/dev/null
     }
     echo
     echo
