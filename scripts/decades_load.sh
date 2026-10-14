@@ -85,6 +85,6 @@ load_decade "The 2020s" {2020..2029}
 load_decade "The 2010s" {2010..2019}
 load_decade "The 2000s" {2000..2009}
 load_decade "The 90s - The Decade of Dance, R&B 🇺🇸 & Brit Pop! 🇬🇧 🥳 🎉" {1990..1991}
-load_decade "The 80s - The Greatest Decade in Human History! 👩??? 👩? 👩? 😎 ? 🎉" {1980..1989}
-load_decade "The 70s - The Decade of Disco & Classics! 💃 🕺 😎 ? 🎉" {1970..1979}
+load_decade "The 80s - The Greatest Decade in Human History! 👩🏻‍🦰 👩🏼 👩🏻 😎 🥳 🎉" {1980..1989}
+load_decade "The 70s - The Decade of Disco & Classics! 💃 🕺 😎 🥳 🎉" {1970..1979}
 load_decade "The 60s" {1960..1969}
