@@ -68,7 +68,7 @@ load_decade(){
     timestamp "Loading Decade: $decade_playlist"
     timestamp "Uniq'ing years: ${years[*]}"
     timestamp "Filtering tracks not already in decade"
-    uniq_order_preserved.pl "${year_playlists[@]}"|
+    uniq_order_preserved.pl "${year_playlists[@]}" |
     grep -Fvxhf "$decade_playlist" - |
     {
         timestamp "Adding tracks"
