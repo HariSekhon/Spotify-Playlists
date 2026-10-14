@@ -35,9 +35,9 @@ cd "$srcdir"
 # reset playlists with large superfluous changes I don't want to deal with yet
 "$srcdir/scripts/reset.sh"
 
-if [ -z "${OFFLINE:-}" ]; then
-    "$bash_tools/checks/check_internet.sh"
-fi
+#if [ -z "${OFFLINE:-}" ]; then
+#    "$bash_tools/checks/check_internet.sh"
+#fi
 
 spotify_token
 
