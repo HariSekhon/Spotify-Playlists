@@ -80,7 +80,6 @@ load_decade(){
     echo
 }
 
-
 load_decade "The 2020s" {2020..2029}
 load_decade "The 2010s" {2010..2019}
 load_decade "The 2000s" {2000..2009}
