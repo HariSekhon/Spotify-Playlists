@@ -55,7 +55,8 @@ spotify_token
 
 load_decade(){
     # pass name explicitly because I use funny irregular names for some decades
-    local decade_playlist="spotify/$1"
+    local decade="$1"
+    local decade_playlist="spotify/$decade"
     shift || :
     local years=()
     local year_playlists=()
@@ -67,7 +68,7 @@ load_decade(){
     done
     timestamp "Loading Decade: $decade_playlist"
     timestamp "Uniq'ing years: ${years[*]}"
-    timestamp "Filtering tracks not already in decade"
+    timestamp "Filtering tracks not already in decade: $decade"
     uniq_order_preserved.pl "${year_playlists[@]}" |
     grep -Fvxhf "$decade_playlist" - |
     {
