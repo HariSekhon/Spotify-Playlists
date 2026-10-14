@@ -71,7 +71,8 @@ load_decade(){
     {
         timestamp "Adding tracks"
         echo
-        tee >("$bash_tools/spotify/spotify_uri_to_name.sh" >&2) >( { echo -n "Count:"; wc -l; } >&2) |
+        tee >("$bash_tools/spotify/spotify_uri_to_name.sh" >&2) \
+            >( { echo -n "Count:"; wc -l; } >&2) |
         "$bash_tools/spotify/spotify_add_to_playlist.sh" "$decade"
     }
     echo
