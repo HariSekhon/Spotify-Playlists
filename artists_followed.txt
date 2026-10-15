@@ -3,10 +3,12 @@
 21 Savage
 2Pac
 3OH!3
+5 Seconds of Summer
 50 Cent
 A Boogie Wit da Hoodie
 A Perfect Circle
 A R I Z O N A
+A7S
 AALLAR
 Aaron Lewis
 ABBA
@@ -19,20 +21,24 @@ Adrian Quesada
 Adriana Stone
 Aeroplane
 Afro Queen
+Aitch
 Alan Benn
 Alan Walker
 Alanis Morissette
 Alec Benjamin
 Alessia Cara
+Alesso
 Alex Condliffe
 Alex Warren
 Alice Deejay
 Alice In Chains
 Alicia Keys
+Alison Wonderland
 Alosa
 Amelia Moore
 Amy Shark
 Anastacia
+Andi
 Andy Powell
 Anitta
 Anne-Marie
@@ -50,6 +56,7 @@ B.o.B
 Baeza
 BANKS
 Banned Vinyl
+BartiZ
 BB St. Clair
 BBYx
 Beats By AI
@@ -70,10 +77,12 @@ Bishop Briggs
 Black Eyed Peas
 Black Rob
 BLACKPINK
+blank sheets
 Bleeding Fingers
 Bliss n Eso
 Bloc Party
 Blondie
+Blondshell
 BLÜ EYES
 Blues Saraceno
 Blur
@@ -176,15 +185,20 @@ DUX
 Dux
 Dylan
 Eamon
+Ebba
 Ebony Day
 Echos
 Edmofo
+Ekkah
 Eli & Fur
+Elijah N
+ELIO
 Ella Henderson
 Eller
 Elley Duhé
 Ellie Goulding
 Ellie Holcomb
+Else
 Emeli Sandé
 Emily Makis
 Eminem
@@ -197,6 +211,7 @@ Fabolous
 Faith No More
 Far East Movement
 Feather
+Felicitas
 Fenech-Soler
 Fickle Friends
 Fleetwood Mac
@@ -210,6 +225,7 @@ Foo Fighters
 Foreign Beggars
 Foxes
 Foxy Brown
+Franc Moody
 Frankee
 Freemasons
 French Montana
@@ -241,9 +257,12 @@ Heart
 Hey Violet
 Hinder
 HolyBrune
+Homegrown
 Housenick
 Hozier
 Hugo Russo
+HUNNY
+Hysteria
 Ice Cube
 Ice Spice
 ICE-T
@@ -252,6 +271,7 @@ Imagine Dragons
 Incubus
 India.Arie
 Isabel LaRosa
+Isla Wolfe
 itssvd
 Izzy Warner
 J. Cole
@@ -280,6 +300,7 @@ Jessie J
 Jet
 Jex
 Jodeci
+John Robertson
 John Summit
 Johnny Stimson
 Jon Dix
@@ -288,8 +309,10 @@ Jonas Blue
 Jonas Brothers
 Jonathan Murrill
 Joseph AMG Sporck
+Joy Crookes
 Joyce Wrice
 Juicy J
+Julia Stone
 Julian Casablancas
 Julian De Vizio
 Jung Kook
@@ -371,6 +394,7 @@ Maggie Lindemann
 Maggie Rogers
 Magnetic Man
 Makaveli
+Mala
 Marc Philippe
 Mariah Carey
 Mariette
@@ -404,14 +428,18 @@ Micky James
 Miguel
 MIIA
 Miley Cyrus
+Mindme
 Minelli
 Missy Elliott
 Mo Beats
 Moby
 Monet192
+Monica Naranjo
+Montell Fish
 MØØNE
 Morgan Wallen
 Ms Triniti
+MUSZETTE
 My Darkest Days
 Mylène Farmer
 Mylo
@@ -506,8 +534,10 @@ Rochelle Diamante
 Rock Heroes
 Roger Sanchez
 Róisín Murphy
+Rosie Darling
 Roxette
 Royal Deluxe
+Rudimental
 Ruelle
 Rupert Pope
 Russ
@@ -632,6 +662,7 @@ Trap King
 Travis Barker
 Trevor Something
 Trisha Paytas
+Tritonal
 Trooper Da Don
 Troye Sivan
 Twista
@@ -656,6 +687,7 @@ Wilkinson
 will.i.am
 Wipo
 Wiz Khalifa
+WOODS
 Wretch 32
 Wyclef Jean
 X Ambassadors
@@ -670,3 +702,5 @@ Zayde Wølf
 Zel Mari
 Zerb
 Żabson
+Борищук
+Нискуба
