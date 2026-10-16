@@ -43,6 +43,7 @@ spotify:artist:6ilMFhADs7lJBJlfHVqhM4	Andy Powell
 spotify:artist:7FNnA9vBm6EKceENgCGRMb	Anitta
 spotify:artist:1zNqDE7qDGCsyzJwohVaoX	Anne-Marie
 spotify:artist:7Ln80lUS6He07XvHI8qqHH	Arctic Monkeys
+spotify:artist:25jJ6vyXwTRa0e6XCcdR6U	Ari Abdul
 spotify:artist:66CXWjxzNUsdJxJ2JdwvnR	Ariana Grande
 spotify:artist:0SfsnGyD8FpIN4U4WCkBZ5	Armin van Buuren
 spotify:artist:3r1Md7Hk5iqtpyEoGo8032	ARTEM SHILOVETS
@@ -59,6 +60,7 @@ spotify:artist:42t4hWS8aGwWNQhutNCl9c	Banned Vinyl
 spotify:artist:4R1DvJpsy6HtkFZw30JXwN	BartiZ
 spotify:artist:7hcqMqEdbzm6mWglVaF8tw	BB St. Clair
 spotify:artist:2QiXPWnegDIZucLvDpYRS7	BBYx
+spotify:artist:7I3bkknknQkIiatWiupQgD	Beach Weather
 spotify:artist:2VL0G8nTevMkOCc1cPWu5i	Beats By AI
 spotify:artist:64M6ah0SkkRsnPGtGiRAbb	Bebe Rexha
 spotify:artist:5dmaew3NRaF4GljrhB0VOc	Beck Goldsmith
@@ -102,6 +104,7 @@ spotify:artist:7CajNmpbOovFoOoasH2HaY	Calvin Harris
 spotify:artist:4nDoRrQiYLoBzwC5BhVJzF	Camila Cabello
 spotify:artist:0NPwkUJRrRiWYdHpLXBkxg	Cappella
 spotify:artist:4kYSro6naA4h99UJvo89HB	Cardi B
+spotify:artist:3mPc8WGusz2XF3Tvs3AKCR	Carlie Hanson
 spotify:artist:3zzOs4npAwsNSmwFYDzdHx	Carpetman
 spotify:artist:46QdfOq1JZVW4TPyBIESAx	Cavendish Music
 spotify:artist:5H4yInM5zmHqpKIoMNAx4r	Central Cee
@@ -235,6 +238,7 @@ spotify:artist:1RyvyyTE3xzB2ZywiAwp0i	Future
 spotify:artist:02kJSzxNuaWGqwubyUba0Z	G-Eazy
 spotify:artist:6evKD5JWJON3qPBJtUEmtY	G-Unit
 spotify:artist:6S0GHTqz5sxK5f9HtLXn9q	Garbage
+spotify:artist:2uaMjmR0IE0K3oKTQrNZVQ	Genevieve Stokes
 spotify:artist:5Jz6BO8BnsuARSdU6egltM	GeoM
 spotify:artist:3hteYQFiMFbJY7wS0xDymP	Gesaffelstein
 spotify:artist:5d7p9yDO6NSYQVbI9YNcHB	Gia Lily
@@ -357,10 +361,12 @@ spotify:artist:3MdXrJWsbVzdn6fe5JYkSQ	Latto
 spotify:artist:066X20Nz7iquqkkCW6Jxy6	LCD Soundsystem
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4	Le Bober
 spotify:artist:16BxOX67lWcQpiglrMa2HY	Lee Richardson
+spotify:artist:1cZQSpDsxgKIX2yW5OR9Ot	Lennon Stella
 spotify:artist:5gznATMVO85ZcLTkE9ULU7	Lenny Kravitz
 spotify:artist:5VcrwzYyoX3WUTbkaqcIvN	Lenny Williams
 spotify:artist:5b0IydMmNTOBVlhDRuGNQs	Leonelle
 spotify:artist:23u7q6jxXa010A8xnjJPGP	LEOWOLF
+spotify:artist:69761NObDw2KwmmFgZmxzC	Lexi Jayde
 spotify:artist:55Aa2cqylxrFIXC767Z865	Lil Wayne
 spotify:artist:5tth2a3v0sWwV1C7bApBdX	Lil' Kim
 spotify:artist:0zPYsKJQiunyg8KkmOFWDY	Lilli Köhler
@@ -541,6 +547,7 @@ spotify:artist:4WN5naL3ofxrVBgFpguzKo	Rudimental
 spotify:artist:5tIkXJTex4JY7cv9mmgAZx	Ruelle
 spotify:artist:2dS7p3BekMQYOvkFegudoh	Rupert Pope
 spotify:artist:1z7b1Pr1rSlvWRzsW3HOrS	Russ
+spotify:artist:2WzaAvm2bBCf4pEhyuDgCY	Ruth B.
 spotify:artist:74KM79TiuVKeVCqs8QtB0B	Sabrina Carpenter
 spotify:artist:0mTfntDCCWRozUnyxpGf6E	Saigon
 spotify:artist:5S6hjAxgxjsLylsTtMIimO	Saliva
@@ -548,8 +555,10 @@ spotify:artist:4adFas9qeZHT4IfR94Nrm5	Sam Shrieve
 spotify:artist:2wY79sveU1sp5g7SokKOiI	Sam Smith
 spotify:artist:6Jrxnp0JgqmeUX1veU591p	Santigold
 spotify:artist:2Sqr0DXoaYABbjBo9HaMkM	Sara Bareilles
+spotify:artist:7Lk9V7E1u5gqSHmtcKlOqH	Sara Kays
 spotify:artist:4f7KFRB6SjS8u68Sjw5cyL	Sarah Jane Norman
 spotify:artist:3ffu6UPnCNmm4BR1a8Wh3u	Sarah McIntosh
+spotify:artist:4xnihxcoXWK3UqryOSnbw5	Sasha Alex Sloan
 spotify:artist:2VMbzdrOBil1vCkU2aitA6	SATV Music
 spotify:artist:3NRFinRTEqUCfaTTZmk8ek	Savage Garden
 spotify:artist:27T030eWyCQRmDyuvr1kxY	Scorpions
