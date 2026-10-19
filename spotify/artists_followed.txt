@@ -52,6 +52,7 @@ spotify:artist:2kqVmaPdvLEcfaT9oibK27	Athena Cage
 spotify:artist:1WgXqy2Dd70QQOU7Ay074N	AURORA
 spotify:artist:4npEfmQ6YuiwW1GpUmaq3F	Ava Max
 spotify:artist:1vCWHaC5f2uS3yhpwWbIA6	Avicii
+spotify:artist:3wqXEaKNNxxYqwoZXdU6D0	Aviian
 spotify:artist:7M5pDtJpCdnftEQZtczYco	Ayesha Erotica
 spotify:artist:5ndkK3dpZLKtBklKjxNQwT	B.o.B
 spotify:artist:0g7YfJuAQnXWMiFny5elRH	Baeza
