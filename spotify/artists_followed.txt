@@ -115,6 +115,7 @@ spotify:artist:46QdfOq1JZVW4TPyBIESAx	Cavendish Music
 spotify:artist:5H4yInM5zmHqpKIoMNAx4r	Central Cee
 spotify:artist:6vdMPayKk8YJxxeNP5oMCb	Chamillionaire
 spotify:artist:7GlBOeep6PqTfFi59PTUUN	Chappell Roan
+spotify:artist:5rIhaCHkbFVvLJpKHWwOJD	Charles & Eddie
 spotify:artist:25uiPmTg16RbhZWAqwLBy5	Charli xcx
 spotify:artist:6VuMaDnrHyPL1p4EHjYLi7	Charlie Puth
 spotify:artist:3jNkaOXasoc7RsxdchvEVq	Chase & Status
@@ -147,6 +148,7 @@ spotify:artist:1MVnyuEGQxpIwxOtlThiaL	CXSPER
 spotify:artist:2BTZIqw0ntH9MvilQ3ewNY	Cyndi Lauper
 spotify:artist:4P0dddbxPil35MNN9G2MEX	Cypress Hill
 spotify:artist:7sw3xJMTpdcpfssx17hfrb	Dabeull
+spotify:artist:4VMYDCV2IEDYJArk749S6m	Daddy Yankee
 spotify:artist:1IFAU4mznUcfPVP9z2c24N	Daecolm
 spotify:artist:4tZwfgrHOc3mvqYlEYSvVi	Daft Punk
 spotify:artist:248jGHzEOhF6EcdUPwwi1V	Dana McKeon
