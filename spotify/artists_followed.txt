@@ -90,6 +90,7 @@ spotify:artist:1xSSjJrKTO2ZNPU81uLtmI	Bliss n Eso
 spotify:artist:3MM8mtgFzaEJsqbjZBSsHJ	Bloc Party
 spotify:artist:4tpUmLEVLCGFr93o8hFFIB	Blondie
 spotify:artist:7qrEXiLLnWkkYHhadZ1Oij	Blondshell
+spotify:artist:22RISwgVJyZu9lpqAcv1F5	Blossoms
 spotify:artist:2gI1WfmpFmmgSRojy4Jup2	BLÜ EYES
 spotify:artist:5AVBFCn4Hq4KY2Xjc5Gj4y	Blues Saraceno
 spotify:artist:7MhMgCo0Bl0Kukl93PZbYS	Blur
@@ -190,6 +191,7 @@ spotify:artist:2W8yFh0Ga6Yf3jiayVxwkE	Dove Cameron
 spotify:artist:6DPYiyq5kWVQS4RGwxzPC7	Dr. Dre
 spotify:artist:3TVXtAsR1Inumwj472S9r4	Drake
 spotify:artist:2U5JmM5bTJuARrzQYnDAKn	Dread MC
+spotify:artist:5L6COTBfO2KjrJgFYe96Q7	Dream Fiend
 spotify:artist:77LcBnXrpbWkXtL2PVAKGq	Drew Dvorsky
 spotify:artist:6M2wZ9GZgrQXHCFfjv46we	Dua Lipa
 spotify:artist:65ewrL6LvcNGMMRVlksNGS	Dum Dum Girls
@@ -327,6 +329,7 @@ spotify:artist:1HBjj22wzbscIZ9sEb5dyf	Jonas Blue
 spotify:artist:7gOdHgIoIKoe4i9Tta6qdD	Jonas Brothers
 spotify:artist:1koTy008UTQlXfupIGp0q5	Jonathan Murrill
 spotify:artist:72E3jibe9NNSGWJL1n7BCZ	Joseph AMG Sporck
+spotify:artist:59QsJqN4AehAbfdYS156Ks	Josselin Bordat
 spotify:artist:5XMyhVhi5ZN2pi0Qwi1zXS	Joy Crookes
 spotify:artist:24Cf1irKt7kcewb9OOkPum	Joyce Wrice
 spotify:artist:5gCRApTajqwbnHHPbr2Fpi	Juicy J
@@ -334,6 +337,7 @@ spotify:artist:4gZRt9wlRx1IsxT9glJdrc	Julia Stone
 spotify:artist:1rAv1GhTQ2rmG94p9lU3rB	Julian Casablancas
 spotify:artist:4mkfNaTVdp9R9S8tOHDsF4	Julian De Vizio
 spotify:artist:6HaGTQPmzraVmaVxvz6EUc	Jung Kook
+spotify:artist:59oA5WbbQvomJz2BuRG071	Jungle
 spotify:artist:1uNFoZAHBGtllmzznpCI3s	Justin Bieber
 spotify:artist:1QDrz3DMMaz3TB1cm0PGDu	Justin Jesso
 spotify:artist:31TPClRtHm23RisEBtV3X7	Justin Timberlake
@@ -375,6 +379,7 @@ spotify:artist:00FQb4jTyendYWaN8pK0wa	Lana Del Rey
 spotify:artist:3MdXrJWsbVzdn6fe5JYkSQ	Latto
 spotify:artist:066X20Nz7iquqkkCW6Jxy6	LCD Soundsystem
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4	Le Bober
+spotify:artist:0bQubnqH5In3B5qzYjzwxi	Le Fat Club
 spotify:artist:47mIJdHORyRerp4os813jD	League of Legends
 spotify:artist:16BxOX67lWcQpiglrMa2HY	Lee Richardson
 spotify:artist:1cZQSpDsxgKIX2yW5OR9Ot	Lennon Stella
@@ -395,6 +400,7 @@ spotify:artist:12A83CWwFiyXy90ScLWPIe	LIZOT
 spotify:artist:1P8IfcNKwrkQP5xJWuhaOC	LL COOL J
 spotify:artist:6BXnCNvWCmFRvlMazWAomB	Lloren
 spotify:artist:67FB4n52MgexGQIG8s0yUH	Lola Young
+spotify:artist:3Bd1cgCjtCI32PYvDC3ynO	London Grammar
 spotify:artist:163tK9Wjr9P9DmM0AVK7lm	Lorde
 spotify:artist:7KnaZr690xW0sCihF9Z8oP	lostprophets
 spotify:artist:6psCCMHymYfQy6VvYRr6cs	Loving Caliber
@@ -444,6 +450,7 @@ spotify:artist:74IYRdqa9EFKMMXUIjGyxM	Merve Özbey
 spotify:artist:1rCIEwPp5OnXW0ornlSsRl	Metric
 spotify:artist:6TIYQ3jFPwQSRmorSezPxX	mgk
 spotify:artist:0SwO7SWeDHJijQ3XNS7xEE	MGMT
+spotify:artist:0Z5pcmXDCKTrFWLnDChC37	Miami Horror
 spotify:artist:6YHEMoNPbcheiWS2haGzkn	Michael Bolton
 spotify:artist:3fMbdgg4jU18AjLCKBhRSm	Michael Jackson
 spotify:artist:5DCXmX5NJ16feLwzQ7oGGD	Michelle Price
@@ -610,6 +617,7 @@ spotify:artist:5HlXA01kcjssYDT7EoqUJF	Skunk Anansie
 spotify:artist:6KZJhPLGWgAc303swdOlzM	Skye Emanuel
 spotify:artist:5uFqO7FceiE84xjEjFtQLX	Skyy
 spotify:artist:7hJcb9fa4alzcOq3EaNPoG	Snoop Dogg
+spotify:artist:3rIZMv9rysU7JkLzEaC5Jp	Snow Patrol
 spotify:artist:6TsAG8Ve1icEC8ydeHm3C8	Snow Strippers
 spotify:artist:7bp2lSdh12wcA8LyB1srfJ	Sofia Carson
 spotify:artist:5Y2FS5YbGf7yRDumzD5nY3	Sofiya Nzau
