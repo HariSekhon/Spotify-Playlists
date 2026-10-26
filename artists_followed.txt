@@ -80,6 +80,7 @@ Bianka
 Big Shaq
 Bill Conti
 Billy Barman
+Billy Valentine
 Bishop Briggs
 Black Eyed Peas
 Black Rob
@@ -152,6 +153,7 @@ Dabeull
 Daddy Yankee
 Daecolm
 Daft Punk
+Dagny
 Dana McKeon
 Daniel Caesar
 Daniel Farrant
@@ -260,11 +262,13 @@ Giles Palmer
 GIVĒON
 Goodscandal
 Grayson Voltaire
+Grey
 Grey Zeigler
 Grimes
 Guano Apes
 Guns N' Roses
 Gwen Stefani
+Hailee Steinfeld
 halocline
 Halsey
 HALUNA
@@ -365,6 +369,7 @@ Kiesza
 Kim Carnes
 Kings of Leon
 Klaypex
+Kojo Funds
 Korn
 Kosheen
 Kungs
@@ -385,6 +390,7 @@ Lee Richardson
 Lennon Stella
 Lenny Kravitz
 Lenny Williams
+Leon Else
 Leonelle
 LEOWOLF
 Lexi Jayde
@@ -415,6 +421,7 @@ Luude
 Lvbel C5
 M.O.P.
 M83
+Mabel
 Madeon
 Madilyn Bailey
 Madison Beer
@@ -425,6 +432,7 @@ Magnetic Man
 Makaveli
 Mala
 Marc Philippe
+Maren Morris
 Mariah Carey
 Mariette
 Maroon 5
@@ -508,6 +516,7 @@ Noraj Cue
 Normani
 Oasis
 Ofenbach
+Oliver
 Olivia Rodrigo
 Ollie Wride
 Olly Alexander (Years & Years)
@@ -621,6 +630,7 @@ Snow Patrol
 Snow Strippers
 Sofia Carson
 Sofiya Nzau
+Soft Lit
 Soleil
 Somna
 Sophie Gold
@@ -659,6 +669,7 @@ The Breaker Sisters
 The Cardigans
 The Carters
 The Chemical Brothers
+The Forest Rangers
 The Game
 The Goo Goo Dolls
 The Haunt
@@ -747,6 +758,7 @@ YUNGBLUD
 zandros
 Zara Larsson
 Zayde Wølf
+Zedd
 Zel Mari
 Zella Day
 Zerb
