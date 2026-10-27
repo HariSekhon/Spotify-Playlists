@@ -1,5 +1,6 @@
 11:11 Music Group
 2 Chainz
+2 Pistols
 21 Savage
 2Pac
 3OH!3
@@ -104,6 +105,7 @@ Britt
 Bruno Mars
 Bryan Adams
 BURY
+Bush
 Busta Rhymes
 Cale
 Callum J Wright
@@ -183,6 +185,7 @@ DIMEO
 Dimitris Athanasiou
 Dizzee Rascal
 Dj Loony
+DJ Nelson
 DJ Tomekk
 DJ Wich
 DMX
@@ -223,6 +226,7 @@ emlyn
 Emma Peters
 Emy Smith
 Eric Prydz
+Etta Bond
 Example
 Extreme Music
 Fabolous
@@ -269,6 +273,7 @@ Guano Apes
 Guns N' Roses
 Gwen Stefani
 Hailee Steinfeld
+HAIM
 halocline
 Halsey
 HALUNA
@@ -305,6 +310,7 @@ James
 James Cocozza
 James Howland
 Jamie N Commons
+Jamie T
 Jamiroquai
 Janet Grogan
 Jarren Benton
@@ -419,6 +425,7 @@ Lupe Fiasco
 Luther Vandross
 Luude
 Lvbel C5
+Lynyrd Skynyrd
 M.O.P.
 M83
 Mabel
@@ -431,6 +438,8 @@ Maggie Rogers
 Magnetic Man
 Makaveli
 Mala
+Manic Street Preachers
+Mansun
 Marc Philippe
 Maren Morris
 Mariah Carey
@@ -472,6 +481,7 @@ Minelli
 Missy Elliott
 Mo Beats
 Moby
+Modestep
 Monet192
 Monica Naranjo
 Montell Fish
@@ -514,6 +524,7 @@ NO EMOTION
 Noah Booth
 Noraj Cue
 Normani
+Not3s
 Oasis
 Ofenbach
 Oliver
@@ -658,6 +669,7 @@ T.I.
 Tame Impala
 Tara Chinn
 Tate McRae
+Tay Dizm
 Taylor Swift
 Teezo Touchdown
 Tensnake
@@ -678,6 +690,7 @@ The Home Of Happy
 The Hoof
 The Jazz Defenders
 The Kid LAROI
+The Killers
 The Lightning Seeds
 The Midnight
 The Notorious B.I.G.
@@ -688,6 +701,7 @@ The Refugee Camp All-Stars
 The Script
 The Shapeshifters
 The Smashing Pumpkins
+The Sound of Arrows
 The Vamps
 The Verve
 The Weeknd
@@ -755,6 +769,7 @@ YOTTO
 Young Empress
 Yumi Zouma
 YUNGBLUD
+Yves Larock
 zandros
 Zara Larsson
 Zayde Wølf
