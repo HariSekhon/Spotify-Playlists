@@ -1,5 +1,6 @@
 spotify:artist:2MDj296KJIfgWDNBtHzeFi	11:11 Music Group
 spotify:artist:17lzZA2AlOHwCwFALHttmp	2 Chainz
+spotify:artist:7JBMlJmJpOk87BZTdbYSHD	2 Pistols
 spotify:artist:1URnnhqYAYcrqrcwql10ft	21 Savage
 spotify:artist:1ZwdS5xdxEREPySFridCfh	2Pac
 spotify:artist:0FWzNDaEu9jdgcYTbcOa4F	3OH!3
@@ -104,6 +105,7 @@ spotify:artist:6C0GDQqkaIX35GF3rTV1U1	Britt
 spotify:artist:0du5cEVh5yTK9QJze8zA0C	Bruno Mars
 spotify:artist:3Z02hBLubJxuFJfhacLSDc	Bryan Adams
 spotify:artist:56tAdT5WT6Mi288cBRDjnt	BURY
+spotify:artist:78SHxLdtysAXgywQ4vE0Oa	Bush
 spotify:artist:1YfEcTuGvBQ8xSD1f53UnK	Busta Rhymes
 spotify:artist:4pE5amRArtmThtna3eGERQ	Cale
 spotify:artist:47KiS7rrEXolpFicX0aTGe	Callum J Wright
@@ -183,6 +185,7 @@ spotify:artist:5OBm2KxB9JIw4o9msXkeNQ	DIMEO
 spotify:artist:04BBCjrKMZI5U2wxRFXHmu	Dimitris Athanasiou
 spotify:artist:0gusqTJKxtU1UTmNRMHZcv	Dizzee Rascal
 spotify:artist:61UzS7tQpBvgk6bhKDgNGs	Dj Loony
+spotify:artist:2ydZrTy8U3kOMOzx20s3dg	DJ Nelson
 spotify:artist:182XFUhmCtgombl0vTM8fN	DJ Tomekk
 spotify:artist:062wPuKbdxVkXURZqv0Pgj	DJ Wich
 spotify:artist:1HwM5zlC5qNWhJtM00yXzG	DMX
@@ -223,6 +226,7 @@ spotify:artist:1qMJAm3nqZq6AsqeaAk2m1	emlyn
 spotify:artist:6lY6kOVMG0mR07JTzU33o5	Emma Peters
 spotify:artist:0DW8BLr0ZHcqNn3EHuFzeE	Emy Smith
 spotify:artist:5sm0jQ1mq0dusiLtDJ2b4R	Eric Prydz
+spotify:artist:0zanHkxN0P38oWegA8iSQA	Etta Bond
 spotify:artist:6Vh6UDWfu9PUSXSzAaB3CW	Example
 spotify:artist:6Q6wl4T5osps79OPDuLjNJ	Extreme Music
 spotify:artist:0YWxKQj2Go9CGHCp77UOyy	Fabolous
@@ -269,6 +273,7 @@ spotify:artist:4whxX965DKKqYkXmk33b4E	Guano Apes
 spotify:artist:3qm84nBOXUEQ2vnTfUTTFC	Guns N' Roses
 spotify:artist:4yiQZ8tQPux8cPriYMWUFP	Gwen Stefani
 spotify:artist:5p7f24Rk5HkUZsaS3BLG5F	Hailee Steinfeld
+spotify:artist:4Ui2kfOqGujY81UcPrb5KE	HAIM
 spotify:artist:5ofIlDx8lax1NOi2stXaTn	halocline
 spotify:artist:26VFTg2z8YR0cCuwLzESi2	Halsey
 spotify:artist:0JB4i9bhEANaZv1c3i3oYq	HALUNA
@@ -305,6 +310,7 @@ spotify:artist:0qLNsNKm8bQcMoRFkR8Hmh	James
 spotify:artist:2MqahmsaUt6ZQhBDC4moBR	James Cocozza
 spotify:artist:2CXzMsAsUYWJrMj0q8Cjr6	James Howland
 spotify:artist:2FsZnS8gQ8jG1HGnPYNlm9	Jamie N Commons
+spotify:artist:3Rsr4Z96O6U3lToOiV3zBh	Jamie T
 spotify:artist:6J7biCazzYhU3gM9j1wfid	Jamiroquai
 spotify:artist:30mSv454XUNAPOVtHYj4r1	Janet Grogan
 spotify:artist:5YI7PJwny5JsO7djczHwhP	Jarren Benton
@@ -419,6 +425,7 @@ spotify:artist:01QTIT5P1pFP3QnnFSdsJf	Lupe Fiasco
 spotify:artist:19y5MFBH7gohEdGwKM7QsP	Luther Vandross
 spotify:artist:20cmhoGvN0eyzhmsHJH1Mg	Luude
 spotify:artist:0V2oXYR7DtrZAEFeILRW2r	Lvbel C5
+spotify:artist:4MVyzYMgTwdP7Z49wAZHx0	Lynyrd Skynyrd
 spotify:artist:1BH45DVSTeGBvcYXNCd67g	M.O.P.
 spotify:artist:63MQldklfxkjYDoUE4Tppz	M83
 spotify:artist:1MIVXf74SZHmTIp4V4paH4	Mabel
@@ -431,6 +438,8 @@ spotify:artist:4NZvixzsSefsNiIqXn0NDe	Maggie Rogers
 spotify:artist:40ttEBZPhAHbXH6aUg4GkL	Magnetic Man
 spotify:artist:4pmNqFu71wEmFXSsYAiWK8	Makaveli
 spotify:artist:4xHQPaM96R2dEVYdo40oVw	Mala
+spotify:artist:2uH0RyPcX7fnCcT90HFDQX	Manic Street Preachers
+spotify:artist:7rqRuB0wgUaStDN73PlV4U	Mansun
 spotify:artist:0U3VVYAAivfifX8Dul3vO1	Marc Philippe
 spotify:artist:6WY7D3jk8zTrHtmkqqo5GI	Maren Morris
 spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ	Mariah Carey
@@ -472,6 +481,7 @@ spotify:artist:5T0j6On1EthT2QVNXh8vqc	Minelli
 spotify:artist:2wIVse2owClT7go1WT98tk	Missy Elliott
 spotify:artist:2Hil1oktsE7Wic4X5cBGK3	Mo Beats
 spotify:artist:3OsRAKCvk37zwYcnzRf5XF	Moby
+spotify:artist:5zYJziKktyqWwmoAWXrShP	Modestep
 spotify:artist:60uPSVM3svOL8kZ3Wkb3Zw	Monet192
 spotify:artist:0zGM73sadbAOBLev02P8LO	Monica Naranjo
 spotify:artist:5nvWOyAkfNgVLKESq4fOj2	Montell Fish
@@ -514,6 +524,7 @@ spotify:artist:1BgQ3C1p54I1vmG21Mhy0m	NO EMOTION
 spotify:artist:5bmlm898bu8tqbAAlt3TCh	Noah Booth
 spotify:artist:7lhWHmujGt7XfhSJT4zYBy	Noraj Cue
 spotify:artist:2cWZOOzeOm4WmBJRnD5R7I	Normani
+spotify:artist:40NRiKuuhj1pgGYppptlBO	Not3s
 spotify:artist:2DaxqgrOhkeH0fpeiQq2f4	Oasis
 spotify:artist:4AKwRarlmsUlLjIwt38NLw	Ofenbach
 spotify:artist:0NDElNqwGRCmsYIQFapp6K	Oliver
@@ -658,6 +669,7 @@ spotify:artist:4OBJLual30L7gRl5UkeRcT	T.I.
 spotify:artist:5INjqkS1o8h1imAzPqGZBb	Tame Impala
 spotify:artist:6I2FXpBNVFZDUTNvYFBrjb	Tara Chinn
 spotify:artist:45dkTj5sMRSjrmBSBeiHym	Tate McRae
+spotify:artist:6TmyW7nE5HAbg23fG7OOGJ	Tay Dizm
 spotify:artist:06HL4z0CvFAxyc27GXpf02	Taylor Swift
 spotify:artist:0fGcIStdT1OpFFhOC7Wp36	Teezo Touchdown
 spotify:artist:75nC6MXUalYZSOd7OfNkwq	Tensnake
@@ -678,6 +690,7 @@ spotify:artist:6boUkOSL9Jfy4n6FI91445	The Home Of Happy
 spotify:artist:6p3Zk4C6e3Awonj2RXIEst	The Hoof
 spotify:artist:2SFVBZdS09KBBK229v7iKf	The Jazz Defenders
 spotify:artist:2tIP7SsRs7vjIcLrU85W8J	The Kid LAROI
+spotify:artist:0C0XlULifJtAgn6ZNCW2eu	The Killers
 spotify:artist:67YNiSqhrx1P8oPvIIvbP5	The Lightning Seeds
 spotify:artist:2NFrAuh8RQdQoS7iYFbckw	The Midnight
 spotify:artist:5me0Irg2ANcsgc93uaYrpb	The Notorious B.I.G.
@@ -688,6 +701,7 @@ spotify:artist:2xupoYyooRpQS00KhQPkZJ	The Refugee Camp All-Stars
 spotify:artist:3AQRLZ9PuTAozP28Skbq8V	The Script
 spotify:artist:60FV7KyxIH9FH1uq7u8inP	The Shapeshifters
 spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i	The Smashing Pumpkins
+spotify:artist:3Kt34aALAZu5GUd3WRqsrZ	The Sound of Arrows
 spotify:artist:7gAppWoH7pcYmphCVTXkzs	The Vamps
 spotify:artist:2cGwlqi3k18jFpUyTrsR84	The Verve
 spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ	The Weeknd
@@ -755,6 +769,7 @@ spotify:artist:5Dyfxq0ZrFjjeFBdSNxDbo	YOTTO
 spotify:artist:1WtZtRgf50wZv8Msqy5h8a	Young Empress
 spotify:artist:4tPyCwWrsvZ8OKYl7QRavL	Yumi Zouma
 spotify:artist:6Ad91Jof8Niiw0lGLLi3NW	YUNGBLUD
+spotify:artist:2P1h10tRBVlC2lVUqhl6wm	Yves Larock
 spotify:artist:30gojhXynjLSWe1kHNUZ1Q	zandros
 spotify:artist:1Xylc3o4UrD53lo9CvFvVg	Zara Larsson
 spotify:artist:7LIy7KinYq7a83dUH6kvxT	Zayde Wølf
