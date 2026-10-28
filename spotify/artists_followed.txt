@@ -86,6 +86,7 @@ spotify:artist:0yb46jwm7gqbZXVXZQ8Z1e	Bishop Briggs
 spotify:artist:1yxSLGMDHlW21z4YXirZDS	Black Eyed Peas
 spotify:artist:1QPZhx0asYTBxD5RDqfU49	Black Rob
 spotify:artist:41MozSoPIsD1dJM0CLPjZF	BLACKPINK
+spotify:artist:4H6tLRh1nuIuVxHtXo68ZE	Blake Lewis
 spotify:artist:0oIU5td2jvmjWhbbUUDxee	blank sheets
 spotify:artist:1UpmxFaO2uAw5IPK1JUxib	Bleeding Fingers
 spotify:artist:1xSSjJrKTO2ZNPU81uLtmI	Bliss n Eso
@@ -656,6 +657,7 @@ spotify:artist:77AiFEVeAVj2ORpC85QVJs	Steve Aoki
 spotify:artist:3ZJ52oqH4GoAbp3rBzWjnf	Stevie Gold
 spotify:artist:7crPfGd2k81ekOoSqQKWWz	Stevie Nicks
 spotify:artist:7guDJrEfX3qb6FEbdPA5qi	Stevie Wonder
+spotify:artist:1fHcltkLMdUmoCLC9wpigf	Stine Bramsen
 spotify:artist:0Ty63ceoRnnJKVEYP0VQpk	Sting
 spotify:artist:2SrSdSvpminqmStGELCSNd	Stormzy
 spotify:artist:57LYzLEk2LcFghVwuWbcuS	Summer Walker
@@ -676,6 +678,7 @@ spotify:artist:75nC6MXUalYZSOd7OfNkwq	Tensnake
 spotify:artist:6tzZM5hShBWNpjTnXsTusL	Tep Piseth
 spotify:artist:5JsdVATHNPE0XdMFMRoSuf	Texas
 spotify:artist:3mIj9lX2MWuHmhNCA7LSCW	The 1975
+spotify:artist:0e6qzpphJHtObTSwD75mi0	The Avener
 spotify:artist:46h3caIKtqPlEfRHuSdibg	The Beloved
 spotify:artist:6o7wXlHoujhcrov1QMjAYp	The Breaker Sisters
 spotify:artist:1tqZaCwM57UFKjWoYwMLrw	The Cardigans
@@ -693,6 +696,7 @@ spotify:artist:2tIP7SsRs7vjIcLrU85W8J	The Kid LAROI
 spotify:artist:0C0XlULifJtAgn6ZNCW2eu	The Killers
 spotify:artist:67YNiSqhrx1P8oPvIIvbP5	The Lightning Seeds
 spotify:artist:2NFrAuh8RQdQoS7iYFbckw	The Midnight
+spotify:artist:1IC4SiuNm3guN8LCRIEjGn	The Night VI
 spotify:artist:5me0Irg2ANcsgc93uaYrpb	The Notorious B.I.G.
 spotify:artist:4jcPxHNUKTVOyD2AFPZdRQ	The Phantoms
 spotify:artist:4k1ELeJKT1ISyDv8JivPpB	The Prodigy
@@ -731,6 +735,7 @@ spotify:artist:6AQA8AHchvs0v84tGbetVR	Trap King
 spotify:artist:7o9Nl7K1Al6NNAHX6jn6iG	Travie McCoy
 spotify:artist:4exLIFE8sISLr28sqG1qNX	Travis Barker
 spotify:artist:6bWylzDlsTfR8khADRQJfd	Trevor Something
+spotify:artist:2iojnBLj0qIMiKPvVhLnsH	Trey Songz
 spotify:artist:5XfBH1AT964RDzmE8MZURI	Trisha Paytas
 spotify:artist:521qvhdobR0GzhvU6TFw76	Tritonal
 spotify:artist:0ED9s4HNaTjWmNgujA1Mvu	Trooper Da Don
@@ -755,6 +760,7 @@ spotify:artist:4z8x1jIkUBEiVibHB6tFsz	Vindaloo Singh
 spotify:artist:67nwj3Y5sZQLl72VNUHEYE	Wale
 spotify:artist:2B4ZHz4QDWJTXPFPgO5peE	Warren G
 spotify:artist:0QcblRyHbgYTLOKlP5BE66	wens
+spotify:artist:3UbyYnvNIT5DFXU4WgiGpP	Whitesnake
 spotify:artist:7k9T7lZlHjRAM1bb0r9Rm3	Wiley
 spotify:artist:6m8itYST9ADjBIYevXSb1r	Wilkinson
 spotify:artist:085pc2PYOi8bGKj0PNjekA	will.i.am
