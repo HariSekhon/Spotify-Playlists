@@ -37,6 +37,7 @@ Alice Deejay
 Alice In Chains
 Alicia Keys
 Alison Wonderland
+All We Are
 Alosa
 Amelia Moore
 Amy Shark
@@ -64,6 +65,7 @@ Baeza
 BANKS
 Banned Vinyl
 BartiZ
+Bassjackers
 BB St. Clair
 BBYx
 Beach Weather
@@ -91,6 +93,7 @@ blank sheets
 Bleeding Fingers
 Bliss n Eso
 Bloc Party
+Blondage
 Blondie
 Blondshell
 Blossoms
@@ -123,6 +126,8 @@ Chappell Roan
 Charles & Eddie
 Charli xcx
 Charlie Puth
+Charts Hits
+Charts Hits 2015
 Chase & Status
 Chase Atlantic
 Chelsea Cutler
@@ -130,6 +135,7 @@ CHIC
 Chicane
 Chicane vs Natasha Bedingfield
 Childish Gambino
+CHINAH
 Chlöe Howl
 Chris Brown
 Chris Webby
@@ -164,12 +170,14 @@ Daniel Santoro
 Daniel Wolf
 Danny Farrant
 Darren Hayes
+Dash Berlin
 Dave
 David Guetta
 Daya
 De La Soul
 deadmau5
 Deagon
+Debbie Gibson
 Deep Mage
 Deeplace
 Deftones
@@ -286,6 +294,7 @@ Hayley Kiyoko
 Heart
 Hey Violet
 Hinder
+Hits 2015
 HolyBrune
 Homegrown
 Housenick
@@ -331,6 +340,7 @@ Jessie J
 Jet
 Jex
 Jodeci
+Joey Moe
 John Robertson
 John Summit
 Johnny Stimson
@@ -372,6 +382,8 @@ Kesha
 Kevin McCall
 Kevin Rudolf
 Keyshia Cole
+Khalid
+Kid Ink
 Kiesza
 Kim Carnes
 Kings of Leon
@@ -389,6 +401,7 @@ Labrinth
 Lady Gaga
 Lana Del Rey
 Latto
+Laura Welsh
 LCD Soundsystem
 Le Bober
 Le Fat Club
@@ -416,7 +429,10 @@ Lola Young
 London Grammar
 Lorde
 lostprophets
+Louisa Johnson
 Loving Caliber
+Luca Perra
+Luciana
 Lucy Deakin
 Ludacris
 Ludovico Einaudi
@@ -445,6 +461,7 @@ Marc Philippe
 Maren Morris
 Mariah Carey
 Mariette
+Mark D55
 Maroon 5
 Martha Bean
 Martin Garrix
@@ -457,8 +474,10 @@ Massive Attack
 Mati Sonntag
 Mattafix
 Mattiel
+MAVE:
 MAX
 Max Elto
+Maximillian
 Mazzy Star
 MEDUZA
 Megan Thee Stallion
@@ -578,6 +597,7 @@ Red Hot Chili Peppers
 Red Velvet
 rem.y
 Republica
+Ria Ritchie
 Rick Astley
 Rick Ross
 Rihanna
@@ -614,6 +634,7 @@ Sarah McIntosh
 Sasha Alex Sloan
 SATV Music
 Savage Garden
+Say Lou Lou
 Scorpions
 Sébastien Tellier
 Selectracks Song Catalog
@@ -679,6 +700,7 @@ Tep Piseth
 Texas
 The 1975
 The Avener
+The B. B. & Q. Band
 The Beloved
 The Breaker Sisters
 The Cardigans
@@ -786,3 +808,4 @@ Zerb
 Żabson
 Борищук
 Нискуба
+ダヴィド・ゲリンガス(チェロ)
