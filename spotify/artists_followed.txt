@@ -312,6 +312,7 @@ spotify:artist:0c0nrn7dmEqf6X7m0j5R6a	Housenick
 spotify:artist:2FXC3k01G6Gw61bmprjgqS	Hozier
 spotify:artist:1dVbKkXIJKLV5EqnOQQDyo	Hugo Russo
 spotify:artist:5rebfYbZVIhbRVcRKWVOAh	HUNNY
+spotify:artist:1WbIoQfs6EWtrCbRoIR2UO	hurs
 spotify:artist:6cAFT78dfddDn95ddX27UB	Hysteria
 spotify:artist:2AfmfGFbe0A0WsTYm0SDTx	i-dle
 spotify:artist:3Mcii5XWf6E0lrY3Uky4cA	Ice Cube
@@ -366,6 +367,7 @@ spotify:artist:59QsJqN4AehAbfdYS156Ks	Josselin Bordat
 spotify:artist:5XMyhVhi5ZN2pi0Qwi1zXS	Joy Crookes
 spotify:artist:24Cf1irKt7kcewb9OOkPum	Joyce Wrice
 spotify:artist:5gCRApTajqwbnHHPbr2Fpi	Juicy J
+spotify:artist:0ZED1XzwlLHW4ZaG4lOT6m	Julia Michaels
 spotify:artist:4gZRt9wlRx1IsxT9glJdrc	Julia Stone
 spotify:artist:1rAv1GhTQ2rmG94p9lU3rB	Julian Casablancas
 spotify:artist:4mkfNaTVdp9R9S8tOHDsF4	Julian De Vizio
@@ -465,6 +467,7 @@ spotify:artist:1BEUkE2CSUgHTLSBMZdnFB	Mae Muller
 spotify:artist:0uGk2czvcpWQA383Im6ajf	Maggie Lindemann
 spotify:artist:4NZvixzsSefsNiIqXn0NDe	Maggie Rogers
 spotify:artist:40ttEBZPhAHbXH6aUg4GkL	Magnetic Man
+spotify:artist:2RVvqRBon9NgaGXKfywDSs	Maisie Peters
 spotify:artist:4pmNqFu71wEmFXSsYAiWK8	Makaveli
 spotify:artist:4xHQPaM96R2dEVYdo40oVw	Mala
 spotify:artist:2LoYfTU36PzVI9AI3wyQwo	Mangustone
