@@ -492,6 +492,7 @@ spotify:artist:5KORW1YGiERJqfuYjXMCyz	Mattafix
 spotify:artist:69ZtLNs4CNIFnf3Vq7wN5q	Mattiel
 spotify:artist:2ec7y2L98sHDYFylr7KqEx	MAVE:
 spotify:artist:1bqxdqvUtPWZri43cKHac8	MAX
+spotify:artist:7f35VZGDpomj11PXdNn5D9	Max B
 spotify:artist:3YvItMA9raEv1Im7sclgDK	Max Elto
 spotify:artist:2Q9c6ETFOkDDTy53U7DIgr	Maximillian
 spotify:artist:37w38cCSGgKLdayTRjna4W	Mazzy Star
