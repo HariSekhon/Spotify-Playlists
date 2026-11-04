@@ -552,6 +552,7 @@ spotify:artist:4Rxn7Im3LGfyRkY2FlHhWi	Nick Jonas
 spotify:artist:7j4GDuXVsIMs6ZBBumWkrh	Nick Kingsley
 spotify:artist:6deZN1bslXzeGvOLaLMOIF	Nickelback
 spotify:artist:0hCNtLu0JehylgoiP8L4Gh	Nicki Minaj
+spotify:artist:3A9B6c1CrSPauiOblw7pWz	Nico Santos
 spotify:artist:3xFkHylXN9yHzwCQBypRFn	Nightcall
 spotify:artist:3yDIp0kaq9EFKe07X1X2rz	Nile Rodgers
 spotify:artist:7AzjETXRUKNRSJHMW9GIqd	Nina Nesbitt
@@ -625,6 +626,7 @@ spotify:artist:2KEqzdPS7M5YwGmiuPTdr5	Rina Sawayama
 spotify:artist:4NkLjsRsFnuPu9B4zqzBqq	Robbie Nevil
 spotify:artist:2YVF0Ou5zIc4mpgtLIlGN0	Robert Miles
 spotify:artist:6FPDULwgllPquFdqdzj5gi	Robin Hustin
+spotify:artist:3t5xRXzsuZmMDkQzgOX35S	Robin Schulz
 spotify:artist:6UE7nl9mha6s8z0wFQFIZ2	Robyn
 spotify:artist:1LBGR7XDjLl6koGwUthUEs	Rochelle Diamante
 spotify:artist:68rXycYWowQvm6C5bv4Wg1	Rock Heroes
@@ -644,6 +646,7 @@ spotify:artist:2WzaAvm2bBCf4pEhyuDgCY	Ruth B.
 spotify:artist:74KM79TiuVKeVCqs8QtB0B	Sabrina Carpenter
 spotify:artist:0mTfntDCCWRozUnyxpGf6E	Saigon
 spotify:artist:5S6hjAxgxjsLylsTtMIimO	Saliva
+spotify:artist:66AE89GQTx88zLYhXn1wFK	Sam Martin
 spotify:artist:4adFas9qeZHT4IfR94Nrm5	Sam Shrieve
 spotify:artist:2wY79sveU1sp5g7SokKOiI	Sam Smith
 spotify:artist:6Jrxnp0JgqmeUX1veU591p	Santigold
