@@ -171,6 +171,7 @@ spotify:artist:6Paz0vXJJ9bCPf0fEm3qzg	Dagny
 spotify:artist:248jGHzEOhF6EcdUPwwi1V	Dana McKeon
 spotify:artist:20wkVLutqVOYrc0kxFs7rA	Daniel Caesar
 spotify:artist:59oUlUYF0ef44qArSKQBgK	Daniel Farrant
+spotify:artist:59r5UU2HOytn9V5uMZ5Vur	Daniel Hope
 spotify:artist:2LwSighkNo49filvTvJmBz	Daniel Santoro
 spotify:artist:7HGnJVV3oCHjTvFc9RFL8X	Daniel Wolf
 spotify:artist:1pb3Yx1Mz0soZDeVyO8t8V	Danny Farrant
@@ -619,6 +620,7 @@ spotify:artist:1z4g3DjTBBZKhvAroFlhOM	Red Velvet
 spotify:artist:0Zd3Ua99fRCb3JSu0VDUgp	rem.y
 spotify:artist:06YQ6XwCdPUn8rAXV70gge	Republica
 spotify:artist:4OXcNLkUpz9NtuGSL2yED4	Ria Ritchie
+spotify:artist:5JbD3IL6449LrMT8ct6KTB	Richard Bedford
 spotify:artist:0gxyHStUsqpMadRV0Di1Qt	Rick Astley
 spotify:artist:1sBkRIssrMs1AbVkOJbc7a	Rick Ross
 spotify:artist:5pKCCKE2ajJHZ9KAiaK11H	Rihanna
@@ -833,6 +835,7 @@ spotify:artist:2qxJFvFYMEDqd7ui6kSAcq	Zedd
 spotify:artist:517iCrN4Tsr4s6JhwPprKG	Zel Mari
 spotify:artist:100sLnojEpcadRx4edEBA6	Zella Day
 spotify:artist:6mDl7lQiLxT0iQ8LYhAlWy	Zerb
+spotify:artist:3dWyWwLvZWsWtXZHhmAiFL	Zoë Johnston
 spotify:artist:0QR764k0D36npmTMWx5bft	Żabson
 spotify:artist:7c3gAe6FoeRhv2IDDWGSzj	Борищук
 spotify:artist:2jFyaaQp6323thW7lte56E	Нискуба
