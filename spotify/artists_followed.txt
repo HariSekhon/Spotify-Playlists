@@ -17,6 +17,7 @@ spotify:artist:10gzBoINW3cLJfZUka8Zoe	Above & Beyond
 spotify:artist:2f6fW5uWhqbEDXDK6IGirN	Abraham Alexander
 spotify:artist:711MCceyCBcFnzjGY4Q7Un	AC/DC
 spotify:artist:4pnp4w9g30yLfVIAFnZMRd	ACRAZE
+spotify:artist:2loEsOijJ6XiGzWYFXMIRk	Adam Port
 spotify:artist:4dpARuHxo51G3z768sgnrY	Adele
 spotify:artist:266SmBZTt4zRzaKEANWbfQ	Adina Howard
 spotify:artist:07YivsJVCrmhhjzBcBtMGv	Adrian Quesada
@@ -48,6 +49,7 @@ spotify:artist:6ilMFhADs7lJBJlfHVqhM4	Andy Powell
 spotify:artist:7FNnA9vBm6EKceENgCGRMb	Anitta
 spotify:artist:1zNqDE7qDGCsyzJwohVaoX	Anne-Marie
 spotify:artist:2DzRMyWgjuMbYvt5BLbpCo	Anthony Hamilton
+spotify:artist:7hQmAXAzWI6D350VTgkKTG	Arash
 spotify:artist:7Ln80lUS6He07XvHI8qqHH	Arctic Monkeys
 spotify:artist:25jJ6vyXwTRa0e6XCcdR6U	Ari Abdul
 spotify:artist:66CXWjxzNUsdJxJ2JdwvnR	Ariana Grande
@@ -120,6 +122,7 @@ spotify:artist:47KiS7rrEXolpFicX0aTGe	Callum J Wright
 spotify:artist:7CajNmpbOovFoOoasH2HaY	Calvin Harris
 spotify:artist:4nDoRrQiYLoBzwC5BhVJzF	Camila Cabello
 spotify:artist:0NPwkUJRrRiWYdHpLXBkxg	Cappella
+spotify:artist:4jPA6KrvGWwAnWwCAo3gk8	Cara Melín
 spotify:artist:4kYSro6naA4h99UJvo89HB	Cardi B
 spotify:artist:3mPc8WGusz2XF3Tvs3AKCR	Carlie Hanson
 spotify:artist:3zzOs4npAwsNSmwFYDzdHx	Carpetman
@@ -243,6 +246,7 @@ spotify:artist:7dGJo4pcD2V6oG8kP0tJRR	Eminem
 spotify:artist:1qMJAm3nqZq6AsqeaAk2m1	emlyn
 spotify:artist:6lY6kOVMG0mR07JTzU33o5	Emma Peters
 spotify:artist:0DW8BLr0ZHcqNn3EHuFzeE	Emy Smith
+spotify:artist:7uv0K0zBgStp4mu7Y0TgCe	Emy Smith
 spotify:artist:7hQpEGXaFJynAy86eJNm98	Endless Autumn Blues
 spotify:artist:5sm0jQ1mq0dusiLtDJ2b4R	Eric Prydz
 spotify:artist:0zanHkxN0P38oWegA8iSQA	Etta Bond
@@ -255,6 +259,7 @@ spotify:artist:2Du67wvPTzzJ2LcmiHEOHK	Feather
 spotify:artist:64sQvVYt9ZAVtGpjbrrHBa	Felicitas
 spotify:artist:5GqAhBdaiG5StP2EHhmw8B	Fenech-Soler
 spotify:artist:1nhSLEYdoBHG6cJ8NDwoF1	Fickle Friends
+spotify:artist:2r7POU2f5jV6x3k4vsNwrM	Fiora
 spotify:artist:08GQAI4eElDnROBrJRGE0X	Fleetwood Mac
 spotify:artist:647D92XNDYTUt5A0idePJ4	Fleurie
 spotify:artist:0jnsk9HBra6NMjO2oANoPY	Flo Rida
@@ -311,6 +316,7 @@ spotify:artist:2mm8LmZDt6T6kSFstG8fd3	Homegrown
 spotify:artist:0mxrSvxvVBXOZzez3gB0la	Hotel Red
 spotify:artist:0c0nrn7dmEqf6X7m0j5R6a	Housenick
 spotify:artist:2FXC3k01G6Gw61bmprjgqS	Hozier
+spotify:artist:5PlfkPxwCpRRWQJBxCa0By	HUGEL
 spotify:artist:1dVbKkXIJKLV5EqnOQQDyo	Hugo Russo
 spotify:artist:5rebfYbZVIhbRVcRKWVOAh	HUNNY
 spotify:artist:1WbIoQfs6EWtrCbRoIR2UO	hurs
@@ -323,6 +329,7 @@ spotify:artist:1xdB9gS1NrKEYgZUEfoqIw	Idlewild
 spotify:artist:53XhwfbYqKCa1cC15pYq2q	Imagine Dragons
 spotify:artist:3YcBF2ttyueytpXtEzn1Za	Incubus
 spotify:artist:7Gf3LSwa5hh8Cjo60WhVjC	India.Arie
+spotify:artist:4ZhFCxPekpmV12n2xMeF2z	Ink
 spotify:artist:5arKwJZEvT5uKq4o0JfqR4	Isabel LaRosa
 spotify:artist:0RDa8yhJR9LrEj66xOwJQP	Isla Wolfe
 spotify:artist:5yaF4LUw7ON1RmE4O8Q03C	itssvd
@@ -387,6 +394,7 @@ spotify:artist:47BNWfpngeFHYvBlPPyraM	Kate Ryan
 spotify:artist:2pIY2v0fBJxlicEuR6lxIm	Katherine Fussey
 spotify:artist:0UF7XLthtbSF2Eur7559oV	Kavinsky
 spotify:artist:3WTRGOdgo9ZUwqRzvObalK	Kealux
+spotify:artist:26WKgv73kRHD0gEDKD1i8j	Keinemusik
 spotify:artist:2r09Inibex3C4ZNTUVSG3m	Keith Sweat
 spotify:artist:3AuMNF8rQAKOzjYppFNAoB	Kelly Rowland
 spotify:artist:3RqBeV12Tt7A8xH3zBDDUF	Kelsea Ballerini
@@ -471,6 +479,7 @@ spotify:artist:40ttEBZPhAHbXH6aUg4GkL	Magnetic Man
 spotify:artist:2RVvqRBon9NgaGXKfywDSs	Maisie Peters
 spotify:artist:4pmNqFu71wEmFXSsYAiWK8	Makaveli
 spotify:artist:4xHQPaM96R2dEVYdo40oVw	Mala
+spotify:artist:37lTKHi901VnwngQ7C8noT	Malachiii
 spotify:artist:2LoYfTU36PzVI9AI3wyQwo	Mangustone
 spotify:artist:2uH0RyPcX7fnCcT90HFDQX	Manic Street Preachers
 spotify:artist:7rqRuB0wgUaStDN73PlV4U	Mansun
@@ -576,6 +585,7 @@ spotify:artist:5vBSrE1xujD2FXYRarbAXc	Olly Alexander (Years & Years)
 spotify:artist:3whuHq0yGx60atvA2RCVRW	Olly Murs
 spotify:artist:5Pwc4xIPtQLFEnJriah9YJ	OneRepublic
 spotify:artist:39xGBa2ltqT4ZkkeeYlH54	Orgvsm
+spotify:artist:2yyaNPcdxZcn4iutCcLMaC	Orso
 spotify:artist:4PR77KtW5drJXCsqcyfuzJ	OSTON
 spotify:artist:1Yq11FlV5GeYdKzHutWv3X	outset island
 spotify:artist:6WjX4pepHwXa85B9KMk0PY	P Money
@@ -707,7 +717,9 @@ spotify:artist:7guDJrEfX3qb6FEbdPA5qi	Stevie Wonder
 spotify:artist:1fHcltkLMdUmoCLC9wpigf	Stine Bramsen
 spotify:artist:0Ty63ceoRnnJKVEYP0VQpk	Sting
 spotify:artist:2SrSdSvpminqmStGELCSNd	Stormzy
+spotify:artist:6XjgqvaVLUib6lCerbZrYD	Stryv
 spotify:artist:57LYzLEk2LcFghVwuWbcuS	Summer Walker
+spotify:artist:65KvskAA7IOSFh8j6p68dW	Sunseekers
 spotify:artist:6C4cWzfNlyH0l5xTQPLQa6	Supertaste
 spotify:artist:0JWF48tL7EhP7GDPoLh05q	Susanna Lopez
 spotify:artist:1h6Cn3P4NGzXbaXidqURXs	Swedish House Mafia
@@ -733,6 +745,7 @@ spotify:artist:46h3caIKtqPlEfRHuSdibg	The Beloved
 spotify:artist:6o7wXlHoujhcrov1QMjAYp	The Breaker Sisters
 spotify:artist:1tqZaCwM57UFKjWoYwMLrw	The Cardigans
 spotify:artist:4fpTMHe34LC5t3h5ztK8qu	The Carters
+spotify:artist:69GGBxA162lTqCwzJG5jLp	The Chainsmokers
 spotify:artist:1GhPHrq36VKCY3ucVaZCfo	The Chemical Brothers
 spotify:artist:46xMgypLHP8GNsYME3vRnV	The Forest Rangers
 spotify:artist:0NbfKEOTQCcwd6o7wSDOHI	The Game
@@ -795,6 +808,7 @@ spotify:artist:3WGpXCj9YhhfX11TToZcXP	Troye Sivan
 spotify:artist:6vbY3hOaCAhC7VjucswgdS	Twista
 spotify:artist:245YRRHenEOc8BU9B5w6Px	Twodot Sensei
 spotify:artist:6tV2P2SciHytsSDufKr57B	TWOPILOTS
+spotify:artist:7c0XG5cIJTrrAgEC3ULPiq	Ty Dolla $ign
 spotify:artist:4DBLbQhhkjakBkjLK6qKbL	Ty Frankel
 spotify:artist:5LHRHt1k9lMyONurDHEdrp	Tyga
 spotify:artist:51Blml2LZPmy7TTiAg47vQ	U2
