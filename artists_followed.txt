@@ -17,6 +17,7 @@ Above & Beyond
 Abraham Alexander
 AC/DC
 ACRAZE
+Adam Port
 Adele
 Adina Howard
 Adrian Quesada
@@ -48,6 +49,7 @@ Andy Powell
 Anitta
 Anne-Marie
 Anthony Hamilton
+Arash
 Arctic Monkeys
 Ari Abdul
 Ariana Grande
@@ -120,6 +122,7 @@ Callum J Wright
 Calvin Harris
 Camila Cabello
 Cappella
+Cara Melín
 Cardi B
 Carlie Hanson
 Carpetman
@@ -243,6 +246,7 @@ Eminem
 emlyn
 Emma Peters
 Emy Smith
+Emy Smith
 Endless Autumn Blues
 Eric Prydz
 Etta Bond
@@ -255,6 +259,7 @@ Feather
 Felicitas
 Fenech-Soler
 Fickle Friends
+Fiora
 Fleetwood Mac
 Fleurie
 Flo Rida
@@ -311,6 +316,7 @@ Homegrown
 Hotel Red
 Housenick
 Hozier
+HUGEL
 Hugo Russo
 HUNNY
 hurs
@@ -323,6 +329,7 @@ Idlewild
 Imagine Dragons
 Incubus
 India.Arie
+Ink
 Isabel LaRosa
 Isla Wolfe
 itssvd
@@ -387,6 +394,7 @@ Kate Ryan
 Katherine Fussey
 Kavinsky
 Kealux
+Keinemusik
 Keith Sweat
 Kelly Rowland
 Kelsea Ballerini
@@ -471,6 +479,7 @@ Magnetic Man
 Maisie Peters
 Makaveli
 Mala
+Malachiii
 Mangustone
 Manic Street Preachers
 Mansun
@@ -576,6 +585,7 @@ Olly Alexander (Years & Years)
 Olly Murs
 OneRepublic
 Orgvsm
+Orso
 OSTON
 outset island
 P Money
@@ -707,7 +717,9 @@ Stevie Wonder
 Stine Bramsen
 Sting
 Stormzy
+Stryv
 Summer Walker
+Sunseekers
 Supertaste
 Susanna Lopez
 Swedish House Mafia
@@ -733,6 +745,7 @@ The Beloved
 The Breaker Sisters
 The Cardigans
 The Carters
+The Chainsmokers
 The Chemical Brothers
 The Forest Rangers
 The Game
@@ -795,6 +808,7 @@ Troye Sivan
 Twista
 Twodot Sensei
 TWOPILOTS
+Ty Dolla $ign
 Ty Frankel
 Tyga
 U2
