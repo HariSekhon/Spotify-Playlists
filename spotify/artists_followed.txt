@@ -46,6 +46,7 @@ spotify:artist:2DORQjKJVYZMx9uu82UGtT	Amy Shark
 spotify:artist:2siHvYaxjaW5rKVRiIrMYH	Anastacia
 spotify:artist:7fEXIS5LgSLbCdzTePqe0V	Andi
 spotify:artist:6ilMFhADs7lJBJlfHVqhM4	Andy Powell
+spotify:artist:3QVolfxko2UyCOtexhVTli	Angèle
 spotify:artist:7FNnA9vBm6EKceENgCGRMb	Anitta
 spotify:artist:1zNqDE7qDGCsyzJwohVaoX	Anne-Marie
 spotify:artist:2DzRMyWgjuMbYvt5BLbpCo	Anthony Hamilton
@@ -65,6 +66,7 @@ spotify:artist:389bloxLfR23OWIaD9EV0c	Avivian
 spotify:artist:7M5pDtJpCdnftEQZtczYco	Ayesha Erotica
 spotify:artist:5ndkK3dpZLKtBklKjxNQwT	B.o.B
 spotify:artist:51d3rUlLuMh7EW09aMe7yj	B2K
+spotify:artist:4q3ewBCX7sLwd24euuV69X	Bad Bunny
 spotify:artist:0g7YfJuAQnXWMiFny5elRH	Baeza
 spotify:artist:2xe8IXgCTpwHE3eA9hTs4n	BANKS
 spotify:artist:42t4hWS8aGwWNQhutNCl9c	Banned Vinyl
@@ -334,6 +336,7 @@ spotify:artist:5arKwJZEvT5uKq4o0JfqR4	Isabel LaRosa
 spotify:artist:0RDa8yhJR9LrEj66xOwJQP	Isla Wolfe
 spotify:artist:5yaF4LUw7ON1RmE4O8Q03C	itssvd
 spotify:artist:6Zrp7Qyp1oWwcXRVWlvKfj	Izzy Warner
+spotify:artist:5jPdfoPh4GlyeYexTLfcfT	J. Balvin
 spotify:artist:6l3HvQ5sa6mXTsMTB19rO5	J. Cole
 spotify:artist:1J2VVASYAamtQ3Bt8wGgA6	Ja Rule
 spotify:artist:0wVKXWiOMLfqmFCdCPR7Ar	Jackie Chan
@@ -728,6 +731,7 @@ spotify:artist:5MiPgWTGNMQXaSx00kV5iW	T'art
 spotify:artist:5p0SkCjy1OmhoXPSM5dvW2	T-Man
 spotify:artist:3aQeKQSyrW4qWr35idm0cy	T-Pain
 spotify:artist:4OBJLual30L7gRl5UkeRcT	T.I.
+spotify:artist:0sdko0iUd9nBW0qnw2uGOR	Tainy
 spotify:artist:5INjqkS1o8h1imAzPqGZBb	Tame Impala
 spotify:artist:3zUHDboA6NjWEqNF6wEFQg	Tara
 spotify:artist:6I2FXpBNVFZDUTNvYFBrjb	Tara Chinn
