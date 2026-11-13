@@ -84,5 +84,5 @@ fi
 "$bash_tools/spotify/spotify_backup.sh" "${args[@]}"
 echo >&2
 
-timestamp "Regenerating Blacklisted Artists"
-"$srcdir/scripts/blacklisted_artists.sh" >/dev/null
+#timestamp "Regenerating Blacklisted Artists"
+#"$srcdir/scripts/blacklisted_artists.sh" >/dev/null
