@@ -348,6 +348,7 @@ spotify:artist:3Rsr4Z96O6U3lToOiV3zBh	Jamie T
 spotify:artist:6J7biCazzYhU3gM9j1wfid	Jamiroquai
 spotify:artist:30mSv454XUNAPOVtHYj4r1	Janet Grogan
 spotify:artist:5YI7PJwny5JsO7djczHwhP	Jarren Benton
+spotify:artist:3FfvYsEGaIb52QPXhg4DcH	Jason Aldean
 spotify:artist:07YZf4WDAMNwqr4jfgOZ8y	Jason Derulo
 spotify:artist:3riUFdYw5IUplJ91qdoybe	Jason Tarver
 spotify:artist:4Q6nIcaBED8qUel8bBx6Cr	Jax Jones
@@ -399,6 +400,7 @@ spotify:artist:0UF7XLthtbSF2Eur7559oV	Kavinsky
 spotify:artist:3WTRGOdgo9ZUwqRzvObalK	Kealux
 spotify:artist:26WKgv73kRHD0gEDKD1i8j	Keinemusik
 spotify:artist:2r09Inibex3C4ZNTUVSG3m	Keith Sweat
+spotify:artist:3BmGtnKgCSGYIUhmivXKWX	Kelly Clarkson
 spotify:artist:3AuMNF8rQAKOzjYppFNAoB	Kelly Rowland
 spotify:artist:3RqBeV12Tt7A8xH3zBDDUF	Kelsea Ballerini
 spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg	Kendrick Lamar
