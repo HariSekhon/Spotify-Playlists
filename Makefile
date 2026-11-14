@@ -191,7 +191,7 @@ push: pull
 
 .PHONY: test
 test: validate
-	@:
+    @:
 
 .PHONY: validate
 validate:
