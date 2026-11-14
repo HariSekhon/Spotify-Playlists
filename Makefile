@@ -61,11 +61,16 @@ backup: lazy-init
 	@# allow scripts to generate new tokens
 	#export SPOTIFY_ACCESS_TOKEN="$$(SPOTIFY_PRIVATE=1 ./bash-tools/spotify/spotify_api_token.sh)"
 	@$(BASH_TOOLS)/checks/check_internet.sh && \
+	if [ "`uname -s`" = Darwin ]; then \
+		$(BASH_TOOLS)/applescript/macnotify.sh Running "Spotify Backup" "`date`" ; \
+	fi; \
 	SECONDS=0 && \
 	./backup.sh && \
 	echo && \
 	echo && \
-	./backup_private.sh && \
+	echo
+	# code breaks trying to find Chloe Howl even though the name and accent is correct
+	#./backup_private.sh &&
 	echo && \
 	./scripts/update_playlist_names.sh && \
 	echo "Public + Private backups completed in $$SECONDS seconds"
@@ -93,6 +98,10 @@ blacklists:
 commit: lazy-init
 	./commit.sh
 
+.PHONY: decades
+decades:
+	scripts/decades_load.sh
+
 # need ordering so not putting as dependencies to avoid concurrency bug using eg. make -j 2
 .PHONY: updates
 updates: # backup commit
@@ -108,7 +117,7 @@ updates: # backup commit
 	@echo
 	$(MAKE) commit
 	@echo
-	./scripts/like_all_tracks_in_playlists.sh
+	yes | ./scripts/like_all_tracks_in_playlists.sh
 
 .PHONY: update
 update: updates
@@ -176,9 +185,9 @@ pullreset:
 
 .PHONY: push
 push: pull
-	bash-tools/git/git_review_push.sh && \
+	"$(BASH_TOOLS)/git/git_review_push.sh" && \
 	cd private/ && \
-	../bash-tools/git/git_review_push.sh
+	"$(BASH_TOOLS)/git/git_review_push.sh"
 
 .PHONY: test
 test: validate
@@ -186,7 +195,7 @@ test: validate
 
 .PHONY: validate
 validate:
-	./validate.sh
+	./scripts/validate.sh
 
 .PHONY:
 wc:
