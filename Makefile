@@ -16,9 +16,9 @@ override BASH_TOOLS := $(shell test -d "$(PWD)/bash-tools" && echo "$(PWD)/../ba
 
 $(info Using bash-tools: $(BASH_TOOLS))
 
-ifneq ("$(wildcard $(BASH_TOOLS)/Makefile.in)", "")
-	include $(BASH_TOOLS)/Makefile.in
-endif
+#ifneq ("$(wildcard $(BASH_TOOLS)/Makefile.in)", "")
+#	include $(BASH_TOOLS)/Makefile.in
+#endif
 
 REPO := HariSekhon/Spotify-Playlists
 
