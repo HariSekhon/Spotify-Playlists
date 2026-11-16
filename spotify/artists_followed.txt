@@ -1,3 +1,4 @@
+spotify:artist:6Ff53KvcvAj5U7Z1vojB5o	*NSYNC
 spotify:artist:2MDj296KJIfgWDNBtHzeFi	11:11 Music Group
 spotify:artist:17lzZA2AlOHwCwFALHttmp	2 Chainz
 spotify:artist:7JBMlJmJpOk87BZTdbYSHD	2 Pistols
@@ -139,6 +140,7 @@ spotify:artist:396LMqgxvfslkBgpcKUfoD	Charts Hits
 spotify:artist:0wITrkFMQUfzpovir4c0BO	Charts Hits 2015
 spotify:artist:3jNkaOXasoc7RsxdchvEVq	Chase & Status
 spotify:artist:7cYEt1pqMgXJdq00hAwVpT	Chase Atlantic
+spotify:artist:1LB8qB5BPb3MHQrfkvifXU	Cheap Trick
 spotify:artist:5JMLG56F1X5mFmWNmS0iAp	Chelsea Cutler
 spotify:artist:0Xf8oDAJYd2D0k3NLI19OV	CHIC
 spotify:artist:5GxyeQagayzZOg4UwffQlD	Chicane
@@ -251,6 +253,7 @@ spotify:artist:0DW8BLr0ZHcqNn3EHuFzeE	Emy Smith
 spotify:artist:7uv0K0zBgStp4mu7Y0TgCe	Emy Smith
 spotify:artist:7hQpEGXaFJynAy86eJNm98	Endless Autumn Blues
 spotify:artist:5sm0jQ1mq0dusiLtDJ2b4R	Eric Prydz
+spotify:artist:5T0MSzX9RC5NA6gAI6irSn	Estelle
 spotify:artist:0zanHkxN0P38oWegA8iSQA	Etta Bond
 spotify:artist:6Vh6UDWfu9PUSXSzAaB3CW	Example
 spotify:artist:6Q6wl4T5osps79OPDuLjNJ	Extreme Music
@@ -333,6 +336,7 @@ spotify:artist:3YcBF2ttyueytpXtEzn1Za	Incubus
 spotify:artist:7Gf3LSwa5hh8Cjo60WhVjC	India.Arie
 spotify:artist:4ZhFCxPekpmV12n2xMeF2z	Ink
 spotify:artist:5arKwJZEvT5uKq4o0JfqR4	Isabel LaRosa
+spotify:artist:0ocxWXtgr9tJW60xV5ZufT	Isaiah Falls
 spotify:artist:0RDa8yhJR9LrEj66xOwJQP	Isla Wolfe
 spotify:artist:5yaF4LUw7ON1RmE4O8Q03C	itssvd
 spotify:artist:6Zrp7Qyp1oWwcXRVWlvKfj	Izzy Warner
@@ -450,6 +454,7 @@ spotify:artist:165ZgPlLkK7bf5bDoFc6Sb	Limp Bizkit
 spotify:artist:6XyY86QOPPrYVGvF9ch6wz	Linkin Park
 spotify:artist:5L1lO4eRHmJ7a0Q6csE5cT	LISA
 spotify:artist:3j4FHbC5zwmYGJ7r0ZgaMt	Lissie
+spotify:artist:3e7awlrlDSwF3iM0WBjGMp	Little Mix
 spotify:artist:12A83CWwFiyXy90ScLWPIe	LIZOT
 spotify:artist:1P8IfcNKwrkQP5xJWuhaOC	LL COOL J
 spotify:artist:6BXnCNvWCmFRvlMazWAomB	Lloren
@@ -481,6 +486,7 @@ spotify:artist:1BEUkE2CSUgHTLSBMZdnFB	Mae Muller
 spotify:artist:0uGk2czvcpWQA383Im6ajf	Maggie Lindemann
 spotify:artist:4NZvixzsSefsNiIqXn0NDe	Maggie Rogers
 spotify:artist:40ttEBZPhAHbXH6aUg4GkL	Magnetic Man
+spotify:artist:16rCzZOMQX7P8Kmn5YKexI	Mahalia
 spotify:artist:2RVvqRBon9NgaGXKfywDSs	Maisie Peters
 spotify:artist:4pmNqFu71wEmFXSsYAiWK8	Makaveli
 spotify:artist:4xHQPaM96R2dEVYdo40oVw	Mala
