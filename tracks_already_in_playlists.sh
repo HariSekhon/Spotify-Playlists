@@ -167,6 +167,7 @@ filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     timestamp "Finding tracks in existing playlists by exact URI matches"
     grep -Fxh -f /dev/stdin <(echo "$core_spotify_playlists_tracks_uri") || :
+    timestamp "Completed checking exact URI matches"
 }
 
 filter_tracks_in_core_playlists(){
@@ -189,6 +190,7 @@ filter_tracks_in_core_playlists(){
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
     sed -n "$(cat)" <<< "$uris"  # uris is read from parent function filter_duplicate_URIs_by_track_name
+    timestamp "Completed checking exact name matches"
 }
 
 # ok but slow
@@ -225,6 +227,7 @@ filter_duplicate_URIs_by_track_name(){
     fi
 
     filter_tracks_in_core_playlists <<< "$tracks"
+    timestamp "Completed checking resolved URI to track names"
 }
 
 find_duplicate_tracks_URIs(){
