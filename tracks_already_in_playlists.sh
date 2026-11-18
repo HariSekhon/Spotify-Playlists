@@ -150,8 +150,9 @@ $core_playlists
 
 core_playlist_track_uris_tempfile="$(mktemp)"
 core_playlist_tracks_tempfile="$(mktemp)"
+duplicate_uris_tempfile="$(mktemp)"
 
-trap_cmd "rm -f '$core_playlist_track_uris_tempfile' '$core_playlist_tracks_tempfile'"
+trap_cmd "rm -f '$core_playlist_track_uris_tempfile' '$core_playlist_tracks_tempfile' '$duplicate_uris_tempfile'"
 
 # ============================================================================ #
 # XXX: pre-load all URIs and track names for performance - trading RAM for I/O
@@ -249,8 +250,13 @@ filter_duplicate_URIs_by_track_name(){
     #      so we can't do the quicker cheaper cat'ing of the top level file for comparison here
     timestamp "Resolving $num_tracks track URIs to names and normalizing them for comparison to existing playlists (this is the most time expensive step)"
     # XXX: a single Spotify playlist can't be bigger than 10,000 tracks so this shouldn't overload bash pipe to need tempfile
-    tracks="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" < "$playlist_uri_file" |
-              "$srcdir/spotify-tools/normalize_tracknames.pl")"
+    tracks="$(
+        # optimization to not resolve URIs which we already know are duplicates
+        # pre-filter them out and only resolve the rest for normalize name-based matching
+        grep -Fxv -f "$duplicate_uris_tempfile" < "$playlist_uri_file" |
+        "$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" |
+        "$srcdir/spotify-tools/normalize_tracknames.pl"
+    )"
 
     # sanity check
     if [ "$(wc -l < "$playlist_uri_file" | sed 's/[[:space:]]//g')" != "$(wc -l <<< "$tracks" | sed 's/[[:space:]]//g')" ]; then
@@ -276,7 +282,9 @@ find_duplicate_tracks_URIs(){
         #    >(filter_duplicate_URIs) \
         #    >(filter_duplicate_URIs_by_track_name) |
 
-        filter_duplicate_URIs "$playlist_uri_file"
+        filter_duplicate_URIs "$playlist_uri_file" | tee "$duplicate_uris_tempfile"
+        num_duplicate_uris="$(wc -l < "$duplicate_uris_tempfile" | sed 's/[[:space:]]//g')"
+        timestamp "Found $num_duplicate_uris duplicate URIs"
         filter_duplicate_URIs_by_track_name "$playlist_uri_file"
     } |
     sort -u
