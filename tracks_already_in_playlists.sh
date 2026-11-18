@@ -183,9 +183,9 @@ filter_duplicate_URIs(){
     local playlist_uri_file="$1"
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     timestamp "Finding tracks in existing playlists by exact URI matches"
-    #time grep -Fxh -f "$core_playlist_track_uris_tempfile" "$playlist_uri_file" || :
+    #grep -Fxh -f "$core_playlist_track_uris_tempfile" "$playlist_uri_file" || :
     # faster
-    time grep -Fxh -f "$playlist_uri_file" "$core_playlist_track_uris_tempfile" || :
+    grep -Fxh -f "$playlist_uri_file" "$core_playlist_track_uris_tempfile" || :
     timestamp "Finished checking exact URI matches"
 }
 
