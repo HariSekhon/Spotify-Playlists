@@ -199,6 +199,10 @@ filter_tracks_in_core_playlists(){
     #      we use matching linenumbers between them to re-extract the URIs
     local playlist_uri_file="$1"
     local playlist_tracks_file="$2"
+    # sanity check
+    if [ "$(wc -l < "$playlist_uri_file" | sed 's/[[:space:]]//g')" != "$(wc -l < "$playlist_tracks_file" | sed 's/[[:space:]]//g')" ]; then
+        die "ERROR: the 2 files passed to filter_tracks_in_core_playlists() do not contain matching line counts, cannot reliably extract URIs matching normalized names"
+    fi
     # would return the wrong results, the line numbers of the local playlists not the line numbers from the targeted playlist
     #eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
     #local index=1
