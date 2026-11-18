@@ -195,7 +195,8 @@ filter_duplicate_URIs(){
 
 # ============================================================================ #
 filter_tracks_in_core_playlists(){
-    # XXX: it's very important that they two align perfectly because we use matching linenumbers between them
+    # XXX: it's very important that these two files align perfectly because
+    #      we use matching linenumbers between them to re-extract the URIs
     local playlist_uri_file="$1"
     local playlist_tracks_file="$2"
     # would return the wrong results, the line numbers of the local playlists not the line numbers from the targeted playlist
