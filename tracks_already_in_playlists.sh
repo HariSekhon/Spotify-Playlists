@@ -192,6 +192,7 @@ filter_duplicate_URIs(){
 
 # ============================================================================ #
 filter_tracks_in_core_playlists(){
+    local playlist_uri_file="$1"
     # would return the wrong results, the line numbers of the local playlists not the line numbers from the targeted playlist
     #eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
     #local index=1
@@ -213,7 +214,7 @@ filter_tracks_in_core_playlists(){
     cut -f1 -d: |
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
-    sed -n "$(cat)" < "$playlist_uri_file"  # uris is read from parent function filter_duplicate_URIs_by_track_name
+    sed -n "$(cat)" < "$playlist_uri_file"
     timestamp "Finished checking exact name matches"
 }
 
@@ -255,7 +256,7 @@ filter_duplicate_URIs_by_track_name(){
         die "ERROR: failed to resolve all URIs for track name comparisons"
     fi
 
-    filter_tracks_in_core_playlists <<< "$tracks"
+    filter_tracks_in_core_playlists "$playlist_uri_file" <<< "$tracks"
     timestamp "Completed checking resolved URI to track names"
 }
 
