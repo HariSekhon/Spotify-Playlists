@@ -41,14 +41,14 @@ find_playlist_file(){
             fi
         done
         if [ -z "$resolved_file" ]; then
-            resolved_file="$(find "$playlist_dir" -maxdepth 3 -ipath "*/$filename" | head -n1 || :)"
+            resolved_file="$(find "$playlist_dir" -maxdepth 3 -ipath "*/${filename##*/}" | head -n1 || :)"
         fi
     fi
     if [ -n "$resolved_file" ]; then
         log "using file: $resolved_file"
         echo "$resolved_file"
     else
-        die "playlist not found: $playlist_name"
+        die "${get_uri_file:+spotify/} playlist not found: $playlist_name"
     fi
 }
 export -f find_playlist_file
