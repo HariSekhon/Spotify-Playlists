@@ -248,12 +248,6 @@ filter_duplicate_URIs_by_track_name(){
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
     #paste <("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
-    num_tracks="$(wc -l < "$playlist_uri_file" | sed 's/[[:space:]]//g')"
-
-    # XXX: because we need to return the track URIs to calling scripts and we cannot determine this from 'Artist - Track' names
-    #      so we can't do the quicker cheaper cat'ing of the top level file for comparison here
-    timestamp "Resolving $num_tracks track URIs to names and normalizing them for comparison to existing playlists (this is the most time expensive step)"
-
     # XXX: a single Spotify playlist can't be bigger than 10,000 tracks so this shouldn't overload bash pipe to need tempfile
     #      but reusing tempfile gives advantages in consistency
 
@@ -261,11 +255,17 @@ filter_duplicate_URIs_by_track_name(){
     # pre-filter them out and only resolve the rest for normalize name-based matching
     grep -Fxv -f "$duplicate_uris_tempfile" < "$playlist_uri_file" > "$playlist_uris_deduped_tempfile"
 
+    num_tracks="$(wc -l < "$playlist_uris_deduped_tempfile" | sed 's/[[:space:]]//g')"
+
+    # XXX: because we need to return the track URIs to calling scripts and we cannot determine this from 'Artist - Track' names
+    #      so we can't do the quicker cheaper cat'ing of the top level file for comparison here
+    timestamp "Resolving $num_tracks track URIs to names and normalizing them for comparison to existing playlists (this is the most time expensive step)"
+
     "$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" < "$playlist_uris_deduped_tempfile" |
     "$srcdir/spotify-tools/normalize_tracknames.pl" > "$playlist_tracks_tempfile"
 
     # sanity check
-    if [ "$(wc -l < "$playlist_uris_deduped_tempfile" | sed 's/[[:space:]]//g')" != "$(wc -l <<< "$playlist_tracks_tempfile" | sed 's/[[:space:]]//g')" ]; then
+    if [ "$(wc -l <<< "$playlist_tracks_tempfile" | sed 's/[[:space:]]//g')" = "$num_tracks" ]; then
         die "ERROR: failed to resolve all URIs for track name comparisons"
     fi
 
