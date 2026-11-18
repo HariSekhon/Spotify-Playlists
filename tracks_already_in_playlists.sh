@@ -183,9 +183,10 @@ filter_duplicate_URIs(){
     local playlist_uri_file="$1"
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     timestamp "Finding tracks in existing playlists by exact URI matches"
-    time grep -Fxh -f "$playlist_uri_file" "$core_playlist_track_uris_tempfile" || :
     #time grep -Fxh -f "$core_playlist_track_uris_tempfile" "$playlist_uri_file" || :
-    timestamp "Completed checking exact URI matches"
+    # faster
+    time grep -Fxh -f "$playlist_uri_file" "$core_playlist_track_uris_tempfile" || :
+    timestamp "Finished checking exact URI matches"
 }
 
 # ============================================================================ #
@@ -204,14 +205,14 @@ filter_tracks_in_core_playlists(){
     #done |
     timestamp "Finding tracks in existing playlists by exact name matches"
     # requires GNU grep to work, Mac's BSD grep is buggy
-    # TODO: try both to figure out which scanning method is faster
-    time grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
-    #time grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
+    #grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
+    # faster
+    grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
     cut -f1 -d: |
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
     sed -n "$(cat)" < "$playlist_uri_file"  # uris is read from parent function filter_duplicate_URIs_by_track_name
-    timestamp "Completed checking exact name matches"
+    timestamp "Finished checking exact name matches"
 }
 
 # ok but slow
@@ -242,7 +243,7 @@ filter_duplicate_URIs_by_track_name(){
 
     # XXX: because we need to return the track URIs to calling scripts and we cannot determine this from 'Artist - Track' names
     #      so we can't do the quicker cheaper cat'ing of the top level file for comparison here
-    timestamp "Resolving $num_tracks track URIs to names and normalizing them for comparison to existing playlists"
+    timestamp "Resolving $num_tracks track URIs to names and normalizing them for comparison to existing playlists (this is the most time expensive step)"
     # XXX: a single Spotify playlist can't be bigger than 10,000 tracks so this shouldn't overload bash pipe to need tempfile
     tracks="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" < "$playlist_uri_file" |
               "$srcdir/spotify-tools/normalize_tracknames.pl")"
