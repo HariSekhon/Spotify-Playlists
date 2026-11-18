@@ -96,11 +96,17 @@ else
         sed '/^[[:space:]]*$/d'
     )"
 fi
+log "
+
+Core Playlist Basenames:
+
+$core_playlists
+"
 
 # auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
-core_spotify_playlists="$(< <(
+core_spotify_playlists="$(
+    sed '/^[[:space:]]*$/d' <(
     while read -r playlist_name; do
-        is_blank && continue
         if [ "${CLEANING_BLACKLISTS:-}" = 1 ] &&
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
@@ -109,11 +115,17 @@ core_spotify_playlists="$(< <(
     done <<< "$core_playlists"
     )
 )"
+log "
+
+Core Spotify Playlists:
+
+$core_spotify_playlists
+"
 
 # auto-resolve each playlist's path to either ./ or ./private
-core_playlists="$(< <(
+core_playlists="$(
+    sed '/^[[:space:]]*$/d' <(
     while read -r playlist_name; do
-        is_blank && continue
         if [ "${CLEANING_BLACKLISTS:-}" = 1 ] &&
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
@@ -122,24 +134,31 @@ core_playlists="$(< <(
     done <<< "$core_playlists"
     )
 )"
+is_blank "$core_playlists" && die "FAILED to load core playlists file list"
+log "
+
+Core Playlists:
+
+$core_playlists
+"
 
 # XXX: pre-load all URIs and track names for performance - trading RAM for I/O
 core_spotify_playlists_tracks_uri="$(
     while read -r playlist; do
-        is_blank && continue
         cat "$playlist"
     done <<< "$core_spotify_playlists" |
     sort -u
 )"
+is_blank "$core_spotify_playlists_tracks_uri" && die "FAILED to load core playlist track URIs"
 
 core_playlists_tracks="$(
     while read -r playlist; do
-        is_blank && continue
         cat "$playlist"
     done <<< "$core_playlists" |
     "$srcdir/spotify-tools/normalize_tracknames.pl" |
     sort -u
 )"
+is_blank "$core_playlists_tracks" && die "FAILED to load core playlist tracks"
 
 filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
