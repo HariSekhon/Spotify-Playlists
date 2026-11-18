@@ -112,7 +112,7 @@ core_spotify_playlists="$(
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
         fi
-        find_playlist_file "$playlist_name" get_uri_file || exit 1
+        find_playlist_file "$playlist_name" get_uri_file
     done <<< "$core_playlists"
     )
 )"
@@ -132,7 +132,7 @@ core_playlists="$(
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
         fi
-        find_playlist_file "$playlist_name" || exit 1
+        find_playlist_file "$playlist_name"
     done <<< "$core_playlists"
     )
 )"
@@ -233,7 +233,7 @@ filter_duplicate_URIs_by_track_name(){
 find_duplicate_tracks_URIs(){
     local playlist_name="$1"
     local playlist_uri_file
-    playlist_uri_file="$(find_playlist_file "$playlist_name" get_uri_file || exit 1)"
+    playlist_uri_file="$(find_playlist_file "$playlist_name" get_uri_file)"
     #"$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
     timestamp "Finding tracks in existing playlists for: $playlist_uri_file"
     cat "$playlist_uri_file" |
