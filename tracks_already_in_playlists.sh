@@ -208,9 +208,10 @@ filter_tracks_in_core_playlists(){
     timestamp "Finding tracks in existing playlists by exact name matches"
     # requires GNU grep to work, Mac's BSD grep is buggy
     # fast enough either way <= 0.1 secs
-    #grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
     # faster because it loads -f file into RAM and then scans through big file once
-    grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
+    #grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
+    # BUT we need the order to get the line numbers correctly
+    grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
     cut -f1 -d: |
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
