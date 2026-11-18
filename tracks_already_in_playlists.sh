@@ -229,12 +229,12 @@ filter_duplicate_URIs_by_track_name(){
 
 find_duplicate_tracks_URIs(){
     local playlist_name="$1"
-    local playlist_file
-    playlist_file="$(find_playlist_file "$playlist_name" get_uri_file || exit 1)"
+    local playlist_uri_file
+    playlist_uri_file="$(find_playlist_file "$playlist_name" get_uri_file || exit 1)"
     #"$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
-    timestamp "Finding tracks in existing playlists for: $playlist_file"
-    cat "$playlist_file" |
-    tee >/dev/null \
+    timestamp "Finding tracks in existing playlists for: $playlist_uri_file"
+    cat "$playlist_uri_file" |
+    tee /dev/null \
         >(filter_duplicate_URIs) \
         >(filter_duplicate_URIs_by_track_name) |
     sort -u
