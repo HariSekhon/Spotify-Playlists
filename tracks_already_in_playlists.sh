@@ -174,7 +174,7 @@ while read -r playlist; do
 done <<< "$core_playlists" |
 "$srcdir/spotify-tools/normalize_tracknames.pl" |
 sort -u > "$core_playlist_tracks_tempfile"
-num_tracks="$(wc -l < "$core_playlist_tracks_tempfile" | sed 's/[[:space:]//g')"
+num_tracks="$(wc -l < "$core_playlist_tracks_tempfile" | sed 's/[[:space:]]//g')"
 [ -s "$core_playlist_tracks_tempfile" ] || die "FAILED to pre-load core playlist tracks"
 timestamp "Pre-loaded all core playlist tracks: $num_tracks"
 
