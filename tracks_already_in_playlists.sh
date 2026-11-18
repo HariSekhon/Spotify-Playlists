@@ -96,6 +96,7 @@ else
         sed '/^[[:space:]]*$/d'
     )"
 fi
+is_blank "$core_playlists" && die "FAILED to load core playlist basenames"
 log "
 
 Core Playlist Basenames:
@@ -111,10 +112,11 @@ core_spotify_playlists="$(
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
         fi
-        find_playlist_file "$playlist_name" get_uri_file
+        find_playlist_file "$playlist_name" get_uri_file || exit 1
     done <<< "$core_playlists"
     )
 )"
+is_blank "$core_spotify_playlists" && die "FAILED to resolve core spotify playlist files"
 log "
 
 Core Spotify Playlists:
@@ -130,7 +132,7 @@ core_playlists="$(
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
         fi
-        find_playlist_file "$playlist_name"
+        find_playlist_file "$playlist_name" || exit 1
     done <<< "$core_playlists"
     )
 )"
@@ -149,6 +151,7 @@ core_spotify_playlists_tracks_uri="$(
     done <<< "$core_spotify_playlists" |
     sort -u
 )"
+
 is_blank "$core_spotify_playlists_tracks_uri" && die "FAILED to load core playlist track URIs"
 
 core_playlists_tracks="$(
@@ -227,7 +230,7 @@ filter_duplicate_URIs_by_track_name(){
 find_duplicate_tracks_URIs(){
     local playlist_name="$1"
     local playlist_file
-    playlist_file="$(find_playlist_file "$playlist_name" get_uri_file)"
+    playlist_file="$(find_playlist_file "$playlist_name" get_uri_file || exit 1)"
     #"$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
     timestamp "Finding tracks in existing playlists for: $playlist_file"
     cat "$playlist_file" |
