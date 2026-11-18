@@ -285,6 +285,8 @@ find_duplicate_tracks_URIs(){
         #    >(filter_duplicate_URIs) \
         #    >(filter_duplicate_URIs_by_track_name) |
 
+        # now using this first step as optimization to avoid resolving duplicate URIs
+        # already detected for normalized trackname matching
         filter_duplicate_URIs "$playlist_uri_file" | tee "$duplicate_uris_tempfile"
         num_duplicate_uris="$(wc -l < "$duplicate_uris_tempfile" | sed 's/[[:space:]]//g')"
         timestamp "Found $num_duplicate_uris duplicate URIs"
