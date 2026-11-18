@@ -104,6 +104,7 @@ Core Playlist Basenames:
 $core_playlists
 "
 
+timestamp "Resolving core playlist URI file paths"
 # auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(
     sed '/^[[:space:]]*$/d' <(
@@ -124,6 +125,7 @@ Core Spotify Playlists:
 $core_spotify_playlists
 "
 
+timestamp "Resolving core playlist file paths"
 # auto-resolve each playlist's path to either ./ or ./private
 core_playlists="$(
     sed '/^[[:space:]]*$/d' <(
@@ -145,23 +147,28 @@ $core_playlists
 "
 
 # XXX: pre-load all URIs and track names for performance - trading RAM for I/O
+timestamp "Pre-loading all core playlist track URIs"
 core_spotify_playlists_tracks_uri="$(
     while read -r playlist; do
+        timestamp "Loading from playlist: $playlist"
         cat "$playlist"
     done <<< "$core_spotify_playlists" |
     sort -u
 )"
+is_blank "$core_spotify_playlists_tracks_uri" && die "FAILED to pre-load core playlist track URIs"
+timestamp "Pre-loaded all core playlist track URIs"
 
-is_blank "$core_spotify_playlists_tracks_uri" && die "FAILED to load core playlist track URIs"
-
+timestamp "Pre-loading all core playlist tracks"
 core_playlists_tracks="$(
     while read -r playlist; do
+        timestamp "Loading from playlist: $playlist"
         cat "$playlist"
     done <<< "$core_playlists" |
     "$srcdir/spotify-tools/normalize_tracknames.pl" |
     sort -u
 )"
-is_blank "$core_playlists_tracks" && die "FAILED to load core playlist tracks"
+is_blank "$core_playlists_tracks" && die "FAILED to pre-load core playlist tracks"
+timestamp "Pre-loaded all core playlist tracks"
 
 filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
@@ -243,4 +250,5 @@ find_duplicate_tracks_URIs(){
     sort -u
 }
 
+timestamp "Running find_duplicate_tracks_uri()"
 find_duplicate_tracks_URIs "$playlist_name"
