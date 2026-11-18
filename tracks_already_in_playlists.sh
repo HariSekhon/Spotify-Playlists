@@ -151,8 +151,10 @@ $core_playlists
 core_playlist_track_uris_tempfile="$(mktemp)"
 core_playlist_tracks_tempfile="$(mktemp)"
 duplicate_uris_tempfile="$(mktemp)"
+playlist_uris_deduped_tempfile="$(mktemp)"
+playlist_tracks_tempfile="$(mktemp)"
 
-trap_cmd "rm -f '$core_playlist_track_uris_tempfile' '$core_playlist_tracks_tempfile' '$duplicate_uris_tempfile'"
+trap_cmd "rm -f '$core_playlist_track_uris_tempfile' '$core_playlist_tracks_tempfile' '$duplicate_uris_tempfile' '$playlist_uris_deduped_tempfile' '$playlist_tracks_tempfile'"
 
 # ============================================================================ #
 # XXX: pre-load all URIs and track names for performance - trading RAM for I/O
@@ -193,7 +195,9 @@ filter_duplicate_URIs(){
 
 # ============================================================================ #
 filter_tracks_in_core_playlists(){
+    # XXX: it's very important that they two align perfectly because we use matching linenumbers between them
     local playlist_uri_file="$1"
+    local playlist_tracks_file="$2"
     # would return the wrong results, the line numbers of the local playlists not the line numbers from the targeted playlist
     #eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
     #local index=1
@@ -212,10 +216,11 @@ filter_tracks_in_core_playlists(){
     # faster because it loads -f file into RAM and then scans through big file once
     #grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
     # BUT we need the order to get the line numbers correctly
-    grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
+    grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" "$playlist_tracks_file" |
     cut -f1 -d: |
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
+    # parse out the lines matching the number line matches above to return the URIs
     sed -n "$(cat)" < "$playlist_uri_file"
     timestamp "Finished checking exact name matches"
 }
@@ -238,8 +243,6 @@ filter_tracks_in_core_playlists(){
 # ============================================================================ #
 filter_duplicate_URIs_by_track_name(){
     local playlist_uri_file="$1"
-    local track_uris
-    local tracks
     local num_tracks
 
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
@@ -250,23 +253,23 @@ filter_duplicate_URIs_by_track_name(){
     # XXX: because we need to return the track URIs to calling scripts and we cannot determine this from 'Artist - Track' names
     #      so we can't do the quicker cheaper cat'ing of the top level file for comparison here
     timestamp "Resolving $num_tracks track URIs to names and normalizing them for comparison to existing playlists (this is the most time expensive step)"
+
     # XXX: a single Spotify playlist can't be bigger than 10,000 tracks so this shouldn't overload bash pipe to need tempfile
-    track_uris="$(
-        # optimization to not resolve URIs which we already know are duplicates
-        # pre-filter them out and only resolve the rest for normalize name-based matching
-        grep -Fxv -f "$duplicate_uris_tempfile" < "$playlist_uri_file"
-    )"
-    tracks="$(
-        "$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$track_uris" |
-        "$srcdir/spotify-tools/normalize_tracknames.pl"
-    )"
+    #      but reusing tempfile gives advantages in consistency
+
+    # optimization to not resolve URIs which we already know are duplicates
+    # pre-filter them out and only resolve the rest for normalize name-based matching
+    grep -Fxv -f "$duplicate_uris_tempfile" < "$playlist_uri_file" > "$playlist_uris_deduped_tempfile"
+
+    "$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" < "$playlist_uris_deduped_tempfile" |
+    "$srcdir/spotify-tools/normalize_tracknames.pl" > "$playlist_tracks_tempfile"
 
     # sanity check
-    if [ "$(wc -l <<< "$track_uris" | sed 's/[[:space:]]//g')" != "$(wc -l <<< "$tracks" | sed 's/[[:space:]]//g')" ]; then
+    if [ "$(wc -l < "$playlist_uris_deduped_tempfile" | sed 's/[[:space:]]//g')" != "$(wc -l <<< "$playlist_tracks_tempfile" | sed 's/[[:space:]]//g')" ]; then
         die "ERROR: failed to resolve all URIs for track name comparisons"
     fi
 
-    filter_tracks_in_core_playlists "$playlist_uri_file" <<< "$tracks"
+    filter_tracks_in_core_playlists "$playlist_uris_deduped_tempfile" "$playlist_tracks_tempfile"
     timestamp "Completed checking resolved URI to track names"
 }
 
