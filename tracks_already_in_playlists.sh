@@ -184,9 +184,9 @@ filter_duplicate_URIs(){
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     timestamp "Finding tracks in existing playlists by exact URI matches"
     # fast enough either way <= 0.1 secs
-    #time grep -Fxh -f "$core_playlist_track_uris_tempfile" "$playlist_uri_file" || :
+    #grep -Fxh -f "$core_playlist_track_uris_tempfile" "$playlist_uri_file" || :
     # faster because it loads -f file into RAM and then scans through big file once
-    time grep -Fxh -f "$playlist_uri_file" "$core_playlist_track_uris_tempfile" || :
+    grep -Fxh -f "$playlist_uri_file" "$core_playlist_track_uris_tempfile" || :
     timestamp "Finished checking exact URI matches"
 }
 
@@ -207,9 +207,9 @@ filter_tracks_in_core_playlists(){
     timestamp "Finding tracks in existing playlists by exact name matches"
     # requires GNU grep to work, Mac's BSD grep is buggy
     # fast enough either way <= 0.1 secs
-    #time grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
+    #grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
     # faster because it loads -f file into RAM and then scans through big file once
-    time grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
+    grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
     cut -f1 -d: |
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
