@@ -226,7 +226,7 @@ filter_tracks_in_core_playlists(){
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
     # parse out the lines matching the number line matches above to return the URIs
-    sed -n "$(cat)" < "$playlist_uri_file"
+    sed -n "$(cat)" < "$playlist_uri_file" || :
     timestamp "Finished checking exact name matches"
 }
 
@@ -258,7 +258,7 @@ filter_duplicate_URIs_by_track_name(){
 
     # optimization to not resolve URIs which we already know are duplicates
     # pre-filter them out and only resolve the rest for normalize name-based matching
-    grep -Fxv -f "$duplicate_uris_tempfile" < "$playlist_uri_file" > "$playlist_uris_deduped_tempfile"
+    grep -Fxv -f "$duplicate_uris_tempfile" < "$playlist_uri_file" > "$playlist_uris_deduped_tempfile" || :
 
     num_tracks="$(wc -l < "$playlist_uris_deduped_tempfile" | sed 's/[[:space:]]//g')"
 
