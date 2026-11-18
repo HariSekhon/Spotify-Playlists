@@ -92,13 +92,15 @@ else
             awk '/Blacklist/{$1=""; print}'
         } |
         sort -u |
-        "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh"
+        "$srcdir/bash-tools/spotify/spotify_playlist_to_filename.sh" |
+        sed '/^[[:space:]]*$/d'
     )"
 fi
 
 # auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(< <(
     while read -r playlist_name; do
+        is_blank && continue
         if [ "${CLEANING_BLACKLISTS:-}" = 1 ] &&
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
@@ -111,6 +113,7 @@ core_spotify_playlists="$(< <(
 # auto-resolve each playlist's path to either ./ or ./private
 core_playlists="$(< <(
     while read -r playlist_name; do
+        is_blank && continue
         if [ "${CLEANING_BLACKLISTS:-}" = 1 ] &&
            [[ "$playlist_name" =~ Blacklist ]]; then
             continue
@@ -123,6 +126,7 @@ core_playlists="$(< <(
 # XXX: pre-load all URIs and track names for performance - trading RAM for I/O
 core_spotify_playlists_tracks_uri="$(
     while read -r playlist; do
+        is_blank && continue
         cat "$playlist"
     done <<< "$core_spotify_playlists" |
     sort -u
@@ -130,6 +134,7 @@ core_spotify_playlists_tracks_uri="$(
 
 core_playlists_tracks="$(
     while read -r playlist; do
+        is_blank && continue
         cat "$playlist"
     done <<< "$core_playlists" |
     "$srcdir/spotify-tools/normalize_tracknames.pl" |
