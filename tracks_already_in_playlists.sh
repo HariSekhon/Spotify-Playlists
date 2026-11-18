@@ -104,6 +104,7 @@ Core Playlist Basenames:
 $core_playlists
 "
 
+# ============================================================================ #
 timestamp "Resolving core playlist URI file paths"
 # auto-resolve each spotify playlist's path to its URI download at either ./spotify/ or ./private/spotify/
 core_spotify_playlists="$(
@@ -125,6 +126,7 @@ Core Spotify Playlists:
 $core_spotify_playlists
 "
 
+# ============================================================================ #
 timestamp "Resolving core playlist file paths"
 # auto-resolve each playlist's path to either ./ or ./private
 core_playlists="$(
@@ -146,37 +148,47 @@ Core Playlists:
 $core_playlists
 "
 
+core_playlist_track_uris_tempfile="$(mktemp)"
+core_playlist_tracks_tempfile="$(mktemp)"
+
+trap_cmd "rm -f '$core_playlist_track_uris_tempfile' '$core_playlist_tracks_tempfile'"
+
+# ============================================================================ #
 # XXX: pre-load all URIs and track names for performance - trading RAM for I/O
 timestamp "Pre-loading all core playlist track URIs"
-core_spotify_playlists_tracks_uri="$(
-    while read -r playlist; do
-        timestamp "Loading from playlist: $playlist"
-        cat "$playlist"
-    done <<< "$core_spotify_playlists" |
-    sort -u
-)"
-is_blank "$core_spotify_playlists_tracks_uri" && die "FAILED to pre-load core playlist track URIs"
-timestamp "Pre-loaded all core playlist track URIs"
+# Bash pipe was dying here trying to trade RAM for 100% CPU due 100,000 tracks, so use temp file instead
+while read -r playlist; do
+    #timestamp "Loading from playlist: $playlist"
+    cat "$playlist"
+done <<< "$core_spotify_playlists" |
+sort -u > "$core_playlist_track_uris_tempfile"
+num_track_uris="$(wc -l < "$core_playlist_track_uris_tempfile" | sed 's/[[:space:]]//g')"
+[ -s "$core_playlist_track_uris_tempfile" ] || die "FAILED to pre-load core playlist track URIs"
+timestamp "Pre-loaded all core playlist track URIs: $num_track_uris"
 
+# ============================================================================ #
 timestamp "Pre-loading all core playlist tracks"
-core_playlists_tracks="$(
-    while read -r playlist; do
-        timestamp "Loading from playlist: $playlist"
-        cat "$playlist"
-    done <<< "$core_playlists" |
-    "$srcdir/spotify-tools/normalize_tracknames.pl" |
-    sort -u
-)"
-is_blank "$core_playlists_tracks" && die "FAILED to pre-load core playlist tracks"
-timestamp "Pre-loaded all core playlist tracks"
+while read -r playlist; do
+    #timestamp "Loading from playlist: $playlist"
+    cat "$playlist"
+done <<< "$core_playlists" |
+"$srcdir/spotify-tools/normalize_tracknames.pl" |
+sort -u > "$core_playlist_tracks_tempfile"
+num_tracks="$(wc -l < "$core_playlist_tracks_tempfile" | sed 's/[[:space://g')"
+[ -s "$core_playlist_tracks_tempfile" ] || die "FAILED to pre-load core playlist tracks"
+timestamp "Pre-loaded all core playlist tracks: $num_tracks"
 
+# ============================================================================ #
 filter_duplicate_URIs(){
+    local playlist_uri_file="$1"
     #validate_spotify_uri "$(head -n 1 "$spotify_filename")" >/dev/null
     timestamp "Finding tracks in existing playlists by exact URI matches"
-    grep -Fxh -f /dev/stdin <(echo "$core_spotify_playlists_tracks_uri") || :
+    time grep -Fxh -f "$playlist_uri_file" "$core_playlist_track_uris_tempfile" || :
+    #time grep -Fxh -f "$core_playlist_track_uris_tempfile" "$playlist_uri_file" || :
     timestamp "Completed checking exact URI matches"
 }
 
+# ============================================================================ #
 filter_tracks_in_core_playlists(){
     # would return the wrong results, the line numbers of the local playlists not the line numbers from the targeted playlist
     #eval grep -Fxhn -f /dev/stdin "$(tr '\n' ' ' <<< "$core_playlists")" || :
@@ -191,12 +203,14 @@ filter_tracks_in_core_playlists(){
     #    ((index+=1))
     #done |
     timestamp "Finding tracks in existing playlists by exact name matches"
-    # requires GNU grep to work, Mac's grep is buggy
-    grep -Fxn --color=no -f <(echo "$core_playlists_tracks") /dev/stdin |
+    # requires GNU grep to work, Mac's BSD grep is buggy
+    # TODO: try both to figure out which scanning method is faster
+    time grep -Fxn --color=no -f "$core_playlist_tracks_tempfile" /dev/stdin |
+    #time grep -Fxn --color=no -f /dev/stdin "$core_playlist_tracks_tempfile" |
     cut -f1 -d: |
     sort -u |
     sed '/^[[:space:]]*$/d; s/$/p;/g' |
-    sed -n "$(cat)" <<< "$uris"  # uris is read from parent function filter_duplicate_URIs_by_track_name
+    sed -n "$(cat)" < "$playlist_uri_file"  # uris is read from parent function filter_duplicate_URIs_by_track_name
     timestamp "Completed checking exact name matches"
 }
 
@@ -215,21 +229,26 @@ filter_tracks_in_core_playlists(){
 #    done
 #}
 
+# ============================================================================ #
 filter_duplicate_URIs_by_track_name(){
-    local uris
+    local playlist_uri_file="$1"
     local tracks
-    uris="$(cat)"
+    local num_tracks
 
     # efficient but dangerous, if spotify_uri_to_name.sh fails to return and the order is off, we'd end up deleting the wrong tracks
     #paste <("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$input") <(cat <<< "$input") |
 
+    num_tracks="$(wc -l < "$playlist_uri_file" | sed 's/[[:space:]]//g')"
+
     # XXX: because we need to return the track URIs to calling scripts and we cannot determine this from 'Artist - Track' names
     #      so we can't do the quicker cheaper cat'ing of the top level file for comparison here
-    timestamp "Resolving track URIs to names and normalizing them for comparison to existing playlists"
-    tracks="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" <<< "$uris" |
+    timestamp "Resolving $num_tracks track URIs to names and normalizing them for comparison to existing playlists"
+    # XXX: a single Spotify playlist can't be bigger than 10,000 tracks so this shouldn't overload bash pipe to need tempfile
+    tracks="$("$srcdir/bash-tools/spotify/spotify_uri_to_name.sh" < "$playlist_uri_file" |
               "$srcdir/spotify-tools/normalize_tracknames.pl")"
 
-    if [ "$(wc -l <<< "$uris")" != "$(wc -l <<< "$tracks")" ]; then
+    # sanity check
+    if [ "$(wc -l < "$playlist_uri_file" | sed 's/[[:space:]]//g')" != "$(wc -l <<< "$tracks" | sed 's/[[:space:]]//g')" ]; then
         die "ERROR: failed to resolve all URIs for track name comparisons"
     fi
 
@@ -237,18 +256,26 @@ filter_duplicate_URIs_by_track_name(){
     timestamp "Completed checking resolved URI to track names"
 }
 
+# ============================================================================ #
 find_duplicate_tracks_URIs(){
     local playlist_name="$1"
     local playlist_uri_file
     playlist_uri_file="$(find_playlist_file "$playlist_name" get_uri_file)"
     #"$srcdir/bash-tools/spotify/spotify_playlist_tracks_uri.sh" "$playlist_name" |
     timestamp "Finding tracks in existing playlists for: $playlist_uri_file"
-    cat "$playlist_uri_file" |
-    tee /dev/null \
-        >(filter_duplicate_URIs) \
-        >(filter_duplicate_URIs_by_track_name) |
+    {
+        # don't parallelize this any more as filter_duplicate_URIs is fast enough
+        # that this doesn't save time and only complicates the code
+        #cat "$playlist_uri_file" |
+        #tee /dev/null \
+        #    >(filter_duplicate_URIs) \
+        #    >(filter_duplicate_URIs_by_track_name) |
+
+        filter_duplicate_URIs "$playlist_uri_file"
+        filter_duplicate_URIs_by_track_name "$playlist_uri_file"
+    } |
     sort -u
 }
 
-timestamp "Running find_duplicate_tracks_uri()"
 find_duplicate_tracks_URIs "$playlist_name"
+timestamp "Completed finding tracks already in playlists in $SECONDS secs"
