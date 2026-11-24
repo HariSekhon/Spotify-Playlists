@@ -34,6 +34,7 @@ Best of Year	^Best of [0-9]{4}$
 Mixes in Time	^[12][0-9]{3}[[:space:]-]
 Mixes in Time	Maya Baby
 
+Ethnic		AfroBeats
 Ethnic		European
 Ethnic		French
 Ethnic		Latin American
