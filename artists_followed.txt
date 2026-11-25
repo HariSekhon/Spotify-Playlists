@@ -117,6 +117,7 @@ Bring Me The Horizon
 Britt
 Bruno Mars
 Bryan Adams
+Burna Boy
 BURY
 Bush
 Busta Rhymes
@@ -434,6 +435,7 @@ Lady Gaga
 Lana Del Rey
 Latto
 Laura Welsh
+Lauren Dunn
 LCD Soundsystem
 Le Bober
 Le Fat Club
@@ -601,6 +603,7 @@ OSTON
 outset island
 P Money
 P!nk
+P-Square
 Paige Cavell
 Pale Waves
 Papa Roach
@@ -618,6 +621,7 @@ Pete Rock
 Pharrell Williams
 Phil Collins
 PhiloSofie
+Photronique
 Pitbull
 Placebo
 Planet Funk
@@ -651,6 +655,7 @@ Robert Miles
 Robin Hustin
 Robin Schulz
 Robyn
+Robyn Johnson
 Rochelle Diamante
 Rock Heroes
 Rod Stewart
@@ -823,6 +828,7 @@ TWOPILOTS
 Ty Dolla $ign
 Ty Frankel
 Tyga
+Tyla
 U2
 uniqe
 untrusted
@@ -836,6 +842,7 @@ VHS Collection
 VINCINT
 Vindaloo Singh
 Wale
+Walk on Water
 Warren G
 wens
 Whitesnake
@@ -848,6 +855,7 @@ WOODS
 Wretch 32
 Wyclef Jean
 X Ambassadors
+XOXO
 YACHT
 YOTTO
 Young Empress
