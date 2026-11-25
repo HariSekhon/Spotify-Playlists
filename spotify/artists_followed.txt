@@ -117,6 +117,7 @@ spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF	Bring Me The Horizon
 spotify:artist:6C0GDQqkaIX35GF3rTV1U1	Britt
 spotify:artist:0du5cEVh5yTK9QJze8zA0C	Bruno Mars
 spotify:artist:3Z02hBLubJxuFJfhacLSDc	Bryan Adams
+spotify:artist:3wcj11K77LjEY1PkEazffa	Burna Boy
 spotify:artist:56tAdT5WT6Mi288cBRDjnt	BURY
 spotify:artist:78SHxLdtysAXgywQ4vE0Oa	Bush
 spotify:artist:1YfEcTuGvBQ8xSD1f53UnK	Busta Rhymes
@@ -434,6 +435,7 @@ spotify:artist:1HY2Jd0NmPuamShAr6KMms	Lady Gaga
 spotify:artist:00FQb4jTyendYWaN8pK0wa	Lana Del Rey
 spotify:artist:3MdXrJWsbVzdn6fe5JYkSQ	Latto
 spotify:artist:2QGdI8fUEuoVPJ4xuC5NDe	Laura Welsh
+spotify:artist:1n3DzHnevzEQZFDck6QUPI	Lauren Dunn
 spotify:artist:066X20Nz7iquqkkCW6Jxy6	LCD Soundsystem
 spotify:artist:4uOvkJcVuoOxaY7lsCwav4	Le Bober
 spotify:artist:0bQubnqH5In3B5qzYjzwxi	Le Fat Club
@@ -601,6 +603,7 @@ spotify:artist:4PR77KtW5drJXCsqcyfuzJ	OSTON
 spotify:artist:1Yq11FlV5GeYdKzHutWv3X	outset island
 spotify:artist:6WjX4pepHwXa85B9KMk0PY	P Money
 spotify:artist:1KCSPY1glIKqW2TotWuXOR	P!nk
+spotify:artist:42IUN9kTPdUdI1kre6L7Wk	P-Square
 spotify:artist:6K3xqGQiS7BLYG6llkAF24	Paige Cavell
 spotify:artist:0wOej91SVqB1zcYkW6xUtA	Pale Waves
 spotify:artist:4RddZ3iHvSpGV4dvATac9X	Papa Roach
@@ -618,6 +621,7 @@ spotify:artist:3BeQqzKdlARoOd6y30kCO2	Pete Rock
 spotify:artist:2RdwBSPQiwcmiDo9kixcl8	Pharrell Williams
 spotify:artist:4lxfqrEsLX6N1N4OCSkILp	Phil Collins
 spotify:artist:5Mvx3dMV17trz9HTdF2AkQ	PhiloSofie
+spotify:artist:011ht7cUss0grzXM4nm43Y	Photronique
 spotify:artist:0TnOYISbd1XYRBk9myaseg	Pitbull
 spotify:artist:6RZUqkomCmb8zCRqc9eznB	Placebo
 spotify:artist:4c4Ce4N4vJOs3Tzee020S4	Planet Funk
@@ -651,6 +655,7 @@ spotify:artist:2YVF0Ou5zIc4mpgtLIlGN0	Robert Miles
 spotify:artist:6FPDULwgllPquFdqdzj5gi	Robin Hustin
 spotify:artist:3t5xRXzsuZmMDkQzgOX35S	Robin Schulz
 spotify:artist:6UE7nl9mha6s8z0wFQFIZ2	Robyn
+spotify:artist:3XP56BUg490FHVdKBYpWHQ	Robyn Johnson
 spotify:artist:1LBGR7XDjLl6koGwUthUEs	Rochelle Diamante
 spotify:artist:68rXycYWowQvm6C5bv4Wg1	Rock Heroes
 spotify:artist:2y8Jo9CKhJvtfeKOsYzRdT	Rod Stewart
@@ -823,6 +828,7 @@ spotify:artist:6tV2P2SciHytsSDufKr57B	TWOPILOTS
 spotify:artist:7c0XG5cIJTrrAgEC3ULPiq	Ty Dolla $ign
 spotify:artist:4DBLbQhhkjakBkjLK6qKbL	Ty Frankel
 spotify:artist:5LHRHt1k9lMyONurDHEdrp	Tyga
+spotify:artist:3SozjO3Lat463tQICI9LcE	Tyla
 spotify:artist:51Blml2LZPmy7TTiAg47vQ	U2
 spotify:artist:0NhjeTa9uSqiD1wEG3gfII	uniqe
 spotify:artist:31mtcsgS3CJW5dEPlG83E7	untrusted
@@ -836,6 +842,7 @@ spotify:artist:2Nvaq4y2ygxIqfwXyz0HeH	VHS Collection
 spotify:artist:6glcVV5wCi1hU4nxqJItqd	VINCINT
 spotify:artist:4z8x1jIkUBEiVibHB6tFsz	Vindaloo Singh
 spotify:artist:67nwj3Y5sZQLl72VNUHEYE	Wale
+spotify:artist:4I3wOys29MwaCSSXGEeose	Walk on Water
 spotify:artist:2B4ZHz4QDWJTXPFPgO5peE	Warren G
 spotify:artist:0QcblRyHbgYTLOKlP5BE66	wens
 spotify:artist:3UbyYnvNIT5DFXU4WgiGpP	Whitesnake
@@ -848,6 +855,7 @@ spotify:artist:3ngl7kO0NSvMTvO2QKc76P	WOODS
 spotify:artist:0T2sGLJKge2eaFmZJxX7sq	Wretch 32
 spotify:artist:7aBzpmFXB4WWpPl2F7RjBe	Wyclef Jean
 spotify:artist:3NPpFNZtSTHheNBaWC82rB	X Ambassadors
+spotify:artist:5v7KC5X518LuRaFWX3wPK8	XOXO
 spotify:artist:57anmI1X2hXWPrNagFdzZr	YACHT
 spotify:artist:5Dyfxq0ZrFjjeFBdSNxDbo	YOTTO
 spotify:artist:1WtZtRgf50wZv8Msqy5h8a	Young Empress
