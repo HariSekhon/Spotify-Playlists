@@ -20,6 +20,8 @@ $(info Using bash-tools: $(BASH_TOOLS))
 #	include $(BASH_TOOLS)/Makefile.in
 #endif
 
+SHELL := /bin/bash
+
 REPO := HariSekhon/Spotify-Playlists
 
 # looks like git printenv are still called even for an overridden target, even with an overridden dependency
@@ -64,13 +66,11 @@ backup: lazy-init
 	if [ "`uname -s`" = Darwin ]; then \
 		$(BASH_TOOLS)/applescript/macnotify.sh Running "Spotify Backup" "`date`" ; \
 	fi; \
-	SECONDS=0 && \
 	./backup.sh && \
 	echo && \
 	echo && \
-	echo
-	# code breaks trying to find Chloe Howl even though the name and accent is correct
-	#./backup_private.sh &&
+	echo && \
+	./backup_private.sh && \
 	echo && \
 	./scripts/update_playlist_names.sh && \
 	echo "Public + Private backups completed in $$SECONDS seconds"
