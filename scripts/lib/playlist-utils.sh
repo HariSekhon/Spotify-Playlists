@@ -32,16 +32,20 @@ find_playlist_file(){
     elif [ -f "$playlist_dir/private/$filename" ]; then
         resolved_file="$playlist_dir/private/$filename"
     else
-        for dir in "$playlist_dir/"*; do
+        for dir in "$playlist_dir/${get_uri_file:+spotify/}"*; do
             if [ -d "$dir" ]; then
-                if [ -f "$dir/$filename" ]; then
-                    resolved_file="$dir/$filename"
+                if [ -f "$dir/$playlist_name" ]; then
+                    resolved_file="$dir/$playlist_name"
                     break
                 fi
             fi
         done
         if [ -z "$resolved_file" ]; then
-            resolved_file="$(find "$playlist_dir" -maxdepth 3 -ipath "*/${filename##*/}" | head -n1 || :)"
+            resolved_file="$(
+                find "$playlist_dir" -maxdepth 3 -ipath "*/${filename##*/}" |
+                grep "${get_uri_file:+spotify/}" |
+                head -n1 || :
+            )"
         fi
     fi
     if [ -n "$resolved_file" ]; then
