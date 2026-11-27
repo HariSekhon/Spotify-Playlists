@@ -253,6 +253,7 @@ spotify:artist:6lY6kOVMG0mR07JTzU33o5	Emma Peters
 spotify:artist:0DW8BLr0ZHcqNn3EHuFzeE	Emy Smith
 spotify:artist:7uv0K0zBgStp4mu7Y0TgCe	Emy Smith
 spotify:artist:7hQpEGXaFJynAy86eJNm98	Endless Autumn Blues
+spotify:artist:0rvF6F5U1h83YBOoihd09b	EPPING
 spotify:artist:5sm0jQ1mq0dusiLtDJ2b4R	Eric Prydz
 spotify:artist:5T0MSzX9RC5NA6gAI6irSn	Estelle
 spotify:artist:0zanHkxN0P38oWegA8iSQA	Etta Bond
@@ -670,6 +671,7 @@ spotify:artist:5tIkXJTex4JY7cv9mmgAZx	Ruelle
 spotify:artist:26C0tsFDh3JyeoLWwPklai	Rumelis
 spotify:artist:2dS7p3BekMQYOvkFegudoh	Rupert Pope
 spotify:artist:1z7b1Pr1rSlvWRzsW3HOrS	Russ
+spotify:artist:4fbgLD2fbdRhL5bwUwPj4U	RUSSI
 spotify:artist:2WzaAvm2bBCf4pEhyuDgCY	Ruth B.
 spotify:artist:74KM79TiuVKeVCqs8QtB0B	Sabrina Carpenter
 spotify:artist:0mTfntDCCWRozUnyxpGf6E	Saigon
