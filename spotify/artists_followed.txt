@@ -79,6 +79,7 @@ spotify:artist:7I3bkknknQkIiatWiupQgD	Beach Weather
 spotify:artist:2VL0G8nTevMkOCc1cPWu5i	Beats By AI
 spotify:artist:64M6ah0SkkRsnPGtGiRAbb	Bebe Rexha
 spotify:artist:5dmaew3NRaF4GljrhB0VOc	Beck Goldsmith
+spotify:artist:4obzFoKoKRHIphyHzJ35G3	Becky G
 spotify:artist:5an4oj0S5bqONhXPpK4Myu	Becky Shaheen
 spotify:artist:7a0XAaPaK2aDSqa8p3QnC7	Beéle
 spotify:artist:004F88I7EWH54o9jNfUbEn	Bellestar
@@ -398,6 +399,7 @@ spotify:artist:0bMt8SJlp0gFRUufzifS05	K.I.Z
 spotify:artist:5K4W6rqBFWDnAN6FQUkS6x	Kanye West
 spotify:artist:2lfOu2DjnvR4Xpolt3OPfv	Kara Marni
 spotify:artist:1QOHbhVRpDoNtRkz79si6b	Karen Harding
+spotify:artist:0CtbEQRf5QgHb89JgCl95n	Karim Naas
 spotify:artist:790FomKkXshlbRYZFtlgla	KAROL G
 spotify:artist:11wRdbnoYqRddKBrpHt4Ue	Kasabian
 spotify:artist:47BNWfpngeFHYvBlPPyraM	Kate Ryan
@@ -449,6 +451,7 @@ spotify:artist:44cEDUhrf8SHUvGx5iE6O8	Leon Else
 spotify:artist:5b0IydMmNTOBVlhDRuGNQs	Leonelle
 spotify:artist:23u7q6jxXa010A8xnjJPGP	LEOWOLF
 spotify:artist:69761NObDw2KwmmFgZmxzC	Lexi Jayde
+spotify:artist:1IE7Pib3j9e5UDbPer4W6a	LexMorris
 spotify:artist:55Aa2cqylxrFIXC767Z865	Lil Wayne
 spotify:artist:5tth2a3v0sWwV1C7bApBdX	Lil' Kim
 spotify:artist:0zPYsKJQiunyg8KkmOFWDY	Lilli Köhler
@@ -461,6 +464,7 @@ spotify:artist:3e7awlrlDSwF3iM0WBjGMp	Little Mix
 spotify:artist:12A83CWwFiyXy90ScLWPIe	LIZOT
 spotify:artist:1P8IfcNKwrkQP5xJWuhaOC	LL COOL J
 spotify:artist:6BXnCNvWCmFRvlMazWAomB	Lloren
+spotify:artist:7ur9WUsgFMxnJAKojdVBeg	LLUISA
 spotify:artist:67FB4n52MgexGQIG8s0yUH	Lola Young
 spotify:artist:3Bd1cgCjtCI32PYvDC3ynO	London Grammar
 spotify:artist:163tK9Wjr9P9DmM0AVK7lm	Lorde
@@ -503,6 +507,7 @@ spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ	Mariah Carey
 spotify:artist:76nW12AUcUVEiC8fwFoAns	Mariette
 spotify:artist:18U02fjgTHPRRlx0G2EPcK	Mark D55
 spotify:artist:04gDigrS5kc9YWfZHwBETP	Maroon 5
+spotify:artist:64KEffDW9EtZ1y2vBYgq8T	Marshmello
 spotify:artist:5HQ3tb2Jy2vdGHrjCdQWeC	Martha Bean
 spotify:artist:60d24wfXkVzDSfLS6hyCjZ	Martin Garrix
 spotify:artist:0i3OcVzzb5UEdC4j4hRQte	Martin Trevy
@@ -605,6 +610,7 @@ spotify:artist:1Yq11FlV5GeYdKzHutWv3X	outset island
 spotify:artist:6WjX4pepHwXa85B9KMk0PY	P Money
 spotify:artist:1KCSPY1glIKqW2TotWuXOR	P!nk
 spotify:artist:42IUN9kTPdUdI1kre6L7Wk	P-Square
+spotify:artist:2nxv5w3WmZvpfg3VAhAfxY	PACANI
 spotify:artist:6K3xqGQiS7BLYG6llkAF24	Paige Cavell
 spotify:artist:0wOej91SVqB1zcYkW6xUtA	Pale Waves
 spotify:artist:4RddZ3iHvSpGV4dvATac9X	Papa Roach
@@ -635,6 +641,7 @@ spotify:artist:2WBJQGf1bT1kxuoqziH5g4	Purple Disco Machine
 spotify:artist:3MKCzCnpzw3TjUYs2v7vDA	Pyotr Ilyich Tchaikovsky
 spotify:artist:1dfeR4HaWDbWqFHLkxsg1d	Queen
 spotify:artist:2mxe0TnaNL039ysAj51xPQ	R. Kelly
+spotify:artist:1z3xC9ml81L5vugg78Eegq	R.A.E
 spotify:artist:2d0hyoQ5ynDBnkvAbJKORj	Rage Against The Machine
 spotify:artist:0IB0VjX9NSrGX6PjCXGVcq	Raleigh Ritchie
 spotify:artist:1jHQI26XkjY8BHwvDnh9Jw	Raphael Lake
@@ -753,6 +760,7 @@ spotify:artist:6I2FXpBNVFZDUTNvYFBrjb	Tara Chinn
 spotify:artist:45dkTj5sMRSjrmBSBeiHym	Tate McRae
 spotify:artist:6TmyW7nE5HAbg23fG7OOGJ	Tay Dizm
 spotify:artist:06HL4z0CvFAxyc27GXpf02	Taylor Swift
+spotify:artist:5Cj0xJrG2k8TPOJQ1vdAmZ	Tayna
 spotify:artist:0fGcIStdT1OpFFhOC7Wp36	Teezo Touchdown
 spotify:artist:75nC6MXUalYZSOd7OfNkwq	Tensnake
 spotify:artist:6tzZM5hShBWNpjTnXsTusL	Tep Piseth
@@ -832,6 +840,7 @@ spotify:artist:4DBLbQhhkjakBkjLK6qKbL	Ty Frankel
 spotify:artist:5LHRHt1k9lMyONurDHEdrp	Tyga
 spotify:artist:3SozjO3Lat463tQICI9LcE	Tyla
 spotify:artist:51Blml2LZPmy7TTiAg47vQ	U2
+spotify:artist:61g8SMtoEd288zbblnptOJ	UKAY
 spotify:artist:0NhjeTa9uSqiD1wEG3gfII	uniqe
 spotify:artist:31mtcsgS3CJW5dEPlG83E7	untrusted
 spotify:artist:6sZREHX9XWWC5van5XX6Q7	Urban Love
@@ -841,6 +850,7 @@ spotify:artist:5ujrA1eZLDHR7yQ6FZa2qA	Vera Blue
 spotify:artist:1Fr6agZ6iSM5Ynn2k4C8sc	VÉRITÉ
 spotify:artist:3xIHOffeC188QWHIiCaLXr	Veronica Bravo
 spotify:artist:2Nvaq4y2ygxIqfwXyz0HeH	VHS Collection
+spotify:artist:3K0AiEmdmty3fUpzHi3rSq	Vicky Lenzer
 spotify:artist:6glcVV5wCi1hU4nxqJItqd	VINCINT
 spotify:artist:4z8x1jIkUBEiVibHB6tFsz	Vindaloo Singh
 spotify:artist:67nwj3Y5sZQLl72VNUHEYE	Wale
