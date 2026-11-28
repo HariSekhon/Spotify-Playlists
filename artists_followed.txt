@@ -79,6 +79,7 @@ Beach Weather
 Beats By AI
 Bebe Rexha
 Beck Goldsmith
+Becky G
 Becky Shaheen
 Beéle
 Bellestar
@@ -398,6 +399,7 @@ K.I.Z
 Kanye West
 Kara Marni
 Karen Harding
+Karim Naas
 KAROL G
 Kasabian
 Kate Ryan
@@ -449,6 +451,7 @@ Leon Else
 Leonelle
 LEOWOLF
 Lexi Jayde
+LexMorris
 Lil Wayne
 Lil' Kim
 Lilli Köhler
@@ -461,6 +464,7 @@ Little Mix
 LIZOT
 LL COOL J
 Lloren
+LLUISA
 Lola Young
 London Grammar
 Lorde
@@ -503,6 +507,7 @@ Mariah Carey
 Mariette
 Mark D55
 Maroon 5
+Marshmello
 Martha Bean
 Martin Garrix
 Martin Trevy
@@ -605,6 +610,7 @@ outset island
 P Money
 P!nk
 P-Square
+PACANI
 Paige Cavell
 Pale Waves
 Papa Roach
@@ -635,6 +641,7 @@ Purple Disco Machine
 Pyotr Ilyich Tchaikovsky
 Queen
 R. Kelly
+R.A.E
 Rage Against The Machine
 Raleigh Ritchie
 Raphael Lake
@@ -753,6 +760,7 @@ Tara Chinn
 Tate McRae
 Tay Dizm
 Taylor Swift
+Tayna
 Teezo Touchdown
 Tensnake
 Tep Piseth
@@ -832,6 +840,7 @@ Ty Frankel
 Tyga
 Tyla
 U2
+UKAY
 uniqe
 untrusted
 Urban Love
@@ -841,6 +850,7 @@ Vera Blue
 VÉRITÉ
 Veronica Bravo
 VHS Collection
+Vicky Lenzer
 VINCINT
 Vindaloo Singh
 Wale
